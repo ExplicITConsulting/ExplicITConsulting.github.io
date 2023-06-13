@@ -16,7 +16,7 @@ if ($TakeoutFile) {
         Remove-Item $(Join-Path -Path $DownloadFolder -ChildPath 'takeout') -Recurse -Force
     }
     
-    Expand-Archive -Path $TakeoutFile -DestinationPath $DownloadFolder
+    Expand-Archive -Path $TakeoutFile -DestinationPath $DownloadFolder -Force
 
     $TakeoutFilesExtracted = Join-Path -Path $DownloadFolder -ChildPath 'Takeout\Drive\ExplicIT Homepage\ExplicIT Consulting GmbH\PUBLISHED'
 
