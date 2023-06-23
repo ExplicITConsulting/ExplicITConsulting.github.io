@@ -28,7 +28,7 @@ if ($TakeoutFile) {
     }
 
     # Clear 'docs' folder, but keep 'CNAME' file
-    Remove-Item $(Join-Path -Path $PSScriptRoot -ChildPath 'docs\*') -Exclude 'CNAME' -Recurse -Force
+    Remove-Item $(Join-Path -Path $PSScriptRoot -ChildPath 'docs\*') -Exclude @('CNAME', 'robots.txt') -Recurse -Force
 
     # Copy website to 'docs' folder
     Copy-Item -Path $(Join-Path -Path $TakeoutFilesExtracted -ChildPath '*') -Destination $(Join-Path -Path $PSScriptRoot -ChildPath 'docs') -Recurse -Force
