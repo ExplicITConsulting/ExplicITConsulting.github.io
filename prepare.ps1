@@ -30,24 +30,8 @@ if ($TakeoutFile) {
 
         $htmlfilecontent = $htmlfilecontent -replace [regex]::escape('<head>'), @"
 <head><meta name='description' content='$([System.Net.WebUtility]::HtmlEncode(@"
-ExplicIT Consulting GmbH
 We help you to be successful on an individual, team and company level.
 Whether we do this in the background or for all to see: Trustworthiness and mediation between management levels, specialist departments and IT are always at the heart of our services.
-
-Bold and future-oriented, but always realistic and without steam talk. ExplicIT stands for specific, clear and detailed IT consulting.
-
-That is what our customers appreciate, and what our logo represents: We build bridges, with our heads in the sky and our feet firmly on the ground.
-
-We focus entirely on meeting our clients' needs and solving their problems. Where we cannot help well enough ourselves, our specialised partners fill the gap.
-
-Our select group of consultants and partners have followed these principles for more than two decades, and will continue to do so in the future.
-
-Support for Open-Source
-Product and Service Management
-Digital Advisory
-Program and Portfolio Management
-Auditing
-Technics and Technology Consulting
 "@))'>
 "@
 
