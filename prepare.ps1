@@ -33,6 +33,10 @@ if ($TakeoutFile) {
     # Copy website to 'docs' folder
     Copy-Item -Path $(Join-Path -Path $TakeoutFilesExtracted -ChildPath '*') -Destination $(Join-Path -Path $PSScriptRoot -ChildPath 'docs') -Recurse -Force
 
+    # Create basic sitemap.txt
+    @(Get-ChildItem $(Join-Path -Path $PSScriptRoot -ChildPath 'docs\*.html') -Recurse) | ForEach-Object { "https://explicitconsulting.at/$($_.name)" } | Set-Content -Path $(Join-Path -Path $PSScriptRoot -ChildPath 'docs\sitemap.txt') -Encoding $UTF8Encoding -Force
+
+    # Clean download folder
     Remove-Item $(Join-Path -Path $DownloadFolder -ChildPath 'takeout') -Recurse -Force
 
     Write-Host "Don't forget to commit and sync the repository, so that the home is published."
