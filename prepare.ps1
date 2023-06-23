@@ -33,8 +33,38 @@ if ($TakeoutFile) {
     # Copy website to 'docs' folder
     Copy-Item -Path $(Join-Path -Path $TakeoutFilesExtracted -ChildPath '*') -Destination $(Join-Path -Path $PSScriptRoot -ChildPath 'docs') -Recurse -Force
 
-    # Create basic sitemap.txt
-    @(Get-ChildItem $(Join-Path -Path $PSScriptRoot -ChildPath 'docs\*.html') -Recurse) | ForEach-Object { "https://explicitconsulting.at/$($_.name)" } | Set-Content -Path $(Join-Path -Path $PSScriptRoot -ChildPath 'docs\sitemap.txt') -Encoding $UTF8Encoding -Force
+    # Create sitemap.xml
+    @"
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <url>
+        <loc>https://explicitconsulting.at/</loc>
+        <lastmod>$(Get-Date -Format 'yyyy-MM-ddTHH:mm:ssK')</lastmod>
+        <priority>1.00</priority>
+        <changefreq>daily</changefreq>
+    </url>
+
+    $(    
+        @(Get-ChildItem $(Join-Path -Path $PSScriptRoot -ChildPath 'docs\*.html') -Recurse) | ForEach-Object {
+            @"
+    <url>
+        <loc>https://explicitconsulting.at/$($_.name)</loc>
+        <lastmod>$(Get-Date -Format 'yyyy-MM-ddTHH:mm:ssK')</lastmod>
+        <priority>0.8</priority>
+        <changefreq>daily</changefreq>
+    </url>
+"@
+        }
+    )
+
+</urlset>
+"@ | Set-Content -Path $(Join-Path -Path $PSScriptRoot -ChildPath 'docs\sitemap.xml') -Encoding $UTF8Encoding -Force
 
     # Clean download folder
     Remove-Item $(Join-Path -Path $DownloadFolder -ChildPath 'takeout') -Recurse -Force
