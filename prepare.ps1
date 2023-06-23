@@ -15,7 +15,7 @@ if ($TakeoutFile) {
     if (Test-Path $(Join-Path -Path $DownloadFolder -ChildPath 'takeout')) {
         Remove-Item $(Join-Path -Path $DownloadFolder -ChildPath 'takeout') -Recurse -Force
     }
-    
+
     Expand-Archive -Path $TakeoutFile -DestinationPath $DownloadFolder -Force
 
     $TakeoutFilesExtracted = Join-Path -Path $DownloadFolder -ChildPath 'Takeout\Drive\ExplicIT Homepage\ExplicIT Consulting GmbH\PUBLISHED'
@@ -29,17 +29,17 @@ if ($TakeoutFile) {
         $htmlfilecontent = $htmlfilecontent -replace [regex]::escape('</title>'), ' | ExplicIT Consulting</title>'
 
         $htmlfilecontent = $htmlfilecontent -replace [regex]::escape('<head>'), @"
-<head><meta name='description' content='$([System.Net.WebUtility]::HtmlEncode(@"
+<head><meta name='description' content='$([System.Net.WebUtility]::HtmlEncode(@'
 We help you to be successful on an individual, team and company level.
 Whether we do this in the background or for all to see: Trustworthiness and mediation between management levels, specialist departments and IT are always at the heart of our services.
-"@))'>
+'@))'>
 "@
 
         Set-Content -LiteralPath $htmlfile.fullname -Value $htmlfilecontent -Encoding $UTF8Encoding -Force
     }
 
     # Clear 'docs' folder, but keep 'CNAME' file
-    Remove-Item $(Join-Path -Path $PSScriptRoot -ChildPath 'docs\*') -Exclude @('CNAME', 'robots.txt') -Recurse -Force
+    Remove-Item $(Join-Path -Path $PSScriptRoot -ChildPath 'docs\*') -Exclude @('CNAME', 'robots.txt', '7d0c740227a54b34ab333430230899e3.txt') -Recurse -Force
 
     # Copy website to 'docs' folder
     Copy-Item -Path $(Join-Path -Path $TakeoutFilesExtracted -ChildPath '*') -Destination $(Join-Path -Path $PSScriptRoot -ChildPath 'docs') -Recurse -Force
@@ -61,7 +61,7 @@ Whether we do this in the background or for all to see: Trustworthiness and medi
         <changefreq>daily</changefreq>
     </url>
 
-    $(    
+    $(
         @(Get-ChildItem $(Join-Path -Path $PSScriptRoot -ChildPath 'docs\*.html') -Recurse) | ForEach-Object {
             @"
     <url>
@@ -76,6 +76,11 @@ Whether we do this in the background or for all to see: Trustworthiness and medi
 
 </urlset>
 "@ | Set-Content -Path $(Join-Path -Path $PSScriptRoot -ChildPath 'docs\sitemap.xml') -Encoding $UTF8Encoding -Force
+
+    # IndexNow via Bing
+    @(Get-ChildItem $(Join-Path -Path $PSScriptRoot -ChildPath 'docs\*.html') -Recurse) | ForEach-Object {
+        $null = Invoke-WebRequest "https://www.bing.com/indexnow?url=$([uri]::EscapeUriString("https://explicitconsulting.at/$($_.name)"))&key=7d0c740227a54b34ab333430230899e3"
+    }
 
     # Clean download folder
     Remove-Item $(Join-Path -Path $DownloadFolder -ChildPath 'takeout') -Recurse -Force
