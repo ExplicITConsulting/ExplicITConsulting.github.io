@@ -140,10 +140,10 @@ author:
 footer:
   links:
     - label: "GitHub"
-      icon: "fa-brands fa-github"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/explicitconsulting"
     - label: "LinkedIn"
-      icon: "fa-brands fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/company/explicit-consulting-gmbh"
 
 
