@@ -6,9 +6,9 @@ main:
     url: /services.html
   - title: "Support for Open-Source"
     url: /open-source.html
-    - title: "Export-RecipientPermissions"
-      url: /xxx
-    - title: "Set-OutlookSignatures Benefactor Circle"
-      url: /yyy
+  - title: "Export-RecipientPermissions"
+    url: /xxx
+  - title: "Set-OutlookSignatures Benefactor Circle"
+    url: /yyy
   - title: "Legal"
     url: /legal
