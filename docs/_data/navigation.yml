@@ -1,14 +1,14 @@
 main:
   - title: "Home"
-    url: /index
+    url: /index.html
     description: "xxx"
   - title: "Our Services"
-    url: /services
+    url: /services.html
   - title: "Support for Open-Source"
-    url: /open-source
+    url: /open-source.html
   - title: "Export-RecipientPermissions"
-    url: /xxx
+    url: /Export-RecipientPermissions.html
   - title: "Set-OutlookSignatures Benefactor Circle"
-    url: /yyy
+    url: /Set-OutlookSignatures.html
   - title: "Legal"
     url: /legal
