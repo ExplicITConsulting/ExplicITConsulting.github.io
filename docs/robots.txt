@@ -1,6 +1,0 @@
-User-agent: *
-
-Sitemap: https://explicitconsulting.at/sitemap.xml
-
-Disallow: 
-
