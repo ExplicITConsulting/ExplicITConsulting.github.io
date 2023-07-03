@@ -12,4 +12,8 @@ For questions regarding Set-OutlookSignatures Benefactor Circle, write to us at 
 ## Send us a letter
 ExplicIT Consulting GmbH<br>Kaiser-Ebersdorfer Straße 206b/3/2<br>1110 Wien<br>Austria
 
-<p><p><p><p><p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>

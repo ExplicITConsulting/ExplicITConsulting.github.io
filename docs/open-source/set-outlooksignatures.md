@@ -6,9 +6,9 @@ description: Set-OutlookSignatures Benefactor Circle. Centrally manage and deplo
 ---
 <!-- omit in toc -->
 ## <img src="/assets/images/set-outlooksignatures Benefactor Circle Logo.png" style="height: 100px;" alt="Set-OutlookSignatures Benefactor Circle">
-**Set-OutlookSignatures is the gold standard in open-source software for centrally managing and deploying Outlook text signatures and Out of Office auto reply messages.**
+Set-OutlookSignatures is the gold standard in open-source software for centrally managing and deploying Outlook text signatures and Out of Office auto reply messages.
 
-You can download it for free from <a href="https://github.com/GruberMarkus/set-outlooksignatures">GitHub</a>. **ExplicIT's Benefactor Circle enhances the core version with a great set of additional features and commercial support.**
+You can <a href="https://github.com/GruberMarkus/set-outlooksignatures">download</a> it for free from GitHub. ExplicIT's Benefactor Circle enhances the core version with a great set of additional features and commercial support.
 
 <!-- omit in toc -->
 ## Topics

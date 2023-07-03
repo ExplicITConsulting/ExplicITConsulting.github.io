@@ -5,9 +5,7 @@ subtitle: We help you to be successful on an individual, team and company level
 description: Support for Open-Source. Product and Service Management. Digital Advisory. Program and Portfolio Management. Auditing. Technics and Technology Consulting.
 ---
 ## What we stand for
-**ExplicIT stands for specific, clear and detailed IT consulting. Bold and future-oriented, always realistic and without steam talk.**
-
-We bridge gaps, with our heads in the sky and our feet firmly on the ground.
+ExplicIT stands for specific, clear and detailed IT consulting.<br>Bold and future-oriented, always realistic and without steam talk.<br>We bridge gaps, with our heads in the sky and our feet firmly on the ground.
 
 Whether we do this in the background or for all to see: Trustworthiness and mediation between management levels, specialist departments and IT are always at the heart of our services.
 

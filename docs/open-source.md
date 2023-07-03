@@ -7,14 +7,14 @@ description: Open-Source. Commercial support. Add-on development. Sponsoring.
 ## ExplicIT enhances open-source software
 
 ### Commercial support
-We offer commercial support for select open-source software, such as for <strong><a href="/open-source/export-recipientpermissions">Export-RecipientPermissions</a></strong>.
+We offer commercial support for select open-source software, such as for <a href="/open-source/export-recipientpermissions">Export-RecipientPermissions</a>.
 
-<strong><a href="mailto:welcome@explicitconsulting.at">Contact us</a> for questions and a customized offer!</strong>
+<a href="mailto:welcome@explicitconsulting.at">Contact us</a> for questions and a customized offer.
 
 ### Add-on development
-We develop private and commercial add-ons for open-source software, for example the <strong><a href="/open-source/set-outlooksignatures">Set-OutlookSignatures Benefactor Circle</a></strong> add-on.
+We develop private and commercial add-ons for open-source software, for example the <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures Benefactor Circle</a> add-on.
 
-<strong><a href="mailto:welcome@explicitconsulting.at">Contact us</a> for questions and a customized offer!</strong>
+<a href="mailto:welcome@explicitconsulting.at">Contact us</a> for questions and a customized offer.
 
 ### Sponsoring
 We sponsor selected open-source software and donate code. Some examples:
@@ -31,6 +31,3 @@ We sponsor selected open-source software and donate code. Some examples:
 <p>Invest in the open-source projects you depend on. Contributors are working behind the scenes to make open-source better for everyone - give them the help and recognition they deserve.</p>
 <p>Sponsor the open-source software your team has built its business on. Fund the projects that make up your software supply chain to improve its performance, reliability, and stability.</p>
 </div>
-
-
-
