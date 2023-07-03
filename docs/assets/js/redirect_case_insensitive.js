@@ -2,7 +2,7 @@ var allposts = [];
 
 function redirectToCorrectPage() {
     {% for post in site.posts %}
-    allposts.push("{{ site.url }}{{ post.url }}");
+        allposts.push("{{ site.url }}{{ post.url }}");
     {% endfor %}
 
     var url = window.location.toString();
