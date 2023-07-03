@@ -42,10 +42,6 @@ You can download it for free from <a href="https://github.com/GruberMarkus/Expor
     </div>
 </div>
 
-
-
-Test text.
-
 # What does ExplicIT Consulting offer on top?
 ExplicIT Consulting offers commercial support for Export-RecipientPermissions: Consulting, implementation support, enhancing functionality, solving bugs and issues.
 
