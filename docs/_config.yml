@@ -64,5 +64,5 @@ defaults:
       layout: page
       image: "/assets/images/Original-ExplicIT-Consulting_-color-on-black.png"
       hero_image: /assets/images/Background, Golden Bridge Vietnam.jpg
-      hero_height: is-medium
+      hero_height: is-small
       hero_darken: true
