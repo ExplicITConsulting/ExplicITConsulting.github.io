@@ -24,7 +24,7 @@ We sponsor selected open-source software and donate code. Some examples:
 - [msportals.io](https://github.com/adamfowlerit/msportals.io)
 - [traffic-to-badge](https://github.com/yi-Xu-0100/traffic-to-badge)
 
-**Dear businesses**:  
+**Dear businesses,**
 <div style="margin-left: 1em;">
 <p>Open-Source Software can save you enormous amounts of money in comparison to commercial software.</p>
 <p>Please consider sponsoring open-source projects to ensure continued support, testing and enhancements.</p>
