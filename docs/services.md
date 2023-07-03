@@ -12,10 +12,10 @@ Whether we do this in the background or for all to see: Trustworthiness and medi
 
 Where we cannot help well enough ourselves, our specialised partners fill the gap.
 
-Our select group of consultants and partners have followed these principles for more than two decades, and will continue to do so in the future.
+Our select group of consultants and partners have followed these principles for more than two decades, and will continue to do so in the future.  
 
-<table style="border-collapse: collapse; border: none;">
-    <tr style="border-collapse: collapse; border: none;">
+<table>
+    <tr>
         <td>
             <h1>Support for Open-Source</h1>
             <ul>
@@ -37,7 +37,7 @@ Our select group of consultants and partners have followed these principles for 
             </ul>
         </td>
     </tr>
-    <tr style="border-collapse: collapse; border: none;">
+    <tr>
         <td>
             <h1>Digital Advisory</h1>
             <ul>
@@ -61,7 +61,7 @@ Our select group of consultants and partners have followed these principles for 
             </ul>
         </td>
     </tr>
-    <tr style="border-collapse: collapse; border: none;">
+    <tr>
         <td>
             <h1>Auditing</h1>
             <ul>
