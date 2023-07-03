@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Legal information
-subtitle: " "
+subtitle: "&nbsp;"
 description: Legal information. Impress. Liability notice and copyright. Brands and trademarks. General terms and conditions. Allgemeine Geschäftsbedingungen. Privacy policy.
 ---
 
