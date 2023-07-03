@@ -1,0 +1,42 @@
+style: is-light
+height: is-medium
+items:
+  - title: Support for Open-Source
+    description: >
+      We sponsor selected open-source software and donate code.
+      We offer commercial support for select open-source software, such as for <a href="/open-source/Export-RecipientPermissions">Export-RecipientPermissions</a>.
+      We develop private and commercial add-ons for open-source software, for example the <a href="/open-source/Set-OutlookSignatures">Set-OutlookSignatures Benefactor Circle</a> add-on.
+  - title: Product and Service Management
+    description: >
+      Define vision and strategy
+      Conduct market research and identify customer needs, develop a roadmap and a backlog
+      Interface to customers, marketing, sales and management
+      Coordinate cross-functional teams across the whole lifecycle of the product or service
+      Establishing proactive IT lifecycle management
+      Cost management, budget planning, change management
+      Ongoing service analysis and assurance of defined Service Level Agreements (SLA)
+  - title: Digital Advisory
+    description: >
+      Discover, assess, plan and govern strategic initiatives for clients, optimize investments in technology and ensure added values are realized as soon, as high and as lasting as possible.
+      Link business and IT strategy
+      Counsel and train senior- and C-level management
+      Provide business cases and recommend courses of action
+      Governance, risk and compliance management
+  - title: Program and Portfolio Management
+    description: >
+      Implement, assess and optimize program and portfolio management structures - from hands-on quick wins to establishing a PMO
+      Establishing project portfolio management principles
+      Lead and govern programs and project portfolios
+      Define and monitor entry and filter criteria
+      Create courses of action and bring them to a decision
+      Steering the portfolio to ensure support for strategic objectives and proper prioritisation, and providing input to senior leadership
+      Project recovery and turnaround
+  - title: Auditing
+    description: >
+      Internal ISO 27001 audit
+      Preparation and hosting of external audits of all kinds, especially according to ISO 27001
+  - title: Technics and Technology Consulting
+    description: >
+      Feasibility studies regarding the introduction of new technologies and systems
+      Counselling and coaching the C-level and IT management on new technologies
+      Support with specific technical issues and root cause analysis, especially for Microsoft on-premise and cloud technology
