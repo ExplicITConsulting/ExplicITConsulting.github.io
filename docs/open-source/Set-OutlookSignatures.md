@@ -4,8 +4,8 @@ title: Set-OutlookSignatures Benefactor Circle
 subtitle: Centrally manage and deploy Outlook text signatures and Out of Office auto reply messages
 description: Set-OutlookSignatures Benefactor Circle. Centrally manage and deploy Outlook text signatures and Out of Office auto reply messages. Set-OutlookSignatures is the gold standard in open-source software for centrally managing and deploying Outlook text signatures and Out of Office auto reply messages. You can download the core version for free from GitHub. ExplicIT's Benefactor Circle enhances the core version with a great set of additional features and commercial support.
 ---
-<table>
-  <tr>
+<table style="border-collapse: collapse; border: none;">
+  <tr style="border-collapse: collapse; border: none;">
     <td><img src="/assets/images/Set-OutlookSignatures Benefactor Circle Logo.png" width="400"></td>
     <td><strong>Set-OutlookSignatures is the gold standard in open-source software for centrally managing and deploying Outlook text signatures and Out of Office auto reply messages.</strong><br><br>You can download it for free from <a href="https://github.com/GruberMarkus/Set-OutlookSignatures">GitHub</a>.<br>ExplicIT's Benefactor Circle enhances the core version with a great set of additional features and commercial support.</td>
   </tr>
@@ -28,6 +28,7 @@ description: Set-OutlookSignatures Benefactor Circle. Centrally manage and deplo
 - [Data protection notice](#data-protection-notice)
 
 # Why choose Set-OutlookSignatures?
+Benefit from many advantages, for example:
 - Runs only on your clients, no server side installation
 - Mails are not routed through a cloud service
 - Software does not call home
@@ -50,11 +51,11 @@ There are also topics you need to be aware of:
   - Template maintainers need nothing but Word to create, modify and configure templates.
 
 # Benefactor Circle Benefits
-<table>
-  <tr>
+<table style="border-collapse: collapse; border: none;">
+  <tr style="border-collapse: collapse; border: none;">
     <td><h2>Script features</h2><ul><li>Time-based campaigns by assigning time range constraints to templates</li><li>Signatures for automapped and additional mailboxes</li><li>Set current user Outlook Web signature (classic Outlook Web signature and roaming signature)</li><li>Download and upload roaming signatures</li><li>Set current user Out of Office messages</li><li>Delete signatures created by the script, where the template no longer exists or is no longer assigned</li><li>Delete user created signatures</li><li>Additional signature path (when used outside of simulation mode)</li><li>High resolution images from DOCX templates</li></ul></td>
     <td><h2>Prioritized support and feature requests</h2><ul><li>Support and feature requests are handled by ExplicIT Consulting based on the licence contract.</li><li>Issues are handled with priority via a Benefactor Circle exclusive email address and a callback option.</li><li>Requests for new features are checked for feasability with priority.</li><li>All release upgrades during the licence period are for free, no matter if it is a patch, feature or major release.</li></ul></td>
-  </tr>
+  </tr style="border-collapse: collapse; border: none;">
     <tr>
     <td><h2>Additional documentation: Implementation approach</h2><ul><li>The content is based on real-life experiences implementing the script in several multi-client environments, each with a five-digit number of mailboxes.</li><li>Proven procedures and recommendations for product managers, architects, operations managers, account managers, mail and client administrators. Suited for service providers as well as for clients.</li><li>It covers several general overview topics, administration, support, training across the whole lifecycle from counselling to tests, pilot operation and rollout up to daily business.</li><li>Available in English and German.</li></ul></td>
     <td><h2>Sample code</h2><ul><li>SimulateAndDeploy.ps1: Deploy signatures without end user interaction, running Set-OutlookSignatures on a server</li><li>Test-ADTrust.ps1: Detect why a client cannot query Active Directory information</li></ul></td>
