@@ -2,20 +2,20 @@
 layout: page
 title: Legal information
 subtitle: "&nbsp;"
-description: Legal information. Impress. Liability notice and copyright. Brands and trademarks. General terms and conditions. Allgemeine Geschäftsbedingungen. Privacy policy.
+description: Legal information. Impress. Liability notice. Copyright. Brands and trademarks. Terms and conditions. AGB. Privacy policy.
 ---
 
 <!-- omit in toc -->
-# Topics
+## Topics
 - [Impress](#impress)
 - [Liability notice and copyright](#liability-notice-and-copyright)
 - [Brands and trademarks](#brands-and-trademarks)
 - [General terms and conditions, Allgemeine Geschäftsbedingungen](#general-terms-and-conditions-allgemeine-geschäftsbedingungen)
   - [English: General terms and conditions for the sale and the delivery of organisational and programming services and permissions to use copyrighted software products](#english-general-terms-and-conditions-for-the-sale-and-the-delivery-of-organisational-and-programming-services-and-permissions-to-use-copyrighted-software-products)
-  - [Deutsch: Allgemeine Geschäftsbedingungen für den Verkauf und die Lieferung von Organisations-, Programmierleistungen und Werknutzungsbewilligungen von Softwareprodukten](#deutsch-allgemeine-geschäftsbedingungen-für-den-verkauf-und-die-lieferung-von-organisations--programmierleistungen-und-werknutzungsbewilligungen-von-softwareprodukten)
+- [Deutsch: Allgemeine Geschäftsbedingungen für den Verkauf und die Lieferung von Organisations-, Programmierleistungen und Werknutzungsbewilligungen von Softwareprodukten](#deutsch-allgemeine-geschäftsbedingungen-für-den-verkauf-und-die-lieferung-von-organisations--programmierleistungen-und-werknutzungsbewilligungen-von-softwareprodukten)
 - [Privacy policy](#privacy-policy)
 
-# Impress
+## Impress
 ExplicIT Consulting GmbH  
 Kaiser-Ebersdorfer Straße 206b/3/2  
 1110 Wien  
@@ -34,18 +34,18 @@ Mitglied der Wirtschaftskammer Österreich und der Wirtschaftskammer Wien, Spart
 
 Managing Director: Markus Gruber
 
-# Liability notice and copyright
+## Liability notice and copyright
 ExplicIT Consulting GmbH makes every effort to continuously update and review the content of the website. However, no liability is assumed for the completeness, correctness and up-to-dateness. The same applies to websites referred to via hyperlinks. Any connection to linked websites is at the user's own risk.
 
 All offers are subject to change and non-binding. Parts of the pages or the complete publication including all offers and information might be extended, changed or partly or completely deleted by the author without separate announcement.
 
 Unless otherwise stated, the copyright of all content provided on this website is held exclusively by ExplicIT Consulting GmbH. The downloading, printing and saving of files from this website for exclusively private use is permitted; any use beyond this requires the express consent of ExplicIT Consulting GmbH.
 
-# Brands and trademarks
+## Brands and trademarks
 
 All product and company names are trademarks of their respective owners.
-# General terms and conditions, Allgemeine Geschäftsbedingungen
-## English: General terms and conditions for the sale and the delivery of organisational and programming services and permissions to use copyrighted software products
+## General terms and conditions, Allgemeine Geschäftsbedingungen
+### English: General terms and conditions for the sale and the delivery of organisational and programming services and permissions to use copyrighted software products
 1. Scope of contract and validity
 
 1.1. All orders and agreements shall only be legally binding insofar as these are signed in writing with the legally binding signature of the company of the Contractor and shall only obligate to the extent stated in the acceptance of order. Purchase conditions of the Client shall herewith be excluded for the respective legal transaction and the entire business relationship. All offers are generally non-binding.
@@ -355,9 +355,9 @@ Die Vermutung der Mangelhaftigkeit gem. § 924 ABGB gilt als ausgeschlossen.
 
 13.2 Für den Fall von Streitigkeiten aus diesem Vertrag, die nicht einvernehmlich geregelt werden können, vereinbaren die Vertragsparteien einvernehmlich zur außergerichtlichen Beilegung des Konfliktes eingetragene Mediatoren (ZivMediatG) mit dem Schwerpunkt Wirtschafts-Mediation aus der Liste des Justizministeriums beizuziehen. Sollte über die Auswahl der Wirtschafts-Mediatoren oder inhaltlich kein Einvernehmen hergestellt werden können, werden frühestens ein Monat ab Scheitern der Verhandlungen rechtliche Schritte eingeleitet. Im Falle einer nicht zustande gekommenen oder abgebrochenen Mediation, gilt in einemallfällig eingeleiteten Gerichtsverfahren österreichisches Recht. Sämtliche aufgrund einer vorherigen Mediation angelaufenen notwendigen Aufwendungen, insbesondere auch jene für eine(n) beigezogene(n) RechtsberaterIn, können vereinbarungsgemäß in einem Gerichts- oder Schiedsgerichtsverfahren als „vorprozessuale Kosten“ geltend gemacht werden.
 
-# Privacy policy
+## Privacy policy
 <!-- omit in toc -->
-## Preamble
+### Preamble
 
 With the following data protection declaration, we would like to inform you about the types of your personal data (hereinafter also referred to as "data") that we process, for what purposes and to what extent. The data protection declaration applies to all processing of personal data carried out by us, both in the context of the provision of our services and, in particular, on our websites, in mobile applications and within external online presences, such as our social media profiles (hereinafter collectively referred to as "Online Offer").
 
@@ -366,7 +366,7 @@ The terms used are not gender-specific.
 Status: 12 June 2023
 
 <!-- omit in toc -->
-## Responsible
+### Responsible
 ExplicIT Consulting GmbH
 Kaiser-Ebersdorfer Straße 206b/3/2
 1110 Wien
@@ -375,7 +375,7 @@ Austria
 E-mail address: welcome@explicitconsulting.at
 
 <!-- omit in toc -->
-## Overview of processing
+### Overview of processing
 The following overview summarises the types of data processed and the purposes of their processing and refers to the data subjects.
 
 Types of data processed
@@ -406,7 +406,7 @@ Purposes of processing
 - Information technology infrastructure.
 
 <!-- omit in toc -->
-## Relevant legal basis
+### Relevant legal basis
 Below you will find an overview of the legal basis of the GDPR on the basis of which we process personal data. Please note that in addition to the provisions of the GDPR, national data protection regulations may apply in your or our country of residence or domicile. Should more specific legal bases be relevant in individual cases, we will inform you of these in the data protection declaration.
 - Consent (Art. 6 para. 1 sentence 1 lit. a) DSGVO) - The data subject has given his/her consent to the processing of personal data relating to him/her for a specific purpose or purposes.
 - Performance of a contract and pre-contractual enquiries (Art. 6(1)(1)(b) DSGVO) - Processing is necessary for the performance of a contract to which the data subject is party or for the performance of pre-contractual measures carried out at the data subject's request.
@@ -415,7 +415,7 @@ Below you will find an overview of the legal basis of the GDPR on the basis of w
 - In addition to the data protection regulations of the GDPR, national regulations on data protection apply in Austria. These include in particular the Federal Act on the Protection of Individuals with regard to the Processing of Personal Data (Data Protection Act - DSG). In particular, the Data Protection Act contains special regulations on the right to information, the right to rectification or erasure, the processing of special categories of personal data, processing for other purposes and transmission, as well as automated decision-making in individual cases.
 
 <!-- omit in toc -->
-## Security measures
+### Security measures
 We take appropriate technical and organisational measures in accordance with the law, taking into account the state of the art, the costs of implementation and the nature, scope, circumstances and purposes of the processing, as well as the different probabilities of occurrence and the level of threat to the rights and freedoms of natural persons, in order to ensure a level of protection appropriate to the risk.
 
 The measures include, in particular, ensuring the confidentiality, integrity and availability of data by controlling physical and electronic access to the data as well as access to, input of, disclosure of, assurance of availability of and segregation of the data. We also have procedures in place to ensure the exercise of data subjects' rights, the deletion of data and responses to data compromise. Furthermore, we already take the protection of personal data into account in the development or selection of hardware, software as well as procedures in accordance with the principle of data protection, through technology design and through data protection-friendly default settings.
@@ -425,19 +425,19 @@ Shortening of the IP address: If IP addresses are processed by us or by the serv
 TLS encryption (https): In order to protect your data transmitted via our online offer, we use TLS encryption. You can recognise such encrypted connections by the prefix https:// in the address line of your browser.
 
 <!-- omit in toc -->
-## Transmission of personal data
+### Transmission of personal data
 In the course of our processing of personal data, the data may be transferred to or disclosed to other bodies, companies, legally independent organisational units or persons. The recipients of this data may include, for example, service providers commissioned with IT tasks or providers of services and content that are integrated into a website. In such cases, we comply with the legal requirements and, in particular, conclude appropriate contracts or agreements that serve to protect your data with the recipients of your data.
 
 Data transfer within the organisation: We may transfer personal data to other bodies within our organisation or grant them access to this data. Where this transfer is for administrative purposes, the transfer of data will be based on our legitimate business and commercial interests or will be made where it is necessary for the performance of our contract-related obligations or where we have obtained the consent of the data subjects or legal permission.
 
 <!-- omit in toc -->
-## Deletion of data
+### Deletion of data
 The data processed by us will be deleted in accordance with the legal requirements as soon as their consent permitted for processing is revoked or other permissions cease to apply (e.g. if the purpose for processing this data has ceased to apply or it is not required for the purpose). If the data are not deleted because they are required for other and legally permissible purposes, their processing is limited to these purposes. I.e. the data is blocked and not processed for other purposes. This applies, for example, to data that must be retained for reasons of commercial or tax law or whose storage is necessary for the assertion, exercise or defence of legal claims or for the protection of the rights of another natural or legal person. 
 
 Our data protection notices may also contain further details on the retention and deletion of data which have priority for the respective processing operations.
 
 <!-- omit in toc -->
-## Business services
+### Business services
 We process data of our contractual and business partners, e.g. customers and prospective customers (collectively referred to as "contractual partners") in the context of contractual and comparable legal relationships as well as related measures and in the context of communication with contractual partners (or pre-contractual), e.g. to answer enquiries.
 
 We process this data in order to fulfil our contractual obligations. These include, in particular, the obligations to provide the agreed services, any update obligations and remedies in the event of warranty and other service disruptions. Furthermore, we process the data to safeguard our rights and for the purpose of the administrative tasks associated with these obligations as well as the company organisation. Furthermore, we process the data on the basis of our legitimate interests in proper and business management as well as security measures to protect our contractual partners and our business operations from misuse, endangerment of their data, secrets, information and rights (e.g. for the involvement of telecommunications, transport and other auxiliary services as well as subcontractors, banks, tax and legal advisors, payment service providers or tax authorities). Within the framework of applicable law, we only disclose the data of contractual partners to third parties to the extent that this is necessary for the aforementioned purposes or to fulfil legal obligations. Contractual partners will be informed about other forms of processing, e.g. for marketing purposes, within the framework of this data protection declaration.
@@ -456,7 +456,7 @@ Further notes on processing processes, procedures and services:
 - Project and development services: We process the data of our customers and clients (hereinafter uniformly referred to as "customers") in order to enable them to select, acquire or commission the selected services or works as well as associated activities as well as their payment and provision or execution or performance. The required information is identified as such in the context of the order, purchase order or comparable contract conclusion and includes the information required for the provision of services and billing as well as contact information in order to be able to hold any consultations. Insofar as we obtain access to information of the end customers, employees or other persons, we process this in accordance with the legal and contractual requirements; legal basis: fulfilment of contract and pre-contractual enquiries (Art. 6 para. 1 p. 1 lit. b) DSGVO).
 
 <!-- omit in toc -->
-## Providers and services used in the course of business activities
+### Providers and services used in the course of business activities
 In the course of our business activities, we use additional services, platforms, interfaces or plug-ins from third-party providers ("services" for short) in compliance with the legal requirements. Their use is based on our interests in the proper, lawful and secure provision of our services.
 - Types of data processed: inventory data (e.g. names, addresses); payment data (e.g. bank details, invoices, payment history); contact data (e.g. e-mail, telephone numbers); content data (e.g. entries in online forms); contract data (e.g. subject matter of contract, term, customer category).
 - Data subjects: Customers; interested parties; users (e.g. website visitors); business and contractual partners.
@@ -464,7 +464,7 @@ In the course of our business activities, we use additional services, platforms,
 - Legal grounds: Legitimate interests (Art. 6 para. 1 p. 1 lit. f) DSGVO).
 
 <!-- omit in toc -->
-## Provision of the online services and web hosting
+### Provision of the online services and web hosting
 We process users' data in order to provide them with our online services. For this purpose, we process the user's IP address, which is necessary to transmit the content and functions of our online services to the user's browser or terminal device.
 - Types of data processed: Usage data (e.g. web pages visited, interest in content, access times); meta, communication and procedural data (e.g. IP addresses, time data, identification numbers, consent status); content data (e.g. entries in online forms).
 - Data subjects: Users (e.g. website visitors, users of online services).
@@ -478,7 +478,7 @@ Further information on processing processes, procedures and services:
 - Content delivery network: We use a "content delivery network" (CDN). A CDN is a service with the help of which the content of an online offer, in particular large media files such as graphics or programme scripts, can be delivered faster and more securely with the help of regionally distributed servers connected via the Internet; legal basis: legitimate interests (Art. 6 para. 1 p. 1 lit. f) DSGVO).
 
 <!-- omit in toc -->
-## Contact and enquiry management
+### Contact and enquiry management
 When contacting us (e.g. by post, contact form, email, telephone or via social media) as well as in the context of existing user and business relationships, the information of the inquiring persons is processed to the extent necessary to respond to the contact requests and any measures requested.
 - Types of data processed: contact data (e.g. e-mail, telephone numbers); content data (e.g. entries in online forms); usage data (e.g. websites visited, interest in content, access times); meta, communication and procedural data (e.g. IP addresses, time data, identification numbers, consent status).
 - Data subjects: Communication partners.
@@ -489,7 +489,7 @@ Further information on processing processes, procedures and services:
 - Contact form: If users contact us via our contact form, e-mail or other communication channels, we process the data communicated to us in this context to process the communicated request; Legal basis: Contract performance and pre-contractual enquiries (Art. 6 para. 1 p. 1 lit. b) DSGVO), Legitimate interests (Art. 6 para. 1 p. 1 lit. f) DSGVO).
 
 <!-- omit in toc -->
-## Communication via messenger
+### Communication via messenger
 We use messengers for communication purposes and therefore ask you to observe the following information on the functioning of the messengers, on encryption, on the use of the metadata of the communication and on your objection options.
 
 You can also contact us in alternative ways, e.g. via telephone or e-mail. Please use the contact options provided to you or the contact options provided within our online offer.
@@ -509,7 +509,7 @@ Types of data processed: contact data (e.g. email, telephone numbers); usage dat
 - Legal basis: Consent (Art. 6 para. 1 sentence 1 lit. a) DSGVO); Legitimate interests (Art. 6 para. 1 sentence 1 lit. f) DSGVO).
 
 <!-- omit in toc -->
-## Newsletter and electronic notifications
+### Newsletter and electronic notifications
 We only send newsletters, e-mails and other electronic notifications (hereinafter "newsletters") with the consent of the recipients or with legal permission. If the contents of a newsletter are specifically described in the context of a registration, they are decisive for the consent of the users. Apart from that, our newsletters contain information about our services and us.
 
 In order to subscribe to our newsletters, it is generally sufficient to provide your e-mail address. However, we may ask you to provide a name, for the purpose of personal address in the newsletter, or further details, if these are necessary for the purposes of the newsletter.
@@ -528,7 +528,7 @@ Contents: Information about us, our services, promotions and offers.
 - Option to object (opt-out): You can cancel receipt of our newsletter at any time, i.e. revoke your consent or object to further receipt. You will find a link to cancel the newsletter either at the end of each newsletter or you can use one of the contact options given above, preferably e-mail, for this purpose.
 
 <!-- omit in toc -->
-## Plugins and embedded functions and content
+### Plugins and embedded functions and content
 We integrate functional and content elements into our online offer that are obtained from the servers of their respective providers (hereinafter referred to as "third-party providers"). These can be, for example, graphics, videos or city maps (hereinafter uniformly referred to as "content").
 
 The integration always requires that the third-party providers of this content process the IP address of the user, as without the IP address they would not be able to send the content to their browser. The IP address is thus required for the presentation of these contents or functions. We endeavour to only use content whose respective providers only use the IP address to deliver the content. Third-party providers may also use so-called pixel tags (invisible graphics, also known as "web beacons") for statistical or marketing purposes. The "pixel tags" can be used to analyse information such as visitor traffic on the pages of this website. The pseudonymous information may also be stored in cookies on the user's device and may contain, among other things, technical information about the browser and operating system, referring websites, time of visit and other information about the use of our online offering, as well as being linked to such information from other sources.
@@ -543,7 +543,7 @@ Further information on processing, procedures and services:
 - Google Fonts (obtained from Google server): Obtaining fonts (and symbols) for the purpose of a technically secure, maintenance-free and efficient use of fonts and symbols with regard to up-to-dateness and loading times, their uniform presentation and consideration of possible restrictions under licensing law. The provider of the fonts is informed of the user's IP address so that the fonts can be made available in the user's browser. In addition, technical data (language settings, screen resolution, operating system, hardware used) are transmitted which are necessary for the provision of the fonts depending on the devices used and the technical environment. This data may be processed on a server of the provider of the fonts in the USA - When visiting our online offer, users' browsers send their browser HTTP requests to the Google Fonts Web API (i.e. a software interface for retrieving fonts). The Google Fonts Web API provides users with the Google Fonts Cascading Style Sheets (CSS) and then the fonts specified in the CCS. These HTTP requests include (1) the IP address used by each user to access the Internet, (2) the requested URL on the Google server, and (3) the HTTP headers, including the user agent describing the browser and operating system versions of the website visitors, as well as the referral URL (i.e., the web page where the Google font is to be displayed). IP addresses are neither logged nor stored on Google servers and they are not analysed. The Google Fonts Web API logs details of HTTP requests (requested URL, user agent and referring URL). Access to this data is restricted and strictly controlled. The requested URL identifies the font families for which the user wishes to load fonts. This data is logged so that Google can determine how often a particular font family is requested. With the Google Fonts Web API, the user agent must match the font that is generated for the particular browser type. The user agent is logged primarily for debugging purposes and is used to generate aggregate usage statistics that measure the popularity of font families. These aggregate usage statistics are published on Google Fonts' Analytics page. Finally, the referral URL is logged so that the data can be used for production maintenance and to generate an aggregate report on top integrations based on the number of font requests. Google says it does not use any of the information collected by Google Fonts to profile end users or serve targeted ads; service provider: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland; Legal basis: Legitimate interests (Art. 6 para. 1 p. 1 lit. f) DSGVO); Website: https://fonts.google.com/; Privacy policy: https://policies.google.com/privacy; Further information: https://developers.google.com/fonts/faq/privacy?hl=de.
 
 <!-- omit in toc -->
-## Amendment and updating of the data protection declaration
+### Amendment and updating of the data protection declaration
 We ask you to regularly inform yourself about the content of our data protection declaration. We adapt the data protection declaration as soon as the changes in the data processing carried out by us make this necessary. We will inform you as soon as the changes require an act of cooperation on your part (e.g. consent) or other individual notification.
 
 If we provide addresses and contact information of companies and organisations in this data protection declaration, please note that the addresses may change over time and please check the information before contacting us.
@@ -560,7 +560,7 @@ Right to object: you have the right to object at any time, on grounds relating t
 - Complaint to the supervisory authority: Without prejudice to any other administrative or judicial remedy, you have the right to lodge a complaint with a supervisory authority, in particular in the Member State of your habitual residence, place of work or place of the alleged infringement, if you consider that the processing of personal data concerning you infringes the requirements of the GDPR.
 
 <!-- omit in toc -->
-## Definitions of terms
+### Definitions of terms
 This section provides you with an overview of the terms used in this privacy statement. Many of the terms are taken from the law and defined primarily in Art. 4 of the GDPR. The legal definitions are binding. The following explanations, on the other hand, are primarily intended to help you understand them.
 - Personal data: "Personal data" means any information relating to an identified or identifiable natural person (hereinafter "data subject"); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier (e.g. cookie) or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person. 
 - Controller: "Controller" means the natural or legal person, public authority, agency or other body which alone or jointly with others determines the purposes and means of the processing of personal data. 

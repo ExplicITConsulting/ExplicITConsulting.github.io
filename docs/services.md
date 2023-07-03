@@ -2,9 +2,9 @@
 layout: page
 title: Which gap can we bridge for you?
 subtitle: We help you to be successful on an individual, team and company level
-description: Support for Open-Source. Export-RecipientPermissions. Set-OutlookSignatures Benefactor Circle. Product and Service Management. Digital Advisory. Program and Portfolio Management. Auditing. Technics and Technology Consulting.
+description: Support for Open-Source. Product and Service Management. Digital Advisory. Program and Portfolio Management. Auditing. Technics and Technology Consulting.
 ---
-# What we stand for
+## What we stand for
 **ExplicIT stands for specific, clear and detailed IT consulting. Bold and future-oriented, always realistic and without steam talk.**
 
 We bridge gaps, with our heads in the sky and our feet firmly on the ground.
@@ -15,16 +15,16 @@ Where we cannot help well enough ourselves, our specialised partners fill the ga
 
 Our select group of consultants and partners have followed these principles for more than two decades, and will continue to do so in the future.  
 
-# How we help you be successful
+## How we help you be successful
 <div class="columns">
     <div class="column">
-        <h2>Support for Open-Source</h2>
+        <h3>Support for Open-Source</h3>
         <ul>
             <li>We sponsor selected open-source software and donate code.</li>
             <li>We offer commercial support for select open-source software, such as for <strong><a href="/open-source/Export-RecipientPermissions">Export-RecipientPermissions</a></strong>.</li>
             <li>We develop private and commercial add-ons for open-source software, for example the <strong><a href="/open-source/Set-OutlookSignatures">Set-OutlookSignatures Benefactor Circle</a></strong> add-on. </li>
         </ul>
-        <h2>Digital Advisory</h2>
+        <h3>Digital Advisory</h3>
         <ul>
             <li>Discover, assess, plan and govern strategic initiatives for clients, optimize investments in technology and ensure added values are realized as soon, as high and as lasting as possible.</li>
             <li>Link business and IT strategy</li>
@@ -32,12 +32,12 @@ Our select group of consultants and partners have followed these principles for 
             <li>Provide business cases and recommend courses of action</li>
             <li>Governance, risk and compliance management</li>
         </ul>
-        <h2>Auditing</h2>
+        <h3>Auditing</h3>
         <ul>
             <li>Internal ISO 27001 audit</li>
             <li>Preparation and hosting of external audits of all kinds, especially according to ISO 27001</li>
         </ul>
-        <h2>Technics and Technology Consulting</h2>
+        <h3>Technics and Technology Consulting</h3>
         <ul>
             <li>Feasibility studies regarding the introduction of new technologies and systems</li>
             <li>Counselling and coaching the C-level and IT management on new technologies</li>
@@ -46,7 +46,7 @@ Our select group of consultants and partners have followed these principles for 
 
     </div>
     <div class="column">
-        <h2>Product and Service Management</h2>
+        <h3>Product and Service Management</h3>
         <ul>
             <li>Define vision and strategy</li>
             <li>Conduct market research and identify customer needs, develop a roadmap and a backlog</li>
@@ -56,7 +56,7 @@ Our select group of consultants and partners have followed these principles for 
             <li>Cost management, budget planning, change management</li>
             <li>Ongoing service analysis and assurance of defined Service Level Agreements (SLA)</li>
         </ul>
-        <h2>Program and Portfolio Management</h2>
+        <h3>Program and Portfolio Management</h3>
         <ul>
             <li>Implement, assess and optimize program and portfolio management structures - from hands-on quick wins to establishing a PMO</li>
             <li>Establishing project portfolio management principles</li>
