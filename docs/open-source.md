@@ -17,9 +17,7 @@ We develop private and commercial add-ons for open-source software, for example 
 <strong><a href="mailto:welcome@explicitconsulting.at">Contact us</a> for questions and a customized offer!</strong>
 
 ## Sponsoring
-We sponsor selected open-source software and donate code.
-
-Some examples:
+We sponsor selected open-source software and donate code. Some examples:
 - [EventGhost](https://github.com/EventGhost/EventGhost/)
 - [Microsoft365DSC](https://github.com/microsoft/Microsoft365DSC)
 - [Valetudo](https://github.com/Hypfer/Valetudo)
