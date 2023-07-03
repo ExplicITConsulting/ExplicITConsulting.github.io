@@ -8,9 +8,7 @@ description: Set-OutlookSignatures Benefactor Circle. Centrally manage and deplo
 # Set-OutlookSignatures Benefactor Circle
 **Set-OutlookSignatures is the gold standard in open-source software for centrally managing and deploying Outlook text signatures and Out of Office auto reply messages.**
 
-You can download it for free from <a href="https://github.com/GruberMarkus/Set-OutlookSignatures">GitHub</a>.
-
-**ExplicIT's Benefactor Circle enhances the core version with a great set of additional features and commercial support.**
+You can download it for free from <a href="https://github.com/GruberMarkus/Set-OutlookSignatures">GitHub</a>. **ExplicIT's Benefactor Circle enhances the core version with a great set of additional features and commercial support.**
 
 <!-- omit in toc -->
 # Topics
@@ -46,16 +44,43 @@ There are also topics you need to be aware of:
   - Template maintainers need nothing but Word to create, modify and configure templates.
 
 # Benefactor Circle Benefits
-<table>
-  <tr>
-    <td><h2>Script features</h2><ul><li>Time-based campaigns by assigning time range constraints to templates</li><li>Signatures for automapped and additional mailboxes</li><li>Set current user Outlook Web signature (classic Outlook Web signature and roaming signature)</li><li>Download and upload roaming signatures</li><li>Set current user Out of Office messages</li><li>Delete signatures created by the script, where the template no longer exists or is no longer assigned</li><li>Delete user created signatures</li><li>Additional signature path (when used outside of simulation mode)</li><li>High resolution images from DOCX templates</li></ul></td>
-    <td><h2>Prioritized support and feature requests</h2><ul><li>Support and feature requests are handled by ExplicIT Consulting based on the licence contract.</li><li>Issues are handled with priority via a Benefactor Circle exclusive email address and a callback option.</li><li>Requests for new features are checked for feasability with priority.</li><li>All release upgrades during the licence period are for free, no matter if it is a patch, feature or major release.</li></ul></td>
-  </tr>
-    <tr>
-    <td><h2>Additional documentation: Implementation approach</h2><ul><li>The content is based on real-life experiences implementing the script in several multi-client environments, each with a five-digit number of mailboxes.</li><li>Proven procedures and recommendations for product managers, architects, operations managers, account managers, mail and client administrators. Suited for service providers as well as for clients.</li><li>It covers several general overview topics, administration, support, training across the whole lifecycle from counselling to tests, pilot operation and rollout up to daily business.</li><li>Available in English and German.</li></ul></td>
-    <td><h2>Sample code</h2><ul><li>SimulateAndDeploy.ps1: Deploy signatures without end user interaction, running Set-OutlookSignatures on a server</li><li>Test-ADTrust.ps1: Detect why a client cannot query Active Directory information</li></ul></td>
-  </tr>
-</table>
+<div class="columns">
+    <div class="column">
+      <h2>Script features</h2>
+      <ul>
+        <li>Time-based campaigns by assigning time range constraints to templates</li>
+        <li>Signatures for automapped and additional mailboxes</li>
+        <li>Set current user Outlook Web signature (classic Outlook Web signature and roaming signature)</li>
+        <li>Download and upload roaming signatures</li>
+        <li>Set current user Out of Office messages</li>
+        <li>Delete signatures created by the script, where the template no longer exists or is no longer assigned</li>
+        <li>Delete user created signatures</li>
+        <li>Additional signature path (when used outside of simulation mode)</li>
+        <li>High resolution images from DOCX templates</li>
+      </ul>
+      <h2>Prioritized support and feature requests</h2>
+      <ul>
+        <li>Support and feature requests are handled by ExplicIT Consulting based on the licence contract.</li>
+        <li>Issues are handled with priority via a Benefactor Circle exclusive email address and a callback option.</li>
+        <li>Requests for new features are checked for feasability with priority.</li>
+        <li>All release upgrades during the licence period are for free, no matter if it is a patch, feature or major release.</li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2>Additional documentation: Implementation approach</h2>
+      <ul>
+        <li>The content is based on real-life experiences implementing the script in several multi-client environments, with a five-digit number of mailboxes.</li>
+        <li>Proven procedures and recommendations for product managers, architects, operations managers, account managers, mail and client administrators. Suited for service providers as well as for clients.</li>
+        <li>It covers several general overview topics, administration, support, training across the whole lifecycle from counselling to tests, pilot operation and rollout up to daily business.</li>
+        <li>Available in English and German.</li>
+      </ul>
+      <h2>Sample code</h2>
+      <ul>
+        <li>SimulateAndDeploy.ps1: Deploy signatures without end user interaction, running Set-OutlookSignatures on a server</li>
+        <li>Test-ADTrust.ps1: Detect why a client cannot query Active Directory information</li>
+      </ul>
+    </div>
+</div>
 
 # How can my company become a member and obtain a licence?
 Membership is charged annually in advance.
