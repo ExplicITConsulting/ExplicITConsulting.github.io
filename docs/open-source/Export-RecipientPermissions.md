@@ -4,6 +4,7 @@ title: Export-RecipientPermissions
 subtitle: Document, filter and compare Exchange permissions
 description: Export-RecipientPermissions. Document, filter and compare Exchange permissions. Export-RecipientPermissions is the open-source tool of choice for documenting, filtering and comparing Exchange permissions.
 ---
+# Export-RecipientPermissions
 <table style="border-collapse: collapse; border: none;">
   <tr style="border-collapse: collapse; border: none;">
     <td><img src="/assets/images/Export-RecipientPermissions.png" width="400"></td>

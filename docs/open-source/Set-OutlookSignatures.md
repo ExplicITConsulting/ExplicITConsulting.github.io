@@ -4,6 +4,8 @@ title: Set-OutlookSignatures Benefactor Circle
 subtitle: Centrally manage and deploy Outlook text signatures and Out of Office auto reply messages
 description: Set-OutlookSignatures Benefactor Circle. Centrally manage and deploy Outlook text signatures and Out of Office auto reply messages. Set-OutlookSignatures is the gold standard in open-source software for centrally managing and deploying Outlook text signatures and Out of Office auto reply messages. You can download the core version for free from GitHub. ExplicIT's Benefactor Circle enhances the core version with a great set of additional features and commercial support.
 ---
+<!-- omit in toc -->
+# Set-OutlookSignatures Benefactor Circle
 <table style="border-collapse: collapse; border: none;">
   <tr style="border-collapse: collapse; border: none;">
     <td><img src="/assets/images/Set-OutlookSignatures Benefactor Circle Logo.png" width="400"></td>
@@ -11,19 +13,13 @@ description: Set-OutlookSignatures Benefactor Circle. Centrally manage and deplo
   </tr>
 </table>
 
+<!-- omit in toc -->
 # Topics
-- [Topics](#topics)
 - [Why choose Set-OutlookSignatures?](#why-choose-set-outlooksignatures)
 - [Benefactor Circle Benefits](#benefactor-circle-benefits)
 - [How can my company become a member and obtain a licence?](#how-can-my-company-become-a-member-and-obtain-a-licence)
-  - [How much is a membership?](#how-much-is-a-membership)
 - [How do licence groups work?](#how-do-licence-groups-work)
 - [Buying, extending and changing licences](#buying-extending-and-changing-licences)
-  - [Buying a new licence](#buying-a-new-licence)
-  - [Extending or reducing a licence period](#extending-or-reducing-a-licence-period)
-  - [Reducing the number of licenced mailboxes](#reducing-the-number-of-licenced-mailboxes)
-  - [Moving licenced mailboxes between licence groups](#moving-licenced-mailboxes-between-licence-groups)
-  - [Increasing the number of licenced mailboxes](#increasing-the-number-of-licenced-mailboxes)
 - [Licence and script version](#licence-and-script-version)
 - [Data protection notice](#data-protection-notice)
 
@@ -74,6 +70,7 @@ The licence file contains the following information:
 
 30-day trial licences are available upon [request](mailto:Set-OutlookSignatures@explicitconsulting.at?subject=Request%20for%20trial%20version%20of%20Set-OutlookSignatures%20Benefactor%20Circle&body=Dear%20ExplicIT%20team%2C%0A%0AI%20am%20interested%20in%20testing%20Set-OutlookSignatures%20Benefactor%20Circle.%20Please%20send%20me%20a%20trial%20version%20of%20the%20current%20release.%0A%0AI%20confirm%20that%3A%0A-%20All%20the%20technicians%20and%20content%20managers%20involved%20in%20the%20test%20have%20read%20and%20understood%20the%20general%20documentation%20%28%22README%22%29%20of%20the%20Set-OutlookSignatures%20open-source%20version%20available%20at%20https%3A%2F%2Fgithub.com%2FGruberMarkus%2FSet-OutlookSignatures%0A-%20The%20open-source%20version%20of%20Set-OutlookSignatures%20has%20already%20been%20successfully%20implemented%2C%20as%20this%20is%20a%20requirement%20for%20the%20Benefactor%20Circe%20add-on%0A-%20All%20the%20technicians%20and%20content%20managers%20involved%20in%20the%20test%20have%20read%20and%20understood%20the%20Benefactor%20Circle%20specific%20documentation%20available%20at%20https%3A%2F%2Fexplicitconsulting.at%2Fset-outlooksignatures.html%0A-%20Everyone%20involved%20with%20the%20pilot%20is%20aware%20that%20support%20may%20be%20chargeable.%20This%20includes%20workshops%2C%20implementation%20support%2C%20all%20forms%20of%20remote%20or%20on%20site%20outsourcing%2C%20support%20for%20topics%20already%20well-explained%20in%20the%20documentation%20and%20support%20for%20problems%20with%20the%20root%20cause%20outside%20of%20Set-OutlookSignatures%20or%20Set-OutlookSignatures%20Benefactor%20Circle.%0A-%20I%20have%20read%20and%20accept%20the%20general%20terms%20and%20conditions%20available%20at%20https%3A%2F%2Fexplicitconsulting.at%2Flegal%0A%0AHere%20is%20the%20data%20that%20is%20required%20for%20the%20trial%20version%3A%0A-%20Company%20name%20and%20full%20address%3A%20XXX%0A-%20VAT%20number%20%28European%20companies%20only%29%3A%20XXX%0A-%20%EF%BB%BFE-mail%20addresses%20for%20technical%20information%3A%20XXX%0A-%20LicenceGroups%3A%0A%20%20-%20AD%20DNS%20domain%20name%20%28or%20%22AzureAD%22%29%2C%20SID%2C%20maximum%20users%0A%0A%0AThanks%20in%20advance!).
 
+<!-- omit in toc -->
 ## How much is a membership?
 The cost of the membership depends on the number of mailbox licences included.
 
@@ -108,6 +105,7 @@ In these cases, licence groups are handled as follows:
 - If the current mailbox does not have the Graph "onPremisesDomainName" attribute set, the licence group defined as default is queried via Graph
 
 # Buying, extending and changing licences
+<!-- omit in toc -->
 ## Buying a new licence
 Just place a request for quotation with the following information:
 - Your billing address
@@ -126,6 +124,7 @@ The total number of mailboxes to licence is the sum of the maximum members defin
 
 You will receive an offer within a few days. As soon as all the details are ironed out, you place the final order, receive an invoice and start the payment process. The licence file and corresponding Benefactor Circle member Id is sent via e-mail after receipt of payment.
 
+<!-- omit in toc -->
 ## Extending or reducing a licence period
 A licence period cannot be extended. Licences are valid for one year, starting with the date the payment is received, and do not auto-renew.
 
@@ -133,9 +132,11 @@ To continue using Set-OutlookSignatures with Benefactor Circle member benefits, 
 
 You will be informed in advance that your licence is about to expire.
 
+<!-- omit in toc -->
 ## Reducing the number of licenced mailboxes
 The total number of licenced mailboxes can not be reduced during a licence period (one year starting from the date of payment reception), as the licence fees are paid in advance.
 
+<!-- omit in toc -->
 ## Moving licenced mailboxes between licence groups
 Moving licences means that the total number of licenced mailboxes does not change, but their distribution across licence groups. This can, for example, be necessary due to Active Directory consolidations.
 
@@ -143,6 +144,7 @@ Shifting licences between licence groups is possible once per licence period (on
 
 If more licence shifts are required, additional licences have to be acquired temporarily, the total number of licences can then be reduced when the new licence period begins.
 
+<!-- omit in toc -->
 ## Increasing the number of licenced mailboxes
 When adding licences during a licence period, you only pay for the new mailboxes and only for the remaining months in the running licence period.
 
