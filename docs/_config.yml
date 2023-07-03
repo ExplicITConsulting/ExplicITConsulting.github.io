@@ -62,9 +62,8 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: false
-      read_time: true
-      comments: # true
-      share: true
-      related: true
+      layout: page
+      image: "/assets/images/Original-ExplicIT-Consulting_-color-on-black.png"
+      hero_image: /assets/images/Background, Golden Bridge Vietnam.jpg
+      hero_height: is-medium
+      hero_darken: true
