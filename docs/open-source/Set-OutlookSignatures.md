@@ -57,7 +57,7 @@ There are also topics you need to be aware of:
   </tr>
     <tr>
     <td><h2>Additional documentation: Implementation approach</h2><ul><li>The content is based on real-life experiences implementing the script in several multi-client environments, each with a five-digit number of mailboxes.</li><li>Proven procedures and recommendations for product managers, architects, operations managers, account managers, mail and client administrators. Suited for service providers as well as for clients.</li><li>It covers several general overview topics, administration, support, training across the whole lifecycle from counselling to tests, pilot operation and rollout up to daily business.</li><li>Available in English and German.</li></ul></td>
-    <td><h2>Sample code</h2><ul><li>SimulateAndDeploy.ps1: Deploy signatures without end user interaction, running Set-OutlookSignatures on a server</li><li>Test-ADTrust.ps1: Detect why a client cannot query Active Directory information</li></td>
+    <td><h2>Sample code</h2><ul><li>SimulateAndDeploy.ps1: Deploy signatures without end user interaction, running Set-OutlookSignatures on a server</li><li>Test-ADTrust.ps1: Detect why a client cannot query Active Directory information</li></ul></td>
   </tr>
 </table>
 
