@@ -5,16 +5,13 @@ subtitle: Adding professional services on top
 description: Open-Source. Commercial support. Add-on development. Sponsoring.
 ---
 ## ExplicIT enhances open-source software
+<a href="mailto:welcome@explicitconsulting.at">Contact us</a> for questions and a customized offer.
 
 ### Commercial support
 We offer commercial support for select open-source software, such as for <a href="/open-source/export-recipientpermissions">Export-RecipientPermissions</a>.
 
-<a href="mailto:welcome@explicitconsulting.at">Contact us</a> for questions and a customized offer.
-
 ### Add-on development
 We develop private and commercial add-ons for open-source software, for example the <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures Benefactor Circle</a> add-on.
-
-<a href="mailto:welcome@explicitconsulting.at">Contact us</a> for questions and a customized offer.
 
 ### Sponsoring
 We sponsor selected open-source software and donate code. Some examples:
