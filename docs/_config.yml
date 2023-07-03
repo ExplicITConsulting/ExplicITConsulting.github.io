@@ -57,10 +57,8 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
-      type: posts
     values:
       layout: page
       image: "/assets/images/Original-ExplicIT-Consulting_-color-on-black.png"
