@@ -5,6 +5,6 @@ subtitle: <br>ExplicIT stands for specific, clear and detailed IT consulting.<br
 hero_image: /assets/images/Background, Golden Bridge Vietnam.jpg
 hero_height: is-fullheight-with-navbar
 hero_darken: true
-description: We bridge the gap between strategy and execution. ExplicIT stands for specific, clear and detailed IT consulting. Bold and future-oriented, always realistic and without steam talk. We bridge gaps, with our heads in the sky and our feet firmly on the ground.
+description: We bridge the gap between strategy and execution. ExplicIT stands for specific, clear and detailed IT consulting.
 image: "/assets/images/Original-ExplicIT-Consulting_-color-on-black.png"
 ---

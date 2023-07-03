@@ -17,7 +17,7 @@ description: Legal information. Impress. Liability notice and copyright. Brands 
 
 # Impress
 ExplicIT Consulting GmbH  
-Kaisereb. Str. 206b/3/2  
+Kaiser-Ebersdorfer Straße 206b/3/2  
 1110 Wien  
 Austria  
 
