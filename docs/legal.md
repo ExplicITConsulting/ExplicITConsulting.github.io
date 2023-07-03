@@ -3,7 +3,7 @@ layout: page
 title: Legal information
 subtitle: 
 description: Legal information. Impress. Liability notice and copyright. Brands and trademarks. General terms and conditions. Allgemeine Geschäftsbedingungen. Privacy policy.
-menubar_toc: true
+toc: true
 toc_title: Topics
 ---
 # Impress
