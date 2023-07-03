@@ -4,6 +4,13 @@ title: Legal information
 subtitle: 
 description: Legal information. Impress. Liability notice and copyright. Brands and trademarks. General terms and conditions. Allgemeine Geschäftsbedingungen. Privacy policy.
 ---
+# Topics
+- [Impress](#impress)
+- [Liability notice and copyright](#liability-notice-and-copyright)
+- [Brands and trademarks](#brands-and-trademarks)
+- [General terms and conditions. Allgemeine Geschäftsbedingungen.](#general-terms-and-conditions-allgemeine-geschäftsbedingungen)
+- [Privacy policy](#privacy-policy)
+
 # Impress
 ExplicIT Consulting GmbH  
 Kaisereb. Str. 206b/3/2  
