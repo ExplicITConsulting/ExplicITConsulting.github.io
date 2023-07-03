@@ -1,5 +1,3 @@
-- name: "Home"
-  link: /index/
 - name: "Our Services"
   link: /services/
 - name: "Support for Open-Source"
