@@ -7,7 +7,7 @@ description: Export-RecipientPermissions. Document, filter and compare Exchange 
 <table style="border-collapse: collapse; border: none;">
   <tr style="border-collapse: collapse; border: none;">
     <td><img src="/assets/images/Export-RecipientPermissions.png" width="400"></td>
-    <td><h1>Export-RecipientPermissions is the open-source tool of choice for documenting, filtering and comparing Exchange permissions.</h1><br><br>You can download it for free from <a href="https://github.com/GruberMarkus/Export-RecipientPermissions">GitHub</a>.</td>
+    <td><strong>Export-RecipientPermissions is the open-source tool of choice for documenting, filtering and comparing Exchange permissions.</strong><br><br>You can download it for free from <a href="https://github.com/GruberMarkus/Export-RecipientPermissions">GitHub</a>.</td>
   </tr>
 </table>
 

@@ -5,7 +5,7 @@ subtitle: We help you to be successful on an individual, team and company level
 description: Support for Open-Source. Export-RecipientPermissions. Set-OutlookSignatures Benefactor Circle. Product and Service Management. Digital Advisory. Program and Portfolio Management. Auditing. Technics and Technology Consulting.
 callouts: services_callouts
 ---
-**ExplicIT stands for specific, clear and detailed IT consulting. Bold and future-oriented, always realistic and without steam talk.**
+# ExplicIT stands for specific, clear and detailed IT consulting. Bold and future-oriented, always realistic and without steam talk.
 
 We bridge gaps, with our heads in the sky and our feet firmly on the ground.
 
