@@ -13,7 +13,7 @@ title                    : "ExplicIT Consulting"
 title_separator          : "-"
 subtitle                 : "We bridge the gap" # site tagline that appears below site title in masthead
 name                     : ""
-description              : "We bridge the gap between strategy and execution."
+description              : "We bridge the gap between strategy and execution"
 url                      : "https://explicitconsulting.at" # the base hostname & protocol for your site
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ExplicITConsulting/ExplicITConsulting.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
