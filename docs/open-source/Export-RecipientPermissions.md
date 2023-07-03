@@ -12,9 +12,12 @@ You can download it for free from <a href="https://github.com/GruberMarkus/Expor
 # Features
 <table>
   <tr>
-    <td><h2>Permissions that can be exported</h2>: mailbox access rights, mailbox folder permissions, public folder permissions, send as, send on behalf, managed by, moderated by, linked master accounts, forwarders, sender restrictions, resource delegates, group members, management role group members<br><br><h2>Groups</h2> that are granted permissions can be shown with their group name, with their direct members, or with their recursive members.
+    <td><h2>Permissions that can be exported</h2>
+    <ul>
+    <li>Mailbox Access Rights</li><li>Mailbox Folder Permissions</li><li>Public Folder Permissions</li><li>Send As</li><li>Send On Behalf</li><li>Managed By</li><li>Moderated By</li><li>Linked Master Accounts</li><li>Forwarders</li><li>Sender restrictions</li><li>Resource Delegates</li><li>Group Members</li><li>Management Role Group Members
+    </ul>
     </td>
-    <td><h2>Exports can be compared</h2> with each other in an automated way to detect permission changes and react to them<br><br><h2>Export-RecipientPermissions easens the move to the cloud</h2>, as permission dependencies beyond the supported cross-premises permissions can easily be identified and even be represented graphically (sample code included).
+    <td><h2>Exports can be compared</h2>Export can be compared with each other in an automated way to detect permission changes and react to them.<p>&nbsp</p><h2><h2>Groups</h2>Groups that are granted permissions can be shown with their group name, with their direct members, or with their recursive members.<p>&nbsp</p><h2>Move to the cloud easier</h2>Permission dependencies beyond the <a href ="https://learn.microsoft.com/en-us/exchange/permissions">cross-premises permissions supported by Microsoft</a> can easily be identified and even be represented graphically (sample code included).
     </td>
   </tr>
 </table>
