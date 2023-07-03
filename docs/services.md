@@ -2,8 +2,7 @@
 layout: page
 title: Which gap can we bridge for you?
 subtitle: We help you to be successful on an individual, team and company level
-description: Legal information. Impress. Liability notice and copyright. Brands and trademarks. General terms and conditions. Allgemeine Geschäftsbedingungen. Privacy policy.
-callouts: services_callouts
+description: Support for Open-Source. Export-RecipientPermissions. Set-OutlookSignatures Benefactor Circle. Product and Service Management. Digital Advisory. Program and Portfolio Management. Auditing. Technics and Technology Consulting.
 ---
 **ExplicIT stands for specific, clear and detailed IT consulting. Bold and future-oriented, always realistic and without steam talk.**
 
@@ -14,3 +13,5 @@ Whether we do this in the background or for all to see: Trustworthiness and medi
 Where we cannot help well enough ourselves, our specialised partners fill the gap.
 
 Our select group of consultants and partners have followed these principles for more than two decades, and will continue to do so in the future.
+
+{% include callouts.html callouts="services_callouts"}
