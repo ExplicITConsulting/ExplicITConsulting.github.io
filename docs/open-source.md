@@ -3,7 +3,6 @@ layout: page
 title: Support for Open-Source Software
 subtitle: Adding professional services on top
 description: Legal information. Impress. Liability notice and copyright. Brands and trademarks. General terms and conditions. Allgemeine Geschäftsbedingungen. Privacy policy.
-callouts: services_callouts
 ---
 We sponsor selected open-source software and donate code.
 
