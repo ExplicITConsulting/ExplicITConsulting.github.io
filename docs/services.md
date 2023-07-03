@@ -21,8 +21,8 @@ Our select group of consultants and partners have followed these principles for 
         <h3>Support for Open-Source</h3>
         <ul>
             <li>We sponsor selected open-source software and donate code.</li>
-            <li>We offer commercial support for select open-source software, such as for <strong><a href="/open-source/Export-RecipientPermissions">Export-RecipientPermissions</a></strong>.</li>
-            <li>We develop private and commercial add-ons for open-source software, for example the <strong><a href="/open-source/Set-OutlookSignatures">Set-OutlookSignatures Benefactor Circle</a></strong> add-on. </li>
+            <li>We offer commercial support for select open-source software, such as for <strong><a href="/open-source/export-recipientpermissions">Export-RecipientPermissions</a></strong>.</li>
+            <li>We develop private and commercial add-ons for open-source software, for example the <strong><a href="/open-source/set-outlooksignatures">Set-OutlookSignatures Benefactor Circle</a></strong> add-on. </li>
         </ul>
         <h3>Digital Advisory</h3>
         <ul>

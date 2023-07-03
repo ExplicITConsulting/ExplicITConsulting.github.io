@@ -4,10 +4,10 @@ title: Export-RecipientPermissions
 subtitle: Document, filter and compare Exchange permissions
 description: Export-RecipientPermissions. Document, filter and compare Exchange permissions.
 ---
-## <img src="/assets/images/Export-RecipientPermissions.png" style="height: 100px;" alt="Export-RecipientPermissions">
+## <img src="/assets/images/export-recipientpermissions.png" style="height: 100px;" alt="Export-RecipientPermissions">
 **Export-RecipientPermissions is the open-source tool of choice for documenting, filtering and comparing Exchange permissions.**
 
-You can download it for free from <a href="https://github.com/GruberMarkus/Export-RecipientPermissions">GitHub</a>. **Scroll down to learn what ExplicIT offers on top.**
+You can download it for free from <a href="https://github.com/GruberMarkus/export-recipientpermissions">GitHub</a>. **Scroll down to learn what ExplicIT offers on top.**
 
 ## Features
 <div class="columns">
