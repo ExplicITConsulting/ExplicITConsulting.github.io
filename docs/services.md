@@ -37,6 +37,13 @@ Our select group of consultants and partners have followed these principles for 
             <li>Internal ISO 27001 audit</li>
             <li>Preparation and hosting of external audits of all kinds, especially according to ISO 27001</li>
         </ul>
+        <h2>Technics and Technology Consulting</h2>
+        <ul>
+            <li>Feasibility studies regarding the introduction of new technologies and systems</li>
+            <li>Counselling and coaching the C-level and IT management on new technologies</li>
+            <li>Support with specific technical issues and root cause analysis, especially for Microsoft on-premise and cloud technology</li>
+        </ul>
+
     </div>
     <div class="column">
         <h2>Product and Service Management</h2>
@@ -58,12 +65,6 @@ Our select group of consultants and partners have followed these principles for 
             <li>Create courses of action and bring them to a decision</li>
             <li>Steering the portfolio to ensure support for strategic objectives and proper prioritisation, and providing input to senior leadership</li>
             <li>Project recovery and turnaround</li>
-        </ul>
-        <h2>Technics and Technology Consulting</h2>
-        <ul>
-            <li>Feasibility studies regarding the introduction of new technologies and systems</li>
-            <li>Counselling and coaching the C-level and IT management on new technologies</li>
-            <li>Support with specific technical issues and root cause analysis, especially for Microsoft on-premise and cloud technology</li>
         </ul>
     </div>
 </div>
