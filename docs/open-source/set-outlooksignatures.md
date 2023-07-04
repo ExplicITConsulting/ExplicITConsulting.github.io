@@ -14,9 +14,8 @@ You can <a href="https://github.com/GruberMarkus/set-outlooksignatures">download
 ## Topics
 - [Why choose Set-OutlookSignatures?](#why-choose-set-outlooksignatures)
 - [Benefactor Circle Benefits](#benefactor-circle-benefits)
-- [How can my company become a member and obtain a licence?](#how-can-my-company-become-a-member-and-obtain-a-licence)
-- [How do licence groups work?](#how-do-licence-groups-work)
 - [Buying, extending and changing licences](#buying-extending-and-changing-licences)
+- [How licence groups work](#how-licence-groups-work)
 - [Licence and script version](#licence-and-script-version)
 - [Data protection notice](#data-protection-notice)
 
@@ -82,62 +81,59 @@ There are also topics you need to be aware of:
     </div>
 </div>
 
-## How can my company become a member and obtain a licence?
-Membership is charged annually in advance.
+## Buying, extending and changing licences
+<!-- omit in toc -->
+### Buying a new licence
+Licences are to be paid in advance and are valid for one year from the day the full payment is received. There is no automatic renewal.
 
-You receive a Benefactor Circle licence file and a corresponding Id, which you can use to unlock exclusive features in Set-OutlookSignatures.
+The cost of the membership depends on the number of mailbox licences included.
+- Each mailbox in your environment, for which an exlusive feature shall be used, needs a licence. This includes shared mailboxes (one licence per shared mailbox, not matter how may users access it).  
+- The mailboxes do not need to be named, you just have to define at least one Active Directory or Graph group containing the mailboxes, and the maximum number of recursive members of the groups defined.
+
+The net price in EUR currently is **1.50 € per mailbox and year**, with a minimum annual total sum of 200 €.  
+
+**Yes, that's right: Per year, not per month.**
+
+As long as a licence is valid, it includes prioritized ticket support and unlimited free upgrades.
+
+Support may be chargeable. This includes workshops, implementation support, all forms of remote or on-site outsourcing, support for topics already well-explained in the documentation and support for problems with the root cause outside of Set-OutlookSignatures or Set-OutlookSignatures Benefactor Circle.
+<!-- omit in toc -->
+#### Trial version
+You may want to start with a 30-day trial licence.
+
+Data required for the trial version:
+- Company name and full address
+- The VAT number of your company
+- E-mail addresses
+  - At least one for receiving the download link for the licence file, updates and other non invoice related information
+- List of licence groups and maximum members in the following format (see [How licence groups work](#how-do-licence-groups-work) for details):
+  - DNS domain name of the Active Directory Domain the group is in.
+    -Use 'AzureAD' if the group only exists in Azure Active Directory and is not synced to on-prem. Only one pure Azure AD group is supported, it must be the group with the highest priority (first list entry).
+  - SID (security identifier) of the group, as string in the "S-[...]" format
+  - Maximum number of recursive members in the group (add a buffer for future growth)
+  - If multiple licence groups are defined, designate one of these groups as default or fallback group. For details, see 'How do licence groups work?' later in this document.
 
 The licence file contains the following information:
 - Invoice address of the Benefactor Circle member
 - End date of the membership
 - DNS domain name, SID and maximum number of members for one or multiple licence groups
 
-30-day trial licences are available upon [request](mailto:Set-OutlookSignatures@explicitconsulting.at?subject=Request%20for%20trial%20version%20of%20Set-OutlookSignatures%20Benefactor%20Circle&body=Dear%20ExplicIT%20team%2C%0A%0AI%20am%20interested%20in%20testing%20Set-OutlookSignatures%20Benefactor%20Circle.%20Please%20send%20me%20a%20trial%20version%20of%20the%20current%20release.%0A%0AI%20confirm%20that%3A%0A-%20All%20the%20technicians%20and%20content%20managers%20involved%20in%20the%20test%20have%20read%20and%20understood%20the%20general%20documentation%20%28%22README%22%29%20of%20the%20Set-OutlookSignatures%20open-source%20version%20available%20at%20https%3A%2F%2Fgithub.com%2FGruberMarkus%2FSet-OutlookSignatures%0A-%20The%20open-source%20version%20of%20Set-OutlookSignatures%20has%20already%20been%20successfully%20implemented%2C%20as%20this%20is%20a%20requirement%20for%20the%20Benefactor%20Circe%20add-on%0A-%20All%20the%20technicians%20and%20content%20managers%20involved%20in%20the%20test%20have%20read%20and%20understood%20the%20Benefactor%20Circle%20specific%20documentation%20available%20at%20https%3A%2F%2Fexplicitconsulting.at%2Fset-outlooksignatures.html%0A-%20Everyone%20involved%20with%20the%20pilot%20is%20aware%20that%20support%20may%20be%20chargeable.%20This%20includes%20workshops%2C%20implementation%20support%2C%20all%20forms%20of%20remote%20or%20on%20site%20outsourcing%2C%20support%20for%20topics%20already%20well-explained%20in%20the%20documentation%20and%20support%20for%20problems%20with%20the%20root%20cause%20outside%20of%20Set-OutlookSignatures%20or%20Set-OutlookSignatures%20Benefactor%20Circle.%0A-%20I%20have%20read%20and%20accept%20the%20general%20terms%20and%20conditions%20available%20at%20https%3A%2F%2Fexplicitconsulting.at%2Flegal%0A%0AHere%20is%20the%20data%20that%20is%20required%20for%20the%20trial%20version%3A%0A-%20Company%20name%20and%20full%20address%3A%20XXX%0A-%20VAT%20number%20%28European%20companies%20only%29%3A%20XXX%0A-%20%EF%BB%BFE-mail%20addresses%20for%20technical%20information%3A%20XXX%0A-%20LicenceGroups%3A%0A%20%20-%20AD%20DNS%20domain%20name%20%28or%20%22AzureAD%22%29%2C%20SID%2C%20maximum%20users%0A%0A%0AThanks%20in%20advance!).
+To use the licence file, just add two parameters to your call of Set-OutlookSignatures.ps1:
+- `BenefactorCircleLicenceFile` with the path to your indivualized licence file
+- `BenefactorCircleId` with your Benefactor Circle id
 
+You can use this [e-mail template](mailto:Set-OutlookSignatures@explicitconsulting.at?subject=Request%20for%20trial%20version%20of%20Set-OutlookSignatures%20Benefactor%20Circle&body=Dear%20ExplicIT%20team%2C%0A%0AI%20am%20interested%20in%20testing%20Set-OutlookSignatures%20Benefactor%20Circle.%20Please%20send%20me%20a%20trial%20version%20of%20the%20current%20release.%0A%0AI%20confirm%20that%3A%0A-%20All%20the%20technicians%20and%20content%20managers%20involved%20in%20the%20test%20have%20read%20and%20understood%20the%20general%20documentation%20%28%22README%22%29%20of%20the%20Set-OutlookSignatures%20open-source%20version%20available%20at%20https%3A%2F%2Fgithub.com%2FGruberMarkus%2FSet-OutlookSignatures%0A-%20The%20open-source%20version%20of%20Set-OutlookSignatures%20has%20already%20been%20successfully%20implemented%2C%20as%20this%20is%20a%20requirement%20for%20the%20Benefactor%20Circe%20add-on%0A-%20All%20the%20technicians%20and%20content%20managers%20involved%20in%20the%20test%20have%20read%20and%20understood%20the%20Benefactor%20Circle%20specific%20documentation%20available%20at%20https%3A%2F%2Fexplicitconsulting.at%2Fset-outlooksignatures.html%0A-%20Everyone%20involved%20with%20the%20pilot%20is%20aware%20that%20support%20may%20be%20chargeable.%20This%20includes%20workshops%2C%20implementation%20support%2C%20all%20forms%20of%20remote%20or%20on%20site%20outsourcing%2C%20support%20for%20topics%20already%20well-explained%20in%20the%20documentation%20and%20support%20for%20problems%20with%20the%20root%20cause%20outside%20of%20Set-OutlookSignatures%20or%20Set-OutlookSignatures%20Benefactor%20Circle.%0A-%20I%20have%20read%20and%20accept%20the%20general%20terms%20and%20conditions%20available%20at%20https%3A%2F%2Fexplicitconsulting.at%2Flegal%0A%0AHere%20is%20the%20data%20that%20is%20required%20for%20the%20trial%20version%3A%0A-%20Company%20name%20and%20full%20address%3A%20XXX%0A-%20VAT%20number%20%3A%20XXX%0A-%20%EF%BB%BFE-mail%20addresses%20for%20technical%20information%3A%20XXX%0A-%20LicenceGroups%3A%0A%20%20-%20AD%20DNS%20domain%20name%20%28or%20%22AzureAD%22%29%2C%20SID%2C%20maximum%20users%0A%0A%0AThanks%20in%20advance!) to request a trial licence.
+
+Trial licences can not be extended or re-issued. The are limited to 30 days runtime and a maximum of 20 mailboxes.
 <!-- omit in toc -->
-### How much is a membership?
-The cost of the membership depends on the number of mailbox licences included.
-
-Each mailbox, for which an exlusive feature shall be used, needs a licence. The mailboxes do not need to be named, you just have to define at least one Active Directory or Graph group containing the mailboxes and the maximum number of recursive members of the groups defined.
-
-Licences are paid in advance and are valid for one year from the day the full payment is received. There is no automatic renewal.
-
-The net price in EUR currently is **1.50 € per mailbox and year**, with a minimum annual total sum of 200 €.  
-
-**Yes, that's right: Per year, not per month. Request your personalized offer [here](mailto:Set-OutlookSignatures@explicitconsulting.at?subject=Request%20for%20pricing&body=Dear%20ExplicIT%20team%2C%0A%0AI%20am%20interested%20in%20buying%20Set-OutlookSignatures%20Benefactor%20Circle.%0A%0APlease%20send%20me%20an%20offer.%20After%20we%20have%20agreed%20on%20the%20offer%2C%20ExplicIT%20Consulting%20will%20send%20me%20an%20invoice.%20The%20purchase%20is%20concluded%20with%20the%20transfer%20of%20the%20full%20invoice%20amount.%0A%0AHere%20is%20the%20data%20that%20is%20required%20for%20the%20offer%20and%20the%20individualized%20licence%20file%3A%0A-%20Company%20name%20and%20full%20address%3A%20XXX%0A-%20VAT%20number%20%28European%20companies%20only%29%3A%20XXX%0A-%20E-mail%20addresses%20for%20technical%20information%3A%20XXX%0A-%20LicenceGroups%3A%0A%20%20-%20AD%20DNS%20domain%20name%20%28or%20%22AzureAD%22%29%3B%20SID%3B%20maximum%20recursive%20users%0A%0AThanks%20in%20advance%0A).**
-
-As long as a licence is valid, it includes prioritized ticket support and unlimited free upgrades.
-
-Support may be chargeable. This includes workshops, implementation support, all forms of remote or on-site outsourcing, support for topics already well-explained in the documentation and support for problems with the root cause outside of Set-OutlookSignatures or Set-OutlookSignatures Benefactor Circle.
-
-## How do licence groups work?
-Each Benefactor Circle licence is bound to one or more Active Directory or Azure AD groups. Each mailbox of your company needs to be a direct or indirect (a.k.a. nested, recursive or transitive) member of a licence group, so that it can receive a signature. Primary group membership is not considered due to Active Directory and Azure AD query restrictions.
-
-Each group may only contain as many mailboxes as direct or indirect members as defined in the licence. The user running Set-OutlookSignatures must be able to resolve all direct and indirect members of the licence group, even across trusts.
-
-Licence groups are defined by the DNS domain name of the domain (or "AzureAD" for non-synced groups), their SID (security identifier) and the number of members licenced.
-- Use 'AzureAD' if the group only exists in Azure Active Directory and is not synced to on-prem. Only one pure Azure AD group is supported, it must be the group with the highest priority (first list entry).
-- If you have multiple domains in a forest or multiple forests, you can have multiple licence groups, each with a separate maximum member count. For each licence, there can be one licence group per AD domain. There must be a default group, which is used for mailboxes which are not covered by separate licence groups.
-
-When the licence has a licence group for the mailbox's domain, this licence group is used. If not, the licence group defined as default will be used.
-
-There are three situations where Set-OutlookSignatures uses Azure AD via Graph API insteed of on-prem AD: Parameter GraphOnly is set to true, no connection to the on-prem AD is possible, or the current user has a mailbox in Exchange Online and either OOF messages or Outlook Web signatures should be set.
-In these cases, licence groups are handled as follows:
-- If the current mailbox has the Graph "onPremisesDomainName" attribute set:
-  - If there is a licence group associated with this DNS domain name, it is queried via Graph
-  - If there is no licence group associated with this DNS domain name, the licence group defined as default is queried via Graph
-- If the current mailbox does not have the Graph "onPremisesDomainName" attribute set, the licence group defined as default is queried via Graph
-
-## Buying, extending and changing licences
-<!-- omit in toc -->
-### Buying a new licence
+#### Order process
 Just place a request for quotation with the following information:
-- Your billing address
-- The VAT number of your company (if applicable)
+- Company name and full address
+- The VAT number of your company
 - E-mail addresses
   - At least one for receiving invoices
   - At least one for receiving the download link for the licence file, updates and other non invoice related information
-- List of licence groups and maximum members in the following format:
+- List of licence groups and maximum members in the following format (see [How licence groups work](#how-do-licence-groups-work) for details):
   - DNS domain name of the Active Directory Domain the group is in.
     -Use 'AzureAD' if the group only exists in Azure Active Directory and is not synced to on-prem. Only one pure Azure AD group is supported, it must be the group with the highest priority (first list entry).
   - SID (security identifier) of the group, as string in the "S-[...]" format
@@ -146,7 +142,19 @@ Just place a request for quotation with the following information:
 
 The total number of mailboxes to licence is the sum of the maximum members defined for each licence group.
 
-You will receive an offer within a few days. As soon as all the details are ironed out, you place the final order, receive an invoice and start the payment process. The licence file and corresponding Benefactor Circle member Id is sent via e-mail after receipt of payment.
+You will receive an offer within a few days. As soon as all the technical details are ironed out, you place the final order, receive an invoice and start the payment process.  
+As soon as the full invoice amount is received, you will be sent an e-mail with instructions on how to securely download your individualized licence file.
+
+The licence file contains the following information:
+- Invoice address of the Benefactor Circle member
+- End date of the membership
+- DNS domain name, SID and maximum number of members for one or multiple licence groups
+
+To use the licence file, just add two parameters to your call of Set-OutlookSignatures.ps1:
+- `BenefactorCircleLicenceFile` with the path to your indivualized licence file
+- `BenefactorCircleId` with your Benefactor Circle id
+
+Request your personalized offer [here](mailto:Set-OutlookSignatures@explicitconsulting.at?subject=Request%20for%20pricing&body=Dear%20ExplicIT%20team%2C%0A%0AI%20am%20interested%20in%20buying%20Set-OutlookSignatures%20Benefactor%20Circle.%0A%0APlease%20send%20me%20an%20offer.%20After%20we%20have%20agreed%20on%20the%20offer%2C%20ExplicIT%20Consulting%20will%20send%20me%20an%20invoice.%20The%20purchase%20is%20concluded%20with%20the%20transfer%20of%20the%20full%20invoice%20amount.%0A%0AHere%20is%20the%20data%20that%20is%20required%20for%20the%20offer%20and%20the%20individualized%20licence%20file%3A%0A-%20Company%20name%20and%20full%20address%3A%20XXX%0A-%20VAT%20number%3A%20XXX%0A-%20E-mail%20addresses%20for%20technical%20information%3A%20XXX%0A-%20LicenceGroups%3A%0A%20%20-%20AD%20DNS%20domain%20name%20%28or%20%22AzureAD%22%29%3B%20SID%3B%20maximum%20recursive%20users%0A%0AThanks%20in%20advance%0A).
 
 <!-- omit in toc -->
 ### Extending or reducing a licence period
@@ -184,6 +192,24 @@ An example:
     - Year 1 cost for 110 maiboxes for 12 months: max(200; 110 * 1.11) = 200.00 € net
     - Year 1 additional maiboxes for 10 months (July 2023 to mid of April 2024): max(200; (7,500 - 110) * 1.50)/12*10 = 9,237.50 € net
     - When the price is not changing, the consecutive years will cost: max(200; 7,500 * 1,50) = 11,250.00 € net
+
+## How licence groups work
+Each Benefactor Circle licence is bound to one or more Active Directory or Azure AD groups. Each mailbox of your company needs to be a direct or indirect (a.k.a. nested, recursive or transitive) member of a licence group, so that it can receive a signature. Primary group membership is not considered due to Active Directory and Azure AD query restrictions.
+
+Each group may only contain as many mailboxes as direct or indirect members as defined in the licence. The user running Set-OutlookSignatures must be able to resolve all direct and indirect members of the licence group, even across trusts.
+
+Licence groups are defined by the DNS domain name of the domain (or "AzureAD" for non-synced groups), their SID (security identifier) and the number of members licenced.
+- Use 'AzureAD' if the group only exists in Azure Active Directory and is not synced to on-prem. Only one pure Azure AD group is supported, it must be the group with the highest priority (first list entry).
+- If you have multiple domains in a forest or multiple forests, you can have multiple licence groups, each with a separate maximum member count. For each licence, there can be one licence group per AD domain. There must be a default group, which is used for mailboxes which are not covered by separate licence groups.
+
+When the licence has a licence group for the mailbox's domain, this licence group is used. If not, the licence group defined as default will be used.
+
+There are three situations where Set-OutlookSignatures uses Azure AD via Graph API insteed of on-prem AD: Parameter GraphOnly is set to true, no connection to the on-prem AD is possible, or the current user has a mailbox in Exchange Online and either OOF messages or Outlook Web signatures should be set.
+In these cases, licence groups are handled as follows:
+- If the current mailbox has the Graph "onPremisesDomainName" attribute set:
+  - If there is a licence group associated with this DNS domain name, it is queried via Graph
+  - If there is no licence group associated with this DNS domain name, the licence group defined as default is queried via Graph
+- If the current mailbox does not have the Graph "onPremisesDomainName" attribute set, the licence group defined as default is queried via Graph
 
 ## Licence and script version
 Licence and script versions go hand in hand, so every new release of Set-OutlookSignatures also means a new licence release, and vice-versa.
