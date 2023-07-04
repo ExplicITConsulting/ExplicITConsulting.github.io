@@ -7,7 +7,7 @@ description: Export-RecipientPermissions. Document, filter and compare Exchange 
 ## <img src="/assets/images/export-recipientpermissions.png" style="height: 3em; object-fit: contain;" alt="Export-RecipientPermissions">
 Export-RecipientPermissions is the open-source tool of choice for documenting, filtering and comparing Exchange permissions.
 
-You can <a href="https://github.com/GruberMarkus/export-recipientpermissions">download</a> it for free from GitHub. **Read on to learn what ExplicIT offers on top.**
+You can <a href="https://github.com/GruberMarkus/export-recipientpermissions" target="_blank">download</a> it for free from GitHub. **Read on to learn what ExplicIT offers on top.**
 
 ## Features
 <div class="tile is-ancestor">
@@ -57,7 +57,7 @@ You can <a href="https://github.com/GruberMarkus/export-recipientpermissions">do
       <div class="content">
         <h3>Move to the cloud easier</h3>
         Permission dependencies beyond the <a
-          href="https://learn.microsoft.com/en-us/exchange/permissions">cross-premises permissions supported by
+          href="https://learn.microsoft.com/en-us/exchange/permissions" target="_blank">cross-premises permissions supported by
           Microsoft</a> can easily be identified and even be represented graphically (sample code included).
       </div>
     </div>

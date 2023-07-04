@@ -28,11 +28,11 @@ description: Open-Source. Commercial support. Add-on development. Sponsoring.
         <h3>Sponsoring</h3>
         <p>We sponsor selected open-source software and donate code. Some examples:</p>
         <ul>
-          <li><a href="https://github.com/EventGhost/EventGhost/">EventGhost</a></li>
-          <li><a href="https://github.com/microsoft/Microsoft365DSC">Microsoft365DSC</a></li>
-          <li><a href="https://github.com/Hypfer/Valetudo">Valetudo</a></li>
-          <li><a href="https://github.com/adamfowlerit/msportals.io">msportals.io</a></li>
-          <li><a href="https://github.com/yi-Xu-0100/traffic-to-badge">traffic-to-badge</a></li>
+          <li><a href="https://github.com/EventGhost/EventGhost/" target="_blank">EventGhost</a></li>
+          <li><a href="https://github.com/microsoft/Microsoft365DSC" target="_blank">Microsoft365DSC</a></li>
+          <li><a href="https://github.com/Hypfer/Valetudo" target="_blank">Valetudo</a></li>
+          <li><a href="https://github.com/adamfowlerit/msportals.io" target="_blank">msportals.io</a></li>
+          <li><a href="https://github.com/yi-Xu-0100/traffic-to-badge" target="_blank">traffic-to-badge</a></li>
         </ul>
       </div>
     </div>

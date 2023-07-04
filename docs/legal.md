@@ -26,8 +26,8 @@ Austria
 
 Registered at company court, Firmengericht: Handelsgericht Wien, Austria  
 Registration number, Firmenbuchnummer: FN 607013t  
-[GISA](https://www.gisa.gv.at/abfrage): 36123599  
-[UID/VAT](https://ec.europa.eu/taxation_customs/vies/#/vat-validation): ATU79529869  
+<a href="https://www.gisa.gv.at/abfrage" target="_blank">GISA</a>: 36123599  
+<a href="https://ec.europa.eu/taxation_customs/vies/#/vat-validation" target="_blank">UID/VAT</a>: ATU79529869  
 
 Member of the Austrian Economic Chamber and the Vienna Economic Chamber, UBIT section (management consulting, accounting and information technology).  
 Mitglied der Wirtschaftskammer Österreich und der Wirtschaftskammer Wien, Sparte UBIT (Unternehmensberatung, Buchhaltung und Informationstechnologie)  
