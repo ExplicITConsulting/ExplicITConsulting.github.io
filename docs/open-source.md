@@ -37,15 +37,15 @@ description: Open-Source. Commercial support. Add-on development. Sponsoring.
       </div>
     </div>
   </div>
-  <div class="tile is-12 is-parent">
-    <div class="tile is-child box">
-      <div class="content">
-        <h3>Dear businesses</h3>
-        <p>Open-Source Software can save you enormous amounts of money in comparison to commercial software.</p>
-        <p>Please consider sponsoring open-source projects to ensure continued support, testing and enhancements.</p>
-        <p>Invest in the open-source projects you depend on. Contributors are working behind the scenes to make open-source better for everyone - give them the help and recognition they deserve.</p>
-        <p>Sponsor the open-source software your team has built its business on. Fund the projects that make up your software supply chain to improve its performance, reliability, and stability.</p>
-      </div>
+</div>
+<div class="tile is-12 is-parent">
+  <div class="tile is-child box">
+    <div class="content">
+      <h3>Dear businesses,</h3>
+      <p>Open-Source Software can save you enormous amounts of money in comparison to commercial software.</p>
+      <p>Please consider sponsoring open-source projects to ensure continued support, testing and enhancements.</p>
+      <p>Invest in the open-source projects you depend on. Contributors are working behind the scenes to make open-source better for everyone - give them the help and recognition they deserve.</p>
+      <p>Sponsor the open-source software your team has built its business on. Fund the projects that make up your software supply chain to improve its performance, reliability, and stability.</p>
     </div>
   </div>
 </div>
