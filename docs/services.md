@@ -28,14 +28,17 @@ Our select group of consultants and partners have followed these principles for 
     </div>
     <div class="tile is-child box">
       <div class="content">
-        <h3>Digital Advisory</h3>
+        <h3>Program and Portfolio Management</h3>
         <ul>
-            <li>Discover, assess, plan and govern strategic initiatives for clients, optimize investments in technology and ensure added values are realized as soon, as high and as lasting as possible.</li>
-            <li>Link business and IT strategy</li>
-            <li>Counsel and train senior- and C-level management</li>
-            <li>Provide business cases and recommend courses of action</li>
-            <li>Governance, risk and compliance management</li>
+            <li>Implement, assess and optimize program and portfolio management structures - from hands-on quick wins to establishing a PMO</li>
+            <li>Establishing project portfolio management principles</li>
+            <li>Lead and govern programs and project portfolios</li>
+            <li>Define and monitor entry and filter criteria</li>
+            <li>Create courses of action and bring them to a decision</li>
+            <li>Steering the portfolio to ensure support for strategic objectives and proper prioritisation, and providing input to senior leadership</li>
+            <li>Project recovery and turnaround</li>
         </ul>
+
       </div>
     </div>
     <div class="tile is-child box">
@@ -65,15 +68,13 @@ Our select group of consultants and partners have followed these principles for 
     </div>
     <div class="tile is-child box">
       <div class="content">
-        <h3>Program and Portfolio Management</h3>
+        <h3>Digital Advisory</h3>
         <ul>
-            <li>Implement, assess and optimize program and portfolio management structures - from hands-on quick wins to establishing a PMO</li>
-            <li>Establishing project portfolio management principles</li>
-            <li>Lead and govern programs and project portfolios</li>
-            <li>Define and monitor entry and filter criteria</li>
-            <li>Create courses of action and bring them to a decision</li>
-            <li>Steering the portfolio to ensure support for strategic objectives and proper prioritisation, and providing input to senior leadership</li>
-            <li>Project recovery and turnaround</li>
+            <li>Discover, assess, plan and govern strategic initiatives for clients, optimize investments in technology and ensure added values are realized as soon, as high and as lasting as possible.</li>
+            <li>Link business and IT strategy</li>
+            <li>Counsel and train senior- and C-level management</li>
+            <li>Provide business cases and recommend courses of action</li>
+            <li>Governance, risk and compliance management</li>
         </ul>
       </div>
     </div>
