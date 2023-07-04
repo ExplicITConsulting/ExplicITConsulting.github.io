@@ -126,7 +126,7 @@ You can use this [e-mail template](mailto:Set-OutlookSignatures@explicitconsulti
 
 Trial licences can not be extended or re-issued. The are limited to 30 days runtime and a maximum of 20 mailboxes.
 <!-- omit in toc -->
-#### Order process
+#### Order process 1-year licences
 Just place a request for quotation with the following information:
 - Company name and full address
 - The VAT number of your company
