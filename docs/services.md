@@ -42,10 +42,11 @@ Our select group of consultants and partners have followed these principles for 
     </div>
     <div class="tile is-child box">
       <div class="content">
-        <h3>Auditing</h3>
+        <h3>Technics and Technology Consulting</h3>
         <ul>
-            <li>Internal ISO 27001 audit</li>
-            <li>Preparation and hosting of external audits of all kinds, especially according to ISO 27001</li>
+            <li>Feasibility studies regarding the introduction of new technologies and systems</li>
+            <li>Counselling and coaching the C-level and IT management on new technologies</li>
+            <li>Support with specific technical issues and root cause analysis, especially for Microsoft on-premise and cloud technology</li>
         </ul>
       </div>
     </div>
@@ -79,11 +80,10 @@ Our select group of consultants and partners have followed these principles for 
     </div>
     <div class="tile is-child box">
       <div class="content">
-        <h3>Technics and Technology Consulting</h3>
+        <h3>Auditing</h3>
         <ul>
-            <li>Feasibility studies regarding the introduction of new technologies and systems</li>
-            <li>Counselling and coaching the C-level and IT management on new technologies</li>
-            <li>Support with specific technical issues and root cause analysis, especially for Microsoft on-premise and cloud technology</li>
+            <li>Internal ISO 27001 audit</li>
+            <li>Preparation and hosting of external audits of all kinds, especially according to ISO 27001</li>
         </ul>
       </div>
     </div>
