@@ -5,7 +5,7 @@ subtitle: Centrally manage and deploy Outlook text signatures and Out of Office 
 description: Set-OutlookSignatures Benefactor Circle. Centrally manage and deploy Outlook text signatures and Out of Office auto reply messages.
 ---
 <!-- omit in toc -->
-## <img src="/assets/images/set-outlooksignatures Benefactor Circle Logo.png" style="height: 100px;" alt="Set-OutlookSignatures Benefactor Circle">
+## <img src="/assets/images/set-outlooksignatures benefactor circle.png" style="height: 3em; object-fit:contain;" alt="Set-OutlookSignatures Benefactor Circle">
 Set-OutlookSignatures is the gold standard in open-source software for centrally managing and deploying Outlook text signatures and Out of Office auto reply messages.
 
 You can <a href="https://github.com/GruberMarkus/set-outlooksignatures">download</a> it for free from GitHub. ExplicIT's Benefactor Circle enhances the core version with a great set of additional features and commercial support.
