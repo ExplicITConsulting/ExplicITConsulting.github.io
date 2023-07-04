@@ -11,28 +11,29 @@ You can <a href="https://github.com/GruberMarkus/export-recipientpermissions">do
 
 ## Features
 <div class="tile is-ancestor">
-  <div class="tile is-6 is-vertical is-parent">
-    <div class="tile is-child box">
-      <div class="content">
-        <h3>Document</h3>
-        <ul>
-            <li>Mailbox Access Rights</li>
-            <li>Mailbox Folder Permissions</li>
-            <li>Public Folder Permissions</li>
-            <li>Send As</li>
-            <li>Send On Behalf</li>
-            <li>Managed By</li>
-            <li>Moderated By</li>
-            <li>Linked Master Accounts</li>
-            <li>Forwarders</li>
-            <li>Sender restrictions</li>
-            <li>Resource Delegates</li>
-            <li>Group Members</li>
-            <li>Management Role Group Members</li>
-        </ul>
-      </div>
+    <div class="tile is-6 is-vertical is-parent">
+        <div class="tile is-child box">
+            <div class="content">
+                <h3>Document</h3>
+                <ul>
+                    <li>Mailbox Access Rights</li>
+                    <li>Mailbox Folder Permissions</li>
+                    <li>Public Folder Permissions</li>
+                    <li>Send As</li>
+                    <li>Send On Behalf</li>
+                    <li>Managed By</li>
+                    <li>Moderated By</li>
+                    <li>Linked Master Accounts</li>
+                    <li>Forwarders</li>
+                    <li>Sender restrictions</li>
+                    <li>Resource Delegates</li>
+                    <li>Group Members</li>
+                    <li>Management Role Group Members</li>
+                </ul>
+            </div>
+        </div>
     </div>
-  <div class="tile is-6 is-vertical is-parent">
+    <div class="tile is-6 is-vertical is-parent">
     <div class="tile is-child box">
       <div class="content">
         <h3>Filter</h3>
