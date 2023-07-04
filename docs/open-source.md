@@ -38,7 +38,7 @@ description: Open-Source. Commercial support. Add-on development. Sponsoring.
     </div>
   </div>
 </div>
-<div class="tile is-12 is-parent">
+<div class="tile is-parent">
   <div class="tile is-child box">
     <div class="content">
       <h3>Dear businesses,</h3>
