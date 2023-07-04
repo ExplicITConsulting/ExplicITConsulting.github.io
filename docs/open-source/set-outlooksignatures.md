@@ -112,7 +112,7 @@ The implementatin approach is **suited for service providers as well as for clie
 ### Buying a new licence
 Licences are to be paid in advance and are valid for one year from the day the full payment is received. There is no automatic renewal.
 
-The cost of the membership depends on the number of mailbox licences included.
+The cost of the licence depends on the number of mailbox licences included.
 - Each mailbox in your environment, for which an exlusive feature shall be used, needs a licence. This includes shared mailboxes (one licence per shared mailbox, not matter how may users access it).  
 - The mailboxes do not need to be named, you just have to define at least one Active Directory or Graph group containing the mailboxes, and the maximum number of recursive members of the groups defined.
 
@@ -141,7 +141,7 @@ Data required for the trial version:
 
 The licence file contains the following information:
 - Invoice address of the Benefactor Circle member
-- End date of the membership
+- Date until the licence is valid
 - DNS domain name, SID and maximum number of members for one or multiple licence groups
 
 To use the licence file, just add two parameters to your call of Set-OutlookSignatures.ps1:
@@ -173,7 +173,7 @@ As soon as the full invoice amount is received, you will be sent an e-mail with 
 
 The licence file contains the following information:
 - Invoice address of the Benefactor Circle member
-- End date of the membership
+- Date until the licence is valid
 - DNS domain name, SID and maximum number of members for one or multiple licence groups
 
 To use the licence file, just add two parameters to your call of Set-OutlookSignatures.ps1:
