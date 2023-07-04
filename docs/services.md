@@ -48,7 +48,9 @@ Our select group of consultants and partners have followed these principles for 
         </div>
     </div>
   </div>
-  <div class="tile is-parent">
+</div>
+<div class="tile is-ancestor">
+  <div class="tile is-6 is-vertical is-parent">
     <div class="tile is-child box">
         <div class="content">
             <h3>Product and Service Management</h3>
