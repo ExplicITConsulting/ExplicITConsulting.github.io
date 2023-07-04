@@ -21,19 +21,20 @@ You can <a href="https://github.com/GruberMarkus/set-outlooksignatures">download
 
 ## Feature overview
 **Signatures and OOF messages can be:**
-- Generated from templates in DOCX or HTML file format  
-- Customized with a broad range of variables, including photos, from Active Directory and other sources  
-  - Images in signatures can be bound to the existence of certain variables (useful for optional social network icons, for example)
-- Applied to all mailboxes (including shared mailboxes), specific mailbox groups or specific e-mail addresses, for every mailbox across all Outlook profiles (automapped and additional mailboxes are optional)  
-- Created with different names from the same template (e.g., one template can be used for multiple shared mailboxes)
-- Assigned time ranges within which they are valid  
-- Set as default signature for new e-mails, or for replies and forwards (signatures only)  
-- Set as default OOF message for internal or external recipients (OOF messages only)  
-- Set in Outlook Web for the currently logged-in user  
-- Centrally managed only or exist along user created signatures (signatures only)  
-- Copied to an alternate path for easy access on mobile devices not directly supported by this script (signatures only)
-- Write protected (Outlook signatures only)
-- Mirrored to the cloud as roaming signature
+- Generated from **templates in DOCX or HTML** file format  
+- Customized with a **broad range of variables**, including **photos**, from Active Directory and other sources
+  - Variables are available for the **currently logged-on user, this user's manager, each mailbox and each mailbox's manager**
+  - Images in signatures can be **bound to the existence of certain variables** (useful for optional social network icons, for example)
+- Applied to all **mailboxes (including shared mailboxes)**, specific **mailbox groups** or specific **e-mail addresses**, for **every mailbox across all Outlook profiles** (**automapped and additional mailboxes** are optional)  
+- Created with different names from the same template (e.g., **one template can be used for multiple shared mailboxes**)
+- Assigned **time ranges** within which they are valid  
+- Set as **default signature** for new e-mails, or for replies and forwards (signatures only)  
+- Set as **default OOF message** for internal or external recipients (OOF messages only)  
+- Set in **Outlook Web** for the currently logged-in user  
+- Centrally managed only or **exist along user created signatures** (signatures only)  
+- Copied to an **alternate path** for easy access on mobile devices not directly supported by this script (signatures only)
+- **Write protected** (Outlook signatures only)
+- Mirrored to the cloud as **roaming signatures**
 
 Set-Outlooksignatures can be **executed by users on clients, or on a server without end user interaction**.  
 On clients, it can run as part of the logon script, as scheduled task, or on user demand via a desktop icon, start menu entry, link or any other way of starting a program.  
