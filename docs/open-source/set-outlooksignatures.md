@@ -8,41 +8,51 @@ description: Set-OutlookSignatures Benefactor Circle. Centrally manage and deplo
 ## <img src="/assets/images/set-outlooksignatures benefactor circle.png" style="height: 3em; object-fit:contain;" alt="Set-OutlookSignatures Benefactor Circle">
 Set-OutlookSignatures is the gold standard in open-source software for centrally managing and deploying Outlook text signatures and Out of Office auto reply messages.
 
-You can <a href="https://github.com/GruberMarkus/set-outlooksignatures">download</a> it for free from GitHub. ExplicIT's Benefactor Circle enhances the core version with a great set of additional features and commercial support.
+You can <a href="https://github.com/GruberMarkus/set-outlooksignatures">download the core version</a> from GitHub for free. **ExplicIT's Benefactor Circle enhances the core version with a great set of additional features and commercial support.**
 
 <!-- omit in toc -->
 ## Topics
 - [Why choose Set-OutlookSignatures?](#why-choose-set-outlooksignatures)
-- [Benefactor Circle Benefits](#benefactor-circle-benefits)
+- [Benefactor Circle exclusive features](#benefactor-circle-exclusive-features)
 - [Buying, extending and changing licences](#buying-extending-and-changing-licences)
 - [How licence groups work](#how-licence-groups-work)
 - [Licence and script version](#licence-and-script-version)
 - [Data protection notice](#data-protection-notice)
 
 ## Why choose Set-OutlookSignatures?
-Benefit from many advantages, for example:
-- Runs only on your clients, no server side installation
-- Mails are not routed through a cloud service
-- Software does not call home
-- Works with on-prem, hybrid and cloud-only configurations
-- Supports Exchange Online roaming signatures
-- Multi-customer capable
-- Works with linked mailboxes in resource forest scenarios
-- Users see signature when writing e-mails
-- More cost-effective than other cloud based products, more features than other on-prem products
+**Signatures and OOF messages can be:**
+- Generated from templates in DOCX or HTML file format  
+- Customized with a broad range of variables, including photos, from Active Directory and other sources  
+  - Images in signatures can be bound to the existence of certain variables (useful for optional social network icons, for example)
+- Applied to all mailboxes (including shared mailboxes), specific mailbox groups or specific e-mail addresses, for every mailbox across all Outlook profiles (automapped and additional mailboxes are optional)  
+- Created with different names from the same template (e.g., one template can be used for multiple shared mailboxes)
+- Assigned time ranges within which they are valid  
+- Set as default signature for new e-mails, or for replies and forwards (signatures only)  
+- Set as default OOF message for internal or external recipients (OOF messages only)  
+- Set in Outlook Web for the currently logged-in user  
+- Centrally managed only or exist along user created signatures (signatures only)  
+- Copied to an alternate path for easy access on mobile devices not directly supported by this script (signatures only)
+- Write protected (Outlook signatures only)
+- Mirrored to the cloud as roaming signature
 
-The features reserved for Benefactor Circle members are available at a very, very competitive price compared to other commercial solutions that work with on-prem, hybrid and cloud-only configurations.
+Set-Outlooksignatures can be **executed by users on clients, or on a server without end user interaction**.  
+On clients, it can run as part of the logon script, as scheduled task, or on user demand via a desktop icon, start menu entry, link or any other way of starting a program.  
+Signatures and OOF messages can also be created and deployed centrally, without end user or client involvement.
 
-At the end of its commercial life, the Benefactor Circle source code will be handed over to the team developing the core version of Set-OutlookSignatures. This will allow the Benefactor Circle code to be integrated into the Free and Open-Source (FOSS) version of Set-OutlookSignatures.
+**Sample templates** for signatures and OOF messages demonstrate all available features and are provided as .docx and .htm files.
 
-There are also topics you need to be aware of:
-- As there is no server component, signatures can not be automatically added to mails sent from mobile devices. This will change as soon as Microsoft's roaming signature feature will be accessible by an API, and mobile applications start using this feature.<br>Set-OutlookSignatures Benefactor Circle already supports the roaming signature feature.
-- There is no graphical user interface. This is on purpose:
-  - End users typically never see the tool, only results.
-  - Admins typically need around two hours for the basic setup, as the default parameters are very well chosen and documented.
-  - Template maintainers need nothing but Word to create, modify and configure templates.
+**Simulation mode** allows content creators and admins to simulate the behavior of the script and to inspect the resulting signature files before going live.
+  
+The script is **designed to work in big and complex environments** (Exchange resource forest scenarios, across AD trusts, multi-level AD subdomains, many objects). It works **on premises, in hybrid and cloud-only environments**.
 
-## Benefactor Circle Benefits
+It is **multi-client capable** by using different template paths, configuration files and script parameters.
+
+Set-OutlookSignatures requires **no installation on servers or clients**. You only need a standard file share on a server, and PowerShell and Office. 
+
+A **documented implementation approach**, based on real life experiences implementing the script in multi-client environments with a five-digit number of mailboxes, contains proven procedures and recommendations for product managers, architects, operations managers, account managers and e-mail and client administrators.  
+The implementatin approach is **suited for service providers as well as for clients**, and covers several general overview topics, administration, support, training across the whole lifecycle from counselling to tests, pilot operation and rollout up to daily business.
+
+## Benefactor Circle exclusive features
 <div class="tile is-ancestor">
   <div class="tile is-6 is-vertical is-parent">
     <div class="tile is-child box">
