@@ -1,0 +1,13 @@
+- name: "Our Services"
+  link: /services/
+- name: "Support for Open-Source"
+  link: /open-source/
+  dropdown:
+  - name: "Export-RecipientPermissions"
+    link: /open-source/export-recipientpermissions/
+  - name: "Set-OutlookSignatures Benefactor Circle"
+    link: /open-source/set-outlooksignatures/
+- name: "Contact"
+  link: /contact
+- name: "Legal"
+  link: /legal/

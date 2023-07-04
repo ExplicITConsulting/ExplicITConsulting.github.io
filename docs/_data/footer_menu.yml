@@ -1,0 +1,18 @@
+- name: Home
+  link: /
+- name: Our Services
+  link: /services/
+- name: Support for Open-Source
+  link: /open-source/
+- name: Export-RecipientPermissions
+  link: /open-source/export-recipientpermissions/
+- name: Set-OutlookSignatures Benefactor Circle
+  link: /open-source/set-outlooksignatures/
+- name: Contact
+  link: /contact
+- name: Impress, Privacy Notice, Legal
+  link: /legal
+- name: GitHub
+  link: https://github.com/explicitconsulting
+- name: LinkedIn
+  link: https://www.linkedin.com/company/explicit-consulting-gmbh
