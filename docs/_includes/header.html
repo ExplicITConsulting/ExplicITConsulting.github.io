@@ -32,6 +32,7 @@
             </div>
 
             <div class="navbar-end">
+                {% include search-lunr.html %}
                 {% if site.gh_sponsor %}
                 <a class="navbar-item" href="https://github.com/sponsors/{{ site.gh_sponsor }}">
                     <span class="icon gh-sponsor"><i class="fas fa-heart"></i></span>
