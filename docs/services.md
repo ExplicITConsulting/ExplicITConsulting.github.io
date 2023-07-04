@@ -38,7 +38,6 @@ Our select group of consultants and partners have followed these principles for 
             <li>Steering the portfolio to ensure support for strategic objectives and proper prioritisation, and providing input to senior leadership</li>
             <li>Project recovery and turnaround</li>
         </ul>
-
       </div>
     </div>
     <div class="tile is-child box">
