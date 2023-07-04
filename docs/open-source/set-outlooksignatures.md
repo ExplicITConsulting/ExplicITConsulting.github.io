@@ -43,42 +43,58 @@ There are also topics you need to be aware of:
   - Template maintainers need nothing but Word to create, modify and configure templates.
 
 ## Benefactor Circle Benefits
-<div class="columns">
-    <div class="column">
-      <h3>Script features</h3>
-      <ul>
-        <li>Time-based campaigns by assigning time range constraints to templates</li>
-        <li>Signatures for automapped and additional mailboxes</li>
-        <li>Set current user Outlook Web signature (classic Outlook Web signature and roaming signature)</li>
-        <li>Download and upload roaming signatures</li>
-        <li>Set current user Out of Office messages</li>
-        <li>Delete signatures created by the script, where the template no longer exists or is no longer assigned</li>
-        <li>Delete user created signatures</li>
-        <li>Additional signature path (when used outside of simulation mode)</li>
-        <li>High resolution images from DOCX templates</li>
-      </ul>
-      <h3>Prioritized support and feature requests</h3>
-      <ul>
-        <li>Support and feature requests are handled by ExplicIT Consulting based on the licence contract.</li>
-        <li>Issues are handled with priority via a Benefactor Circle exclusive email address and a callback option.</li>
-        <li>Requests for new features are checked for feasability with priority.</li>
-        <li>All release upgrades during the licence period are for free, no matter if it is a patch, feature or major release.</li>
-      </ul>
+<div class="tile is-ancestor">
+  <div class="tile is-6 is-vertical is-parent">
+    <div class="tile is-child box">
+      <div class="content">
+        <h3>Script features</h3>
+        <ul>
+          <li>Time-based campaigns by assigning time range constraints to templates</li>
+          <li>Signatures for automapped and additional mailboxes</li>
+          <li>Set current user Outlook Web signature (classic Outlook Web signature and roaming signature)</li>
+          <li>Download and upload roaming signatures</li>
+          <li>Set current user Out of Office messages</li>
+          <li>Delete signatures created by the script, where the template no longer exists or is no longer assigned</li>
+          <li>Delete user created signatures</li>
+          <li>Additional signature path (when used outside of simulation mode)</li>
+          <li>High resolution images from DOCX templates</li>
+        </ul>
+      </div>
     </div>
-    <div class="column">
-      <h3>Additional documentation: Implementation approach</h3>
-      <ul>
-        <li>The content is based on real-life experiences implementing the script in several multi-client environments, with a five-digit number of mailboxes.</li>
-        <li>Proven procedures and recommendations for product managers, architects, operations managers, account managers, mail and client administrators. Suited for service providers as well as for clients.</li>
-        <li>It covers several general overview topics, administration, support, training across the whole lifecycle from counselling to tests, pilot operation and rollout up to daily business.</li>
-        <li>Available in English and German.</li>
-      </ul>
-      <h3>Sample code</h3>
-      <ul>
-        <li>SimulateAndDeploy.ps1: Deploy signatures without end user interaction, running Set-OutlookSignatures on a server</li>
-        <li>Test-ADTrust.ps1: Detect why a client cannot query Active Directory information</li>
-      </ul>
+    <div class="tile is-child box">
+      <div class="content">
+        <h3>Sample code</h3>
+        <ul>
+          <li>SimulateAndDeploy.ps1: Deploy signatures without end user interaction, running Set-OutlookSignatures on a server</li>
+          <li>Test-ADTrust.ps1: Detect why a client cannot query Active Directory information</li>
+        </ul>
+      </div>
     </div>
+  </div>
+  <div class="tile is-6 is-vertical is-parent">
+    <div class="tile is-child box">
+      <div class="content">
+        <h3>Prioritized support and feature requests</h3>
+        <ul>
+          <li>Support and feature requests are handled by ExplicIT Consulting based on the licence contract.</li>
+          <li>Issues are handled with priority via a Benefactor Circle exclusive email address and a callback option.</li>
+          <li>Requests for new features are checked for feasability with priority.</li>
+          <li>All release upgrades during the licence period are for free, no matter if it is a patch, feature or major release.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tile is-child box">
+      <div class="content">
+        <h3>Additional documentation: Implementation approach</h3>
+        <ul>
+          <li>The content is based on real-life experiences implementing the script in several multi-client environments, with a five-digit number of mailboxes.</li>
+          <li>Proven procedures and recommendations for product managers, architects, operations managers, account managers, mail and client administrators. Suited for service providers as well as for clients.</li>
+          <li>It covers several general overview topics, administration, support, training across the whole lifecycle from counselling to tests, pilot operation and rollout up to daily business.</li>
+          <li>Available in English and German.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
 
 ## Buying, extending and changing licences
