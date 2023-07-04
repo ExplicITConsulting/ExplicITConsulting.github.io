@@ -15,7 +15,7 @@ Our select group of consultants and partners have followed these principles for 
 
 ## Gaps we can bridge for you
 <div class="tile is-ancestor">
-  <div class="tile is-4 is-vertical is-parent">
+  <div class="tile is-6 is-vertical is-parent">
     <div class="tile is-child box">
       <p class="title">One</p>
     </div>
@@ -26,7 +26,7 @@ Our select group of consultants and partners have followed these principles for 
       <p class="title">Three</p>
     </div>
   </div>
-  <div class="tile is-parent">
+  <div class="tile is-6 is-vertical is-parent">
     <div class="tile is-child box">
       <p class="title">Four</p>
     </div>
