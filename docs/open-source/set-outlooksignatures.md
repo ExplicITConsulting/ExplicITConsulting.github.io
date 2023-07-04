@@ -12,14 +12,14 @@ You can <a href="https://github.com/GruberMarkus/set-outlooksignatures">download
 
 <!-- omit in toc -->
 ## Topics
-- [Why choose Set-OutlookSignatures?](#why-choose-set-outlooksignatures)
+- [Feature overview](#feature-overview)
 - [Benefactor Circle exclusive features](#benefactor-circle-exclusive-features)
 - [Buying, extending and changing licences](#buying-extending-and-changing-licences)
 - [How licence groups work](#how-licence-groups-work)
 - [Licence and script version](#licence-and-script-version)
 - [Data protection notice](#data-protection-notice)
 
-## Why choose Set-OutlookSignatures?
+## Feature overview
 **Signatures and OOF messages can be:**
 - Generated from templates in DOCX or HTML file format  
 - Customized with a broad range of variables, including photos, from Active Directory and other sources  
