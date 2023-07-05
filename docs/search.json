@@ -11,7 +11,7 @@ layout: none
       "category" : {{ post.category | jsonify }},
       "tags"     : {{ post.tags | join: ', ' | jsonify }},
       "url"      : {{ post.url | jsonify }},
-      "date"     : {{ post.date | jsonify }}",
+      "date"     : {{ post.date | jsonify }},
       "content"  : {{ post.content | strip_html | strip_newlines | jsonify }}
     } {% unless forloop.last and counter == 0 %},{% endunless %}
   {% endfor %}
@@ -25,7 +25,7 @@ layout: none
       "category" : {{ page.category | jsonify }},
       "tags"     : {{ page.tags | join: ', ' | jsonify }},
       "url"      : {{ page.url | jsonify }},
-      "date"     : {{ page.date | jsonify }}",
+      "date"     : {{ page.date | jsonify }},
       "content"  : {{ page.content | strip_html | strip_newlines | jsonify }}
     } {% unless forloop.last and counter == 0 %},{% endunless %}
   {% endfor %}
