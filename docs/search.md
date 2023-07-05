@@ -17,7 +17,7 @@ description: Search and find. What are you looking for?
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
     json: '/search.json',
-    searchResultTemplate: '<li><a href="{url}"><strong>{title}</strong><br />{subtitle}</a></li>',
+    searchResultTemplate: '<li><a href="{url}"><span style="font-style: italic; color:gray">{url}</span><br /><strong>{title}</strong><br />{subtitle}</a></li>',
     noResultsText: 'No results found',
     fuzzy: false
   })
