@@ -19,7 +19,7 @@ description: Search and find. What are you looking for?
     json: '/search.json',
     searchResultTemplate: '<li><a href="{url}"><strong>{title}</strong><br />{subtitle}</a></li>',
     noResultsText: 'No results found',
-    fuzzy: true
+    fuzzy: false
   })
 </script>
 
