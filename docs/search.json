@@ -4,29 +4,31 @@ layout: none
 [
   {% assign counter = 0 %}
   {% for post in site.posts %}
-    {% assign counter = counter | plus: 1 %}
-    {
-      "id"       : {{ counter }},
-      "title"    : {{ post.title | jsonify }},
-      "category" : {{ post.category | jsonify }},
-      "tags"     : {{ post.tags | join: ', ' | jsonify }},
-      "url"      : {{ post.url | jsonify }},
-      "date"     : {{ post.date | jsonify }},
-      "content"  : {{ post.content | strip_html | strip_newlines | jsonify }}
-    } {% unless forloop.last or counter == 0 %},{% endunless %}
+    {% if post.title != nil %}
+      {% assign counter = counter | plus: 1 %}
+      {
+        "title"    : {{ post.title | jsonify }},
+        "category" : {{ post.category | jsonify }},
+        "tags"     : {{ post.tags | join: ', ' | jsonify }},
+        "url"      : {{ post.url | jsonify }},
+        "date"     : {{ post.date | jsonify }},
+        "content"  : {{ post.content | strip_html | strip_newlines | jsonify }}
+      } {% unless forloop.last or counter == 0 %},{% endunless %}
+    {% endif %}
   {% endfor %}
   {% if counter > 0 %},{%endif %}
   {% assign counter = 0 %}
   {% for page in site.pages %}
-    {% assign counter = counter | plus: 1 %}
-    {
-      "id"       : {{ counter }},
-      "title"    : {{ page.title | jsonify }},
-      "category" : {{ page.category | jsonify }},
-      "tags"     : {{ page.tags | join: ', ' | jsonify }},
-      "url"      : {{ page.url | jsonify }},
-      "date"     : {{ page.date | jsonify }},
-      "content"  : {{ page.content | strip_html | strip_newlines | jsonify }}
-    } {% unless forloop.last or counter == 0 %},{% endunless %}
+    {% if page.title != nil %}
+      {% assign counter = counter | plus: 1 %}
+      {
+        "title"    : {{ page.title | jsonify }},
+        "category" : {{ page.category | jsonify }},
+        "tags"     : {{ page.tags | join: ', ' | jsonify }},
+        "url"      : {{ page.url | jsonify }},
+        "date"     : {{ page.date | jsonify }},
+        "content"  : {{ page.content | strip_html | strip_newlines | jsonify }}
+      } {% unless forloop.last or counter == 0 %},{% endunless %}
+    {% endif %}
   {% endfor %}
 ]
