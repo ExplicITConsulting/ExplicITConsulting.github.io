@@ -6,7 +6,7 @@ description: Search and find. What are you looking for?
 ---
 ## What are you looking for?
 <div id="search-demo-container">
-  <input type="text" id="search-input" placeholder="search...">
+  <input type="search" id="search-input" placeholder="search...">
   <ul id="results-container"></ul>
 </div>
 
@@ -19,7 +19,7 @@ description: Search and find. What are you looking for?
     json: '/search.json',
     searchResultTemplate: '<li><a href="{url}"><strong>{title}</strong><br />{subtitle}</a></li>',
     noResultsText: 'No results found',
-    fuzzy: true
+    fuzzy: false
   })
 </script>
 
