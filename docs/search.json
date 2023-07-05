@@ -8,8 +8,8 @@ layout: none
       {% if counter > 0 %},{% endif %}
       {% assign counter = counter | plus: 1 %}
       {
-        "title"    : {{ post.title | markdownify | replace '<!--', ' ' | replace '-->', ' ' | strip_html | jsonify }},
-        "subtitle" : {{ post.subtitle | markdownify | replace '<!--', ' ' | replace '-->', ' ' | strip_html | jsonify }},
+        "title"    : {{ post.title | replace '<!--', ' ' | replace '-->', ' ' | markdownify | strip_html | jsonify }},
+        "subtitle" : {{ post.subtitle | replace '<!--', ' ' | replace '-->', ' ' | markdownify | strip_html | jsonify }},
         "category" : {{ post.category | jsonify }},
         "tags"     : {{ post.tags | join: ', ' | jsonify }},
         "url"      : {{ post.url | jsonify }},
@@ -25,8 +25,8 @@ layout: none
       {% if counter > 0 %},{% endif %}
       {% assign counter = counter | plus: 1 %}
       {
-        "title"    : {{ page.title | markdownify | replace '<!--', ' ' | replace '-->', ' ' | strip_html | jsonify }},
-        "subtitle" : {{ page.subtitle | markdownify | replace '<!--', ' ' | replace '-->', ' ' | strip_html | jsonify }},
+        "title"    : {{ page.title | replace '<!--', ' ' | replace '-->', ' ' | markdownify | strip_html | jsonify }},
+        "subtitle" : {{ page.subtitle | replace '<!--', ' ' | replace '-->', ' ' | markdownify | strip_html | jsonify }},
         "category" : {{ page.category | jsonify }},
         "tags"     : {{ page.tags | join: ', ' | jsonify }},
         "url"      : {{ page.url | jsonify }},
