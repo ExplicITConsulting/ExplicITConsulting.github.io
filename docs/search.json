@@ -4,29 +4,29 @@ layout: none
 [
   {% assign counter = 0 %}
   {% for post in site.posts %}
+    {% assign counter = counter | plus: 1 %}
     {
+      "id"       : {{ counter }}
       "title"    : {{ post.title | jsonify }},
       "category" : {{ post.category | jsonify }},
       "tags"     : {{ post.tags | join: ', ' | jsonify }},
       "url"      : {{ post.url | jsonify }},
-      "date"     : {{ post.date | jsonify }},
+      "date"     : {{ post.date | jsonify }}",
       "content"  : {{ post.content | strip_html | strip_newlines | jsonify }}
-    } {% unless forloop.last %},{% endunless %}
-    {% assign counter = counter | plus: 1 %}
+    } {% unless forloop.last and counter == 0 %},{% endunless %}
   {% endfor %}
   {% if counter > 0 %},{%endif %}
+  {% assign counter = 0 %}
   {% for page in site.pages %}
-   {
-    {% assign counter = 0 %}
-    {% if page.title != nil %}
-       {% assign counter = 1 %}
-       "title"    : {{ page.title | jsonify }},
-        "category" : {{ page.category | jsonify }},
-        "tags"     : {{ page.tags | join: ', ' | jsonify }},
-        "url"      : {{ page.url | jsonify }},
-        "date"     : {{ page.date | jsonify }}",
-        "content"  : {{ page.content | strip_html | strip_newlines | jsonify }}
-      {% endif %}
-   } {% unless forloop.last and counter == 0 %},{% endunless %}
+    {% assign counter = counter | plus: 1 %}
+    {
+      "id"       : {{ counter }}
+      "title"    : {{ page.title | jsonify }},
+      "category" : {{ page.category | jsonify }},
+      "tags"     : {{ page.tags | join: ', ' | jsonify }},
+      "url"      : {{ page.url | jsonify }},
+      "date"     : {{ page.date | jsonify }}",
+      "content"  : {{ page.content | strip_html | strip_newlines | jsonify }}
+    } {% unless forloop.last and counter == 0 %},{% endunless %}
   {% endfor %}
 ]
