@@ -6,7 +6,7 @@ layout: none
   {% for post in site.posts %}
     {% assign counter = counter | plus: 1 %}
     {
-      "id"       : {{ counter }}
+      "id"       : {{ counter }},
       "title"    : {{ post.title | jsonify }},
       "category" : {{ post.category | jsonify }},
       "tags"     : {{ post.tags | join: ', ' | jsonify }},
@@ -20,7 +20,7 @@ layout: none
   {% for page in site.pages %}
     {% assign counter = counter | plus: 1 %}
     {
-      "id"       : {{ counter }}
+      "id"       : {{ counter }},
       "title"    : {{ page.title | jsonify }},
       "category" : {{ page.category | jsonify }},
       "tags"     : {{ page.tags | join: ', ' | jsonify }},
