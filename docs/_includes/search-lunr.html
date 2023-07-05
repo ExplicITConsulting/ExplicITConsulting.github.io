@@ -45,7 +45,7 @@ function lunr_search(term) {
                 var url = documents[ref]['url'];
                 var title = documents[ref]['title'];
                 var body = documents[ref]['body'].substring(0,160)+'...';
-                document.querySelectorAll('#lunrsearchresults ol')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ol')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='content'>"+ url +"</span><br /><span class='content my-0 py-0'><h3 style='padding: 0; margin: 0;'>" + title + "</h3></span><span class='content'>"+ body +"</span><br /></a></li>";
+                document.querySelectorAll('#lunrsearchresults ol')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ol')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='url'>"+ url +"</span><br /><span class='title'><h3 style='padding: 0; margin: 0;'>" + title + "</h3></span><span class='body'>"+ body +"</span><br /></a></li>";
             }
         } else {
             document.querySelectorAll('#lunrsearchresults ol')[0].innerHTML = "<li class='lunrsearchresult'>No results found...</li>";
