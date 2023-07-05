@@ -45,7 +45,7 @@ function lunr_search(term) {
                 var url = documents[ref]['url'];
                 var title = documents[ref]['title'];
                 var body = documents[ref]['body'].substring(0,160)+'...';
-                document.querySelectorAll('#lunrsearchresults ol')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ol')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='lunrsearchresulturl'>"+ url +"</span><br /><span class='lunrsearchresulttitle'><h3 style='padding: 0; margin: 0;'>" + title + "</h3></span><span class='lunrsearchresultbody'>"+ body +"</span><br /></a></li>";
+                document.querySelectorAll('#lunrsearchresults ol')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ol')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='lunrsearchresulturl'>"+ url +"</span><br /><span class='lunrsearchresulttitle'>" + title + "</span><span class='lunrsearchresultbody'>"+ body +"</span><br /></a></li>";
             }
         } else {
             document.querySelectorAll('#lunrsearchresults ol')[0].innerHTML = "<li class='lunrsearchresult'>No results found...</li>";
@@ -58,9 +58,10 @@ function lunr_search(term) {
 <style>
     #lunrsearchresults {padding-top: 0.2rem;}
     .lunrsearchresult {padding-bottom: 1rem;}
-    .lunrsearchresult .lunrsearchresulttitle {color: deepskyblue;}
+    .lunrsearchresult .lunrsearchresulttitle {color: deepskyblue; font-weight: 700; font-size: 120%;}
     .lunrsearchresult .lunrsearchresulturl {color: gray;}
-    .lunrsearchresult a {display: block; color: #777;}
+    .lunrsearchresult .lunrsearchresultbody {color: black;}
+    .lunrsearchresult a {display: block; color: gray;}
     .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
     .lunrsearchresult a:hover .lunrsearchresulttitle {text-decoration: underline;}
 </style>
