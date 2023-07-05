@@ -14,7 +14,7 @@ layout: none
         "tags"     : {{ post.tags | join: ', ' | jsonify }},
         "url"      : {{ post.url | jsonify }},
         "date"     : {{ post.date | jsonify }},
-        "content"  : {{ post.content  | markdownify | strip_html | strip_newlines | jsonify }}
+        "content"  : "{{ post.content | markdownify | replace: '.', '. ' | replace: '</h1>', ': '  | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</h5>', ': ' | replace: '</h6>', ': ' | replace: '</p>', ' ' | replace: '</br>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | jsonify }}"
       }
     {% endif %}
   {% endfor %}
@@ -31,7 +31,7 @@ layout: none
         "tags"     : {{ page.tags | join: ', ' | jsonify }},
         "url"      : {{ page.url | jsonify }},
         "date"     : {{ page.date | jsonify }},
-        "content"  : {{ page.content | markdownify | strip_html | strip_newlines | jsonify }}
+        "content"  : "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h1>', ': '  | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</h5>', ': ' | replace: '</h6>', ': ' | replace: '</p>', ' ' | replace: '</br>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | jsonify }}"
       }
     {% endif %}
   {% endfor %}
