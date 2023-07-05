@@ -15,15 +15,17 @@ For best results, search for whole words. Search is case insensitive.
 <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
 
 <script>
-var sjs = SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results-container'),
-  json: '/search.json',
-  noResultsText: 'No results found.',
-  fuzzy: true,
-  
-  searchResultTemplate: '<li class="lunrsearchresult"><a href="{url}"><span class="lunrsearchresulturl">{url}}</span><br /><span class="lunrsearchresulttitle">{title}</span><br /><span class="lunrsearchresultbody">{content}</span><br /></a></li>'
-})</script>
+var sjs = SimpleJekyllSearch(
+  {
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/search.json',
+    noResultsText: 'No results found.',
+    fuzzy: true,
+    searchResultTemplate: '<li class="lunrsearchresult"><a href="{url}"><span class="lunrsearchresulturl">{url}}</span><br /><span class="lunrsearchresulttitle">{title}</span><br /><span class="lunrsearchresultbody">{content}</span><br /></a></li>'
+  }
+)
+</script>
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
