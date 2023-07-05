@@ -3,17 +3,33 @@ layout: none
 ---
 [
   {% for page in site.pages %}
-    {% if page.url contains '.json' or page.url contains '.xml' or page.url contains '/assets/' %}
-    {% else %}
-      {
-        "title"    : {{ page.title | jsonify }},
-        "subtitle" : {{ page.subtitle | jsonify }},
-        "category" : {{ page.category | jsonify }},
-        "tags"     : {{ page.tags | join: ', ' | jsonify }},
-        "url"      : {{ page.url | jsonify }},
-        "date"     : {{ page.date | jsonify }},
-        "content"  : {{ page.content | jsonify }}
-      }{% unless forloop.last %},{% endunless %}
-    {% endif %}
-  {% endfor %}
+  {% if page.url contains '.xml' or page.url contains 'assets' %}
+  {% else %}{
+  "id": {{ counter }},
+  "url": {{ page.url | jsonify }},
+  "title": {{ page.title | jsonify }},
+  "subtitle": {{ page.subtitle | jsonify }},
+  "category" : {{ page.category | jsonify }},
+  "tags"     : {{ page.tags | join: ', ' | jsonify }},
+  "date"     : {{ page.date | jsonify }},
+  "content": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
+  }, {% endif %}{% endfor %}{% for page in site.without-plugin %}{
+  "id": {{ counter }},
+  "url": {{ page.url | jsonify }},
+  "title": {{ page.title | jsonify }},
+  "subtitle": {{ page.subtitle | jsonify }},
+  "category" : {{ page.category | jsonify }},
+  "tags"     : {{ page.tags | join: ', ' | jsonify }},
+  "date"     : {{ page.date | jsonify }},
+  "content": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
+  }, {% endfor %}{% for page in site.posts %}{
+  "id": {{ counter }},
+  "url": {{ page.url | jsonify }},
+  "title": {{ page.title | jsonify}},
+  "subtitle": {{ page.subtitle | jsonify}},
+  "category" : {{ page.category | jsonify }},
+  "tags"     : {{ page.tags | join: ', ' | jsonify }},
+  "date"     : {{ page.date | jsonify }},
+  "content": "{{ page.date | date: "%Y/%m/%d" }} - {{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
+  }{% if forloop.last %}{% else %}, {% endif %}{% endfor %}
 ]
