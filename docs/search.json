@@ -8,7 +8,7 @@ layout: none
       {% if counter > 0 %},{% endif %}
       {% assign counter = counter | plus: 1 %}
       {
-        "title"    : {{ post.title | markdownify | strip_html | jsonify }},
+        "title"    : {{ post.title | markdownify | replace: '.', '. ' | replace: '</h1>', ': ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</h5>', ': ' | replace: '</h6>', ': ' | replace: '<img ', ' ' | replace: '</p>', ' ' | replace: '<br>', ' ' | replace: '<br />', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | jsonify }},
         "subtitle" : {{ post.subtitle | markdownify | strip_html | jsonify }},
         "category" : {{ post.category | jsonify }},
         "tags"     : {{ post.tags | join: ', ' | jsonify }},
@@ -25,7 +25,7 @@ layout: none
       {% if counter > 0 %},{% endif %}
       {% assign counter = counter | plus: 1 %}
       {
-        "title"    : {{ page.title | markdownify | strip_html | jsonify }},
+        "title"    : {{ post.title | markdownify | replace: '.', '. ' | replace: '</h1>', ': ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</h5>', ': ' | replace: '</h6>', ': ' | replace: '<img ', ' ' | replace: '</p>', ' ' | replace: '<br>', ' ' | replace: '<br />', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' | jsonify }},
         "subtitle" : {{ page.subtitle | markdownify | strip_html | jsonify }},
         "category" : {{ page.category | jsonify }},
         "tags"     : {{ page.tags | join: ', ' | jsonify }},
