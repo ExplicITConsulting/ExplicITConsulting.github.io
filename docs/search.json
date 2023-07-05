@@ -3,15 +3,16 @@ layout: none
 ---
 [
   {% for page in site.pages %}
-  {% if page.url contains '.json' or page.url contains '.xml' or page.url contains '/assets/' %}{% else %}
-    {
-      "title"    : {{ page.title | markdownify | strip_html | jsonify }},
-      "subtitle" : {{ page.subtitle | markdownify | strip_html | jsonify }},
-      "category" : {{ page.category | jsonify }},
-      "tags"     : {{ page.tags | join: ', ' | jsonify }},
-      "url"      : {{ page.url | jsonify }},
-      "date"     : {{ page.date | jsonify }},
-      "content"  : {{ page.content | markdownify | strip_html | jsonify }}
-    } {% unless forloop.last %},{% endunless %}
-  {% endif %}
+    {% if page.url contains '.json' or page.url contains '.xml' or page.url contains '/assets/' %}{% else %}
+      {
+        "title"    : {{ page.title | markdownify | strip_html | jsonify }},
+        "subtitle" : {{ page.subtitle | markdownify | strip_html | jsonify }},
+        "category" : {{ page.category | jsonify }},
+        "tags"     : {{ page.tags | join: ', ' | jsonify }},
+        "url"      : {{ page.url | jsonify }},
+        "date"     : {{ page.date | jsonify }},
+        "content"  : {{ page.content | markdownify | strip_html | jsonify }}
+      } {% unless forloop.last %},{% endunless %}
+    {% endif %}
+  {% endfor %}
 ]
