@@ -9,6 +9,7 @@ layout: none
       {% assign counter = counter | plus: 1 %}
       {
         "title"    : {{ post.title | jsonify }},
+        "subtitle" : {{ post.subtitle | jsonify }},
         "category" : {{ post.category | jsonify }},
         "tags"     : {{ post.tags | join: ', ' | jsonify }},
         "url"      : {{ post.url | jsonify }},
@@ -25,6 +26,7 @@ layout: none
       {% assign counter = counter | plus: 1 %}
       {
         "title"    : {{ page.title | jsonify }},
+        "subtitle" : {{ page.subtitle | jsonify }},
         "category" : {{ page.category | jsonify }},
         "tags"     : {{ page.tags | join: ', ' | jsonify }},
         "url"      : {{ page.url | jsonify }},
