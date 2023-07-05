@@ -13,7 +13,7 @@ layout: none
       "url"      : {{ post.url | jsonify }},
       "date"     : {{ post.date | jsonify }},
       "content"  : {{ post.content | strip_html | strip_newlines | jsonify }}
-    } {% unless forloop.last and counter == 0 %},{% endunless %}
+    } {% unless forloop.last or counter == 0 %},{% endunless %}
   {% endfor %}
   {% if counter > 0 %},{%endif %}
   {% assign counter = 0 %}
@@ -27,6 +27,6 @@ layout: none
       "url"      : {{ page.url | jsonify }},
       "date"     : {{ page.date | jsonify }},
       "content"  : {{ page.content | strip_html | strip_newlines | jsonify }}
-    } {% unless forloop.last and counter == 0 %},{% endunless %}
+    } {% unless forloop.last or counter == 0 %},{% endunless %}
   {% endfor %}
 ]
