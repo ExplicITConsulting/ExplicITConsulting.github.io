@@ -6,8 +6,8 @@ layout: none
   {% for page in site.pages %}{% if page.url contains '.xml' or page.url contains 'assets' %}{% else %}{
   "id": {{ counter }},
   "url": {{ page.url | jsonify }},
-  "title": {{ page.title | jsonify }},
-  "subtitle": {{ page.subtitle | jsonify }},
+  "title": "{{ page.title | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}",
+  "subtitle": "{{ page.subtitle | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}",
   "category" : {{ page.category | jsonify }},
   "tags"     : {{ page.tags | join: ', ' | jsonify }},
   "date"     : {{ page.date | jsonify }},
@@ -15,8 +15,8 @@ layout: none
   }, {% endif %}{% endfor %}{% for page in site.without-plugin %}{
   "id": {{ counter }},
   "url": {{ page.url | jsonify }},
-  "title": {{ page.title | jsonify }},
-  "subtitle": {{ page.subtitle | jsonify }},
+  "title": "{{ page.title | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}",
+  "subtitle": "{{ page.subtitle | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}",
   "category" : {{ page.category | jsonify }},
   "tags"     : {{ page.tags | join: ', ' | jsonify }},
   "date"     : {{ page.date | jsonify }},
@@ -24,8 +24,8 @@ layout: none
   }, {% endfor %}{% for page in site.posts %}{
   "id": {{ counter }},
   "url": {{ page.url | jsonify }},
-  "title": {{ page.title | jsonify}},
-  "subtitle": {{ page.subtitle | jsonify}},
+  "title": "{{ page.title | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}",
+  "subtitle": "{{ page.subtitle | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}",
   "category" : {{ page.category | jsonify }},
   "tags"     : {{ page.tags | join: ', ' | jsonify }},
   "date"     : {{ page.date | jsonify }},
