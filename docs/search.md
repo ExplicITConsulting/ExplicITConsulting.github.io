@@ -6,7 +6,7 @@ description: Search and find. What are you looking for?
 ---
 ## What are you looking for?
 <div id="search-demo-container">
-  <input type="search" id="search-input" placeholder="Search this site" size="50">
+  <input type="search" id="search-input" placeholder="Search on explicitconsulting.at" style='font-size: 1em;' size="50" autofocus>
   <ul id="results-container"></ul>
 </div>
 
