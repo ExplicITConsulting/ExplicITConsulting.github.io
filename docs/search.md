@@ -22,8 +22,7 @@ var sjs = SimpleJekyllSearch({
   noResultsText: 'No results found.',
   fuzzy: true,
   
-  searchResultTemplate: '<li><a href="{{ site.url }}{url}">{title}</a></li>'
-                        '<li class='lunrsearchresult'><a href="{url}"><span class='lunrsearchresulturl'>{url}}</span><br /><span class='lunrsearchresulttitle'>{title}</span><br /><span class='lunrsearchresultbody'>{content}</span><br /></a></li>
+  searchResultTemplate: '<li class="lunrsearchresult"><a href="{url}"><span class="lunrsearchresulturl">{url}}</span><br /><span class="lunrsearchresulttitle">{title}</span><br /><span class="lunrsearchresultbody">{content}</span><br /></a></li>'
 })</script>
 
 <p>&nbsp;</p>
