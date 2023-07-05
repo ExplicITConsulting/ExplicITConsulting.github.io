@@ -1,9 +1,3 @@
----
-layout: page
-title: Search on this site
-subtitle: "&nbsp;"
-description: Search on this site and find what you are looking for.
----
 <script>
 /**
  * lunr - http://lunrjs.com - A bit like Solr, but much smaller and not as bright - 2.3.9
