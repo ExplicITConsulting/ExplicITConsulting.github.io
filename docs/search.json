@@ -3,9 +3,10 @@ layout: none
 ---
 [
   {% for page in site.pages %}
-    {
-      "title"    : {{ page.title | jsonify }},
-      "subtitle" : {{ page.subtitle | jsonify }},
+  {% if page.url contains '.json' or page.url contains '.xml' or page.url contains '/assets/' %}{% else %}
+  {
+      "title"    : {{ page.title | markdownify | strip_html | jsonify }},
+      "subtitle" : {{ page.subtitle | markdownify | strip_html | jsonify }},
       "category" : {{ page.category | jsonify }},
       "tags"     : {{ page.tags | join: ', ' | jsonify }},
       "url"      : {{ page.url | jsonify }},

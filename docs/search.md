@@ -5,11 +5,9 @@ subtitle: "&nbsp;"
 description: Search and find. What are you looking for?
 ---
 ## What are you looking for?
-For best results, search for whole words. Search is case insensitive.
-
 <div id="search-demo-container">
   <input type="text" id="search-input" placeholder="search...">
-  <ul id="results-container"></ul>
+  <ol id="results-container"></ol>
 </div>
 
 <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js" type="text/javascript"></script>
@@ -21,8 +19,7 @@ For best results, search for whole words. Search is case insensitive.
     json: '/search.json',
     searchResultTemplate: '<li><a href="{url}"><strong>{title}</strong><br />{subtitle}</a></li>',
     noResultsText: 'No results found',
-    limit: 10,
-    fuzzy: false,
+    fuzzy: true,
     exclude: ['Welcome']
   })
 </script>
