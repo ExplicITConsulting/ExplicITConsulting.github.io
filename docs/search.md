@@ -7,22 +7,24 @@ description: Search and find. What are you looking for?
 ## What are you looking for?
 For best results, search for whole words. Search is case insensitive.
 
-<input type="text" id="search-input" placeholder="Search...">
-<ol id="results-container"></ol>
+<div id="search-demo-container">
+  <input type="text" id="search-input" placeholder="search...">
+  <ul id="results-container"></ul>
+</div>
 
-<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+<script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js" type="text/javascript"></script>
 
-<script>
-var sjs = SimpleJekyllSearch(
-  {
+<script type="text/javascript">
+  SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
     json: '/search.json',
-    noResultsText: 'No results found.',
-    fuzzy: true,
-    searchResultTemplate: '<li class="lunrsearchresult"><a href="{url}"><span class="lunrsearchresulturl">{url}}</span><br /><span class="lunrsearchresulttitle">{title}</span><br /><span class="lunrsearchresultbody">{content}</span><br /></a></li>'
-  }
-)
+    searchResultTemplate: '<li><a href="{url}"><strong>{title}</strong><br />{subtitle}</a></li>',
+    noResultsText: 'No results found',
+    limit: 10,
+    fuzzy: false,
+    exclude: ['Welcome']
+  })
 </script>
 
 <p>&nbsp;</p>

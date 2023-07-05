@@ -3,15 +3,16 @@ layout: none
 ---
 [
   {% for page in site.pages %}
-    {
-      {% if page.title != nil %}
+    {% if page.title != nil %}
+      {
         "title"    : {{ page.title | jsonify }},
+        "subtitle" : {{ page.subtitle | jsonify }},
         "category" : {{ page.category | jsonify }},
         "tags"     : {{ page.tags | join: ', ' | jsonify }},
         "url"      : {{ page.url | absolute_url | jsonify }},
         "date"     : {{ page.date | jsonify }},
         "content"  : {{ page.content | markdownify | strip_html | jsonify }}
-      {% endif %}
-    } {% unless forloop.last %},{% endunless %}
+      } {% unless forloop.last %},{% endunless %}
+    {% endif %}
   {% endfor %}
 ]
