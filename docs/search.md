@@ -6,12 +6,10 @@ description: Search and find. What are you looking for?
 ---
 ## What are you looking for?
 For best results, search for whole words. Search is case insensitive.
-<!-- HTML elements for search -->
-<input type="text" id="search-input" placeholder="Search...">
 
+<input type="text" id="search-input" placeholder="Search...">
 <ol id="results-container"></ol>
 
-<!-- or without installing anything -->
 <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
 
 <script>
