@@ -8,13 +8,13 @@ layout: none
       {% if counter > 0 %},{% endif %}
       {% assign counter = counter | plus: 1 %}
       {
-        "title"    : {{ post.title | jsonify }},
-        "subtitle" : {{ post.subtitle | jsonify }},
+        "title"    : {{ post.title | markdownify | strip_html | jsonify }},
+        "subtitle" : {{ post.subtitle | markdownify | strip_html | jsonify }},
         "category" : {{ post.category | jsonify }},
         "tags"     : {{ post.tags | join: ', ' | jsonify }},
         "url"      : {{ post.url | jsonify }},
         "date"     : {{ post.date | jsonify }},
-        "content"  : {{ post.content | strip_html | strip_newlines | jsonify }}
+        "content"  : {{ post.content  | markdownify | strip_html | strip_newlines | jsonify }}
       }
     {% endif %}
   {% endfor %}
@@ -25,13 +25,13 @@ layout: none
       {% if counter > 0 %},{% endif %}
       {% assign counter = counter | plus: 1 %}
       {
-        "title"    : {{ page.title | jsonify }},
-        "subtitle" : {{ page.subtitle | jsonify }},
+        "title"    : {{ page.title | markdownify | strip_html | jsonify }},
+        "subtitle" : {{ page.subtitle | markdownify | strip_html | jsonify }},
         "category" : {{ page.category | jsonify }},
         "tags"     : {{ page.tags | join: ', ' | jsonify }},
         "url"      : {{ page.url | jsonify }},
         "date"     : {{ page.date | jsonify }},
-        "content"  : {{ page.content | strip_html | strip_newlines | jsonify }}
+        "content"  : {{ page.content | markdownify | strip_html | strip_newlines | jsonify }}
       }
     {% endif %}
   {% endfor %}
