@@ -7,7 +7,7 @@ description: Search and find. What are you looking for?
 ## What are you looking for?
 <div id="search-demo-container">
   <input type="text" id="search-input" placeholder="search...">
-  <ol id="results-container"></ol>
+  <ul id="results-container"></ul>
 </div>
 
 <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js" type="text/javascript"></script>
