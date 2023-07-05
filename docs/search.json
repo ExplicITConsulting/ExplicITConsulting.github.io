@@ -5,6 +5,7 @@ layout: none
   {% assign counter = 0 %}
   {% for post in site.posts %}
     {% if post.title != nil %}
+      {% if counter > 0 %},{% endif %}
       {% assign counter = counter | plus: 1 %}
       {
         "title"    : {{ post.title | jsonify }},
@@ -13,13 +14,14 @@ layout: none
         "url"      : {{ post.url | jsonify }},
         "date"     : {{ post.date | jsonify }},
         "content"  : {{ post.content | strip_html | strip_newlines | jsonify }}
-      } {% unless forloop.last or counter == 0 %},{% endunless %}
+      }
     {% endif %}
   {% endfor %}
   {% if counter > 0 %},{%endif %}
   {% assign counter = 0 %}
   {% for page in site.pages %}
     {% if page.title != nil %}
+      {% if counter > 0 %},{% endif %}
       {% assign counter = counter | plus: 1 %}
       {
         "title"    : {{ page.title | jsonify }},
@@ -28,7 +30,7 @@ layout: none
         "url"      : {{ page.url | jsonify }},
         "date"     : {{ page.date | jsonify }},
         "content"  : {{ page.content | strip_html | strip_newlines | jsonify }}
-      } {% unless forloop.last or counter == 0 %},{% endunless %}
+      }
     {% endif %}
   {% endfor %}
 ]
