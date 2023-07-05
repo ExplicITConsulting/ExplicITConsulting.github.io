@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Search
-subtitle: "&nbsp;"
+title: Search and find
+subtitle: "What are you looking for?"
 description: Search and find. What are you looking for?
 ---
 ## What are you looking for?
