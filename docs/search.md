@@ -6,7 +6,7 @@ description: Search and find. What are you looking for?
 ---
 ## What are you looking for?
 <div id="search-demo-container">
-  <input type="search" id="search-input" placeholder="search...">
+  <input type="search" id="search-input" placeholder="Search this site" size="50">
   <ul id="results-container"></ul>
 </div>
 
