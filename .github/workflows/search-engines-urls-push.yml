@@ -10,6 +10,10 @@ jobs:
   check-and-submit:
     runs-on: ubuntu-latest
     steps:
+    - name: Sleep  # allow GitHub pages to deploy the site, so the correct sitemap can be used
+      uses: GuillaumeFalourd/wait-sleep-action@v1
+      with:
+        time: '120s'
     - name: 3Alan/search-engines-urls-push@v0.2.3
       uses: 3Alan/search-engines-urls-push@v0.2.3
       with:
