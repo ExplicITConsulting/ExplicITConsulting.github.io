@@ -3,6 +3,9 @@ layout: page
 title: Support for Open-Source Software
 subtitle: Adding professional services on top
 description: Open-Source. Commercial support. Add-on development. Sponsoring.
+redirect_from:
+  - /home
+  - /home/
 ---
 ## ExplicIT enhances open-source software
 <a href="mailto:welcome@explicitconsulting.at">Contact us</a> for questions and a customized offer.

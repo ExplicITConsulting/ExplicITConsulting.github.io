@@ -12,6 +12,7 @@ google_analytics         : # UA-xxxxxxx
 title                    : "ExplicIT Consulting"
 description              : "We bridge the gap between strategy and execution"
 url                      : "https://explicitconsulting.at" # the base hostname & protocol for your site
+site.url                      : "https://explicitconsulting.at" # the base hostname & protocol for your site
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ExplicITConsulting/ExplicITConsulting.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -35,6 +36,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-redirect-from
+
 
 # mimic GitHub Pages with --safe
 whitelist:
