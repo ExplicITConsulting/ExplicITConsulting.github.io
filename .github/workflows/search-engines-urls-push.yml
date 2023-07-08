@@ -27,3 +27,5 @@ jobs:
       with:
         sitemap-location: 'https://explicitconsulting.at/sitemap.xml'
         key: ${{ secrets.INDEXNOW_KEY }}
+        since: 0
+        since-unit: minute
