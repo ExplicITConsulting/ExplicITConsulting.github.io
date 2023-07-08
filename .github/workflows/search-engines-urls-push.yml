@@ -9,7 +9,7 @@ jobs:
   check-and-submit:
     runs-on: ubuntu-latest
     steps:
-    - name: search-engines-urls-push@latest
+    - name: 3Alan/search-engines-urls-push@v0.2.3
       uses: 3Alan/search-engines-urls-push@v0.2.3
       with:
         site: ${{ secrets.SITE }}
