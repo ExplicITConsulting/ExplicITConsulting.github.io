@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: search-engines-urls-push@latest
-      uses: 3Alan/search-engines-urls-push@latest
+      uses: 3Alan/search-engines-urls-push@v0.2.3
       with:
         site: ${{ secrets.SITE }}
         sitemap: ${{ secrets.SITEMAP }}
