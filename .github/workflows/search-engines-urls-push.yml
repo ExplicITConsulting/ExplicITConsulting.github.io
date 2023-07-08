@@ -9,7 +9,8 @@ jobs:
   check-and-submit:
     runs-on: ubuntu-latest
     steps:
-      uses: 3Alan/search-engines-urls-push@latest
+    - name: search-engines-urls-push@latest
+      uses: '3Alan/search-engines-urls-push@latest'
       with:
         site: ${{ secrets.SITE }}
         sitemap: ${{ secrets.SITEMAP }}
