@@ -7,4 +7,7 @@ hero_height: is-fullheight-with-navbar
 hero_darken: true
 description: We bridge the gap between strategy and execution. ExplicIT stands for specific, clear and detailed IT consulting.
 image: "/assets/images/explicit consulting, color on black.png"
+redirect_from:
+  - /home
+  - /home/
 ---
