@@ -8,8 +8,16 @@ redirect_from:
   - /opensource/set-outlooksignatures/
   - /opensource/setoutlooksignatures
   - /opensource/setoutlooksignatures/
+  - /opensource/benefactorcircle
+  - /opensource/benefactorcircle/
+  - /opensource/benefactor-circle
+  - /opensource/benefactor-circle/
   - /open-source/setoutlooksignatures
   - /open-source/setoutlooksignatures/
+  - /open-source/benefactorcircle
+  - /open-source/benefactorcircle/
+  - /open-source/benefactor-circle
+  - /open-source/benefactor-circle/
 ---
 <!-- omit in toc -->
 ## <img src="/assets/images/set-outlooksignatures benefactor circle.png" style="height: 3em; object-fit:contain;" alt="Set-OutlookSignatures Benefactor Circle">
