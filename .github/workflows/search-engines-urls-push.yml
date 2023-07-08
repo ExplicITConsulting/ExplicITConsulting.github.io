@@ -17,3 +17,8 @@ jobs:
         bing-token: ${{ secrets.BING_TOKEN }}
         google-client-email: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
         google-private-key: ${{ secrets.GOOGLE_PRIVATE_KEY }}
+    - name: bojieyang/indexnow-action@v1
+      uses: bojieyang/indexnow-action@v1
+      with:
+        sitemap-location: 'https://explicitconsulting.at/sitemap.xml'
+        key: ${{ secrets.INDEXNOW_KEY }}
