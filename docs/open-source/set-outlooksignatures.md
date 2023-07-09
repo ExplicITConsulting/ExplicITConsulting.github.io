@@ -132,7 +132,7 @@ The cost of the licence depends on the number of mailboxes:
 - Each mailbox in your environment, for which an exclusive feature shall be used, needs a licence. This includes shared mailboxes (one licence per shared mailbox, no matter how may users access it).  
 - The mailboxes do not need to be named, you just have to define at least one Active Directory or Graph group containing the mailboxes, and the maximum number of recursive members for each group.
 
-The net price in EUR currently is **1.50 € per mailbox and year**, with a minimum annual total sum of 200 €.  
+The net price in EUR currently is **1.50 € per mailbox and year**, with a minimum total sum of 200 € net per licence period.  
 
 **Yes, that's right: Per year, not per month.**
 
