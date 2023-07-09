@@ -63,4 +63,4 @@ defaults:
       hero_image: "/assets/images/background, vietnam golden bridge.jpg"
       hero_height: is-small
       hero_darken: true
-      last_modified_at: {{  'now' }}
+      last_modified-at: <script>document.write((new Date()).toISOString())</script>
