@@ -4,7 +4,7 @@ on:
   push:
   schedule:
     # Set the schedule time
-    - cron: '15 */2 * * *'
+    - cron: '15 */6 * * *'
 
 jobs:
   check-and-submit:
