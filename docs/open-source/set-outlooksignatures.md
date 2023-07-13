@@ -18,6 +18,7 @@ redirect_from:
   - /open-source/benefactorcircle/
   - /open-source/benefactor-circle
   - /open-source/benefactor-circle/
+  - /support-for-open-source/set-outlooksignatures-benefactor-circle
 ---
 <!-- omit in toc -->
 ## <img src="/assets/images/set-outlooksignatures benefactor circle.png" style="height: 3em; object-fit:contain;" alt="Set-OutlookSignatures Benefactor Circle">
