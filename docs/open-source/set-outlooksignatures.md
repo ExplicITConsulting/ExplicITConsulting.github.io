@@ -3,6 +3,7 @@ layout: page
 title: Set-OutlookSignatures Benefactor Circle
 subtitle: Centrally manage and deploy Outlook text signatures and Out of Office auto reply messages
 description: Set-OutlookSignatures Benefactor Circle. Centrally manage and deploy Outlook text signatures and Out of Office auto reply messages.
+image: "/assets/images/set-outlooksignatures benefactor circle.png"
 redirect_from:
   - /opensource/set-outlooksignatures
   - /opensource/set-outlooksignatures/
