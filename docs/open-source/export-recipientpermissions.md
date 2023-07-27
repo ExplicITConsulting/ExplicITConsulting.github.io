@@ -16,6 +16,8 @@ Export-RecipientPermissions is the open-source tool of choice for documenting, f
 
 You can <a href="https://github.com/GruberMarkus/export-recipientpermissions" target="_blank">download</a> it for free from GitHub. **Read on to learn what ExplicIT offers on top.**
 
+<a href="mailto:welcome@explicitconsulting.at"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized offer</button></a>
+
 ## Features
 <div class="tile is-ancestor">
   <div class="tile is-6 is-vertical is-parent">
