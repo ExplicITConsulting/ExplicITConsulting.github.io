@@ -33,14 +33,14 @@ You can <a href="https://github.com/GruberMarkus/set-outlooksignatures" target="
 
 <!-- omit in toc -->
 ## Topics
-- [Feature overview](#feature-overview)
+- [Feature overview and demo video](#feature-overview-and-demo-video)
 - [Benefactor Circle exclusive features](#benefactor-circle-exclusive-features)
 - [Buying, extending and changing licences](#buying-extending-and-changing-licences)
 - [How licence groups work](#how-licence-groups-work)
 - [Licence and script version](#licence-and-script-version)
 - [Data protection notice](#data-protection-notice)
 
-## Feature overview
+## Feature overview and demo video
 **Signatures and OOF messages can be:**
 - Generated from **templates in DOCX or HTML** file format  
 - Customized with a **broad range of variables**, including **photos**, from Active Directory and other sources
@@ -73,6 +73,8 @@ Set-OutlookSignatures requires **no installation on servers or clients**. You on
 
 A **documented implementation approach**, based on real life experiences implementing the script in multi-client environments with a five-digit number of mailboxes, contains proven procedures and recommendations for product managers, architects, operations managers, account managers and e-mail and client administrators.  
 The implementatin approach is **suited for service providers as well as for clients**, and covers several general overview topics, administration, support, training across the whole lifecycle from counselling to tests, pilot operation and rollout up to daily business.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/RQGGp42Db3s" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Benefactor Circle exclusive features
 <div class="tile is-ancestor">
