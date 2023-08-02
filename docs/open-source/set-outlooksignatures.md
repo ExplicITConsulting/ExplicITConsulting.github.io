@@ -74,6 +74,7 @@ Set-OutlookSignatures requires **no installation on servers or clients**. You on
 A **documented implementation approach**, based on real life experiences implementing the script in multi-client environments with a five-digit number of mailboxes, contains proven procedures and recommendations for product managers, architects, operations managers, account managers and e-mail and client administrators.  
 The implementatin approach is **suited for service providers as well as for clients**, and covers several general overview topics, administration, support, training across the whole lifecycle from counselling to tests, pilot operation and rollout up to daily business.
 
+### Demo video <!-- omit in toc -->
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/K9TrCjTdRUI" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Benefactor Circle exclusive features
