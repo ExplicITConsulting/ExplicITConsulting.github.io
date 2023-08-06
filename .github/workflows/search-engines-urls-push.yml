@@ -20,8 +20,8 @@ jobs:
         site: ${{ secrets.SITE }}
         sitemap: ${{ secrets.SITEMAP }}
         bing-token: ${{ secrets.BING_TOKEN }}
-        #google-client-email: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
-        #google-private-key: ${{ secrets.GOOGLE_PRIVATE_KEY }}
+        google-client-email: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
+        google-private-key: ${{ secrets.GOOGLE_PRIVATE_KEY }}
     - name: bojieyang/indexnow-action@v1
       uses: bojieyang/indexnow-action@v1
       with:
