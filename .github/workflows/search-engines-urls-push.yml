@@ -26,4 +26,4 @@ jobs:
     #  uses: bojieyang/indexnow-action@v1
     #  with:
     #    sitemap-location: 'https://explicitconsulting.at/sitemap.xml'
-        key: ${{ secrets.INDEXNOW_KEY }}
+    #    key: ${{ secrets.INDEXNOW_KEY }}
