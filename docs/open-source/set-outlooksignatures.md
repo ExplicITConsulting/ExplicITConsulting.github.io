@@ -241,8 +241,8 @@ An example:
 - As the pilot is a success, the number of licenced mailboxes is raised to 7,500 in July 2023.
   - The licence period does not change, the licence is still valid from mid of April 2023 to mid of April 2024, of course with the higher number of mailboxes.
 - The added licences result in the following costs:
-  - Year 1 total cost of 9,437,50 €, consisting of
-    - Year 1 cost for 110 maiboxes for 12 months: max(200; 110 * 1.11) = 200.00 € net
+  - Year 1 total cost of 9,437.50 €, consisting of
+    - Year 1 cost for 110 mailboxes for 12 months: max(200; 110 * 1.50) = 200.00 € net
     - Year 1 additional maiboxes for 10 months (July 2023 to mid of April 2024): max(200; (7,500 - 110) * 1.50)/12*10 = 9,237.50 € net
     - When the price is not changing, the consecutive years will cost: max(200; 7,500 * 1,50) = 11,250.00 € net
 
