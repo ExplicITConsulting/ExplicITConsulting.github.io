@@ -142,13 +142,13 @@ The cost of the licence depends on the number of mailboxes:
 - Each mailbox in your environment, for which an exclusive feature shall be used, needs a licence. This includes shared mailboxes (one licence per shared mailbox, no matter how may users access it).  
 - The mailboxes do not need to be named, you just have to define at least one Active Directory or Graph group containing the mailboxes, and the maximum number of recursive members for each group.
 
-The net price in EUR currently is **1.50 € per mailbox and year**, with a minimum total sum of 100 € net per licence period.  
+The net price in EUR currently is **1.50 € per mailbox and year**, with a minimum total sum of 200 € net per licence period.  
 
 **Yes, that's right: Per year, not per month.**
 
-As long as a licence is valid, it includes prioritized ticket support and unlimited free upgrades.
+As long as a licence is valid, it includes prioritized ticket support and unlimited free version upgrades.
 
-As prices are subject to change, request [your personalized offer](#order-process-for-non-trial-versions) early.
+We work hard to keep our prices as low and stable as possible, with the aim of only having to adjust them for inflation. So, prices are subject to change. As you pay in advance, you can and will never be charged retrospectively - and if you want to add more mailboxes during an active licencing period, you will only be charged the initial price of your current licence period for these additional mailboxes (and this only for the remaining months of your current licence period), even if the price was raised in the meantime.
 
 Support may be chargeable. This includes workshops, implementation support, all forms of remote or on-site outsourcing, support for topics already well-explained in the documentation and support for problems with the root cause outside of Set-OutlookSignatures or Set-OutlookSignatures Benefactor Circle.
 <!-- omit in toc -->
@@ -238,15 +238,15 @@ When adding licences during a licence period, you only pay for the new mailboxes
 The new payment does not extend the existing licence period, but it increases the number of licenced mailboxes in it.
 
 An example:
-- You start a pilot with 110 mailboxes in mid of April 2023. The licence is valid until mid of April 2024, with the following cost:
-    max(100; 110 * 1.50) = 165.00 € net
+- After a trial with 20 mailboxes, you start a pilot with 110 mailboxes in mid of April 2023. The licence is valid until mid of April 2024, with the following cost:
+    max(200; 110 * 1.50) = 200.00 € net
 - As the pilot is a success, the number of licenced mailboxes is raised to 7,500 in July 2023.
   - The licence period does not change, the licence is still valid from mid of April 2023 to mid of April 2024, of course with the higher number of mailboxes.
 - The added licences result in the following costs:
-  - Year 1 total cost of 9,402.50 €, consisting of
-    - Year 1 cost for 110 mailboxes for 12 months: max(100; 110 * 1.50) = 165.00 € net
-    - Year 1 additional maiboxes for 10 months (July 2023 to mid of April 2024): max(100; (7,500 - 110) * 1.50)/12*10 = 9,237.50 € net
-    - When the price is not changing, the consecutive years will cost: max(100; 7,500 * 1,50) = 11,250.00 € net
+  - Year 1 total cost of 9,437.50 €, consisting of
+    - Year 1 cost for 110 mailboxes for 12 months: max(200; 110 * 1.50) = 200.00 € net
+    - Year 1 additional maiboxes for 10 months (July 2023 to mid of April 2024): max(200; (7,500 - 110) * 1.50)/12*10 = 9,237.50 € net
+    - As long as the price is not changing, the consecutive years will cost: max(200; 7,500 * 1,50) = 11,250.00 € net
 
 ## How licence groups work
 Each Benefactor Circle licence is bound to one or more Active Directory or Azure AD groups.
