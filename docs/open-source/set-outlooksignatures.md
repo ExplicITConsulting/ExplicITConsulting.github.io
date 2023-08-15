@@ -77,7 +77,7 @@ The implementatin approach is **suited for service providers as well as for clie
 
 ### Demo video
 <figure class="image is-16by9">
-<iframe class="has-ratio" height="auto" width="auto" src="https://www.youtube-nocookie.com/embed/K9TrCjTdRUI" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe class="has-ratio" width="560" height="315" src="https://www.youtube-nocookie.com/embed/K9TrCjTdRUI" title="Set-OutlookSignatures Benefactor Circle demo video" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </figure>
 
 ## Benefactor Circle exclusive features
