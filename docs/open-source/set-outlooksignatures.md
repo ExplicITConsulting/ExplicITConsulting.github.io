@@ -76,7 +76,7 @@ A **documented implementation approach**, based on real life experiences impleme
 The implementatin approach is **suited for service providers as well as for clients**, and covers several general overview topics, administration, support, training across the whole lifecycle from counselling to tests, pilot operation and rollout up to daily business.
 
 ### Demo video
-<iframe height="6em" src="https://www.youtube-nocookie.com/embed/K9TrCjTdRUI" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe height="auto" width="auto" src="https://www.youtube-nocookie.com/embed/K9TrCjTdRUI" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Benefactor Circle exclusive features
 <div class="tile is-ancestor">
