@@ -169,17 +169,8 @@ You may want to start with a 30-day trial licence.
 The Benefactor Circle add-on extends the feature set of the free and open-source core version of Set-OutlookSignatures, so make sure that the core version is working correctly before requesting a trial version.  
 If you look for help implementing the free and open-source core version of Set-OutlookSignatures, we are happy to walk you through the process step-by-step in your own environment as part of our fee-based support.
 
-Just fill and submit the following form to request a trial version of Set-OutlookSignatures Benefactor Circle:
-<details style="padding-left:2em;">
-  <summary>
-    Click here to request a trial version of Set-OutlookSignatures Benefactor Circle
-  </summary>
-  <div>
-    <iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=PqfArOdCw0eyCRTiHT8C5lNqi8DgmuRDrQluQ3SOBbhUNDlMTDZEVjVKQ1NXR1FJTFQ1Rzk5NUJIOC4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-  </div>
-</details>
-<p>
-</p>
+Just fill in and submit the <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank">trial request form</a> to request a trial version of Set-OutlookSignatures Benefactor Circle.
+
 The form collects the following information:
 - Company name and full address
 - The VAT number of your company
@@ -208,7 +199,9 @@ To use the licence file, just add two parameters to your call of Set-OutlookSign
 Trial licences can not be extended or re-issued. They are limited to 30 days runtime and a maximum of 20 mailboxes.
 
 ### Order process for non-trial versions
-Just send a request for quotation via e-mail to [Set-OutlookSignatures@explicitconsulting.at](mailto:Set-OutlookSignatures@explicitconsulting.at), containing the following information:
+Just fill in and submit the <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank">offer request form</a> to request an individualized offer for Set-OutlookSignatures Benefactor Circle.
+
+The form collects the following information:
 - Company name and full address
 - The VAT number of your company
 - Contact e-mail addresses
