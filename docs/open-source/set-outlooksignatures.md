@@ -176,11 +176,12 @@ Just fill and submit the following form to request a trial version of Set-Outloo
     Request a trial version of Set-OutlookSignatures Benefactor Circle
   </summary>
   <p>
-    <iframe width="640px" height="480px" src="https://forms.office.com/r/sgKrkkd0Eb?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen>
+    <iframe align="middle" src="https://forms.office.com/r/sgKrkkd0Eb?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen>
     </iframe>
   </p>
 </details>
-
+<p>
+</p>
 The form collects the following information:
 - Company name and full address
 - The VAT number of your company
