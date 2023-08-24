@@ -175,7 +175,7 @@ To request a trial version, just send an [e-mail to Set-OutlookSignatures@explic
 - Contact e-mail addresses for receiving the download link for the licence file, updates and other non invoice related information
 - List of licence groups and maximum members in the following format (see '[How licence groups work](#how-licence-groups-work)' for details):
   - DNS domain name of the Active Directory domain (not the e-mail domain) the licence group is in.
-    -Use 'AzureAD' if the group only exists in Azure Active Directory and is not synced to on-prem. Only one pure Azure AD group is supported, it must be the group with the highest priority (first list entry).
+    - Use 'AzureAD' if the group only exists in Azure Active Directory and is not synced to on-prem. Only one pure Azure AD group is supported, it must be the group with the highest priority (first list entry).
   - Security identifier (SID) of the group, as string in the "S-[...]" format
   - If multiple licence groups are defined, designate one of these groups as default or fallback group. For details, see '[How licence groups work](#how-licence-groups-work)'.
 - Confirmation that:
@@ -205,7 +205,7 @@ Just send a request for quotation via e-mail to [Set-OutlookSignatures@explicitc
   - At least one for receiving the download link for the licence file, updates and other non invoice related information
 - List of licence groups and maximum members in the following format (see '[How licence groups work](#how-do-licence-groups-work)' for details):
   - DNS domain name of the Active Directory Domain the group is in.
-    -Use 'AzureAD' if the group only exists in Azure Active Directory and is not synced to on-prem. Only one pure Azure AD group is supported, it must be the group with the highest priority (first list entry).
+    - Use 'AzureAD' if the group only exists in Azure Active Directory and is not synced to on-prem. Only one pure Azure AD group is supported, it must be the group with the highest priority (first list entry).
   - SID (security identifier) of the group, as string in the "S-[...]" format
   - Maximum number of recursive members in the group (add a buffer for future growth)
   - If multiple licence groups are defined, designate one of these groups as default or fallback group. For details, see 'How do licence groups work?' later in this document.
