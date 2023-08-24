@@ -169,15 +169,12 @@ You may want to start with a 30-day trial licence.
 The Benefactor Circle add-on extends the feature set of the free and open-source core version of Set-OutlookSignatures, so make sure that the core version is working correctly before requesting a trial version.  
 If you look for help implementing the free and open-source core version of Set-OutlookSignatures, we are happy to walk you through the process step-by-step in your own environment as part of our fee-based support.
 
-Just fill and submit the following form to request a trial version of Set-OutlookSignatures Benefactor Circle.
-
-<details>
+Just fill and submit the following form to request a trial version of Set-OutlookSignatures Benefactor Circle:
+<details style="padding-left:2em;">
   <summary>
-    <strong>Request a trial version of Set-OutlookSignatures Benefactor Circle</strong>
+    Click here to request a trial version of Set-OutlookSignatures Benefactor Circle
   </summary>
-  <p>
-  <iframe width="640" height="480" src="https://forms.office.com/Pages/ResponsePage.aspx?id=PqfArOdCw0eyCRTiHT8C5lNqi8DgmuRDrQluQ3SOBbhUNDlMTDZEVjVKQ1NXR1FJTFQ1Rzk5NUJIOC4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; height:100vh; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-  </p>
+  <iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=PqfArOdCw0eyCRTiHT8C5lNqi8DgmuRDrQluQ3SOBbhUNDlMTDZEVjVKQ1NXR1FJTFQ1Rzk5NUJIOC4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
 </details>
 <p>
 </p>
