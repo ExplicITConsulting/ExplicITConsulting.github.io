@@ -176,7 +176,7 @@ Just fill and submit the following form to request a trial version of Set-Outloo
     <strong>Request a trial version of Set-OutlookSignatures Benefactor Circle</strong>
   </summary>
   <p>
-    <iframe width="640px" height="480px" src="https://forms.office.com/r/sgKrkkd0Eb?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh; float:middle;" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen>
+    <iframe width="640px" height="480px" src="https://forms.office.com/r/sgKrkkd0Eb?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh; padding-left:2em;" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen>
     </iframe>
   </p>
 </details>
