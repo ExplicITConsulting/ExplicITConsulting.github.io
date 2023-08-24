@@ -169,7 +169,19 @@ You may want to start with a 30-day trial licence.
 The Benefactor Circle add-on extends the feature set of the free and open-source core version of Set-OutlookSignatures, so make sure that the core version is working correctly before requesting a trial version.  
 If you look for help implementing the free and open-source core version of Set-OutlookSignatures, we are happy to walk you through the process step-by-step in your own environment as part of our fee-based support.
 
-To request a trial version, just send an [e-mail to Set-OutlookSignatures@explicitconsulting.at](mailto:Set-OutlookSignatures@explicitconsulting.at), containing the following information:
+Just fill and submit the following form to request a trial version of Set-OutlookSignatures Benefactor Circle.
+
+<details>
+  <summary>
+    Request a trial version of Set-OutlookSignatures Benefactor Circle
+  </summary>
+  <p>
+    <iframe width="640px" height="480px" src="https://forms.office.com/r/sgKrkkd0Eb?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen>
+    </iframe>
+  </p>
+</details>
+
+The form collects the following information:
 - Company name and full address
 - The VAT number of your company
 - Contact e-mail addresses for receiving the download link for the licence file, updates and other non invoice related information
