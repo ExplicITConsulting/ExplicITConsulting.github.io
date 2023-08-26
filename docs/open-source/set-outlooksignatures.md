@@ -28,7 +28,7 @@ Set-OutlookSignatures is the gold standard in open-source software for centrally
 Download the free and open-source core version from <a href="https://github.com/GruberMarkus/set-outlooksignatures" target="_blank">GitHub</a> for free. **ExplicIT's Benefactor Circle add-on enhances the core version with a great set of additional features and commercial support.**
 
 <a href="#trial-version"><button class="button is-link is-normal is-responsive is-hover">Request a trial version</button></a>
-<a href="mailto:set-outlooksignatures@explicitconsulting.at"><button class="button is-link is-normal is-responsive is-hover">Contact the Set-OutlookSignatures Benefactor Circle team via e-mail</button></a>
+<a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact the Set-OutlookSignatures Benefactor Circle team</button></a>
 
 <!-- omit in toc -->
 ## Topics
