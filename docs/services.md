@@ -18,7 +18,7 @@ Where we cannot help well enough ourselves, our specialised partners fill the ga
 
 Our select group of consultants and partners have followed these principles for more than two decades, and will continue to do so in the future.  
 
-<a href="mailto:welcome@explicitconsulting.at"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized offer</button></a>
+<a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized offer</button></a>
 
 ## Gaps we can bridge for you
 <div class="tile is-ancestor">
