@@ -180,12 +180,6 @@ The form collects the following information:
     - Use 'AzureAD' if the group only exists in Azure Active Directory and is not synced to on-prem. Only one pure Azure AD group is supported, it must be the group with the highest priority (first list entry).
   - Security identifier (SID) of the group, as string in the "S-[...]" format
   - If multiple licence groups are defined, designate one of these groups as default or fallback group. For details, see '[How licence groups work](#how-licence-groups-work)'.
-- Confirmation that:
-  - All the technicians and content managers involved in the test have read and understood the general documentation ("README") of the Set-OutlookSignatures open-source version available at https://github.com/GruberMarkus/Set-OutlookSignatures
-  - The open-source version of Set-OutlookSignatures has already been successfully implemented, as this is a requirement for the Benefactor Circe add-on
-  - All the technicians and content managers involved in the test have read and understood the Benefactor Circle specific documentation available at https://explicitconsulting.at/open-source/set-outlooksignatures
-  - Everyone involved in the pilot is aware that support may be chargeable. This includes workshops, implementation support, all forms of remote or on site outsourcing, support for topics already well-explained in the documentation and support for problems with the root cause outside of Set-OutlookSignatures or Set-OutlookSignatures Benefactor Circle.
-  - You have read and accept the general terms and conditions available at https://explicitconsulting.at/legal 
 
 The licence file contains the following information:
 - Invoice address of the Benefactor Circle member
@@ -199,7 +193,7 @@ To use the licence file, just add two parameters to your call of Set-OutlookSign
 Trial licences can not be extended or re-issued. They are limited to 30 days runtime and a maximum of 20 mailboxes.
 
 ### Order process for non-trial versions
-<strong>> Just fill in and submit the <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank">offer request form</a> to request an individualized offer for Set-OutlookSignatures Benefactor Circle.</strong>
+<strong>> Just fill in and submit the <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank">licence offer request form</a> to request an individualized offer for Set-OutlookSignatures Benefactor Circle licences.</strong>
 
 The form collects the following information:
 - Company name and full address
