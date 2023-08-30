@@ -29,4 +29,6 @@ redirect_from:
   - /home
   - /home/
 ---
-Welcome! Use the menus and links above and below to navigate through the site.
+**Welcome to ExplicIT Consulting!**
+
+Use the menus and links above and below to navigate through the site and discover our content.
