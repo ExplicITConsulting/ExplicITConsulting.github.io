@@ -93,7 +93,7 @@ The implementatin approach is **suited for service providers as well as for clie
 ## Benefactor Circle exclusive features
 <div class="tile is-ancestor">
   <div class="tile is-6 is-vertical is-parent">
-    <div class="tile is-child box">
+    <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Script features</h3>
         <ul>
@@ -109,7 +109,7 @@ The implementatin approach is **suited for service providers as well as for clie
         </ul>
       </div>
     </div>
-    <div class="tile is-child box">
+    <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Sample code</h3>
         <ul>
@@ -120,7 +120,7 @@ The implementatin approach is **suited for service providers as well as for clie
     </div>
   </div>
   <div class="tile is-6 is-vertical is-parent">
-    <div class="tile is-child box">
+    <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Prioritized support and feature requests</h3>
         <ul>
@@ -131,7 +131,7 @@ The implementatin approach is **suited for service providers as well as for clie
         </ul>
       </div>
     </div>
-    <div class="tile is-child box">
+    <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Additional documentation: Implementation approach</h3>
         <ul>

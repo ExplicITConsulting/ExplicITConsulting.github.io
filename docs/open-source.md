@@ -12,13 +12,13 @@ redirect_from:
 
 <div class="tile is-ancestor">
   <div class="tile is-6 is-vertical is-parent">
-    <div class="tile is-child box">
+    <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Commercial support</h3>
         <p>We offer commercial support for select open-source software, such as for <a href="/open-source/export-recipientpermissions">Export-RecipientPermissions</a>.</p>
       </div>
     </div>
-    <div class="tile is-child box">
+    <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Add-on development</h3>
         <p>We develop private and commercial add-ons for open-source software, for example the <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures Benefactor Circle</a> add-on.</p>
@@ -26,7 +26,7 @@ redirect_from:
     </div>
   </div>
   <div class="tile is-6 is-vertical is-parent">
-    <div class="tile is-child box">
+    <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Sponsoring</h3>
         <p>We sponsor select open-source software and donate code. Some examples:</p>
@@ -42,7 +42,7 @@ redirect_from:
   </div>
 </div>
 <div class="tile is-parent">
-  <div class="tile is-child box">
+  <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
     <div class="content">
       <h3>Dear businesses,</h3>
       <p>Open-Source Software can save you enormous amounts of money in comparison to commercial software.</p>
