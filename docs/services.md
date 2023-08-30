@@ -36,11 +36,11 @@ Our select group of consultants and partners have followed these principles for 
         <h3>Program and Portfolio Management</h3>
         <ul>
           <li>Implement, assess and optimize program and portfolio management structures - from hands-on quick wins to establishing a PMO</li>
-          <li>Establishing project portfolio management principles</li>
+          <li>Establish project portfolio management principles</li>
           <li>Lead and govern programs and project portfolios</li>
           <li>Define and monitor entry and filter criteria</li>
           <li>Create courses of action and bring them to a decision</li>
-          <li>Steering the portfolio to ensure support for strategic objectives and proper prioritisation, and providing input to senior leadership</li>
+          <li>Steer the portfolio to ensure support for strategic objectives and proper prioritisation, and provide input to senior leadership</li>
           <li>Project recovery and turnaround</li>
         </ul>
       </div>
@@ -50,7 +50,7 @@ Our select group of consultants and partners have followed these principles for 
         <h3>Technics and Technology Consulting</h3>
         <ul>
           <li>Feasibility studies regarding the introduction of new technologies and systems</li>
-          <li>Counselling and coaching the C-level and IT management on new technologies</li>
+          <li>Counsel and coach the C-level and IT management on new technologies</li>
           <li>Support with specific technical issues and root cause analysis, especially for Microsoft on-premise and cloud technology</li>
         </ul>
       </div>
@@ -65,7 +65,7 @@ Our select group of consultants and partners have followed these principles for 
           <li>Conduct market research and identify customer needs, develop a roadmap and a backlog</li>
           <li>Interface to customers, marketing, sales and management</li>
           <li>Coordinate cross-functional teams across the whole lifecycle of the product or service</li>
-          <li>Establishing proactive IT lifecycle management</li>
+          <li>Establish proactive IT lifecycle management</li>
           <li>Cost management, budget planning, change management</li>
           <li>Ongoing service analysis and assurance of defined Service Level Agreements (SLA)</li>
         </ul>
@@ -88,7 +88,7 @@ Our select group of consultants and partners have followed these principles for 
         <h3>Auditing</h3>
         <ul>
           <li>Internal ISO 27001 audit</li>
-          <li>Preparation and hosting of external audits of all kinds, especially according to ISO 27001</li>
+          <li>Prepare and host external audits of all kinds, especially according to ISO 27001</li>
         </ul>
       </div>
     </div>
