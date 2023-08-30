@@ -20,7 +20,7 @@ subtitle: |
     &nbsp;
   </p>
 
-<p class="subtitle is-3" style="margin-left:1em;">
+  <p class="subtitle is-3" style="margin-left:1em;">
     <strong><a href="/services/">> Which gap can we bridge for you?</a></strong>
   </p>
 
