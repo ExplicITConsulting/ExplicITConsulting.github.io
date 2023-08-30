@@ -29,7 +29,7 @@ redirect_from:
     <div class="tile is-child box">
       <div class="content">
         <h3>Sponsoring</h3>
-        <p>We sponsor selected open-source software and donate code. Some examples:</p>
+        <p>We sponsor select open-source software and donate code. Some examples:</p>
         <ul>
           <li><a href="https://github.com/EventGhost/EventGhost/" target="_blank">EventGhost</a></li>
           <li><a href="https://github.com/microsoft/Microsoft365DSC" target="_blank">Microsoft365DSC</a></li>
