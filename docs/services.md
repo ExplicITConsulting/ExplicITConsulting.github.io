@@ -21,7 +21,7 @@ Our select group of consultants and partners have followed these principles for 
 ## Gaps we can bridge for you
 <div class="tile is-ancestor">
   <div class="tile is-6 is-vertical is-parent">
-    <div class="tile is-child box">
+    <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Support for Open-Source</h3>
         <ul>
@@ -31,7 +31,7 @@ Our select group of consultants and partners have followed these principles for 
         </ul>
       </div>
     </div>
-    <div class="tile is-child box">
+    <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Program and Portfolio Management</h3>
         <ul>
@@ -45,7 +45,7 @@ Our select group of consultants and partners have followed these principles for 
         </ul>
       </div>
     </div>
-    <div class="tile is-child box">
+    <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Technics and Technology Consulting</h3>
         <ul>
@@ -57,7 +57,7 @@ Our select group of consultants and partners have followed these principles for 
     </div>
   </div>
   <div class="tile is-6 is-vertical is-parent">
-    <div class="tile is-child box">
+    <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Product and Service Management</h3>
         <ul>
@@ -71,7 +71,7 @@ Our select group of consultants and partners have followed these principles for 
         </ul>
       </div>
     </div>
-    <div class="tile is-child box">
+    <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Digital Advisory</h3>
         <ul>
@@ -83,7 +83,7 @@ Our select group of consultants and partners have followed these principles for 
         </ul>
       </div>
     </div>
-    <div class="tile is-child box">
+    <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Auditing</h3>
         <ul>
