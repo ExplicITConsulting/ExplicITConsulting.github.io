@@ -19,8 +19,6 @@ Where we cannot help well enough ourselves, our specialised partners fill the ga
 Our select group of consultants and partners have followed these principles for more than two decades, and will continue to do so in the future.
 
 ## Gaps we can bridge for you
-<a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized offer</button></a>
-
 <div class="tile is-ancestor">
   <div class="tile is-6 is-vertical is-parent">
     <div class="tile is-child box">
@@ -96,3 +94,5 @@ Our select group of consultants and partners have followed these principles for 
     </div>
   </div>
 </div>
+
+<a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized offer</button></a>
