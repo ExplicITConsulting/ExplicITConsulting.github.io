@@ -25,7 +25,7 @@ Our select group of consultants and partners have followed these principles for 
       <div class="content">
         <h3>Support for Open-Source</h3>
         <ul>
-          <li>We sponsor selected open-source software and donate code.</li>
+          <li>We sponsor select open-source software and donate code.</li>
           <li>We offer commercial support for select open-source software, such as for <a href="/open-source/export-recipientpermissions">Export-RecipientPermissions</a>.</li>
           <li>We develop private and commercial add-ons for open-source software, for example the <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures Benefactor Circle</a> add-on. </li>
         </ul>
