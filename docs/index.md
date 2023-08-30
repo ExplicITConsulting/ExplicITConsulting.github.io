@@ -1,6 +1,6 @@
 ---
 layout: page
-title: '<img src="/assets/images/explicit consulting, color on transparent, company and slogan.png" alt="ExplicIT Consulting. We bridge the gap." style="height: 4em; object-fit: contain; margin-left.-0.25em;"><!--ExplicIT Consulting. We bridge the gap.-->'
+title: '<img src="/assets/images/explicit consulting, color on transparent, company and slogan.png" alt="ExplicIT Consulting. We bridge the gap." style="height: 4em; object-fit: contain; margin-left:-0.25em; margin-bottom:1em;"><!--ExplicIT Consulting. We bridge the gap.-->'
 subtitle: |
   <p class="subtitle is-3" style="margin-bottom:0.3em">
     ExplicIT stands for specific, clear and detailed IT consulting.
