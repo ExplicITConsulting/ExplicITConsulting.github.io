@@ -29,5 +29,3 @@ redirect_from:
   - /home
   - /home/
 ---
-We do not use any cookies or external analytics tools, so you do not have to provide consent or set a configuration. See our privacy notice <a href="/legal">here</a>.
-</article>
