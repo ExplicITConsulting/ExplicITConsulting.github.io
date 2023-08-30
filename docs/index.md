@@ -1,24 +1,24 @@
 ---
 layout: page
-title: '<img src="/assets/images/explicit consulting, color on transparent, company and slogan.png" alt="ExplicIT Consulting. We bridge the gap." style="height: 4em; object-fit: contain;"><!--ExplicIT Consulting. We bridge the gap.-->'
+title: '<img src="/assets/images/explicit consulting, color on transparent, company and slogan.png" alt="ExplicIT Consulting. We bridge the gap." style="height: 4em; object-fit: contain; margin-left.-0.25em;"><!--ExplicIT Consulting. We bridge the gap.-->'
 subtitle: |
-  <p class="subtitle is-3" style="margin-bottom:0.3em; margin-left:0.25em;">
+  <p class="subtitle is-3" style="margin-bottom:0.3em">
     ExplicIT stands for specific, clear and detailed IT consulting.
   </p>
 
-  <p class="subtitle is-3" style="margin-bottom:0.3em; margin-top:0.3em; margin-left:0.25em;">
+  <p class="subtitle is-3" style="margin-bottom:0.3em; margin-top:0.3em">
     Bold and future-oriented, always realistic and without steam talk.
   </p>
 
-  <p class="subtitle is-3" style="margin-top:0.3em; margin-left:0.25em;">
+  <p class="subtitle is-3" style="margin-top:0.3em;">
     We bridge gaps, with our heads in the sky and our feet firmly on the ground.
   </p>
 
-  <p class="subtitle is-3" style="margin-top:1.5em; margin-left:0.25em;">
+  <p class="subtitle is-3" style="margin-top:1.5em;">
     <strong><a href="/services/">> Which gap can we bridge for you?</a></strong>
   </p>
 
-  <p class="subtitle is-3" style="margin-left:0.25em;">
+  <p class="subtitle is-3" style="">
     <strong><a href="/open-source/set-outlooksignatures/">> Set-OutlookSignatures Benefactor Circle</a></strong>
   </p>
 hero_image: "/assets/images/background, vietnam golden bridge.jpg"
