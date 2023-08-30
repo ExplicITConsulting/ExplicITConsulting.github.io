@@ -95,4 +95,5 @@ Our select group of consultants and partners have followed these principles for 
   </div>
 </div>
 
+## Contact us
 <a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized offer</button></a>
