@@ -29,6 +29,18 @@ redirect_from:
   - /home
   - /home/
 ---
-**Welcome to ExplicIT Consulting!**
+## Welcome to ExplicIT Consulting!
+Use the menus and links above and below to navigate through our site and discover its content.
 
-Use the menus and links above and below to navigate through the site and discover our content.
+{% if site.data.navigation %}
+  {% for item in site.data.navigation %}
+    {% if item.dropdown %}
+      <a href="{{ item.link | relative_url }}" class="navbar-link {% if page.url contains item.link %}is-active{% endif %}">{{ item.name }}</a>
+      {% for subitem in item.dropdown %}
+        <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
+      {% endfor %}
+    {% else %}
+      <a href="{{ item.link | relative_url }}" class="navbar-item {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
+    {% endif %}
+  {% endfor %}
+{% endif %}
