@@ -30,8 +30,8 @@ redirect_from:
   - /home/
 ---
 ## Welcome to ExplicIT Consulting!
-Use the menus and links above and below to navigate through our site and discover its content.
 <div>
+  <a href="{{ site.baseurl }}/">Home</a><br>
   {% if site.data.navigation %}
     {% for item in site.data.navigation %}
       {% if item.dropdown %}
