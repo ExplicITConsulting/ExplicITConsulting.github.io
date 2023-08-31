@@ -44,5 +44,5 @@ Use the menus and links above and below to navigate through our site and discove
       {% endif %}
     {% endfor %}
   {% endif %}
-  <a class="navbar-item" href="/search"><span class="icon"><i class="fas fa-search"></i></span><span>Search</span></a>
+  <a href="/search"><span class="icon"><i class="fas fa-search"></i></span><span>Search</span></a>
 </div>
