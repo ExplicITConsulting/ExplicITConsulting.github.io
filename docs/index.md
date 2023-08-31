@@ -35,12 +35,12 @@ Use the menus and links above and below to navigate through our site and discove
   {% if site.data.navigation %}
     {% for item in site.data.navigation %}
       {% if item.dropdown %}
-        <a href="{{ item.link | relative_url }}">{{ item.name }}</a>
+        <a href="{{ item.link | relative_url }}">{{ item.name }}</a><br>
         {% for subitem in item.dropdown %}
-          &nbsp;&nbsp;<a href="{{ subitem.link | relative_url }}">{{ subitem.name }}</a>
+          &nbsp;&nbsp;<a href="{{ subitem.link | relative_url }}">{{ subitem.name }}</a><br>
         {% endfor %}
       {% else %}
-        <a href="{{ item.link | relative_url }}">{{ item.name }}</a>
+        <a href="{{ item.link | relative_url }}">{{ item.name }}</a><br>
       {% endif %}
     {% endfor %}
   {% endif %}
