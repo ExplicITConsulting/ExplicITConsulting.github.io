@@ -33,14 +33,16 @@ redirect_from:
 Use the menus and links above and below to navigate through our site and discover its content.
 
 {% if site.data.navigation %}
+  <ul>
   {% for item in site.data.navigation %}
     {% if item.dropdown %}
-      <a href="{{ item.link | relative_url }}" class="navbar-link {% if page.url contains item.link %}is-active{% endif %}">{{ item.name }}</a>
+      <li><a href="{{ item.link | relative_url }}">{{ item.name }}</a></li>
       {% for subitem in item.dropdown %}
-        <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
+        <ul><li><a href="{{ subitem.link | relative_url }}">{{ subitem.name }}</a></li></ul>
       {% endfor %}
     {% else %}
-      <a href="{{ item.link | relative_url }}" class="navbar-item {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
+      <li><a href="{{ item.link | relative_url }}">{{ item.name }}</a></li>
     {% endif %}
   {% endfor %}
+  </ul>
 {% endif %}
