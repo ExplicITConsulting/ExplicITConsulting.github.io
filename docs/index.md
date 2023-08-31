@@ -31,17 +31,18 @@ redirect_from:
 ---
 ## Welcome to ExplicIT Consulting!
 Use the menus and links above and below to navigate through our site and discover its content.
-
-{% if site.data.navigation %}
-  {% for item in site.data.navigation %}
-    {% if item.dropdown %}
-      <a href="{{ item.link | relative_url }}">{{ item.name }}</a>
-      {% for subitem in item.dropdown %}
-        &nbsp;&nbsp;<a href="{{ subitem.link | relative_url }}">{{ subitem.name }}</a>
-      {% endfor %}
-    {% else %}
-      <a href="{{ item.link | relative_url }}">{{ item.name }}</a>
-    {% endif %}
-  {% endfor %}
-{% endif %}
-<a class="navbar-item" href="/search"><span class="icon"><i class="fas fa-search"></i></span><span>Search</span></a>
+<div>
+  {% if site.data.navigation %}
+    {% for item in site.data.navigation %}
+      {% if item.dropdown %}
+        <a href="{{ item.link | relative_url }}">{{ item.name }}</a>
+        {% for subitem in item.dropdown %}
+          &nbsp;&nbsp;<a href="{{ subitem.link | relative_url }}">{{ subitem.name }}</a>
+        {% endfor %}
+      {% else %}
+        <a href="{{ item.link | relative_url }}">{{ item.name }}</a>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+  <a class="navbar-item" href="/search"><span class="icon"><i class="fas fa-search"></i></span><span>Search</span></a>
+</div>
