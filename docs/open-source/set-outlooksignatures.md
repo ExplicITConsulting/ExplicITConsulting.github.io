@@ -52,7 +52,7 @@ E-mail signatures and Out of Office auto reply messages are an integral part of 
 
 Besides the design and texting, one must also think about their central administration and distribution. This ensures compliance with CI/CD guidelines, guarantees the use of correct and up-to-date data, helps with legal compliance, relieves staff and opens up an additional marketing channel.
 
-**With Set-OutlookSignatures, Signatures and Out of Office auto reply messages can be:**
+**With Set-OutlookSignatures, signatures and Out of Office auto reply messages can be:**
 - Generated from **templates in DOCX or HTML** file format  
 - Customized with a **broad range of variables**, including **photos**, from Active Directory and other sources
   - Variables are available for the **currently logged-on user, this user's manager, each mailbox and each mailbox's manager**
