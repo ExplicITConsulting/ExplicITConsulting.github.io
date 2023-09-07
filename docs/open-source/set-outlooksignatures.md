@@ -32,8 +32,8 @@ Download the free and open-source core version from <a href="https://github.com/
 
 <!-- omit in toc -->
 ## Topics
-- [Feature overview and demo video](#feature-overview-and-demo-video)
-  - [Demo video](#demo-video)
+- [Overview and features](#overview-and-features)
+- [Demo video](#demo-video)
 - [Benefactor Circle exclusive features](#benefactor-circle-exclusive-features)
 - [Buying, extending and changing licences](#buying-extending-and-changing-licences)
   - [Price and general information](#price-and-general-information)
@@ -47,8 +47,12 @@ Download the free and open-source core version from <a href="https://github.com/
 - [Licence and script version](#licence-and-script-version)
 - [Data protection notice](#data-protection-notice)
 
-## Feature overview and demo video
-**Signatures and OOF messages can be:**
+## Overview and features
+E-mail signatures and Out of Office auto reply messages are an integral part of corporate identity and corporate design, but also of successful media and internet presence concepts and marketing campaigns.
+
+Besides the design and texting, one must also think about their central administration and distribution. This ensures compliance with CI/CD guidelines, guarantees the use of correct and up-to-date data, helps with legal compliance, relieves staff and opens up an additional marketing channel.
+
+**With Set-OutlookSignatures, Signatures and Out of Office auto reply messages can be:**
 - Generated from **templates in DOCX or HTML** file format  
 - Customized with a **broad range of variables**, including **photos**, from Active Directory and other sources
   - Variables are available for the **currently logged-on user, this user's manager, each mailbox and each mailbox's manager**
@@ -58,13 +62,12 @@ Download the free and open-source core version from <a href="https://github.com/
 - Assigned **time ranges** within which they are valid  
 - Set as **default signature** for new e-mails, or for replies and forwards (signatures only)  
 - Set as **default OOF message** for internal or external recipients (OOF messages only)  
-- Set in **Outlook Web** for the currently logged-in user  
+- Set in **Outlook Web** for the currently logged-in user, including mirroring signatures the the cloud as **roaming signatures**  
 - Centrally managed only or **exist along user created signatures** (signatures only)  
 - Copied to an **alternate path** for easy access on mobile devices not directly supported by this script (signatures only)
 - **Write protected** (Outlook signatures only)
-- Mirrored to the cloud as **roaming signatures**
 
-Set-OutlookSignatures can be **executed by users on clients, or on a server without end user interaction**.  
+Set-OutlookSignatures can be **executed by users on clients and terminal servers, or on a central server without end user interaction**.  
 On clients, it can run as part of the logon script, as scheduled task, or on user demand via a desktop icon, start menu entry, link or any other way of starting a program.  
 Signatures and OOF messages can also be created and deployed centrally, without end user or client involvement.
 
@@ -76,12 +79,12 @@ The script is **designed to work in big and complex environments** (Exchange res
 
 It is **multi-client capable** by using different template paths, configuration files and script parameters.
 
-Set-OutlookSignatures requires **no installation on servers or clients**. You only need a standard file share on a server, and PowerShell and Office. 
+Set-OutlookSignatures requires **no installation on servers or clients**. You only need a standard SMB file share on a central system, and Office on your clients. 
 
 A **documented implementation approach**, based on real life experiences implementing the script in multi-client environments with a five-digit number of mailboxes, contains proven procedures and recommendations for product managers, architects, operations managers, account managers and e-mail and client administrators.  
-The implementatin approach is **suited for service providers as well as for clients**, and covers several general overview topics, administration, support, training across the whole lifecycle from counselling to tests, pilot operation and rollout up to daily business.
+The implementation approach is **suited for service providers as well as for clients**, and covers several general overview topics, administration, support, training across the whole lifecycle from counselling to tests, pilot operation and rollout up to daily business.
 
-### Demo video
+## Demo video
 <div class="columns">
   <div class="column is-half">
     <figure class="image is-16by9">
