@@ -14,7 +14,7 @@ url                      : "https://explicitconsulting.at" # the base hostname &
 site.url                 : "https://explicitconsulting.at" # the base hostname & protocol for your site
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ExplicITConsulting/ExplicITConsulting.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-favicon                  : "/assets/images/explicit consulting, color on black, bridge only, 800x800.png"
+favicon                  : "/assets/images/explicit consulting, color on black, favicon.png"
 
 # SEO Related
 google_site_verification :
