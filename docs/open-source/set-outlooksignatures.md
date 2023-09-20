@@ -57,7 +57,7 @@ Besides the design and texting, one must also think about their central administ
 - Customized with a **broad range of variables**, including **photos**, from Active Directory and other sources
   - Variables are available for the **currently logged-on user, this user's manager, each mailbox and each mailbox's manager**
   - Images in signatures can be **bound to the existence of certain variables** (useful for optional social network icons, for example)
-- Applied to all **mailboxes (including shared mailboxes)**, specific **mailbox groups**, specific **e-mail addresses** or specific **user or mailbox properties**, for **every mailbox across all Outlook profiles** (**automapped and additional mailboxes** are optional)  
+- Applied to all **mailboxes (including shared mailboxes)**, specific **mailbox groups**, specific **e-mail addresses** or specific **user or mailbox properties**, for **every mailbox across all Outlook profiles (Outlook, New Outlook, Outlook Web)** (**automapped and additional mailboxes** are optional)  
 - Created with different names from the same template (e.g., **one template can be used for multiple shared mailboxes**)
 - Assigned **time ranges** within which they are valid  
 - Set as **default signature** for new e-mails, or for replies and forwards (signatures only)  
