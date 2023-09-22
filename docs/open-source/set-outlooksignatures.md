@@ -23,7 +23,7 @@ redirect_from:
 ---
 <!-- omit in toc -->
 ## <img src="/assets/images/set-outlooksignatures benefactor circle.png" style="height: 3em; object-fit:contain;" alt="Set-OutlookSignatures Benefactor Circle">
-Set-OutlookSignatures is the gold standard in open-source software for centrally managing and deploying Outlook text signatures and Out of Office auto reply messages.
+Set-OutlookSignatures is the gold standard in open-source software for central management and deployment of Outlook text signatures and Out of Office auto reply messages.
 
 Download the free and open-source core version from <a href="https://github.com/GruberMarkus/set-outlooksignatures" target="_blank">GitHub</a> for free. **ExplicIT's Benefactor Circle add-on enhances the core version with a great set of additional features and commercial support.**
 
@@ -48,9 +48,11 @@ Download the free and open-source core version from <a href="https://github.com/
 - [Data protection notice](#data-protection-notice)
 
 ## Overview and features
-E-mail signatures and Out of Office auto reply messages are an integral part of corporate identity and corporate design, but also of successful media and internet presence concepts and marketing campaigns.
+E-mail signatures and out of office auto reply messages are an integral part of corporate identity and corporate design, of successful concepts for media and internet presence, and of marketing campaigns.
 
-Besides the design and texting, one must also think about their central administration and distribution. This ensures compliance with CI/CD guidelines, guarantees the use of correct and up-to-date data, helps with legal compliance, relieves staff and opens up an additional marketing channel.
+Central administration and distribution ensures that CI/CD guidelines are met, guarantees the use of correct and up-to-date data, helps to comply with legal requirements, relieves staff and also opens up an additional marketing channel.
+
+Many companies are not aware that business e-mails, similar to a web presence, are usually subject to an imprint obligation. The legal basis differs from country to country, and non-compliance can result in severe penalties.
 
 **With Set-OutlookSignatures, signatures and Out of Office auto reply messages can be:**
 - Generated from **templates in DOCX or HTML** file format  
