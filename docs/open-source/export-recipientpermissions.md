@@ -3,6 +3,7 @@ layout: page
 title: Export-RecipientPermissions
 subtitle: Document, filter and compare Exchange permissions
 description: Export-RecipientPermissions. Document, filter and compare Exchange permissions.
+image: "/assets/images/export-recipientpermissions.png"
 redirect_from:
   - /opensource/export-recipientpermisions
   - /opensource/export-recipientpermissions/
