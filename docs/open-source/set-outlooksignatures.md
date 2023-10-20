@@ -40,16 +40,16 @@ Download the free and open-source core version from <a href="https://github.com/
 - [Why choose Set-OutlookSignatures?](#why-choose-set-outlooksignatures)
 - [Demo video](#demo-video)
 - [Benefactor Circle exclusive features](#benefactor-circle-exclusive-features)
-- [Buying, extending and changing licences](#buying-extending-and-changing-licences)
+- [Buying, extending and changing licenses](#buying-extending-and-changing-licenses)
   - [Price and general information](#price-and-general-information)
   - [Trial version](#trial-version)
   - [Order process for non-trial versions](#order-process-for-non-trial-versions)
-  - [Extending or reducing a licence period](#extending-or-reducing-a-licence-period)
-  - [Reducing the number of licenced mailboxes](#reducing-the-number-of-licenced-mailboxes)
-  - [Moving licenced mailboxes between licence groups](#moving-licenced-mailboxes-between-licence-groups)
-  - [Increasing the number of licenced mailboxes](#increasing-the-number-of-licenced-mailboxes)
-- [How licence groups work](#how-licence-groups-work)
-- [Licence and script version](#licence-and-script-version)
+  - [Extending or reducing a license period](#extending-or-reducing-a-license-period)
+  - [Reducing the number of licensed mailboxes](#reducing-the-number-of-licensed-mailboxes)
+  - [Moving licensed mailboxes between license groups](#moving-licensed-mailboxes-between-license-groups)
+  - [Increasing the number of licensed mailboxes](#increasing-the-number-of-licensed-mailboxes)
+- [How license groups work](#how-license-groups-work)
+- [License and script version](#license-and-script-version)
 - [Data protection notice](#data-protection-notice)
 
 ## Overview and features
@@ -156,26 +156,26 @@ Set-OutlookSignatures Benefactor Circle already supports the roaming signature f
   </div>
 </div>
 
-## Buying, extending and changing licences
+## Buying, extending and changing licenses
 ### Price and general information
-Licences are to be paid in advance and are valid for one year from the day the full payment is received. There is no automatic renewal.
+Licenses are to be paid in advance and are valid for one year from the day the full payment is received. There is no automatic renewal.
 
-The cost of the licence depends on the number of mailboxes:
-- Each mailbox in your environment, for which an exclusive feature shall be used, needs a licence. This includes shared mailboxes (one licence per shared mailbox, no matter how may users access it).  
+The cost of the license depends on the number of mailboxes:
+- Each mailbox in your environment, for which an exclusive feature shall be used, needs a license. This includes shared mailboxes (one license per shared mailbox, no matter how may users access it).  
 - The mailboxes do not need to be named, you just have to define at least one Active Directory or Graph group containing the mailboxes, and the maximum number of recursive members for each group.
 
-The net price in EUR currently is **1.50 € per mailbox and year**, with a minimum total sum of 100 € net per licence period.  
+The net price in EUR currently is **1.50 € per mailbox and year**, with a minimum total sum of 100 € net per license period.  
 
 **Yes, that's right: Per year, not per month.**
 
-As long as a licence is valid, it includes prioritized ticket support and unlimited free version upgrades.
+As long as a license is valid, it includes prioritized ticket support and unlimited free version upgrades.
 
-We work hard to keep our prices as low and stable as possible, with the aim of only having to adjust them for inflation. So, prices are subject to change. As you pay in advance, you can and will never be charged retrospectively - and if you want to add more mailboxes during an active licencing period, you will only be charged the initial price of your current licence period for these additional mailboxes (and this only for the remaining months of your current licence period), even if the price was raised in the meantime.
+We work hard to keep our prices as low and stable as possible, with the aim of only having to adjust them for inflation. So, prices are subject to change. As you pay in advance, you can and will never be charged retrospectively - and if you want to add more mailboxes during an active licencing period, you will only be charged the initial price of your current license period for these additional mailboxes (and this only for the remaining months of your current license period), even if the price was raised in the meantime.
 
 Support may be chargeable. This includes workshops, implementation support, all forms of remote or on-site outsourcing, support for topics already well-explained in the documentation and support for problems with the root cause outside of Set-OutlookSignatures or Set-OutlookSignatures Benefactor Circle.
 
 ### Trial version
-You may want to start with a 30-day trial licence.
+You may want to start with a 30-day trial license.
 
 The Benefactor Circle add-on extends the feature set of the free and open-source core version of Set-OutlookSignatures, so make sure that the core version is working correctly before requesting a trial version.  
 If you look for help implementing the free and open-source core version of Set-OutlookSignatures, we are happy to walk you through the process step-by-step in your own environment as part of our fee-based support.
@@ -185,124 +185,124 @@ If you look for help implementing the free and open-source core version of Set-O
 The form collects the following information:
 - Company name and full address
 - The VAT number of your company
-- Contact e-mail addresses for receiving the download link for the licence file, updates and other non invoice related information
-- List of licence groups and maximum members in the following format (see '[How licence groups work](#how-licence-groups-work)' for details):
-  - DNS domain name of the Active Directory domain (not the e-mail domain) the licence group is in.
+- Contact e-mail addresses for receiving the download link for the license file, updates and other non invoice related information
+- List of license groups and maximum members in the following format (see '[How license groups work](#how-license-groups-work)' for details):
+  - DNS domain name of the Active Directory domain (not the e-mail domain) the license group is in.
     - Use 'AzureAD' if the group only exists in Azure Active Directory and is not synced to on-prem. Only one pure Azure AD group is supported, it must be the group with the highest priority (first list entry).
   - Security identifier (SID) of the group, as string in the "S-[...]" format
-  - If multiple licence groups are defined, designate one of these groups as default or fallback group. For details, see '[How licence groups work](#how-licence-groups-work)'.
+  - If multiple license groups are defined, designate one of these groups as default or fallback group. For details, see '[How license groups work](#how-license-groups-work)'.
 
-The licence file contains the following information:
+The license file contains the following information:
 - Invoice address of the Benefactor Circle member
-- Date until the licence is valid
-- DNS domain name, SID and maximum number of members for one or multiple licence groups
+- Date until the license is valid
+- DNS domain name, SID and maximum number of members for one or multiple license groups
 
-To use the licence file, just add two parameters to your call of Set-OutlookSignatures.ps1:
-- `BenefactorCircleLicenceFile` with the path to your indivualized licence file
+To use the license file, just add two parameters to your call of Set-OutlookSignatures.ps1:
+- `BenefactorCircleLicenseFile` with the path to your indivualized license file
 - `BenefactorCircleId` with your Benefactor Circle id
 
-Trial licences can not be extended or re-issued. They are limited to 30 days runtime and a maximum of 20 mailboxes.
+Trial licenses can not be extended or re-issued. They are limited to 30 days runtime and a maximum of 20 mailboxes.
 
 ### Order process for non-trial versions
-<strong>> Just fill in and submit the <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank">licence offer request form</a> to request an individualized offer for Set-OutlookSignatures Benefactor Circle licences.</strong>
+<strong>> Just fill in and submit the <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank">license offer request form</a> to request an individualized offer for Set-OutlookSignatures Benefactor Circle licenses.</strong>
 
 The form collects the following information:
 - Company name and full address
 - The VAT number of your company
 - Contact e-mail addresses
   - At least one for receiving invoices
-  - At least one for receiving the download link for the licence file, updates and other non invoice related information
-- List of licence groups and maximum members in the following format (see '[How licence groups work](#how-do-licence-groups-work)' for details):
+  - At least one for receiving the download link for the license file, updates and other non invoice related information
+- List of license groups and maximum members in the following format (see '[How license groups work](#how-do-license-groups-work)' for details):
   - DNS domain name of the Active Directory Domain the group is in.
     - Use 'AzureAD' if the group only exists in Azure Active Directory and is not synced to on-prem. Only one pure Azure AD group is supported, it must be the group with the highest priority (first list entry).
   - SID (security identifier) of the group, as string in the "S-[...]" format
   - Maximum number of recursive members in the group (add a buffer for future growth)
-  - If multiple licence groups are defined, designate one of these groups as default or fallback group. For details, see 'How do licence groups work?' later in this document.
+  - If multiple license groups are defined, designate one of these groups as default or fallback group. For details, see 'How do license groups work?' later in this document.
 
-The total number of mailboxes to licence is the sum of the maximum members defined for each licence group.
+The total number of mailboxes to license is the sum of the maximum members defined for each license group.
 
 You will receive an offer within a few days. As soon as all the technical details are ironed out, you will receive an invoice and can start the payment process.
 
-As soon as the full invoice amount is received, you will be sent an e-mail with instructions on how to securely download your individualized licence file.
+As soon as the full invoice amount is received, you will be sent an e-mail with instructions on how to securely download your individualized license file.
 
-The licence file contains the following information:
+The license file contains the following information:
 - Invoice address of the Benefactor Circle member
-- Date until the licence is valid
-- DNS domain name, SID and maximum number of members for one or multiple licence groups
+- Date until the license is valid
+- DNS domain name, SID and maximum number of members for one or multiple license groups
 
-To use the licence file, just add two parameters to your call of Set-OutlookSignatures.ps1:
-- `BenefactorCircleLicenceFile` with the path to your individualized licence file
+To use the license file, just add two parameters to your call of Set-OutlookSignatures.ps1:
+- `BenefactorCircleLicenseFile` with the path to your individualized license file
 - `BenefactorCircleId` with your Benefactor Circle id
 
-### Extending or reducing a licence period
-A licence period cannot be extended. Licences are valid for one year, starting with the date the full payment is received, and do not auto-renew.
+### Extending or reducing a license period
+A license period cannot be extended. Licenses are valid for one year, starting with the date the full payment is received, and do not auto-renew.
 
-To continue using Set-OutlookSignatures with Benefactor Circle benefits, just place a new order to receive a new licence file.
+To continue using Set-OutlookSignatures with Benefactor Circle benefits, just place a new order to receive a new license file.
 
-You will be informed in advance that your licence is about to expire.
+You will be informed in advance that your license is about to expire.
 
-### Reducing the number of licenced mailboxes
-The total number of licenced mailboxes can not be reduced during a licence period (one year starting from the date of payment reception), as the licence fees are paid in advance.
+### Reducing the number of licensed mailboxes
+The total number of licensed mailboxes can not be reduced during a license period (one year starting from the date of payment reception), as the license fees are paid in advance.
 
-### Moving licenced mailboxes between licence groups
-Moving licences means that the total number of licenced mailboxes does not change, but their distribution across licence groups. This can, for example, be necessary due to Active Directory consolidations.
+### Moving licensed mailboxes between license groups
+Moving licenses means that the total number of licensed mailboxes does not change, but their distribution across license groups. This can, for example, be necessary due to Active Directory consolidations.
 
-Shifting licences between licence groups is possible once per licence period.
+Shifting licenses between license groups is possible once per license period.
 
-If more licence shifts are required, additional licences have to be acquired temporarily, the total number of licences can then be reduced when the new licence period begins.
+If more license shifts are required, additional licenses have to be acquired temporarily, the total number of licenses can then be reduced when the new license period begins.
 
-### Increasing the number of licenced mailboxes
-When adding licences during a licence period, you only pay for the new mailboxes and only for the remaining months in the running licence period.
+### Increasing the number of licensed mailboxes
+When adding licenses during a license period, you only pay for the new mailboxes and only for the remaining months in the running license period.
 
-The new payment does not extend the existing licence period, but it increases the number of licenced mailboxes in it.
+The new payment does not extend the existing license period, but it increases the number of licensed mailboxes in it.
 
 An example:
-- After a trial with 20 mailboxes, you start a pilot with 110 mailboxes in mid of April 2023. The licence is valid until mid of April 2024, with the following cost:
+- After a trial with 20 mailboxes, you start a pilot with 110 mailboxes in mid of April 2023. The license is valid until mid of April 2024, with the following cost:
     max(100; 110 * 1.50) = 165.00 € net
-- As the pilot is a success, the number of licenced mailboxes is raised to 7,500 in July 2023.
-  - The licence period does not change, the licence is still valid from mid of April 2023 to mid of April 2024, of course with the higher number of mailboxes.
-- The added licences result in the following costs:
+- As the pilot is a success, the number of licensed mailboxes is raised to 7,500 in July 2023.
+  - The license period does not change, the license is still valid from mid of April 2023 to mid of April 2024, of course with the higher number of mailboxes.
+- The added licenses result in the following costs:
   - Year 1 total cost of 9,402.50 €, consisting of
     - Year 1 cost for 110 mailboxes for 12 months: max(100; 110 * 1.50) = 165.00 € net
     - Year 1 additional maiboxes for 10 months (July 2023 to mid of April 2024): max(100; (7,500 - 110) * 1.50)/12*10 = 9,237.50 € net
     - As long as the price is not changing, the consecutive years will cost: max(100; 7,500 * 1,50) = 11,250.00 € net
 
-## How licence groups work
-Each Benefactor Circle licence is bound to one or more Active Directory or Azure AD groups.
+## How license groups work
+Each Benefactor Circle license is bound to one or more Active Directory or Azure AD groups.
 
-Each mailbox of your company needs to be a direct or indirect (a.k.a. nested, recursive or transitive) member of a licence group, so that it can use exclusive features.
+Each mailbox of your company needs to be a direct or indirect (a.k.a. nested, recursive or transitive) member of a license group, so that it can use exclusive features.
 
-Each group may only contain as many mailboxes as direct or indirect members as defined in the licence.
+Each group may only contain as many mailboxes as direct or indirect members as defined in the license.
 
-The user running Set-OutlookSignatures must be able to resolve all direct and indirect members of the licence group, even across trusts.
+The user running Set-OutlookSignatures must be able to resolve all direct and indirect members of the license group, even across trusts.
 Primary group membership is not considered due to Active Directory and Azure AD query restrictions.
 
-Licence groups are defined by the DNS domain name of the on-premises domain (or "AzureAD" for cloud-only groups), their SID (security identifier) and the number of members licenced.
+License groups are defined by the DNS domain name of the on-premises domain (or "AzureAD" for cloud-only groups), their SID (security identifier) and the number of members licensed.
 - Use 'AzureAD' if the group only exists in Azure Active Directory and is not synced to on-prem. Only one pure Azure AD group is supported, it must be the group with the highest priority (first list entry).
-- If you have multiple domains in a forest or multiple forests, you can have one licence group per AD domain, each licence group with a separate maximum member count.
-- There must be a default group, which is used for mailboxes which are not covered by separate licence groups.  
-When a licence group for the AD domain of a mailbox is defined, this licence group is used. If not, the licence group defined as default will be used.
+- If you have multiple domains in a forest or multiple forests, you can have one license group per AD domain, each license group with a separate maximum member count.
+- There must be a default group, which is used for mailboxes which are not covered by separate license groups.  
+When a license group for the AD domain of a mailbox is defined, this license group is used. If not, the license group defined as default will be used.
 
 There are three situations where Set-OutlookSignatures uses Azure AD via Graph API insteed of on-prem AD:
 - Parameter GraphOnly is set to true,
 - no connection to the on-prem AD is possible,
 - or the current user has a mailbox in Exchange Online and either OOF messages or Outlook Web signatures should be set
 
-In these cases, licence groups are handled as follows:
+In these cases, license groups are handled as follows:
 - If the current mailbox has the Graph "onPremisesDomainName" attribute set:
-  - If there is a licence group associated with this DNS domain name, it is queried via Graph
-  - If there is no licence group associated with this DNS domain name, the licence group defined as default is queried via Graph
-- If the current mailbox does not have the Graph "onPremisesDomainName" attribute set, the licence group defined as default is queried via Graph
+  - If there is a license group associated with this DNS domain name, it is queried via Graph
+  - If there is no license group associated with this DNS domain name, the license group defined as default is queried via Graph
+- If the current mailbox does not have the Graph "onPremisesDomainName" attribute set, the license group defined as default is queried via Graph
 
-## Licence and script version
-Licence and script versions go hand in hand, so every new release of Set-OutlookSignatures also means a new licence release, and vice-versa.
+## License and script version
+License and script versions go hand in hand, so every new release of Set-OutlookSignatures also means a new license release, and vice-versa.
 
-Using different versions of script and licence file is not supported, as this may lead to unexpected results.
+Using different versions of script and license file is not supported, as this may lead to unexpected results.
 
 A warning message is logged when a version mismatch is detected.
 
 ## Data protection notice
-Set-OutlookSignatures and the Benefactor Circle licence add-on do not store any telemetry data, do not "phone home", and do not transfer any data, only the absolute minimum necessary data between:
+Set-OutlookSignatures and the Benefactor Circle license add-on do not store any telemetry data, do not "phone home", and do not transfer any data, only the absolute minimum necessary data between:
 - the end user's Windows client,
 - the end user's Active Directory or Azure Active Directory,
 - the end user's Exchange or Exchange Online system,
@@ -310,4 +310,4 @@ Set-OutlookSignatures and the Benefactor Circle licence add-on do not store any 
 
 The data transfer always happens in the security context of the user executing the program.
 
-For licence purposes, only the absolutely required information is stored and processed: Invoice address, e-mail addresses for technical and commercial communication, licence group information (domain, SID, maximum members) and payment information.
+For license purposes, only the absolutely required information is stored and processed: Invoice address, e-mail addresses for technical and commercial communication, license group information (domain, SID, maximum members) and payment information.
