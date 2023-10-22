@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Let's get and stay in contact
-subtitle: "E-mail, request a call-back, postal address"
+subtitle: "Email, request a call-back, postal address"
 description: Let's get and stay in contact. Contact us. Write us.
 ---
 ## Send us an email

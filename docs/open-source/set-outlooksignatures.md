@@ -54,7 +54,7 @@ Download the free and open-source core version from <a href="https://github.com/
 - [8. Data protection notice](#8-data-protection-notice)
 
 ## 1. Overview and features
-E-mail signatures and out of office replies are an integral part of corporate identity and corporate design, of successful concepts for media and internet presence, and of marketing campaigns.
+Email signatures and out of office replies are an integral part of corporate identity and corporate design, of successful concepts for media and internet presence, and of marketing campaigns.
 
 Central administration and distribution ensures that CI/CD guidelines are met, guarantees the use of correct and up-to-date data, helps to comply with legal requirements, relieves staff and also opens up an additional marketing channel.
 
