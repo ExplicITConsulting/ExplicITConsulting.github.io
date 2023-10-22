@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Set-OutlookSignatures Benefactor Circle
-subtitle: Centrally manage and deploy Outlook text signatures and Out of Office auto reply messages
-description: Set-OutlookSignatures Benefactor Circle. Centrally manage and deploy Outlook text signatures and Out of Office auto reply messages.
+subtitle: Central management and deployment of Outlook text signatures and out of office messages.
+description: Set-OutlookSignatures Benefactor Circle. Central management and deployment of Outlook text signatures and out of office messages.
 image:
   path: "/assets/images/set-outlooksignatures benefactor circle opengraph1200x630.png"
   height: 1200
@@ -27,39 +27,40 @@ redirect_from:
 ---
 <!-- omit in toc -->
 ## <img src="/assets/images/set-outlooksignatures benefactor circle.png" style="height: 3em; object-fit:contain;" alt="Set-OutlookSignatures Benefactor Circle">
-Set-OutlookSignatures is the gold standard in open-source software for central management and deployment of Outlook text signatures and Out of Office auto reply messages.
+**Set-OutlookSignatures is the open source gold standard for central management and deployment of Outlook text signatures and out of office messages.**  
+Download the free and open-source core version from <a href="https://github.com/GruberMarkus/set-outlooksignatures" target="_blank">GitHub</a> for free.
 
-Download the free and open-source core version from <a href="https://github.com/GruberMarkus/set-outlooksignatures" target="_blank">GitHub</a> for free. **ExplicIT's Benefactor Circle add-on enhances the core version with a great set of additional features and commercial support.**
+**ExplicIT's Benefactor Circle add-on enhances the open source version with a great set of additional features and commercial support.**
 
 <a href="#trial-version"><button class="button is-link is-normal is-responsive is-hover">Request a trial version</button></a>
 <a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact the Set-OutlookSignatures Benefactor Circle team</button></a>
 
 <!-- omit in toc -->
 ## Topics
-- [Overview and features](#overview-and-features)
-- [Why choose Set-OutlookSignatures?](#why-choose-set-outlooksignatures)
-- [Demo video](#demo-video)
-- [Benefactor Circle exclusive features](#benefactor-circle-exclusive-features)
-- [Buying, extending and changing licenses](#buying-extending-and-changing-licenses)
-  - [Price and general information](#price-and-general-information)
-  - [Trial version](#trial-version)
-  - [Order process for non-trial versions](#order-process-for-non-trial-versions)
-  - [Extending or reducing a license period](#extending-or-reducing-a-license-period)
-  - [Reducing the number of licensed mailboxes](#reducing-the-number-of-licensed-mailboxes)
-  - [Moving licensed mailboxes between license groups](#moving-licensed-mailboxes-between-license-groups)
-  - [Increasing the number of licensed mailboxes](#increasing-the-number-of-licensed-mailboxes)
-- [How license groups work](#how-license-groups-work)
-- [License and script version](#license-and-script-version)
-- [Data protection notice](#data-protection-notice)
+- [1. Overview and features](#1-overview-and-features)
+- [2. Why choose Set-OutlookSignatures?](#2-why-choose-set-outlooksignatures)
+- [3. Demo video](#3-demo-video)
+- [4. Benefactor Circle exclusive features](#4-benefactor-circle-exclusive-features)
+- [5. Buying, extending and changing licenses](#5-buying-extending-and-changing-licenses)
+  - [5.1. Price and general information](#51-price-and-general-information)
+  - [5.2. Trial version](#52-trial-version)
+  - [5.3. Order process for non-trial versions](#53-order-process-for-non-trial-versions)
+  - [5.4. Extending or reducing a license period](#54-extending-or-reducing-a-license-period)
+  - [5.5. Reducing the number of licensed mailboxes](#55-reducing-the-number-of-licensed-mailboxes)
+  - [5.6. Moving licensed mailboxes between license groups](#56-moving-licensed-mailboxes-between-license-groups)
+  - [5.7. Increasing the number of licensed mailboxes](#57-increasing-the-number-of-licensed-mailboxes)
+- [6. How license groups work](#6-how-license-groups-work)
+- [7. License and script version](#7-license-and-script-version)
+- [8. Data protection notice](#8-data-protection-notice)
 
-## Overview and features
-E-mail signatures and out of office auto reply messages are an integral part of corporate identity and corporate design, of successful concepts for media and internet presence, and of marketing campaigns.
+## 1. Overview and features
+E-mail signatures and out of office messages are an integral part of corporate identity and corporate design, of successful concepts for media and internet presence, and of marketing campaigns.
 
 Central administration and distribution ensures that CI/CD guidelines are met, guarantees the use of correct and up-to-date data, helps to comply with legal requirements, relieves staff and also opens up an additional marketing channel.
 
 Many companies are not aware that business e-mails, similar to a web presence, are usually subject to an imprint obligation. The legal basis differs from country to country, and non-compliance can result in severe penalties.
 
-**With Set-OutlookSignatures, signatures and Out of Office auto reply messages can be:**
+**With Set-OutlookSignatures, signatures and out of office messages can be:**
 - Generated from **templates in DOCX or HTML** file format  
 - Customized with a **broad range of variables**, including **photos**, from Active Directory and other sources
   - Variables are available for the **currently logged-on user, this user's manager, each mailbox and each mailbox's manager**
@@ -91,7 +92,7 @@ Set-OutlookSignatures requires **no installation on servers or clients**. You on
 A **documented implementation approach**, based on real life experiences implementing the script in multi-client environments with a five-digit number of mailboxes, contains proven procedures and recommendations for product managers, architects, operations managers, account managers and e-mail and client administrators.  
 The implementation approach is **suited for service providers as well as for clients**, and covers several general overview topics, administration, support, training across the whole lifecycle from counselling to tests, pilot operation and rollout up to daily business.
 
-## Why choose Set-OutlookSignatures?
+## 2. Why choose Set-OutlookSignatures?
 - Runs only on your clients, no server side installation
 - Mails are not routed through a cloud service, no SPF record change
 - Software does not call home
@@ -112,7 +113,7 @@ Set-OutlookSignatures Benefactor Circle already supports the roaming signature f
   - Admins typically need around two hours for the basic setup, as the default parameters are very well chosen and documented.
   - Template maintainers need nothing but Word to create, modify and configure templates.
 
-## Demo video
+## 3. Demo video
 <div class="columns">
   <div class="column is-half">
     <figure class="image is-16by9">
@@ -121,7 +122,7 @@ Set-OutlookSignatures Benefactor Circle already supports the roaming signature f
   </div>
 </div>
 
-## Benefactor Circle exclusive features
+## 4. Benefactor Circle exclusive features
 <div class="tile is-ancestor">
   <div class="tile is-6 is-vertical is-parent">
     <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
@@ -132,7 +133,7 @@ Set-OutlookSignatures Benefactor Circle already supports the roaming signature f
           <li>Signatures for automapped and additional mailboxes</li>
           <li>Set current user Outlook Web signature (classic Outlook Web signature and roaming signatures)</li>
           <li>Download and upload roaming signatures</li>
-          <li>Set current user Out of Office messages</li>
+          <li>Set current user out of office messages</li>
           <li>Delete signatures created by the script, where the templates no longer exist or are no longer assigned</li>
           <li>Delete user created signatures</li>
           <li>Additional signature path (when used outside of simulation mode)</li>
@@ -156,8 +157,8 @@ Set-OutlookSignatures Benefactor Circle already supports the roaming signature f
   </div>
 </div>
 
-## Buying, extending and changing licenses
-### Price and general information
+## 5. Buying, extending and changing licenses
+### 5.1. Price and general information
 Licenses are to be paid in advance and are valid for one year from the day the full payment is received. There is no automatic renewal.
 
 The cost of the license depends on the number of mailboxes:
@@ -174,7 +175,7 @@ We work hard to keep our prices as low and stable as possible, with the aim of o
 
 Support may be chargeable. This includes workshops, implementation support, all forms of remote or on-site outsourcing, support for topics already well-explained in the documentation and support for problems with the root cause outside of Set-OutlookSignatures or Set-OutlookSignatures Benefactor Circle.
 
-### Trial version
+### 5.2. Trial version
 You may want to start with a 30-day trial license.
 
 The Benefactor Circle add-on extends the feature set of the free and open-source core version of Set-OutlookSignatures, so make sure that the core version is working correctly before requesting a trial version.  
@@ -203,7 +204,7 @@ To use the license file, just add two parameters to your call of Set-OutlookSign
 
 Trial licenses can not be extended or re-issued. They are limited to 30 days runtime and a maximum of 20 mailboxes.
 
-### Order process for non-trial versions
+### 5.3. Order process for non-trial versions
 <strong>> Just fill in and submit the <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank">license offer request form</a> to request an individualized offer for Set-OutlookSignatures Benefactor Circle licenses.</strong>
 
 The form collects the following information:
@@ -234,24 +235,24 @@ To use the license file, just add two parameters to your call of Set-OutlookSign
 - `BenefactorCircleLicenseFile` with the path to your individualized license file
 - `BenefactorCircleId` with your Benefactor Circle id
 
-### Extending or reducing a license period
+### 5.4. Extending or reducing a license period
 A license period cannot be extended. Licenses are valid for one year, starting with the date the full payment is received, and do not auto-renew.
 
 To continue using Set-OutlookSignatures with Benefactor Circle benefits, just place a new order to receive a new license file.
 
 You will be informed in advance that your license is about to expire.
 
-### Reducing the number of licensed mailboxes
+### 5.5. Reducing the number of licensed mailboxes
 The total number of licensed mailboxes can not be reduced during a license period (one year starting from the date of payment reception), as the license fees are paid in advance.
 
-### Moving licensed mailboxes between license groups
+### 5.6. Moving licensed mailboxes between license groups
 Moving licenses means that the total number of licensed mailboxes does not change, but their distribution across license groups. This can, for example, be necessary due to Active Directory consolidations.
 
 Shifting licenses between license groups is possible once per license period.
 
 If more license shifts are required, additional licenses have to be acquired temporarily, the total number of licenses can then be reduced when the new license period begins.
 
-### Increasing the number of licensed mailboxes
+### 5.7. Increasing the number of licensed mailboxes
 When adding licenses during a license period, you only pay for the new mailboxes and only for the remaining months in the running license period.
 
 The new payment does not extend the existing license period, but it increases the number of licensed mailboxes in it.
@@ -267,7 +268,7 @@ An example:
     - Year 1 additional maiboxes for 10 months (July 2023 to mid of April 2024): max(100; (7,500 - 110) * 1.50)/12*10 = 9,237.50 € net
     - As long as the price is not changing, the consecutive years will cost: max(100; 7,500 * 1,50) = 11,250.00 € net
 
-## How license groups work
+## 6. How license groups work
 Each Benefactor Circle license is bound to one or more Active Directory or Azure AD groups.
 
 Each mailbox of your company needs to be a direct or indirect (a.k.a. nested, recursive or transitive) member of a license group, so that it can use exclusive features.
@@ -294,14 +295,14 @@ In these cases, license groups are handled as follows:
   - If there is no license group associated with this DNS domain name, the license group defined as default is queried via Graph
 - If the current mailbox does not have the Graph "onPremisesDomainName" attribute set, the license group defined as default is queried via Graph
 
-## License and script version
+## 7. License and script version
 License and script versions go hand in hand, so every new release of Set-OutlookSignatures also means a new license release, and vice-versa.
 
 Using different versions of script and license file is not supported, as this may lead to unexpected results.
 
 A warning message is logged when a version mismatch is detected.
 
-## Data protection notice
+## 8. Data protection notice
 Set-OutlookSignatures and the Benefactor Circle license add-on do not store any telemetry data, do not "phone home", and do not transfer any data, only the absolute minimum necessary data between:
 - the end user's Windows client,
 - the end user's Active Directory or Azure Active Directory,
