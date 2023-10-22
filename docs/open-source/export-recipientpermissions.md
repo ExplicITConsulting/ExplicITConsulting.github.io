@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Export-RecipientPermissions
-subtitle: Document, filter and compare Exchange permissions.
+subtitle: Document, filter and compare Exchange permissions
 description: Export-RecipientPermissions. The open source tool of choice to document, filter and compare Exchange permissions.
 
 image:

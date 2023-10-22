@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Set-OutlookSignatures Benefactor Circle
-subtitle: Central management and deployment of Outlook text signatures and out of office messages.
+subtitle: Central management and deployment of Outlook text signatures and out of office messages
 description: Set-OutlookSignatures Benefactor Circle. Central management and deployment of Outlook text signatures and out of office messages.
 image:
   path: "/assets/images/set-outlooksignatures benefactor circle opengraph1200x630.png"
