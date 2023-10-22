@@ -58,17 +58,17 @@ E-mail signatures and out of office replies are an integral part of corporate id
 
 Central administration and distribution ensures that CI/CD guidelines are met, guarantees the use of correct and up-to-date data, helps to comply with legal requirements, relieves staff and also opens up an additional marketing channel.
 
-Many companies are not aware that business e-mails, similar to a web presence, are usually subject to an imprint obligation. The legal basis differs from country to country, and non-compliance can result in severe penalties.
+Many companies are not aware that business emails, similar to a web presence, are usually subject to an imprint obligation. The legal basis differs from country to country, and non-compliance can result in severe penalties.
 
 **With Set-OutlookSignatures, signatures and out of office replies can be:**
 - Generated from **templates in DOCX or HTML** file format  
 - Customized with a **broad range of variables**, including **photos**, from Active Directory and other sources
   - Variables are available for the **currently logged-on user, this user's manager, each mailbox and each mailbox's manager**
   - Images in signatures can be **bound to the existence of certain variables** (useful for optional social network icons, for example)
-- Applied to all **mailboxes (including shared mailboxes)**, specific **mailbox groups**, specific **e-mail addresses** or specific **user or mailbox properties**, for **every mailbox across all Outlook profiles (Outlook, New Outlook, Outlook Web)** (**automapped and additional mailboxes** are optional)  
+- Applied to all **mailboxes (including shared mailboxes)**, specific **mailbox groups**, specific **email addresses** or specific **user or mailbox properties**, for **every mailbox across all Outlook profiles (Outlook, New Outlook, Outlook Web)** (**automapped and additional mailboxes** are optional)  
 - Created with different names from the same template (e.g., **one template can be used for multiple shared mailboxes**)
 - Assigned **time ranges** within which they are valid  
-- Set as **default signature** for new e-mails, or for replies and forwards (signatures only)  
+- Set as **default signature** for new emails, or for replies and forwards (signatures only)  
 - Set as **default OOF message** for internal or external recipients (OOF messages only)  
 - Set in **Outlook Web** for the currently logged-in user, including mirroring signatures the the cloud as **roaming signatures**  
 - Centrally managed only or **exist along user created signatures** (signatures only)  
@@ -89,7 +89,7 @@ It is **multi-client capable** by using different template paths, configuration 
 
 Set-OutlookSignatures requires **no installation on servers or clients**. You only need a standard SMB file share on a central system, and Office on your clients. 
 
-A **documented implementation approach**, based on real life experiences implementing the script in multi-client environments with a five-digit number of mailboxes, contains proven procedures and recommendations for product managers, architects, operations managers, account managers and e-mail and client administrators.  
+A **documented implementation approach**, based on real life experiences implementing the script in multi-client environments with a five-digit number of mailboxes, contains proven procedures and recommendations for product managers, architects, operations managers, account managers and email and client administrators.  
 The implementation approach is **suited for service providers as well as for clients**, and covers several general overview topics, administration, support, training across the whole lifecycle from counselling to tests, pilot operation and rollout up to daily business.
 
 ## 2. Why choose Set-OutlookSignatures?
@@ -100,7 +100,7 @@ The implementation approach is **suited for service providers as well as for cli
 - Supports Exchange Online roaming signatures, New Outlook and Outlook Web
 - Multi-customer capable
 - Works with linked mailboxes in resource forest scenarios
-- Users see signature when writing e-mails
+- Users see signature when writing emails
 - More cost-effective than other cloud based products, more features than other on-prem products
 
 The features reserved for Benefactor Circle members are available at a very, very competitive price compared to other commercial solutions that work with on-prem, hybrid and cloud-only configurations.
@@ -186,9 +186,9 @@ If you look for help implementing the free and open-source core version of Set-O
 The form collects the following information:
 - Company name and full address
 - The VAT number of your company
-- Contact e-mail addresses for receiving the download link for the license file, updates and other non invoice related information
+- Contact email addresses for receiving the download link for the license file, updates and other non invoice related information
 - List of license groups and maximum members in the following format (see '[How license groups work](#how-license-groups-work)' for details):
-  - DNS domain name of the Active Directory domain (not the e-mail domain) the license group is in.
+  - DNS domain name of the Active Directory domain (not the email domain) the license group is in.
     - Use 'AzureAD' if the group only exists in Azure Active Directory and is not synced to on-prem. Only one pure Azure AD group is supported, it must be the group with the highest priority (first list entry).
   - Security identifier (SID) of the group, as string in the "S-[...]" format
   - If multiple license groups are defined, designate one of these groups as default or fallback group. For details, see '[How license groups work](#how-license-groups-work)'.
@@ -210,7 +210,7 @@ Trial licenses can not be extended or re-issued. They are limited to 30 days run
 The form collects the following information:
 - Company name and full address
 - The VAT number of your company
-- Contact e-mail addresses
+- Contact email addresses
   - At least one for receiving invoices
   - At least one for receiving the download link for the license file, updates and other non invoice related information
 - List of license groups and maximum members in the following format (see '[How license groups work](#how-do-license-groups-work)' for details):
@@ -224,7 +224,7 @@ The total number of mailboxes to license is the sum of the maximum members defin
 
 You will receive an offer within a few days. As soon as all the technical details are ironed out, you will receive an invoice and can start the payment process.
 
-As soon as the full invoice amount is received, you will be sent an e-mail with instructions on how to securely download your individualized license file.
+As soon as the full invoice amount is received, you will be sent an email with instructions on how to securely download your individualized license file.
 
 The license file contains the following information:
 - Invoice address of the Benefactor Circle member
@@ -311,4 +311,4 @@ Set-OutlookSignatures and the Benefactor Circle license add-on do not store any 
 
 The data transfer always happens in the security context of the user executing the program.
 
-For license purposes, only the absolutely required information is stored and processed: Invoice address, e-mail addresses for technical and commercial communication, license group information (domain, SID, maximum members) and payment information.
+For license purposes, only the absolutely required information is stored and processed: Invoice address, email addresses for technical and commercial communication, license group information (domain, SID, maximum members) and payment information.
