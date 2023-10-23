@@ -181,7 +181,7 @@ You may want to start with a 30-day trial license.
 The Benefactor Circle add-on extends the feature set of the free and open-source core version of Set-OutlookSignatures, so make sure that the core version is working correctly before requesting a trial version.  
 If you look for help implementing the free and open-source core version of Set-OutlookSignatures, go through the Quick Start Guide in the readme file, open an issue at GitHub, or contact us: We are happy to help you implement Set-OutlookSignatures in your own environment as part of our fee-based support.
 
-As soon as the open-source core version is running, it is time to take the next step: <strong>>Fill in and submit the <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank">trial request form</a> to request a trial version of Set-OutlookSignatures Benefactor Circle.</strong>
+As soon as the open-source core version is running, it is time to take the next step: <strong>Send us your <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank">trial version request</a> to gain access to a full-featured 30-day trial license.</strong>
 
 The form collects the following information:
 - Company name and full address
