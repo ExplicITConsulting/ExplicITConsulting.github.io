@@ -32,7 +32,7 @@ Download the free and open-source core version from <a href="https://github.com/
 
 **ExplicIT's Benefactor Circle add-on enhances the open source version with a great set of additional features and commercial support.**
 
-<a href="#trial-version"><button class="button is-link is-normal is-responsive is-hover">Request a trial version</button></a>
+<a href="#52-trial-version"><button class="button is-link is-normal is-responsive is-hover">Request a trial version</button></a>
 <a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact the Set-OutlookSignatures Benefactor Circle team</button></a>
 
 <!-- omit in toc -->
@@ -179,9 +179,9 @@ Support may be chargeable. This includes workshops, implementation support, all 
 You may want to start with a 30-day trial license.
 
 The Benefactor Circle add-on extends the feature set of the free and open-source core version of Set-OutlookSignatures, so make sure that the core version is working correctly before requesting a trial version.  
-If you look for help implementing the free and open-source core version of Set-OutlookSignatures, we are happy to walk you through the process step-by-step in your own environment as part of our fee-based support.
+If you look for help implementing the free and open-source core version of Set-OutlookSignatures, go through the Quick Start Guide in the readme file, open an issue at GitHub, or contact us: We are happy to help you implement Set-OutlookSignatures in your own environment as part of our fee-based support.
 
-<strong>> Just fill in and submit the <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank">trial request form</a> to request a trial version of Set-OutlookSignatures Benefactor Circle.</strong>
+As soon as the open-source core version is running, it is time to take the next step: <strong>Send us your <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank">trial version request</a> to gain access to a full-featured 30-day trial license.</strong>
 
 The form collects the following information:
 - Company name and full address
