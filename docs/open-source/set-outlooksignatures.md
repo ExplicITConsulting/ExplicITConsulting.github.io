@@ -38,7 +38,6 @@ Download the free and open-source core version from <a href="https://github.com/
 <!-- omit in toc -->
 ## Topics
 - [1. Overview and features](#1-overview-and-features)
-- [2. Why choose Set-OutlookSignatures?](#2-why-choose-set-outlooksignatures)
 - [3. Demo video](#3-demo-video)
 - [4. Benefactor Circle exclusive features](#4-benefactor-circle-exclusive-features)
 - [5. Buying, extending and changing licenses](#5-buying-extending-and-changing-licenses)
@@ -56,7 +55,7 @@ Download the free and open-source core version from <a href="https://github.com/
 ## 1. Overview and features
 Email signatures and out of office replies are an integral part of corporate identity and corporate design, of successful concepts for media and internet presence, and of marketing campaigns.
 
-Central administration and distribution ensures that CI/CD guidelines are met, guarantees the use of correct and up-to-date data, helps to comply with legal requirements, relieves staff and also opens up an additional marketing channel.
+Central management and deployment ensures that CI/CD guidelines are met, guarantees the use of correct and up-to-date data, helps to comply with legal requirements, relieves staff and also opens up an additional marketing channel.
 
 Many companies are not aware that business emails, similar to a web presence, are usually subject to an imprint obligation. The legal basis differs from country to country, and non-compliance can result in severe penalties.
 
@@ -65,7 +64,7 @@ Many companies are not aware that business emails, similar to a web presence, ar
 - Customized with a **broad range of variables**, including **photos**, from Active Directory and other sources
   - Variables are available for the **currently logged-on user, this user's manager, each mailbox and each mailbox's manager**
   - Images in signatures can be **bound to the existence of certain variables** (useful for optional social network icons, for example)
-- Applied to all **mailboxes (including shared mailboxes)**, specific **mailbox groups**, specific **email addresses** or specific **user or mailbox properties**, for **every mailbox across all Outlook profiles (Outlook, New Outlook, Outlook Web)** (**automapped and additional mailboxes** are optional)  
+- Applied to all **mailboxes (including shared mailboxes)**, specific **mailbox groups**, specific **email addresses** or specific **user or mailbox properties**, for **every mailbox across all Outlook profiles (Outlook, New Outlook, Outlook Web)**, including **automapped and additional mailboxes**  
 - Created with different names from the same template (e.g., **one template can be used for multiple shared mailboxes**)
 - Assigned **time ranges** within which they are valid  
 - Set as **default signature** for new emails, or for replies and forwards (signatures only)  
@@ -75,43 +74,23 @@ Many companies are not aware that business emails, similar to a web presence, ar
 - Copied to an **alternate path** for easy access on mobile devices not directly supported by this script (signatures only)
 - **Write protected** (Outlook signatures only)
 
-Set-OutlookSignatures can be **executed by users on clients and terminal servers, or on a central server without end user interaction**.  
+Set-OutlookSignatures can be **executed by users on clients and terminal servers, or on a central system without end user interaction**.  
 On clients, it can run as part of the logon script, as scheduled task, or on user demand via a desktop icon, start menu entry, link or any other way of starting a program.  
 Signatures and OOF messages can also be created and deployed centrally, without end user or client involvement.
 
 **Sample templates** for signatures and OOF messages demonstrate all available features and are provided as .docx and .htm files.
 
-**Simulation mode** allows content creators and admins to simulate the behavior of the script and to inspect the resulting signature files before going live.
+**Simulation mode** allows content creators and admins to simulate the behavior of the software and to inspect the resulting signature files before going live.
   
-The script is **designed to work in big and complex environments** (Exchange resource forest scenarios, across AD trusts, multi-level AD subdomains, many objects). It works **on premises, in hybrid and cloud-only environments**.
+The software is **designed to work in big and complex environments** (Exchange resource forest scenarios, across AD trusts, multi-level AD subdomains, many objects). It works **on premises, in hybrid and cloud-only environments**.
 
 It is **multi-client capable** by using different template paths, configuration files and script parameters.
 
-Set-OutlookSignatures requires **no installation on servers or clients**. You only need a standard SMB file share on a central system, and Office on your clients. 
+Set-OutlookSignatures requires **no installation on servers or clients**. You only need a standard SMB file share on a central system, and optionally Office on your clients.  
+There is also **no telemetry** or "calling home", emails are **not routed through a 3rd party data center or cloud service**, and there is **no need to change DNS records (MX, SPF) or mail flow**.
 
-A **documented implementation approach**, based on real life experiences implementing the script in multi-client environments with a five-digit number of mailboxes, contains proven procedures and recommendations for product managers, architects, operations managers, account managers and email and client administrators.  
+A **documented implementation approach**, based on real life experiences implementing the software in multi-client environments with a five-digit number of mailboxes, contains proven procedures and recommendations for product managers, architects, operations managers, account managers and email and client administrators.  
 The implementation approach is **suited for service providers as well as for clients**, and covers several general overview topics, administration, support, training across the whole lifecycle from counselling to tests, pilot operation and rollout up to daily business.
-
-## 2. Why choose Set-OutlookSignatures?
-- Runs only on your clients, no server side installation
-- Mails are not routed through a cloud service, no SPF record change
-- Software does not call home
-- Works with on-prem, hybrid and cloud-only configurations
-- Supports Exchange Online roaming signatures, New Outlook and Outlook Web
-- Multi-customer capable
-- Works with linked mailboxes in resource forest scenarios
-- Users see signature when writing emails
-- More cost-effective than other cloud based products, more features than other on-prem products
-
-The features reserved for Benefactor Circle members are available at a very, very competitive price compared to other commercial solutions that work with on-prem, hybrid and cloud-only configurations.
-
-There are also topics you need to be aware of:
-- As there is no server component, signatures can not be automatically added to mails sent from mobile devices. This will change as soon as Microsoft's roaming signature feature will be accessible by an API, and mobile applications start using this feature.  
-Set-OutlookSignatures Benefactor Circle already supports the roaming signature feature.
-- There is no graphical user interface. This is on purpose:
-  - End users typically never see the tool, only results.
-  - Admins typically need around two hours for the basic setup, as the default parameters are very well chosen and documented.
-  - Template maintainers need nothing but Word to create, modify and configure templates.
 
 ## 3. Demo video
 <div class="columns">
