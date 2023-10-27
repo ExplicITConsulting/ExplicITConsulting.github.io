@@ -141,8 +141,8 @@ The implementation approach is **suited for service providers as well as for cli
 Licenses are to be paid in advance and are valid for one year from the day the full payment is received. There is no automatic renewal.
 
 The cost of the license depends on the number of mailboxes:
-- Each mailbox in your environment, for which an exclusive feature shall be used, needs a license. This includes shared mailboxes (one license per shared mailbox, no matter how may users access it).  
-- The mailboxes do not need to be named, you just have to define at least one Active Directory or Graph group containing the mailboxes, and the maximum number of recursive members for each group.
+- Each mailbox in your environment, for which an exclusive feature shall be used, needs a license. This includes shared mailboxes (one license per shared mailbox, no matter how many users access it).  
+- The mailboxes do not need to be named, you just have to define at least one Active Directory or Entra ID/Azure AD group containing the mailboxes, and the maximum number of recursive members for each group.
 
 The net price in EUR currently is **1.50 € per mailbox and year**, with a minimum total sum of 100 € net per license period.  
 
@@ -152,7 +152,7 @@ As long as a license is valid, it includes prioritized ticket support and unlimi
 
 We work hard to keep our prices as low and stable as possible, with the aim of only having to adjust them for inflation. So, prices are subject to change. As you pay in advance, you can and will never be charged retrospectively - and if you want to add more mailboxes during an active licencing period, you will only be charged the initial price of your current license period for these additional mailboxes (and this only for the remaining months of your current license period), even if the price was raised in the meantime.
 
-Support may be chargeable. This includes workshops, implementation support, all forms of remote or on-site outsourcing, support for topics already well-explained in the documentation and support for problems with the root cause outside of Set-OutlookSignatures or Set-OutlookSignatures Benefactor Circle.
+Support may be chargeable. This includes workshops, implementation support, all forms of remote or on-site outsourcing, support for topics already well-explained in the documentation, and support for problems with the root cause outside of Set-OutlookSignatures or Set-OutlookSignatures Benefactor Circle.
 
 ### 5.2. Trial version
 You may want to start with a 30-day trial license.
