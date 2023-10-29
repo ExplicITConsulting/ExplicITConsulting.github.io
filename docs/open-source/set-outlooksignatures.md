@@ -83,7 +83,7 @@ Signatures and OOF messages can also be created and deployed centrally, without 
 **Simulation mode** allows content creators and admins to simulate the behavior of the software and to inspect the resulting signature files before going live.
   
 The software is **designed to work in big and complex environments** (Exchange resource forest scenarios, across AD trusts, multi-level AD subdomains, many objects). It works **on premises, in hybrid and cloud-only environments**.  
-All **national clouds are supported**: Global (AzurePublic), USGovernmentL4 (AzureUSGovernment), USGovernmentL5 (AzureUSGovernment DoD), ChinaCloud (AzureChinaCloud operated by 21Vianet).
+All **national clouds are supported**: Public (AzurePublic), US Government L4 (AzureUSGovernment), US Government L5 (AzureUSGovernment DoD), China (AzureChinaCloud operated by 21Vianet).
 
 It is **multi-client capable** by using different template paths, configuration files and script parameters.
 
