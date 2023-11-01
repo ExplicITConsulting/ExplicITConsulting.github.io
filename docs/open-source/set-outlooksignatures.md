@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Set-OutlookSignatures Benefactor Circle
-subtitle: Centrally manage and deploy email signatures and out of office replies for Outlook and Exchange
-description: Set-OutlookSignatures Benefactor Circle. The open source gold standard to centrally manage and deploy email signatures and out of office replies for Outlook and Exchange.
+subtitle: Centrally manage and deploy email signatures and out-of-office replies for Outlook and Exchange
+description: Set-OutlookSignatures Benefactor Circle. The open source gold standard to centrally manage and deploy email signatures and out-of-office replies for Outlook and Exchange.
 image:
   path: "/assets/images/set-outlooksignatures benefactor circle opengraph1200x630.png"
   height: 1200
@@ -27,7 +27,7 @@ redirect_from:
 ---
 <!-- omit in toc -->
 ## <img src="/assets/images/set-outlooksignatures benefactor circle.png" style="height: 3em; object-fit:contain;" alt="Set-OutlookSignatures Benefactor Circle">
-**Set-OutlookSignatures is the open source gold standard to centrally manage and deploy email signatures and out of office replies for Outlook and Exchange.**  
+**Set-OutlookSignatures is the open source gold standard to centrally manage and deploy email signatures and out-of-office replies for Outlook and Exchange.**  
 Download the free and open-source core version from <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">GitHub</a> for free.
 
 **ExplicIT's Benefactor Circle add-on enhances the open source version with a great set of additional features and commercial support.**
@@ -53,13 +53,13 @@ Download the free and open-source core version from <a href="https://github.com/
 - [7. Data protection notice](#7-data-protection-notice)
 
 ## 1. Overview and features
-Email signatures and out of office replies are an integral part of corporate identity and corporate design, of successful concepts for media and internet presence, and of marketing campaigns.
+Email signatures and out-of-office replies are an integral part of corporate identity and corporate design, of successful concepts for media and internet presence, and of marketing campaigns.
 
 Central management and deployment ensures that CI/CD guidelines are met, guarantees the use of correct and up-to-date data, helps to comply with legal requirements, relieves staff and also opens up an additional marketing channel.
 
 Many companies are not aware that business emails, similar to a web presence, are usually subject to an imprint obligation. The legal basis differs from country to country, and non-compliance can result in severe penalties.
 
-**With Set-OutlookSignatures, signatures and out of office replies can be:**
+**With Set-OutlookSignatures, signatures and out-of-office replies can be:**
 - Generated from **templates in DOCX or HTML** file format  
 - Customized with a **broad range of variables**, including **photos**, from Active Directory and other sources
   - Variables are available for the **currently logged-on user, this user's manager, each mailbox and each mailbox's manager**
@@ -113,7 +113,7 @@ The implementation approach is **suited for service providers as well as for cli
           <li>Signatures for automapped and additional mailboxes</li>
           <li>Set current user Outlook Web signature (classic Outlook Web signature and roaming signatures)</li>
           <li>Download and upload roaming signatures</li>
-          <li>Set current user out of office replies</li>
+          <li>Set current user out-of-office replies</li>
           <li>Delete signatures created by the script, where the templates no longer exist or are no longer assigned</li>
           <li>Delete user created signatures</li>
           <li>Additional signature path (when used outside of simulation mode)</li>
