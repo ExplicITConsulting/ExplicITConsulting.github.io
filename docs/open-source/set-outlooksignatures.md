@@ -49,7 +49,7 @@ Download the free and open-source core version from <a href="https://github.com/
   - [4.6. Moving licensed mailboxes between license groups](#46-moving-licensed-mailboxes-between-license-groups)
   - [4.7. Increasing the number of licensed mailboxes](#47-increasing-the-number-of-licensed-mailboxes)
 - [5. How license groups work](#5-how-license-groups-work)
-- [6. License and script version](#6-license-and-script-version)
+- [6. License and software version](#6-license-and-software-version)
 - [7. Data protection notice](#7-data-protection-notice)
 
 ## 1. Overview and features
@@ -71,7 +71,7 @@ Many companies are not aware that business emails, similar to a web presence, ar
 - Set as **default OOF message** for internal or external recipients (OOF messages only)  
 - Set in **Outlook Web** for the currently logged-in user, including mirroring signatures the the cloud as **roaming signatures**  
 - Centrally managed only or **exist along user created signatures** (signatures only)  
-- Copied to an **alternate path** for easy access on mobile devices not directly supported by this script (signatures only)
+- Copied to an **alternate path** for easy access on mobile devices not directly supported by this software (signatures only)
 - **Write protected** (Outlook signatures only)
 
 Set-OutlookSignatures can be **executed by users on clients and terminal servers, or on a central system without end user interaction**.  
@@ -85,7 +85,7 @@ Signatures and OOF messages can also be created and deployed centrally, without 
 The software is **designed to work in big and complex environments** (Exchange resource forest scenarios, across AD trusts, multi-level AD subdomains, many objects). It works **on premises, in hybrid and cloud-only environments**.  
 All **national clouds are supported**: Public (AzurePublic), US Government L4 (AzureUSGovernment), US Government L5 (AzureUSGovernment DoD), China (AzureChinaCloud operated by 21Vianet).
 
-It is **multi-client capable** by using different template paths, configuration files and script parameters.
+It is **multi-client capable** by using different template paths, configuration files and software parameters.
 
 Set-OutlookSignatures requires **no installation on servers or clients**. You only need a standard SMB file share on a central system, and optionally Office on your clients.  
 There is also **no telemetry** or "calling home", emails are **not routed through a 3rd party data center or cloud service**, and there is **no need to change DNS records (MX, SPF) or mail flow**.
@@ -107,14 +107,14 @@ The implementation approach is **suited for service providers as well as for cli
   <div class="tile is-6 is-vertical is-parent">
     <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
-        <h3>Script features</h3>
+        <h3>Software features</h3>
         <ul>
           <li>Time-based campaigns by assigning time range constraints to templates</li>
           <li>Signatures for automapped and additional mailboxes</li>
           <li>Set current user Outlook Web signature (classic Outlook Web signature and roaming signatures)</li>
           <li>Download and upload roaming signatures</li>
           <li>Set current user out-of-office replies</li>
-          <li>Delete signatures created by the script, where the templates no longer exist or are no longer assigned</li>
+          <li>Delete signatures created by the software, where the templates no longer exist or are no longer assigned</li>
           <li>Delete user created signatures</li>
           <li>Additional signature path (when used outside of simulation mode)</li>
           <li>High resolution images from DOCX templates</li>
@@ -275,10 +275,10 @@ In these cases, license groups are handled as follows:
   - If there is no license group associated with this DNS domain name, the license group defined as default is queried via Graph
 - If the current mailbox does not have the Graph "onPremisesDomainName" attribute set, the license group defined as default is queried via Graph
 
-## 6. License and script version
-License and script versions go hand in hand, so every new release of Set-OutlookSignatures also means a new license release, and vice-versa.
+## 6. License and software version
+License and software versions go hand in hand, so every new release of Set-OutlookSignatures also means a new license release, and vice-versa.
 
-Using different versions of script and license file is not supported, as this may lead to unexpected results.
+Using different versions of software and license file is not supported, as this may lead to unexpected results.
 
 A warning message is logged when a version mismatch is detected.
 
@@ -287,7 +287,7 @@ Set-OutlookSignatures and the Benefactor Circle license add-on do not store any 
 - the end user's Windows client,
 - the end user's Active Directory or Azure Active Directory,
 - the end user's Exchange or Exchange Online system,
-- and the file server or SharePoint Server storing the script, it's sub-components and template files.
+- and the file server or SharePoint Server storing the sofware, it's sub-components and template files.
 
 The data transfer always happens in the security context of the user executing the program.
 
