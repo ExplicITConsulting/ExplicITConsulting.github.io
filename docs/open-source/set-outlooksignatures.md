@@ -156,12 +156,12 @@ We work hard to keep our prices as low and stable as possible, with the aim of o
 Support may be chargeable. This includes workshops, implementation support, all forms of remote or on-site outsourcing, support for topics already well-explained in the documentation, and support for problems with the root cause outside of Set-OutlookSignatures or Set-OutlookSignatures Benefactor Circle.
 
 ### 4.2. Trial version
-You may want to start with a 30-day trial license.
+You may want to start with a 14-day trial license.
 
 The Benefactor Circle add-on extends the feature set of the free and open-source core version of Set-OutlookSignatures, so make sure that the core version is working correctly before requesting a trial version.  
 If you look for help implementing the free and open-source core version of Set-OutlookSignatures, go through the Quick Start Guide in the readme file, open an issue at GitHub, or contact us: We are happy to help you implement Set-OutlookSignatures in your own environment as part of our fee-based support.
 
-As soon as the open-source core version is running, it is time to take the next step: <strong>Send us your <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank">trial version request</a> to gain access to a full-featured 30-day trial license.</strong>
+As soon as the open-source core version is running, it is time to take the next step: <strong>Send us your <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank">trial version request</a> to gain access to a full-featured 14-day trial license.</strong>
 
 The form collects the following information:
 - Company name and full address
@@ -182,7 +182,7 @@ To use the license file, just add two parameters to your call of Set-OutlookSign
 - `BenefactorCircleLicenseFile` with the path to your indivualized license file
 - `BenefactorCircleId` with your Benefactor Circle id
 
-Trial licenses can not be extended or re-issued. They are limited to 30 days runtime and a maximum of 20 mailboxes.
+Trial licenses can not be extended or re-issued. They are limited to 14 days runtime and a maximum of 20 mailboxes.
 
 ### 4.3. Order process for non-trial versions
 <strong>> Just fill in and submit the <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank">license offer request form</a> to request an individualized offer for Set-OutlookSignatures Benefactor Circle licenses.</strong>
