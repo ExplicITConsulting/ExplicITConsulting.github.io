@@ -118,6 +118,7 @@ The implementation approach is **suited for service providers as well as for cli
           <li>Delete user-created signatures</li>
           <li>Additional signature path (when used outside of simulation mode)</li>
           <li>High resolution images from DOCX templates</li>
+          <li>All components are digitally signed with an Extended Validation (EV) certificate for tamper protection and easy integration into locked-down environments.</li>
         </ul>
       </div>
     </div>
@@ -139,7 +140,6 @@ The implementation approach is **suited for service providers as well as for cli
         <ul>
           <li>All release upgrades during the license period are included, no matter if patch, feature or major release.</li>
           <li>All releases, including license files, published during the license period are available in the secured individual release archive.</li>
-          <li>All components are digitally signed with an Extended Validation (EV) certificate for tamper protection and easy integration into locked-down environments.</li>
         </ul>
       </div>
     </div>
