@@ -39,7 +39,7 @@ Download the free and open-source core version from <a href="https://github.com/
 ## Topics
 - [1. Overview and features](#1-overview-and-features)
 - [2. Demo video](#2-demo-video)
-- [3. Benefactor Circle exclusive features](#3-benefactor-circle-exclusive-features)
+- [3. Benefactor Circle exclusives](#3-benefactor-circle-exclusives)
 - [4. Buying, extending and changing licenses](#4-buying-extending-and-changing-licenses)
   - [4.1. Price and general information](#41-price-and-general-information)
   - [4.2. Trial version](#42-trial-version)
@@ -102,7 +102,7 @@ The implementation approach is **suited for service providers as well as for cli
   </div>
 </div>
 
-## 3. Benefactor Circle exclusive features
+## 3. Benefactor Circle exclusives
 <div class="tile is-ancestor">
   <div class="tile is-6 is-vertical is-parent">
     <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
