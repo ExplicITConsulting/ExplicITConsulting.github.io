@@ -70,7 +70,7 @@ Many companies are not aware that business emails, similar to a web presence, ar
 - Set as **default signature** for new emails, or for replies and forwards (signatures only)  
 - Set as **default OOF message** for internal or external recipients (OOF messages only)  
 - Set in **Outlook Web** for the currently logged-in user, including mirroring signatures the the cloud as **roaming signatures**  
-- Centrally managed only or **exist along user created signatures** (signatures only)  
+- Centrally managed only or **exist along user-created signatures** (signatures only)  
 - Copied to an **alternate path** for easy access on mobile devices not directly supported by this software (signatures only)
 - **Write protected** (Outlook signatures only)
 
@@ -114,8 +114,8 @@ The implementation approach is **suited for service providers as well as for cli
           <li>Set current user Outlook Web signature (classic Outlook Web signature and roaming signatures)</li>
           <li>Download and upload roaming signatures</li>
           <li>Set current user out-of-office replies</li>
-          <li>Delete signatures created by the software, where the templates no longer exist or are no longer assigned</li>
-          <li>Delete user created signatures</li>
+          <li>Delete signatures created by the software, for which the templates no longer exist or apply</li>
+          <li>Delete user-created signatures</li>
           <li>Additional signature path (when used outside of simulation mode)</li>
           <li>High resolution images from DOCX templates</li>
         </ul>
@@ -128,9 +128,18 @@ The implementation approach is **suited for service providers as well as for cli
         <h3>Prioritized support and feature requests</h3>
         <ul>
           <li>Issues are handled with priority via a Benefactor Circle exclusive email address and a callback option.</li>
-          <li>Protected web storage allowing a secure upload of log files for analysis.</li>
+          <li>Secured web storage for protected upload and temporary storage of log files required for analysis.</li>
           <li>Requests for new features are checked for feasability with priority.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+      <div class="content">
+        <h3>Release upgrades, archive and code signing</h3>
+        <ul>
           <li>All release upgrades during the license period are for free, no matter if it is a patch, feature or major release.</li>
+          <li>All releases, including license files, published during the license period are available in the secured individual release archive.</li>
+          <li>All release components are digitally signed with an Extended Validation (EV) Code Signing Certificate (the highest code signing standard available), making it much easier to implement Set-OutlookSignatures in environments being controlled with AppLocker or comparable tools.</li>
         </ul>
       </div>
     </div>
