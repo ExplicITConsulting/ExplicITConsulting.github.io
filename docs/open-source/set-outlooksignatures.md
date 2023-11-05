@@ -128,7 +128,7 @@ The implementation approach is **suited for service providers as well as for cli
         <h3>Prioritized support and feature requests</h3>
         <ul>
           <li>Issues are handled with priority via a Benefactor Circle exclusive email address and a callback option.</li>
-          <li>Secured web storage for protected upload and temporary storage of log files required for analysis.</li>
+          <li>Secure web storage for protected upload and temporary storage for data exchange.</li>
           <li>Requests for new features are checked for feasability with priority.</li>
         </ul>
       </div>
@@ -139,7 +139,7 @@ The implementation approach is **suited for service providers as well as for cli
         <ul>
           <li>All release upgrades during the license period are included, no matter if patch, feature or major release.</li>
           <li>All releases, including license files, published during the license period are available in the secured individual release archive.</li>
-          <li>All release components are digitally signed with an Extended Validation (EV) Code Signing Certificate (the highest code signing standard available), making it much easier to implement Set-OutlookSignatures in environments being controlled with AppLocker or comparable tools.</li>
+          <li>All components are digitally signed with an Extended Validation (EV) certificate for tamper protection and easy integration into locked-down environments.</li>
         </ul>
       </div>
     </div>
