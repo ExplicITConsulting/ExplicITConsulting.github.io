@@ -136,7 +136,7 @@ The implementation approach is **suited for service providers as well as for cli
     </div>
     <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
-        <h3>Release upgrades, archive and code signing</h3>
+        <h3>Free release upgrades and archive</h3>
         <ul>
           <li>All release upgrades during the license period are included, no matter if patch, feature or major release.</li>
           <li>All releases, including license files, published during the license period are available in the secured individual release archive.</li>
