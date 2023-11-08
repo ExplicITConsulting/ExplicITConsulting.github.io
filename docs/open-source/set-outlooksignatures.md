@@ -9,6 +9,9 @@ image:
   width: 630
   alt: "Set-OutlookSignatures Benefactor Circle"
 redirect_from:
+  - /set-outlooksignatures
+  - /setoutlooksignatures
+  - /outlooksignatures
   - /opensource/set-outlooksignatures
   - /opensource/set-outlooksignatures/
   - /opensource/setoutlooksignatures
