@@ -132,7 +132,7 @@ The implementation approach is **suited for service providers as well as for cli
       <div class="content">
         <h3>Prioritized support and feature requests</h3>
         <ul>
-          <li>Issues are handled with priority via a Benefactor Circle exclusive email address and a callback option. Support is available 24/5 (Austria, Central European Time), with a support engineer contacting you within one business day. Remote support sessions are arranged in advance.<br>Technical guides, FAQs, video demonstrations and additional documentation are available 24/7 <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">here</a>.</li>
+          <li>Support requests are handled with priority 24/5 (Austrian time) via a Benefactor Circle exclusive email address and a callback option. A support engineer will contact you within one business day. Remote support sessions are arranged in advance.<br>Technical guides, FAQs, video demonstrations and additional documentation are available 24/7 <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">here</a>.</li>
           <li>Secure web storage for protected upload and temporary storage for data exchange.</li>
           <li>Requests for new features are checked for feasability with priority.</li>
         </ul>
