@@ -153,7 +153,9 @@ The implementation approach is **suited for service providers as well as for cli
 ## 4. Commercial support
 Whether you use the open source version or are a Benefactor Circle client, ExplicIT offers commercial support for Set-OutlookSignatures.
 
-<a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized quote</button></a> for workshops, implementation support, training, template creation assistance or any other topic related to the central management of signatures and out-of-office replies.
+We offer customized workshops, implementation support, trainings, template creation assistance and other services related to the central management of email signatures and out-of-office replies.
+
+<a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized quote</button></a>
 
 ## 5. Buying, extending and changing licenses
 ### 5.1. Price and general information
