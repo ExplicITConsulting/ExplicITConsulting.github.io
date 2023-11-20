@@ -8,7 +8,7 @@ redirect_from:
   - /opensource/
 ---
 ## ExplicIT enhances open-source software
-<a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized offer</button></a>
+<a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized quote</button></a>
 
 <div class="tile is-ancestor">
   <div class="tile is-6 is-vertical is-parent">
