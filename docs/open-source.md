@@ -15,7 +15,7 @@ redirect_from:
     <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Commercial support</h3>
-        <p>We offer commercial support for select open-source software, such as for <a href="/open-source/export-recipientpermissions">Export-RecipientPermissions</a>.</p>
+        <p>We offer commercial support for select open-source software, such as for <a href="/open-source/export-recipientpermissions">Export-RecipientPermissions</a> and <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures</a>.</p>
       </div>
     </div>
     <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
