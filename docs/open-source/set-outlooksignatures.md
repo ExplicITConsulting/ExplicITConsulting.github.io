@@ -163,10 +163,8 @@ The net price in EUR currently is **1.50 € per mailbox and year**, with a mini
 
 **Yes, that's right: Per year, not per month.**
 
-Each mailbox in your environment, for which an exclusive feature shall be used, needs a license. This includes shared mailboxes.
-
-It does not matter how many users access a mailbox. If you want to only deploy signatures for a single mailbox being used by 50 people, you only need to buy 1 license.
-
+Each mailbox in your environment, for which an exclusive feature shall be used, needs a license. This includes shared mailboxes.  
+It does not matter how many users access a mailbox. If you want to only deploy signatures for a single mailbox being used by 50 people, you only need to buy 1 license.  
 The mailboxes do not need to be named, you just have to define at least one Active Directory or Entra ID/Azure AD group containing the mailboxes, and the maximum number of recursive members for each group.
 
 Licenses are to be paid in advance and are valid for one year from the day the full payment is received. There is no automatic renewal or a subscription.
