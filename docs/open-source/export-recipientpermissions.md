@@ -23,7 +23,7 @@ You can <a href="https://github.com/GruberMarkus/export-recipientpermissions" ta
 
 **Read on to learn what ExplicIT offers on top.**
 
-<a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized offer</button></a>
+<a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized quote</button></a>
 
 ## Features
 <div class="tile is-ancestor">
@@ -83,4 +83,4 @@ You can <a href="https://github.com/GruberMarkus/export-recipientpermissions" ta
 ## What does ExplicIT Consulting offer on top?
 ExplicIT Consulting offers commercial support for Export-RecipientPermissions: Consulting, implementation support, enhancing functionality, solving bugs and issues.
 
-<a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized offer</button></a>
+<a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized quote</button></a>
