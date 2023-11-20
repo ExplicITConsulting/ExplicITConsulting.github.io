@@ -142,12 +142,17 @@ The implementation approach is **suited for service providers as well as for cli
         <h3>Free release upgrades and archive</h3>
         <ul>
           <li>All release upgrades during the license period are included, no matter if patch, feature or major release.</li>
-          <li>All releases, including license files, published during the license period are available in the secured individual release archive.</li>
+          <li>All releases, including license files, published during the license period are available in a secured individual release archive.</li>
         </ul>
       </div>
     </div>
   </div>
 </div>
+
+## Commercial support
+Whether you use the open source version or are a Benefactor Circle client, ExplicIT offers commercial support for Set-OutlookSignatures.
+
+<a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized quote</button></a> for workshops, implementation support, training, template creation assistance or any other topic related to the central management of signatures and out-of-office replies.
 
 ## 4. Buying, extending and changing licenses
 ### 4.1. Price and general information
@@ -197,7 +202,7 @@ To use the license file, just add two parameters to your call of Set-OutlookSign
 Trial licenses can not be extended or re-issued. They are limited to 14 days runtime and a maximum of 20 mailboxes.
 
 ### 4.3. Order process for non-trial versions
-<strong>> Just fill in and submit the <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank">license offer request form</a> to request an individualized offer for Set-OutlookSignatures Benefactor Circle licenses.</strong>
+<strong>> Just fill in and submit the <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank">license quote request form</a> to request an individualized quote for Set-OutlookSignatures Benefactor Circle licenses.</strong>
 
 The form collects the following information:
 - Company name and full address
@@ -214,7 +219,7 @@ The form collects the following information:
 
 The total number of mailboxes to license is the sum of the maximum members defined for each license group.
 
-You will receive an offer within a few days. As soon as all the technical details are ironed out, you will receive an invoice and can start the payment process.
+You will receive a quote within a few days. As soon as all the technical details are ironed out, you will receive an invoice and can start the payment process.
 
 As soon as the full invoice amount is received, you will be sent an email with instructions on how to securely download your individualized license file.
 
