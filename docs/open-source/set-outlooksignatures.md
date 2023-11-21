@@ -263,14 +263,14 @@ The new payment does not extend the existing license period, but it increases th
 
 An example:
 - After a trial with 20 mailboxes, you start a pilot with 110 mailboxes in mid of April 2023. The license is valid until mid of April 2024, with the following cost:
-    max(200; 110 * 1.50) = 200.00 € net
+    max(200; (110 * 1.50)) = 200.00 € net
 - As the pilot is a success, the number of licensed mailboxes is raised to 7,500 in July 2023.
   - The license period does not change, the license is still valid from mid of April 2023 to mid of April 2024, of course with the higher number of mailboxes.
 - The added licenses result in the following costs:
-  - Year 1 total cost of 9,402.50 €, consisting of
-    - Year 1 cost for 110 mailboxes for 12 months: max(200; 110 * 1.50) = 200.00 € net
-    - Year 1 additional mailboxes for 10 months (July 2023 to mid of April 2024): max(200; (7,500 - 110) * 1.50)/12*10 = 9,237.50 € net
-    - As long as the price is not changing, the consecutive years will cost: max(200; 7,500 * 1,50) = 11,250.00 € net
+  - Year 1 total cost of 9,437.50 €, consisting of
+    - Year 1 cost for 110 mailboxes for 12 months: max(200; (110 * 1.50)) = 200.00 € net
+    - Year 1 additional mailboxes for 10 months (July 2023 to mid of April 2024): max(200; ((7,500 - 110) * 1.50 / 12 * 10) = 9,237.50 € net
+  - As long as the price is not changing, the consecutive years will cost: max(200; (7,500 * 1,50)) = 11,250.00 € net
 
 ## 6. How license groups work
 Each Benefactor Circle license is bound to one or more Active Directory or Azure AD groups.
