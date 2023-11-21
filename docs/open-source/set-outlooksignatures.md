@@ -35,7 +35,7 @@ Download the free and open-source core version from <a href="https://github.com/
 
 **ExplicIT's Benefactor Circle add-on enhances the open source version with a great set of additional features and commercial support.**
 
-<a href="#42-trial-version"><button class="button is-link is-normal is-responsive is-hover">Request a trial version</button></a>
+<a href="#52-trial-version"><button class="button is-link is-normal is-responsive is-hover">Request a trial version</button></a>
 <a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact the Set-OutlookSignatures Benefactor Circle team</button></a>
 
 <!-- omit in toc -->
@@ -185,11 +185,11 @@ You may want to start with a 14-day trial license.
 The Benefactor Circle add-on extends the feature set of the free and open-source core version of Set-OutlookSignatures, so make sure that the core version is working correctly before requesting a trial version.  
 If you look for help implementing the free and open-source core version of Set-OutlookSignatures, go through the Quick Start Guide in the readme file, open an issue at GitHub, or contact us: We are happy to help you implement Set-OutlookSignatures in your own environment as part of our fee-based support.
 
-As soon as the open-source core version is running, it is time to take the next step: <strong>Send us your <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank">trial version request</a> to gain access to a full-featured 14-day trial license.</strong>
+As soon as the open-source core version is running, it is time to take the next step:<br><a href="https://forms.office.com/r/sgKrkkd0Eb"><button class="button is-link is-normal is-responsive is-hover">Submit this form to gain access to a full-featured 14-day trial license</button></a>
 
 The form collects the following information:
 - Company name and full address
-- The VAT number of your company
+- The VAT number of your company (EU only)
 - Contact email addresses for receiving the download link for the license file, updates and other non invoice related information
 - List of license groups and maximum members in the following format (see '[How license groups work](#how-license-groups-work)' for details):
   - DNS domain name of the Active Directory domain (not the email domain) the license group is in.
@@ -209,11 +209,11 @@ To use the license file, just add two parameters to your call of Set-OutlookSign
 Trial licenses can not be extended or re-issued. They are limited to 14 days runtime and a maximum of 20 mailboxes.
 
 ### 5.3. Order process for non-trial versions
-<strong>> Just fill in and submit the <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank">license quote request form</a> to request an individualized quote for Set-OutlookSignatures Benefactor Circle licenses.</strong>
+<a href="https://forms.office.com/r/sgKrkkd0Eb"><button class="button is-link is-normal is-responsive is-hover">Submit this form to request a quote for Set-OutlookSignatures Benefactor Circle licenses</button></a>
 
 The form collects the following information:
 - Company name and full address
-- The VAT number of your company
+- The VAT number of your company (EU only)
 - Contact email addresses
   - At least one for receiving invoices
   - At least one for receiving the download link for the license file, updates and other non invoice related information
