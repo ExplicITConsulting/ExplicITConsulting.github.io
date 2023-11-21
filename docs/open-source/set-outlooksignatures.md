@@ -155,11 +155,11 @@ Whether you use the open source version or are a Benefactor Circle client, Expli
 
 We offer customized workshops, implementation support, trainings, template creation assistance and other services related to the central management of email signatures and out-of-office replies.
 
-Support is available 24/5 (Austrian business days) via a email and a callback option. A support engineer will contact you within one business day. Support is charged by the hour. 24/7 and on-call options are available upon request.
+Support is available 24/5 (Austrian business days) via email and a callback option. A support engineer will contact you within one business day. Support is charged by the hour. 24/7 and on-call options are available upon request.
 
 <a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized quote</button></a>
 
-Support requests from Benefactor Circle license holders are prioritized. The license itself does not contain any support hours, as support is rarely needed and we want to keep licences as affordable as possible.
+Support requests from Benefactor Circle license holders are prioritized. The license itself does not include support hours, as support is rarely required and we want to keep the license costs as fair as possible.
 
 Technical guides, FAQs, video demonstrations and additional documentation are available for free 24/7 <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">here</a>.
 
