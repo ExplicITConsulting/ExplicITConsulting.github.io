@@ -209,7 +209,7 @@ To use the license file, just add two parameters to your call of Set-OutlookSign
 Trial licenses can not be extended or re-issued. They are limited to 14 days runtime and a maximum of 20 mailboxes.
 
 ### 5.3. Order process for non-trial versions
-<a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank"<button class="button is-link is-normal is-responsive is-hover">Submit this form to request a quote for Set-OutlookSignatures Benefactor Circle licenses</button></a>
+<a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Submit this form to request a quote for Set-OutlookSignatures Benefactor Circle licenses</button></a>
 
 The form collects the following information:
 - Company name and full address
