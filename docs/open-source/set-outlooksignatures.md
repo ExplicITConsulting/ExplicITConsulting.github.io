@@ -35,8 +35,8 @@ Download the free and open-source core version from <a href="https://github.com/
 
 **ExplicIT's Benefactor Circle add-on enhances the open source version with a great set of additional features and commercial support.**
 
-<a href="#52-trial-version"><button class="button is-link is-normal is-responsive is-hover">Request a trial version</button></a>
-<a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact the Set-OutlookSignatures Benefactor Circle team</button></a>
+<a href="#52-trial-version" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Request a trial version</button></a>
+<a href="/contact" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Contact the Set-OutlookSignatures Benefactor Circle team</button></a>
 
 <!-- omit in toc -->
 ## Topics
@@ -157,7 +157,7 @@ We offer customized workshops, implementation support, trainings, template creat
 
 Support is available 24/5 (Austrian business days) via email and a callback option. A support engineer will contact you within one business day. Support is charged by the hour. 24/7 and on-call options are available upon request.
 
-<a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized quote</button></a>
+<a href="/contact" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized quote</button></a>
 
 Support requests from Benefactor Circle license holders are prioritized. The license itself does not include support hours, as support is rarely required and we want to keep the license costs as fair as possible.
 
@@ -185,7 +185,7 @@ You may want to start with a 14-day trial license.
 The Benefactor Circle add-on extends the feature set of the free and open-source core version of Set-OutlookSignatures, so make sure that the core version is working correctly before requesting a trial version.  
 If you look for help implementing the free and open-source core version of Set-OutlookSignatures, go through the Quick Start Guide in the readme file, open an issue at GitHub, or contact us: We are happy to help you implement Set-OutlookSignatures in your own environment as part of our fee-based support.
 
-As soon as the open-source core version is running, it is time to take the next step:<br><a href="https://forms.office.com/r/sgKrkkd0Eb"><button class="button is-link is-normal is-responsive is-hover">Submit this form to gain access to a full-featured 14-day trial license</button></a>
+As soon as the open-source core version is running, it is time to take the next step:<br><a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Submit this form to gain access to a full-featured 14-day trial license</button></a>
 
 The form collects the following information:
 - Company name and full address
@@ -209,7 +209,7 @@ To use the license file, just add two parameters to your call of Set-OutlookSign
 Trial licenses can not be extended or re-issued. They are limited to 14 days runtime and a maximum of 20 mailboxes.
 
 ### 5.3. Order process for non-trial versions
-<a href="https://forms.office.com/r/sgKrkkd0Eb"><button class="button is-link is-normal is-responsive is-hover">Submit this form to request a quote for Set-OutlookSignatures Benefactor Circle licenses</button></a>
+<a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank"<button class="button is-link is-normal is-responsive is-hover">Submit this form to request a quote for Set-OutlookSignatures Benefactor Circle licenses</button></a>
 
 The form collects the following information:
 - Company name and full address
