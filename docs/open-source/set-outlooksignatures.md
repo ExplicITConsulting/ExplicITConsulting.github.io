@@ -204,7 +204,7 @@ The license file contains the following information:
 
 To use the license file, just add two parameters to your call of Set-OutlookSignatures.ps1:
 - `BenefactorCircleLicenseFile` with the path to your individualized license file
-- `BenefactorCircleId` with your Benefactor Circle id
+- `BenefactorCircleId` with your Benefactor Circle ID
 
 Trial licenses can not be extended or re-issued. They are limited to 14 days runtime and a maximum of 20 mailboxes.
 
@@ -237,7 +237,7 @@ The license file contains the following information:
 
 To use the license file, just add two parameters to your call of Set-OutlookSignatures.ps1:
 - `BenefactorCircleLicenseFile` with the path to your individualized license file
-- `BenefactorCircleId` with your Benefactor Circle id
+- `BenefactorCircleId` with your Benefactor Circle ID
 
 ### 5.4. Extending or reducing a license period
 A license period cannot be extended. Licenses are valid for one year, starting with the date the full payment is received, and do not auto-renew.
