@@ -203,7 +203,7 @@ The license file contains the following information:
 - DNS domain name, SID and maximum number of members for one or multiple license groups
 
 To use the license file, just add two parameters to your call of Set-OutlookSignatures.ps1:
-- `BenefactorCircleLicenseFile` with the path to your indivualized license file
+- `BenefactorCircleLicenseFile` with the path to your individualized license file
 - `BenefactorCircleId` with your Benefactor Circle id
 
 Trial licenses can not be extended or re-issued. They are limited to 14 days runtime and a maximum of 20 mailboxes.
