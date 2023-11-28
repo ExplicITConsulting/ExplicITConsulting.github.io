@@ -35,8 +35,8 @@ Download the free and open-source core version from <a href="https://github.com/
 
 **ExplicIT's Benefactor Circle add-on enhances the open source version with a great set of additional features and commercial support.**
 
-<a href="#42-trial-version"><button class="button is-link is-normal is-responsive is-hover">Request a trial version</button></a>
-<a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact the Set-OutlookSignatures Benefactor Circle team</button></a>
+<a href="#52-trial-version" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Request a trial version</button></a>
+<a href="/contact" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Contact the Set-OutlookSignatures Benefactor Circle team</button></a>
 
 <!-- omit in toc -->
 ## Topics
@@ -132,7 +132,7 @@ The implementation approach is **suited for service providers as well as for cli
       <div class="content">
         <h3>Prioritized support and feature requests</h3>
         <ul>
-          <li>Support requests are handled with priority 24/5 (Austrian time) via a Benefactor Circle exclusive email address and a callback option. A support engineer will contact you within one business day. Remote support sessions are arranged in advance.<br>Technical guides, FAQs, video demonstrations and additional documentation are available 24/7 <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">here</a>.</li>
+          <li>Support requests are handled with priority 24/5 (Austrian business days) via a Benefactor Circle exclusive email address and a callback option.</li>
           <li>Secure web storage for protected upload and temporary storage for data exchange.</li>
           <li>Requests for new features are checked for feasability with priority.</li>
         </ul>
@@ -155,11 +155,17 @@ Whether you use the open source version or are a Benefactor Circle client, Expli
 
 We offer customized workshops, implementation support, trainings, template creation assistance and other services related to the central management of email signatures and out-of-office replies.
 
-<a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized quote</button></a>
+Support is available 24/5 (Austrian business days) via email and a callback option. A support engineer will contact you within one business day. Support is charged by the hour. 24/7 and on-call options are available upon request.
+
+<a href="/contact" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized quote</button></a>
+
+Support requests from Benefactor Circle license holders are prioritized. The license itself does not include support hours, as support is rarely required and we want to keep the license costs as fair as possible.
+
+Technical guides, FAQs, video demonstrations and additional documentation are available for free 24/7 <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">here</a>.
 
 ## 5. Buying, extending and changing licenses
 ### 5.1. Price and general information
-The net price in EUR currently is **1.50 € per mailbox and year**, with a minimum total sum of 100 € net per license period.  
+The net price in EUR currently is **1.50 € per mailbox and year**, with a minimum total sum of 200 € net per license period.  
 
 **Yes, that's right: Per year, not per month.**
 
@@ -179,11 +185,11 @@ You may want to start with a 14-day trial license.
 The Benefactor Circle add-on extends the feature set of the free and open-source core version of Set-OutlookSignatures, so make sure that the core version is working correctly before requesting a trial version.  
 If you look for help implementing the free and open-source core version of Set-OutlookSignatures, go through the Quick Start Guide in the readme file, open an issue at GitHub, or contact us: We are happy to help you implement Set-OutlookSignatures in your own environment as part of our fee-based support.
 
-As soon as the open-source core version is running, it is time to take the next step: <strong>Send us your <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank">trial version request</a> to gain access to a full-featured 14-day trial license.</strong>
+As soon as the open-source core version is running, it is time to take the next step:<br><a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Submit this form to gain access to a full-featured 14-day trial license</button></a>
 
 The form collects the following information:
 - Company name and full address
-- The VAT number of your company
+- The VAT number of your company (EU only)
 - Contact email addresses for receiving the download link for the license file, updates and other non invoice related information
 - List of license groups and maximum members in the following format (see '[How license groups work](#how-license-groups-work)' for details):
   - DNS domain name of the Active Directory domain (not the email domain) the license group is in.
@@ -197,17 +203,17 @@ The license file contains the following information:
 - DNS domain name, SID and maximum number of members for one or multiple license groups
 
 To use the license file, just add two parameters to your call of Set-OutlookSignatures.ps1:
-- `BenefactorCircleLicenseFile` with the path to your indivualized license file
-- `BenefactorCircleId` with your Benefactor Circle id
+- `BenefactorCircleLicenseFile` with the path to your individualized license file
+- `BenefactorCircleId` with your Benefactor Circle ID
 
 Trial licenses can not be extended or re-issued. They are limited to 14 days runtime and a maximum of 20 mailboxes.
 
 ### 5.3. Order process for non-trial versions
-<strong>> Just fill in and submit the <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank">license quote request form</a> to request an individualized quote for Set-OutlookSignatures Benefactor Circle licenses.</strong>
+<a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Submit this form to request a quote for Set-OutlookSignatures Benefactor Circle licenses</button></a>
 
 The form collects the following information:
 - Company name and full address
-- The VAT number of your company
+- The VAT number of your company (EU only)
 - Contact email addresses
   - At least one for receiving invoices
   - At least one for receiving the download link for the license file, updates and other non invoice related information
@@ -231,7 +237,7 @@ The license file contains the following information:
 
 To use the license file, just add two parameters to your call of Set-OutlookSignatures.ps1:
 - `BenefactorCircleLicenseFile` with the path to your individualized license file
-- `BenefactorCircleId` with your Benefactor Circle id
+- `BenefactorCircleId` with your Benefactor Circle ID
 
 ### 5.4. Extending or reducing a license period
 A license period cannot be extended. Licenses are valid for one year, starting with the date the full payment is received, and do not auto-renew.
@@ -257,14 +263,14 @@ The new payment does not extend the existing license period, but it increases th
 
 An example:
 - After a trial with 20 mailboxes, you start a pilot with 110 mailboxes in mid of April 2023. The license is valid until mid of April 2024, with the following cost:
-    max(100; 110 * 1.50) = 165.00 € net
+    max(200; (110 * 1.50)) = 200.00 € net
 - As the pilot is a success, the number of licensed mailboxes is raised to 7,500 in July 2023.
   - The license period does not change, the license is still valid from mid of April 2023 to mid of April 2024, of course with the higher number of mailboxes.
 - The added licenses result in the following costs:
-  - Year 1 total cost of 9,402.50 €, consisting of
-    - Year 1 cost for 110 mailboxes for 12 months: max(100; 110 * 1.50) = 165.00 € net
-    - Year 1 additional maiboxes for 10 months (July 2023 to mid of April 2024): max(100; (7,500 - 110) * 1.50)/12*10 = 9,237.50 € net
-    - As long as the price is not changing, the consecutive years will cost: max(100; 7,500 * 1,50) = 11,250.00 € net
+  - Year 1 total cost of 9,437.50 €, consisting of
+    - Year 1 cost for 110 mailboxes for 12 months: max(200; (110 * 1.50)) = 200.00 € net
+    - Year 1 additional mailboxes for 10 months (July 2023 to mid of April 2024): max(200; ((7,500 - 110) * 1.50 / 12 * 10) = 9,237.50 € net
+  - As long as the price is not changing, the consecutive years will cost: max(200; (7,500 * 1,50)) = 11,250.00 € net
 
 ## 6. How license groups work
 Each Benefactor Circle license is bound to one or more Active Directory or Azure AD groups.
