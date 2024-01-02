@@ -165,9 +165,9 @@ Technical guides, FAQs, video demonstrations and additional documentation are av
 
 ## 5. Buying, extending and changing licenses
 ### 5.1. Price and general information
-The net price in EUR currently is **1.50 € per mailbox and year**, with a minimum total sum of 200 € net per license period.  
+The net price in EUR currently is **1.50 € per mailbox and year** (yes, per year and not per month).
 
-**Yes, that's right: Per year, not per month.**
+There is no minimum number of mailboxes, only a minimum invoice sum of 200.00 € net per license period.
 
 Every mailbox in your environment for which you want to use a Benefactor Circle exclusive feature, needs a license. This includes shared mailboxes.
 
