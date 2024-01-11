@@ -61,9 +61,7 @@ Email signatures and out-of-office replies are an integral part of corporate ide
 
 Central management and deployment ensures that CI/CD guidelines are met, guarantees the use of correct and up-to-date data, helps to comply with legal requirements, relieves staff and also opens up an additional marketing channel.
 
-Many companies are not aware that business emails, similar to a web presence, are usually subject to an imprint obligation. The legal basis differs from country to country, and non-compliance can result in severe penalties.
-
-**With Set-OutlookSignatures, signatures and out-of-office replies can be:**
+**With Set-OutlookSignatures, you can do all this and even more. Signatures and out-of-office replies can be:**
 - Generated from **templates in DOCX or HTML** file format  
 - Customized with a **broad range of variables**, including **photos**, from Active Directory and other sources
   - Variables are available for the **currently logged-on user, this user's manager, each mailbox and each mailbox's manager**
