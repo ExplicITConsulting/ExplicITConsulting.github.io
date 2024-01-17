@@ -1,5 +1,7 @@
 - name: "Our Services"
   link: /services/
+- name: "Set-OutlookSignatures"
+  link: /open-source/set-outlooksignatures/
 - name: "Support for Open-Source"
   link: /open-source/
   dropdown:

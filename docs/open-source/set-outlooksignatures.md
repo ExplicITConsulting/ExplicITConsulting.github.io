@@ -38,6 +38,15 @@ Download the free and open-source core version from <a href="https://github.com/
 <a href="#52-trial-version" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Request a trial version</button></a>
 <a href="/contact" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Contact the Set-OutlookSignatures Benefactor Circle team</button></a>
 
+## Welcome!<!-- omit in toc -->
+If email signatures or out-of-office replies are on your agenda, the following is worth reading - whether you work in marketing, sales, corporate communications, the legal or the compliance department, as Exchange or client administrator, as CIO or IT lead, as key user or consultant.
+
+Email signatures and out-of-office replies are an integral part of corporate identity and corporate design, of successful concepts for media and internet presence, and of marketing campaigns. Similar to web presences, business emails are usually subject to an imprint obligation, and non-compliance can result in severe penalties.
+
+Central management and deployment ensures that design guidelines are met, guarantees correct and up-to-date content, helps comply with legal requirements, relieves staff and creates an additional marketing and sales channel.
+
+**With Set-OutlookSignatures you can do all this, and even more with the Benefactor Circle add-on.**
+
 <!-- omit in toc -->
 ## Topics
 - [1. Overview and features](#1-overview-and-features)
@@ -57,11 +66,7 @@ Download the free and open-source core version from <a href="https://github.com/
 - [8. Data protection notice](#8-data-protection-notice)
 
 ## 1. Overview and features
-Email signatures and out-of-office replies are an integral part of corporate identity and corporate design, of successful concepts for media and internet presence, and of marketing campaigns.
-
-Central management and deployment ensures that CI/CD guidelines are met, guarantees the use of correct and up-to-date data, helps to comply with legal requirements, relieves staff and also opens up an additional marketing channel.
-
-**With Set-OutlookSignatures, you can do all this and even more. Signatures and out-of-office replies can be:**
+With Set-OutlookSignatures, signatures and out-of-office replies can be:
 - Generated from **templates in DOCX or HTML** file format  
 - Customized with a **broad range of variables**, including **photos**, from Active Directory and other sources
   - Variables are available for the **currently logged-on user, this user's manager, each mailbox and each mailbox's manager**
