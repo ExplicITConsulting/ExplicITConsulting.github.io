@@ -30,13 +30,6 @@ redirect_from:
 ---
 <!-- omit in toc -->
 ## <img src="/assets/images/set-outlooksignatures benefactor circle.png" style="height: 3em; object-fit:contain;" alt="Set-OutlookSignatures Benefactor Circle">
-**Set-OutlookSignatures is the open source gold standard to centrally manage and deploy email signatures and out-of-office replies for Outlook and Exchange.**  
-Download the free and open-source core version from <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">GitHub</a> for free.
-
-**ExplicIT's Benefactor Circle add-on enhances the open source version with a great set of additional features and commercial support.**
-
-<a href="#52-trial-version" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Request a trial version</button></a>
-<a href="/contact" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Contact the Set-OutlookSignatures Benefactor Circle team</button></a>
 
 ## Welcome!<!-- omit in toc -->
 If email signatures or out-of-office replies are on your agenda, the following is worth reading - whether you work in marketing, sales, corporate communications, the legal or the compliance department, as Exchange or client administrator, as CIO or IT lead, as key user or consultant.
@@ -46,6 +39,15 @@ Email signatures and out-of-office replies are an integral part of corporate ide
 Central management and deployment ensures that design guidelines are met, guarantees correct and up-to-date content, helps comply with legal requirements, relieves staff and creates an additional marketing and sales channel.
 
 **With Set-OutlookSignatures you can do all this, and even more with the Benefactor Circle add-on.**
+
+Set-OutlookSignatures is the open source gold standard to centrally manage and deploy email signatures and out-of-office replies for Outlook and Exchange.  
+Download the free and open-source core version from <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">GitHub</a> for free.
+
+**ExplicIT's Benefactor Circle add-on enhances the open source version with a great set of additional features and commercial support.**
+
+<a href="#52-trial-version" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Request a trial version</button></a>
+<a href="/contact" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Contact the Set-OutlookSignatures Benefactor Circle team</button></a>
+
 
 <!-- omit in toc -->
 ## Topics
