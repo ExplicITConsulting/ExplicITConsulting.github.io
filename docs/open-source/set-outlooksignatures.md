@@ -178,7 +178,7 @@ Every mailbox in your environment for which you want to use a Benefactor Circle 
 
 It does not matter how many users access a mailbox. If you want to only deploy signatures for a single mailbox being used by 50 people, you only need to buy 1 license.  
 
-The mailboxes do not need to be named, you just have to define at least one Active Directory or Entra ID/Azure AD group containing the mailboxes, and the maximum number of recursive members for each group.
+The mailboxes do not need to be named, you just have to define at least one Active Directory or Entra ID group containing the mailboxes, and the maximum number of recursive members for each group.
 
 It does not matter how many signatures you have and how often you change them.
 
@@ -202,7 +202,7 @@ The form collects the following information:
 - Contact email addresses for receiving the download link for the license file, updates and other non invoice related information
 - List of license groups and maximum members in the following format (see '[How license groups work](#how-license-groups-work)' for details):
   - DNS domain name of the on-prem Active Directory domain (not the email domain) the license group is in.
-    - Use 'EntraID' or 'AzureAD' if the group only exists in Entra ID/Azure AD and is not synced with your on-prem Active Directory. Only one pure Entra ID/Azure AD group is supported, and it must be the group with the highest priority (first list entry).
+    - Use 'EntraID' if the group only exists in Entra ID and is not synced with your on-prem Active Directory. Only one pure Entra ID group is supported, and it must be the group with the highest priority (first list entry).
   - Security identifier (SID) of the group, as string in the "S-[...]" format. Only the SID is supported, other attributes such as GUID, Display Name, or SamAccountName are not supported.
   - If multiple license groups are defined, designate one of these groups as default or fallback group. For details, see '[How license groups work](#how-license-groups-work)'.
 
@@ -228,7 +228,7 @@ The form collects the following information:
   - At least one for receiving the download link for the license file, updates and other non invoice related information
 - List of license groups and maximum members in the following format (see '[How license groups work](#how-do-license-groups-work)' for details):
   - DNS domain name of the Active Directory Domain the group is in.
-    - Use 'EntraID' or 'AzureAD' if the group only exists in Entra ID/Azure AD and is not synced with your on-prem Active Directory. Only one pure Entra ID/Azure AD group is supported, and it must be the group with the highest priority (first list entry).
+    - Use 'EntraID' if the group only exists in Entra ID and is not synced with your on-prem Active Directory. Only one pure Entra ID group is supported, and it must be the group with the highest priority (first list entry).
   - Security identifier (SID) of the group, as string in the "S-[...]" format. Only the SID is supported, other attributes such as GUID, Display Name, or SamAccountName are not supported.
   - Maximum number of recursive members in the group (add a buffer for future growth)
   - If multiple license groups are defined, designate one of these groups as default or fallback group. For details, see 'How do license groups work?' later in this document.
@@ -282,22 +282,22 @@ An example:
   - As long as the price is not changing, the consecutive years will cost: max(200; (7,500 * 1,50)) = 11,250.00 € net
 
 ## 6. How license groups work
-Each Benefactor Circle license is bound to one or more Active Directory or Entra ID/Azure AD groups.
+Each Benefactor Circle license is bound to one or more Active Directory or Entra ID groups.
 
 Each mailbox of your company needs to be a direct or indirect (a.k.a. nested, recursive or transitive) member of a license group, so that it can use exclusive features.
 
 Each group may only contain as many mailboxes as direct or indirect members as defined in the license.
 
 The user running Set-OutlookSignatures must be able to resolve all direct and indirect members of the license group, even across trusts.
-Primary group membership is not considered due to Active Directory and Entra ID/Azure AD query restrictions.
+Primary group membership is not considered due to Active Directory and Entra ID query restrictions.
 
-License groups are defined by the DNS domain name of the on-premises Active Directory domain ('EntraID' or 'AzureAD' for cloud-only groups), their SID (security identifier) and the number of members licensed.
-- Use 'EntraID' or 'AzureAD' insted of the on-prem Active Directory DNS name if the group only exists in Entra ID/Azure AD and is not synced with your on-premises Active Directory. Only one pure Entra ID/Azure AD group is supported, it must be the group with the highest priority (first list entry).
+License groups are defined by the DNS domain name of the on-premises Active Directory domain ('EntraID' for cloud-only groups), their SID (security identifier) and the number of members licensed.
+- Use 'EntraID' instead of the on-prem Active Directory DNS name if the group only exists in Entra ID and is not synced with your on-premises Active Directory. Only one pure Entra ID group is supported, it must be the group with the highest priority (first list entry).
 - If you have multiple domains in a forest or multiple forests, you can have one license group per AD domain, each license group with a separate maximum member count.
 - There must be a default group, which is used for mailboxes which are not covered by separate license groups.  
 When a license group for the AD domain of a mailbox is defined, this license group is used. If not, the license group defined as default will be used.
 
-There are three situations where Set-OutlookSignatures uses Entra ID/Azure AD via Graph API insteed of on-prem AD:
+There are three situations where Set-OutlookSignatures uses Entra ID via Graph API insteed of on-prem AD:
 - parameter GraphOnly is set to true,
 - no connection to the on-prem AD is possible,
 - or the current user has a mailbox in Exchange Online and either OOF messages or Outlook Web signatures should be set
@@ -318,7 +318,7 @@ A warning message is logged when a version mismatch is detected.
 ## 8. Data protection notice
 Set-OutlookSignatures and the Benefactor Circle license add-on do not store any telemetry data, do not "phone home", and do not transfer any data, only the absolute minimum necessary data between:
 - the end user's Windows client,
-- the end user's on-prem Active Directory and/or Entra ID/Azure AD,
+- the end user's on-prem Active Directory and/or Entra ID,
 - the end user's Exchange or Exchange Online system,
 - and the file server or SharePoint Server storing the sofware, it's sub-components and template files.
 
