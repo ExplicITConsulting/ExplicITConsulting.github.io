@@ -200,11 +200,15 @@ The form collects the following information:
 - Company name and full address
 - The VAT number of your company (EU only)
 - Contact email addresses for receiving the download link for the license file, updates and other non invoice related information
-- List of license groups and maximum members in the following format (see '[How license groups work](#how-license-groups-work)' for details):
-  - DNS domain name of the on-prem Active Directory domain (not the email domain) the license group is in.
-    - Use 'EntraID' if the group only exists in Entra ID and is not synced with your on-prem Active Directory. Only one pure Entra ID group is supported, and it must be the group with the highest priority (first list entry).
-  - Security identifier (SID) of the group, as string in the "S-[...]" format. Only the SID is supported, other attributes such as GUID, Display Name, or SamAccountName are not supported.
-  - If multiple license groups are defined, designate one of these groups as default or fallback group. For details, see '[How license groups work](#how-license-groups-work)'.
+- List of license groups and maximum members in the following format (see '[How license groups work](#6-how-license-groups-work)' for details):
+  - Domain the license group is located in
+    - If the group exists on-prem only, or is synchronized with Entra ID: The DNS domain name of your on-prem Active Directory (which can be different from your mail domain), for example 'internal.corp.example.com'
+    - If the group exists in Entra ID only, and is not synchronized with your on-prem Active Directory: 'EntraID'
+  - The SID (Security Identifier) of the license group
+    - The SID (S-1-…), and not the GUID.
+  - The maximum number of licensed mailboxes
+    - Every mailbox that you want to use Benefactor Circle features for must be a direct or indirect member of a license group. Do not forget shared mailboxes and some growth reserve.
+  - If multiple license groups are defined, designate one of these groups as default or fallback group. For details, see '[How license groups work](#6-how-license-groups-work)'.
 
 The license file contains the following information:
 - Invoice address of the Benefactor Circle member
@@ -226,12 +230,15 @@ The form collects the following information:
 - Contact email addresses
   - At least one for receiving invoices
   - At least one for receiving the download link for the license file, updates and other non invoice related information
-- List of license groups and maximum members in the following format (see '[How license groups work](#how-do-license-groups-work)' for details):
-  - DNS domain name of the Active Directory Domain the group is in.
-    - Use 'EntraID' if the group only exists in Entra ID and is not synced with your on-prem Active Directory. Only one pure Entra ID group is supported, and it must be the group with the highest priority (first list entry).
-  - Security identifier (SID) of the group, as string in the "S-[...]" format. Only the SID is supported, other attributes such as GUID, Display Name, or SamAccountName are not supported.
-  - Maximum number of recursive members in the group (add a buffer for future growth)
-  - If multiple license groups are defined, designate one of these groups as default or fallback group. For details, see 'How do license groups work?' later in this document.
+- List of license groups and maximum members in the following format (see '[How license groups work](#6-how-do-license-groups-work)' for details):
+  - Domain the license group is located in
+    - If the group exists on-prem only, or is synchronized with Entra ID: The DNS domain name of your on-prem Active Directory (which can be different from your mail domain), for example 'internal.corp.example.com'
+    - If the group exists in Entra ID only, and is not synchronized with your on-prem Active Directory: 'EntraID'
+  - The SID (Security Identifier) of the license group
+    - The SID (S-1-…), and not the GUID.
+  - The maximum number of licensed mailboxes
+    - Every mailbox that you want to use Benefactor Circle features for must be a direct or indirect member of a license group. Do not forget shared mailboxes and some growth reserve.
+  - If multiple license groups are defined, designate one of these groups as default or fallback group. For details, see '[How license groups work](#6-how-license-groups-work)'.
 
 The total number of mailboxes to license is the sum of the maximum members defined for each license group.
 
@@ -293,7 +300,7 @@ Primary group membership is not considered due to Active Directory and Entra ID 
 
 License groups are defined by the DNS domain name of the on-premises Active Directory domain ('EntraID' for cloud-only groups), their SID (security identifier) and the number of members licensed.
 - Use 'EntraID' instead of the on-prem Active Directory DNS name if the group only exists in Entra ID and is not synced with your on-premises Active Directory. Only one pure Entra ID group is supported, it must be the group with the highest priority (first list entry).
-- If you have multiple domains in a forest or multiple forests, you can have one license group per AD domain, each license group with a separate maximum member count.
+- If you have multiple domains in a forest or multiple forests, you can have ony one license group, or one license group per AD domain, each license group with a separate maximum member count.
 - There must be a default group, which is used for mailboxes which are not covered by separate license groups.  
 When a license group for the AD domain of a mailbox is defined, this license group is used. If not, the license group defined as default will be used.
 
