@@ -230,7 +230,7 @@ The form collects the following information:
 - Contact email addresses
   - At least one for receiving invoices
   - At least one for receiving the download link for the license file, updates and other non invoice related information
-- List of license groups and maximum members in the following format (see '[How license groups work](#6-how-do-license-groups-work)' for details):
+- List of license groups and maximum members in the following format (see '[How license groups work](#6-how-license-groups-work)' for details):
   - Domain the license group is located in
     - If the group exists on-prem only, or is synchronized with Entra ID: The DNS domain name of your on-prem Active Directory (which can be different from your mail domain), for example 'internal.corp.example.com'
     - If the group exists in Entra ID only, and is not synchronized with your on-prem Active Directory: 'EntraID'
