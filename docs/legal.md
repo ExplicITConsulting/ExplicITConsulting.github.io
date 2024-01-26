@@ -53,27 +53,16 @@ All product and company names are trademarks of their respective owners.
 1. Scope and assessment
 
 2.1. The subject matter of an order may be:
-
 - Preparing organisational concepts
-
 - Global and detail analyses
-
 - Compiling individual programmes
-
 - Delivering library (standard-) programmes
-
 - Purchasing usage rights of software products
-
 - Purchasing permissions to use copyrighted products
-
 - Assisting in start-up (restructuring support)
-
 - Telephone consultations
-
 - Programme maintenance
-
 - Compiling programme media
-
 - Miscellaneous services
 
 2.2. Individual organizational concepts and programmes shall be created depending on the nature and volume of binding information, documents and resources provided in full by the Client. These shall include sufficient practical test data and test facilities provided by the Client in due time, during normal working hours and at their own expense. Should the system be provided by the Client for the test work in regular operation, it shall be incumbent upon the Client to secure the regular data.
@@ -144,13 +133,9 @@ Involvement of the Client in the creation of software shall not entitle them to 
 8.1. The Contractor shall guarantee that the software fulfils the functions according to the respective documentation insofar as the software is used on the operating system stipulated in the contract.
 
 8.2.1 Prerequisites for error correction shall be that:  
-
 - The Client sufficiently describes the error in an error message and that this is definable for the Contractor
-
 - The Client provides the Contractor with all documents necessary for the correction of the error
-
 - The Client or an affiliated third party has not interfered with the software
-
 - The software is used according to the designated conditions of use as stipulated in the documentation
 
 8.2.2 With regard to guarantee, rectification shall, in any case, prevail over price reduction or redhibitory action. Should a notice of defects be justified, the deficiencies shall be rectified within an adequate period, in which the Client shall enable the Contractor for all measures necessary for examination and rectification.
@@ -207,29 +192,17 @@ Section 924 of the Austrian Civil Code ‘Assumption of Deficiency’ shall be e
 2. Leistung und Prüfung
 
 2.1. Gegenstand eines Auftrages kann sein:
-
 - Ausarbeitung von Organisationskonzepten
-
 - Global- und Detailanalysen
-
 - Erstellung von Individualprogrammen
-
 - Lieferung von Bibliotheks- (Standard-)Programmen
-
 - Erwerb von Nutzungsberechtigungen für Softwareprodukte
-
 - Erwerb von Werknutzungsbewilligungen
-
 - Mitwirkung bei der Inbetriebnahme (Umstellungsunterstützung)
-
 - Telefonische Beratung
-
 - Programmwartung
-
 - Erstellung von Programmträgern
-
 - Sonstige Dienstleistungen
-
 2.2. Die Ausarbeitung individueller Organisationskonzepte und Programme erfolgt nach Art und Umfang der vom Auftraggeber vollständig zur Verfügung gestellten bindenden Informationen, Unterlagen und Hilfsmittel. Dazu zählen auch praxisgerechte Testdaten sowie Testmöglichkeiten in ausreichendem Ausmaß, die der Auftraggeber zeitgerecht, in der Normalarbeitszeit und auf seine Kosten zur Verfügung stellt. Wird vom Auftraggeber bereits auf der zum Test zur Verfügung gestellten Anlage im Echtbetrieb gearbeitet, liegt die Verantwortung für die Sicherung der Echtdaten beim Auftraggeber.
 
 2.3. Grundlage für die Erstellung von Individualprogrammen ist die schriftliche Leistungsbeschreibung, die der Auftragnehmer gegen Kostenberechnung aufgrund der ihm zur Verfügung gestellten Unterlagen und Informationen ausarbeitet bzw. der Auftraggeber zur Verfügung stellt. Diese Leistungsbeschreibung ist vom Auftraggeber auf Richtigkeit und Vollständigkeit zu überprüfen und mit seinem Zustimmungsvermerk zu versehen. Später auftretende Änderungswünsche können zu gesonderten Termin- und Preisvereinbarungen führen.
@@ -267,7 +240,7 @@ Lieferverzögerungen und Kostenerhöhungen, die durch unrichtige, unvollständig
 
 5.1. Die vom Auftragnehmer gelegten Rechnungen inklusive Umsatzsteuer sind spätestens 14 Tage ab Fakturenerhalt ohne jeden Abzug und spesenfrei zahlbar. Für Teilrechnungen gelten die für den Gesamtauftrag festgelegten Zahlungsbedingungen analog.
 
-5.2. Bei Aufträgen, die mehrere Einheiten (z.B. Programme und/oder Schulungen, Reali¬sierungen in Teilschritten) umfassen, ist der Auftragnehmer berechtigt, nach Lieferung jeder einzelnen Einheit oder Leistung Rechnung zu legen.
+5.2. Bei Aufträgen, die mehrere Einheiten (z.B. Programme und/oder Schulungen, Realisierungen in Teilschritten) umfassen, ist der Auftragnehmer berechtigt, nach Lieferung jeder einzelnen Einheit oder Leistung Rechnung zu legen.
 
 5.3. Die Einhaltung der vereinbarten Zahlungstermine bildet eine wesentliche Bedingung für die Durchführung der Lieferung bzw. Vertragserfüllung durch den Auftragnehmer. Die Nichteinhaltung der vereinbarten Zahlungen berechtigen den Auftragnehmer, die laufenden Arbeiten einzustellen und vom Vertrag zurückzutreten. Alle damit verbundenen Kosten sowie der Gewinnentgang sind vom Auftraggeber zu tragen.  
 
@@ -300,13 +273,9 @@ Durch die Mitwirkung des Auftraggebers bei der Herstellung der Software werden k
 8.1. Der Auftragnehmer gewährleistet, dass die Software die in der dazugehörigen Dokumentation beschriebenen Funktionen erfüllt, sofern die Software auf dem im Vertrag beschriebenen Betriebssystem genutzt wird.
 
 8.2.1 Voraussetzung für die Fehlerbeseitigung ist, dass  
-
 – der Auftraggeber den Fehler ausreichend in einer Fehlermeldung beschreibt und diese für den Auftragnehmer bestimmbar ist;  
-
 – der Auftraggeber dem Auftragnehmer alle für die Fehlerbeseitigung erforderlichen Unterlagen zur Verfügung stellt;  
-
 – der Auftraggeber oder ein ihm zurechenbarer Dritter keine Eingriffe in die Software vorgenommen hat;  
-
 – die Software unter den Bestimmungsmäßigen Betriebsbedingungen entsprechend der Dokumentation betrieben wird.  
 
 8.2.2 Im Falle der Gewährleistung hat Verbesserung jedenfalls Vorrang vor Preisminderung oder Wandlung. Bei gerechtfertigter Mängelrüge werden die Mängel in angemessener Frist behoben, wobei der Auftraggeber dem Auftragnehmer alle zur Untersuchung und Mängelbehebung erforderlichen Maßnahmen ermöglicht.  
