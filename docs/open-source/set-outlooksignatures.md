@@ -273,7 +273,7 @@ Shifting licenses between license groups is possible once per license period.
 If more license shifts are required, additional licenses have to be acquired temporarily, the total number of licenses can then be reduced when the new license period begins.
 
 ### 5.7. Increasing the number of licensed mailboxes
-When adding licenses during a license period, you only pay for the new mailboxes and only for the remaining months in the running license period.
+When adding licenses during a license period, you only pay for the new mailboxes and only for the remaining months in the running license period. The license price for the new mailboxes is the list price at the time ordering the additional mailboxes.
 
 The new payment does not extend the existing license period, but it increases the number of licensed mailboxes in it.
 
