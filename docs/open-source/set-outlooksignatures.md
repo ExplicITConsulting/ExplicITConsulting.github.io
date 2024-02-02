@@ -148,7 +148,7 @@ The implementation approach is **suited for service providers as well as for cli
         <h3>Free release upgrades and archive</h3>
         <ul>
           <li>All release upgrades during the license period are included, no matter if patch, feature or major release.</li>
-          <li>All releases, including add-on files, published during the license period are available in a secured individual release archive.</li>
+          <li>All releases, including license files, published during the license period are available in a secured individual release archive.</li>
         </ul>
       </div>
     </div>
@@ -199,7 +199,7 @@ As soon as the open-source core version is running, it is time to take the next 
 The form collects the following information:
 - Company name and full address
 - The VAT number of your company (EU only)
-- Contact email addresses for receiving the download link for the add-on file, updates and other non invoice related information
+- Contact email addresses for receiving the download link for the license file, updates and other non invoice related information
 - List of license groups and maximum members in the following format (see '[How license groups work](#6-how-license-groups-work)' for details):
   - Domain the license group is located in
     - If the group exists on-prem only, or is synchronized with Entra ID: The DNS domain name of your on-prem Active Directory (which can be different from your mail domain), for example 'internal.corp.example.com'
@@ -210,13 +210,13 @@ The form collects the following information:
     - Every mailbox that you want to use Benefactor Circle features for must be a direct or indirect member of a license group. Do not forget shared mailboxes and some growth reserve.
   - If multiple license groups are defined, designate one of these groups as default or fallback group. For details, see '[How license groups work](#6-how-license-groups-work)'.
 
-The add-on file contains the following information:
+The license file contains the following information:
 - Invoice address of the Benefactor Circle member
 - Date until the license is valid
 - DNS domain name of the on-prem Active Directory domain (if applicable), SID and maximum number of members for one or multiple license groups
 
-To use the add-on file, just add two parameters to your call of Set-OutlookSignatures.ps1:
-- `BenefactorCircleLicenseFile` with the path to your individualized add-on file
+To use the license file, just add two parameters to your call of Set-OutlookSignatures.ps1:
+- `BenefactorCircleLicenseFile` with the path to your individualized license file
 - `BenefactorCircleId` with your Benefactor Circle ID
 
 Trial licenses can not be extended or re-issued. They are limited to 14 days runtime and a maximum of 20 mailboxes.
@@ -229,7 +229,7 @@ The form collects the following information:
 - The VAT number of your company (EU only)
 - Contact email addresses
   - At least one for receiving invoices
-  - At least one for receiving the download link for the add-on file, updates and other non invoice related information
+  - At least one for receiving the download link for the license file, updates and other non invoice related information
 - List of license groups and maximum members in the following format (see '[How license groups work](#6-how-license-groups-work)' for details):
   - Domain the license group is located in
     - If the group exists on-prem only, or is synchronized with Entra ID: The DNS domain name of your on-prem Active Directory (which can be different from your mail domain), for example 'internal.corp.example.com'
@@ -244,21 +244,21 @@ The total number of mailboxes to license is the sum of the maximum members defin
 
 You will receive a quote within a few days. As soon as all the technical details are ironed out, you will receive an invoice and can start the payment process.
 
-As soon as the full invoice amount is received, you will be sent an email with instructions on how to securely download your individualized add-on file.
+As soon as the full invoice amount is received, you will be sent an email with instructions on how to securely download your individualized license file.
 
-The add-on file contains the following information:
+The license file contains the following information:
 - Invoice address of the Benefactor Circle member
 - Date until the license is valid
 - DNS domain name, SID and maximum number of members for one or multiple license groups
 
-To use the add-on file, just add two parameters to your call of Set-OutlookSignatures.ps1:
-- `BenefactorCircleFile` with the path to your individualized add-on file
+To use the license file, just add two parameters to your call of Set-OutlookSignatures.ps1:
+- `BenefactorCircleFile` with the path to your individualized license file
 - `BenefactorCircleId` with your Benefactor Circle ID
 
 ### 5.4. Extending or reducing a license period
 A license period cannot be extended. Licenses are valid for one year, starting with the date the full payment is received, and do not auto-renew.
 
-To continue using Set-OutlookSignatures with Benefactor Circle benefits, just place a new order to receive a new add-on file.
+To continue using Set-OutlookSignatures with Benefactor Circle benefits, just place a new order to receive a new license file.
 
 You will be informed in advance that your license is about to expire.
 
@@ -318,7 +318,7 @@ In these cases, license groups are handled as follows:
 ## 7. License and software version
 License and software versions go hand in hand, so every new release of Set-OutlookSignatures also means a new license release, and vice-versa.
 
-Using different versions of software and add-on file is not supported, as this may lead to unexpected results.
+Using different versions of software and license file is not supported, as this may lead to unexpected results.
 
 A warning message is logged when a version mismatch is detected.
 
