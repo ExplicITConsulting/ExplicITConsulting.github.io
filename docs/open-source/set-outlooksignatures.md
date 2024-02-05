@@ -29,7 +29,7 @@ redirect_from:
   - /support-for-open-source/set-outlooksignatures-benefactor-circle
 ---
 <div class="columns">
-  <div class="column is-one-quarter">
+  <div class="column is-one-fifth">
 	<h2><img src="/assets/images/set-outlooksignatures benefactor circle.png" alt="Set-OutlookSignatures Benefactor Circle"></h2>
   </div>
   <div class="column">
