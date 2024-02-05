@@ -22,7 +22,7 @@ redirect_from:
   </div>
   <div class="column">
     <h2>Welcome!</h2>
-    <p>Export-RecipientPermissions is the open source tool of choice to document, filter and compare Exchange permissions. You can <a href="https://github.com/GruberMarkus/export-recipientpermissions" target="_blank">download</a> it for free from GitHub.<br><strong>Read on to learn what ExplicIT offers on top.</strong></p>
+    <p>Export-RecipientPermissions is the open source tool of choice to document, filter and compare Exchange permissions. You can <a href="https://github.com/GruberMarkus/export-recipientpermissions" target="_blank">download</a> it for free from GitHub. Read on to learn what ExplicIT offers on top.</p>
   </div>
 </div>
 
