@@ -30,11 +30,10 @@ redirect_from:
 ---
 <div class="columns">
   <div class="column is-one-third">
-	<!-- omit in toc -->
-	## <img src="/assets/images/set-outlooksignatures benefactor circle.png" style="height: 3em; object-fit:contain;" alt="Set-OutlookSignatures Benefactor Circle">
+	<h2><img src="/assets/images/set-outlooksignatures benefactor circle.png" alt="Set-OutlookSignatures Benefactor Circle"></h2>h2>
   </div>
   <div class="column">
-	## Welcome!<!-- omit in toc -->
+	<h2>Welcome!</h2>
 	If email signatures or out-of-office replies are on your agenda, the following is worth reading - whether you work in marketing, sales, corporate communications, the legal or the compliance department, as Exchange or client administrator, as CIO or IT lead, as key user or consultant.  </div>
 </div>
 
