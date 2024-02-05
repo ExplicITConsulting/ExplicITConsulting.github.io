@@ -17,17 +17,14 @@ redirect_from:
   - /open-source/exportrecipientpermissions/
 ---
 <div class="columns">
-  <div class="column is-one-fifth">
+  <div class="column is-one-quarter">
     <h2><img src="/assets/images/export-recipientpermissions.png" alt="Export-RecipientPermissions"></h2>
   </div>
   <div class="column">
     <h2>Welcome!</h2>
-    <p>Export-RecipientPermissions is the open source tool of choice to document, filter and compare Exchange permissions.</p>
+    <p>Export-RecipientPermissions is the open source tool of choice to document, filter and compare Exchange permissions. You can <a href="https://github.com/GruberMarkus/export-recipientpermissions" target="_blank">download</a> it for free from GitHub.<br><strong>Read on to learn what ExplicIT offers on top.</strong></p>
   </div>
 </div>
-
-<p>You can <a href="https://github.com/GruberMarkus/export-recipientpermissions" target="_blank">download</a> it for free from GitHub.</p>
-<p><strong>Read on to learn what ExplicIT offers on top.</strong></p>
 
 <a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized quote</button></a>
 
