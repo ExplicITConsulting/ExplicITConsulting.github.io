@@ -30,7 +30,7 @@ redirect_from:
 ---
 <table style="border: 0px solid black;">
   <tr>
-    <td style="vertical-align: top;"><h2><img src="/assets/images/set-outlooksignatures benefactor circle.png" style="height: 3em; object-fit:contain;" alt="Set-OutlookSignatures Benefactor Circle"></h2></td>
+    <td style="vertical-align: top;"><h2><img src="/assets/images/set-outlooksignatures benefactor circle.png" style="height: 5em; object-fit:contain;" alt="Set-OutlookSignatures Benefactor Circle"></h2></td>
     <td style="vertical-align: top;"><h2>Welcome!</h2>If email signatures or out-of-office replies are on your agenda, the following is worth reading - whether you work in marketing, sales, corporate communications, the legal or the compliance department, as Exchange or client administrator, as CIO or IT lead, as key user or consultant.</td>
   </tr>
 </table>
