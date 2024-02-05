@@ -26,7 +26,7 @@ redirect_from:
   </div>
 </div>
 
-<a href="[/contact](https://github.com/GruberMarkus/export-recipientpermissions)" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Download Export-RecipientPermissions for free from GitHub</button></a>
+<a href="[/contact](https://github.com/GruberMarkus/export-recipientpermissions)" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Download Export-RecipientPermissions from GitHub for free</button></a>
 <a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized quote</button></a>
 
 ## Features
