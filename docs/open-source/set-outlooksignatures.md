@@ -304,12 +304,13 @@ Primary group membership is not considered due to Active Directory and Entra ID 
 
 License groups are defined by the DNS domain name of the on-premises Active Directory domain ('EntraID' for cloud-only groups), their SID (security identifier) and the number of members licensed.
 - Use 'EntraID' instead of the on-prem Active Directory DNS name if the group only exists in Entra ID and is not synced with your on-premises Active Directory. Only one pure Entra ID group is supported, it must be the group with the highest priority (first list entry).
-- If you have multiple domains in a forest or multiple forests, you can have ony one license group, or one license group per AD domain, each license group with a separate maximum member count.
+- If you have multiple domains in a forest or multiple forests, you can have only one license group, or one license group per AD domain, each license group with a separate maximum member count.
 - There must be a default group, which is used for mailboxes which are not covered by separate license groups.  
+
 When a license group for the AD domain of a mailbox is defined, this license group is used. If not, the license group defined as default will be used.
 
 There are three situations where Set-OutlookSignatures uses Entra ID via Graph API instead of on-prem AD:
-- parameter GraphOnly is set to true,
+- Parameter GraphOnly is set to true,
 - no connection to the on-prem AD is possible,
 - or the current user has a mailbox in Exchange Online and either OOF messages or Outlook Web signatures should be set
 
@@ -318,6 +319,31 @@ In these cases, license groups are handled as follows:
   - If there is a license group associated with this DNS domain name, it is queried via Graph
   - If there is no license group associated with this DNS domain name, the license group defined as default is queried via Graph
 - If the current mailbox does not have the Graph "onPremisesDomainName" attribute set, the license group defined as default is queried via Graph
+
+<!-- omit in toc -->
+### 6.1. How to get the SID of an Entra ID group
+The Entra ID portal does not show the Security Identifier (SID) of a group, only the Object Id.
+
+There are multiple ways to get the SID of an Entra ID group:
+- Convert Object Id to SID using PowerShell
+  ```
+  $ObjectId = '00000000-0000-0000-0000-000000000000' # Replace with the Object Id of your Entra ID group
+
+  $DestBuffer=[UInt32[]]::new(4)
+  [Buffer]::BlockCopy([Guid]::Parse($ObjectId).ToByteArray(), 0, $DestBuffer, 0, 16)
+
+  Write-Host "Object Id: '$ObjectId'"
+  Write-Host "Security Id (SID): 'S-1-12-1-$($DestBuffer -join '-')'"
+  ```
+- Graph Explorer  
+  Query: `https://graph.microsoft.com/v1.0/groups/{group-id}`  
+  Example query: `https://graph.microsoft.com/v1.0/groups/00000000-0000-0000-0000-000000000000`
+- Entra ID PowerShell cmdlets
+  ```
+  Connect-MgGraph -Scopes 'Group.Read.All'
+  
+  (Get-MgGroup -Filter "DisplayName eq 'Name of the license group'").securityIdentifier
+  ```
 
 ## 7. License and software version
 License and software versions go hand in hand, so every new release of Set-OutlookSignatures also means a new license release, and vice-versa.
