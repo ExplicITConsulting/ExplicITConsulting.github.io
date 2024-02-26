@@ -325,24 +325,21 @@ In these cases, license groups are handled as follows:
 The Entra ID portal does not show the Security Identifier (SID) of a group, only the Object Id.
 
 There are multiple ways to get the SID of an Entra ID group:
+- Graph PowerShell cmdlets
+  ```
+  Connect-MgGraph -Scopes 'Group.Read.All'
+  (Get-MgGroup -Filter "DisplayName eq 'Name of the license group'").securityIdentifier
+  ```
+- Graph query  
+  Query: `https://graph.microsoft.com/v1.0/groups/{group-id}`  
+  Example query: `https://graph.microsoft.com/v1.0/groups/00000000-0000-0000-0000-000000000000`
 - Convert Object Id to SID using PowerShell
   ```
   $ObjectId = '00000000-0000-0000-0000-000000000000' # Replace with the Object Id of your Entra ID group
-
   $DestBuffer=[UInt32[]]::new(4)
   [Buffer]::BlockCopy([Guid]::Parse($ObjectId).ToByteArray(), 0, $DestBuffer, 0, 16)
-
   Write-Host "Object Id: '$ObjectId'"
   Write-Host "Security Id (SID): 'S-1-12-1-$($DestBuffer -join '-')'"
-  ```
-- Graph Explorer  
-  Query: `https://graph.microsoft.com/v1.0/groups/{group-id}`  
-  Example query: `https://graph.microsoft.com/v1.0/groups/00000000-0000-0000-0000-000000000000`
-- Entra ID PowerShell cmdlets
-  ```
-  Connect-MgGraph -Scopes 'Group.Read.All'
-  
-  (Get-MgGroup -Filter "DisplayName eq 'Name of the license group'").securityIdentifier
   ```
 
 ## 7. License and software version
