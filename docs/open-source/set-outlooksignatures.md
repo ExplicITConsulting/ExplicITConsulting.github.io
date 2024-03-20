@@ -190,7 +190,9 @@ Licenses are to be paid in advance and are valid for one year from the day the f
 
 As long as a license is valid, it includes prioritized ticket support and unlimited free version upgrades.
 
-We work hard to keep our prices as low and stable as possible, with the aim of only having to adjust them for inflation. So, prices are subject to change. As you pay in advance, you can and will never be charged retrospectively - and if you want to add more mailboxes during an active licencing period, you will only be charged the initial price of your current license period for these additional mailboxes (and this only for the remaining months of your current license period), even if the price was raised in the meantime.
+We work hard to keep our prices as low and stable as possible, with the aim of only having to adjust them for inflation. So, prices are subject to change. As you pay in advance, you can and will never be charged retrospectively.
+
+If you want to add more mailboxes during an active licencing period, you will be charged the current price for these additional mailboxes for the remaining months of your license period only.
 
 ### 5.2. Trial version
 You may want to start with a 14-day trial license.
