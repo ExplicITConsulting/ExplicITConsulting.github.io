@@ -58,18 +58,19 @@ Download the free and open-source core version from <a href="https://github.com/
 - [1. Overview and features](#1-overview-and-features)
 - [2. Demo video](#2-demo-video)
 - [3. Benefactor Circle exclusives](#3-benefactor-circle-exclusives)
-- [4. Commercial support](#4-commercial-support)
-- [5. Buying, extending and changing licenses](#5-buying-extending-and-changing-licenses)
-  - [5.1. Price and general information](#51-price-and-general-information)
-  - [5.2. Trial version](#52-trial-version)
-  - [5.3. Order process for non-trial versions](#53-order-process-for-non-trial-versions)
-  - [5.4. Extending or reducing a license period](#54-extending-or-reducing-a-license-period)
-  - [5.5. Reducing the number of licensed mailboxes](#55-reducing-the-number-of-licensed-mailboxes)
-  - [5.6. Moving licensed mailboxes between license groups](#56-moving-licensed-mailboxes-between-license-groups)
-  - [5.7. Increasing the number of licensed mailboxes](#57-increasing-the-number-of-licensed-mailboxes)
-- [6. How license groups work](#6-how-license-groups-work)
-- [7. License and software version](#7-license-and-software-version)
-- [8. Data protection notice](#8-data-protection-notice)
+- [4. Financial benefits of centrally managing signatures and out-of-office replies](#4-financial-benefits-of-centrally-managing-signatures-and-out-of-office-replies)
+- [5. Commercial support](#5-commercial-support)
+- [6. Buying, extending and changing licenses](#6-buying-extending-and-changing-licenses)
+  - [6.1. Price and general information](#61-price-and-general-information)
+  - [6.2. Trial version](#62-trial-version)
+  - [6.3. Order process for non-trial versions](#63-order-process-for-non-trial-versions)
+  - [6.4. Extending or reducing a license period](#64-extending-or-reducing-a-license-period)
+  - [6.5. Reducing the number of licensed mailboxes](#65-reducing-the-number-of-licensed-mailboxes)
+  - [6.6. Moving licensed mailboxes between license groups](#66-moving-licensed-mailboxes-between-license-groups)
+  - [6.7. Increasing the number of licensed mailboxes](#67-increasing-the-number-of-licensed-mailboxes)
+- [7. How license groups work](#7-how-license-groups-work)
+- [8. License and software version](#8-license-and-software-version)
+- [9. Data protection notice](#9-data-protection-notice)
 
 ## 1. Overview and features
 With Set-OutlookSignatures, signatures and out-of-office replies can be:
@@ -161,7 +162,27 @@ The implementation approach is **suited for service providers as well as for cli
   </div>
 </div>
 
-## 4. Commercial support
+## 4. Financial benefits of centrally managing signatures and out-of-office replies
+There are three relevant questions to calculate the financial benefits:
+- How much do non-compliant signatures and out-of-office replies cost in terms of loss of reputation or in terms of fines for non-compliance?
+- What is the added value of using email as an additional marketing channel?
+- Does the new software cost less than the effort we want to save users?
+ 
+While the first two are difficult to calculate and very individual, the last question is easier to answer. Let's assume that an average employee costs 65,000 EUR per year from the employer's point of view. Less five weeks of vacation and with a 38.5-hour week, one minute of work costs the company 0.60 EUR.
+
+Other parameters we need are:
+- How many times a year do parameters relevant to signatures change (corporate design, job title, logos, marketing banners, etc.)?
+- How many minutes does it take a user to correctly update a single signature (including reading the instructions)?
+- How many signatures does a user typically need to keep up to date (internal and external, language, tone, signatures for shared mailboxes)?
+- On how many clients does a user need to update the signatures?
+ 
+Formula: `CostPerMinute * NumberOfChanges * NumberOfMinutes * NumberOfSignatures * NumberOfClients = Cost in EUR per user and year to manually keep signatures up to date`
+
+Let's assume 2 changes per year, 3 minutes for making the change (including reading the instructions) per signature, 2 signatures, 1 client. This results in 7.20 EUR per user and year (`0.60 * 2 * 3 * 2 * 1`).
+ 
+Per user and year, the costs are now **7.20 EUR in manual effort compared to 2.00 EUR for a centrally managed solution with Set-OutlookSignatures** - and this calculation does not even take into account the manual effort for out-of-office replies and shared mailboxes, nor the costs of non-compliance with regulations and the added value of an additional marketing channel.
+
+## 5. Commercial support
 Whether you use the open source version or are a Benefactor Circle client, ExplicIT offers first-class commercial support for Set-OutlookSignatures.
 
 We offer customized workshops, implementation support, trainings, template creation assistance and other services related to the central management of email signatures and out-of-office replies.
@@ -174,8 +195,8 @@ Support requests from Benefactor Circle license holders are prioritized. The lic
 
 Technical guides, FAQs, video demonstrations and additional documentation are available for free 24/7 <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">here</a>.
 
-## 5. Buying, extending and changing licenses
-### 5.1. Price and general information
+## 6. Buying, extending and changing licenses
+### 6.1. Price and general information
 The net price in EUR currently is **2.00 EUR per mailbox and year** (yes, per year and not per month).
 
 There is no minimum number of mailboxes, only a minimum amount of 250.00 EUR net per invoice.
@@ -196,7 +217,7 @@ We work hard to keep our prices as low and stable as possible, with the aim of o
 
 If you wish to add additional mailboxes during an active license period, you will only be charged the current price for these additional mailboxes for the remaining months of your license period.
 
-### 5.2. Trial version
+### 6.2. Trial version
 You may want to start with a 14-day trial license.
 
 The Benefactor Circle add-on extends the feature set of the free and open-source core version of Set-OutlookSignatures, so make sure that the core version is working correctly before requesting a trial version.  
@@ -210,7 +231,7 @@ To use the license file, just add two parameters to your call of Set-OutlookSign
 
 Trial licenses can not be extended or re-issued. They are limited to 14 days runtime and a maximum of 20 mailboxes.
 
-### 5.3. Order process for non-trial versions
+### 6.3. Order process for non-trial versions
 <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Request a license quote for Set-OutlookSignatures Benefactor Circle</button></a>
 
 You will receive a quote shortly. As soon as all details are ironed out, you will receive an invoice and can start the payment process.
@@ -221,24 +242,24 @@ To use the license file, just add two parameters to your call of Set-OutlookSign
 - `BenefactorCircleFile` with the path to your individualized license file
 - `BenefactorCircleId` with your Benefactor Circle ID
 
-### 5.4. Extending or reducing a license period
+### 6.4. Extending or reducing a license period
 A license period cannot be extended. Licenses are valid for one year, starting with the date the full payment is received, and do not auto-renew.
 
 To continue using Set-OutlookSignatures with Benefactor Circle benefits, just place a new order to receive a new license file.
 
 You will be informed in advance that your license is about to expire.
 
-### 5.5. Reducing the number of licensed mailboxes
+### 6.5. Reducing the number of licensed mailboxes
 The total number of licensed mailboxes can not be reduced during a license period (one year starting from the date of payment reception), as the license fees are paid in advance.
 
-### 5.6. Moving licensed mailboxes between license groups
+### 6.6. Moving licensed mailboxes between license groups
 Moving licenses means that the total number of licensed mailboxes does not change, but their distribution across license groups. This can, for example, be necessary due to Active Directory consolidations.
 
 Shifting licenses between license groups is possible once per license period.
 
 If more license shifts are required, additional licenses have to be acquired temporarily, the total number of licenses can then be reduced when the new license period begins.
 
-### 5.7. Increasing the number of licensed mailboxes
+### 6.7. Increasing the number of licensed mailboxes
 When adding licenses during a license period, you only pay for the new mailboxes and only for the remaining months in the running license period. The license price for the new mailboxes is the list price at the time ordering the additional mailboxes.
 
 The new payment does not extend the existing license period, but it increases the number of licensed mailboxes in it.
@@ -254,7 +275,7 @@ An example:
     - Year 1 additional mailboxes for 10 months (July 2023 to mid of April 2024): max(250; ((7,500 - 110) * 2.00 / 12 * 10) = 12,316.67 EUR net
   - As long as the price is not changing, the consecutive years will cost: max(250; (7,500 * 2.00)) = 15,000.00 EUR net
 
-## 6. How license groups work
+## 7. How license groups work
 Each Benefactor Circle license is bound to one or more Active Directory or Entra ID groups.
 
 Each mailbox of your company needs to be a direct or indirect (a.k.a. nested, recursive or transitive) member of a license group, so that it can use exclusive features.
@@ -304,14 +325,14 @@ There are multiple ways to get the SID of an Entra ID group:
   Write-Host "Security Id (SID): 'S-1-12-1-$($DestBuffer -join '-')'"
   ```
 
-## 7. License and software version
+## 8. License and software version
 License and software versions go hand in hand, so every new release of Set-OutlookSignatures also means a new license release, and vice-versa.
 
 Using different versions of software and license file is not supported, as this may lead to unexpected results.
 
 A warning message is logged when a version mismatch is detected.
 
-## 8. Data protection notice
+## 9. Data protection notice
 Set-OutlookSignatures and the Benefactor Circle license add-on do not store any telemetry data, do not "phone home", and do not transfer any data, only the absolute minimum necessary data between:
 - the end user's Windows client,
 - the end user's on-prem Active Directory and/or Entra ID,
