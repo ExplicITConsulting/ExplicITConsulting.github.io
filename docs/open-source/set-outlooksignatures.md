@@ -84,21 +84,23 @@ With Set-OutlookSignatures, signatures and out-of-office replies can be:
 - Set as **default OOF message** for internal or external recipients (OOF messages only)  
 - Set in **Outlook Web** for the currently logged-in user, including mirroring signatures the the cloud as **roaming signatures**  
 - Centrally managed only or **exist along user-created signatures** (signatures only)  
-- Copied to an **alternate path** for easy access on mobile devices not directly supported by this software (signatures only)
+- Copied to an **alternate path** for easy access on mobile apps not directly supported (signatures only)
 - **Write protected** (Outlook signatures only)
 
-Set-OutlookSignatures can be **executed by users on clients and terminal servers, or on a central system without end user interaction**.  
+Set-OutlookSignatures can be **run by users on Windows, Linux and macOS, as well as on terminal servers - or on a central system without client deployment and end user interaction**.  
 On clients, it can run as part of the logon script, as scheduled task, or on user demand via a desktop icon, start menu entry, link or any other way of starting a program.  
 Signatures and OOF messages can also be created and deployed centrally, without end user or client involvement.
 
 **Sample templates** for signatures and OOF messages demonstrate all available features and are provided as .docx and .htm files.
 
 **Simulation mode** allows content creators and admins to simulate the behavior of the software and to inspect the resulting signature files before going live.
-  
+
+**SimulateAndDeploy** allows to deploy signatures to Outlook Web/New Outlook without any client deployment or end user interaction, making it ideal for users that only log on to web services but never to a client (users with a Microsoft 365 F-license, for example).
+
 The software is **designed to work in big and complex environments** (Exchange resource forest scenarios, across AD trusts, multi-level AD subdomains, many objects). It works **on premises, in hybrid and cloud-only environments**.  
 All **national clouds are supported**: Public (AzurePublic), US Government L4 (AzureUSGovernment), US Government L5 (AzureUSGovernment DoD), China (AzureChinaCloud operated by 21Vianet).
 
-It is **multi-client capable** by using different template paths, configuration files and software parameters.
+It is **multi-client capable** by using different template paths, configuration files and script parameters.
 
 Set-OutlookSignatures requires **no installation on servers or clients**. You only need a standard SMB file share on a central system, and optionally Office on your clients.  
 There is also **no telemetry** or "calling home", emails are **not routed through a 3rd party data center or cloud service**, and there is **no need to change DNS records (MX, SPF) or mail flow**.
@@ -174,9 +176,9 @@ Technical guides, FAQs, video demonstrations and additional documentation are av
 
 ## 5. Buying, extending and changing licenses
 ### 5.1. Price and general information
-The net price in EUR currently is **1.50 € per mailbox and year** (yes, per year and not per month).
+The net price in EUR currently is **2.00 EUR per mailbox and year** (yes, per year and not per month).
 
-There is no minimum number of mailboxes, only a minimum invoice sum of 200.00 € net per license period.
+There is no minimum number of mailboxes, only a minimum amount of 250.00 EUR net per invoice.
 
 Every mailbox in your environment for which you want to use a Benefactor Circle exclusive feature, needs a license. This includes shared mailboxes.
 
@@ -192,7 +194,7 @@ As long as a license is valid, it includes prioritized ticket support and unlimi
 
 We work hard to keep our prices as low and stable as possible, with the aim of only having to adjust them for inflation. So, prices are subject to change. As you pay in advance, you can and will never be charged retrospectively.
 
-If you want to add more mailboxes during an active licencing period, you will be charged the current price for these additional mailboxes for the remaining months of your license period only.
+If you wish to add additional mailboxes during an active license period, you will only be charged the current price for these additional mailboxes for the remaining months of your license period.
 
 ### 5.2. Trial version
 You may want to start with a 14-day trial license.
@@ -285,14 +287,14 @@ The new payment does not extend the existing license period, but it increases th
 
 An example:
 - After a trial with 20 mailboxes, you start a pilot with 110 mailboxes in mid of April 2023. The license is valid until mid of April 2024, with the following cost:
-    max(200; (110 * 1.50)) = 200.00 € net
+    max(250; (110 * 2.00)) = 250.00 EUR net
 - As the pilot is a success, the number of licensed mailboxes is raised to 7,500 in July 2023.
   - The license period does not change, the license is still valid from mid of April 2023 to mid of April 2024, of course with the higher number of mailboxes.
 - The added licenses result in the following costs:
-  - Year 1 total cost of 9,437.50 €, consisting of
-    - Year 1 cost for 110 mailboxes for 12 months: max(200; (110 * 1.50)) = 200.00 € net
-    - Year 1 additional mailboxes for 10 months (July 2023 to mid of April 2024): max(200; ((7,500 - 110) * 1.50 / 12 * 10) = 9,237.50 € net
-  - As long as the price is not changing, the consecutive years will cost: max(200; (7,500 * 1,50)) = 11,250.00 € net
+  - Year 1 total cost of 12,566.67 EUR, consisting of
+    - Year 1 cost for 110 mailboxes for 12 months: max(250; (110 * 2.00)) = 250.00 EUR net
+    - Year 1 additional mailboxes for 10 months (July 2023 to mid of April 2024): max(250; ((7,500 - 110) * 2.00 / 12 * 10) = 12,316.67 EUR net
+  - As long as the price is not changing, the consecutive years will cost: max(250; (7,500 * 2.00)) = 15,000.00 EUR net
 
 ## 6. How license groups work
 Each Benefactor Circle license is bound to one or more Active Directory or Entra ID groups.
