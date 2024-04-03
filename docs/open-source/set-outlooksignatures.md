@@ -49,7 +49,7 @@ Download the free and open-source core version from <a href="https://github.com/
 
 **ExplicIT's Benefactor Circle add-on enhances the open source version with a great set of additional features and first-class commercial support.**
 
-<a href="#52-trial-version" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Request a trial version or a license quote</button></a>
+<a href="#62-trial-version" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Request a trial version or a license quote</button></a>
 <a href="/contact" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Contact the Set-OutlookSignatures Benefactor Circle team</button></a>
 
 
