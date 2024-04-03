@@ -204,25 +204,6 @@ If you look for help implementing the free and open-source core version of Set-O
 
 As soon as the open-source core version is running, it is time to take the next step:<br><a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Request a full-featured 14-day trial license</button></a>
 
-The form collects the following information:
-- Company name and full address
-- The VAT number of your company (EU only)
-- Contact email addresses for receiving the download link for the license file, updates and other non invoice related information
-- List of license groups and maximum members in the following format (see '[How license groups work](#6-how-license-groups-work)' for details):
-  - Domain the license group is located in
-    - If the group exists on-prem only, or is synchronized with Entra ID: The DNS domain name of your on-prem Active Directory (which can be different from your mail domain), for example 'internal.corp.example.com'
-    - If the group exists in Entra ID only, and is not synchronized with your on-prem Active Directory: 'EntraID'
-  - The SID (Security Identifier) of the license group
-    - The SID (S-1-…), and not the GUID.
-  - The maximum number of licensed mailboxes
-    - Every mailbox that you want to use Benefactor Circle features for must be a direct or indirect member of a license group. Do not forget shared mailboxes and some growth reserve.
-  - If multiple license groups are defined, designate one of these groups as default or fallback group. For details, see '[How license groups work](#6-how-license-groups-work)'.
-
-The license file contains the following information:
-- Invoice address of the Benefactor Circle member
-- Date until the license is valid
-- DNS domain name of the on-prem Active Directory domain (if applicable), SID and maximum number of members for one or multiple license groups
-
 To use the license file, just add two parameters to your call of Set-OutlookSignatures.ps1:
 - `BenefactorCircleLicenseFile` with the path to your individualized license file
 - `BenefactorCircleId` with your Benefactor Circle ID
@@ -232,32 +213,9 @@ Trial licenses can not be extended or re-issued. They are limited to 14 days run
 ### 5.3. Order process for non-trial versions
 <a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Request a license quote for Set-OutlookSignatures Benefactor Circle</button></a>
 
-The form collects the following information:
-- Company name and full address
-- The VAT number of your company (EU only)
-- Contact email addresses
-  - At least one for receiving invoices
-  - At least one for receiving the download link for the license file, updates and other non invoice related information
-- List of license groups and maximum members in the following format (see '[How license groups work](#6-how-license-groups-work)' for details):
-  - Domain the license group is located in
-    - If the group exists on-prem only, or is synchronized with Entra ID: The DNS domain name of your on-prem Active Directory (which can be different from your mail domain), for example 'internal.corp.example.com'
-    - If the group exists in Entra ID only, and is not synchronized with your on-prem Active Directory: 'EntraID'
-  - The SID (Security Identifier) of the license group
-    - The SID (S-1-…), and not the GUID.
-  - The maximum number of licensed mailboxes
-    - Every mailbox that you want to use Benefactor Circle features for must be a direct or indirect member of a license group. Do not forget shared mailboxes and some growth reserve.
-  - If multiple license groups are defined, designate one of these groups as default or fallback group. For details, see '[How license groups work](#6-how-license-groups-work)'.
-
-The total number of mailboxes to license is the sum of the maximum members defined for each license group.
-
-You will receive a quote within a few days. As soon as all the technical details are ironed out, you will receive an invoice and can start the payment process.
+You will receive a quote shortly. As soon as all details are ironed out, you will receive an invoice and can start the payment process.
 
 As soon as the full invoice amount is received, you will be sent an email with instructions on how to securely download your individualized license file.
-
-The license file contains the following information:
-- Invoice address of the Benefactor Circle member
-- Date until the license is valid
-- DNS domain name, SID and maximum number of members for one or multiple license groups
 
 To use the license file, just add two parameters to your call of Set-OutlookSignatures.ps1:
 - `BenefactorCircleFile` with the path to your individualized license file
@@ -340,7 +298,7 @@ There are multiple ways to get the SID of an Entra ID group:
 - Convert Object Id to SID using PowerShell
   ```
   $ObjectId = '00000000-0000-0000-0000-000000000000' # Replace with the Object Id of your Entra ID group
-  $DestBuffer=[UInt32[]]::new(4)
+  $DestBuffer = [UInt32[]]::new(4)
   [Buffer]::BlockCopy([Guid]::Parse($ObjectId).ToByteArray(), 0, $DestBuffer, 0, 16)
   Write-Host "Object Id: '$ObjectId'"
   Write-Host "Security Id (SID): 'S-1-12-1-$($DestBuffer -join '-')'"
@@ -358,7 +316,8 @@ Set-OutlookSignatures and the Benefactor Circle license add-on do not store any 
 - the end user's Windows client,
 - the end user's on-prem Active Directory and/or Entra ID,
 - the end user's Exchange or Exchange Online system,
-- and the file server or SharePoint Server storing the sofware, it's sub-components and template files.
+- https://raw.githubusercontent.com/Set-OutlookSignatures/Set-OutlookSignatures/main/docs/releases.txt to check for new releases,
+- and the file server or SharePoint document library storing the sofware, it's sub-components, template and configuration files.
 
 The data transfer always happens in the security context of the user executing the program.
 
