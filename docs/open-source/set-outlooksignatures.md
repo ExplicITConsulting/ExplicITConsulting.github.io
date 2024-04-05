@@ -69,6 +69,7 @@ Download the free and open-source core version from <a href="https://github.com/
   - [6.6. Moving licensed mailboxes between license groups](#66-moving-licensed-mailboxes-between-license-groups)
   - [6.7. Increasing the number of licensed mailboxes](#67-increasing-the-number-of-licensed-mailboxes)
 - [7. How license groups work](#7-how-license-groups-work)
+  - [7.1. How to get the SID of an Entra ID group](#71-how-to-get-the-sid-of-an-entra-id-group)
 - [8. License and software version](#8-license-and-software-version)
 - [9. Data protection notice](#9-data-protection-notice)
 
@@ -303,8 +304,7 @@ In these cases, license groups are handled as follows:
   - If there is no license group associated with this DNS domain name, the license group defined as default is queried via Graph
 - If the current mailbox does not have the Graph "onPremisesDomainName" attribute set, the license group defined as default is queried via Graph
 
-<!-- omit in toc -->
-### 6.1. How to get the SID of an Entra ID group
+### 7.1. How to get the SID of an Entra ID group
 The Entra ID portal does not show the Security Identifier (SID) of a group, only the Object Id.
 
 There are multiple ways to get the SID of an Entra ID group:
