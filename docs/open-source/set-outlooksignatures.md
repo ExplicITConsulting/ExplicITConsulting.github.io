@@ -318,11 +318,22 @@ There are multiple ways to get the SID of an Entra ID group:
   Example query: `https://graph.microsoft.com/v1.0/groups/00000000-0000-0000-0000-000000000000`
 - Convert Object Id to SID using PowerShell
   ```
-  $ObjectId = '00000000-0000-0000-0000-000000000000' # Replace with the Object Id of your Entra ID group
-  $DestBuffer = [UInt32[]]::new(4)
-  [Buffer]::BlockCopy([Guid]::Parse($ObjectId).ToByteArray(), 0, $DestBuffer, 0, 16)
-  Write-Host "Object Id: '$ObjectId'"
-  Write-Host "Security Id (SID): 'S-1-12-1-$($DestBuffer -join '-')'"
+  # Define the Object ID of your Entra ID group
+  $EntraIdGroupObjectId = '00000000-0000-0000-0000-000000000000'
+
+  # No changes below this line
+  Write-Host "Entra ID group Object ID '$($EntraIdGroupObjectId)'" -NoNewline
+
+  if (
+      ($EntraIdGroupObjectId -ne ($EntraIdGroupObjectIdToGuid = [guid]::Empty).ToString()) -and
+      ([guid]::TryParse($EntraIdGroupObjectId, ([ref]$EntraIdGroupObjectIdToGuid)))
+  ) {
+      $DestBuffer = [UInt32[]]::new(4)
+      [System.Buffer]::BlockCopy($EntraIdGroupObjectIdToGuid.ToByteArray(), 0, $destBuffer, 0, 16)
+      Write-Host "$([System.Environment]::NewLine)  -> Security ID (SID) 'S-1-12-1-$($destBuffer -join '-')'"
+  } else {
+      Write-Host ' is an empty GUID or no GUID at all.'
+  }
   ```
 
 ## 8. License and software version
