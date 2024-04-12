@@ -188,11 +188,15 @@ Whether you use the open source version or are a Benefactor Circle client, Expli
 
 We offer customized workshops, implementation support, trainings, template creation assistance and other services related to the central management of email signatures and out-of-office replies.
 
-Support is available 24/5 (Austrian business days) via email and a callback option. A support engineer will contact you within one business day. Support is charged by the hour, when it is not about a bug within Set-OutlookSignatures or one of the components delivered with it. 24/7 and on-call options are available upon request.
+Our all-round carefree support promise: If the cause of your support request is a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, its documentation or one of the supplied components, support is free - no ifs, ands or buts. In all other cases, we offer the same first-class support at a fair price.
 
 Support requests from Benefactor Circle license holders are prioritized. The license itself does not include support hours, as support is rarely required and we want to keep the license costs as fair as possible.
 
-Technical guides, FAQs, video demonstrations and additional documentation are available for free 24/7 <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">here</a>.
+Only expenses actually incurred will be invoiced, by the commenced hour. Invoicing takes place monthly in arrears, with a payment term of 14 days. You may define a maximum number of work hours for each request.
+
+Support is available 24/5 (Austrian business days) via email and a callback option. 24/7 and on-call options are available upon request.
+
+Technical guides, FAQs, video demonstrations and additional documentation are available for free <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">here</a>.
 
 <a href="/contact" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized quote</button></a>
 
