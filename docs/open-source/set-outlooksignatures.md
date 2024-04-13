@@ -47,7 +47,7 @@ Central management and deployment ensures that design guidelines are met, guaran
 Set-OutlookSignatures is the open source gold standard to centrally manage and deploy email signatures and out-of-office replies for Outlook and Exchange.  
 Download the free and open-source core version from <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">GitHub</a> for free.
 
-**ExplicIT's Benefactor Circle add-on enhances the open source version with a great set of additional features and first-class commercial support.**
+**ExplicIT's Benefactor Circle add-on enhances the open source version with a great set of additional features and first-class fee-based support.**
 
 <a href="#62-trial-version" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Request a trial version or a license quote</button></a>
 <a href="/contact" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Contact the Set-OutlookSignatures Benefactor Circle team</button></a>
@@ -59,7 +59,7 @@ Download the free and open-source core version from <a href="https://github.com/
 - [2. Demo video](#2-demo-video)
 - [3. Benefactor Circle exclusives](#3-benefactor-circle-exclusives)
 - [4. Financial benefits of centrally managing signatures and out-of-office replies](#4-financial-benefits-of-centrally-managing-signatures-and-out-of-office-replies)
-- [5. Commercial support](#5-commercial-support)
+- [5. Fee-based support](#5-fee-based-support)
 - [6. Buying, extending and changing licenses](#6-buying-extending-and-changing-licenses)
   - [6.1. Price and general information](#61-price-and-general-information)
   - [6.2. Trial version](#62-trial-version)
@@ -183,8 +183,8 @@ Let's assume 2 changes per year, 3 minutes for making the change (including read
  
 Per user and year, the costs are now **7.20 EUR in manual effort compared to 2.00 EUR for a centrally managed solution with Set-OutlookSignatures** - and this calculation does not even take into account the manual effort for out-of-office replies and shared mailboxes, nor the costs of non-compliance with regulations and the added value of an additional marketing channel.
 
-## 5. Commercial support
-If you use the free and open-source version of Set-OutlookSignatures or the Benefactor Circle add-on as trial or annual license, ExplicIT offers first-class commercial support.
+## 5. Fee-based support
+If you use the free and open-source version of Set-OutlookSignatures or the Benefactor Circle add-on as trial or annual license, ExplicIT offers first-class fee-based support.
 
 We offer customized workshops, implementation support, trainings, template creation assistance and other services related to the central management of email signatures and out-of-office replies.
 

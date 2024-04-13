@@ -85,6 +85,6 @@ redirect_from:
 </div>
 
 ## What does ExplicIT Consulting offer on top?
-ExplicIT Consulting offers commercial support for Export-RecipientPermissions: Consulting, implementation support, enhancing functionality, solving bugs and issues.
+ExplicIT Consulting offers fee-based support for Export-RecipientPermissions: Consulting, implementation support, enhancing functionality, solving bugs and issues.
 
 <a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized quote</button></a>

@@ -2,7 +2,7 @@
 layout: page
 title: Support for Open-Source Software
 subtitle: Adding professional services on top
-description: Open-Source. Commercial support. Add-on development. Sponsoring.
+description: Open-Source. Fee-based support. Add-on development. Sponsoring.
 redirect_from:
   - /opensource
   - /opensource/
@@ -14,8 +14,8 @@ redirect_from:
   <div class="tile is-6 is-vertical is-parent">
     <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
-        <h3>Commercial support</h3>
-        <p>We offer commercial support for select open-source software, such as for <a href="/open-source/export-recipientpermissions">Export-RecipientPermissions</a> and <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures</a>.</p>
+        <h3>Fee-based support</h3>
+        <p>We offer fee-based support for select open-source software, such as for <a href="/open-source/export-recipientpermissions">Export-RecipientPermissions</a> and <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures</a>.</p>
       </div>
     </div>
     <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
