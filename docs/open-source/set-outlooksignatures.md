@@ -188,7 +188,7 @@ Whether you use the free and open-source version of Set-OutlookSignatures, or th
 
 We offer customized workshops, implementation support, trainings, template creation assistance and other services related to the central management of email signatures and out-of-office replies.
 
-**Our all-round carefree support promise: If the cause of your support request is a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, its documentation or one of the supplied components, support is free - no ifs, ands or buts. In all other cases, we offer the same first-class support at a fair price.**
+**Our all-round carefree support promise: If the cause of your support request is a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, its documentation or one of the supplied components, support is free - no ifs, ands or buts. In all other cases, you benefit from the same first-class support, charged at a fair price.**
 
 Support requests from Benefactor Circle license holders are prioritized. The license itself does not include support hours, as support is rarely required and we want to keep the license costs as fair as possible.
 
