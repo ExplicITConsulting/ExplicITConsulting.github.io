@@ -79,7 +79,7 @@ With Set-OutlookSignatures, signatures and out-of-office replies can be:
 - Customized with a **broad range of variables**, including **photos**, from Active Directory and other sources
   - Variables are available for the **currently logged-on user, this user's manager, each mailbox and each mailbox's manager**
   - Images in signatures can be **bound to the existence of certain variables** (useful for optional social network icons, for example)
-- Designed for **barrier-free accessibility** with custom link and image descriptions for screen readers and comparable tools.
+- Designed for **barrier-free accessibility** with custom link and image descriptions for screen readers and comparable tools
 - Applied to all **mailboxes (including shared mailboxes)**, specific **mailbox groups**, specific **email addresses** or specific **user or mailbox properties**, for **every mailbox across all Outlook profiles (Outlook, New Outlook, Outlook Web)**, including **automapped and additional mailboxes**  
 - Created with different names from the same template, **one template can be used for multiple shared mailboxes**
 - Assigned **time ranges** within which they are valid  
