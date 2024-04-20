@@ -79,6 +79,7 @@ With Set-OutlookSignatures, signatures and out-of-office replies can be:
 - Customized with a **broad range of variables**, including **photos**, from Active Directory and other sources
   - Variables are available for the **currently logged-on user, this user's manager, each mailbox and each mailbox's manager**
   - Images in signatures can be **bound to the existence of certain variables** (useful for optional social network icons, for example)
+- Designed for **barrier-free accessibility** with custom link and image descriptions for screen readers and comparable tools.
 - Applied to all **mailboxes (including shared mailboxes)**, specific **mailbox groups**, specific **email addresses** or specific **user or mailbox properties**, for **every mailbox across all Outlook profiles (Outlook, New Outlook, Outlook Web)**, including **automapped and additional mailboxes**  
 - Created with different names from the same template, **one template can be used for multiple shared mailboxes**
 - Assigned **time ranges** within which they are valid  
@@ -87,7 +88,7 @@ With Set-OutlookSignatures, signatures and out-of-office replies can be:
 - Set in **Outlook Web** for the currently logged-in user, including mirroring signatures the the cloud as **roaming signatures**  
 - Centrally managed only, or **exist along user-created signatures** (signatures only)  
 - Copied to an **additional path** for easy access to signatures on mobile devices or for use with other email clients and apps besides Outlook Windows/Mac/Web: Apple Mail, Google Gmail, Samsung Mail, Mozilla Thunderbird, GNOME Evolution, KDE KMail, and others.
-- **Write protected** (Outlook signatures only)
+- **Write protected** (Outlook for Windows signatures only)
 
 Set-OutlookSignatures can be **run by users on Windows, Linux and macOS clients, including shared devices and terminal servers - or on a central system with a service account**.  
 On clients, it can run as part of the logon script, as scheduled task, or on user demand via a desktop icon, start menu entry, shortcut or any other way of starting a program - **whatever your operating system and software deployment mechanism allows**.  
