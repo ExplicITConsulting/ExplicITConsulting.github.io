@@ -7,11 +7,9 @@ description: Payment. Credit card, Visa, Mastercard, American Express, Discover,
 ## Standard method of payment: Bank transfer
 The standard method of payment stated on our quotations and invoices is bank transfer.
 
-This works internationally as banks are usually connected directly or via dedicated networks such as SWIFT, CIPS, SFMS, SPFS, INSTEX etc.
+This is generally more cost-efficient than other methods, as almost all other methods rely and build on the bank account level in the background.<br>This is why our prices are calculated with bank transfer in mind.
 
-Bank transfers are generally more cost-efficient than other methods, as almost all other methods rely and build on the bank account level in the background.
-
-Our prices are calculated with bank transfer in mind.
+Bank transfers work internationally as banks are usually connected directly or via dedicated networks such as SWIFT, CIPS, SFMS, SPFS, INSTEX etc.
 
 You find all information to uniquely identify our bank account internationally on our quotations and invoices: The International Bank Account Number (IBAN) and the Bank Identifier Code (BIC).
 
