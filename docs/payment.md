@@ -19,3 +19,5 @@ If bank transfer is not an option for you, please let us know as early as possib
 We offer a wide range of other methods of payment, depending on your home country: Different types of Credit Cards, PayPal, Apple Pay, Google Pay, AliPay, WeChat Pay, and many more.
 
 Please note that the invoice amount will be increased by a processing fee of 5% due to the additional costs associated with these payment methods.
+
+<a href="mailto:welcome@explicitconsulting.at"><button class="button is-link is-normal is-responsive is-hover">Contact us for other methods of payment</button></a>
