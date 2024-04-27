@@ -185,13 +185,15 @@ Let's assume 2 changes per year, 3 minutes for making the change (including read
 Per user and year, the costs are now **7.20 EUR in manual effort compared to 2.00 EUR for a centrally managed solution with Set-OutlookSignatures** - and this calculation does not even take into account the manual effort for out-of-office replies and shared mailboxes, nor the costs of non-compliance with regulations and the added value of an additional marketing channel.
 
 ## 5. Fee-based support
-Whether you use the free and open-source version of Set-OutlookSignatures, or the Benefactor Circle add-on as trial or annual license, ExplicIT offers first-class fee-based support.
+Whether you use the free and open-source version of Set-OutlookSignatures, or the Benefactor Circle add-on as trial or annual license, ExplicIT offers first-class fee-based support, customized workshops, implementation support, trainings, template creation assistance and other services related to the central management of email signatures and out-of-office replies.
 
-We offer customized workshops, implementation support, trainings, template creation assistance and other services related to the central management of email signatures and out-of-office replies.
+**Our all-round carefree support promise: If the cause of your support request is a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, their documentation or one of the supplied components, support is free - no ifs, ands or buts. In all other cases, you get the same first-class support at a fair price.**
 
-**Our all-round carefree support promise: If the cause of your support request is a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, its documentation or one of the supplied components, support is free - no ifs, ands or buts. In all other cases, you benefit from the same first-class support, charged at a fair price.**
+Set-OutlookSignatures and the components delivered with it are Free and Open-Source Software (FOSS) and very well documented. ExplicIT Consulting offers fee-based support for this and other open source code, ensuring that the core of Set-OutlookSignatures can remain FOSS and continues to evolve.
 
-Support requests from Benefactor Circle license holders are prioritized. The license itself does not include support hours, as support is rarely required and we want to keep the license costs as fair as possible.
+The Benefactor Circle add-on license itself does not include support hours, as support is rarely required and we want to keep the license costs as fair as possible.
+
+Support requests from Benefactor Circle license holders are prioritized.
 
 Only expenses actually incurred will be invoiced, by the commenced hour. Invoicing takes place monthly in arrears, with a payment term of 14 days. You may define a maximum number of work hours for each request.
 
