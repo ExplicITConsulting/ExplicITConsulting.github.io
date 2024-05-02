@@ -205,7 +205,7 @@ Technical guides, FAQs, video demonstrations and additional documentation are av
 
 ## 6. Buying, extending and changing licenses
 ### 6.1. Price and general information
-The net price in EUR currently is **2.00 EUR per mailbox and year** (yes, per year and not per month).
+The net price currently is **2.00 EUR per mailbox and year** (yes, per year and not per month).
 
 There is no minimum number of mailboxes, only a minimum amount of 250.00 EUR net per invoice.
 
