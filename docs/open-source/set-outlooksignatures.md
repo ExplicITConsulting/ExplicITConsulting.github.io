@@ -185,9 +185,9 @@ Let's assume 2 changes per year, 3 minutes for making the change (including read
 Per user and year, the costs are now **7.20 EUR in manual effort compared to 2.00 EUR for a centrally managed solution with Set-OutlookSignatures** - and this calculation does not even take into account the manual effort for out-of-office replies and shared mailboxes, nor the costs of non-compliance with regulations and the added value of an additional marketing channel.
 
 ## 5. Fee-based support
-Whether you use the free and open-source version of Set-OutlookSignatures, or the Benefactor Circle add-on as trial or annual license - ExplicIT offers first-class fee-based support.
+Whether you use the free and open-source version of Set-OutlookSignatures, or the Benefactor Circle add-on as trial or annual license - ExplicIT always offers first-class fee-based support.
 
-Do you prefer to be guided through the set-up and customization process instead of working through the documentation yourself? Are you looking for customized workshops, hands-on implementation support, trainings, template creation assistance and other services related to the central management of email signatures and out-of-office replies? Then our support offer is just right for you.
+You prefer being guided through the set-up and customization process instead of working through the documentation yourself? You are looking for customized workshops, hands-on implementation support, trainings, template creation assistance and other services related to the central management of email signatures and out-of-office replies? Then our support offer is just right for you.
 
 **Our all-round carefree support promise: If the cause of your support request is a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, their documentation or one of the supplied components, support is free - no ifs, ands or buts. In all other cases, you get the same first-class support at a fair price.**
 
