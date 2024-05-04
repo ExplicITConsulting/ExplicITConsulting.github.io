@@ -209,7 +209,7 @@ Technical guides, FAQs, video demonstrations and additional documentation are av
 
 ## 6. Buying, extending and changing licenses
 ### 6.1. Price and general information
-The price currently is **2.00 EUR net per mailbox and year**, which is **0.17 EUR net per mailbox and month**.
+The price currently is **2.00 EUR net per mailbox and year**, which equals **less than 0.17 EUR net per mailbox and month**.
 
 We keep license costs as fair as possible. Fair means:
 - Small companies always just pay the same low price as big enterprises.  
