@@ -187,13 +187,9 @@ Per user and year, the costs are now **7.20 EUR in manual effort compared to 2.0
 ## 5. Fee-based support
 Whether you use the free and open source version of Set-OutlookSignatures or the Benefactor Circle add-on as a trial or annual license - ExplicIT always offers you first-class fee-based support.
 
-You prefer to be guided through the setup and customization process instead of working through the documentation yourself?  
-Are you looking for customized workshops, hands-on implementation support, training, template creation assistance and other services related to centralized email signature and out-of-office reply management?  
-Then our offer is just right for you.
+You prefer to be guided through the setup and customization process instead of working through the documentation yourself? Are you looking for customized workshops, hands-on implementation support, training, template creation assistance and other services related to centralized email signature and out-of-office reply management? Then our offer is just right for you.
 
-You are not buying just any support, but our comprehensive expertise as a manufacturer.  
-For us, support means not only providing a solution to your problem, but also passing on our experience to you so that you know how and why.  
-Our support is therefore an investment in your own knowledge and that of your employees, which pays off immediately.
+You are not buying just any support, but our comprehensive expertise as a manufacturer. For us, support means not only providing a solution to your problem, but also passing on our experience to you so that you know how and why. Our support is therefore an investment in your own knowledge and that of your employees, which pays off immediately.
 
 Our all-round carefree support promise: **If the cause of your support request is a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, their documentation or one of the supplied components, support is free - no ifs, ands or buts. In all other cases, you get the same first-class support at a fair price.**
 
