@@ -89,6 +89,6 @@ ExplicIT Consulting offers fee-based support for Export-RecipientPermissions: Co
 
 You are not buying just any support, but our comprehensive expertise as a manufacturer. For us, support means not only providing a solution to your problem, but also passing on our experience to you so that you know how and why. Our support is therefore an investment in your own knowledge and that of your employees, which pays off immediately.
 
-Our all-round carefree support promise: **If the cause of your support request is a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, their documentation or one of the supplied components, support is free - no ifs, ands or buts. In all other cases, you get the same first-class support at a fair price.**
+Our all-round carefree support promise: **If the cause of your support request is a bug in the latest version of Export-RecipientPermissions, its documentation or one of the supplied components, support is free - no ifs, ands or buts. In all other cases, you get the same first-class support at a fair price.**
 
 <a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized quote</button></a>
