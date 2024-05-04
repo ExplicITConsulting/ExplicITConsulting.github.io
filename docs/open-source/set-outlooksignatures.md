@@ -185,11 +185,17 @@ Let's assume 2 changes per year, 3 minutes for making the change (including read
 Per user and year, the costs are now **7.20 EUR in manual effort compared to 2.00 EUR for a centrally managed solution with Set-OutlookSignatures** - and this calculation does not even take into account the manual effort for out-of-office replies and shared mailboxes, nor the costs of non-compliance with regulations and the added value of an additional marketing channel.
 
 ## 5. Fee-based support
-Whether you use the free and open-source version of Set-OutlookSignatures, or the Benefactor Circle add-on as trial or annual license - ExplicIT always offers first-class fee-based support.
+Whether you use the free and open source version of Set-OutlookSignatures or the Benefactor Circle add-on as a trial or annual license - ExplicIT always offers you first-class fee-based support.
 
-You prefer being guided through the set-up and customization process instead of working through the documentation yourself? You are looking for customized workshops, hands-on implementation support, trainings, template creation assistance and other services related to the central management of email signatures and out-of-office replies? Then our support offer is just right for you.
+You prefer to be guided through the setup and customization process instead of working through the documentation yourself?  
+Are you looking for customized workshops, hands-on implementation support, training, template creation assistance and other services related to centralized email signature and out-of-office reply management?  
+Then our offer is just right for you.
 
-**Our all-round carefree support promise: If the cause of your support request is a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, their documentation or one of the supplied components, support is free - no ifs, ands or buts. In all other cases, you get the same first-class support at a fair price.**
+You are not buying just any support, but our comprehensive expertise as a manufacturer.  
+For us, support means not only providing a solution to your problem, but also passing on our experience to you so that you know how and why.  
+Our support is therefore an investment in your own knowledge and that of your employees, which pays off immediately.
+
+Our all-round carefree support promise: **If the cause of your support request is a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, their documentation or one of the supplied components, support is free - no ifs, ands or buts. In all other cases, you get the same first-class support at a fair price.**
 
 Set-OutlookSignatures and the components delivered with it are Free and Open-Source Software (FOSS) and very well documented. ExplicIT Consulting offers fee-based support for this and other open source code, ensuring that the core of Set-OutlookSignatures can remain FOSS and continues to evolve.
 
@@ -207,23 +213,31 @@ Technical guides, FAQs, video demonstrations and additional documentation are av
 
 ## 6. Buying, extending and changing licenses
 ### 6.1. Price and general information
-The net price currently is **2.00 EUR per mailbox and year** (yes, per year and not per month).
+The price currently is **2.00 EUR net per mailbox and year**, which is **0.17 EUR net per mailbox and month**.
 
-There is no minimum number of mailboxes, only a minimum amount of 250.00 EUR net per invoice.
+We keep license costs as fair as possible. Fair means:
+- Small companies always just pay the same low price as big enterprises.  
+- No maintenance contracts that are advertised as "free" but really are hidden in the annual price and are never used to the extent that you pay for over the years.  
+  With us, you only pay for the support you actually need - due to the extensive documentation, this is usually not even necessary. And in the event of a bug, support is free of charge.
+- No additional infrastructure that someone else runs for you and for which costs are incurred regardless of usage.  
+  No interfaces that regularly transfer your data to external data centers for the preparation of signatures and to which you have to redirect every email for the application of signatures.  
+  Everything runs on your existing systems, which you already trust and govern, and within your own security boundaries.<br><br>
 
-Every mailbox in your environment for which you want to use a Benefactor Circle exclusive feature, needs a license. This includes shared mailboxes.
+There is no minimum number of mailboxes, only a minimum amount of EUR 250.00 net per invoice.
 
-It does not matter how many users access a mailbox. If you want to only deploy signatures for a single mailbox being used by 50 people, you only need to buy 1 license.  
+Each mailbox in your environment for which you want to use an exclusive Benefactor Circle feature requires a license. This also applies to shared mailboxes.
 
-The mailboxes do not need to be named, you just have to define at least one Active Directory or Entra ID group containing the mailboxes, and the maximum number of recursive members for each group.
+It does not matter how many users access a mailbox. If you only want to provide signatures for a single mailbox that is used by 50 people, you only need to purchase 1 license.  
 
-It does not matter how many signatures you have and how often you change them.
+The mailboxes do not need to be named, you just need to define at least one Active Directory or Entra ID group containing the mailboxes and the maximum number of recursive members for each group.
 
-Licenses are to be paid in advance and are valid for one year from the day the full payment is received. There is no automatic renewal or a subscription.
+It doesn't matter how many signatures you have or how often you change them.
 
-As long as a license is valid, it includes prioritized ticket support and unlimited free version upgrades.
+Licenses are payable in advance and are valid for one year from the date of receipt of full payment. There is no automatic renewal or subscription.
 
-We work hard to keep our prices as low and stable as possible, with the aim of only having to adjust them for inflation. So, prices are subject to change. As you pay in advance, you can and will never be charged retrospectively.
+As long as a license is valid, it includes free version upgrades and prioritization of support requests.
+
+We work hard to keep our prices as low and stable as possible, with the aim of only adjusting them for inflation. So prices are subject to change. Since you pay upfront, you can and will never be charged after the fact.
 
 If you wish to add additional mailboxes during an active license period, you will only be charged the current price for these additional mailboxes for the remaining months of your license period.
 
