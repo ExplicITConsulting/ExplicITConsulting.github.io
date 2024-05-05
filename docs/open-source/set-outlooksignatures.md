@@ -87,7 +87,7 @@ With Set-OutlookSignatures, signatures and out-of-office replies can be:
 - Set as **default OOF message** for internal or external recipients (OOF messages only)  
 - Set in **Outlook Web** for the currently logged-in user, including mirroring signatures the the cloud as **roaming signatures**  
 - Centrally managed only, or **exist along user-created signatures** (signatures only)  
-- Copied to an **additional path** for easy access to signatures on mobile devices or for use with other email clients and apps besides Outlook Windows/Mac/Web: Apple Mail, Google Gmail, Samsung Mail, Mozilla Thunderbird, GNOME Evolution, KDE KMail, and others.
+- Copied to an **additional path** for easy access to signatures on mobile devices or for use with email clients and apps besides Outlook Windows/Mac/Web: Apple Mail, Google Gmail, Samsung Mail, Mozilla Thunderbird, GNOME Evolution, KDE KMail, and others.
 - **Write protected** (Outlook for Windows signatures only)
 
 Set-OutlookSignatures can be **run by users on Windows, Linux and macOS clients, including shared devices and terminal servers - or on a central system with a service account**.  
