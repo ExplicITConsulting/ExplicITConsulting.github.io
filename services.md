@@ -56,7 +56,7 @@ Our select group of consultants and partners have followed these principles for 
       </div>
     </div>
   </div>
-  <div class="cell">
+  <div class="cell" style="border-spacing: 1rem;">
     <div class="box" style="border-spacing: 1rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Product and Service Management</h3>
