@@ -5,11 +5,10 @@ source "https://rubygems.org"
 gemspec
 
 group :jekyll_plugins do
-    gem "jekyll", "~> 4.2"
-    gem "jekyll-paginate"
+    gem "jekyll-feed", "~> 0.6"
     gem "jekyll-sitemap"
-    gem "jekyll-gist"
-    gem "jekyll-feed"
-    gem "jekyll-include-cache"
-    gem "jekyll-redirect-from"
+    gem "jekyll-paginate"
+    gem "jekyll-seo-tag"
+    gem 'jekyll-redirect-from'
 end
+
