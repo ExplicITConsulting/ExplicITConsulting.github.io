@@ -73,10 +73,6 @@ redirect_from:
         recursive members.
       </div>
     </div>
-  </div>
-</div>
-<div class="columns">
-  <div class="column is-gapless">
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Move to the cloud easier</h3>
