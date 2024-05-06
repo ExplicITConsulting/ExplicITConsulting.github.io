@@ -19,9 +19,9 @@ Where we cannot help well enough ourselves, our specialised partners fill the ga
 Our select group of consultants and partners have followed these principles for more than two decades, and will continue to do so in the future.
 
 ## Gaps we can bridge for you
-<div class="grid is-gap-1">
-  <div class="cell">
-    <div class="box" style="border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+<div class="fixed-grid">
+  <div class="grid">
+    <div class="cell" style="border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Support for Open-Source</h3>
         <ul>
@@ -31,7 +31,7 @@ Our select group of consultants and partners have followed these principles for 
         </ul>
       </div>
     </div>
-    <div class="box" style="border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+    <div class="cell" style="border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Program and Portfolio Management</h3>
         <ul>
@@ -45,7 +45,7 @@ Our select group of consultants and partners have followed these principles for 
         </ul>
       </div>
     </div>
-    <div class="box" style="border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+    <div class="cell" style="border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Technics and Technology Consulting</h3>
         <ul>
@@ -56,8 +56,8 @@ Our select group of consultants and partners have followed these principles for 
       </div>
     </div>
   </div>
-  <div class="cell">
-    <div class="box" style="border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+  <div class="grid">
+    <div class="cell" style="border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Product and Service Management</h3>
         <ul>
@@ -71,7 +71,7 @@ Our select group of consultants and partners have followed these principles for 
         </ul>
       </div>
     </div>
-    <div class="box" style="border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+    <div class="cell" style="border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Digital Advisory</h3>
         <ul>
@@ -83,7 +83,7 @@ Our select group of consultants and partners have followed these principles for 
         </ul>
       </div>
     </div>
-    <div class="box" style="border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+    <div class="cell" style="border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Auditing</h3>
         <ul>
