@@ -125,9 +125,9 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
 </div>
 
 ## 3. Benefactor Circle exclusives
-<div class="tile is-ancestor">
-  <div class="tile is-6 is-vertical is-parent">
-    <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+<div class="grid">
+  <div class="cell">
+    <div class="box" style="border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Software features</h3>
         <ul>
@@ -145,8 +145,8 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
       </div>
     </div>
   </div>
-  <div class="tile is-6 is-vertical is-parent">
-    <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+  <div class="cell">
+    <div class="box" style="border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Prioritized support and feature requests</h3>
         <ul>
@@ -156,7 +156,7 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
         </ul>
       </div>
     </div>
-    <div class="tile is-child box" style="border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+    <div class="box" style="border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Free release upgrades and archive</h3>
         <ul>
