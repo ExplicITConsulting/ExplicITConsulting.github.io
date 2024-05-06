@@ -19,7 +19,7 @@ Where we cannot help well enough ourselves, our specialised partners fill the ga
 Our select group of consultants and partners have followed these principles for more than two decades, and will continue to do so in the future.
 
 ## Gaps we can bridge for you
-<div class="grid">
+<div class="grid is-gap-1">
   <div class="cell">
     <div class="box" style="border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
