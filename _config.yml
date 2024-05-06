@@ -27,13 +27,13 @@ baidu_site_verification  :
 
 
 # Plugins (previously gems:)
-#plugins:
-#  - jekyll-paginate
-#  - jekyll-sitemap
-#  - jekyll-gist
-#  - jekyll-feed
-#  - jekyll-include-cache
-#  - jekyll-redirect-from
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-redirect-from
 
 
 # mimic GitHub Pages with --safe
@@ -44,6 +44,22 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
 
+
+exclude: 
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+livereload: true
+
+sass:
+  style: compressed
+  source_dir: _sass
 
 # HTML Compression
 # - https://jch.penibelst.de/
