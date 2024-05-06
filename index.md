@@ -14,8 +14,8 @@ subtitle: |
     We bridge gaps, with our heads in the sky and our feet firmly on the ground.
   </p>
 
-  <p class="subtitle is-3 has-text-white" style="margin-top:1.5em;">
-    <strong><a href="/services/">>> Which gap can we bridge for you?</a></strong>
+  <p class="subtitle is-3" style="margin-top:1.5em;">
+    <strong><a href="/services/" class="has-text-white">>> Which gap can we bridge for you?</a></strong>
   </p>
 
   <p class="subtitle is-3" style="">
