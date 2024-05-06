@@ -1,4 +1,6 @@
 @charset "utf-8";
 
+$hero-darken: $dark !default;
+
 @import "../node_modules/bulma/sass";
 @import "../node_modules/bulma/sass/utilities/mixins";
