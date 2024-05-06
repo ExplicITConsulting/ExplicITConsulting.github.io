@@ -15,11 +15,11 @@ subtitle: |
   </p>
 
   <p class="subtitle is-3" style="margin-top:1.5em;">
-    <strong><a href="/services/" class="has-text-white">>> Which gap can we bridge for you?</a></strong>
+    <a href="/services/" class="has-text-white has-text-weight-bold">>> Which gap can we bridge for you?</a>
   </p>
 
   <p class="subtitle is-3" style="">
-    <strong><a href="/open-source/set-outlooksignatures/" class="has-text-white">>> Set-OutlookSignatures Benefactor Circle</a></strong>
+    <a href="/open-source/set-outlooksignatures/" class="has-text-white has-text-weight-bold">>> Set-OutlookSignatures Benefactor Circle</a>
   </p>
 hero_image: "/assets/images/background, vietnam golden bridge.jpg"
 hero_height: is-fullheight-with-navbar
