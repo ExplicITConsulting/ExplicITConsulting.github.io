@@ -15,7 +15,7 @@ subtitle: |
   </p>
 
   <p class="subtitle is-3" style="margin-top:1.5em;">
-    <strong><a href="/services/" style="has-test-white">>> Which gap can we bridge for you?</a></strong>
+    <strong><a href="/services/" class="has-test-white">>> Which gap can we bridge for you?</a></strong>
   </p>
 
   <p class="subtitle is-3" style="">
