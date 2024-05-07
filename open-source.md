@@ -5,7 +5,7 @@ title: |
     Support for Open-Source Software
   </p>
 subtitle: |
-  <p class="has-text-white">
+  <p class="subtitle is-3 has-text-white">
     Adding professional services on top
   </p>
 description: Open-Source. Fee-based support. Add-on development. Sponsoring.
