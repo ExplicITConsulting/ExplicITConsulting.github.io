@@ -1,7 +1,13 @@
 ---
 layout: page
-title: Support for Open-Source Software
-subtitle: Adding professional services on top
+title: |
+  <p class="has-text-white">
+    Support for Open-Source Software
+  </p>
+subtitle: |
+  <p class="has-text-white">
+    Adding professional services on top
+  </p>
 description: Open-Source. Fee-based support. Add-on development. Sponsoring.
 redirect_from:
   - /opensource
