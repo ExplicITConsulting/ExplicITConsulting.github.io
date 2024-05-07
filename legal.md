@@ -5,7 +5,7 @@ title: |
     Legal information
   </p>
 subtitle: |
-  <p class="has-text-white">
+  <p class="subtitle is-3 has-text-white">
     Impress, Privacy Notice, Terms and Conditions, etc.
   </p>
 description: Legal information. Impress. Liability notice. Copyright. Brands and trademarks. Terms and conditions. AGB. Privacy policy.
