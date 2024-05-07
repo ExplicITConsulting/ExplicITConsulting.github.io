@@ -5,7 +5,7 @@ title: |
     Payment
   </p>
 subtitle: |
-  <p class="has-text-white">
+  <p class="subtitle is-3 has-text-white">
     Bank transfer and other methods of payment
   </p>
 description: Payment. Credit card, Visa, Mastercard, American Express, Discover, Diners Club, China UnionPay. Cartes Bancaires. Apple Pay. Google Pay. BLIK. Bancontact. EPS. Giropay. iDEAL. P24, Przelewy24. Alipay. WeChat Pay. Link. MobilePay. PayPal. Swish.
