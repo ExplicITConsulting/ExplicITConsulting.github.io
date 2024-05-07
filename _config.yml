@@ -1,7 +1,7 @@
 theme                    : bulma-clean-theme
 
 # Site Settings
-fixed_navbar             : top
+# fixed_navbar             : top
 permalink                : pretty
 footer_menu              : footer_menu
 locale                   : "en-UK"
@@ -15,7 +15,6 @@ site.url                 : "https://explicitconsulting.at" # the base hostname &
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ExplicITConsulting/ExplicITConsulting.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 favicon                  : "/assets/images/explicit consulting, color on black, favicon.png"
-incremental              : true
 
 
 # SEO Related
@@ -45,9 +44,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
-
-livereload: true
 
 sass:
   style: compressed
