@@ -33,7 +33,6 @@ redirect_from:
   - /open-source/benefactor-circle
   - /open-source/benefactor-circle/
   - /support-for-open-source/set-outlooksignatures-benefactor-circle
-menubar: set-outlooksignatures_menu
 ---
 <div class="columns">
   <div class="column is-one-quarter">
