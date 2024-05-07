@@ -60,7 +60,7 @@ Download the free and open-source core version from <a href="https://github.com/
 
 
 <!-- omit in toc -->
-## Topics
+## Table of Contents
 - [1. Overview and features](#1-overview-and-features)
 - [2. Demo video](#2-demo-video)
 - [3. Benefactor Circle exclusives](#3-benefactor-circle-exclusives)
