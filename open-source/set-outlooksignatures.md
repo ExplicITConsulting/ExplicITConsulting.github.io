@@ -5,7 +5,7 @@ title: |
     Set-OutlookSignatures Benefactor Circle
   </p>
 subtitle: |
-  <p class="has-text-white">
+  <p class="subtitle is-3 has-text-white">
     Centrally manage and deploy email signatures and out-of-office replies for Outlook and Exchange
   </p>
 description: Set-OutlookSignatures Benefactor Circle. The open source gold standard to centrally manage and deploy email signatures and out-of-office replies for Outlook and Exchange.
