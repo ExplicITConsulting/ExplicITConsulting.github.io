@@ -5,7 +5,7 @@ title: |
    Export-RecipientPermissions
   </p>
 subtitle: |
-  <p class="has-text-white">
+  <p class="subtitle is-3 has-text-white">
     The open source tool of choice to document, filter and compare Exchange permissions
   </p>
 description: Export-RecipientPermissions. The open source tool of choice to document, filter and compare Exchange permissions.
