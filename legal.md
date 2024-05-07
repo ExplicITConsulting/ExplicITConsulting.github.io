@@ -52,11 +52,11 @@ Unless otherwise stated, the copyright of all content provided on this website i
 All product and company names are trademarks of their respective owners.
 ## General terms and conditions, Allgemeine Geschäftsbedingungen
 ### English: General terms and conditions for the sale and the delivery of organisational and programming services and permissions to use copyrighted software products
-1. Scope of contract and validity
+1 Scope of contract and validity
 
 1.1. All orders and agreements shall only be legally binding insofar as these are signed in writing with the legally binding signature of the company of the Contractor and shall only obligate to the extent stated in the acceptance of order. Purchase conditions of the Client shall herewith be excluded for the respective legal transaction and the entire business relationship. All offers are generally non-binding.
 
-1. Scope and assessment
+2 Scope and assessment
 
 2.1. The subject matter of an order may be:
 - Preparing organisational concepts
@@ -87,7 +87,7 @@ The Client shall not be entitled to refuse acceptance of software due to unsubst
 
 2.8. We expressly indicate that a barrier-free design, as defined by the Federal Law on Equality of Persons with Disabilities (Federal Disability Discrimination Act — BGStG) is not included in the quote, unless this was separately/individually requested by the Client. Should a barrier-free design not have been agreed upon, it shall be incumbent upon the Client to check the admissibility of the service with regard to the Federal Disability Discrimination Act. Moreover, the Client shall check the content they provide in regard to legal admissibility, particularly in terms of competition, brand, administrative law and copyright. The Contractor shall not be liable to the Client in cases of minor negligence or after fulfilling a possible duty to warn for the legal admissibility of content provided by the Client.
 
-3. Prices, taxes and fees
+3 Prices, taxes and fees
 
 3.1. All prices shall be calculated in Euros without VAT. These shall only apply for the respective current order. All prices mentioned are quoted from place of business of the Contractor. Expenses for programme media (e.g. CDs, magnetic tape, hard disks, floppy disks, streamer tapes, magnetic tape cassettes, etc.) as well as documents and possible contract fees shall be invoiced separately.
 
@@ -95,7 +95,7 @@ The Client shall not be entitled to refuse acceptance of software due to unsubst
 
 3.3. Costs for travel expenses, daily and accommodation allowances shall be separately invoiced to the Client at the respectively valid rates. Travel time shall be considered working hours.
 
-4. Delivery date
+4 Delivery date
 
 4.1. The Contractor shall strive to meet the agreed deadlines of fulfilment (completion) as closely as possible.
 
@@ -104,7 +104,7 @@ The Contractor shall not be liable for delivery delays or cost increases caused 
 
 4.3. The Contractor shall be entitled to make partial deliveries and/or partial invoices for orders consisting of several units and/or programmes.
 
-5. Payment
+5 Payment
 
 5.1. The invoices issued by the Contractor incl. VAT shall be paid within 14 days of receipt of the invoice without deductions and free of charges. In case of partial invoices, the payment conditions agreed upon for the entire order shall apply by analogy.
 
@@ -115,7 +115,7 @@ In case of payment arrears, the standard base interest rate shall be charged. Sh
 
 5.4. The Client shall not be entitled to withhold payments due to incomplete overall deliveries, warranty or guarantee claims or defects.
 
-6. Copyright and usage
+6 Copyright and usage
 
 6.1. After payment of the remuneration agreed, the Contractor shall grant the Client a non-exclusive, non-transferrable, non-sub-licensable and definite right to use the software for the hardware specified in the contract to the extent of the purchased licenses, for the simultaneous usage thereof at several work places and the right to use all work results based on the contract of the Contractor for in-house use. The Contractor shall retain all other rights.
 Involvement of the Client in the creation of software shall not entitle them to acquire any rights beyond use of the product as set forth in the Contract. Each infringement of the copyright of the Contractor shall result in claims for damages, in which case full amends are to be made.
@@ -126,7 +126,7 @@ Involvement of the Client in the creation of software shall not entitle them to 
 
 6.4. Should the Contractor provide the Client with software, whose licensee is a third party (e.g. standard software by Microsoft), the right of usage shall be provided by the license conditions of the licensee (manufacturer).
 
-7. Right of withdrawal
+7 Right of withdrawal
 
 7.1. The Client shall be entitled to withdraw from a respective order by letter sent by registered post, should the agreed delivery deadline not be met due to the sole fault or illegal actions of the Contractor provided that the agreed service is not performed to a considerable extent within an adequate grace period and the Client is not at fault.
 
@@ -134,7 +134,7 @@ Involvement of the Client in the creation of software shall not entitle them to 
 
 7.3. It shall only be possible for the Client to cancel an order with written consent of the Contractor. Should the Contractor agree to cancelation of an order, they shall be entitled to charge a cancellation fee to the amount of 30% of the overall project order value not yet invoiced in addition to the services already rendered and costs incurred.
 
-8. Guarantee, maintenance, changes
+8 Guarantee, maintenance, changes
 
 8.1. The Contractor shall guarantee that the software fulfils the functions according to the respective documentation insofar as the software is used on the operating system stipulated in the contract.
 
@@ -159,7 +159,7 @@ Section 924 of the Austrian Civil Code ‘Assumption of Deficiency’ shall be e
 
 8.7. Guarantee claims shall lapse after six (6) months from transferral.
 
-9. Liability
+9 Liability
 
 9.1. The Contractor shall only be liable to the Client for damage the Contractor verifiably causes in cases of gross negligence. This shall also apply mutatis mutandis to damage caused by third parties brought in by the Contractor. In case of bodily injuries caused by the Contractor, the Contractor shall be liable without limitation.
 
@@ -171,31 +171,30 @@ Section 924 of the Austrian Civil Code ‘Assumption of Deficiency’ shall be e
 
 9.5. Should data backup be expressly agreed upon as a service, liability for the loss of data shall not be excluded, deviating from Clause 9.2, however, restoration of the data shall be limited to a maximum of 10% of the total order sum per case of damage, however, with an overall maximum of EUR 15,000. Further claims for damages and guarantees of the Client than those stipulated in this Contract shall be excluded, regardless of legal basis. 
 
-10. Loyalty
+10 Loyalty
 
 10.1. The contractual partners agree to mutual loyalty. Both shall refrain from headhunting and employing, even via third parties, employees of the respective other contractual partner, who work on the fulfilment of orders, for the term of contract and twelve months after the contract terminates. Any contractual partner infringing this clause shall be obligated to pay lump-sum indemnification to the amount of one annual salary of the employee.
 
-11. Non-disclosure
+11 Non-disclosure
 
 11.1. The Contractor shall obligate their employees to fulfil the provisions stipulated in Section 6 of the Austrian Data Protection Act.
 
-12. Miscellaneous
+12 Miscellaneous
 
 12.1. Should clauses of this Contract be or become invalid, this shall not affect the validity of remaining subject matter of the Contract. The contractual partners shall cooperate in order to find a regulation which comes as close as possible to the intention of the invalid clauses.
 
-13. Final Provisions
+13 Final Provisions
 
 13.1. Insofar as nothing else is agreed on, only the legal provisions regarding business-to-business transactions according to Austrian law shall apply, even if the order is implemented abroad. The local jurisdiction of the objectively competent court for the place of business of the Contractor shall be exclusively agreed upon for possible disputes. Pursuant to the Austrian Consumer Protection Law (KSchG), the Terms and Conditions above shall be valid insofar as the Austrian Consumer Protection Law provides no differing obligatory provisions for selling to consumers.
 
 13.2 In the event that any disputes, which cannot be solved by mutual agreement, arise from this Contract, the parties to the contract agree to engage a listed mediator (Austrian Civil Rights Mediation Law (ZivMediatG) specialized in business mediation from the list of the Austrian Ministry of Justice in order to reconcile these out of court. Should no mutual agreement regarding the selection of the business mediator or with regard to content be possible, legal measures shall be initiated no sooner than one month after the negotiations fail. In the event that mediation could not be held or was discontinued, any litigation initiated shall be subject to Austrian law. As agreed, all necessary costs incurred due to previous mediation, particularly for legal advisors consulted, may be claimed in litigation or arbitration as ‘pre-trial costs’.
 
 ## Deutsch: Allgemeine Geschäftsbedingungen für den Verkauf und die Lieferung von Organisations-, Programmierleistungen und Werknutzungsbewilligungen von Softwareprodukten
-
-1.	Vertragsumfang und Gültigkeit
+1	Vertragsumfang und Gültigkeit
 
 1.1. Alle Aufträge und Vereinbarungen sind nur dann rechtsverbindlich, wenn sie vom Auftragnehmer schriftlich und firmengemäß gezeichnet werden und verpflichten nur in dem in der Auftragsbestätigung angegebenem Umfang. Einkaufsbedingungen des Auftraggebers werden für das gegenständliche Rechtsgeschäft und die gesamte Geschäftsbeziehung hiermit ausgeschlossen. Angebote sind grundsätzlich freibleibend.
 
-2. Leistung und Prüfung
+2 Leistung und Prüfung
 
 2.1. Gegenstand eines Auftrages kann sein:
 - Ausarbeitung von Organisationskonzepten
@@ -225,7 +224,7 @@ Der Auftraggeber ist nicht berechtigt, die Abnahme von Software wegen unwesentli
 
 2.8. Ausdrücklich weisen wir daraufhin, dass eine barrierefreie Ausgestaltung (von Websites) iSd Bundesgesetzes über die Gleichstellung von Menschen mit Behinderungen (Bundes-Behindertengleichstellungsgesetz – BGStG)“ nicht im Angebot enthalten ist, sofern diese nicht gesondert/ individuell vom Auftraggeber angefordert wurde. Sollte die barrierefreie Ausgestaltung nicht vereinbart worden sein, so obliegt dem Auftraggeber die Überprüfung der Leistung auf ihre Zulässigkeit im Hinblick auf das Bundes-Behindertengleichstellungsgesetz durchzuführen. Ebenso hat der Auftraggeber von ihm bereit gestellte Inhalte auf ihre rechtliche, insbesondere wettbewerbs-, marken-, urheber- und verwaltungsrechtliche Zulässigkeit zu überprüfen. Der Auftragnehmer haftet im Falle leichter Fahrlässigkeit oder nach Erfüllung einer allfälligen Warnpflicht gegenüber dem Kunden nicht für die rechtliche Zulässigkeit von Inhalten, wenn diese vom Kunden vorgegeben wurden.
 
-3. Preise, Steuern und Gebühren
+3 Preise, Steuern und Gebühren
 
 3.1. Alle Preise verstehen sich in Euro ohne Umsatzsteuer. Sie gelten nur für den vorliegenden Auftrag. Die genannten Preise verstehen sich ab Geschäftssitz bzw. -stelle des Auftragnehmers. Die Kosten von Programmträgern (z.B. CD’s, Magnetbänder, Magnetplatten, Floppy Disks, Streamer Tapes, Magnetbandkassetten usw.) sowie allfällige Vertragsgebühren werden gesondert in Rechnung gestellt.
 
@@ -233,7 +232,7 @@ Der Auftraggeber ist nicht berechtigt, die Abnahme von Software wegen unwesentli
 
 3.3. Die Kosten für Fahrt-, Tag- und Nächtigungsgelder werden dem Auftraggeber gesondert nach den jeweils gültigen Sätzen in Rechnung gestellt. Wegzeiten gelten als Arbeitszeit.
 
-4. Liefertermin
+4 Liefertermin
 
 4.1. Der Auftragnehmer ist bestrebt, die vereinbarten Termine der Erfüllung (Fertigstellung) möglichst genau einzuhalten.
 
@@ -242,7 +241,7 @@ Lieferverzögerungen und Kostenerhöhungen, die durch unrichtige, unvollständig
 
 4.3. Bei Aufträgen, die mehrere Einheiten bzw. Programme umfassen, ist der Auftragnehmer berechtigt, Teillieferungen durchzuführen bzw. Teilrechnungen zu legen.
 
-5. Zahlung
+5 Zahlung
 
 5.1. Die vom Auftragnehmer gelegten Rechnungen inklusive Umsatzsteuer sind spätestens 14 Tage ab Fakturenerhalt ohne jeden Abzug und spesenfrei zahlbar. Für Teilrechnungen gelten die für den Gesamtauftrag festgelegten Zahlungsbedingungen analog.
 
@@ -254,7 +253,7 @@ Bei Zahlungsverzug werden Verzugszinsen im banküblichen Ausmaß verrechnet. Bei
 
 5.4. Der Auftraggeber ist nicht berechtigt, Zahlungen wegen nicht vollständiger Gesamtlieferung, Garantie- oder Gewährleistungsansprüchen oder Bemängelungen zurück zu halten.
 
-6. Urheberrecht und Nutzung
+6 Urheberrecht und Nutzung
 
 6.1. Der Auftragnehmer erteilt dem Auftraggeber nach Bezahlung des vereinbarten Entgelts ein nicht ausschließliches, nicht übertragbares, nicht unterlizenzierbares und zeitlich begrenztes Recht die Software für die im Vertrag spezifizierte Hardware und im Ausmaß der erworbenen Anzahl Lizenzen für die gleichzeitige Nutzung auf mehreren Arbeitsplätzen zu verwenden, sämtliche auf der Grundlage des Vertrages des Auftragnehmers erstellten Arbeitsergebnisse zum eigenen, internen Gebrauch zu nutzen. Sämtliche sonstige Rechte verbleiben beim Auftragnehmer.
 
@@ -266,7 +265,7 @@ Durch die Mitwirkung des Auftraggebers bei der Herstellung der Software werden k
 
 6.4. Wird dem Auftraggeber eine Software zur Verfügung gestellt, deren Lizenzinhaber ein Dritter ist (zB Standardsoftware von Microsoft), so richtet sich die Einräumung des Nutzungsrechts nach den Lizenzbestimmungen des Lizenzinhabers (Hersteller).
 
-7. Rücktrittsrecht
+7 Rücktrittsrecht
 
 7.1. Für den Fall der Überschreitung einer vereinbarten Lieferzeit aus alleinigem Verschulden oder rechtswidrigem Handeln des Auftragnehmers ist der Auftraggeber berechtigt, mittels eingeschriebenen Briefes vom betreffenden Auftrag zurückzutreten, wenn auch innerhalb der angemessenen Nachfrist die vereinbarte Leistung in wesentlichen Teilen nicht erbracht wird und den Auftraggeber daran kein Verschulden trifft.
 
@@ -274,7 +273,7 @@ Durch die Mitwirkung des Auftraggebers bei der Herstellung der Software werden k
 
 7.3. Stornierungen durch den Auftraggeber sind nur mit schriftlicher Zustimmung des Auftragnehmers möglich. Ist der Auftragnehmer mit einem Storno einverstanden, so hat er das Recht, neben den erbrachten Leistungen und aufgelaufenen Kosten eine Stornogebühr in der Höhe von 30% des noch nicht abgerechneten Auftragswertes des Gesamtprojektes zu verrechnen.
 
-8. Gewährleistung, Wartung, Änderungen
+8 Gewährleistung, Wartung, Änderungen
 
 8.1. Der Auftragnehmer gewährleistet, dass die Software die in der dazugehörigen Dokumentation beschriebenen Funktionen erfüllt, sofern die Software auf dem im Vertrag beschriebenen Betriebssystem genutzt wird.
 
@@ -300,7 +299,7 @@ Die Vermutung der Mangelhaftigkeit gem. § 924 ABGB gilt als ausgeschlossen.
 
 8.7. Gewährleistungsansprüche verjähren in sechs (6) Monaten ab Übergabe.
 
-9. Haftung
+9 Haftung
 
 9.1. Der Auftragnehmer haftet dem Auftraggeber für von ihm nachweislich verschuldete Schäden nur im Falle groben Verschuldens. Dies gilt sinngemäß auch für Schäden, die auf vom Auftragnehmer beigezogene Dritte zurückzuführen sind. Im Falle von verschuldeten Personenschäden haftet der Auftragnehmer unbeschränkt.
 
@@ -312,19 +311,19 @@ Die Vermutung der Mangelhaftigkeit gem. § 924 ABGB gilt als ausgeschlossen.
 
 9.5. Ist die Datensicherung ausdrücklich als Leistung vereinbart, so ist die Haftung für den Verlust von Daten abweichend von Punkt 9.2 nicht ausgeschlossen, jedoch für die Wiederherstellung der Daten begrenzt bis maximal EUR 10 % der Auftragssumme je Schadensfall, maximal jedoch EUR 15.000,-. Weitergehende als die in diesem Vertrag genannten Gewährleistungs- und Schadenersatzansprüche des AG -gleich aus welchem Rechtsgrund- sind ausgeschlossen. 
 
-10. Loyalität
+10 Loyalität
 
 10.1. Die Vertragspartner verpflichten sich zur gegenseitigen Loyalität. Sie werden jede Abwerbung und Beschäftigung, auch über Dritte, von Mitarbeitern, die an der Realisierung der Aufträge gearbeitet haben, des anderen Vertragspartners während der Dauer des Vertrages und 12 Monate nach Beendigung des Vertrages unterlassen. Der dagegen verstoßende Vertragspartner ist verpflichtet, pauschalierten Schadenersatz in der Höhe eines Jahresgehaltes des Mitarbeiters zu zahlen.
 
-11. Geheimhaltung
+11 Geheimhaltung
 
 11.1. Der Auftragnehmer verpflichtet seine Mitarbeiter, die Bestimmungen gemäß § 6 des Datenschutzgesetzes einzuhalten.
 
-12. Sonstiges
+12 Sonstiges
 
 12.1 Sollten einzelne Bestimmungen dieses Vertrages unwirksam sein oder unwirksam werden, so wird hierdurch der übrige Inhalt dieses Vertrages nicht berührt. Die Vertragspartner werden partnerschaftlich zusammenwirken, um eine Regelung zu finden, die den unwirksamen Bestimmungen möglichst nahekommt.
 
-13. Schlussbestimmungen
+13 Schlussbestimmungen
 
 13.1 Soweit nicht anders vereinbart, gelten die zwischen Unternehmern zur Anwendung kommenden gesetzlichen Bestimmungen ausschließlich nach österreichischem Recht, auch dann, wenn der Auftrag im Ausland durchgeführt wird. Für eventuelle Streitigkeiten gilt ausschließlich die örtliche Zuständigkeit des sachlich zuständigen Gerichtes für den Geschäftssitz des Auftragnehmers als vereinbart. Für den Verkauf an Verbraucher im Sinne des Konsumentenschutzgesetzes gelten die vorstehenden Bestimmungen nur insoweit, als das Konsumentenschutzgesetz nicht zwingend andere Bestimmungen vorsieht.
 
