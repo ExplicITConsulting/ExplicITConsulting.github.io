@@ -80,7 +80,7 @@ Download the free and open-source core version from <a href="https://github.com/
 - [9. Data protection notice](#9-data-protection-notice)
 
 ## 1. Overview and features
-<p><a href="#topics" class="is-size-7 has-text-weight-light has-text-light"><span class="icon-text"><span class="icon"><i class="fas fa-home"></i></span><span>Table of Contents</span></span></a></p>
+<p><a href="#topics" class="is-size-7 has-text-weight-light"><span class="icon-text"><span class="icon"><i class="fas fa-home"></i></span><span>Table of Contents</span></span></a></p>
 With Set-OutlookSignatures, signatures and out-of-office replies can be:
 - Generated from **templates in DOCX or HTML** file format  
 - Customized with a **broad range of variables**, including **photos**, from Active Directory and other sources
