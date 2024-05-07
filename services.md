@@ -5,7 +5,7 @@ title: |
     Which gap can we bridge for you?
   </p>
 subtitle: |
-  <p class="has-text-white">
+  <p class="subtitle is-3 has-text-white">
     We help you to be successful on an individual, team and company level
   </p>
 description: Support for Open-Source. Product and Service Management. Digital Advisory. Program and Portfolio Management. Auditing. Technics and Technology Consulting.
