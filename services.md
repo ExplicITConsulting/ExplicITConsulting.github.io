@@ -1,7 +1,13 @@
 ---
 layout: page
-title: Which gap can we bridge for you?
-subtitle: We help you to be successful on an individual, team and company level
+title: |
+  <p class="has-text-white" style="margin-bottom:0.3em">
+    Which gap can we bridge for you?
+  </p>
+subtitle: |
+  <p class="has-text-white" style="margin-bottom:0.3em">
+    We help you to be successful on an individual, team and company level
+  </p>
 description: Support for Open-Source. Product and Service Management. Digital Advisory. Program and Portfolio Management. Auditing. Technics and Technology Consulting.
 redirect_from:
   - /ourservices
