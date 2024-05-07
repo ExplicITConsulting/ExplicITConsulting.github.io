@@ -1,8 +1,14 @@
 ---
 layout: page
 title: Export-RecipientPermissions
-subtitle: The open source tool of choice to document, filter and compare Exchange permissions
-description: Export-RecipientPermissions. The open source tool of choice to document, filter and compare Exchange permissions.
+subtitle: |
+  <p class="has-text-white">
+    The open source tool of choice to document, filter and compare Exchange permissions
+  </p>
+description: |
+  <p class="has-text-white">
+    Export-RecipientPermissions. The open source tool of choice to document, filter and compare Exchange permissions.
+  </p>
 image:
   path: "/assets/images/export-recipientpermissions opengraph1200x630.png"
   height: 1200
