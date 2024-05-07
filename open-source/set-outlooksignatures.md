@@ -75,7 +75,6 @@ Download the free and open-source core version from <a href="https://github.com/
   - [6.6. Moving licensed mailboxes between license groups](#66-moving-licensed-mailboxes-between-license-groups)
   - [6.7. Increasing the number of licensed mailboxes](#67-increasing-the-number-of-licensed-mailboxes)
 - [7. How license groups work](#7-how-license-groups-work)
-  - [7.1. How to get the SID of an Entra ID group](#71-how-to-get-the-sid-of-an-entra-id-group)
 - [8. License and software version](#8-license-and-software-version)
 - [9. Data protection notice](#9-data-protection-notice)
 
@@ -307,20 +306,17 @@ An example:
 
 ## 7. How license groups work
 Each Benefactor Circle license is bound to one or more Active Directory or Entra ID groups.
+- Each mailbox of your company needs to be a direct or indirect (a.k.a. nested, recursive or transitive) member of a license group, so that it can use exclusive features.
+- Each group may only contain as many mailboxes as direct or indirect members as defined in the license.
+- The user running Set-OutlookSignatures must be able to resolve all direct and indirect members of the license group, even across trusts.
+- Primary group membership is not considered due to Active Directory and Entra ID query restrictions.
 
-Each mailbox of your company needs to be a direct or indirect (a.k.a. nested, recursive or transitive) member of a license group, so that it can use exclusive features.
-
-Each group may only contain as many mailboxes as direct or indirect members as defined in the license.
-
-The user running Set-OutlookSignatures must be able to resolve all direct and indirect members of the license group, even across trusts.
-Primary group membership is not considered due to Active Directory and Entra ID query restrictions.
-
-License groups are defined by the DNS domain name of the on-premises Active Directory domain ('EntraID' for cloud-only groups), their SID (security identifier) and the number of members licensed.
+License groups are defined by the DNS domain name of the on-premises Active Directory domain ('EntraID' for cloud-only groups), their SID (security identifier) or GUID (Entra ID Object ID) and the number of members licensed.
 - Use 'EntraID' instead of the on-prem Active Directory DNS name if the group only exists in Entra ID and is not synced with your on-premises Active Directory. Only one pure Entra ID group is supported, it must be the group with the highest priority (first list entry).
 - If you have multiple domains in a forest or multiple forests, you can have only one license group, or one license group per AD domain, each license group with a separate maximum member count.
 - There must be a default group, which is used for mailboxes which are not covered by separate license groups.  
 
-When a license group for the AD domain of a mailbox is defined, this license group is used. If not, the license group defined as default will be used.
+When a license group for the home Active Directory domain of a mailbox is defined, this license group is used. If not, the license group defined as default will be used.
 
 There are three situations where Set-OutlookSignatures uses Entra ID via Graph API instead of on-prem AD:
 - Parameter GraphOnly is set to true,
@@ -333,42 +329,10 @@ In these cases, license groups are handled as follows:
   - If there is no license group associated with this DNS domain name, the license group defined as default is queried via Graph
 - If the current mailbox does not have the Graph "onPremisesDomainName" attribute set, the license group defined as default is queried via Graph
 
-### 7.1. How to get the SID of an Entra ID group
-The Entra ID portal does not show the Security Identifier (SID) of a group, only the Object Id.
-
-There are multiple ways to get the SID of an Entra ID group:
-- Graph PowerShell cmdlets
-  ```
-  Connect-MgGraph -Scopes 'Group.Read.All'
-  (Get-MgGroup -Filter "DisplayName eq 'Name of the license group'").securityIdentifier
-  ```
-- Graph query  
-  Query: `https://graph.microsoft.com/v1.0/groups/{group-id}`  
-  Example query: `https://graph.microsoft.com/v1.0/groups/00000000-0000-0000-0000-000000000000`
-- Convert Object Id to SID using PowerShell
-  ```
-  # Define the Object ID of your Entra ID group
-  $EntraIdGroupObjectId = '00000000-0000-0000-0000-000000000000'
-
-  # No changes below this line
-  Write-Host "Entra ID group Object ID '$($EntraIdGroupObjectId)'" -NoNewline
-
-  if (
-      ($EntraIdGroupObjectId -ne ($EntraIdGroupObjectIdToGuid = [guid]::Empty).ToString()) -and
-      ([guid]::TryParse($EntraIdGroupObjectId, ([ref]$EntraIdGroupObjectIdToGuid)))
-  ) {
-      $DestBuffer = [UInt32[]]::new(4)
-      [System.Buffer]::BlockCopy($EntraIdGroupObjectIdToGuid.ToByteArray(), 0, $destBuffer, 0, 16)
-      Write-Host "$([System.Environment]::NewLine)  -> Security ID (SID) 'S-1-12-1-$($destBuffer -join '-')'"
-  } else {
-      Write-Host ' is an empty GUID or no GUID at all.'
-  }
-  ```
-
 ## 8. License and software version
 License and software versions go hand in hand, so every new release of Set-OutlookSignatures also means a new license release, and vice-versa.
 
-Using different versions of software and license file is not supported, as this may lead to unexpected results.
+Using different versions of software and license file is not supported, as this leads to unexpected results.
 
 A warning message is logged when a version mismatch is detected.
 
