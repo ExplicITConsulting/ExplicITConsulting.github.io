@@ -1,7 +1,13 @@
 ---
 layout: page
-title: Legal information
-subtitle: Impress, Privacy Notice, Terms and Conditions, etc.
+title: |
+  <p class="has-text-white">
+    Legal information
+  </p>
+subtitle: |
+  <p class="has-text-white">
+    Impress, Privacy Notice, Terms and Conditions, etc.
+  </p>
 description: Legal information. Impress. Liability notice. Copyright. Brands and trademarks. Terms and conditions. AGB. Privacy policy.
 ---
 
