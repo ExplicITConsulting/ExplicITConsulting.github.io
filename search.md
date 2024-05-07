@@ -1,7 +1,13 @@
 ---
 layout: page
-title: Search and find
-subtitle: "What are you looking for?"
+title: |
+  <p class="has-text-white">
+    Search and find
+  </p>
+subtitle: |
+  <p class="has-text-white">
+    What are you looking for?
+  </p>
 description: Search and find. What are you looking for?
 ---
 ## What are you looking for?
