@@ -23,6 +23,6 @@ Unsolicited transfers will not be refunded, but will be considered a donation an
 
 Clicking the button below will open a new browser tab and take you to our payment site, hosted by our payment partner Stripe:
 
-<a href="https://buy.stripe.com/5kA9AX37u4VteBO5kk?locale=en" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Pay using Stripe</button></a>
+<a href="https://buy.stripe.com/5kA9AX37u4VteBO5kk?locale=en" target="_blank"><button class="button is-link is-normal is-hover">Pay using Stripe</button></a>
 
 

@@ -32,8 +32,8 @@ redirect_from:
   </div>
 </div>
 
-<a href="https://github.com/GruberMarkus/export-recipientpermissions" target="_blank"><button class="button is-link is-normal is-responsive is-hover">Download Export-RecipientPermissions from GitHub for free</button></a>
-<a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized quote</button></a>
+<a href="https://github.com/GruberMarkus/export-recipientpermissions" target="_blank"><button class="button is-link is-normal is-hover">Download Export-RecipientPermissions from GitHub for free</button></a>
+<a href="/contact"><button class="button is-link is-normal is-hover">Contact us for questions and a customized quote</button></a>
 
 ## Features
 <div class="columns">
@@ -97,4 +97,4 @@ You are not buying just any support, but our comprehensive expertise as a manufa
 
 Our all-round carefree support promise: **If the cause of your support request is a bug in the latest version of Export-RecipientPermissions, its documentation or one of the supplied components, support is free - no ifs, ands or buts. In all other cases, you get the same first-class support at a fair price.**
 
-<a href="/contact"><button class="button is-link is-normal is-responsive is-hover">Contact us for questions and a customized quote</button></a>
+<a href="/contact"><button class="button is-link is-normal is-hover">Contact us for questions and a customized quote</button></a>

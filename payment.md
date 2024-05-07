@@ -26,4 +26,4 @@ We offer a wide range of other methods of payment, depending on your home countr
 
 Please note that the invoice amount will be increased by a processing fee of 5% due to the additional costs associated with these payment methods.
 
-<a href="mailto:welcome@explicitconsulting.at"><button class="button is-link is-normal is-responsive is-hover">Contact us for other methods of payment</button></a>
+<a href="mailto:welcome@explicitconsulting.at"><button class="button is-link is-normal is-hover">Contact us for other methods of payment</button></a>
