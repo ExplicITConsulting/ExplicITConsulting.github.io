@@ -1,7 +1,13 @@
 ---
 layout: page
-title: Payment
-subtitle: Bank transfer and other methods of payment
+title: |
+  <p class="has-text-white">
+    Payment
+  </p>
+subtitle: |
+  <p class="has-text-white">
+    Bank transfer and other methods of payment
+  </p>
 description: Payment. Credit card, Visa, Mastercard, American Express, Discover, Diners Club, China UnionPay. Cartes Bancaires. Apple Pay. Google Pay. BLIK. Bancontact. EPS. Giropay. iDEAL. P24, Przelewy24. Alipay. WeChat Pay. Link. MobilePay. PayPal. Swish.
 ---
 ## Standard method of payment: Bank transfer
