@@ -4,6 +4,10 @@ $family-primary: "Arial", sans-serif;
 $primary: black;
 $text: black;
 
+
+// Import Main CSS file from theme
+@import "main";
+
 .html {
     scroll-padding-top: $navbar-height;
 }
@@ -13,7 +17,3 @@ $text: black;
         scroll-margin-top: $navbar-height;
     }
 }
-
-
-// Import Main CSS file from theme
-@import "main";
