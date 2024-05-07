@@ -5,7 +5,7 @@ title: |
     Search and find
   </p>
 subtitle: |
-  <p class="has-text-white">
+  <p class="subtitle is-3 has-text-white">
     What are you looking for?
   </p>
 description: Search and find. What are you looking for?
