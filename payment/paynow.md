@@ -1,8 +1,14 @@
 ---
 layout: page
 title: Pay now
-subtitle: Pay your invoice without using bank transfer
-description: Payment. Credit card, Visa, Mastercard, American Express, Discover, Diners Club, China UnionPay. Cartes Bancaires. Apple Pay. Google Pay. BLIK. Bancontact. EPS. Giropay. iDEAL. P24, Przelewy24. Alipay. WeChat Pay. Link. MobilePay. PayPal. Swish.
+subtitle: |
+  <p class="has-text-white">
+    Pay your invoice without using bank transfer
+  </p>
+description: |
+  <p class="has-text-white">
+    Payment. Credit card, Visa, Mastercard, American Express, Discover, Diners Club, China UnionPay. Cartes Bancaires. Apple Pay. Google Pay. BLIK. Bancontact. EPS. Giropay. iDEAL. P24, Przelewy24. Alipay. WeChat Pay. Link. MobilePay. PayPal. Swish.
+  </p>
 ---
 ## Welcome!
 Payment via bank transfer is not an option for you, and you agreed with ExplicIT Consulting on another method of payment.
