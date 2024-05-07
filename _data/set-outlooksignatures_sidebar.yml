@@ -1,0 +1,12 @@
+- label: Example Menu
+  items:
+    - name: Overview and features
+      link: /open-source/set-outlooksignatures/#1-overview-and-features
+    - name: Demo video
+      link: /set-outlooksignatures/#2-demo-video
+    - name: Benefactor Circle exclusives
+      link: /open-source/set-outlooksignatures/#3-benefactor-circle-exclusives
+    - name: Financial benefits of centrally managing signatures and out-of-office replies
+      link: /open-source/set-outlooksignatures/#4-financial-benefits-of-centrally-managing-signatures-and-out-of-office-replies
+    - name: Fee-based support
+      link: /open-source/set-outlooksignatures/#5-fee-based-support
