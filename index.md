@@ -14,12 +14,12 @@ subtitle: |
     We bridge gaps, with our heads in the sky and our feet firmly on the ground.
   </p>
 
-  <p class="subtitle is-3 has-text-white" style="margin-top:1.5em;">
-    <a href="/services/" class="has-text-link has-text-weight-bold">>> Which gap can we bridge for you?</a>
+  <p class="subtitle is-3 has-text-white has-text-weight-bold" style="margin-top:1.5em;">
+    <a href="/services/" class="has-text-white has-text-weight-bold">>> Which gap can we bridge for you?</a>
   </p>
 
-  <p class="subtitle is-3 has-text-white" style="">
-    <a href="/open-source/set-outlooksignatures/" class="has-text-link has-text-weight-bold">>> Set-OutlookSignatures Benefactor Circle</a>
+  <p class="subtitle is-3 has-text-white has-text-weight-bold" style="">
+    <a href="/open-source/set-outlooksignatures/" class="has-text-white has-text-weight-bold">>> Set-OutlookSignatures Benefactor Circle</a>
   </p>
 hero_image: "/assets/images/background, vietnam golden bridge.jpg"
 hero_height: is-fullheight-with-navbar
