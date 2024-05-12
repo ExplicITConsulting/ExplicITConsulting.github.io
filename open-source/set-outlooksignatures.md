@@ -225,7 +225,8 @@ We keep license costs as fair as possible. Fair means:
   With us, you only pay for the support you actually need - due to the extensive documentation, this is usually not even necessary. And in the event of a bug in our software or its components, support is free of charge.
 - No additional infrastructure that someone else runs for you and for which costs are incurred regardless of usage.  
   No interfaces that regularly transfer your data to external data centers for the preparation of signatures and to which you have to redirect every email for the application of signatures.  
-  Everything runs on your existing systems, which you already trust and govern, and within your own security boundaries.<br><br>
+  Everything runs on your existing systems, which you already trust and govern, and within your own security boundaries.
+- No deliberately inflated prices that are then lowered through negotiations.<br><br>
 
 There is no minimum number of mailboxes, only a minimum amount of EUR 250.00 net per invoice.
 
