@@ -193,15 +193,15 @@ Let's assume 2 changes per year, 3 minutes for making the change (including read
 Per user and year, the costs are now **7.20 EUR in manual effort compared to 2.00 EUR for a centrally managed solution with Set-OutlookSignatures** - and this calculation does not even take into account the manual effort for out-of-office replies and shared mailboxes, nor the costs of non-compliance with regulations and the added value of an additional marketing channel.
 
 ## 5. Fee-based support
+The Benedactor Circle add-on is a product of ExplicIT Consulting, but not the free and open source software Set-OutlookSignatures. Since we believe that Set-OutlookSignatures is a great software, we offer our first-class fee-based support for it. If you prefer free support from the community, please open an issue on the Set-OutlookSignatures GitHub page.
+
 Whether you use the free and open source version of Set-OutlookSignatures or the Benefactor Circle add-on as a trial or annual license: ExplicIT always provides first-class fee-based support.
 
 You prefer to be guided through the setup and customization process instead of working through the documentation yourself? Are you looking for customized workshops, hands-on implementation support, training, template creation assistance and other services related to centralized email signature and out-of-office reply management? Then our offer is just right for you.
 
-You are not buying just any support, but our comprehensive expertise as a manufacturer. For us, support means not only providing a solution to your problem, but also passing on our experience to you so that you know how and why. Our support is therefore an investment in your own knowledge and that of your employees, which pays off immediately.
+You are not buying just any support, but our comprehensive expertise as manufacturer, consultant and implementer. For us, support means not only providing a solution to your problem, but also passing on our experience to you so that you know how and why. Our support is therefore an investment in your own knowledge and that of your employees, which pays off immediately.
 
 Our all-round carefree support promise: **If the cause of your support request is a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, their documentation or one of the supplied components, support is free - no ifs, ands or buts. In all other cases, you get the same first-class support at a fair price.**
-
-The Benedactor Circle add-on is a product of ExplicIT Consulting, but not the free and open source software Set-OutlookSignatures. Since we believe that Set-OutlookSignatures is a great software, we offer our first-class fee-based support for it. If you prefer free support from the community, please open an issue on the Set-OutlookSignatures GitHub page.
 
 The Benefactor Circle add-on license itself does not include support hours, as support is rarely required and we want to keep the license costs as fair as possible.
 
