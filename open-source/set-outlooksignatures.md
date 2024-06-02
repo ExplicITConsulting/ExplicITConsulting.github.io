@@ -201,7 +201,7 @@ You are not buying just any support, but our comprehensive expertise as a manufa
 
 Our all-round carefree support promise: **If the cause of your support request is a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, their documentation or one of the supplied components, support is free - no ifs, ands or buts. In all other cases, you get the same first-class support at a fair price.**
 
-Set-OutlookSignatures and the components delivered with it are Free and Open-Source Software (FOSS) and very well documented. ExplicIT Consulting offers fee-based support for this and other open source code, ensuring that the core of Set-OutlookSignatures can remain FOSS and continues to evolve.
+The Benedactor Circle add-on is a product of ExplicIT Consulting, but not the free and open source software Set-OutlookSignatures. Since we believe that Set-OutlookSignatures is a great software, we offer our first-class fee-based support for it. If you prefer free support from the community, please open an issue on the Set-OutlookSignatures GitHub page.
 
 The Benefactor Circle add-on license itself does not include support hours, as support is rarely required and we want to keep the license costs as fair as possible.
 
