@@ -26,4 +26,8 @@ We offer a wide range of other methods of payment, depending on your home countr
 
 Please note that the invoice amount will be increased by a processing fee of 5% due to the additional costs associated with these payment methods.
 
+Due to technical limitations of our payment service provider, a maximum of EUR 10,000 can currently be transferred per transaction. Invoices exceeding this amount must therefore be paid with several transfers.  
+This does not incur any additional costs.  
+We are working together with our payment service provider to remove this limit and ask for your understanding until then.
+
 <a href="mailto:welcome@explicitconsulting.at"><button class="button is-link is-normal is-hover">Contact us for other methods of payment</button></a>
