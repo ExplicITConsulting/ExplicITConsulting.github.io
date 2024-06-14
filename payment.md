@@ -8,26 +8,25 @@ subtitle: |
   <p class="subtitle is-3 has-text-white">
     Bank transfer and other methods of payment
   </p>
-description: Payment. Credit card, Visa, Mastercard, American Express, Discover, Diners Club, China UnionPay. Cartes Bancaires. Apple Pay. Google Pay. BLIK. Bancontact. EPS. Giropay. iDEAL. P24, Przelewy24. Alipay. WeChat Pay. Link. MobilePay. PayPal. Swish.
+description: Payment. Cards, Visa, Mastercard, American Express, Discover, Diners Club, China UnionPay, Cartes Bancaires. Wallets, Alipay, Apple Pay. Google Pay, Link, MobilePay, PayPal, WeChat Pay. Vouchers, Multibanco. Bank redirects, BLIK. Bancontact. EPS. giropay. iDEAL. Przelewy24, TWINT. Bank debits, SEPA Direct Debit. Bank transfer. Realtime-payments, Swish.
+redirect_from:
+  - /pay
+  - /payment/paynow
 ---
 ## Standard method of payment: Bank transfer
-The standard method of payment stated on our quotations and invoices is bank transfer.
+Most of our clients prefer to pay via bank transfer.
 
-This is generally more cost-efficient than other methods, as almost all other methods rely and build on the bank account level in the background.<br>This is why our prices are calculated with bank transfer in mind.
-
-Bank transfers work internationally as banks are usually connected directly or via dedicated networks such as SWIFT, CIPS, SFMS, SPFS, INSTEX etc.
-
-You find all information to uniquely identify our bank account internationally on our quotations and invoices: The International Bank Account Number (IBAN) and the Bank Identifier Code (BIC).
+You find all information to globally and uniquely identify our bank account on our quotations and invoices: The International Bank Account Number (IBAN) and the Bank Identifier Code (BIC).
 
 ## Other methods of payment
-If bank transfer is not an option for you, please let us know as early as possible.
+Bank transfer is not an option for you? We offer a wide range of other methods of payment, depending on your home country: Credit cards (Visa, Mastercard, American Express, Discover, Diners Club, China UnionPay), PayPal, Apple Pay, Google Pay, AliPay, WeChat Pay, and many more.
 
-We offer a wide range of other methods of payment, depending on your home country: Different types of Credit Cards, PayPal, Apple Pay, Google Pay, AliPay, WeChat Pay, and many more.
+Click on the "Pay using Stripe" button below to see which methods of payment are available in your country.
 
-Please note that the invoice amount will be increased by a processing fee of 5% due to the additional costs associated with these payment methods.
+Clicking the following button will open a new browser tab and take you to our payment site, hosted by our payment partner Stripe.
 
-Due to technical limitations of our payment service provider, a maximum of EUR 10,000 can currently be transferred per transaction. Invoices exceeding this amount must therefore be paid with several transfers.  
+<a href="https://buy.stripe.com/5kA9AX37u4VteBO5kk?locale=en" target="_blank"><button class="button is-link is-normal is-hover">Pay using Stripe</button></a>
+
+Due to technical limitations of our payment partner, a maximum of EUR 10,000 can currently be transferred per transaction. Invoices exceeding this amount must therefore be paid with several transfers.  
 This does not incur any additional costs.  
 We are working together with our payment service provider to remove this limit and ask for your understanding until then.
-
-<a href="mailto:welcome@explicitconsulting.at"><button class="button is-link is-normal is-hover">Contact us for other methods of payment</button></a>

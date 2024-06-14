@@ -190,7 +190,7 @@ Formula: `CostPerMinute * NumberOfChanges * NumberOfMinutes * NumberOfSignatures
 
 Let's assume 2 changes per year, 3 minutes for making the change (including reading the instructions) per signature, 2 signatures, 1 client. This results in 7.20 EUR per user and year (`0.60 * 2 * 3 * 2 * 1`).
  
-Per user and year, the costs are now **7.20 EUR in manual effort compared to 2.00 EUR for a centrally managed solution with Set-OutlookSignatures** - and this calculation does not even take into account the manual effort for out-of-office replies and shared mailboxes, nor the costs of non-compliance with regulations and the added value of an additional marketing channel.
+Per user and year, the costs are now **7.20 EUR in manual effort compared to 2.10 EUR for a centrally managed solution with Set-OutlookSignatures** - and this calculation does not even take into account the manual effort for out-of-office replies and shared mailboxes, nor the costs of non-compliance with regulations and the added value of an additional marketing channel.
 
 ## 5. Fee-based support
 The Benedactor Circle add-on is a product of ExplicIT Consulting, but not the free and open source software Set-OutlookSignatures. Since we believe that Set-OutlookSignatures is a great software, we offer our first-class fee-based support for it. If you prefer free support from the community, please open an issue on the Set-OutlookSignatures GitHub page.
@@ -217,18 +217,18 @@ Technical guides, FAQs, video demonstrations and additional documentation are av
 
 ## 6. Buying, extending and changing licenses
 ### 6.1. Price and general information
-The price currently is **2.00 EUR net per mailbox and year**, which equals **less than 0.17 EUR net per mailbox and month**.
+The price currently is **2.10 EUR net per mailbox and year**, which is **less than 0.18 EUR net per mailbox and month**.
 
 We keep license costs as fair as possible. Fair means:
 - Small companies always just pay the same low price as big enterprises.  
-- No maintenance contracts that are advertised as "free" but really are hidden in the annual price and are never used to the extent that you pay for over the years.  
-  With us, you only pay for the support you actually need - due to the extensive documentation, this is usually not even necessary. And in the event of a bug in our software or its components, support is free of charge.
+- No maintenance contracts or support contracts that are advertised as "free" but really are hidden in the annual price and are never used to the extent that you pay for over the years.  
+  With us, you only pay for the support you actually need - due to the extensive documentation, this is usually not even necessary. **If the cause of your support request is a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, their documentation or one of the supplied components, support is free - no ifs, ands or buts.**
 - No additional infrastructure that someone else runs for you and for which costs are incurred regardless of usage.  
   No interfaces that regularly transfer your data to external data centers for the preparation of signatures and to which you have to redirect every email for the application of signatures.  
   Everything runs on your existing systems, which you already trust and govern, and within your own security boundaries.
-- No deliberately inflated prices that are then lowered through negotiations.<br><br>
+- No deliberately inflated prices that are then "discounted" through negotiations.<br><br>
 
-There is no minimum number of mailboxes, only a minimum amount of EUR 250.00 net per invoice.
+There is no minimum number of mailboxes, only a minimum amount of EUR 210.00 net per invoice.
 
 Each mailbox in your environment for which you want to use an exclusive Benefactor Circle feature requires a license. This also applies to shared mailboxes.
 
@@ -294,15 +294,15 @@ When adding licenses during a license period, you only pay for the new mailboxes
 The new payment does not extend the existing license period, but it increases the number of licensed mailboxes in it.
 
 An example:
-- After a trial with 20 mailboxes, you start a pilot with 110 mailboxes in mid of April 2023. The license is valid until mid of April 2024, with the following cost:
-    max(250; (110 * 2.00)) = 250.00 EUR net
+- After a trial with 20 mailboxes, you start a pilot with 75 mailboxes in mid of April 2023. The license is valid until mid of April 2024, with the following cost:
+    max(210; (75 * 2.10)) = 210.00 EUR net
 - As the pilot is a success, the number of licensed mailboxes is raised to 7,500 in July 2023.
   - The license period does not change, the license is still valid from mid of April 2023 to mid of April 2024, of course with the higher number of mailboxes.
 - The added licenses result in the following costs:
-  - Year 1 total cost of 12,566.67 EUR, consisting of
-    - Year 1 cost for 110 mailboxes for 12 months: max(250; (110 * 2.00)) = 250.00 EUR net
-    - Year 1 additional mailboxes for 10 months (July 2023 to mid of April 2024): max(250; ((7,500 - 110) * 2.00 / 12 * 10) = 12,316.67 EUR net
-  - As long as the price is not changing, the consecutive years will cost: max(250; (7,500 * 2.00)) = 15,000.00 EUR net
+  - Year 1 total cost of 13,203.75 EUR, consisting of
+    - Year 1 cost for 75 mailboxes for 12 months: max(210; (75 * 2.10)) = 210.00 EUR net
+    - Year 1 additional mailboxes for 10 months (July 2023 to mid of April 2024): max(210; ((7,500 - 75) * 2.10 / 12 * 10) = 12,993.75 EUR net
+  - As long as the price is not changing, the consecutive years will cost: max(210; (7,500 * 2.10)) = 15,750.00 EUR net
 
 ## 7. How license groups work
 Each Benefactor Circle license is bound to one or more Active Directory or Entra ID groups.
