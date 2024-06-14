@@ -8,7 +8,7 @@ subtitle: |
   <p class="subtitle is-3 has-text-white">
     Bank transfer and other methods of payment
   </p>
-description: Payment. Cards, Visa, Mastercard, American Express, Discover, Diners Club, China UnionPay, Cartes Bancaires. Wallets, Alipay, Apple Pay. Google Pay, Link, MobilePay, PayPal, WeChat Pay. Vouchers, Multibanco. Bank redirects, BLIK. Bancontact. EPS. giropay. iDEAL. Przelewy24, TWINT. Bank debits, SEPA Direct Debit. Bank transfer. Realtime-payments, Swish.
+description: Payment. Cards, Visa, Mastercard, American Express, Discover, Diners Club, China UnionPay, Cartes Bancaires. Wallets, Alipay, Apple Pay, Google Pay, Link, MobilePay, PayPal, WeChat Pay. Vouchers, Multibanco. Bank redirects, BLIK, Bancontact, EPS, giropay, iDEAL, P24, TWINT. Bank debits, SEPA Direct Debit. Bank transfer. Realtime-payments, Swish.
 redirect_from:
   - /pay
   - /payment/paynow
@@ -19,7 +19,7 @@ Most of our clients prefer to pay via bank transfer.
 You find all information to globally and uniquely identify our bank account on our quotations and invoices: The International Bank Account Number (IBAN) and the Bank Identifier Code (BIC).
 
 ## Other methods of payment
-Bank transfer is not an option for you? We offer a wide range of other methods of payment, depending on your home country: Credit cards (Visa, Mastercard, American Express, Discover, Diners Club, China UnionPay), PayPal, Apple Pay, Google Pay, AliPay, WeChat Pay, and many more.
+Bank transfer is not an option for you? We offer a wide range of other methods of payment, depending on your home country: Alipay, American Express, Apple Pay, Bancontact, BLIK, China UnionPay, Diners Club, Discover, EPS, giropay, Google Pay, iDEAL, Link, Mastercard, MobilePay, Multibanco, P24, PayPal, SEPA Direct Debit, Swish, TWINT, Visa, WeChat Pay, and more.
 
 Click on the "Pay using Stripe" button below to see which methods of payment are available in your country.
 

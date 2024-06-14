@@ -178,7 +178,7 @@ There are three relevant questions to calculate the financial benefits:
 - What is the added value of using email as an additional marketing channel?
 - Does the new software cost less than the effort we want to save users?
  
-While the first two are difficult to calculate and very individual, the last question is easier to answer. Let's assume that an average employee costs 65,000 EUR per year from the employer's point of view. Less five weeks of vacation and with a 38.5-hour week, one minute of work costs the company 0.60 EUR.
+While the first two are difficult to calculate and very individual, the last question is easier to answer. Let's assume that an average employee costs 50,000 EUR per year from the employer's point of view (including all taxes, social security, etc.). Assuming five weeks of vacation, on week of sick leave, and a 40 hours work week, one minute of work costs the company 0.45 EUR.
 
 Other parameters we need are:
 - How many times a year do parameters relevant to signatures change (corporate design, job title, logos, marketing banners, etc.)?
@@ -188,9 +188,19 @@ Other parameters we need are:
  
 Formula: `CostPerMinute * NumberOfChanges * NumberOfMinutes * NumberOfSignatures * NumberOfClients = Cost in EUR per user and year to manually keep signatures up to date`
 
-Let's assume 2 changes per year, 3 minutes for making the change (including reading the instructions) per signature, 2 signatures, 1 client. This results in 7.20 EUR per user and year (`0.60 * 2 * 3 * 2 * 1`).
+Let's assume 2 changes per year, 3 minutes for making the change (including reading the instructions) per signature, 2 signatures, 1 client. This results in 5.40 EUR per user and year (`0.40 * 2 * 3 * 2 * 1`).
  
-Per user and year, the costs are now **7.20 EUR in manual effort compared to 2.10 EUR for a centrally managed solution with Set-OutlookSignatures** - and this calculation does not even take into account the manual effort for out-of-office replies and shared mailboxes, nor the costs of non-compliance with regulations and the added value of an additional marketing channel.
+Per user and year, the costs are now 5.40 EUR in manual effort compared to 2.10 EUR for a centrally managed solution with Set-OutlookSignatures.
+
+This calculation does not even take into account
+- the manual effort for shared mailboxes,
+- the manual effort for out-of-office replies,
+- the loss in reputation because of incorrect data entered manually,
+- the damage to the external image of the brand due to non-compliance with CI/CD guidelines,
+- the cost of non-compliance with regulations,
+- and the added value of an additional marketing channel.
+
+Set-OutlookSignatures pays for itself immediately and actually helps you earn more money.
 
 ## 5. Fee-based support
 The Benedactor Circle add-on is a product of ExplicIT Consulting, but not the free and open source software Set-OutlookSignatures. Since we believe that Set-OutlookSignatures is a great software, we offer our first-class fee-based support for it. If you prefer free support from the community, please open an issue on the Set-OutlookSignatures GitHub page.
