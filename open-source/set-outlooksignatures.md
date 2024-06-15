@@ -8,7 +8,7 @@ subtitle: |
   <p class="subtitle is-3 has-text-white">
     Centrally manage and deploy email signatures and out-of-office replies for Outlook and Exchange
   </p>
-description: Set-OutlookSignatures Benefactor Circle. The open source gold standard to centrally manage and deploy email signatures and out-of-office replies for Outlook and Exchange.
+description: Set-OutlookSignatures Benefactor Circle. The open-source gold standard to centrally manage and deploy email signatures and out-of-office replies for Outlook and Exchange.
 image:
   path: "/assets/images/set-outlooksignatures benefactor circle opengraph1200x630.png"
   height: 1200
@@ -50,10 +50,10 @@ Central management and deployment ensures that design guidelines are met, guaran
 
 **You can do all this, and more, with Set-OutlookSignatures and the Benefactor Circle add-on.**
 
-Set-OutlookSignatures is the open source gold standard to centrally manage and deploy email signatures and out-of-office replies for Outlook and Exchange.  
+Set-OutlookSignatures is the open-source gold standard to centrally manage and deploy email signatures and out-of-office replies for Outlook and Exchange.  
 Download the free and open-source core version from <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">GitHub</a> for free.
 
-**ExplicIT's Benefactor Circle add-on enhances the open source version with a great set of additional features and first-class fee-based support.**
+**ExplicIT's Benefactor Circle add-on enhances the open-source version with a great set of additional features and first-class fee-based support.**
 
 <a href="#5-fee-based-support"><button class="button is-link is-normal is-hover">Get support</button></a>
 &nbsp;&nbsp;&nbsp;&nbsp;<a href="#62-trial-version"><button class="button is-link is-normal is-hover">Request a trial version or a license quote</button></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/contact"><button class="button is-link is-normal is-hover">Contact the Set-OutlookSignatures Benefactor Circle team</button></a>
@@ -203,9 +203,9 @@ This calculation does not even take into account
 Set-OutlookSignatures pays for itself immediately and actually helps you earn more money.
 
 ## 5. Fee-based support
-The Benedactor Circle add-on is a product of ExplicIT Consulting, but not the free and open source software Set-OutlookSignatures. Since we believe that Set-OutlookSignatures is a great software, we offer our first-class fee-based support for it. If you prefer free support from the community, please open an issue on the Set-OutlookSignatures GitHub page.
+The Benefactor Circle add-on is a product of ExplicIT Consulting, but not the free and open-source software Set-OutlookSignatures. Since we believe that Set-OutlookSignatures is a great software, we offer our first-class fee-based support for it. If you prefer free support from the community, please open an issue on the Set-OutlookSignatures GitHub page.
 
-Whether you use the free and open source version of Set-OutlookSignatures or the Benefactor Circle add-on as a trial or annual license: ExplicIT always provides first-class fee-based support.
+Whether you use the free and open-source version of Set-OutlookSignatures or the Benefactor Circle add-on as a trial or annual license: ExplicIT always provides first-class fee-based support.
 
 You prefer to be guided through the setup and customization process instead of working through the documentation yourself? Are you looking for customized workshops, hands-on implementation support, training, template creation assistance and other services related to centralized email signature and out-of-office reply management? Then our offer is just right for you.
 
