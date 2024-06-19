@@ -178,7 +178,7 @@ There are three relevant questions to calculate the financial benefits:
 - What is the added value of using email as an additional marketing channel?
 - Does the new software cost less than the effort we want to save users?
  
-While the first two are difficult to calculate and very individual, the last question is easier to answer. Let's assume that an average employee costs 50,000 EUR per year from the employer's point of view (including all taxes, social security, etc.). Assuming five weeks of vacation, on week of sick leave, and a 40 hours work week, one minute of work costs the company 0.45 EUR.
+While the first two are difficult to calculate and very individual, the last question is easier to answer. Let's assume that an average employee costs 50,000 EUR per year from the employer's point of view (including all taxes, social security, etc.) for 1,800 hours of work. This gives costs of 0.47 EUR for each minute of employee work.
 
 Other parameters we need are:
 - How many times a year do parameters relevant to signatures change (corporate design, job title, logos, marketing banners, etc.)?
@@ -188,9 +188,9 @@ Other parameters we need are:
  
 Formula: `CostPerMinute * NumberOfChanges * NumberOfMinutes * NumberOfSignatures * NumberOfClients = Cost in EUR per user and year to manually keep signatures up to date`
 
-Let's assume 2 changes per year, 3 minutes for making the change (including reading the instructions) per signature, 2 signatures, 1 client. This results in 5.40 EUR per user and year (`0.40 * 2 * 3 * 2 * 1`).
+Let's assume 2 changes per year, 3 minutes for making the change (including reading the instructions) per signature, 2 signatures, 1 client. This results in 5.64 EUR per user and year (`0.47 * 2 * 3 * 2 * 1`).
  
-Per user and year, the costs are now 5.40 EUR in manual effort compared to 2.10 EUR for a centrally managed solution with Set-OutlookSignatures.
+Per user and year, the costs are now 5.64 EUR in manual effort compared to 2.10 EUR for a centrally managed solution with Set-OutlookSignatures.
 
 This calculation does not even take into account
 - the manual effort for shared mailboxes,
