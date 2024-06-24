@@ -6,9 +6,10 @@ title: |
   </p>
 subtitle: |
   <p class="subtitle is-3 has-text-white">
-    Centrally manage and deploy email signatures and out-of-office replies for Outlook and Exchange
+    Email signatures and out-of-office replies for Exchange and all of Outlook: Classic and New, Windows, Web, Mac, Linux, Android, iOS
   </p>
-description: Set-OutlookSignatures Benefactor Circle. The open-source gold standard to centrally manage and deploy email signatures and out-of-office replies for Outlook and Exchange.
+description: |
+  Set-OutlookSignatures Benefactor Circle. Email signatures and out-of-office replies for Exchange and all of Outlook: Classic and New, Windows, Web, Mac, Linux, Android, iOS
 image:
   path: "/assets/images/set-outlooksignatures benefactor circle opengraph1200x630.png"
   height: 1200
