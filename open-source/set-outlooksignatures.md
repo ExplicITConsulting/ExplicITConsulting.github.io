@@ -51,8 +51,7 @@ Central management and deployment ensures that design guidelines are met, guaran
 
 **You can do all this, and more, with Set-OutlookSignatures and the Benefactor Circle add-on.**
 
-Set-OutlookSignatures is the open-source gold standard to centrally manage and deploy email signatures and out-of-office replies for Outlook and Exchange.  
-Download the free and open-source core version from <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">GitHub</a> for free.
+Set-OutlookSignatures is the open-source gold standard for email signatures and out-of-office replies in Exchange and all of Outlook: Classic and New, local and roaming, Windows, Web, Mac, Linux, Android, iOS<br>Download the free and open-source core version from <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">GitHub</a> for free.
 
 **ExplicIT's Benefactor Circle add-on enhances the open-source version with a great set of additional features and first-class fee-based support.**
 
