@@ -53,9 +53,9 @@ Central management and deployment ensures that design guidelines are met, guaran
 
 Set-OutlookSignatures is the open-source gold standard for email signatures and out-of-office replies in Exchange and all of Outlook: Classic and New, local and roaming, Windows, Web, Mac, Linux, Android, iOS<br>Download the free and open-source core version from <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">GitHub</a> for free.
 
-**ExplicIT's Benefactor Circle add-on enhances the open-source version with a great set of additional features and first-class fee-based support.**
+**ExplicIT's Benefactor Circle add-on enhances the open-source version with a great set of additional features and first-class commercial support.**
 
-<a href="#5-fee-based-support"><button class="button is-link is-normal is-hover">Get support</button></a>
+<a href="#5-commercial-support"><button class="button is-link is-normal is-hover">Get support</button></a>
 &nbsp;&nbsp;&nbsp;&nbsp;<a href="#62-trial-version"><button class="button is-link is-normal is-hover">Request a trial version or a license quote</button></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/contact"><button class="button is-link is-normal is-hover">Contact the Set-OutlookSignatures Benefactor Circle team</button></a>
 
 <!-- omit in toc -->
@@ -64,7 +64,7 @@ Set-OutlookSignatures is the open-source gold standard for email signatures and 
 - [2. Demo video](#2-demo-video)
 - [3. Benefactor Circle exclusives](#3-benefactor-circle-exclusives)
 - [4. Financial benefits of centrally managing signatures and out-of-office replies](#4-financial-benefits-of-centrally-managing-signatures-and-out-of-office-replies)
-- [5. Fee-based support](#5-fee-based-support)
+- [5. Commercial support](#5-commercial-support)
 - [6. Buying, extending and changing licenses](#6-buying-extending-and-changing-licenses)
   - [6.1. Price and general information](#61-price-and-general-information)
   - [6.2. Trial version](#62-trial-version)
@@ -118,7 +118,7 @@ The implementation approach is **suited for service providers as well as for cli
 
 The software core is **Free and Open-Source Software (FOSS)**. It is published under a license which is approved, among others, by the Free Software Foundation (FSF) and the Open Source Initiative (OSI), and is compatible with the General Public License (GPL) and other popular licenses.
 
-ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSignatures with additional features and fee-based support, ensuring that the core of Set-OutlookSignatures can remain Free and Open-Source Software (FOSS) and continues to evolve.
+ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSignatures with additional features and commercial support, ensuring that the core of Set-OutlookSignatures can remain Free and Open-Source Software (FOSS) and continues to evolve.
 
 ## 2. Demo video
 <div class="columns">
@@ -205,10 +205,10 @@ This calculation does not even take into account
 
 Set-OutlookSignatures pays for itself immediately and actually helps you earn more money.
 
-## 5. Fee-based support
-The Benefactor Circle add-on is a product of ExplicIT Consulting, but not the free and open-source software Set-OutlookSignatures. Since we believe that Set-OutlookSignatures is a great software, we offer our first-class fee-based support for it. If you prefer free support from the community, please open an issue on the Set-OutlookSignatures GitHub page.
+## 5. Commercial support
+The Benefactor Circle add-on is a product of ExplicIT Consulting, but not the free and open-source software Set-OutlookSignatures. Since we believe that Set-OutlookSignatures is a great software, we offer our first-class commercial support for it. If you prefer free support from the community, please open an issue on the Set-OutlookSignatures GitHub page.
 
-Whether you use the free and open-source version of Set-OutlookSignatures or the Benefactor Circle add-on as a trial or annual license: ExplicIT always provides first-class fee-based support.
+Whether you use the free and open-source version of Set-OutlookSignatures or the Benefactor Circle add-on as a trial or annual license: ExplicIT always provides first-class commercial support.
 
 You prefer to be guided through the setup and customization process instead of working through the documentation yourself? Are you looking for customized workshops, hands-on implementation support, training, template creation assistance and other services related to centralized email signature and out-of-office reply management? Then our offer is just right for you.
 
@@ -263,7 +263,7 @@ If you wish to add additional mailboxes during an active license period, you wil
 You may want to start with a 14-day trial license.
 
 The Benefactor Circle add-on extends the feature set of the free and open-source core version of Set-OutlookSignatures, so make sure that the core version is working correctly before requesting a trial version.  
-If you look for help implementing the free and open-source core version of Set-OutlookSignatures, go through the Quick Start Guide in the readme file, open an issue at GitHub, or contact us: We are happy to help you implement Set-OutlookSignatures in your own environment as part of our fee-based support.
+If you look for help implementing the free and open-source core version of Set-OutlookSignatures, go through the Quick Start Guide in the readme file, open an issue at GitHub, or contact us: We are happy to help you implement Set-OutlookSignatures in your own environment as part of our commercial support.
 
 As soon as the open-source core version is running, it is time to take the next step:<br><a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank"><button class="button is-link is-normal is-hover">Request a full-featured 14-day trial license</button></a>
 
