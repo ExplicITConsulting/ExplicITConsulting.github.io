@@ -146,6 +146,7 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
           <li>Copy signatures to additional signature path for use with email clients and apps besides Outlook: Apple Mail, Google Gmail, Samsung Mail, Mozilla Thunderbird, GNOME Evolution, KDE KMail, and others</li>
           <li>Create an email draft containing all available signatures in HTML and plain text for easy access in mail clients that do not have a signatures API</li>
           <li>High resolution images from DOCX templates</li>
+          <li>Remove the tagline added by the free and open source version at the end of signatures</li>
           <li>All components are digitally signed with an Extended Validation (EV) certificate for tamper protection and easy integration into locked-down environments.</li>
         </ul>
       </div>
@@ -166,7 +167,7 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
       <div class="content">
         <h3>Free release upgrades and archive</h3>
         <ul>
-          <li>All release upgrades during the license period are included, no matter if patch, feature or major release.</li>
+          <li>All new versions released during the license period are included, regardless of whether it is a patch, a feature or a major release.</li>
           <li>All releases, including license files, published during the license period are available in a secured individual release archive.</li>
         </ul>
       </div>
