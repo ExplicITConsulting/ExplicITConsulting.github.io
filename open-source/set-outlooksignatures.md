@@ -91,6 +91,7 @@ With Set-OutlookSignatures, signatures and out-of-office replies can be:
 - Set as **default OOF message** for internal or external recipients (OOF messages only)  
 - Set in **Outlook Web** for the currently logged-in user, including mirroring signatures the the cloud as **roaming signatures**  
 - Centrally managed only, or **exist along user-created signatures** (signatures only)  
+- Signatures for Outlook on Android/iOS, and signatures for appointments via an Outlook add-in
 - Copied to an **additional path** for easy access to signatures on mobile devices or for use with email clients and apps besides Outlook: Apple Mail, Google Gmail, Samsung Mail, Mozilla Thunderbird, GNOME Evolution, KDE KMail, and others.
 - Create an **email draft containing all available signatures** in HTML and plain text for easy access in mail clients that do not have a signatures API
 - **Write protected** (Outlook for Windows signatures only)
@@ -143,6 +144,7 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
           <li>Download and upload roaming signatures (Linux, macOS, Windows, Classic and New Outlook)</li>
           <li>Delete signatures created by the software, for which the templates no longer exist or apply</li>
           <li>Delete user-created signatures</li>
+          <li>Signatures for Outlook on Android/iOS, and signatures for appointments via an Outlook add-in</li>
           <li>Copy signatures to additional signature path for use with email clients and apps besides Outlook: Apple Mail, Google Gmail, Samsung Mail, Mozilla Thunderbird, GNOME Evolution, KDE KMail, and others</li>
           <li>Create an email draft containing all available signatures in HTML and plain text for easy access in mail clients that do not have a signatures API</li>
           <li>High resolution images from DOCX templates</li>
