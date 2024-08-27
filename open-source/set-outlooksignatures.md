@@ -62,7 +62,7 @@ Set-OutlookSignatures is the open-source gold standard for email signatures and 
 ## Table of Contents
 - [1. Overview and features](#1-overview-and-features)
 - [2. Demo video](#2-demo-video)
-- [3. Benefactor Circle exclusives](#3-benefactor-circle-exclusives)
+- [3. Benefactor Circle exclusive features](#3-benefactor-circle-exclusive-features)
 - [4. Financial benefits of centrally managing signatures and out-of-office replies](#4-financial-benefits-of-centrally-managing-signatures-and-out-of-office-replies)
 - [5. Commercial support](#5-commercial-support)
 - [6. Buying, extending and changing licenses](#6-buying-extending-and-changing-licenses)
@@ -130,7 +130,7 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
   </div>
 </div>
 
-## 3. Benefactor Circle exclusives
+## 3. Benefactor Circle exclusive features
 <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
   <div class="content">
     <h3>Software features</h3>
@@ -154,7 +154,7 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
 </div>
 <div class="columns">
   <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
       <div class="content">
         <h3>Prioritized support and feature requests</h3>
         <ul>
@@ -166,7 +166,7 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
     </div>
   </div>
   <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
       <div class="content">
         <h3>Free release upgrades and archive</h3>
         <ul>
