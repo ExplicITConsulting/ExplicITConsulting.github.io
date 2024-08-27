@@ -343,6 +343,14 @@ In these cases, license groups are handled as follows:
   - If there is a license group associated with this DNS domain name, it is queried via Graph
   - If there is no license group associated with this DNS domain name, the license group defined as default is queried via Graph
 - If the current mailbox does not have the Graph "onPremisesDomainName" attribute set, the license group defined as default is queried via Graph
+  
+When should I refer on-prem groups and when Entra ID groups?
+- When using the '-GraphOnly true' parameter, prefer Entra ID groups ('EntraID <…>').
+  You may also use on-prem groups ('\<NetBiosDomain> <…>') as long as they are synchronized to Entra ID.
+- In hybrid environments without using the '-GraphOnly true' parameter, prefer on-prem groups ('\<NetBiosDomain> <…>') synchronized to Entra ID.
+  Pure entra ID groups ('EntraID <…>') only make sense when all mailboxes covered by Set-OutlookSignatures are hosted in Exchange Online.
+- Pure on-prem environments: You can only use on-prem groups ('\<NetBiosDomain> <…>').
+  When moving to a hybrid environment, you do not need to adapt the configuration as long as you synchronize your on-prem groups to Entra ID.
 
 ## 8. License and software version
 License and software versions go hand in hand, so every new release of Set-OutlookSignatures also means a new license release, and vice-versa.
