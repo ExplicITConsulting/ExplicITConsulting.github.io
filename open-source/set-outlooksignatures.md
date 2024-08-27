@@ -158,8 +158,8 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
       <div class="content">
         <h3>Prioritized support and feature requests</h3>
         <ul>
-          <li>Support requests are handled with priority 24/5 (Austrian business days) via a Benefactor Circle exclusive email address and a callback option.</li>
-          <li>Secure web storage for protected upload and temporary storage for data exchange.</li>
+          <li>Support requests are handled with priority 24/5 (Austrian business days) via email and a callback option.</li>
+          <li>Secure web storage for protected data exchange.</li>
           <li>Requests for new features are checked for feasability with priority.</li>
         </ul>
       </div>
