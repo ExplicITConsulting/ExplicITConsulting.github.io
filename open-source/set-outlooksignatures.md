@@ -131,7 +131,7 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
 </div>
 
 ## 3. Benefactor Circle exclusives
-<div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+<div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
   <div class="content">
     <h3>Software features</h3>
     <ul>
