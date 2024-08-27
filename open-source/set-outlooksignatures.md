@@ -131,30 +131,28 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
 </div>
 
 ## 3. Benefactor Circle exclusives
-<div class="columns">
-  <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
-      <div class="content">
-        <h3>Software features</h3>
-        <ul>
-          <li>Time-based campaigns by assigning time range constraints to templates</li>
-          <li>Signatures for automapped and additional mailboxes</li>
-          <li>Set current user Outlook Web signature (classic Outlook Web signature and roaming signatures)</li>
-          <li>Set current user out-of-office replies</li>
-          <li>Download and upload roaming signatures (Linux, macOS, Windows, Classic and New Outlook)</li>
-          <li>Delete signatures created by the software, for which the templates no longer exist or apply</li>
-          <li>Delete user-created signatures</li>
-          <li>Automatically add signatures to new emails and reply emails</li>
-          <li>Automatically add signatures to new appointments</li>
-          <li>Copy signatures to additional signature path for use with email clients and apps besides Outlook: Apple Mail, Google Gmail, Samsung Mail, Mozilla Thunderbird, GNOME Evolution, KDE KMail, and others</li>
-          <li>Create an email draft containing all available signatures in HTML and plain text for easy access in mail clients that do not have a signatures API</li>
-          <li>High resolution images from DOCX templates</li>
-          <li>Remove the tagline added by the free and open source version at the end of signatures</li>
-          <li>All components are digitally signed with an Extended Validation (EV) certificate for tamper protection and easy integration into locked-down environments.</li>
-        </ul>
-      </div>
-    </div>
+<div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+  <div class="content">
+    <h3>Software features</h3>
+    <ul>
+      <li>Time-based campaigns by assigning time range constraints to templates</li>
+      <li>Signatures for automapped and additional mailboxes</li>
+      <li>Set current user Outlook Web signature (classic Outlook Web signature and roaming signatures)</li>
+      <li>Set current user out-of-office replies</li>
+      <li>Download and upload roaming signatures (Linux, macOS, Windows, Classic and New Outlook)</li>
+      <li>Delete signatures created by the software, for which the templates no longer exist or apply</li>
+      <li>Delete user-created signatures</li>
+      <li>Automatically add signatures to new emails and reply emails with the Outlook add-in</li>
+      <li>Automatically add signatures to new appointments with the Outlook add-in</li>
+      <li>Copy signatures to additional signature path for use with email clients and apps besides Outlook: Apple Mail, Google Gmail, Samsung Mail, Mozilla Thunderbird, GNOME Evolution, KDE KMail, and others</li>
+      <li>Create an email draft containing all available signatures in HTML and plain text for easy access in mail clients that do not have a signatures API</li>
+      <li>High resolution images from DOCX templates</li>
+      <li>Remove the tagline added by the free and open source version at the end of signatures</li>
+      <li>All components are digitally signed with an Extended Validation (EV) certificate for tamper protection and easy integration into locked-down environments.</li>
+    </ul>
   </div>
+</div>
+<div class="columns">
   <div class="column">
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
@@ -166,6 +164,8 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
         </ul>
       </div>
     </div>
+  </div>
+  <div class="column">
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
         <h3>Free release upgrades and archive</h3>
