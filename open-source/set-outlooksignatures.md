@@ -142,7 +142,7 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
       <li>Download and upload roaming signatures (Linux, macOS, Windows, Classic and New Outlook)</li>
       <li>Delete signatures created by the software, for which the templates no longer exist or apply</li>
       <li>Delete user-created signatures</li>
-      <li>Automatically add signatures to new emails and reply emails with the Outlook add-in</li>
+      <li>Automatically add signatures to new emails and reply emails (even on Outlook on Android and Outlook on iOS)with the Outlook add-in</li>
       <li>Automatically add signatures to new appointments with the Outlook add-in</li>
       <li>Copy signatures to additional signature path for use with email clients and apps besides Outlook: Apple Mail, Google Gmail, Samsung Mail, Mozilla Thunderbird, GNOME Evolution, KDE KMail, and others</li>
       <li>Create an email draft containing all available signatures in HTML and plain text for easy access in mail clients that do not have a signatures API</li>
