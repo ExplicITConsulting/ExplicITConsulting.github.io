@@ -334,16 +334,7 @@ License groups are defined by the DNS domain name of the on-premises Active Dire
 
 When a license group for the home Active Directory domain of a mailbox is defined, this license group is used. If not, the license group defined as default will be used.
 
-There are three situations where Set-OutlookSignatures uses Entra ID via Graph API instead of on-prem AD:
-- Parameter GraphOnly is set to true,
-- no connection to the on-prem AD is possible,
-- or the current user has a mailbox in Exchange Online and either OOF messages or Outlook Web signatures should be set
-
-In these cases, license groups are handled as follows:
-- If the current mailbox has the Graph "onPremisesDomainName" attribute set:
-  - If there is a license group associated with this DNS domain name, it is queried via Graph
-  - If there is no license group associated with this DNS domain name, the license group defined as default is queried via Graph
-- If the current mailbox does not have the Graph "onPremisesDomainName" attribute set, the license group defined as default is queried via Graph
+When a connection to Microsoft Graph is available, Graph is used to check license group membership. A connection to Graph is enforced when the default license group is an Entra ID group.  
   
 When should I refer on-prem groups and when Entra ID groups?
 - When using the '-GraphOnly true' parameter, prefer Entra ID groups ('EntraID <…>').
