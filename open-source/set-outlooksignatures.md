@@ -121,6 +121,37 @@ The software core is **Free and Open-Source Software (FOSS)**. It is published u
 
 ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSignatures with additional features and commercial support, ensuring that the core of Set-OutlookSignatures can remain Free and Open-Source Software (FOSS) and continues to evolve.
 
+### Feature comparison<!-- omit in toc -->
+| Feature | Set&#8209;OutlookSignatures<br>with&nbsp;Benefactor&nbsp;Circle | Market Companion&nbsp;A | Market Companion&nbsp;B | Market Companion&nbsp;C |
+| :--- | :--- | :--- | :--- | :--- |
+| Free and Open-Source core | ✔️ | ❌ | ❌ | ❌ |
+| No email re-routing to a 3rd party datacenter | ✔️ | ❌ | ❌ | ❌ |
+| No transfer of Active Directory and Entra ID data to a 3rd party datacenter | ✔️ | ❌ | ❌ | ❌ |
+| No telemetry or usage data collection, direct or indirect | ✔️ | ❌ | ❌ | ❌ |
+| No auto-renewing subscription | ✔️ | ❌ | ❌ | ❌ |
+| Apply signatures to all emails | 〰️ <sub>(Outlook clients only)</sub> | ✔️ <sub>(with email re-routing to a 3rd party datacenter)</sub> | ✔️ <sub>(with email re-routing to a 3rd party datacenter)</sub> | ✔️ <sub>(with email re-routing to a 3rd party datacenter)</sub> |
+| Additional data sources besides Active Directory and Entra ID | ✔️ | 〰️ | ❌ | ❌ |
+| Support for Microsoft roaming signatures | ✔️ | ❌ | ❌ | ❌ |
+| Number of templates | ♾️ Unlimited | 1 <sub>(💲 more charged extra)</sub> | ♾️ Unlimited | ♾️ Unlimited |
+| Targeting and exclusion | ✔️ | 💲 <sub>(charged extra)</sub> | ✔️ | ✔️ |
+| Scheduling | ✔️ | 💲 <sub>(charged extra)</sub> | ✔️ | ✔️ |
+| Banners | ♾️ Unlimited | 1 <sub>(💲 more charged extra)</sub> | ♾️ Unlimited |  ♾️ Unlimited |
+| QR codes and vCards | ✔️ | 💲 <sub>(charged extra)</sub> | 💲 <sub>(charged extra)</sub> | ✔️ |
+| Signature visible while wrting | ✔️ | 〰️ | 〰️  | 〰️ |
+| Signature visible in Sent Items | ✔️ | 〰️ <sub>(cloud mailboxes only)</sub> | 〰️ <sub>(cloud mailboxes only)</sub> | 〰️ <sub>(cloud mailboxes only)</sub> |
+| OOF reply messages | ✔️ | 💲 <sub>(charged extra)</sub> | 〰️ <sub>(same for internal and external senders)</sub> | 💲 <sub>(charged extra)</sub> |
+| User-controlled email signatures | ✔️ | 〰️ | 〰️ | 〰️ |
+| Signatures for encrypted messages | ✔️ | 〰️ | 〰️ | 〰️ |
+| Signatures for delegates, shared, additional and automapped mailboxes | ✔️ | 〰️ <sub>(no mixing of sender and delegate replacement variables)</sub> | 〰️ <sub>(no mixing of sender and delegate replacement variables)</sub> | 〰️ <sub>(no mixing of sender and delegate replacement variables)</sub> |
+| Outlook add-in | 〰️ <sub>(no on-prem mailboxes on mobile devices)</sub> | 〰️ <sub>(not for appointments)</sub> | 〰️ <sub>(not for appointments)</sub> | ✔️ |
+| License includes support | ❌ <sub>(💲 rarely needed, fairly charged by usage)</sub> | ✔️ <sub>(💲 charged regardless of use)</sub> | ✔️ <sub>(💲 charged regardless of use)</sub> | ✔️ <sub>(💲 charged regardless of use)</sub> |
+| Software escrow | ✔️ <sub>(to the Set&#8209;OutlookSignatures maintainers)</sub> | ❌ | ❌ | ❌ |
+| License cost, 5 years, 100 mailboxes | appr. 1k | appr. 8k | appr. 7k | appr. 8k |
+| License cost, 5 years, 250 mailboxes | appr. 3k | appr. 20k | appr. 14k | appr. 18k |
+| License cost, 5 years, 500 mailboxes | appr. 5k | appr. 39k | appr. 22k | appr. 31k |
+| License cost, 5 years, 1,000 mailboxes | appr. 11k | appr. 78k | appr. 43k | appr. 52k |
+| License cost, 5 years, 10,000 mailboxes | appr. 105k | appr. 553k | appr. 325k | appr. 202k |
+
 ## 2. Demo video
 <div class="columns">
   <div class="column is-half">
