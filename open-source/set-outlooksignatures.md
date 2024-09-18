@@ -122,6 +122,7 @@ The software core is **Free and Open-Source Software (FOSS)**. It is published u
 ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSignatures with additional features and commercial support, ensuring that the core of Set-OutlookSignatures can remain Free and Open-Source Software (FOSS) and continues to evolve.
 
 ### Feature comparison<!-- omit in toc -->
+
 | Feature | Set&#8209;OutlookSignatures<br>with&nbsp;Benefactor&nbsp;Circle | Market Companion&nbsp;A | Market Companion&nbsp;B | Market Companion&nbsp;C |
 | :--- | :--- | :--- | :--- | :--- |
 | Free and Open-Source core | ✔️ | ❌ | ❌ | ❌ |
