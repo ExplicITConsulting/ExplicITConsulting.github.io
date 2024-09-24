@@ -130,23 +130,24 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
 | No transfer of Active Directory and Entra ID data to a 3rd party datacenter | ✔️ | ❌ | ❌ | ❌ |
 | No telemetry or usage data collection, direct or indirect | ✔️ | ❌ | ❌ | ❌ |
 | No auto-renewing subscription | ✔️ | ❌ | ❌ | ❌ |
-| Apply signatures to all emails | 〰️ <sub>(Outlook clients only)</sub> | ✔️ <sub>(with email re-routing to a 3rd party datacenter)</sub> | ✔️ <sub>(with email re-routing to a 3rd party datacenter)</sub> | ✔️ <sub>(with email re-routing to a 3rd party datacenter)</sub> |
+| Apply signatures to all emails | 〰️ <sub>Outlook clients only</sub> | ✔️ <sub>With email re-routing to a 3rd party datacenter</sub> | ✔️ <sub>With email re-routing to a 3rd party datacenter</sub> | ✔️ <sub>With email re-routing to a 3rd party datacenter</sub> |
 | Additional data sources besides Active Directory and Entra ID | ✔️ | 〰️ | ❌ | ❌ |
+| Support for Microsoft national clouds | ✔️ <sub>Global/Public, US Government L4, US Government L5 (DOD), China operated by 21Vianet</sub> | ❌ | ❌ | ❌ |
 | Support for Microsoft roaming signatures | ✔️ | ❌ | ❌ | ❌ |
-| Number of templates | ♾️ Unlimited | 1 <sub>(💲 more charged extra)</sub> | ♾️ Unlimited | ♾️ Unlimited |
-| Targeting and exclusion | ✔️ | 💲 <sub>(charged extra)</sub> | ✔️ | ✔️ |
-| Scheduling | ✔️ | 💲 <sub>(charged extra)</sub> | ✔️ | ✔️ |
-| Banners | ♾️ Unlimited | 1 <sub>(💲 more charged extra)</sub> | ♾️ Unlimited |  ♾️ Unlimited |
-| QR codes and vCards | ✔️ | 💲 <sub>(charged extra)</sub> | 💲 <sub>(charged extra)</sub> | ✔️ |
+| Number of templates | ♾️ Unlimited | 1 <sub>💲 More charged extra</sub> | ♾️ Unlimited | ♾️ Unlimited |
+| Targeting and exclusion | ✔️ | 💲 <sub>Charged extra</sub> | ✔️ | ✔️ |
+| Scheduling | ✔️ | 💲 <sub>Charged extra</sub> | ✔️ | ✔️ |
+| Banners | ♾️ Unlimited | 1 <sub>💲 More charged extra</sub> | ♾️ Unlimited |  ♾️ Unlimited |
+| QR codes and vCards | ✔️ | 💲 <sub>Charged extra</sub> | 💲 <sub>Charged extra</sub> | ✔️ |
 | Signature visible while wrting | ✔️ | 〰️ | 〰️  | 〰️ |
-| Signature visible in Sent Items | ✔️ | 〰️ <sub>(cloud mailboxes only)</sub> | 〰️ <sub>(cloud mailboxes only)</sub> | 〰️ <sub>(cloud mailboxes only)</sub> |
-| OOF reply messages | ✔️ | 💲 <sub>(charged extra)</sub> | 〰️ <sub>(same for internal and external senders)</sub> | 💲 <sub>(charged extra)</sub> |
+| Signature visible in Sent Items | ✔️ | 〰️ <sub>Cloud mailboxes only</sub> | 〰️ <sub>Cloud mailboxes only</sub> | 〰️ <sub>Cloud mailboxes only</sub> |
+| OOF reply messages | ✔️ | 💲 <sub>Charged extra</sub> | 〰️ <sub>Same for internal and external senders</sub> | 💲 <sub>Charged extra</sub> |
 | User-controlled email signatures | ✔️ | 〰️ | 〰️ | 〰️ |
 | Signatures for encrypted messages | ✔️ | 〰️ | 〰️ | 〰️ |
-| Signatures for delegates, shared, additional and automapped mailboxes | ✔️ | 〰️ <sub>(no mixing of sender and delegate replacement variables)</sub> | 〰️ <sub>(no mixing of sender and delegate replacement variables)</sub> | 〰️ <sub>(no mixing of sender and delegate replacement variables)</sub> |
-| Outlook add-in | 〰️ <sub>(no on-prem mailboxes on mobile devices)</sub> | 〰️ <sub>(not for appointments)</sub> | 〰️ <sub>(not for appointments)</sub> | ✔️ |
-| License includes support | ❌ <sub>(💲 rarely needed, fairly charged by usage)</sub> | ✔️ <sub>(💲 charged regardless of use)</sub> | ✔️ <sub>(💲 charged regardless of use)</sub> | ✔️ <sub>(💲 charged regardless of use)</sub> |
-| Software escrow | ✔️ <sub>(to the Set&#8209;OutlookSignatures maintainers)</sub> | ❌ | ❌ | ❌ |
+| Signatures for delegates, shared, additional and automapped mailboxes | ✔️ | 〰️ <sub>No mixing of sender and delegate replacement variables</sub> | 〰️ <sub>No mixing of sender and delegate replacement variables</sub> | 〰️ <sub>No mixing of sender and delegate replacement variables</sub> |
+| Outlook add-in | 〰️ <sub>No on-prem mailboxes on mobile devices</sub> | 〰️ <sub>Not for appointments</sub> | 〰️ <sub>Not for appointments</sub> | ✔️ |
+| License includes support | ❌ <sub>💲 Rarely needed, fairly charged by usage</sub> | ✔️ <sub>💲 Charged regardless of use</sub> | ✔️ <sub>💲 Charged regardless of use</sub> | ✔️ <sub>💲 Charged regardless of use</sub> |
+| Software escrow | ✔️ <sub>To the Set&#8209;OutlookSignatures maintainers</sub> | ❌ | ❌ | ❌ |
 | License cost, 5 years, 100 mailboxes | appr. 1k | appr. 8k | appr. 7k | appr. 8k |
 | License cost, 5 years, 250 mailboxes | appr. 3k | appr. 20k | appr. 14k | appr. 18k |
 | License cost, 5 years, 500 mailboxes | appr. 5k | appr. 39k | appr. 22k | appr. 31k |
