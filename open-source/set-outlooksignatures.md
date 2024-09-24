@@ -134,10 +134,10 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
 | Additional data sources besides Active Directory and Entra ID | ✔️ | 〰️ | ❌ | ❌ |
 | Support for Microsoft national clouds | ✔️ <sub>Global/Public, US Government L4, US Government L5 (DOD), China operated by 21Vianet</sub> | ❌ | ❌ | ❌ |
 | Support for Microsoft roaming signatures | ✔️ | ❌ | ❌ | ❌ |
-| Number of templates | ♾️ Unlimited | 1 <sub>💲 More charged extra</sub> | ♾️ Unlimited | ♾️ Unlimited |
+| Number of templates | ♾️ <sub>Unlimited</sub> | 1 <sub>💲 More charged extra</sub> | ♾️ <sub>Unlimited</sub> | ♾️ <sub>Unlimited</sub> |
 | Targeting and exclusion | ✔️ | 💲 <sub>Charged extra</sub> | ✔️ | ✔️ |
 | Scheduling | ✔️ | 💲 <sub>Charged extra</sub> | ✔️ | ✔️ |
-| Banners | ♾️ Unlimited | 1 <sub>💲 More charged extra</sub> | ♾️ Unlimited |  ♾️ Unlimited |
+| Banners | ♾️ <sub>Unlimited</sub> | 1 <sub>💲 More charged extra</sub> | ♾️ <sub>Unlimited</sub> |  ♾️ <sub>Unlimited</sub> |
 | QR codes and vCards | ✔️ | 💲 <sub>Charged extra</sub> | 💲 <sub>Charged extra</sub> | ✔️ |
 | Signature visible while wrting | ✔️ | 〰️ | 〰️  | 〰️ |
 | Signature visible in Sent Items | ✔️ | 〰️ <sub>Cloud mailboxes only</sub> | 〰️ <sub>Cloud mailboxes only</sub> | 〰️ <sub>Cloud mailboxes only</sub> |
