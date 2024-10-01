@@ -362,7 +362,7 @@ Each Benefactor Circle license is bound to one or more Active Directory or Entra
 - The user running Set-OutlookSignatures must be able to resolve all direct and indirect members of the license group, even across trusts.
 - Primary group membership is not considered due to Active Directory and Entra ID query restrictions.
 
-License groups are defined by the DNS domain name of the on-premises Active Directory domain ('EntraID' for cloud-only groups), their SID (security identifier) or GUID (Entra ID Object ID) and the number of members licensed.
+License groups are defined by the DNS domain name of the on-premises Active Directory domain ('EntraID' for cloud-only groups), the SID (security identifier) or GUID (Entra ID Object ID) of the license group, and the number of members licensed.
 - Use 'EntraID' instead of the on-prem Active Directory DNS name if the group only exists in Entra ID and is not synced with your on-premises Active Directory. Only one pure Entra ID group is supported, it must be the group with the highest priority (first list entry).
 - If you have multiple domains in a forest or multiple forests, you can have only one license group, or one license group per AD domain, each license group with a separate maximum member count.
 - There must be a default group, which is used for mailboxes which are not covered by separate license groups.  
