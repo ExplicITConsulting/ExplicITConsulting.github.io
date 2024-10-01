@@ -55,8 +55,8 @@ Set-OutlookSignatures is the open-source gold standard for email signatures and 
 
 **ExplicIT's Benefactor Circle add-on enhances the open-source version with a great set of additional features and first-class commercial support.**
 
-<a href="#5-commercial-support"><button class="button is-link is-normal is-hover">Get support</button></a>
-&nbsp;&nbsp;&nbsp;&nbsp;<a href="#62-trial-version"><button class="button is-link is-normal is-hover">Request a trial version or a license quote</button></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/contact"><button class="button is-link is-normal is-hover">Contact the Set-OutlookSignatures Benefactor Circle team</button></a>
+<a href="#62-trial-version"><button class="button is-link is-normal is-hover">Request a trial version or a license quote</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#5-commercial-support"><button class="button is-link is-normal is-hover">Get commercial support</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
 
 <!-- omit in toc -->
 ## Table of Contents
@@ -246,7 +246,7 @@ The Benefactor Circle add-on is a product of ExplicIT Consulting, but not the fr
 
 Whether you use the free and open-source version of Set-OutlookSignatures or the Benefactor Circle add-on as a trial or annual license: ExplicIT always provides first-class commercial support.
 
-You prefer to be guided through the setup and customization process instead of working through the documentation yourself? Are you looking for customized workshops, hands-on implementation support, training, template creation assistance and other services related to centralized email signature and out-of-office reply management? Then our offer is just right for you.
+You prefer to be guided through the setup and customization process instead of working through the documentation yourself? You are looking for customized workshops, hands-on implementation support, training, template creation assistance and other services related to centralized email signature and out-of-office reply management? Then our offer is just right for you.
 
 You are not buying just any support, but our comprehensive expertise as manufacturer, consultant and implementer. For us, support means not only providing a solution to your problem, but also passing on our experience to you so that you know how and why. Our support is therefore an investment in your own knowledge and that of your employees, which pays off immediately.
 
@@ -262,7 +262,9 @@ Support is available 24/5 (Austrian business days) via email and a callback opti
 
 Technical guides, FAQs, video demonstrations and additional documentation are available for free <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">here</a>.
 
-<a href="/contact" target="_blank"><button class="button is-link is-normal is-hover">Contact us for questions and a customized quote</button></a>
+
+<a href="mailto:set-outlooksignatures@explicitconsulting.at?subject=Request%20for%20commercial%20support&body=Dear%20Set-OutlookSignatures%20and%20Benefactor%20Circle%20team%2C%0A%0AI%20would%20like%20to%20make%20use%20of%20your%20commercial%20support%20for%20the%20following%20topic%3A%20%3CDescribe%20your%20support%20request%20here%3E%0A%0A%3CIf%20you%20have%20an%20active%20license%2C%20please%20include%20your%20Benefactor%20Circle%20ID%3E%0A%0APlease%20send%20me%20the%20terms%20for%20your%20commercial%20support.%0A%0AKind%20regards%0A%0A%3CYour%20company%20signature%2C%20including%20full%20address%3E"><button class="button is-link is-normal is-hover">Get commercial support</button></a><br>If you have an active license, please mention your Benefactor Circle id.
+
 
 ## 6. Buying, extending and changing licenses
 ### 6.1. Price and general information
