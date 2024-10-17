@@ -362,21 +362,25 @@ Each Benefactor Circle license is bound to one or more Active Directory or Entra
 - The user running Set-OutlookSignatures must be able to resolve all direct and indirect members of the license group, even across trusts.
 - Primary group membership is not considered due to Active Directory and Entra ID query restrictions.
 
-License groups are defined by the DNS domain name of the on-premises Active Directory domain ('EntraID' for cloud-only groups), the SID (security identifier) or GUID (Entra ID Object ID) of the license group, and the number of members licensed.
-- Use 'EntraID' instead of the on-prem Active Directory DNS name if the group only exists in Entra ID and is not synced with your on-premises Active Directory. Only one pure Entra ID group is supported, it must be the group with the highest priority (first list entry).
-- If you have multiple domains in a forest or multiple forests, you can have only one license group, or one license group per AD domain, each license group with a separate maximum member count.
-- There must be a default group, which is used for mailboxes which are not covered by separate license groups.  
+License groups are defined by three components:
+- The DNS domain name of the on-premises Active Directory domain they are in. Use 'EntraID' for cloud-only groups.
+- The SID (security identifier) or Entra ID Object ID of the license group.
+- The number of members licensed for the group.
 
-When a license group for the home Active Directory domain of a mailbox is defined, this license group is used. If not, the license group defined as default will be used.
+Use 'EntraID' instead of the on-prem Active Directory DNS name if the group only exists in Entra ID and is not synced with your on-premises Active Directory. Only one pure Entra ID group is supported, and it must be the default group.
+
+In on-prem and hybrid environments with multiple Active Directory domains you may have a separate license group for each AD DNS domain, each license group with a separate maximum member count. When a license group for the home Active Directory domain of a mailbox is defined, this license group is used. If not, the license group defined as default will be used.
+
+There must be a default group, which is used for mailboxes which are not covered by separate license groups. The default group is always the first one in the list.  
 
 When a connection to Microsoft Graph is available, Graph is used to check license group membership. A connection to Graph is enforced when the default license group is an Entra ID group.  
   
 When should I refer on-prem groups and when Entra ID groups?
-- When using the '-GraphOnly true' parameter, prefer Entra ID groups ('EntraID <…>').
-  You may also use on-prem groups ('\<NetBiosDomain> <…>') as long as they are synchronized to Entra ID.
-- In hybrid environments without using the '-GraphOnly true' parameter, prefer on-prem groups ('\<NetBiosDomain> <…>') synchronized to Entra ID.
-  Pure entra ID groups ('EntraID <…>') only make sense when all mailboxes covered by Set-OutlookSignatures are hosted in Exchange Online.
-- Pure on-prem environments: You can only use on-prem groups ('\<NetBiosDomain> <…>').
+- When using the '-GraphOnly true' parameter, prefer Entra ID groups ('EntraID \<Object ID of the license group>').
+  You may also use on-prem groups ('\<On-prem Active Directory DNS domain name> \<SID of the license group>') as long as they are synchronized to Entra ID.
+- In hybrid environments without using the '-GraphOnly true' parameter, prefer on-prem groups ('\<On-prem Active Directory DNS domain name> \<SID of the license group>') synchronized to Entra ID.
+  Pure entra ID groups ('EntraID \<Object ID of the license group>') only make sense when all mailboxes covered by Set-OutlookSignatures are hosted in Exchange Online.
+- Pure on-prem environments: You can only use on-prem groups ('\<On-prem Active Directory DNS domain name> \<SID of the license group>').
   When moving to a hybrid environment, you do not need to adapt the configuration as long as you synchronize your on-prem groups to Entra ID.
 
 ## 8. License and software version
