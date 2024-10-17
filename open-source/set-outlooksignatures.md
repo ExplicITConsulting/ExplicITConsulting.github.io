@@ -356,22 +356,30 @@ An example:
   - As long as the price is not changing, the consecutive years will cost: max(210; (7,500 * 2.10)) = 15,750.00 EUR net
 
 ## 7. How license groups work
-Each Benefactor Circle license is bound to one or more Active Directory or Entra ID groups.
-- Each mailbox of your company needs to be a direct or indirect (a.k.a. nested, recursive or transitive) member of a license group, so that it can use exclusive features.
-- Each group may only contain as many mailboxes as direct or indirect members as defined in the license.
-- The user running Set-OutlookSignatures must be able to resolve all direct and indirect members of the license group, even across trusts.
-- Primary group membership is not considered due to Active Directory and Entra ID query restrictions.
+Each Benefactor Circle license is bound to one or more Active Directory or Entra ID groups, called a license group. For maximum data protection and ease of administration, licensing is not bound to specific mailboxes ("named users"), but only to a group with a maximum amount of members.
 
-License groups are defined by three components:
+When a Benefactor Circle exclusive feature is about to be used, the license is checked as follows:
+1. Determine which license group to use.
+   1. Extract the AD DNS domain name from the mailbox' distinguishedName or dnsDomainName property.
+   2. When the step above results in an AD DNS domain name and if a license group is defined for it, use this group. Else, use the first group in the list.
+2. Find the license group via a Graph or Active Directory query.
+3. Check if the number of direct and indirect (a.k.a nested, recursive, transitive) members is less or equal than the number of mailboxes licensed for this group.
+4. Check if the current mailbox is a member of the license group.
+
+As soon as one of these steps fails, the mailbox is not licensed and Benefactor Circle features can not be used for it.
+
+You need to make sure that the user running Set-OutlookSignatures is able to resolve all direct and indirect members of all license groups, especially across on-prem AD trusts. Primary group membership (such as in 'Domain Users') is not considered due to Active Directory and Entra ID query restrictions.
+
+For most environments, only one license group is needed.<br>In on-prem and hybrid environments with multiple Active Directory domains, you may define a separate license group for each AD DNS domain, each license group with a separate maximum member count. When a license group for the home Active Directory domain of a mailbox is defined, this license group is used. If not, the license group defined as default will be used.
+
+To define a license gorup, three components are needed:
 - The DNS domain name of the on-premises Active Directory domain they are in. Use 'EntraID' for cloud-only groups.
-- The SID (security identifier) or Entra ID Object ID of the license group.
-- The number of members licensed for the group.
+- The SID (security identifier) or the Entra ID Object ID of the license group.
+- The maximum number of mailboxes licensed for the group.
 
-Use 'EntraID' instead of the on-prem Active Directory DNS name if the group only exists in Entra ID and is not synced with your on-premises Active Directory. Only one pure Entra ID group is supported, and it must be the default group.
+Only one pure Entra ID group is supported, and it must be the default group.
 
-In on-prem and hybrid environments with multiple Active Directory domains you may have a separate license group for each AD DNS domain, each license group with a separate maximum member count. When a license group for the home Active Directory domain of a mailbox is defined, this license group is used. If not, the license group defined as default will be used.
-
-There must be a default group, which is used for mailboxes which are not covered by separate license groups. The default group is always the first one in the list.  
+There must be a default group, which is used for mailboxes not being covered by separate license groups. The default group is always the first one in the list.  
 
 When a connection to Microsoft Graph is available, Graph is used to check license group membership. A connection to Graph is enforced when the default license group is an Entra ID group.  
   
