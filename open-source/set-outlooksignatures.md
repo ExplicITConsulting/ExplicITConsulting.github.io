@@ -368,7 +368,7 @@ When a Benefactor Circle exclusive feature is about to be used, the license is c
 
 As soon as one of these steps fails, the mailbox is not licensed and Benefactor Circle features can not be used for it.
 
-You need to make sure that the user running Set-OutlookSignatures is able to resolve all direct and indirect members of all license groups, especially across on-prem AD trusts. Primary group membership (such as in 'Domain Users') is not considered due to Active Directory and Entra ID query restrictions.
+You need to make sure that the user running Set-OutlookSignatures is able to resolve all direct and indirect members of all license groups, especially across on-prem AD trusts.<br>Primary group membership (such as in 'Domain Users') is not considered due to Active Directory and Entra ID query restrictions.<br>Dynamic groups are supported when Entra ID is queried, but not when Active Directory is queried.
 
 For most environments, only one license group is needed.<br>In on-prem and hybrid environments with multiple Active Directory domains, you may define a separate license group for each AD DNS domain, each license group with a separate maximum member count. When a license group for the home Active Directory domain of a mailbox is defined, this license group is used. If not, the license group defined as default will be used.
 
