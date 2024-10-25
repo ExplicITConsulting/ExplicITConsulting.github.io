@@ -372,7 +372,7 @@ You need to make sure that the user running Set-OutlookSignatures is able to res
 
 For most environments, only one license group is needed.<br>In on-prem and hybrid environments with multiple Active Directory domains, you may define a separate license group for each AD DNS domain, each license group with a separate maximum member count. When a license group for the home Active Directory domain of a mailbox is defined, this license group is used. If not, the license group defined as default will be used.
 
-To define a license gorup, three components are needed:
+To define a license group, three components are needed:
 - The DNS domain name of the on-premises Active Directory domain they are in. Use 'EntraID' for cloud-only groups.
 - The SID (security identifier) or the Entra ID Object ID of the license group.
 - The maximum number of mailboxes licensed for the group.
