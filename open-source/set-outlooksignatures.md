@@ -125,34 +125,35 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
 
 | Feature | Set&#8209;OutlookSignatures<br>with&nbsp;Benefactor&nbsp;Circle | Market Companion&nbsp;A | Market Companion&nbsp;B | Market Companion&nbsp;C |
 | :--- | :--- | :--- | :--- | :--- |
-| Free and Open-Source core | ✔️ | ❌ | ❌ | ❌ |
-| No email re-routing to a 3rd party datacenter | ✔️ | ❌ | ❌ | ❌ |
-| No transfer of Active Directory and Entra ID data to a 3rd party datacenter | ✔️ | ❌ | ❌ | ❌ |
-| No telemetry or usage data collection, direct or indirect | ✔️ | ❌ | ❌ | ❌ |
-| No auto-renewing subscription | ✔️ | ❌ | ❌ | ❌ |
-| Apply signatures to all emails | 〰️ <sub>Outlook clients only</sub> | ✔️ <sub>With email re-routing to a 3rd party datacenter</sub> | ✔️ <sub>With email re-routing to a 3rd party datacenter</sub> | ✔️ <sub>With email re-routing to a 3rd party datacenter</sub> |
-| Additional data sources besides Active Directory and Entra ID | ✔️ | 〰️ | ❌ | ❌ |
-| Support for Microsoft national clouds | ✔️ <sub>Global/Public, US Government L4, US Government L5 (DOD), China operated by 21Vianet</sub> | ❌ | ❌ | ❌ |
-| Support for Microsoft roaming signatures | ✔️ | ❌ | ❌ | ❌ |
+| Free and Open-Source core | ✅ | ❌ | ❌ | ❌ |
+| Emails stay in your environment (no re-routing to 3rd party datacenters) | ✅ | ❌ | ❌ | ❌ |
+| Entra ID and Active Directory permissions | ✅ <sub>User permissions (a.k.a. delegated permissions), least privilege principle</sub> | ❌ <sub>application permissions, read all directory data (and transfer all emails)</sub> | ❌ <sub>application permissions, read all directory data (and transfer all emails)</sub> | ❌ <sub>application permissions, read all directory data (and read all emails)</sub> |
+| Entra ID and Active Directory data stays in your environment (no transfer to 3rd party datacenters) | ✅ | ❌ | ❌ | ❌ |
+| No telemetry or usage data collection, direct or indirect | ✅ | ❌ | ❌ | ❌ |
+| Auto-renewing subscription | ❌ | ✅ | ✅ | ✅ |
+| Apply signatures to all emails | 〰️ <sub>Outlook clients only</sub> | ✅ <sub>With email re-routing to a 3rd party datacenter</sub> | ✅ <sub>With email re-routing to a 3rd party datacenter</sub> | ✅ <sub>With email re-routing to a 3rd party datacenter</sub> |
+| Additional data sources besides Active Directory and Entra ID | ✅ | 〰️ | ❌ | ❌ |
+| Support for Microsoft national clouds | ✅ <sub>Global/Public, US Government L4 (GCC, GCC High), US Government L5 (DOD), China operated by 21Vianet</sub> | ❌ | ❌ | ❌ |
+| Support for Microsoft roaming signatures (multiple signatures in Outlook Web and New Outlook) | ✅ | ❌ | ❌ | ❌ |
 | Number of templates | ♾️ <sub>Unlimited</sub> | 1 <sub>💲 More charged extra</sub> | ♾️ <sub>Unlimited</sub> | ♾️ <sub>Unlimited</sub> |
-| Targeting and exclusion | ✔️ | 💲 <sub>Charged extra</sub> | ✔️ | ✔️ |
-| Scheduling | ✔️ | 💲 <sub>Charged extra</sub> | ✔️ | ✔️ |
+| Targeting and exclusion | ✅ | 💲 <sub>Charged extra</sub> | ✅ | ✅ |
+| Scheduling | ✅ | 💲 <sub>Charged extra</sub> | ✅ | ✅ |
 | Banners | ♾️ <sub>Unlimited</sub> | 1 <sub>💲 More charged extra</sub> | ♾️ <sub>Unlimited</sub> |  ♾️ <sub>Unlimited</sub> |
-| QR codes and vCards | ✔️ | 💲 <sub>Charged extra</sub> | 💲 <sub>Charged extra</sub> | ✔️ |
-| Signature visible while wrting | ✔️ | 〰️ | 〰️  | 〰️ |
-| Signature visible in Sent Items | ✔️ | 〰️ <sub>Cloud mailboxes only</sub> | 〰️ <sub>Cloud mailboxes only</sub> | 〰️ <sub>Cloud mailboxes only</sub> |
-| OOF reply messages | ✔️ | 💲 <sub>Charged extra</sub> | 〰️ <sub>Same for internal and external senders</sub> | 💲 <sub>Charged extra</sub> |
-| User-controlled email signatures | ✔️ | 〰️ | 〰️ | 〰️ |
-| Signatures for encrypted messages | ✔️ | 〰️ | 〰️ | 〰️ |
-| Signatures for delegates, shared, additional and automapped mailboxes | ✔️ | 〰️ <sub>No mixing of sender and delegate replacement variables</sub> | 〰️ <sub>No mixing of sender and delegate replacement variables</sub> | 〰️ <sub>No mixing of sender and delegate replacement variables</sub> |
-| Outlook add-in | 〰️ <sub>No on-prem mailboxes on mobile devices</sub> | 〰️ <sub>Not for appointments</sub> | 〰️ <sub>Not for appointments</sub> | ✔️ |
-| License includes support | ❌ <sub>💲 Rarely needed, fairly charged by usage</sub> | ✔️ <sub>💲 Charged regardless of use</sub> | ✔️ <sub>💲 Charged regardless of use</sub> | ✔️ <sub>💲 Charged regardless of use</sub> |
-| Software escrow | ✔️ <sub>To the Set&#8209;OutlookSignatures maintainers</sub> | ❌ | ❌ | ❌ |
-| License cost, 5 years, 100 mailboxes | appr. 1k | appr. 8k | appr. 7k | appr. 8k |
-| License cost, 5 years, 250 mailboxes | appr. 3k | appr. 20k | appr. 14k | appr. 18k |
-| License cost, 5 years, 500 mailboxes | appr. 5k | appr. 39k | appr. 22k | appr. 31k |
-| License cost, 5 years, 1,000 mailboxes | appr. 11k | appr. 78k | appr. 43k | appr. 52k |
-| License cost, 5 years, 10,000 mailboxes | appr. 105k | appr. 553k | appr. 325k | appr. 202k |
+| QR codes and vCards | ✅ | 💲 <sub>Charged extra</sub> | 💲 <sub>Charged extra</sub> | ✅ |
+| Signature visible while writing | ✅ | 〰️ | 〰️  | 〰️ |
+| Signature visible in Sent Items | ✅ | 〰️ <sub>Cloud mailboxes only</sub> | 〰️ <sub>Cloud mailboxes only</sub> | 〰️ <sub>Cloud mailboxes only</sub> |
+| Out-of-office reply messages | ✅ | 💲 <sub>Charged extra</sub> | 〰️ <sub>Same for internal and external senders</sub> | 💲 <sub>Charged extra</sub> |
+| User-controlled email signatures | ✅ | 〰️ | 〰️ | 〰️ |
+| Signatures for encrypted messages | ✅ | 〰️ | 〰️ | 〰️ |
+| Signatures for delegates, shared, additional and automapped mailboxes | ✅ | 〰️ <sub>No mixing of sender and delegate replacement variables</sub> | 〰️ <sub>No mixing of sender and delegate replacement variables</sub> | 〰️ <sub>No mixing of sender and delegate replacement variables</sub> |
+| Outlook add-in | 〰️ <sub>No on-prem mailboxes on mobile devices</sub> | 〰️ <sub>Not for appointments</sub> | 〰️ <sub>Not for appointments</sub> | ✅ |
+| License includes support | ❌ <sub>💲 Rarely needed, fairly charged by usage</sub> | ✅ <sub>💲 Charged regardless of use</sub> | ✅ <sub>💲 Charged regardless of use</sub> | ✅ <sub>💲 Charged regardless of use</sub> |
+| Software escrow | ✅ <sub>To the free and open-source Set&#8209;OutlookSignatures project</sub> | ❌ | ❌ | ❌ |
+| License cost, 1 year, 100 mailboxes    | appr. &numsp;&numsp;&numsp;0.2k € | appr. &numsp;&numsp;&numsp;1.6k € | appr. &numsp;&numsp;&numsp;1.3k € | appr. &numsp;&numsp;&numsp;1.6k € |
+| License cost, 1 year, 250 mailboxes    | appr. &numsp;&numsp;&numsp;0.5k € | appr. &numsp;&numsp;&numsp;4.0k € | appr. &numsp;&numsp;&numsp;2.7k € | appr. &numsp;&numsp;&numsp;3.6k € |
+| License cost, 1 year, 500 mailboxes    | appr. &numsp;&numsp;&numsp;1.0k € | appr. &numsp;&numsp;&numsp;8.0k € | appr. &numsp;&numsp;&numsp;4.4k € | appr. &numsp;&numsp;&numsp;6.2k € |
+| License cost, 1 year, 1,000 mailboxes  | appr. &numsp;&numsp;&numsp;2.1k € | appr. &numsp;&numsp;15.7k € | appr. &numsp;&numsp;&numsp;8.7k € | appr. &numsp;&numsp;10.5k € |
+| License cost, 1 year, 10,000 mailboxes | appr. &numsp;&numsp;21.0k € | appr. &numsp;110.0k € | appr. &numsp;&numsp;65.0k € | appr. &numsp;&numsp;41.0k € |
 
 ## 2. Demo video
 <div class="columns">
