@@ -149,11 +149,11 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
 | Outlook add-in | 〰️ <sub>No on-prem mailboxes on mobile devices</sub> | 〰️ <sub>Not for appointments</sub> | 〰️ <sub>Not for appointments</sub> | ✅ |
 | License includes support | ❌ <sub>💲 Rarely needed, fairly charged by usage</sub> | ✅ <sub>💲 Charged regardless of use</sub> | ✅ <sub>💲 Charged regardless of use</sub> | ✅ <sub>💲 Charged regardless of use</sub> |
 | Software escrow | ✅ <sub>To the free and open-source Set&#8209;OutlookSignatures project</sub> | ❌ | ❌ | ❌ |
-| License cost, 1 year, 100 mailboxes    | appr. &numsp;&numsp;&numsp;0.2k € | appr. &numsp;&numsp;&numsp;1.6k € | appr. &numsp;&numsp;&numsp;1.3k € | appr. &numsp;&numsp;&numsp;1.6k € |
-| License cost, 1 year, 250 mailboxes    | appr. &numsp;&numsp;&numsp;0.5k € | appr. &numsp;&numsp;&numsp;4.0k € | appr. &numsp;&numsp;&numsp;2.7k € | appr. &numsp;&numsp;&numsp;3.6k € |
-| License cost, 1 year, 500 mailboxes    | appr. &numsp;&numsp;&numsp;1.0k € | appr. &numsp;&numsp;&numsp;8.0k € | appr. &numsp;&numsp;&numsp;4.4k € | appr. &numsp;&numsp;&numsp;6.2k € |
-| License cost, 1 year, 1,000 mailboxes  | appr. &numsp;&numsp;&numsp;2.1k € | appr. &numsp;&numsp;15.7k € | appr. &numsp;&numsp;&numsp;8.7k € | appr. &numsp;&numsp;10.5k € |
-| License cost, 1 year, 10,000 mailboxes | appr. &numsp;&numsp;21.0k € | appr. &numsp;110.0k € | appr. &numsp;&numsp;65.0k € | appr. &numsp;&numsp;41.0k € |
+| License cost, 1 year, 100 mailboxes    | appr.   0.2k € | appr.   1.6k € | appr.   1.3k € | appr.   1.6k € |
+| License cost, 1 year, 250 mailboxes    | appr.   0.5k € | appr.   4.0k € | appr.   2.7k € | appr.   3.6k € |
+| License cost, 1 year, 500 mailboxes    | appr.   1.0k € | appr.   8.0k € | appr.   4.4k € | appr.   6.2k € |
+| License cost, 1 year, 1,000 mailboxes  | appr.   2.1k € | appr.  15.7k € | appr.   8.7k € | appr.  10.5k € |
+| License cost, 1 year, 10,000 mailboxes | appr.  21.0k € | appr. 110.0k € | appr.  65.0k € | appr.  41.0k € |
 
 ## 2. Demo video
 <div class="columns">
