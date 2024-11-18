@@ -55,13 +55,14 @@ Set-OutlookSignatures is the open-source gold standard for email signatures and 
 
 **ExplicIT's Benefactor Circle add-on enhances the open-source version with a great set of additional features and first-class commercial support.**
 
+<a href="#2-demo"><button class="button is-link is-normal is-hover">Request a free interactive product demo</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="#62-trial-version"><button class="button is-link is-normal is-hover">Request a trial version or a license quote</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="#5-commercial-support"><button class="button is-link is-normal is-hover">Get commercial support</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
 
 <!-- omit in toc -->
 ## Table of Contents
 - [1. Overview and features](#1-overview-and-features)
-- [2. Demo video](#2-demo-video)
+- [2. Demo](#2-demo)
 - [3. Benefactor Circle exclusive features](#3-benefactor-circle-exclusive-features)
 - [4. Financial benefits of centrally managing signatures and out-of-office replies](#4-financial-benefits-of-centrally-managing-signatures-and-out-of-office-replies)
 - [5. Commercial support](#5-commercial-support)
@@ -127,11 +128,14 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
 | :--- | :--- | :--- | :--- | :--- |
 | Free and Open-Source core | 🟢 | 🔴 | 🔴 | 🔴 |
 | Emails stay in your environment (no re-routing to 3rd party datacenters) | 🟢 | 🔴 | 🔴 | 🔴 |
-| Runs in environments that you already trust and for which you have established security and management structures | 🟢 | 🔴 | 🔴 | 🔴 |
+| Is hosted and runs in environments that you already trust and for which you have established security and management structures | 🟢 | 🔴 | 🔴 | 🔴 |
 | Entra ID and Active Directory permissions | 🟢 <sub>User (a.k.a. delegated) permissions, least privilege principle</sub> | 🔴 <sub>Application permissions, read all directory data (and transfer all emails)</sub> | 🔴 <sub>Application permissions, read all directory data (and transfer all emails)</sub> | 🔴 <sub>Application permissions, read all directory data (and read all emails)</sub> |
 | Entra ID and Active Directory data stays in your environment (no transfer to 3rd party datacenters) | 🟢 | 🔴 | 🔴 | 🔴 |
+| Requires an Exchange configuration or adds a dependency to it | 🟢 | 🔴 | 🔴 | 🔴 |
+| Multiple independent instances can be run in the same environment | 🟢 | 🔴 | 🔴 | 🔴 |
 | No telemetry or usage data collection, direct or indirect | 🟢 | 🔴 | 🔴 | 🔴 |
-| Auto-renewing subscription | 🔴 | 🟢 | 🟢 | 🟢 |
+| No auto-renewing subscription | 🟢 | 🔴 | 🔴 | 🔴 |
+| IT can delegate signature management, e.g. to marketing | 🟢 | 🟢 | 🟢 | 🟢 |
 | Apply signatures to all emails | 🟡 <sub>Outlook clients only</sub> | 🟢 <sub>With email re-routing to a 3rd party datacenter</sub> | 🟢 <sub>With email re-routing to a 3rd party datacenter</sub> | 🟢 <sub>With email re-routing to a 3rd party datacenter</sub> |
 | Additional data sources besides Active Directory and Entra ID | 🟢 | 🟡 | 🔴 | 🔴 |
 | Support for Microsoft national clouds | 🟢 <sub>Global/Public, US Government L4 (GCC, GCC High), US Government L5 (DOD), China operated by 21Vianet</sub> | 🔴 | 🔴 | 🔴 |
@@ -156,7 +160,10 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
 | License cost, 1,000 mailboxes, 1 year  | 🟢 <sub>appr.   2.1k €</sub> | 🔴 <sub>appr.  15.7k €</sub> | 🟡 <sub>appr.   8.7k €</sub> | 🟡 <sub>appr.  10.5k €</sub> |
 | License cost, 10,000 mailboxes, 1 year | 🟢 <sub>appr.  21.0k €</sub> | 🔴 <sub>appr. 110.0k €</sub> | 🟡 <sub>appr.  65.0k €</sub> | 🟡 <sub>appr.  41.0k €</sub> |
 
-## 2. Demo video
+## 2. Demo
+Contact us for a free interactive product demonstration: <a href="mailto:set-outlooksignatures@explictconsulting.at?subject=Request%20for%20product%20demo&body=Dear%20Set-OutlookSignatures%20team%2C%0D%0A%0D%0AI%20am%20interested%20in%20an%20interactive%20demonstration%20of%20your%20Benefactor%20Circle%20add-on.%0D%0A%0D%0AThe%20following%20use%20cases%20and%20topics%20are%20of%20particular%20interest%3A%20%3Cdescribe%20your%20use%20cases%20here%3E%0D%0A%0D%0APlease%20contact%20me%20to%20arrange%20a%20date%20and%20time%20for%20the%20demo.%0D%0A%0D%0AKind%20regards%0D%0A%0D%0A%3CYour%20company%20signature%2C%20including%20full%20address%3E%0D%0A"><button class="button is-link is-normal is-hover">Ask for a product demo via email</button></a>
+
+For a quick overview, the basic features are shown in our demo video:
 <div class="columns">
   <div class="column is-half">
     <figure class="image is-16by9">
