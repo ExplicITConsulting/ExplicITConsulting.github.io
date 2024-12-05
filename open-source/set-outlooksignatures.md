@@ -367,10 +367,25 @@ An example:
 ## 7. How license groups work
 Each Benefactor Circle license is bound to one or more Active Directory or Entra ID groups, called a license group. For maximum data protection and ease of administration, licensing is not bound to specific mailboxes ("named users"), but only to a group with a maximum amount of members.
 
+For most environments, only one license group is needed.<br>In on-prem and hybrid environments with multiple Active Directory domains, you may define a separate license group for each AD DNS domain, each license group with a separate maximum member count. When a license group for the home Active Directory domain of a mailbox is defined, this license group is used. If not, the license group defined as default will be used.
+
+A license group definition consists of three components:
+- The DNS domain name of the on-premises Active Directory domain the license group is located in. Use 'EntraID' for cloud-only groups.
+- The SID (security identifier) or the Entra ID Object ID of the license group.
+- The maximum number of mailboxes licensed for the group.
+
+Where should I create the license group?
+- When using the '-GraphOnly true' parameter, create the group in Entra ID. The license group is then 'EntraID \<Object ID of your license group>'.
+  You may also a group created in on-prem Active Directory, as long as it is synchronized to Entra ID. The license group is then '\<On-prem Active Directory DNS domain name>, \<SID of the license group>'.
+- In hybrid environments without using the '-GraphOnly true' parameter, create a group in your on-prem Active Directory and make sure it is synchronized with Entra ID. The license group is then '\<On-prem Active Directory DNS domain name>, \<SID of the license group>'.
+  You can also use a group created in Entra ID ('EntraID, \<Object ID of the license group>'), which would basically be equal to using the '-GraphOnly true' parameter.
+- In pure on-prem environments, you can only use on-prem groups. The license group is then '\<On-prem Active Directory DNS domain name>, \<SID of the license group>'.
+  When moving to a hybrid environment, you do not need to adapt the configuration as long as you synchronize your on-prem groups to Entra ID.
+
 When a Benefactor Circle exclusive feature is about to be used, the license is checked as follows:
 1. Determine which license group to use.
    1. Extract the AD DNS domain name from the mailbox' distinguishedName or dnsDomainName property.
-   2. When the step above results in an AD DNS domain name and if a license group is defined for it, use this group. Else, use the first group in the list.
+   2. When the step above returns an AD DNS domain name and if a license group is defined for it, use this group. Else, use the first group in the list.
 2. Find the license group via a Graph or Active Directory query.
 3. Check if the number of direct and indirect (a.k.a nested, recursive, transitive) members is less or equal than the number of mailboxes licensed for this group.
 4. Check if the current mailbox is a member of the license group.
@@ -379,26 +394,11 @@ As soon as one of these steps fails, the mailbox is not licensed and Benefactor 
 
 You need to make sure that the user running Set-OutlookSignatures is able to resolve all direct and indirect members of all license groups, especially across on-prem AD trusts.<br>Primary group membership (such as in 'Domain Users') is not considered due to Active Directory and Entra ID query restrictions.<br>Dynamic groups are supported when Entra ID is queried, but not when Active Directory is queried.
 
-For most environments, only one license group is needed.<br>In on-prem and hybrid environments with multiple Active Directory domains, you may define a separate license group for each AD DNS domain, each license group with a separate maximum member count. When a license group for the home Active Directory domain of a mailbox is defined, this license group is used. If not, the license group defined as default will be used.
+Only one pure Entra ID group is supported, and it must be the default license group.
 
-To define a license group, three components are needed:
-- The DNS domain name of the on-premises Active Directory domain they are in. Use 'EntraID' for cloud-only groups.
-- The SID (security identifier) or the Entra ID Object ID of the license group.
-- The maximum number of mailboxes licensed for the group.
-
-Only one pure Entra ID group is supported, and it must be the default group.
-
-There must be a default group, which is used for mailboxes not being covered by separate license groups. The default group is always the first one in the list.  
+The default license group is the first group in the list of license groups. The default group is used for mailboxes not being covered by more specific license groups.  
 
 When a connection to Microsoft Graph is available, Graph is used to check license group membership. A connection to Graph is enforced when the default license group is an Entra ID group.  
-  
-When should I refer on-prem groups and when Entra ID groups?
-- When using the '-GraphOnly true' parameter, prefer Entra ID groups ('EntraID \<Object ID of the license group>').
-  You may also use on-prem groups ('\<On-prem Active Directory DNS domain name> \<SID of the license group>') as long as they are synchronized to Entra ID.
-- In hybrid environments without using the '-GraphOnly true' parameter, prefer on-prem groups ('\<On-prem Active Directory DNS domain name> \<SID of the license group>') synchronized to Entra ID.
-  Pure entra ID groups ('EntraID \<Object ID of the license group>') only make sense when all mailboxes covered by Set-OutlookSignatures are hosted in Exchange Online.
-- Pure on-prem environments: You can only use on-prem groups ('\<On-prem Active Directory DNS domain name> \<SID of the license group>').
-  When moving to a hybrid environment, you do not need to adapt the configuration as long as you synchronize your on-prem groups to Entra ID.
 
 ## 8. License and software version
 License and software versions go hand in hand, so every new release of Set-OutlookSignatures also means a new license release, and vice-versa.
