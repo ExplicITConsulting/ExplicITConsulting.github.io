@@ -251,8 +251,6 @@ This calculation does not even take into account
 Set-OutlookSignatures pays for itself immediately and actually helps you earn more money.
 
 ## 5. Commercial support
-The Benefactor Circle add-on is a product of ExplicIT Consulting, but not the free and open-source software Set-OutlookSignatures. Since we believe that Set-OutlookSignatures is a great software, we offer our first-class commercial support for it. If you prefer free support from the community, please open an issue on the Set-OutlookSignatures GitHub page.
-
 Whether you use the free and open-source version of Set-OutlookSignatures or the Benefactor Circle add-on as a trial or annual license: ExplicIT always provides first-class commercial support.
 
 You prefer to be guided through the setup and customization process instead of working through the documentation yourself? You are looking for customized workshops, hands-on implementation support, training, template creation assistance and other services related to centralized email signature and out-of-office reply management? Then our offer is just right for you.
@@ -260,17 +258,6 @@ You prefer to be guided through the setup and customization process instead of w
 You are not buying just any support, but our comprehensive expertise as manufacturer, consultant and implementer. For us, support means not only providing a solution to your problem, but also passing on our experience to you so that you know how and why. Our support is therefore an investment in your own knowledge and that of your employees, which pays off immediately.
 
 Our all-round carefree support promise: **If the cause of your support request is a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, their documentation or one of the supplied components, support is free - no ifs, ands or buts. In all other cases, you get the same first-class support at a fair price.**
-
-The Benefactor Circle add-on license itself does not include support hours, as support is rarely required and we want to keep the license costs as fair as possible.
-
-Support requests from Benefactor Circle license holders are prioritized.
-
-Only expenses actually incurred will be invoiced, by the commenced hour. Invoicing takes place monthly in arrears, with a payment term of 14 days. You may define a maximum number of work hours for each request.
-
-Support is available 24/5 (Austrian business days) via email and a callback option. 24/7 and on-call options are available upon request.
-
-Technical guides, FAQs, video demonstrations and additional documentation are available for free <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">here</a>.
-
 
 <a href="https://forms.office.com/r/CnwjH98vSs"><button class="button is-link is-normal is-hover">Request commercial support</button></a>
 
