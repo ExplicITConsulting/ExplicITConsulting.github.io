@@ -135,7 +135,7 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
 | Multiple independent instances can be run in the same environment | 🟢 | 🔴 | 🔴 | 🔴 |
 | No telemetry or usage data collection, direct or indirect | 🟢 | 🔴 | 🔴 | 🔴 |
 | No auto-renewing subscription | 🟢 | 🔴 | 🔴 | 🔴 |
-| IT can delegate signature management, e.g. to marketing | 🟢 | 🟢 | 🟢 | 🟢 |
+| IT can delegate signature management, e.g. to marketing | 🟢 | 🟢 | 🟡 <sub>Not at signature level</sub> | 🟡 <sub>Not at signature level</sub> |
 | Apply signatures to all emails | 🟡 <sub>Outlook clients only</sub> | 🟢 <sub>With email re-routing to a 3rd party datacenter</sub> | 🟢 <sub>With email re-routing to a 3rd party datacenter</sub> | 🟢 <sub>With email re-routing to a 3rd party datacenter</sub> |
 | Additional data sources besides Active Directory and Entra ID | 🟢 | 🟡 | 🔴 | 🔴 |
 | Support for Microsoft national clouds | 🟢 <sub>Global/Public, US Government L4 (GCC, GCC High), US Government L5 (DOD), China operated by 21Vianet</sub> | 🔴 | 🔴 | 🔴 |
