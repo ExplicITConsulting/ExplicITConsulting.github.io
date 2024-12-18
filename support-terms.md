@@ -2,7 +2,7 @@
 layout: page
 title: |
   <p class="has-text-white">
-    Terms and conditions for commercial support .. Bedingungen und Konditionen für kommerzielle Unterstützung
+    Terms and conditions for commercial support<br>Bedingungen und Konditionen für kommerzielle Unterstützung
   </p>
 subtitle: |
   <p class="subtitle is-3 has-text-white">
@@ -20,8 +20,8 @@ You are not buying just any support, but our comprehensive expertise as a manufa
 - Our [General Terms and Conditions](/legal) apply in full and without amendment.
 - Technical guides, FAQs, video demonstrations and additional documentation are available for free [here](https://github.com/Set-OutlookSignatures/Set-OutlookSignatures).
 
-## German: Bedingungen und Konditionen für kommerziellen Support
-- Das Benefactor Circle Add-on ist ein Produkt von ExplicIT Consulting, nicht jedoch die freie und quelloffene Software Set-OutlookSignatures. Da Set-OutlookSignatures eine großartige Software ist, bieten wir unseren erstklassigen kommerziellen Support dafür an. Wenn Sie kostenlosen Support durch die Community bevorzugen, erstellen Sie bitte ein Issue auf der GitHub-Seite von Set-OutlookSignatures.
+## Deutsch: Bedingungen und Konditionen für kommerzielle Unterstützung
+- Das Benefactor Circle Add-on ist ein Produkt von ExplicIT Consulting, nicht jedoch die freie und quelloffene Software Set-OutlookSignatures. Da Set-OutlookSignatures großartige Software ist, bieten wir unseren erstklassigen kommerziellen Support dafür an. Wenn Sie kostenlosen Support durch die Community bevorzugen, erstellen Sie bitte ein Issue auf der GitHub-Seite von Set-OutlookSignatures.
 - Wie auf unserer Homepage, der Dokumentation, Angeboten und Rechnungen angegeben, beinhaltet die Lizenz des Benefactor Circle Add-Ons selbst keine Supportstunden, da Support nur selten benötigt wird und wir die Lizenzkosten so fair wie möglich halten wollen. Support-Anfragen von Benefactor Circle-Lizenzinhabern werden vorrangig bearbeitet.
 - **Unser Rundum-Sorglos-Supportversprechen: Wenn die Ursache Ihrer Supportanfrage ein Fehler in der aktuellsten Version von Set-OutlookSignatures, dem Benefactor Circle Add-on, deren Dokumentation oder einer der mitgelieferten Komponenten ist, ist der Support kostenlos - ohne Wenn und Aber. In allen anderen Fällen bekommen Sie den gleichen erstklassigen Support, der zu einem fairen Preis verrechnet wird.**
 - Unser Stundensatz beträgt 210,00 € netto für Beratungs- und Supportleistungen.
