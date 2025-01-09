@@ -6,10 +6,10 @@ title: |
   </p>
 subtitle: |
   <p class="subtitle is-3 has-text-white">
-    Email signatures and out-of-office replies for Exchange and all of Outlook: Classic and New, local and roaming, Windows, Web, Mac, Linux, Android, iOS
+    Email signatures and out-of-office replies for Exchange and all of Outlook. Full-featured, cost-effective, unsurpassed data privacy.
   </p>
 description: |
-  Set-OutlookSignatures Benefactor Circle. Email signatures and out-of-office replies for Exchange and all of Outlook: Classic and New, local and roaming, Windows, Web, Mac, Linux, Android, iOS
+  Set-OutlookSignatures Benefactor Circle. Email signatures and out-of-office replies for Exchange and all of Outlook. Full-featured, cost-effective, unsurpassed data privacy.
 image:
   path: "/assets/images/set-outlooksignatures benefactor circle opengraph1200x630.png"
   height: 1200
@@ -51,7 +51,7 @@ Central management and deployment ensures that design guidelines are met, guaran
 
 **You can do all this, and more, with Set-OutlookSignatures and the Benefactor Circle add-on.**
 
-Set-OutlookSignatures is the open-source gold standard for email signatures and out-of-office replies in Exchange and all of Outlook: Classic and New, local and roaming, Windows, Web, Mac, Linux, Android, iOS<br>Download the free and open-source core version from <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">GitHub</a> for free.
+Set-OutlookSignatures is the open-source gold standard for email signatures and out-of-office replies for Exchange and all of Outlook. Full-featured, cost-effective, unsurpassed data privacy.<br>Download the free and open-source core version from <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">GitHub</a> for free.
 
 **ExplicIT's Benefactor Circle add-on enhances the open-source version with a great set of additional features and first-class commercial support.**
 
