@@ -6,10 +6,10 @@ title: |
   </p>
 subtitle: |
   <p class="subtitle is-3 has-text-white">
-    Email signatures and out-of-office replies for Exchange and all of Outlook: Classic and New, local and roaming, Windows, Web, Mac, Linux, Android, iOS
+    Email signatures and out-of-office replies for Exchange and all of Outlook. Full-featured, cost-effective, unsurpassed data privacy.
   </p>
 description: |
-  Set-OutlookSignatures Benefactor Circle. Email signatures and out-of-office replies for Exchange and all of Outlook: Classic and New, local and roaming, Windows, Web, Mac, Linux, Android, iOS
+  Set-OutlookSignatures Benefactor Circle. Email signatures and out-of-office replies for Exchange and all of Outlook. Full-featured, cost-effective, unsurpassed data privacy.
 image:
   path: "/assets/images/set-outlooksignatures benefactor circle opengraph1200x630.png"
   height: 1200
@@ -51,17 +51,18 @@ Central management and deployment ensures that design guidelines are met, guaran
 
 **You can do all this, and more, with Set-OutlookSignatures and the Benefactor Circle add-on.**
 
-Set-OutlookSignatures is the open-source gold standard for email signatures and out-of-office replies in Exchange and all of Outlook: Classic and New, local and roaming, Windows, Web, Mac, Linux, Android, iOS<br>Download the free and open-source core version from <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">GitHub</a> for free.
+Set-OutlookSignatures is the open-source gold standard for email signatures and out-of-office replies for Exchange and all of Outlook. Full-featured, cost-effective, unsurpassed data privacy.<br>Download the free and open-source core version from <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">GitHub</a> for free.
 
 **ExplicIT's Benefactor Circle add-on enhances the open-source version with a great set of additional features and first-class commercial support.**
 
+<a href="#2-demo"><button class="button is-link is-normal is-hover">Request a free interactive product demo</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="#62-trial-version"><button class="button is-link is-normal is-hover">Request a trial version or a license quote</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="#5-commercial-support"><button class="button is-link is-normal is-hover">Get commercial support</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
 
 <!-- omit in toc -->
 ## Table of Contents
 - [1. Overview and features](#1-overview-and-features)
-- [2. Demo video](#2-demo-video)
+- [2. Demo](#2-demo)
 - [3. Benefactor Circle exclusive features](#3-benefactor-circle-exclusive-features)
 - [4. Financial benefits of centrally managing signatures and out-of-office replies](#4-financial-benefits-of-centrally-managing-signatures-and-out-of-office-replies)
 - [5. Commercial support](#5-commercial-support)
@@ -125,36 +126,44 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
 
 | Feature | Set&#8209;OutlookSignatures<br>with&nbsp;Benefactor&nbsp;Circle | Market Companion&nbsp;A | Market Companion&nbsp;B | Market Companion&nbsp;C |
 | :--- | :--- | :--- | :--- | :--- |
-| Free and Open-Source core | ✔️ | ❌ | ❌ | ❌ |
-| No email re-routing to a 3rd party datacenter | ✔️ | ❌ | ❌ | ❌ |
-| No transfer of Active Directory and Entra ID data to a 3rd party datacenter | ✔️ | ❌ | ❌ | ❌ |
-| No telemetry or usage data collection, direct or indirect | ✔️ | ❌ | ❌ | ❌ |
-| No auto-renewing subscription | ✔️ | ❌ | ❌ | ❌ |
-| Apply signatures to all emails | 〰️ <sub>Outlook clients only</sub> | ✔️ <sub>With email re-routing to a 3rd party datacenter</sub> | ✔️ <sub>With email re-routing to a 3rd party datacenter</sub> | ✔️ <sub>With email re-routing to a 3rd party datacenter</sub> |
-| Additional data sources besides Active Directory and Entra ID | ✔️ | 〰️ | ❌ | ❌ |
-| Support for Microsoft national clouds | ✔️ <sub>Global/Public, US Government L4, US Government L5 (DOD), China operated by 21Vianet</sub> | ❌ | ❌ | ❌ |
-| Support for Microsoft roaming signatures | ✔️ | ❌ | ❌ | ❌ |
-| Number of templates | ♾️ <sub>Unlimited</sub> | 1 <sub>💲 More charged extra</sub> | ♾️ <sub>Unlimited</sub> | ♾️ <sub>Unlimited</sub> |
-| Targeting and exclusion | ✔️ | 💲 <sub>Charged extra</sub> | ✔️ | ✔️ |
-| Scheduling | ✔️ | 💲 <sub>Charged extra</sub> | ✔️ | ✔️ |
-| Banners | ♾️ <sub>Unlimited</sub> | 1 <sub>💲 More charged extra</sub> | ♾️ <sub>Unlimited</sub> |  ♾️ <sub>Unlimited</sub> |
-| QR codes and vCards | ✔️ | 💲 <sub>Charged extra</sub> | 💲 <sub>Charged extra</sub> | ✔️ |
-| Signature visible while wrting | ✔️ | 〰️ | 〰️  | 〰️ |
-| Signature visible in Sent Items | ✔️ | 〰️ <sub>Cloud mailboxes only</sub> | 〰️ <sub>Cloud mailboxes only</sub> | 〰️ <sub>Cloud mailboxes only</sub> |
-| OOF reply messages | ✔️ | 💲 <sub>Charged extra</sub> | 〰️ <sub>Same for internal and external senders</sub> | 💲 <sub>Charged extra</sub> |
-| User-controlled email signatures | ✔️ | 〰️ | 〰️ | 〰️ |
-| Signatures for encrypted messages | ✔️ | 〰️ | 〰️ | 〰️ |
-| Signatures for delegates, shared, additional and automapped mailboxes | ✔️ | 〰️ <sub>No mixing of sender and delegate replacement variables</sub> | 〰️ <sub>No mixing of sender and delegate replacement variables</sub> | 〰️ <sub>No mixing of sender and delegate replacement variables</sub> |
-| Outlook add-in | 〰️ <sub>No on-prem mailboxes on mobile devices</sub> | 〰️ <sub>Not for appointments</sub> | 〰️ <sub>Not for appointments</sub> | ✔️ |
-| License includes support | ❌ <sub>💲 Rarely needed, fairly charged by usage</sub> | ✔️ <sub>💲 Charged regardless of use</sub> | ✔️ <sub>💲 Charged regardless of use</sub> | ✔️ <sub>💲 Charged regardless of use</sub> |
-| Software escrow | ✔️ <sub>To the Set&#8209;OutlookSignatures maintainers</sub> | ❌ | ❌ | ❌ |
-| License cost, 5 years, 100 mailboxes | appr. 1k | appr. 8k | appr. 7k | appr. 8k |
-| License cost, 5 years, 250 mailboxes | appr. 3k | appr. 20k | appr. 14k | appr. 18k |
-| License cost, 5 years, 500 mailboxes | appr. 5k | appr. 39k | appr. 22k | appr. 31k |
-| License cost, 5 years, 1,000 mailboxes | appr. 11k | appr. 78k | appr. 43k | appr. 52k |
-| License cost, 5 years, 10,000 mailboxes | appr. 105k | appr. 553k | appr. 325k | appr. 202k |
+| Free and Open-Source core | 🟢 | 🔴 | 🔴 | 🔴 |
+| Emails stay in your environment (no re-routing to 3rd party datacenters) | 🟢 | 🔴 | 🔴 | 🔴 |
+| Is hosted and runs in environments that you already trust and for which you have established security and management structures | 🟢 | 🔴 | 🔴 | 🔴 |
+| Entra ID and Active Directory permissions | 🟢 <sub>User (a.k.a. delegated) permissions, least privilege principle</sub> | 🔴 <sub>Application permissions, read all directory data (and transfer all emails)</sub> | 🔴 <sub>Application permissions, read all directory data (and transfer all emails)</sub> | 🔴 <sub>Application permissions, read all directory data (and read all emails)</sub> |
+| Entra ID and Active Directory data stays in your environment (no transfer to 3rd party datacenters) | 🟢 | 🔴 | 🔴 | 🔴 |
+| Requires an Exchange configuration or adds a dependency to it | 🟢 | 🔴 | 🔴 | 🔴 |
+| Multiple independent instances can be run in the same environment | 🟢 | 🔴 | 🔴 | 🔴 |
+| No telemetry or usage data collection, direct or indirect | 🟢 | 🔴 | 🔴 | 🔴 |
+| No auto-renewing subscription | 🟢 | 🔴 | 🔴 | 🔴 |
+| IT can delegate signature management, e.g. to marketing | 🟢 | 🟢 | 🟡 <sub>Not at signature level</sub> | 🟡 <sub>Not at signature level</sub> |
+| Apply signatures to all emails | 🟡 <sub>Outlook clients only</sub> | 🟢 <sub>With email re-routing to a 3rd party datacenter</sub> | 🟢 <sub>With email re-routing to a 3rd party datacenter</sub> | 🟢 <sub>With email re-routing to a 3rd party datacenter</sub> |
+| Additional data sources besides Active Directory and Entra ID | 🟢 | 🟡 | 🔴 | 🔴 |
+| Support for Microsoft national clouds | 🟢 <sub>Global/Public, US Government L4 (GCC, GCC High), US Government L5 (DOD), China operated by 21Vianet</sub> | 🔴 | 🔴 | 🔴 |
+| Support for Microsoft roaming signatures (multiple signatures in Outlook Web and New Outlook) | 🟢 | 🔴 | 🔴 | 🔴 |
+| Number of templates | 🟢 <sub>Unlimited</sub> | 🔴 <sub>1, more charged extra</sub> | 🟢 <sub>Unlimited</sub> | 🟢 <sub>Unlimited</sub> |
+| Targeting and exclusion | 🟢 | 🔴 <sub>Charged extra</sub> | 🟢 | 🟢 |
+| Scheduling | 🟢 | 🔴 <sub>Charged extra</sub> | 🟢 | 🟢 |
+| Banners | 🟢 <sub>Unlimited</sub> | 🔴 <sub>1, more charged extra</sub> | 🟢 <sub>Unlimited</sub> | 🟢 <sub>Unlimited</sub> |
+| QR codes and vCards | 🟢 | 🔴 <sub>Charged extra</sub> | 🔴 <sub>Charged extra</sub> | 🟢 |
+| Signature visible while writing | 🟢 | 🟡 | 🟡  | 🟡 |
+| Signature visible in Sent Items | 🟢 | 🟡 <sub>Cloud mailboxes only</sub> | 🟡 <sub>Cloud mailboxes only</sub> | 🟡 <sub>Cloud mailboxes only</sub> |
+| Out-of-office reply messages | 🟢 | 🔴 <sub>Charged extra</sub> | 🟡 <sub>Same for internal and external senders</sub> | 🔴 <sub>Charged extra</sub> |
+| User-controlled email signatures | 🟢 | 🟡 | 🟡 | 🟡 |
+| Signatures for encrypted messages | 🟢 | 🟡 | 🟡 | 🟡 |
+| Signatures for delegates, shared, additional and automapped mailboxes | 🟢 | 🟡 <sub>No mixing of sender and delegate replacement variables</sub> | 🟡 <sub>No mixing of sender and delegate replacement variables</sub> | 🟡 <sub>No mixing of sender and delegate replacement variables</sub> |
+| Outlook add-in | 🟡 <sub>No on-prem mailboxes on mobile devices</sub> | 🟡 <sub>Not for appointments</sub> | 🟡 <sub>Not for appointments</sub> | 🟢 |
+| Support pricing model | 🟢 <sub>Charged per support hour</sub> | 🔴 <sub>Charged if used or not</sub> | 🔴 <sub>Charged if used or not</sub> | 🔴 <sub>Charged if used or not</sub> |
+| Software escrow | 🟢 <sub>To the free and open-source Set&#8209;OutlookSignatures project</sub> | 🔴 | 🔴 | 🔴 |
+| License cost, 100 mailboxes, 1 year    | 🟢 <sub>appr.   0.2k €</sub> | 🔴 <sub>appr.   1.6k €</sub> | 🟡 <sub>appr.   1.3k €</sub> | 🔴 <sub>appr.   1.6k €</sub> |
+| License cost, 250 mailboxes, 1 year    | 🟢 <sub>appr.   0.5k €</sub> | 🔴 <sub>appr.   4.0k €</sub> | 🟡 <sub>appr.   2.7k €</sub> | 🔴 <sub>appr.   3.6k €</sub> |
+| License cost, 500 mailboxes, 1 year    | 🟢 <sub>appr.   1.0k €</sub> | 🔴 <sub>appr.   8.0k €</sub> | 🟡 <sub>appr.   4.4k €</sub> | 🟡 <sub>appr.   6.2k €</sub> |
+| License cost, 1,000 mailboxes, 1 year  | 🟢 <sub>appr.   2.1k €</sub> | 🔴 <sub>appr.  15.7k €</sub> | 🟡 <sub>appr.   8.7k €</sub> | 🟡 <sub>appr.  10.5k €</sub> |
+| License cost, 10,000 mailboxes, 1 year | 🟢 <sub>appr.  21.0k €</sub> | 🔴 <sub>appr. 110.0k €</sub> | 🟡 <sub>appr.  65.0k €</sub> | 🟡 <sub>appr.  41.0k €</sub> |
 
-## 2. Demo video
+## 2. Demo
+Contact us for a free interactive product demonstration: <a href="https://forms.office.com/r/VbT0gTynUu"><button class="button is-link is-normal is-hover">Ask for a free product demo</button></a>
+
+For a quick overview, the basic features are shown in our demo video:
 <div class="columns">
   <div class="column is-half">
     <figure class="image is-16by9">
@@ -242,8 +251,6 @@ This calculation does not even take into account
 Set-OutlookSignatures pays for itself immediately and actually helps you earn more money.
 
 ## 5. Commercial support
-The Benefactor Circle add-on is a product of ExplicIT Consulting, but not the free and open-source software Set-OutlookSignatures. Since we believe that Set-OutlookSignatures is a great software, we offer our first-class commercial support for it. If you prefer free support from the community, please open an issue on the Set-OutlookSignatures GitHub page.
-
 Whether you use the free and open-source version of Set-OutlookSignatures or the Benefactor Circle add-on as a trial or annual license: ExplicIT always provides first-class commercial support.
 
 You prefer to be guided through the setup and customization process instead of working through the documentation yourself? You are looking for customized workshops, hands-on implementation support, training, template creation assistance and other services related to centralized email signature and out-of-office reply management? Then our offer is just right for you.
@@ -252,18 +259,7 @@ You are not buying just any support, but our comprehensive expertise as manufact
 
 Our all-round carefree support promise: **If the cause of your support request is a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, their documentation or one of the supplied components, support is free - no ifs, ands or buts. In all other cases, you get the same first-class support at a fair price.**
 
-The Benefactor Circle add-on license itself does not include support hours, as support is rarely required and we want to keep the license costs as fair as possible.
-
-Support requests from Benefactor Circle license holders are prioritized.
-
-Only expenses actually incurred will be invoiced, by the commenced hour. Invoicing takes place monthly in arrears, with a payment term of 14 days. You may define a maximum number of work hours for each request.
-
-Support is available 24/5 (Austrian business days) via email and a callback option. 24/7 and on-call options are available upon request.
-
-Technical guides, FAQs, video demonstrations and additional documentation are available for free <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">here</a>.
-
-
-<a href="mailto:set-outlooksignatures@explicitconsulting.at?subject=Request%20for%20commercial%20support&body=Dear%20Set-OutlookSignatures%20and%20Benefactor%20Circle%20team%2C%0A%0AI%20would%20like%20to%20make%20use%20of%20your%20commercial%20support%20for%20the%20following%20topic%3A%20%3CDescribe%20your%20support%20request%20here%3E%0A%0A%3CIf%20you%20have%20an%20active%20license%2C%20please%20include%20your%20Benefactor%20Circle%20ID%3E%0A%0APlease%20send%20me%20the%20terms%20for%20your%20commercial%20support.%0A%0AKind%20regards%0A%0A%3CYour%20company%20signature%2C%20including%20full%20address%3E"><button class="button is-link is-normal is-hover">Get commercial support</button></a>
+<a href="https://forms.office.com/r/CnwjH98vSs"><button class="button is-link is-normal is-hover">Request commercial support</button></a>
 
 
 ## 6. Buying, extending and changing licenses
@@ -356,28 +352,40 @@ An example:
   - As long as the price is not changing, the consecutive years will cost: max(210; (7,500 * 2.10)) = 15,750.00 EUR net
 
 ## 7. How license groups work
-Each Benefactor Circle license is bound to one or more Active Directory or Entra ID groups.
-- Each mailbox of your company needs to be a direct or indirect (a.k.a. nested, recursive or transitive) member of a license group, so that it can use exclusive features.
-- Each group may only contain as many mailboxes as direct or indirect members as defined in the license.
-- The user running Set-OutlookSignatures must be able to resolve all direct and indirect members of the license group, even across trusts.
-- Primary group membership is not considered due to Active Directory and Entra ID query restrictions.
+Each Benefactor Circle license is bound to one or more Active Directory or Entra ID groups, called a license group. For maximum data protection and ease of administration, licensing is not bound to specific mailboxes ("named users"), but only to a group with a maximum amount of members.
 
-License groups are defined by the DNS domain name of the on-premises Active Directory domain ('EntraID' for cloud-only groups), the SID (security identifier) or GUID (Entra ID Object ID) of the license group, and the number of members licensed.
-- Use 'EntraID' instead of the on-prem Active Directory DNS name if the group only exists in Entra ID and is not synced with your on-premises Active Directory. Only one pure Entra ID group is supported, it must be the group with the highest priority (first list entry).
-- If you have multiple domains in a forest or multiple forests, you can have only one license group, or one license group per AD domain, each license group with a separate maximum member count.
-- There must be a default group, which is used for mailboxes which are not covered by separate license groups.  
+For most environments, only one license group is needed.<br>In on-prem and hybrid environments with multiple Active Directory domains, you may define a separate license group for each AD DNS domain, each license group with a separate maximum member count. When a license group for the home Active Directory domain of a mailbox is defined, this license group is used. If not, the license group defined as default will be used.
 
-When a license group for the home Active Directory domain of a mailbox is defined, this license group is used. If not, the license group defined as default will be used.
+A license group definition consists of three components:
+- The DNS domain name of the on-premises Active Directory domain the license group is located in. Use 'EntraID' for cloud-only groups.
+- The SID (security identifier) or the Entra ID Object ID of the license group.
+- The maximum number of mailboxes licensed for the group.
+
+Where should I create the license group?
+- When using the '-GraphOnly true' parameter, create the group in Entra ID. The license group is then 'EntraID \<Object ID of your license group>'.
+  You may also a group created in on-prem Active Directory, as long as it is synchronized to Entra ID. The license group is then '\<On-prem Active Directory DNS domain name>, \<SID of the license group>'.
+- In hybrid environments without using the '-GraphOnly true' parameter, create a group in your on-prem Active Directory and make sure it is synchronized with Entra ID. The license group is then '\<On-prem Active Directory DNS domain name>, \<SID of the license group>'.
+  You can also use a group created in Entra ID ('EntraID, \<Object ID of the license group>'), which would basically be equal to using the '-GraphOnly true' parameter.
+- In pure on-prem environments, you can only use on-prem groups. The license group is then '\<On-prem Active Directory DNS domain name>, \<SID of the license group>'.
+  When moving to a hybrid environment, you do not need to adapt the configuration as long as you synchronize your on-prem groups to Entra ID.
+
+When a Benefactor Circle exclusive feature is about to be used, the license is checked as follows:
+1. Determine which license group to use.
+   1. Extract the AD DNS domain name from the mailbox' distinguishedName or dnsDomainName property.
+   2. When the step above returns an AD DNS domain name and if a license group is defined for it, use this group. Else, use the first group in the list.
+2. Find the license group via a Graph or Active Directory query.
+3. Check if the number of direct and indirect (a.k.a nested, recursive, transitive) members is less or equal than the number of mailboxes licensed for this group.
+4. Check if the current mailbox is a member of the license group.
+
+As soon as one of these steps fails, the mailbox is not licensed and Benefactor Circle features can not be used for it.
+
+You need to make sure that the user running Set-OutlookSignatures is able to resolve all direct and indirect members of all license groups, especially across on-prem AD trusts.<br>Primary group membership (such as in 'Domain Users') is not considered due to Active Directory and Entra ID query restrictions.<br>Dynamic groups are supported when Entra ID is queried, but not when Active Directory is queried.
+
+Only one pure Entra ID group is supported, and it must be the default license group.
+
+The default license group is the first group in the list of license groups. The default group is used for mailboxes not being covered by more specific license groups.  
 
 When a connection to Microsoft Graph is available, Graph is used to check license group membership. A connection to Graph is enforced when the default license group is an Entra ID group.  
-  
-When should I refer on-prem groups and when Entra ID groups?
-- When using the '-GraphOnly true' parameter, prefer Entra ID groups ('EntraID <…>').
-  You may also use on-prem groups ('\<NetBiosDomain> <…>') as long as they are synchronized to Entra ID.
-- In hybrid environments without using the '-GraphOnly true' parameter, prefer on-prem groups ('\<NetBiosDomain> <…>') synchronized to Entra ID.
-  Pure entra ID groups ('EntraID <…>') only make sense when all mailboxes covered by Set-OutlookSignatures are hosted in Exchange Online.
-- Pure on-prem environments: You can only use on-prem groups ('\<NetBiosDomain> <…>').
-  When moving to a hybrid environment, you do not need to adapt the configuration as long as you synchronize your on-prem groups to Entra ID.
 
 ## 8. License and software version
 License and software versions go hand in hand, so every new release of Set-OutlookSignatures also means a new license release, and vice-versa.
