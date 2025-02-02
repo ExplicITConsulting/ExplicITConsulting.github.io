@@ -189,6 +189,7 @@ For a quick overview, the basic features are shown in our demo video:
       <li>Copy signatures to additional signature path for use with email clients and apps besides Outlook: Apple Mail, Google Gmail, Samsung Mail, Mozilla Thunderbird, GNOME Evolution, KDE KMail, and others</li>
       <li>Create an email draft containing all available signatures in HTML and plain text for easy access in mail clients that do not have a signatures API</li>
       <li>High resolution images from DOCX templates</li>
+      <li>Add virtual mailboxes and dynamically create signature INI lines through code</li>
       <li>Remove the tagline added by the free and open source version at the end of signatures</li>
       <li>All components are digitally signed with an Extended Validation (EV) certificate for tamper protection and easy integration into locked-down environments.</li>
     </ul>
