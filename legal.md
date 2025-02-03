@@ -30,12 +30,14 @@ Austria
 [welcome@explicitconsulting.at](mailto:welcome@explicitconsulting.at)  
 [https://explicitconsulting.at](https://explicitconsulting.at)
 
-Registered at company court, Firmengericht: Handelsgericht Wien, Austria  
-Registration number, Firmenbuchnummer: FN 607013t  
-<a href="https://www.gisa.gv.at/abfrage" target="_blank">GISA</a>: 36123599  
-<a href="https://ec.europa.eu/taxation_customs/vies/#/vat-validation" target="_blank">UID/VAT</a>: ATU79529869  
-D-U-N-S: 300886290  
-GLN: 9110033592241  
+Registered at company court / Firmengericht: Handelsgericht Wien, Austria  
+[Registration number / Firmenbuchnummer](https://justizonline.gv.at/jop/web/firmenbuchabfrage): FN 607013t  
+[GISA](https://www.gisa.gv.at/abfrage): 36123599  
+[VAT ID / UID](https://ec.europa.eu/taxation_customs/vies/#/vat-validation): ATU79529869  
+[D-U-N-S](https://www.dnb.com/duns-number/lookup.html): 300886290  
+[GLN](https://www.gs1.org/services/verified-by-gs1): 9110033592241  
+[US Unique Entity ID](https://sam.gov/search) (SAM.gov, CPARS, eSRS, FPDS, FSRS, and others): [contact us](/contact) for details.  
+[NATO Commercial and Government Entity (NCAGE) code](https://eportal.nspa.nato.int/Codification/CageTool/home): [Contact us](/contact) for details.
 
 Member of the Austrian Economic Chamber and the Vienna Economic Chamber, UBIT section (management consulting, accounting and information technology).  
 Mitglied der Wirtschaftskammer Österreich und der Wirtschaftskammer Wien, Sparte UBIT (Unternehmensberatung, Buchhaltung und Informationstechnologie)  
