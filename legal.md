@@ -37,7 +37,7 @@ Registered at company court / Firmengericht: Handelsgericht Wien, Austria
 <a href="https://www.dnb.com/duns-number/lookup.html" target="_blank">DUNS</a>: 300886290  
 <a href="https://www.gs1.org/services/verified-by-gs1" target="_blank">GLN</a>: 9110033592241  
 <a href="https://sam.gov/search" target="_blank">US Unique Entity ID</a> (SAM.gov, CPARS, eSRS, FPDS, FSRS, and others): [Contact us](/contact) for details.  
-<a href="https://eportal.nspa.nato.int/Codification/CageTool/home" target="_blank">NATO Commercial and Government Entity (NCAGE) code</a>: [Contact us](/contact) for details.  
+<a href="https://eportal.nspa.nato.int/Codification/CageTool/home" target="_blank">NATO Commercial and Government Entity (NCAGE) code</a>: 8336N  
 
 Member of the Austrian Economic Chamber and the Vienna Economic Chamber, UBIT section (management consulting, accounting and information technology).  
 Mitglied der Wirtschaftskammer Österreich und der Wirtschaftskammer Wien, Sparte UBIT (Unternehmensberatung, Buchhaltung und Informationstechnologie)  
