@@ -36,6 +36,7 @@ Registered at company court / Firmengericht: Handelsgericht Wien, Austria
 <a href="https://ec.europa.eu/taxation_customs/vies/#/vat-validation" target="_blank">VAT ID / UID</a>: ATU79529869  
 <a href="https://www.dnb.com/duns-number/lookup.html" target="_blank">DUNS</a>: 300886290  
 <a href="https://www.gs1.org/services/verified-by-gs1" target="_blank">GLN</a>: 9110033592241  
+<a href="https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/participant-register-search" target="_blank">EU Funding & Tenders Participant Identification Code (PIC)</a>: 873316415  
 <a href="https://sam.gov/search" target="_blank">US Unique Entity ID</a> (SAM.gov, CPARS, eSRS, FPDS, FSRS, and others): JBT3VZ82GKY7  
 <a href="https://eportal.nspa.nato.int/Codification/CageTool/home" target="_blank">NATO Commercial and Government Entity (NCAGE) code</a>: 8336N  
 
