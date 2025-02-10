@@ -154,11 +154,11 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
 | Outlook add-in | 🟡 <sub>No on-prem mailboxes on mobile devices</sub> | 🟡 <sub>Not for appointments</sub> | 🟡 <sub>Not for appointments</sub> | 🟢 |
 | Support pricing model | 🟢 <sub>Charged per support hour</sub> | 🔴 <sub>Charged if used or not</sub> | 🔴 <sub>Charged if used or not</sub> | 🔴 <sub>Charged if used or not</sub> |
 | Software escrow | 🟢 <sub>To the free and open-source Set&#8209;OutlookSignatures project</sub> | 🔴 | 🔴 | 🔴 |
-| License cost, 100 mailboxes, 1 year    | 🟢 <sub>appr.   0.2k €</sub> | 🔴 <sub>appr.   1.6k €</sub> | 🟡 <sub>appr.   1.3k €</sub> | 🔴 <sub>appr.   1.6k €</sub> |
-| License cost, 250 mailboxes, 1 year    | 🟢 <sub>appr.   0.5k €</sub> | 🔴 <sub>appr.   4.0k €</sub> | 🟡 <sub>appr.   2.7k €</sub> | 🔴 <sub>appr.   3.6k €</sub> |
-| License cost, 500 mailboxes, 1 year    | 🟢 <sub>appr.   1.0k €</sub> | 🔴 <sub>appr.   8.0k €</sub> | 🟡 <sub>appr.   4.4k €</sub> | 🟡 <sub>appr.   6.2k €</sub> |
-| License cost, 1,000 mailboxes, 1 year  | 🟢 <sub>appr.   2.1k €</sub> | 🔴 <sub>appr.  15.7k €</sub> | 🟡 <sub>appr.   8.7k €</sub> | 🟡 <sub>appr.  10.5k €</sub> |
-| License cost, 10,000 mailboxes, 1 year | 🟢 <sub>appr.  21.0k €</sub> | 🔴 <sub>appr. 110.0k €</sub> | 🟡 <sub>appr.  65.0k €</sub> | 🟡 <sub>appr.  41.0k €</sub> |
+| License cost, 100 mailboxes, 1 year    | 🟢 <sub>appr.   0.3k €</sub> | 🔴 <sub>appr.   1.6k €</sub> | 🟡 <sub>appr.   1.3k €</sub> | 🔴 <sub>appr.   1.6k €</sub> |
+| License cost, 250 mailboxes, 1 year    | 🟢 <sub>appr.   0.6k €</sub> | 🔴 <sub>appr.   4.0k €</sub> | 🟡 <sub>appr.   2.7k €</sub> | 🔴 <sub>appr.   3.6k €</sub> |
+| License cost, 500 mailboxes, 1 year    | 🟢 <sub>appr.   1.3k €</sub> | 🔴 <sub>appr.   8.0k €</sub> | 🟡 <sub>appr.   4.4k €</sub> | 🟡 <sub>appr.   6.2k €</sub> |
+| License cost, 1,000 mailboxes, 1 year  | 🟢 <sub>appr.   2.5k €</sub> | 🔴 <sub>appr.  15.7k €</sub> | 🟡 <sub>appr.   8.7k €</sub> | 🟡 <sub>appr.  10.5k €</sub> |
+| License cost, 10,000 mailboxes, 1 year | 🟢 <sub>appr.  25.0k €</sub> | 🔴 <sub>appr. 110.0k €</sub> | 🟡 <sub>appr.  65.0k €</sub> | 🟡 <sub>appr.  41.0k €</sub> |
 
 ## 2. Demo
 Contact us for a free interactive product demonstration: <a href="https://forms.office.com/r/VbT0gTynUu"><button class="button is-link is-normal is-hover">Ask for a free product demo</button></a>
