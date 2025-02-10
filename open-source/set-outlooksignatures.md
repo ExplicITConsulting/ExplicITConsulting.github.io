@@ -61,7 +61,7 @@ Set-OutlookSignatures is the open-source gold standard for email signatures and 
 
 <!-- omit in toc -->
 ## Table of Contents
-- [1. Overview and features](#1-overview-and-features)
+- [1. Overview and features    ](#1-overview-and-features)
 - [2. Demo](#2-demo)
 - [3. Benefactor Circle exclusive features](#3-benefactor-circle-exclusive-features)
 - [4. Financial benefits of centrally managing signatures and out-of-office replies](#4-financial-benefits-of-centrally-managing-signatures-and-out-of-office-replies)
@@ -78,7 +78,7 @@ Set-OutlookSignatures is the open-source gold standard for email signatures and 
 - [8. License and software version](#8-license-and-software-version)
 - [9. Data protection notice](#9-data-protection-notice)
 
-## 1. Overview and features
+## 1. Overview and features&nbsp;&nbsp;&nbsp;&nbsp;<a href="#feature-comparison"><img src="https://img.shields.io/badge/go%20to-🆚%20Feature%20Comparison%20🆚-lawngreen?labelColor=black" alt="Go to feature comparison"></a>
 With Set-OutlookSignatures, signatures and out-of-office replies can be:
 - Generated from **templates in DOCX or HTML** file format  
 - Customized with a **broad range of variables**, including **photos**, from Active Directory and other sources
