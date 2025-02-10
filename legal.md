@@ -96,7 +96,7 @@ The Client shall not be entitled to refuse acceptance of software due to unsubst
 
 3 Prices, taxes and fees
 
-3.1. All prices shall be calculated in Euros without VAT. These shall only apply for the respective current order. All prices mentioned are quoted from place of business of the Contractor. Expenses for programme media (e.g. CDs, magnetic tape, hard disks, floppy disks, streamer tapes, magnetic tape cassettes, etc.) as well as documents and possible contract fees shall be invoiced separately.
+3.1. All prices shall be calculated in Euro without VAT. These shall only apply for the respective current order. All prices mentioned are quoted from place of business of the Contractor. Expenses for programme media (e.g. CDs, magnetic tape, hard disks, floppy disks, streamer tapes, magnetic tape cassettes, etc.) as well as documents and possible contract fees shall be invoiced separately.
 
 3.2. For library (standard) programmes, the list prices valid on the day of delivery shall apply. For all other services (organisational consultation, programming, initial training, adjustment support, telephone consultation, etc.), the work shall be invoiced according to the rates effective on the day of performance. Deviations to the time required as provided by contractual pricing, which is not attributable to the Contractor, shall be invoiced according to actual time required.
 
@@ -176,7 +176,7 @@ Section 924 of the Austrian Civil Code ‘Assumption of Deficiency’ shall be e
 
 9.4. Should the Contractor fulfil work with the assistance of a third party and any guarantee and/or liability claims arise against this third party therefrom, the Contractor shall cede those claims to the Client. In such cases, the Client shall focus on this third party.
 
-9.5. Should data backup be expressly agreed upon as a service, liability for the loss of data shall not be excluded, deviating from Clause 9.2, however, restoration of the data shall be limited to a maximum of 10% of the total order sum per case of damage, however, with an overall maximum of EUR 15,000. Further claims for damages and guarantees of the Client than those stipulated in this Contract shall be excluded, regardless of legal basis. 
+9.5. Should data backup be expressly agreed upon as a service, liability for the loss of data shall not be excluded, deviating from Clause 9.2, however, restoration of the data shall be limited to a maximum of 10% of the total order sum per case of damage, however, with an overall maximum of 15,000 €. Further claims for damages and guarantees of the Client than those stipulated in this Contract shall be excluded, regardless of legal basis. 
 
 10 Loyalty
 
@@ -316,7 +316,7 @@ Die Vermutung der Mangelhaftigkeit gem. § 924 ABGB gilt als ausgeschlossen.
 
 9.4. Sofern der Auftragnehmer das Werk unter Zuhilfenahme Dritter erbringt und in diesem Zusammenhang Gewährleistungs- und/oder Haftungsansprüche gegenüber diesen Dritten entstehen, tritt der Auftragnehmer diese Ansprüche an den Auftraggeber ab. Der Auftraggeber wird sich in diesem Fall vorrangig an diese Dritten halten.
 
-9.5. Ist die Datensicherung ausdrücklich als Leistung vereinbart, so ist die Haftung für den Verlust von Daten abweichend von Punkt 9.2 nicht ausgeschlossen, jedoch für die Wiederherstellung der Daten begrenzt bis maximal EUR 10 % der Auftragssumme je Schadensfall, maximal jedoch EUR 15.000,-. Weitergehende als die in diesem Vertrag genannten Gewährleistungs- und Schadenersatzansprüche des AG -gleich aus welchem Rechtsgrund- sind ausgeschlossen. 
+9.5. Ist die Datensicherung ausdrücklich als Leistung vereinbart, so ist die Haftung für den Verlust von Daten abweichend von Punkt 9.2 nicht ausgeschlossen, jedoch für die Wiederherstellung der Daten begrenzt bis maximal 10 % der Auftragssumme je Schadensfall, maximal jedoch 15.000 €. Weitergehende als die in diesem Vertrag genannten Gewährleistungs- und Schadenersatzansprüche des AG -gleich aus welchem Rechtsgrund- sind ausgeschlossen. 
 
 10 Loyalität
 
