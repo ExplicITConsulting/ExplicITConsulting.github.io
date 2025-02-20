@@ -258,7 +258,7 @@ You prefer to be guided through the setup and customization process instead of w
 
 You are not buying just any support, but our comprehensive expertise as manufacturer, consultant and implementer. For us, support means not only providing a solution to your problem, but also passing on our experience to you so that you know how and why. Our support is therefore an investment in your own knowledge and that of your employees, which pays off immediately.
 
-Our all-round carefree support promise: **If the cause of your support request is a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, their documentation or one of the supplied components, support is free - no ifs, ands or buts. In all other cases, you get the same first-class support at a fair price.**
+**Our all-inclusive support promise: If your support request stems from a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, its documentation, or the provided components, support is free — no exceptions. For all other issues, you will receive the same top-notch support at a fair price.**
 
 <a href="https://forms.office.com/r/CnwjH98vSs"><button class="button is-link is-normal is-hover">Request commercial support</button></a>
 
@@ -270,7 +270,7 @@ The price currently is **2.50 € net per mailbox and year**, which is **less th
 We keep license costs as fair as possible. Fair means:
 - Small companies always just pay the same low price as big enterprises.  
 - No maintenance contracts or support contracts that are advertised as "free" but really are hidden in the annual price and are never used to the extent that you pay for over the years.  
-  With us, you only pay for the support you actually need - due to the extensive documentation, this is usually not even necessary. **If the cause of your support request is a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, their documentation or one of the supplied components, support is free - no ifs, ands or buts.**
+  With us, you only pay for the support you actually need - due to the extensive documentation, this is usually not even necessary. **Our all-inclusive support promise: If your support request stems from a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, its documentation, or the provided components, support is free — no exceptions. For all other issues, you will receive the same top-notch support at a fair price.**
 - No additional infrastructure that someone else runs for you and for which costs are incurred regardless of usage.  
   No interfaces that regularly transfer your data to external data centers for the preparation of signatures and to which you have to redirect every email for the application of signatures.  
   Everything runs on your existing systems, which you already trust and govern, and within your own security boundaries.
