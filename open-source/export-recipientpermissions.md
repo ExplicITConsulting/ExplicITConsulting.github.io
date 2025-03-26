@@ -91,7 +91,7 @@ redirect_from:
 </div>
 
 ## What does ExplicIT Consulting offer on top?
-ExplicIT Consulting offers commercial support for Export-RecipientPermissions: Consulting, implementation support, enhancing functionality, troubleshooting, and more.
+ExplicIT Consulting offers fee-based support for Export-RecipientPermissions: Consulting, implementation support, enhancing functionality, troubleshooting, and more.
 
 You are not buying just any support, but our comprehensive expertise as a manufacturer. For us, support means not only providing a solution to your problem, but also passing on our experience to you so that you know how and why. Our support is therefore an investment in your own knowledge and that of your employees, which pays off immediately.
 

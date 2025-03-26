@@ -2,15 +2,15 @@
 layout: page
 title: |
   <p class="has-text-white">
-    Terms and conditions for commercial support<br>Bedingungen und Konditionen für kommerzielle Unterstützung
+    Terms and conditions for fee-based support<br>Bedingungen und Konditionen für kommerzielle Unterstützung
   </p>
 subtitle: |
   <p class="subtitle is-3 has-text-white">
   </p>
-description: Commercial support terms. Bedingungen und Konditionen für kommerzielle Unterstützung.
+description: Fee-based support terms. Bedingungen und Konditionen für kommerzielle Unterstützung.
 ---
-## English: Commercial support terms
-- The Benefactor Circle add-on is a product of ExplicIT Consulting, but not the free and open-source software Set-OutlookSignatures. As Set-OutlookSignatures is great software, we offer our first-class commercial support for it. If you prefer free support from the community, please open an issue on the Set-OutlookSignatures GitHub page.
+## English: Fee-based support terms
+- The Benefactor Circle add-on is a product of ExplicIT Consulting, but not the free and open-source software Set-OutlookSignatures. As Set-OutlookSignatures is great software, we offer our first-class fee-based support for it. If you prefer free support from the community, please open an issue on the Set-OutlookSignatures GitHub page.
 - As stated on our homepage, documentation, quotations and invoices, the Benefactor Circle add-on license itself does not include support hours, as support is rarely required, and we want to keep the license costs as fair as possible. Support requests from Benefactor Circle license holders are prioritized.
 - **Our all-inclusive support promise: If your support request stems from a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, its documentation, or the provided components, support is free — no exceptions. For all other issues, you will receive the same top-notch support at a fair price.**
 - Our hourly rate is 210.00 € net for consulting and support services.

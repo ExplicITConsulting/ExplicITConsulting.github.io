@@ -8,7 +8,7 @@ subtitle: |
   <p class="subtitle is-3 has-text-white">
     Adding professional services on top
   </p>
-description: Open-Source. Commercial support. Add-on development. Sponsoring.
+description: Open-Source. Fee-based support. Add-on development. Sponsoring.
 redirect_from:
   - /opensource
   - /opensource/
@@ -20,8 +20,8 @@ redirect_from:
   <div class="column">
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
       <div class="content">
-        <h3>Commercial support</h3>
-        <p>We offer commercial support for select open-source software, such as for <a href="/open-source/export-recipientpermissions">Export-RecipientPermissions</a> and <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures</a>.</p>
+        <h3>Fee-based support</h3>
+        <p>We offer fee-based support for select open-source software, such as for <a href="/open-source/export-recipientpermissions">Export-RecipientPermissions</a> and <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures</a>.</p>
       </div>
     </div>
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
