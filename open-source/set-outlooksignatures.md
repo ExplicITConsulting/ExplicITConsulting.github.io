@@ -50,124 +50,92 @@ Email signatures and out-of-office replies are an integral part of corporate ide
 Central management and deployment ensures that design guidelines are met, guarantees correct and up-to-date content, helps comply with legal requirements, relieves staff and creates an additional marketing and sales channel.
 
 **You can do all this, and more, with Set-OutlookSignatures and the Benefactor Circle add-on.**
-<div class="columns">
-  <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
-      <div class="content">
-        <details open>
-          <summary>More cost-effective than other products</summary>
-          <ul>
-            <li>Purchase directly from the manufacturer, no graduated prices.</li>
-            <li>Support on demand instead of expensive maintenance contracts.</li>
-            <li>Runs on your own existing (client) infrastructure.</li>
-            <li>Cheaper than independent signature management by your employees.</li>
-          </ul>
-        </details>
-      </div>
-    </div>
+<div class="grid">
+  <div class="cell">
+  <details open>
+      <summary>More cost-effective than other products</summary>
+      <ul>
+        <li>Purchase directly from the manufacturer, no graduated prices.</li>
+        <li>Support on demand instead of expensive maintenance contracts.</li>
+        <li>Runs on your own existing (client) infrastructure.</li>
+        <li>Cheaper than independent signature management by your employees.</li>
+      </ul>
+    </details>
   </div>
-  <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
-      <div class="content">
-        <details>
-          <summary>Most secure solution on the market</summary>
-          <ul>
-            <li>Does not introduce any new dependencies into your system.</li>
-            <li>The source code of the basic software is freely available.</li>
-            <li>No transfer of data or e-mails to outside parties.</li>
-            <li>Data is only processed on systems that you already trust.</li>
-            <li>Works in all Microsoft 365 clouds (Public, US Government, US Government DoD, China)</li>
-            <li>Processing takes place in the security context of your users, with a subset of existing permissions.</li>
-          </ul>
-        </details>
-      </div>
-    </div>
+
+  <div class="cell">
+    <details>
+      <summary>Most secure solution on the market</summary>
+      <ul>
+        <li>Does not introduce any new dependencies into your system.</li>
+        <li>The source code of the basic software is freely available.</li>
+        <li>No transfer of data or e-mails to outside parties.</li>
+        <li>Data is only processed on systems that you already trust.</li>
+        <li>Works in all Microsoft 365 clouds (Public, US Government, US Government DoD, China)</li>
+        <li>Processing takes place in the security context of your users, with a subset of existing permissions.</li>
+      </ul>
+    </details>
+  </div>
+
+  <div class="cell">
+    <details>
+      <summary>Simple and intuitive</summary>
+      <ul>
+        <li>Templates in Word or HTML format.</li>
+        <li>No installation and no management app required.</li>
+        <li>Invisible to users: Signatures are simply there and always up-to-date.</li>
+      </ul>
+    </details>
+  </div>
+
+  <div class="cell">
+    <details>
+      <summary>Innovative features</summary>
+      <ul>
+        <li>Signatures for personal mailboxes, shared mailboxes, boss-secretary constellations, delegation scenarios, Send As, Send On Behalf and more.</li>
+        <li>Mix attributes of the current user, the current mailbox, and the managers of both.</li>
+        <li>Any number of signatures that can be assigned flexibly and by date - an additional marketing channel.</li>
+        <li>Signatures that automatically roam with the user - in the cloud and on-prem.</li>
+        <li>Simulation of results for any user.</li>
+        <li>Set out-of-office replies.</li>
+      </ul>
+    </details>
+  </div>
+
+  <div class="cell">
+    <details>
+      <summary>Only one solution for all environments</summary>
+      <ul>
+        <li>On premises, hybrid and cloud only with just one license and one product.</li>
+        <li>For all Outlook versions: Classic and New, Web, Windows, macOS, Android and iOS.</li>
+        <li>Integrated connection to Entra ID and Active Directory. Other data sources can be integrated.</li>
+      </ul>  
+    </details>
+  </div>
+
+  <div class="cell">
+    <details>
+      <summary>Division of tasks according to your wishes</summary>
+      <ul>
+        <li>IT can retain full control or just take care of running the software.</li>
+        <li>Marketing can manage the templates themselves; nothing more than Word is required.</li>
+        <li>Delegated permissions can be assigned down to individual templates.</li>
+        <li>Any number of independent instances can be created.</li>
+      </ul>  
+    </details>
+  </div>
+  
+  <div class="cell">
+    <details>
+      <summary>Made in Austria, proven worldwide</summary>
+      <ul>
+        <li>From practice, for practice.</li>
+        <li>Developed specifically so that SMEs can use all functions at the same low price as large companies.</li>
+        <li>Trusted and valued by companies and authorities from a wide range of sectors and sizes worldwide.</li>
+      </ul>  
+    </details>
   </div>
 </div>
-
-<div class="columns">
-  <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
-      <div class="content">
-        <details>
-          <summary>Simple and intuitive</summary>
-          <ul>
-            <li>Templates in Word or HTML format.</li>
-            <li>No installation and no management app required.</li>
-            <li>Invisible to users: Signatures are simply there and always up-to-date.</li>
-          </ul>
-        </details>
-      </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
-      <div class="content">
-        <details>
-          <summary>Innovative features</summary>
-          <ul>
-            <li>Signatures for personal mailboxes, shared mailboxes, boss-secretary constellations, delegation scenarios, Send As, Send On Behalf and more.</li>
-            <li>Mix attributes of the current user, the current mailbox, and the managers of both.</li>
-            <li>Any number of signatures that can be assigned flexibly and by date - an additional marketing channel.</li>
-            <li>Signatures that automatically roam with the user - in the cloud and on-prem.</li>
-            <li>Simulation of results for any user.</li>
-            <li>Set out-of-office replies.</li>
-          </ul>
-        </details>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="columns">
-  <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
-      <div class="content">
-        <details>
-          <summary>Only one solution for all environments</summary>
-          <ul>
-            <li>On premises, hybrid and cloud only with just one license and one product.</li>
-            <li>For all Outlook versions: Classic and New, Web, Windows, macOS, Android and iOS.</li>
-            <li>Integrated connection to Entra ID and Active Directory. Other data sources can be integrated.</li>
-          </ul>  
-        </details>
-      </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
-      <div class="content">
-        <details>
-          <summary>Division of tasks according to your wishes</summary>
-          <ul>
-            <li>IT can retain full control or just take care of running the software.</li>
-            <li>Marketing can manage the templates themselves; nothing more than Word is required.</li>
-            <li>Delegated permissions can be assigned down to individual templates.</li>
-            <li>Any number of independent instances can be created.</li>
-          </ul>  
-        </details>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="columns">
-  <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
-      <div class="content">
-        <details>
-          <summary>Made in Austria, proven worldwide</summary>
-          <ul>
-            <li>From practice, for practice.</li>
-            <li>Developed specifically so that SMEs can use all functions at the same low price as large companies.</li>
-            <li>Trusted and valued by companies and authorities from a wide range of sectors and sizes worldwide.</li>
-          </ul>  
-        </details>
-      </div>
-    </div>
-  </div>
-<div>
-<br>
 
 Set-OutlookSignatures is the open-source gold standard for email signatures and out-of-office replies for Exchange and all of Outlook. Full-featured, cost-effective, unsurpassed data privacy.<br>Download the free and open-source core version from <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">GitHub</a> for free.
 
@@ -242,41 +210,41 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
 
 ### Feature comparison<!-- omit in toc -->
 
-| Feature | Set&#8209;OutlookSignatures<br>with&nbsp;Benefactor&nbsp;Circle | Market Companion&nbsp;A | Market Companion&nbsp;B | Market Companion&nbsp;C |
-| :--- | :--- | :--- | :--- | :--- |
-| Free and Open-Source core | 🟢 | 🔴 | 🔴 | 🔴 |
-| Emails stay in your environment (no re-routing to 3rd party datacenters) | 🟢 | 🔴 | 🔴 | 🔴 |
-| Is hosted and runs in environments that you already trust and for which you have established security and management structures | 🟢 | 🔴 | 🔴 | 🔴 |
-| Entra ID and Active Directory permissions | 🟢 <sub>User (a.k.a. delegated) permissions, least privilege principle</sub> | 🔴 <sub>Application permissions, read all directory data (and transfer all emails)</sub> | 🔴 <sub>Application permissions, read all directory data (and transfer all emails)</sub> | 🔴 <sub>Application permissions, read all directory data (and read all emails)</sub> |
-| Entra ID and Active Directory data stays in your environment (no transfer to 3rd party datacenters) | 🟢 | 🔴 | 🔴 | 🔴 |
-| Requires an Exchange configuration or adds a dependency to it | 🟢 | 🔴 | 🔴 | 🔴 |
-| Multiple independent instances can be run in the same environment | 🟢 | 🔴 | 🔴 | 🔴 |
-| No telemetry or usage data collection, direct or indirect | 🟢 | 🔴 | 🔴 | 🔴 |
-| No auto-renewing subscription | 🟢 | 🔴 | 🔴 | 🔴 |
-| IT can delegate signature management, e.g. to marketing | 🟢 | 🟢 | 🟡 <sub>Not at signature level</sub> | 🟡 <sub>Not at signature level</sub> |
-| Apply signatures to all emails | 🟡 <sub>Outlook clients only</sub> | 🟢 <sub>With email re-routing to a 3rd party datacenter</sub> | 🟢 <sub>With email re-routing to a 3rd party datacenter</sub> | 🟢 <sub>With email re-routing to a 3rd party datacenter</sub> |
-| Additional data sources besides Active Directory and Entra ID | 🟢 | 🟡 | 🔴 | 🔴 |
-| Support for Microsoft national clouds | 🟢 <sub>Global/Public, US Government L4 (GCC, GCC High), US Government L5 (DOD), China operated by 21Vianet</sub> | 🔴 | 🔴 | 🔴 |
-| Support for Microsoft roaming signatures (multiple signatures in Outlook Web and New Outlook) | 🟢 | 🔴 | 🔴 | 🔴 |
-| Number of templates | 🟢 <sub>Unlimited</sub> | 🔴 <sub>1, more charged extra</sub> | 🟢 <sub>Unlimited</sub> | 🟢 <sub>Unlimited</sub> |
-| Targeting and exclusion | 🟢 | 🔴 <sub>Charged extra</sub> | 🟢 | 🟢 |
-| Scheduling | 🟢 | 🔴 <sub>Charged extra</sub> | 🟢 | 🟢 |
-| Banners | 🟢 <sub>Unlimited</sub> | 🔴 <sub>1, more charged extra</sub> | 🟢 <sub>Unlimited</sub> | 🟢 <sub>Unlimited</sub> |
-| QR codes and vCards | 🟢 | 🔴 <sub>Charged extra</sub> | 🔴 <sub>Charged extra</sub> | 🟢 |
-| Signature visible while writing | 🟢 | 🟡 | 🟡  | 🟡 |
-| Signature visible in Sent Items | 🟢 | 🟡 <sub>Cloud mailboxes only</sub> | 🟡 <sub>Cloud mailboxes only</sub> | 🟡 <sub>Cloud mailboxes only</sub> |
-| Out-of-office reply messages | 🟢 | 🔴 <sub>Charged extra</sub> | 🟡 <sub>Same for internal and external senders</sub> | 🔴 <sub>Charged extra</sub> |
-| User-controlled email signatures | 🟢 | 🟡 | 🟡 | 🟡 |
-| Signatures for encrypted messages | 🟢 | 🟡 | 🟡 | 🟡 |
-| Signatures for delegates, shared, additional and automapped mailboxes | 🟢 | 🟡 <sub>No mixing of sender and delegate replacement variables</sub> | 🟡 <sub>No mixing of sender and delegate replacement variables</sub> | 🟡 <sub>No mixing of sender and delegate replacement variables</sub> |
-| Outlook add-in | 🟡 <sub>No on-prem mailboxes on mobile devices</sub> | 🟡 <sub>Not for appointments</sub> | 🟡 <sub>Not for appointments</sub> | 🟢 |
-| Support pricing model | 🟢 <sub>Charged per support hour</sub> | 🔴 <sub>Charged if used or not</sub> | 🔴 <sub>Charged if used or not</sub> | 🔴 <sub>Charged if used or not</sub> |
-| Software escrow | 🟢 <sub>To the free and open-source Set&#8209;OutlookSignatures project</sub> | 🔴 | 🔴 | 🔴 |
-| License cost, 100 mailboxes, 1 year    | 🟢 <sub>appr.   0.3k €</sub> | 🔴 <sub>appr.   1.6k €</sub> | 🟡 <sub>appr.   1.3k €</sub> | 🔴 <sub>appr.   1.6k €</sub> |
-| License cost, 250 mailboxes, 1 year    | 🟢 <sub>appr.   0.6k €</sub> | 🔴 <sub>appr.   4.0k €</sub> | 🟡 <sub>appr.   2.7k €</sub> | 🔴 <sub>appr.   3.6k €</sub> |
-| License cost, 500 mailboxes, 1 year    | 🟢 <sub>appr.   1.3k €</sub> | 🔴 <sub>appr.   8.0k €</sub> | 🟡 <sub>appr.   4.4k €</sub> | 🟡 <sub>appr.   6.2k €</sub> |
-| License cost, 1,000 mailboxes, 1 year  | 🟢 <sub>appr.   2.5k €</sub> | 🔴 <sub>appr.  15.7k €</sub> | 🟡 <sub>appr.   8.7k €</sub> | 🟡 <sub>appr.  10.5k €</sub> |
-| License cost, 10,000 mailboxes, 1 year | 🟢 <sub>appr.  25.0k €</sub> | 🔴 <sub>appr. 110.0k €</sub> | 🟡 <sub>appr.  65.0k €</sub> | 🟡 <sub>appr.  41.0k €</sub> |
+| Feature                                                                                                                         | Set&#8209;OutlookSignatures<br>with&nbsp;Benefactor&nbsp;Circle                                                  | Market Companion&nbsp;A                                                                 | Market Companion&nbsp;B                                                                 | Market Companion&nbsp;C                                                             |
+| :------------------------------------------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------- |
+| Free and Open-Source core                                                                                                       | 🟢                                                                                                                | 🔴                                                                                       | 🔴                                                                                       | 🔴                                                                                   |
+| Emails stay in your environment (no re-routing to 3rd party datacenters)                                                        | 🟢                                                                                                                | 🔴                                                                                       | 🔴                                                                                       | 🔴                                                                                   |
+| Is hosted and runs in environments that you already trust and for which you have established security and management structures | 🟢                                                                                                                | 🔴                                                                                       | 🔴                                                                                       | 🔴                                                                                   |
+| Entra ID and Active Directory permissions                                                                                       | 🟢 <sub>User (a.k.a. delegated) permissions, least privilege principle</sub>                                      | 🔴 <sub>Application permissions, read all directory data (and transfer all emails)</sub> | 🔴 <sub>Application permissions, read all directory data (and transfer all emails)</sub> | 🔴 <sub>Application permissions, read all directory data (and read all emails)</sub> |
+| Entra ID and Active Directory data stays in your environment (no transfer to 3rd party datacenters)                             | 🟢                                                                                                                | 🔴                                                                                       | 🔴                                                                                       | 🔴                                                                                   |
+| Requires an Exchange configuration or adds a dependency to it                                                                   | 🟢                                                                                                                | 🔴                                                                                       | 🔴                                                                                       | 🔴                                                                                   |
+| Multiple independent instances can be run in the same environment                                                               | 🟢                                                                                                                | 🔴                                                                                       | 🔴                                                                                       | 🔴                                                                                   |
+| No telemetry or usage data collection, direct or indirect                                                                       | 🟢                                                                                                                | 🔴                                                                                       | 🔴                                                                                       | 🔴                                                                                   |
+| No auto-renewing subscription                                                                                                   | 🟢                                                                                                                | 🔴                                                                                       | 🔴                                                                                       | 🔴                                                                                   |
+| IT can delegate signature management, e.g. to marketing                                                                         | 🟢                                                                                                                | 🟢                                                                                       | 🟡 <sub>Not at signature level</sub>                                                     | 🟡 <sub>Not at signature level</sub>                                                 |
+| Apply signatures to all emails                                                                                                  | 🟡 <sub>Outlook clients only</sub>                                                                                | 🟢 <sub>With email re-routing to a 3rd party datacenter</sub>                            | 🟢 <sub>With email re-routing to a 3rd party datacenter</sub>                            | 🟢 <sub>With email re-routing to a 3rd party datacenter</sub>                        |
+| Additional data sources besides Active Directory and Entra ID                                                                   | 🟢                                                                                                                | 🟡                                                                                       | 🔴                                                                                       | 🔴                                                                                   |
+| Support for Microsoft national clouds                                                                                           | 🟢 <sub>Global/Public, US Government L4 (GCC, GCC High), US Government L5 (DOD), China operated by 21Vianet</sub> | 🔴                                                                                       | 🔴                                                                                       | 🔴                                                                                   |
+| Support for Microsoft roaming signatures (multiple signatures in Outlook Web and New Outlook)                                   | 🟢                                                                                                                | 🔴                                                                                       | 🔴                                                                                       | 🔴                                                                                   |
+| Number of templates                                                                                                             | 🟢 <sub>Unlimited</sub>                                                                                           | 🔴 <sub>1, more charged extra</sub>                                                      | 🟢 <sub>Unlimited</sub>                                                                  | 🟢 <sub>Unlimited</sub>                                                              |
+| Targeting and exclusion                                                                                                         | 🟢                                                                                                                | 🔴 <sub>Charged extra</sub>                                                              | 🟢                                                                                       | 🟢                                                                                   |
+| Scheduling                                                                                                                      | 🟢                                                                                                                | 🔴 <sub>Charged extra</sub>                                                              | 🟢                                                                                       | 🟢                                                                                   |
+| Banners                                                                                                                         | 🟢 <sub>Unlimited</sub>                                                                                           | 🔴 <sub>1, more charged extra</sub>                                                      | 🟢 <sub>Unlimited</sub>                                                                  | 🟢 <sub>Unlimited</sub>                                                              |
+| QR codes and vCards                                                                                                             | 🟢                                                                                                                | 🔴 <sub>Charged extra</sub>                                                              | 🔴 <sub>Charged extra</sub>                                                              | 🟢                                                                                   |
+| Signature visible while writing                                                                                                 | 🟢                                                                                                                | 🟡                                                                                       | 🟡                                                                                       | 🟡                                                                                   |
+| Signature visible in Sent Items                                                                                                 | 🟢                                                                                                                | 🟡 <sub>Cloud mailboxes only</sub>                                                       | 🟡 <sub>Cloud mailboxes only</sub>                                                       | 🟡 <sub>Cloud mailboxes only</sub>                                                   |
+| Out-of-office reply messages                                                                                                    | 🟢                                                                                                                | 🔴 <sub>Charged extra</sub>                                                              | 🟡 <sub>Same for internal and external senders</sub>                                     | 🔴 <sub>Charged extra</sub>                                                          |
+| User-controlled email signatures                                                                                                | 🟢                                                                                                                | 🟡                                                                                       | 🟡                                                                                       | 🟡                                                                                   |
+| Signatures for encrypted messages                                                                                               | 🟢                                                                                                                | 🟡                                                                                       | 🟡                                                                                       | 🟡                                                                                   |
+| Signatures for delegates, shared, additional and automapped mailboxes                                                           | 🟢                                                                                                                | 🟡 <sub>No mixing of sender and delegate replacement variables</sub>                     | 🟡 <sub>No mixing of sender and delegate replacement variables</sub>                     | 🟡 <sub>No mixing of sender and delegate replacement variables</sub>                 |
+| Outlook add-in                                                                                                                  | 🟡 <sub>No on-prem mailboxes on mobile devices</sub>                                                              | 🟡 <sub>Not for appointments</sub>                                                       | 🟡 <sub>Not for appointments</sub>                                                       | 🟢                                                                                   |
+| Support pricing model                                                                                                           | 🟢 <sub>Charged per support hour</sub>                                                                            | 🔴 <sub>Charged if used or not</sub>                                                     | 🔴 <sub>Charged if used or not</sub>                                                     | 🔴 <sub>Charged if used or not</sub>                                                 |
+| Software escrow                                                                                                                 | 🟢 <sub>To the free and open-source Set&#8209;OutlookSignatures project</sub>                                     | 🔴                                                                                       | 🔴                                                                                       | 🔴                                                                                   |
+| License cost, 100 mailboxes, 1 year                                                                                             | 🟢 <sub>appr.   0.3k €</sub>                                                                                      | 🔴 <sub>appr.   1.6k €</sub>                                                             | 🟡 <sub>appr.   1.3k €</sub>                                                             | 🔴 <sub>appr.   1.6k €</sub>                                                         |
+| License cost, 250 mailboxes, 1 year                                                                                             | 🟢 <sub>appr.   0.6k €</sub>                                                                                      | 🔴 <sub>appr.   4.0k €</sub>                                                             | 🟡 <sub>appr.   2.7k €</sub>                                                             | 🔴 <sub>appr.   3.6k €</sub>                                                         |
+| License cost, 500 mailboxes, 1 year                                                                                             | 🟢 <sub>appr.   1.3k €</sub>                                                                                      | 🔴 <sub>appr.   8.0k €</sub>                                                             | 🟡 <sub>appr.   4.4k €</sub>                                                             | 🟡 <sub>appr.   6.2k €</sub>                                                         |
+| License cost, 1,000 mailboxes, 1 year                                                                                           | 🟢 <sub>appr.   2.5k €</sub>                                                                                      | 🔴 <sub>appr.  15.7k €</sub>                                                             | 🟡 <sub>appr.   8.7k €</sub>                                                             | 🟡 <sub>appr.  10.5k €</sub>                                                         |
+| License cost, 10,000 mailboxes, 1 year                                                                                          | 🟢 <sub>appr.  25.0k €</sub>                                                                                      | 🔴 <sub>appr. 110.0k €</sub>                                                             | 🟡 <sub>appr.  65.0k €</sub>                                                             | 🟡 <sub>appr.  41.0k €</sub>                                                         |
 
 ## 2. Demo
 Contact us for a free interactive product demonstration: <a href="https://forms.office.com/r/VbT0gTynUu"><button class="button is-link is-normal is-hover">Ask for a free product demo</button></a>
