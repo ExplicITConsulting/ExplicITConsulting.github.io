@@ -53,7 +53,7 @@ Central management and deployment ensures that design guidelines are met, guaran
 <div class="grid is-col-min-20" style="margin-left: 2em;">
   <div class="cell">
   <details open>
-      <summary>More cost-effective than other products</summary>
+      <summary><strong>More cost-effective than other products</strong></summary>
       <ul>
         <li>Purchase directly from the manufacturer, no graduated prices.</li>
         <li>Support on demand instead of expensive maintenance contracts.</li>
@@ -65,7 +65,7 @@ Central management and deployment ensures that design guidelines are met, guaran
 
   <div class="cell">
     <details>
-      <summary>Most secure solution on the market</summary>
+      <summary><strong>Most secure solution on the market</strong></summary>
       <ul>
         <li>Does not introduce any new dependencies into your system.</li>
         <li>The source code of the basic software is freely available.</li>
@@ -79,7 +79,7 @@ Central management and deployment ensures that design guidelines are met, guaran
 
   <div class="cell">
     <details>
-      <summary>Simple and intuitive</summary>
+      <summary><strong>Simple and intuitive</strong></summary>
       <ul>
         <li>Templates in Word or HTML format.</li>
         <li>No installation and no management app required.</li>
@@ -90,7 +90,7 @@ Central management and deployment ensures that design guidelines are met, guaran
 
   <div class="cell">
     <details>
-      <summary>Innovative features</summary>
+      <summary><strong>Innovative features</strong></summary>
       <ul>
         <li>Signatures for personal mailboxes, shared mailboxes, boss-secretary constellations, delegation scenarios, Send As, Send On Behalf and more.</li>
         <li>Mix attributes of the current user, the current mailbox, and the managers of both.</li>
@@ -104,7 +104,7 @@ Central management and deployment ensures that design guidelines are met, guaran
 
   <div class="cell">
     <details>
-      <summary>Only one solution for all environments</summary>
+      <summary><strong>Only one solution for all environments</strong></summary>
       <ul>
         <li>On premises, hybrid and cloud only with just one license and one product.</li>
         <li>For all Outlook versions: Classic and New, Web, Windows, macOS, Android and iOS.</li>
@@ -115,7 +115,7 @@ Central management and deployment ensures that design guidelines are met, guaran
 
   <div class="cell">
     <details>
-      <summary>Division of tasks according to your wishes</summary>
+      <summary><strong>Division of tasks according to your wishes</strong></summary>
       <ul>
         <li>IT can retain full control or just take care of running the software.</li>
         <li>Marketing can manage the templates themselves; nothing more than Word is required.</li>
@@ -127,7 +127,7 @@ Central management and deployment ensures that design guidelines are met, guaran
 
   <div class="cell">
     <details>
-      <summary>Made in Austria, proven worldwide</summary>
+      <summary><strong>Made in Austria, proven worldwide</strong></summary>
       <ul>
         <li>From practice, for practice.</li>
         <li>Developed specifically so that SMEs can use all functions at the same low price as large companies.</li>
@@ -136,8 +136,7 @@ Central management and deployment ensures that design guidelines are met, guaran
     </details>
   </div>
 </div>
-
-
+<br>
 Set-OutlookSignatures is the open-source gold standard for email signatures and out-of-office replies for Exchange and all of Outlook. Full-featured, cost-effective, unsurpassed data privacy.<br>Download the free and open-source core version from <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">GitHub</a> for free.
 
 **ExplicIT's Benefactor Circle add-on enhances the open-source version with a great set of additional features and first-class fee-based support.**
