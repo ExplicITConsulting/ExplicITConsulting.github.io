@@ -50,7 +50,7 @@ Email signatures and out-of-office replies are an integral part of corporate ide
 Central management and deployment ensures that design guidelines are met, guarantees correct and up-to-date content, helps comply with legal requirements, relieves staff and creates an additional marketing and sales channel.
 
 **You can do all this, and more, with Set-OutlookSignatures and the Benefactor Circle add-on.**
-<div class="grid">
+<div class="grid is-col-min-32">
   <div class="cell">
   <details open>
       <summary>More cost-effective than other products</summary>
@@ -124,7 +124,7 @@ Central management and deployment ensures that design guidelines are met, guaran
       </ul>  
     </details>
   </div>
-  
+
   <div class="cell">
     <details>
       <summary>Made in Austria, proven worldwide</summary>
