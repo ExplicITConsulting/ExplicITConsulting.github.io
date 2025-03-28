@@ -64,7 +64,7 @@ Central management and deployment ensures that design guidelines are met, guaran
   <summary>Most secure solution on the market</summary>
   <ul>
     <li>Does not introduce any new dependencies into your system.</li>
-    <li>The source code of the basic software is freely available.
+    <li>The source code of the basic software is freely available.</li>
     <li>No transfer of data or e-mails to outside parties.</li>
     <li>Data is only processed on systems that you already trust.</li>
     <li>Works in all Microsoft 365 clouds (Public, US Government, US Government DoD, China)</li>
