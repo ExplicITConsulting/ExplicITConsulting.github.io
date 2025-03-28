@@ -50,6 +50,77 @@ Email signatures and out-of-office replies are an integral part of corporate ide
 Central management and deployment ensures that design guidelines are met, guarantees correct and up-to-date content, helps comply with legal requirements, relieves staff and creates an additional marketing and sales channel.
 
 **You can do all this, and more, with Set-OutlookSignatures and the Benefactor Circle add-on.**
+<details open>
+  <summary>More cost-effective than other products</summary>
+  <ul>
+    <li>Purchase directly from the manufacturer, no graduated prices.</li>
+    <li>Support on demand instead of expensive maintenance contracts.</li>
+    <li>Runs on your own existing (client) infrastructure.</li>
+    <li>Cheaper than independent signature management by your employees.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Most secure solution on the market</summary>
+  <ul>
+    <li>Does not introduce any new dependencies into your system.</li>
+    <li>The source code of the basic software is freely available.
+    <li>No transfer of data or e-mails to outside parties.</li>
+    <li>Data is only processed on systems that you already trust.</li>
+    <li>Works in all Microsoft 365 clouds (Public, US Government, US Government DoD, China)</li>
+    <li>Processing takes place in the security context of your users, with a subset of existing permissions.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Simple and intuitive</summary>
+  <ul>
+    <li>Templates in Word or HTML format.</li>
+    <li>No installation and no management app required.</li>
+    <li>Invisible to users: Signatures are simply there and always up-to-date.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Innovative features</summary>
+  <ul>
+    <li>Signatures for personal mailboxes, shared mailboxes, boss-secretary constellations, delegation scenarios, Send As, Send On Behalf and more.</li>
+    <li>Mix attributes of the current user, the current mailbox, and the managers of both.</li>
+    <li>Any number of signatures that can be assigned flexibly and by date - an additional marketing channel.</li>
+    <li>Signatures that automatically roam with the user - in the cloud and on-prem.</li>
+    <li>Simulation of results for any user.</li>
+    <li>Set out-of-office replies.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Only one solution for all environments</summary>
+  <ul>
+    <li>On premises, hybrid and cloud only with just one license and one product.</li>
+    <li>For all Outlook versions: Classic and New, Web, Windows, macOS, Android and iOS.</li>
+    <li>Integrated connection to Entra ID and Active Directory. Other data sources can be integrated.</li>
+  </ul>  
+</details>
+
+<details>
+  <summary>Division of tasks according to your wishes</summary>
+  <ul>
+    <li>IT can retain full control or just take care of running the software.</li>
+    <li>Marketing can manage the templates themselves; nothing more than Word is required.</li>
+    <li>Delegated permissions can be assigned down to individual templates.</li>
+    <li>Any number of independent instances can be created.</li>
+  </ul>  
+</details>
+
+<details>
+  <summary>Made in Austria, proven worldwide</summary>
+  <ul>
+    <li>From practice, for practice.</li>
+    <li>Developed specifically so that SMEs can use all functions at the same low price as large companies.</li>
+    <li>Trusted and valued by companies and authorities from a wide range of sectors and sizes worldwide.</li>
+  </ul>  
+</details>
+<br>
 
 Set-OutlookSignatures is the open-source gold standard for email signatures and out-of-office replies for Exchange and all of Outlook. Full-featured, cost-effective, unsurpassed data privacy.<br>Download the free and open-source core version from <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">GitHub</a> for free.
 
