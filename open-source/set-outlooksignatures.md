@@ -63,7 +63,7 @@ Central management and deployment ensures that design guidelines are met, guaran
             <li>Cheaper than independent signature management by your employees.</li>
           </ul>
         </details>
-      </content>
+      </div>
     </div>
   </div>
   <div class="column">
@@ -80,7 +80,7 @@ Central management and deployment ensures that design guidelines are met, guaran
             <li>Processing takes place in the security context of your users, with a subset of existing permissions.</li>
           </ul>
         </details>
-      </content>
+      </div>
     </div>
   </div>
 </div>
@@ -97,7 +97,7 @@ Central management and deployment ensures that design guidelines are met, guaran
             <li>Invisible to users: Signatures are simply there and always up-to-date.</li>
           </ul>
         </details>
-      </content>
+      </div>
     </div>
   </div>
   <div class="column">
@@ -114,7 +114,7 @@ Central management and deployment ensures that design guidelines are met, guaran
             <li>Set out-of-office replies.</li>
           </ul>
         </details>
-      </content>
+      </div>
     </div>
   </div>
 </div>
@@ -131,7 +131,7 @@ Central management and deployment ensures that design guidelines are met, guaran
             <li>Integrated connection to Entra ID and Active Directory. Other data sources can be integrated.</li>
           </ul>  
         </details>
-      </content>
+      </div>
     </div>
   </div>
   <div class="column">
@@ -146,7 +146,7 @@ Central management and deployment ensures that design guidelines are met, guaran
             <li>Any number of independent instances can be created.</li>
           </ul>  
         </details>
-      </content>
+      </div>
     </div>
   </div>
 </div>
@@ -163,7 +163,7 @@ Central management and deployment ensures that design guidelines are met, guaran
             <li>Trusted and valued by companies and authorities from a wide range of sectors and sizes worldwide.</li>
           </ul>  
         </details>
-      </content>
+      </div>
     </div>
   </div>
 <div>
