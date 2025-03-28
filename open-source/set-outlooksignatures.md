@@ -50,7 +50,7 @@ Email signatures and out-of-office replies are an integral part of corporate ide
 Central management and deployment ensures that design guidelines are met, guarantees correct and up-to-date content, helps comply with legal requirements, relieves staff and creates an additional marketing and sales channel.
 
 **You can do all this, and more, with Set-OutlookSignatures and the Benefactor Circle add-on.**
-<div class="grid is-col-min-32">
+<div class="grid is-col-min-20">
   <div class="cell">
   <details open>
       <summary>More cost-effective than other products</summary>
@@ -136,6 +136,7 @@ Central management and deployment ensures that design guidelines are met, guaran
     </details>
   </div>
 </div>
+<br>
 
 Set-OutlookSignatures is the open-source gold standard for email signatures and out-of-office replies for Exchange and all of Outlook. Full-featured, cost-effective, unsurpassed data privacy.<br>Download the free and open-source core version from <a href="https://github.com/Set-OutlookSignatures/Set-OutlookSignatures" target="_blank">GitHub</a> for free.
 
