@@ -70,7 +70,7 @@ redirect_from:
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
       <div class="content">
         <h3>Compare</h3>
-        Compare exports to detect permission and group membership changes.
+        Compare exports to detect permission and group membership changes. Use the results for audits or to inform admins and VIPs about changes.
       </div>
     </div>
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
