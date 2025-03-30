@@ -55,6 +55,7 @@ redirect_from:
           <li>Resource Delegates</li>
           <li>Group Members</li>
           <li>Management Role Group Members</li>
+          <li>Security Idendtifiers (SID), Exchange and Object GUIDs</li>
         </ul>
       </div>
     </div>
@@ -63,13 +64,13 @@ redirect_from:
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
       <div class="content">
         <h3>Filter</h3>
-        Filter grantors, trustees and final data.
+        Filter grantors, trustees and final data to ensure the report contains exactly the information you need.
       </div>
     </div>
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
       <div class="content">
         <h3>Compare</h3>
-        Exports can be compared with each other in an automated way to detect permission changes and react to them.
+        Compare exports to detect permission and group membership changes.
       </div>
     </div>
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
