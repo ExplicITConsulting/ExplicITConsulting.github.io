@@ -79,14 +79,15 @@ redirect_from:
         recursive members.
       </div>
     </div>
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
-      <div class="content">
-        <h3>Move to the cloud easier</h3>
-        Permission dependencies beyond the <a
-          href="https://learn.microsoft.com/en-us/exchange/permissions" target="_blank">cross-premises permissions supported by
-          Microsoft</a> can easily be identified and even be represented graphically (sample code included).
-      </div>
-    </div>
+  </div>
+</div>
+
+<div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+  <div class="content">
+    <h3>Move to the cloud easier</h3>
+    Permission dependencies beyond the <a
+      href="https://learn.microsoft.com/en-us/exchange/permissions" target="_blank">cross-premises permissions supported by
+      Microsoft</a> can easily be identified and even be represented graphically (sample code included).
   </div>
 </div>
 
