@@ -38,7 +38,7 @@ redirect_from:
 ## Features
 <div class="columns">
   <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
       <div class="content">
         <h3>Document</h3>
         <ul>
@@ -60,26 +60,26 @@ redirect_from:
     </div>
   </div>
   <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
       <div class="content">
         <h3>Filter</h3>
         Filter grantors, trustees and final data.
       </div>
     </div>
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
       <div class="content">
         <h3>Compare</h3>
         Exports can be compared with each other in an automated way to detect permission changes and react to them.
       </div>
     </div>
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
       <div class="content">
         <h3>Groups</h3>
         Groups that are granted permissions can be shown with their group name, with their direct members, or with their
         recursive members.
       </div>
     </div>
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
       <div class="content">
         <h3>Move to the cloud easier</h3>
         Permission dependencies beyond the <a

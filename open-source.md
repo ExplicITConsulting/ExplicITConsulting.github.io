@@ -18,13 +18,13 @@ redirect_from:
 
 <div class="columns">
   <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
       <div class="content">
         <h3>Fee-based support</h3>
         <p>We offer fee-based support for select open-source software, such as for <a href="/open-source/export-recipientpermissions">Export-RecipientPermissions</a> and <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures</a>.</p>
       </div>
     </div>
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
       <div class="content">
         <h3>Add-on development</h3>
         <p>We develop private and commercial add-ons for open-source software, for example the <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures Benefactor Circle</a> add-on.</p>
@@ -32,7 +32,7 @@ redirect_from:
     </div>
   </div>
   <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
       <div class="content">
         <h3>Sponsoring</h3>
         <p>We sponsor select open-source software and donate code. Some examples:</p>
@@ -47,7 +47,7 @@ redirect_from:
     </div>
   </div>
 </div>
-<div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent lightgrey lightgrey transparent;">
+<div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
   <div class="content">
     <h3>Dear businesses,</h3>
     <p>Open-Source Software can save you enormous amounts of money in comparison to commercial software.</p>
