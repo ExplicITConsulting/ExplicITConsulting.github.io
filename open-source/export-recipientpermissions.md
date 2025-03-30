@@ -53,7 +53,7 @@ redirect_from:
           <li>Forwarders</li>
           <li>Sender restrictions</li>
           <li>Resource Delegates</li>
-          <li>Group Members</li>
+          <li>Group Members (incl. direct and transitive members)</li>
           <li>Management Role Group Members</li>
           <li>Security Idendtifiers (SID), Exchange and Object GUIDs</li>
         </ul>
@@ -75,20 +75,12 @@ redirect_from:
     </div>
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
       <div class="content">
-        <h3>Groups</h3>
-        Groups that are granted permissions can be shown with their group name, with their direct members, or with their
-        recursive members.
+        <h3>Move to the cloud easier</h3>
+        Permission dependencies beyond the <a
+          href="https://learn.microsoft.com/en-us/exchange/permissions" target="_blank">cross-premises permissions supported by
+          Microsoft</a> can easily be identified and even be represented graphically (sample code included).
       </div>
     </div>
-  </div>
-</div>
-
-<div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
-  <div class="content">
-    <h3>Move to the cloud easier</h3>
-    Permission dependencies beyond the <a
-      href="https://learn.microsoft.com/en-us/exchange/permissions" target="_blank">cross-premises permissions supported by
-      Microsoft</a> can easily be identified and even be represented graphically (sample code included).
   </div>
 </div>
 
