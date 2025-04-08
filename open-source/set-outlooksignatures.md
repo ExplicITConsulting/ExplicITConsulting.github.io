@@ -247,7 +247,7 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
 | License cost, 10,000 mailboxes, 1 year                                                                                          | 🟢 <sub>appr.  25.0k €</sub>                                                                                      | 🔴 <sub>appr. 110.0k €</sub>                                                             | 🟡 <sub>appr.  65.0k €</sub>                                                             | 🟡 <sub>appr.  41.0k €</sub>                                                         |
 
 ## 2. Demo
-Contact us for a free interactive product demonstration: <a href="https://forms.office.com/r/VbT0gTynUu"><button class="button is-link is-normal is-hover">Ask for a free product demo</button></a>
+In our product demo, we show you the main features of the Benefactor Circle add-on and the Outlook add-in - interactively and with a focus on your actual needs. <a href="https://outlook.office.com/book/demo.set-outlooksignatures@explicitconsulting.at/"><button class="button is-link is-normal is-hover">Click here to secure your preferred date.</button></a>
 
 For a quick overview, the basic features are shown in our demo video:
 <div class="columns">
