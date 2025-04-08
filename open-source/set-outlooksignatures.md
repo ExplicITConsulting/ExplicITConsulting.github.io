@@ -141,9 +141,9 @@ Set-OutlookSignatures is the open-source gold standard for email signatures and 
 
 **ExplicIT's Benefactor Circle add-on enhances the open-source version with a great set of additional features and first-class fee-based support.**
 
-<a href="#2-demo"><button class="button is-link is-normal is-hover">Request a free interactive product demo</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#2-demo"><button class="button is-link is-normal is-hover">Get a free interactive product demo</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="#62-trial-version"><button class="button is-link is-normal is-hover">Request a trial version or a license quote</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="#5-fee-based-support"><button class="button is-link is-normal is-hover">Get fee-based support</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="#5-fee-based-support"><button class="button is-link is-normal is-hover">Order fee-based support</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
 
 <!-- omit in toc -->
 ## Table of Contents
@@ -247,7 +247,7 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
 | License cost, 10,000 mailboxes, 1 year                                                                                          | 🟢 <sub>appr.  25.0k €</sub>                                                                                      | 🔴 <sub>appr. 110.0k €</sub>                                                             | 🟡 <sub>appr.  65.0k €</sub>                                                             | 🟡 <sub>appr.  41.0k €</sub>                                                         |
 
 ## 2. Demo
-In our product demo, we show you the main features of the Benefactor Circle add-on and the Outlook add-in - interactively and with a focus on your actual needs. <a href="https://outlook.office.com/book/demo.set-outlooksignatures@explicitconsulting.at/"><button class="button is-link is-normal is-hover">Click here to secure your preferred date.</button></a>
+In our product demo, we show you the main features of the Benefactor Circle add-on and the Outlook add-in - interactively and with a focus on your actual needs.<br><a href="https://outlook.office.com/book/demo.set-outlooksignatures@explicitconsulting.at/"><button class="button is-link is-normal is-hover">Click here to secure your preferred date</button></a>
 
 For a quick overview, the basic features are shown in our demo video:
 <div class="columns">
