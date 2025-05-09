@@ -225,7 +225,8 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
 | Apply signatures to all emails | 🟡 <sub>Outlook clients only</sub> | 🟢 <sub>With email re-routing to a 3rd party datacenter</sub> | 🟢 <sub>With email re-routing to a 3rd party datacenter</sub> | 🟢 <sub>With email re-routing to a 3rd party datacenter</sub> |
 | Apply signature based on recipients | 🟡 <sub>Manually</sub> | 🟡 <sub>One signature for all recipients, based on first rule match</sub> | 🔴 | 🔴 |
 | Additional data sources besides Active Directory and Entra ID | 🟢 | 🟡 | 🔴 | 🔴 |
-| Support for Microsoft national clouds | 🟢 <sub>Global/Public, US Government L4 (GCC, GCC High), US Government L5 (DOD), China operated by 21Vianet</sub> | 🔴 | 🔴 | 🔴 |
+| Supports Microsoft national clouds | 🟢 <sub>Global/Public, US Government L4 (GCC, GCC High), US Government L5 (DOD), China operated by 21Vianet</sub> | 🔴 | 🔴 | 🔴 |
+| Supports cross-tenant access and multitenant organizations | 🟢 | 🔴 | 🔴 | 🔴 |
 | Support for Microsoft roaming signatures (multiple signatures in Outlook Web and New Outlook) | 🟢 | 🔴 | 🔴 | 🔴 |
 | Number of templates | 🟢 <sub>Unlimited</sub> | 🔴 <sub>1, more charged extra</sub> | 🟢 <sub>Unlimited</sub> | 🟢 <sub>Unlimited</sub> |
 | Targeting and exclusion | 🟢 | 🔴 <sub>Charged extra</sub> | 🟢 | 🟢 |
