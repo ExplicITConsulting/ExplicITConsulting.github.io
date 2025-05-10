@@ -52,34 +52,33 @@ Central management and deployment ensures that design guidelines are met, guaran
 **You can do all this, and more, with Set-OutlookSignatures and the Benefactor Circle add-on.**
 <div class="grid is-col-min-20" style="margin-left: 2em;">
   <div class="cell">
-  <details open>
-      <summary><strong>More cost-effective than other products</strong></summary>
+    <details open>
+      <summary>More cost-effective than other products</summary>
       <ul>
-        <li>Purchase directly from the manufacturer, no graduated prices.</li>
+        <li>Purchase directly from the manufacturer, no rebate-driven prices.</li>
         <li>Support on demand instead of expensive maintenance contracts.</li>
         <li>Runs on your own existing (client) infrastructure.</li>
-        <li>Cheaper than independent signature management by your employees.</li>
+        <li>Cheaper than having your employees manage signatures manually.</li>
       </ul>
     </details>
   </div>
 
   <div class="cell">
     <details>
-      <summary><strong>Most secure solution on the market</strong></summary>
+      <summary>Most secure solution on the market</summary>
       <ul>
         <li>Does not introduce any new dependencies into your system.</li>
         <li>The source code of the basic software is freely available.</li>
-        <li>No transfer of data or e-mails to outside parties.</li>
-        <li>Data is only processed on systems that you already trust.</li>
-        <li>Works in all Microsoft 365 clouds (Public, US Government, US Government DoD, China)</li>
-        <li>Processing takes place in the security context of your users, with a subset of existing permissions.</li>
+        <li>No transfer of directory data or e-mails outside your own systems.</li>
+        <li>Data is o nly processed on systems that you already trust.</li>
+        <li>Processing takes place in the security context of your users, with only a subset of existing permissions.</li>
       </ul>
     </details>
-  </div>
+</div>
 
   <div class="cell">
     <details>
-      <summary><strong>Simple and intuitive</strong></summary>
+      <summary>Simple and intuitive</summary>
       <ul>
         <li>Templates in Word or HTML format.</li>
         <li>No installation and no management app required.</li>
@@ -90,35 +89,36 @@ Central management and deployment ensures that design guidelines are met, guaran
 
   <div class="cell">
     <details>
-      <summary><strong>Innovative features</strong></summary>
+      <summary>Innovative features</summary>
       <ul>
         <li>Signatures for personal mailboxes, shared mailboxes, boss-secretary constellations, delegation scenarios, Send As, Send On Behalf and more.</li>
-        <li>Mix attributes of the current user, the current mailbox, and the managers of both.</li>
-        <li>Any number of signatures that can be assigned flexibly and by date - an additional marketing channel.</li>
-        <li>Signatures that automatically roam with the user - in the cloud and on-prem.</li>
-        <li>Simulation of results for any user.</li>
-        <li>Set out-of-office replies.</li>
+        <li>Use attributes of the current user, the current mailbox, and the managers of both.</li>
+        <li>First solution supporting roaming signatures - in the cloud and on-prem.</li>
+        <li>Simulate signatures for any user in your environment.</li>
+        <li>Seting out-of-office replies.</li>
       </ul>
     </details>
   </div>
 
   <div class="cell">
     <details>
-      <summary><strong>Only one solution for all environments</strong></summary>
+      <summary>One solution for all architectures</summary>
       <ul>
         <li>On premises, hybrid and cloud only with just one license and one product.</li>
         <li>For all Outlook versions: Classic and New, Web, Windows, macOS, Android and iOS.</li>
-        <li>Integrated connection to Entra ID and Active Directory. Other data sources can be integrated.</li>
+        <li>First solution supporting cross-tenant and multitenant organization scenarios.</li>
+        <li>Works in all Microsoft 365 clouds (Public, US Government, US Government DoD, China)</li>
+        <li>Many additional data sources can be accessed to enrich Entra ID and Active Directory data.</li>
       </ul>  
     </details>
   </div>
 
   <div class="cell">
     <details>
-      <summary><strong>Division of tasks according to your wishes</strong></summary>
+      <summary>Delegate tasks as needed</summary>
       <ul>
-        <li>IT can retain full control or just take care of running the software.</li>
-        <li>Marketing can manage the templates themselves; nothing more than Word is required.</li>
+        <li>IT can keep full control or only support the setup.</li>
+        <li>Marketing can manage the templates themselves. Nothing more than Word is required.</li>
         <li>Delegated permissions can be assigned down to individual templates.</li>
         <li>Any number of independent instances can be created.</li>
       </ul>  
@@ -127,11 +127,11 @@ Central management and deployment ensures that design guidelines are met, guaran
 
   <div class="cell">
     <details>
-      <summary><strong>Made in Austria, proven worldwide</strong></summary>
+      <summary>Made in Austria, proven worldwide</summary>
       <ul>
         <li>From practice, for practice.</li>
-        <li>Developed specifically so that SMEs can use all functions at the same low price as large companies.</li>
-        <li>Trusted and valued by companies and authorities from a wide range of sectors and sizes worldwide.</li>
+        <li>Developed specifically so that SMEs can gain the same benefits as as large companies.</li>
+        <li>Trusted and valued by companies and authorities across the globe.</li>
       </ul>  
     </details>
   </div>
