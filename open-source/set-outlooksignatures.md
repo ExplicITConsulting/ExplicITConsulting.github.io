@@ -35,31 +35,31 @@ redirect_from:
   - /open-source/benefactor-circle/
   - /support-for-open-source/set-outlooksignatures-benefactor-circle
 ---
+
 <div class="columns">
   <div class="column is-one-quarter">
-    <h2><img src="/assets/images/set-outlooksignatures benefactor circle.png" alt="Set-OutlookSignatures Benefactor Circle"></h2>
+    <h2><img src="/assets/images/set-outlooksignatures logo.png" alt="Set-OutlookSignatures Benefactor Circle"></h2>
   </div>
   <div class="column">
     <h2>Welcome!</h2>
-    <p>If email signatures or out-of-office replies are on your agenda, the following is worth reading - whether you work in marketing, sales, corporate communications, the legal or the compliance department, as Exchange or client administrator, as CIO or IT lead, as key user or consultant.</p>
+    <p>Email signatures and out-of-office replies are an integral part of corporate identity and corporate design, of successful concepts for media and internet presence, and of marketing campaigns. Similar to web presences, business emails are usually subject to an imprint obligation, and non-compliance can result in severe penalties.</p>
   </div>
 </div>
 
-Email signatures and out-of-office replies are an integral part of corporate identity and corporate design, of successful concepts for media and internet presence, and of marketing campaigns. Similar to web presences, business emails are usually subject to an imprint obligation, and non-compliance can result in severe penalties.
+Central management and deployment ensures that design guidelines are met, guarantees correct and up-to-date content, helps comply with legal requirements, relieves staff and creates an additional marketing and sales channel for free.
 
-Central management and deployment ensures that design guidelines are met, guarantees correct and up-to-date content, helps comply with legal requirements, relieves staff and creates an additional marketing and sales channel.
+**Set-OutlookSignatures and the Benefactor Circle add-on can do all this, and much more.**
 
-**You can do all this, and more, with Set-OutlookSignatures and the Benefactor Circle add-on.**
+**Full-featured, cost-effective, unsurpassed data privacy:**
 <div class="grid is-col-min-20" style="margin-left: 2em;">
   <div class="cell">
     <details open>
-      <summary>More cost-effective than other products</summary>
+      <summary>Made in Austria, proven worldwide</summary>
       <ul>
-        <li>Purchase directly from the manufacturer, no rebate-driven prices.</li>
-        <li>Support on demand instead of expensive maintenance contracts.</li>
-        <li>Runs on your own existing (client) infrastructure.</li>
-        <li>Cheaper than having your employees manage signatures manually.</li>
-      </ul>
+        <li>From practice, for practice.</li>
+        <li>Developed specifically so that SMEs can gain the same benefits as as large companies.</li>
+        <li>Trusted and valued by companies and authorities across the globe.</li>
+      </ul>  
     </details>
   </div>
 
@@ -70,11 +70,24 @@ Central management and deployment ensures that design guidelines are met, guaran
         <li>Does not introduce any new dependencies into your system.</li>
         <li>The source code of the basic software is freely available.</li>
         <li>No transfer of directory data or e-mails outside your own systems.</li>
-        <li>Data is o nly processed on systems that you already trust.</li>
+        <li>Data is only processed on systems that you already trust.</li>
         <li>Processing takes place in the security context of your users, with only a subset of existing permissions.</li>
       </ul>
     </details>
-</div>
+  </div>
+
+  <div class="cell">
+    <details>
+      <summary>One solution for all architectures</summary>
+      <ul>
+        <li>On premises, hybrid and cloud only with just one license and one product.</li>
+        <li>For all Outlook versions: Classic and New, Web, Windows, macOS, Android and iOS.</li>
+        <li>First solution supporting cross-tenant and multitenant organization scenarios.</li>
+        <li>Works in all Microsoft 365 clouds (Public, US Government, US Government DoD, China)</li>
+        <li>Many additional data sources can be accessed to enrich Entra ID and Active Directory data.</li>
+      </ul>  
+    </details>
+  </div>
 
   <div class="cell">
     <details>
@@ -102,19 +115,6 @@ Central management and deployment ensures that design guidelines are met, guaran
 
   <div class="cell">
     <details>
-      <summary>One solution for all architectures</summary>
-      <ul>
-        <li>On premises, hybrid and cloud only with just one license and one product.</li>
-        <li>For all Outlook versions: Classic and New, Web, Windows, macOS, Android and iOS.</li>
-        <li>First solution supporting cross-tenant and multitenant organization scenarios.</li>
-        <li>Works in all Microsoft 365 clouds (Public, US Government, US Government DoD, China)</li>
-        <li>Many additional data sources can be accessed to enrich Entra ID and Active Directory data.</li>
-      </ul>  
-    </details>
-  </div>
-
-  <div class="cell">
-    <details>
       <summary>Delegate tasks as needed</summary>
       <ul>
         <li>IT can keep full control or only support the setup.</li>
@@ -127,12 +127,13 @@ Central management and deployment ensures that design guidelines are met, guaran
 
   <div class="cell">
     <details>
-      <summary>Made in Austria, proven worldwide</summary>
+      <summary>More cost-effective than other products</summary>
       <ul>
-        <li>From practice, for practice.</li>
-        <li>Developed specifically so that SMEs can gain the same benefits as as large companies.</li>
-        <li>Trusted and valued by companies and authorities across the globe.</li>
-      </ul>  
+        <li>Purchase directly from the manufacturer, no rebate-driven prices.</li>
+        <li>Support on demand instead of expensive maintenance contracts.</li>
+        <li>Runs on your own existing (client) infrastructure.</li>
+        <li>Cheaper than having your employees manage signatures manually.</li>
+      </ul>
     </details>
   </div>
 </div>
