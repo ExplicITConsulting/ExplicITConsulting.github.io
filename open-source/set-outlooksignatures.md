@@ -165,7 +165,7 @@ Set-OutlookSignatures is the open-source gold standard for email signatures and 
 
 ## 1. Feature comparison
 
-| Feature | Set&#8209;OutlookSignatures<br>with&nbsp;Benefactor&nbsp;Circle | Market Companion&nbsp;A | Market Companion&nbsp;B | Market Companion&nbsp;C |
+| Feature | Set&#8209;OutlookSignatures<br>with&nbsp;Benefactor&nbsp;Circle&nbsp;add-on | Market Companion&nbsp;A | Market Companion&nbsp;B | Market Companion&nbsp;C |
 | :--- | :--- | :--- | :--- | :--- |
 | Free and Open-Source core | 🟢 | 🔴 | 🔴 | 🔴 |
 | Emails stay in your environment (no re-routing to 3rd party datacenters) | 🟢 | 🟡 <sub>Optional, causes reduced feature set</sub> | 🔴 | 🔴 |
