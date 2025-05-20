@@ -18,7 +18,7 @@ You are not buying just any support, but our comprehensive expertise as a manufa
 - Only expenses actually incurred will be invoiced, by the started hour. Invoicing takes place monthly in arrears, with a payment term of 14 days. You may define a maximum number of work hours.
 - Support is available 24/5 (Austrian business days) via email and a callback option. 24/7 and on-call options are available upon request. 100% surcharge for appointments from 20:00 to 06:00 CET/CEST on weekdays, and all day on weekends and Austrian holidays.
 - Our [General Terms and Conditions](/legal) apply in full and without amendment.
-- Technical guides, FAQs, video demonstrations and additional documentation are available for free [here](https://github.com/Set-OutlookSignatures/Set-OutlookSignatures).
+- Technical guides, FAQs, video demonstrations and additional documentation are available for free [here](https://set-outlooksignatures.com).
 
 ## Deutsch: Bedingungen und Konditionen für kommerzielle Unterstützung
 - Das Benefactor Circle Add-on ist ein Produkt von ExplicIT Consulting, nicht jedoch die freie und quelloffene Software Set-OutlookSignatures. Da Set-OutlookSignatures großartige Software ist, bieten wir unseren erstklassigen kommerziellen Support dafür an. Wenn Sie kostenlosen Support durch die Community bevorzugen, erstellen Sie bitte ein Issue auf der GitHub-Seite von Set-OutlookSignatures.
