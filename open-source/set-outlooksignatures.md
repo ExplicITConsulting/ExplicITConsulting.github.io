@@ -247,7 +247,7 @@ ExplicIT Consulting's commercial Benefactor Circle add-on enhances Set-OutlookSi
 
 
 ## 3. Demo
-In your free interactive product demo, we show you the main features of the Benefactor Circle add-on and the Outlook add-in - interactively and with a focus on your actual needs.<br><a href="https://outlook.office.com/book/demo.set-outlooksignatures@explicitconsulting.at/" target="_blank"><button class="button is-link is-normal is-hover">Click here to secure your preferred date</button></a>
+In your free interactive product demo, we show you the main features of the Benefactor Circle add-on and the Outlook add-in - interactively and with a focus on your actual needs.<br><a href="https://outlook.cloud.microsoft/book/demo.set-outlooksignatures@explicitconsulting.at/" target="_blank"><button class="button is-link is-normal is-hover">Click here to secure your preferred date</button></a>
 
 For a quick overview, the basic features are shown in our demo video:
 <div class="columns">
@@ -346,7 +346,7 @@ You are not buying just any support, but our comprehensive expertise as manufact
 
 **Our all-inclusive support promise: If your support request stems from a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, its documentation, or the provided components, support is free — no exceptions. For all other issues, you will receive the same top-notch support at a fair price.**
 
-<a href="https://forms.office.com/r/CnwjH98vSs"><button class="button is-link is-normal is-hover">Order fee-based support</button></a>
+<a href="https://forms.cloud.microsoft/r/CnwjH98vSs"><button class="button is-link is-normal is-hover">Order fee-based support</button></a>
 
 
 ## 7. Buying, extending and changing licenses
@@ -386,7 +386,7 @@ You may want to start with a 14-day trial license.
 The Benefactor Circle add-on extends the feature set of the free and open-source core version of Set-OutlookSignatures, so make sure that the core version is working correctly before requesting a trial version.  
 If you look for help implementing the free and open-source core version of Set-OutlookSignatures, go through the Quick Start Guide in the readme file, open an issue at GitHub, or contact us: We are happy to help you implement Set-OutlookSignatures in your own environment as part of our fee-based support.
 
-As soon as the open-source core version is running, it is time to take the next step:<br><a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank"><button class="button is-link is-normal is-hover">Request a full-featured 14-day trial license</button></a>
+As soon as the open-source core version is running, it is time to take the next step:<br><a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb" target="_blank"><button class="button is-link is-normal is-hover">Request a full-featured 14-day trial license</button></a>
 
 To use the license file, just add two parameters to your call of Set-OutlookSignatures.ps1:
 - `BenefactorCircleLicenseFile` with the path to your individualized license file
@@ -395,7 +395,7 @@ To use the license file, just add two parameters to your call of Set-OutlookSign
 Trial licenses can not be extended or re-issued. They are limited to 14 days runtime and a maximum of 20 mailboxes.<br>The trial period starts when we create and submit the trial version, not with you using it for the first time (that's not possible, as our software does not phone home).<br>It is strongly recommended to start your trial only when the free and open-source version of Set-OutlookSignatures has already been implemented successfully. Also make sure you have a test plan and reserved time to execute it.
 
 ### 7.3. Order process for non-trial versions
-<a href="https://forms.office.com/r/sgKrkkd0Eb" target="_blank"><button class="button is-link is-normal is-hover">Request a license quote for Set-OutlookSignatures Benefactor Circle</button></a>
+<a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb" target="_blank"><button class="button is-link is-normal is-hover">Request a license quote for Set-OutlookSignatures Benefactor Circle</button></a>
 
 You will receive a quote shortly. As soon as all details are ironed out, you will receive an invoice and can start the payment process.
 
