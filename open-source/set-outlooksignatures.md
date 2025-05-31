@@ -197,11 +197,11 @@ Set-OutlookSignatures is the open-source gold standard for email signatures and 
 | Outlook add-in | 🟡 No on-prem mailboxes on mobile devices | 🟡 Not for appointments | 🟡 Not for appointments | 🟢 |
 | Support pricing model | 🟢 Charged per support hour | 🔴 Charged if used or not | 🔴 Charged if used or not | 🔴 Charged if used or not |
 | Software escrow | 🟢 To the free and open-source Set&#8209;OutlookSignatures project | 🔴 | 🔴 | 🔴 |
-| License cost for 100 mailboxes, 1 year    | 🟢    300&nbsp;€ | 🔴 appr.   1,600&nbsp;€ | 🟡 appr.  1,300&nbsp;€ | 🔴 appr.  1,600&nbsp;€ |
-| License cost for 250 mailboxes, 1 year    | 🟢    750&nbsp;€ | 🔴 appr.   4,000&nbsp;€ | 🟡 appr.  2,700&nbsp;€ | 🔴 appr.  3,600&nbsp;€ |
-| License cost for 500 mailboxes, 1 year    | 🟢  1,500&nbsp;€ | 🔴 appr.   8,000&nbsp;€ | 🟡 appr.  4,400&nbsp;€ | 🟡 appr.  6,200&nbsp;€ |
-| License cost for 1,000 mailboxes, 1 year  | 🟢  3,000&nbsp;€ | 🔴 appr.  15,700&nbsp;€ | 🟡 appr.  8,700&nbsp;€ | 🟡 appr. 10,500&nbsp;€ |
-| License cost for 10,000 mailboxes, 1 year | 🟢 30,000&nbsp;€ | 🔴 appr. 110,000&nbsp;€ | 🟡 appr. 65,000&nbsp;€ | 🟡 appr. 41,000&nbsp;€ |
+| License cost for 100 mailboxes, 1 year    | 🟢 fair    300&nbsp;€ | 🔴 appr.   1,600&nbsp;€ | 🟡 appr.  1,300&nbsp;€ | 🔴 appr.  1,600&nbsp;€ |
+| License cost for 250 mailboxes, 1 year    | 🟢 fair    750&nbsp;€ | 🔴 appr.   4,000&nbsp;€ | 🟡 appr.  2,700&nbsp;€ | 🔴 appr.  3,600&nbsp;€ |
+| License cost for 500 mailboxes, 1 year    | 🟢 fair  1,500&nbsp;€ | 🔴 appr.   8,000&nbsp;€ | 🟡 appr.  4,400&nbsp;€ | 🟡 appr.  6,200&nbsp;€ |
+| License cost for 1,000 mailboxes, 1 year  | 🟢 fair  3,000&nbsp;€ | 🔴 appr.  15,700&nbsp;€ | 🟡 appr.  8,700&nbsp;€ | 🟡 appr. 10,500&nbsp;€ |
+| License cost for 10,000 mailboxes, 1 year | 🟢 fair 30,000&nbsp;€ | 🔴 appr. 110,000&nbsp;€ | 🟡 appr. 65,000&nbsp;€ | 🟡 appr. 41,000&nbsp;€ |
 
 ## 2. Features&nbsp;&nbsp;&nbsp;&nbsp;<a href="#feature-comparison"><img src="https://img.shields.io/badge/go%20to-🆚%20Feature%20Comparison%20🆚-lawngreen?labelColor=black" alt="Go to feature comparison"></a>
 With Set-OutlookSignatures, signatures and out-of-office replies can be:
