@@ -144,7 +144,7 @@ Set-OutlookSignatures is the open-source gold standard for email signatures and 
 
 <!-- omit in toc -->
 ## Table of Contents
-- [1. Feature comparison](#1-feature-comparison)
+- [1. Feature comparison    ](#1-feature-comparison)
 - [2. Features    ](#2-features)
 - [3. Demo](#3-demo)
 - [4. Benefactor Circle exclusive features](#4-benefactor-circle-exclusive-features)
@@ -163,7 +163,7 @@ Set-OutlookSignatures is the open-source gold standard for email signatures and 
 - [10. Data protection notice](#10-data-protection-notice)
 
 
-## 1. Feature comparison
+## 1. Feature comparison&nbsp;&nbsp;&nbsp;&nbsp;<a href="#2-features"><img src="https://img.shields.io/badge/go%20to-Features-lawngreen?labelColor=black" alt="Go to features"></a>
 
 | Feature | Set&#8209;OutlookSignatures<br>with&nbsp;Benefactor&nbsp;Circle&nbsp;add-on | Market Companion&nbsp;A | Market Companion&nbsp;B | Market Companion&nbsp;C |
 | :--- | :--- | :--- | :--- | :--- |
@@ -203,7 +203,7 @@ Set-OutlookSignatures is the open-source gold standard for email signatures and 
 | License cost for 1,000 mailboxes, 1 year  | 🟢 3,000&nbsp;€ | 🔴 ca. 15,700&nbsp;€ | 🟡 ca. 8,700&nbsp;€ | 🟡 ca. 10,500&nbsp;€ |
 | License cost for 10,000 mailboxes, 1 year | 🟢 30,000&nbsp;€ | 🔴 ca. 110,000&nbsp;€ | 🟡 ca. 65,000&nbsp;€ | 🟡 ca. 41,000&nbsp;€ |
 
-## 2. Features&nbsp;&nbsp;&nbsp;&nbsp;<a href="#feature-comparison"><img src="https://img.shields.io/badge/go%20to-🆚%20Feature%20Comparison%20🆚-lawngreen?labelColor=black" alt="Go to feature comparison"></a>
+## 2. Features&nbsp;&nbsp;&nbsp;&nbsp;<a href="#1-feature-comparison"><img src="https://img.shields.io/badge/go%20to-🆚%20Feature%20Comparison%20🆚-lawngreen?labelColor=black" alt="Go to feature comparison"></a>
 With Set-OutlookSignatures, signatures and out-of-office replies can be:
 - Generated from **templates in DOCX or HTML** file format  
 - Customized with a **broad range of variables**, including **photos and images**, from Active Directory and other sources
