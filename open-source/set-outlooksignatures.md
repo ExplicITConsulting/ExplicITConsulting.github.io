@@ -197,11 +197,11 @@ Set-OutlookSignatures is the open-source gold standard for email signatures and 
 | Outlook add-in | 🟡 No on-prem mailboxes on mobile devices | 🟡 Not for appointments | 🟡 Not for appointments | 🟢 |
 | Support pricing model | 🟢 Charged per support hour | 🔴 Charged if used or not | 🔴 Charged if used or not | 🔴 Charged if used or not |
 | Software escrow | 🟢 To the free and open-source Set&#8209;OutlookSignatures project | 🔴 | 🔴 | 🔴 |
-| License cost for 100 mailboxes, 1 year    | 🟢 fair    300&nbsp;€ | 🔴 appr.   1,600&nbsp;€ | 🟡 appr.  1,300&nbsp;€ | 🔴 appr.  1,600&nbsp;€ |
-| License cost for 250 mailboxes, 1 year    | 🟢 fair    750&nbsp;€ | 🔴 appr.   4,000&nbsp;€ | 🟡 appr.  2,700&nbsp;€ | 🔴 appr.  3,600&nbsp;€ |
-| License cost for 500 mailboxes, 1 year    | 🟢 fair  1,500&nbsp;€ | 🔴 appr.   8,000&nbsp;€ | 🟡 appr.  4,400&nbsp;€ | 🟡 appr.  6,200&nbsp;€ |
-| License cost for 1,000 mailboxes, 1 year  | 🟢 fair  3,000&nbsp;€ | 🔴 appr.  15,700&nbsp;€ | 🟡 appr.  8,700&nbsp;€ | 🟡 appr. 10,500&nbsp;€ |
-| License cost for 10,000 mailboxes, 1 year | 🟢 fair 30,000&nbsp;€ | 🔴 appr. 110,000&nbsp;€ | 🟡 appr. 65,000&nbsp;€ | 🟡 appr. 41,000&nbsp;€ |
+| License cost for 100 mailboxes, 1 year    | 🟢 300€ | 🔴 ca. 1,600&nbsp;€ | 🟡 ca. 1,300&nbsp;€ | 🔴 ca. 1,600&nbsp;€ |
+| License cost for 250 mailboxes, 1 year    | 🟢 750&nbsp;€ | 🔴 ca. 4,000&nbsp;€ | 🟡 ca. 2,700&nbsp;€ | 🔴 ca. 3,600&nbsp;€ |
+| License cost for 500 mailboxes, 1 year    | 🟢 1,500&nbsp;€ | 🔴 ca. 8,000&nbsp;€ | 🟡 ca. 4,400&nbsp;€ | 🟡 ca. 6,200&nbsp;€ |
+| License cost for 1,000 mailboxes, 1 year  | 🟢 3,000&nbsp;€ | 🔴 ca. 15,700&nbsp;€ | 🟡 ca. 8,700&nbsp;€ | 🟡 ca. 10,500&nbsp;€ |
+| License cost for 10,000 mailboxes, 1 year | 🟢 30,000&nbsp;€ | 🔴 ca. 110,000&nbsp;€ | 🟡 ca. 65,000&nbsp;€ | 🟡 ca. 41,000&nbsp;€ |
 
 ## 2. Features&nbsp;&nbsp;&nbsp;&nbsp;<a href="#feature-comparison"><img src="https://img.shields.io/badge/go%20to-🆚%20Feature%20Comparison%20🆚-lawngreen?labelColor=black" alt="Go to feature comparison"></a>
 With Set-OutlookSignatures, signatures and out-of-office replies can be:
@@ -313,7 +313,7 @@ There are three relevant questions to calculate the financial benefits:
 - What is the added value of using email as an additional marketing channel?
 - Does the new software cost less than the effort we want to save users?
  
-While the first two are difficult to calculate and very individual, the last question is easier to answer. Let's assume that an average employee costs 60,000 € per year from the employer's point of view (including all taxes, social security, etc.) for 1,800 hours of work. This gives costs of 0.55 € for each minute of employee work.
+While the first two are difficult to calculate and very individual, the last question is easier to answer. Let's assume that an average employee costs 60,000&nbsp;€ per year from the employer's point of view (including all taxes, social security, etc.) for 1,800 hours of work. This gives costs of 0.55&nbsp;€ for each minute of employee work.
 
 Other parameters we need are:
 - How many times a year do parameters relevant to signatures change (corporate design, job title, logos, marketing banners, etc.)?
@@ -325,7 +325,7 @@ Formula: `CostPerMinute * NumberOfChanges * NumberOfMinutes * NumberOfSignatures
 
 Let's assume 2 changes per year, 3 minutes for making the change (including reading the instructions) per signature, 2 signatures, 1 client: `0.55 * 2 * 3 * 2 * 1`
  
-Per user and year, the costs are now 6.60 € in manual effort compared to 3.00 € for a centrally managed solution with Set-OutlookSignatures.
+Per user and year, the costs are now 6.60&nbsp;€ in manual effort compared to 3.00&nbsp;€ for a centrally managed solution with Set-OutlookSignatures.
 
 This calculation does not even take into account the following:
 - Manual effort required for signature management in shared mailboxes
@@ -351,7 +351,7 @@ You are not buying just any support, but our comprehensive expertise as manufact
 
 ## 7. Buying, extending and changing licenses
 ### 7.1. Price and general information
-The price currently is **3.00 € net per mailbox and year**, which is **0.25 € net per mailbox and month**.
+The price currently is **3.00&nbsp;€ net per mailbox and year**, which is **0.25&nbsp;€ net per mailbox and month**.
 
 We keep license costs as fair as possible. Fair means:
 - Small companies always just pay the same low price as big enterprises.  
@@ -362,7 +362,7 @@ We keep license costs as fair as possible. Fair means:
   Everything runs on your existing systems, which you already trust and govern, and within your own security boundaries.
 - No deliberately inflated prices that are then "discounted" through negotiations.<br><br>
 
-There is no minimum number of mailboxes, only a minimum amount of 210.00 € net per invoice.
+There is no minimum number of mailboxes, only a minimum amount of 210.00&nbsp;€ net per invoice.
 
 Each mailbox in your environment for which you want to use an exclusive Benefactor Circle feature requires a license. This also applies to shared mailboxes.
 
