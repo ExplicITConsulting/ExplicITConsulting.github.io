@@ -168,40 +168,40 @@ Set-OutlookSignatures is the open-source gold standard for email signatures and 
 | Feature | Set&#8209;OutlookSignatures<br>with&nbsp;Benefactor&nbsp;Circle&nbsp;add-on | Market Companion&nbsp;A | Market Companion&nbsp;B | Market Companion&nbsp;C |
 | :--- | :--- | :--- | :--- | :--- |
 | Free and Open-Source core | 🟢 | 🔴 | 🔴 | 🔴 |
-| Emails stay in your environment (no re-routing to 3rd party datacenters) | 🟢 | 🟡 <sub>Optional, causes reduced feature set</sub> | 🔴 | 🔴 |
+| Emails stay in your environment (no re-routing to 3rd party datacenters) | 🟢 | 🟡 Optional, causes reduced feature set | 🔴 | 🔴 |
 | Is hosted and runs in environments that you already trust and for which you have established security and management structures | 🟢 | 🔴 | 🔴 | 🔴 |
-| Entra ID and Active Directory permissions | 🟢 <sub>User (a.k.a. delegated) permissions, least privilege principle</sub> | 🔴 <sub>Application permissions, read all directory data (and transfer all emails)</sub> | 🔴 <sub>Application permissions, read all directory data (and transfer all emails)</sub> | 🔴 <sub>Application permissions, read all directory data (and read all emails)</sub> |
+| Entra ID and Active Directory permissions | 🟢 User (a.k.a. delegated) permissions, least privilege principle | 🔴 Application permissions, read all directory data (and transfer all emails) | 🔴 Application permissions, read all directory data (and transfer all emails) | 🔴 Application permissions, read all directory data (and read all emails) |
 | Entra ID and Active Directory data stays in your environment (no transfer to 3rd party datacenters) | 🟢 | 🔴 | 🔴 | 🔴 |
 | Does not require configuring Exchange adding a dependency to it | 🟢 | 🔴 | 🔴 | 🔴 |
 | Multiple independent instances can be run in the same environment | 🟢 | 🔴 | 🔴 | 🔴 |
 | No telemetry or usage data collection, direct or indirect | 🟢 | 🔴 | 🔴 | 🔴 |
 | No auto-renewing subscription | 🟢 | 🔴 | 🔴 | 🔴 |
-| IT can delegate signature management, e.g. to marketing | 🟢 | 🟢 | 🟡 <sub>Not at signature level</sub> | 🟡 <sub>Not at signature level</sub> |
-| Apply signatures to all emails | 🟡 <sub>Outlook clients only</sub> | 🟢 <sub>With email re-routing to a 3rd party datacenter</sub> | 🟢 <sub>With email re-routing to a 3rd party datacenter</sub> | 🟢 <sub>With email re-routing to a 3rd party datacenter</sub> |
-| Apply signature based on recipients | 🟡 <sub>Manually</sub> | 🟡 <sub>One signature for all recipients, based on first rule match</sub> | 🔴 | 🔴 |
+| IT can delegate signature management, e.g. to marketing | 🟢 | 🟢 | 🟡 Not at signature level | 🟡 Not at signature level |
+| Apply signatures to all emails | 🟡 Outlook clients only | 🟢 With email re-routing to a 3rd party datacenter | 🟢 With email re-routing to a 3rd party datacenter | 🟢 With email re-routing to a 3rd party datacenter |
+| Apply signature based on recipients | 🟡 Manually | 🟡 One signature for all recipients, based on first rule match | 🔴 | 🔴 |
 | Additional data sources besides Active Directory and Entra ID | 🟢 | 🟡 | 🔴 | 🔴 |
-| Supports Microsoft national clouds | 🟢 <sub>Global/Public, US Government L4 (GCC, GCC High), US Government L5 (DOD), China operated by 21Vianet</sub> | 🔴 | 🔴 | 🔴 |
+| Supports Microsoft national clouds | 🟢 Global/Public, US Government L4 (GCC, GCC High), US Government L5 (DOD), China operated by 21Vianet | 🔴 | 🔴 | 🔴 |
 | Supports cross-tenant access and multitenant organizations | 🟢 | 🔴 | 🔴 | 🔴 |
 | Support for Microsoft roaming signatures (multiple signatures in Outlook Web and New Outlook) | 🟢 | 🔴 | 🔴 | 🔴 |
-| Number of templates | 🟢 <sub>Unlimited</sub> | 🔴 <sub>1, more charged extra</sub> | 🟢 <sub>Unlimited</sub> | 🟢 <sub>Unlimited</sub> |
-| Targeting and exclusion | 🟢 | 🔴 <sub>Charged extra</sub> | 🟢 | 🟢 |
-| Scheduling | 🟢 | 🔴 <sub>Charged extra</sub> | 🟢 | 🟢 |
-| Banners | 🟢 <sub>Unlimited</sub> | 🔴 <sub>1, more charged extra</sub> | 🟢 <sub>Unlimited</sub> | 🟢 <sub>Unlimited</sub> |
-| QR codes and vCards | 🟢 | 🔴 <sub>Charged extra</sub> | 🔴 <sub>Charged extra</sub> | 🟢 |
+| Number of templates | 🟢 Unlimited | 🔴 1, more charged extra | 🟢 Unlimited | 🟢 Unlimited |
+| Targeting and exclusion | 🟢 | 🔴 Charged extra | 🟢 | 🟢 |
+| Scheduling | 🟢 | 🔴 Charged extra | 🟢 | 🟢 |
+| Banners | 🟢 Unlimited | 🔴 1, more charged extra | 🟢 Unlimited | 🟢 Unlimited |
+| QR codes and vCards | 🟢 | 🔴 Charged extra | 🔴 Charged extra | 🟢 |
 | Signature visible while writing | 🟢 | 🟡 | 🟡  | 🟡 |
-| Signature visible in Sent Items | 🟢 | 🟡 <sub>Cloud mailboxes only</sub> | 🟡 <sub>Cloud mailboxes only</sub> | 🟡 <sub>Cloud mailboxes only</sub> |
-| Out-of-office reply messages | 🟢 | 🔴 <sub>Charged extra</sub> | 🟡 <sub>Same for internal and external senders</sub> | 🔴 <sub>Charged extra</sub> |
+| Signature visible in Sent Items | 🟢 | 🟡 Cloud mailboxes only | 🟡 Cloud mailboxes only | 🟡 Cloud mailboxes only |
+| Out-of-office reply messages | 🟢 | 🔴 Charged extra | 🟡 Same for internal and external senders | 🔴 Charged extra |
 | User-controlled email signatures | 🟢 | 🟡 | 🟡 | 🟡 |
 | Signatures for encrypted messages | 🟢 | 🟡 | 🟡 | 🟡 |
-| Signatures for delegates, shared, additional and automapped mailboxes | 🟢 | 🟡 <sub>No mixing of sender and delegate replacement variables</sub> | 🟡 <sub>No mixing of sender and delegate replacement variables</sub> | 🟡 <sub>No mixing of sender and delegate replacement variables</sub> |
-| Outlook add-in | 🟡 <sub>No on-prem mailboxes on mobile devices</sub> | 🟡 <sub>Not for appointments</sub> | 🟡 <sub>Not for appointments</sub> | 🟢 |
-| Support pricing model | 🟢 <sub>Charged per support hour</sub> | 🔴 <sub>Charged if used or not</sub> | 🔴 <sub>Charged if used or not</sub> | 🔴 <sub>Charged if used or not</sub> |
-| Software escrow | 🟢 <sub>To the free and open-source Set&#8209;OutlookSignatures project</sub> | 🔴 | 🔴 | 🔴 |
-| License cost for 100 mailboxes, 1 year    | 🟢 <sub>         300 €</sub> | 🔴 <sub>appr.   1,600 €</sub> | 🟡 <sub>appr.   1,300 €</sub> | 🔴 <sub>appr.   1,600 €</sub> |
-| License cost for 250 mailboxes, 1 year    | 🟢 <sub>         750 €</sub> | 🔴 <sub>appr.   4,000 €</sub> | 🟡 <sub>appr.   2,700 €</sub> | 🔴 <sub>appr.   3,600 €</sub> |
-| License cost for 500 mailboxes, 1 year    | 🟢 <sub>       1,500 €</sub> | 🔴 <sub>appr.   8,000 €</sub> | 🟡 <sub>appr.   4,400 €</sub> | 🟡 <sub>appr.   6,200 €</sub> |
-| License cost for 1,000 mailboxes, 1 year  | 🟢 <sub>       3,000 €</sub> | 🔴 <sub>appr.  15,700 €</sub> | 🟡 <sub>appr.   8,700 €</sub> | 🟡 <sub>appr.  10,500 €</sub> |
-| License cost for 10,000 mailboxes, 1 year | 🟢 <sub>      30,000 €</sub> | 🔴 <sub>appr. 110,000 €</sub> | 🟡 <sub>appr.  65,000 €</sub> | 🟡 <sub>appr.  41,000 €</sub> |
+| Signatures for delegates, shared, additional and automapped mailboxes | 🟢 | 🟡 No mixing of sender and delegate replacement variables | 🟡 No mixing of sender and delegate replacement variables | 🟡 No mixing of sender and delegate replacement variables |
+| Outlook add-in | 🟡 No on-prem mailboxes on mobile devices | 🟡 Not for appointments | 🟡 Not for appointments | 🟢 |
+| Support pricing model | 🟢 Charged per support hour | 🔴 Charged if used or not | 🔴 Charged if used or not | 🔴 Charged if used or not |
+| Software escrow | 🟢 To the free and open-source Set&#8209;OutlookSignatures project | 🔴 | 🔴 | 🔴 |
+| License cost for 100 mailboxes, 1 year    | 🟢    300&nbsp;€ | 🔴 appr.   1,600&nbsp;€ | 🟡 appr.  1,300&nbsp;€ | 🔴 appr.  1,600&nbsp;€ |
+| License cost for 250 mailboxes, 1 year    | 🟢    750&nbsp;€ | 🔴 appr.   4,000&nbsp;€ | 🟡 appr.  2,700&nbsp;€ | 🔴 appr.  3,600&nbsp;€ |
+| License cost for 500 mailboxes, 1 year    | 🟢  1,500&nbsp;€ | 🔴 appr.   8,000&nbsp;€ | 🟡 appr.  4,400&nbsp;€ | 🟡 appr.  6,200&nbsp;€ |
+| License cost for 1,000 mailboxes, 1 year  | 🟢  3,000&nbsp;€ | 🔴 appr.  15,700&nbsp;€ | 🟡 appr.  8,700&nbsp;€ | 🟡 appr. 10,500&nbsp;€ |
+| License cost for 10,000 mailboxes, 1 year | 🟢 30,000&nbsp;€ | 🔴 appr. 110,000&nbsp;€ | 🟡 appr. 65,000&nbsp;€ | 🟡 appr. 41,000&nbsp;€ |
 
 ## 2. Features&nbsp;&nbsp;&nbsp;&nbsp;<a href="#feature-comparison"><img src="https://img.shields.io/badge/go%20to-🆚%20Feature%20Comparison%20🆚-lawngreen?labelColor=black" alt="Go to feature comparison"></a>
 With Set-OutlookSignatures, signatures and out-of-office replies can be:
@@ -323,7 +323,7 @@ Other parameters we need are:
  
 Formula: `CostPerMinute * NumberOfChanges * NumberOfMinutes * NumberOfSignatures * NumberOfClients = Cost per user and year`
 
-Let's assume 2 changes per year, 3 minutes for making the change (including reading the instructions) per signature, 2 signatures, 1 client. This results in 5.64 € per user and year (`0.55 * 2 * 3 * 2 * 1`).
+Let's assume 2 changes per year, 3 minutes for making the change (including reading the instructions) per signature, 2 signatures, 1 client: `0.55 * 2 * 3 * 2 * 1`
  
 Per user and year, the costs are now 6.60 € in manual effort compared to 3.00 € for a centrally managed solution with Set-OutlookSignatures.
 
