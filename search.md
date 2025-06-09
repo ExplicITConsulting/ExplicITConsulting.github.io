@@ -10,11 +10,15 @@ subtitle: |
   </p>
 description: Search and find. What are you looking for?
 ---
-## What are you looking for?
-<div id="search-demo-container">
-  <input type="search" id="search-input" placeholder="Search this site" style='font-size: 1em; padding: 0.25em; font-weight: 700;' size="25" autofocus>
-  <ul id="results-container"></ul>
+
+<div style="min-height: 100vh;">
+  <h2>What are you looking for?</h2>
+  <div id="search-demo-container">
+    <input type="search" id="search-input" placeholder="Search this site" style='font-size: 1em; padding: 0.25em; font-weight: 700;' size="25" autofocus>
+    <ul id="results-container"></ul>
+  </div>
 </div>
+
 
 <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js" type="text/javascript"></script>
 
@@ -28,14 +32,3 @@ description: Search and find. What are you looking for?
     fuzzy: false
   })
 </script>
-
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>

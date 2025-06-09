@@ -13,20 +13,24 @@ redirect_from:
   - /pay
   - /payment/paynow
 ---
-## Standard method of payment: Bank transfer
-Most of our clients prefer to pay via bank transfer.
 
-You find all information to globally and uniquely identify our bank account on our quotations and invoices: The International Bank Account Number (IBAN) and the Bank Identifier Code (BIC).
 
-## Other methods of payment
-Bank transfer is not an option for you? We offer a wide range of other methods of payment, depending on your home country: Alipay, American Express, Apple Pay, Bancontact, BLIK, China UnionPay, Diners Club, Discover, EPS, giropay, Google Pay, iDEAL, Link, Mastercard, MobilePay, Multibanco, P24, PayPal, SEPA Direct Debit, Swish, TWINT, Visa, WeChat Pay, and more.
+<div style="min-height: 100vh;">
+  <h2>Standard method of payment: Bank transfer</h2>
+  Most of our clients prefer to pay via bank transfer.
 
-Click on the "Pay using Stripe" button below to see which methods of payment are available in your country.
+  You find all information to globally and uniquely identify our bank account on our quotations and invoices: The International Bank Account Number (IBAN) and the Bank Identifier Code (BIC).
 
-Clicking the following button will open a new browser tab and take you to our payment site, hosted by our payment partner Stripe.
+  <h2>Other methods of payment</h2>
+  Bank transfer is not an option for you? We offer a wide range of other methods of payment, depending on your home country: Alipay, American Express, Apple Pay, Bancontact, BLIK, China UnionPay, Diners Club, Discover, EPS, giropay, Google Pay, iDEAL, Link, Mastercard, MobilePay, Multibanco, P24, PayPal, SEPA Direct Debit, Swish, TWINT, Visa, WeChat Pay, and more.
 
-<a href="https://buy.stripe.com/5kA9AX37u4VteBO5kk?locale=en" target="_blank"><button class="button is-link is-normal is-hover">Pay using Stripe</button></a>
+  Click on the "Pay using Stripe" button below to see which methods of payment are available in your country.
 
-Due to technical limitations of our payment partner, a maximum of 10,000 € can currently be transferred per transaction. Invoices exceeding this amount must therefore be paid with several transfers.  
-This does not incur any additional costs.  
-We are working together with our payment service provider to remove this limit and ask for your understanding until then.
+  Clicking the following button will open a new browser tab and take you to our payment site, hosted by our payment partner Stripe.
+
+  <a href="https://buy.stripe.com/5kA9AX37u4VteBO5kk?locale=en" target="_blank"><button class="button is-link is-normal is-hover">Pay using Stripe</button></a>
+
+  Due to technical limitations of our payment partner, a maximum of 10,000 € can currently be transferred per transaction. Invoices exceeding this amount must therefore be paid with several transfers.  
+  This does not incur any additional costs.  
+  We are working together with our payment service provider to remove this limit and ask for your understanding until then.
+</div>

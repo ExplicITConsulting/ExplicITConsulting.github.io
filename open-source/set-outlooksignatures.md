@@ -36,7 +36,19 @@ redirect_from:
   - /support-for-open-source/set-outlooksignatures-benefactor-circle
 ---
 
+<div style="min-height: 100vh;">
+  <div class="columns">
+    <div class="column is-one-quarter">
+      <img src="/assets/images/set-outlooksignatures benefactor circle.png" alt="Set-OutlookSignatures">
+    </div>
+    <div class="column">
+      <h2>Manage your Outlook signatures centrally and fully automated</h2>
+      <p>Set-OutlookSignatures takes the hassle out of manually maintaining Outlook signatures and out-of-office replies.</p>
+      <p>Thanks to centrally managed templates that automatically populate with your company data, every email gets the professional appearance your business deserves: Up-to-date, consistent, and on-brand.</p>
+    </div>
+  </div>
 
-<p>Click the button to open the Set-OutlookSignatures site in a new tab:</p>
+  <p>Click the button to open the Set-OutlookSignatures site in a new tab:</p>
 
-<a href="https://set-outlooksignatures.com"><button class="button is-link is-normal is-hover">Set-OutlookSignatures</button></a>
+  <a href="https://set-outlooksignatures.com"><button class="button is-link is-normal is-hover">Set-OutlookSignatures</button></a>
+</div>
