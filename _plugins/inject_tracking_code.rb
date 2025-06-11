@@ -3,16 +3,15 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |doc|
     tracking_code = <<~HTML
       <script>
         var _paq = window._paq = window._paq || [];
-        _paq.push(["setRequestMethod", "POST"]);
-
         /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-        _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-        _paq.push(["setCookieDomain", "*.explicitconsulting.at"]);
-        _paq.push(["setDomains", ["*.explicitconsulting.at"]]);
-        _paq.push(["disableCookies"]);
+        _paq.push(["requireConsent"]);
+        _paq.push(["setRequestMethod", "POST"]);
         _paq.push(["disableAlwaysUseSendBeacon"]);
-        _paq.push(['trackPageView']);
+        _paq.push(["disableCookies"]);
         _paq.push(['enableLinkTracking']);
+        _paq.push(['trackPageView']);
+        _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+        _paq.push(["setDomains", ["*.explicitconsulting.at"]]);
 
         (function () {
           var u = "//mtrcs.explicitconsulting.at/";
