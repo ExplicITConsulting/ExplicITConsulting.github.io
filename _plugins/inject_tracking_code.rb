@@ -3,15 +3,16 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |doc|
     tracking_code = <<~HTML
       <script>
         var _paq = window._paq = window._paq || [];
-        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-        _paq.push(["requireConsent"]);
         _paq.push(["setRequestMethod", "POST"]);
-        _paq.push(["disableAlwaysUseSendBeacon"]);
-        _paq.push(["disableCookies"]);
-        _paq.push(['enableLinkTracking']);
-        _paq.push(['trackPageView']);
+
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
         _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-        _paq.push(["setDomains", ["*.explicitconsulting.at"]]);
+        _paq.push(["setCookieDomain", "*.set-outlooksignatures.com"]);
+        _paq.push(["setDomains", ["*.set-outlooksignatures.com"]]);
+        _paq.push(["disableCookies"]);
+        _paq.push(["disableAlwaysUseSendBeacon"]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
 
         (function () {
           var u = "//mtrcs.explicitconsulting.at/";
@@ -23,7 +24,7 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |doc|
       </script>
 
       <noscript>
-        <p><img referrerpolicy="no-referrer-when-downgrade" src="//mtrcs.explicitconsulting.at/poop.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p>
+        <p><img referrerpolicy="no-referrer-when-downgrade" src="//mtrcs.explicitconsulting.at/poop.php?idsite=2&amp;rec=1" style="border:0;" alt="" /></p>
       </noscript>
     HTML
 
