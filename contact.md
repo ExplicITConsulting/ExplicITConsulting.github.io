@@ -15,7 +15,7 @@ description: Let's get and stay in contact. Contact us. Write us.
   <h2>Send us an email</h2>
   <p>For general questions, write us at <a href="mailto:welcome@explicitconsulting.at">welcome@explicitconsulting.at</a>, or just click this button:</p>
   
-  <p><a href="mailto:welcome@explicitconsulting.at"><button class="button mtrcs-external-link is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">Contact ExplicIT Consulting</button></a></p>
+  <p><a href="mailto:welcome@explicitconsulting.at"><button class="button mtrcs-external-link is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: springgreen">Contact ExplicIT Consulting</button></a></p>
 
   <p>For questions regarding Set-OutlookSignatures Benefactor Circle, click <a href="/open-source/set-outlooksignatures">here</a>.</p>
 
