@@ -102,4 +102,4 @@ Our select group of consultants and partners have followed these principles for 
 </div>
 
 ## Contact us
-<a href="/contact"><button class="button is-link is-normal is-hover">Contact us for questions and a customized quote</button></a>
+<a href="/contact"><button class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: lawngreen">Contact us for questions and a customized quote</button></a>
