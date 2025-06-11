@@ -50,5 +50,5 @@ redirect_from:
 
   <p>Click the button to open the Set-OutlookSignatures site in a new tab:</p>
 
-  <p><a href="https://set-outlooksignatures.com"><button class="button is-link is-normal is-hover" style="background-color: lawngreen; color: black">Set-OutlookSignatures and the Benefactor Circle add-on</button></a></p>
+  <p><a href="https://set-outlooksignatures.com"><button class="button is-link is-normal is-hover" style="background-color: lawngreen; color: black"><b>Set-OutlookSignatures and the Benefactor Circle add-on</b></button></a></p>
 </div>
