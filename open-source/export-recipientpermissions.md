@@ -32,8 +32,8 @@ redirect_from:
   </div>
 </div>
 
-<a href="https://github.com/GruberMarkus/export-recipientpermissions" target="_blank"><button class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: lawngreen">Download Export-RecipientPermissions from GitHub for free</button></a>
-<a href="/contact"><button class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: lawngreen">Contact us for questions and a customized quote</button></a>
+<a href="https://github.com/GruberMarkus/export-recipientpermissions" target="_blank"><button class="button mtrcs-external-link is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: lawngreen">Download Export-RecipientPermissions from GitHub for free</button></a>
+<a href="/contact"><button class="button mtrcs-external-link is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: lawngreen">Contact us for questions and a customized quote</button></a>
 
 ## Features
 <div class="columns">
@@ -91,4 +91,4 @@ You are not buying just any support, but our comprehensive expertise as a manufa
 
 **Our all-inclusive support promise: If your support request stems from a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, its documentation, or the provided components, support is free — no exceptions. For all other issues, you will receive the same top-notch support at a fair price.**
 
-<a href="/contact"><button class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: lawngreen">Contact us for questions and a customized quote</button></a>
+<a href="/contact"><button class="button mtrcs-external-link is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: lawngreen">Contact us for questions and a customized quote</button></a>
