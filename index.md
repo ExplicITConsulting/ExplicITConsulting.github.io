@@ -19,7 +19,7 @@ subtitle: |
   </p>
 
   <p class="subtitle is-3 has-text-white has-text-weight-bold" style="">
-    <a href="/open-source/set-outlooksignatures/" class="has-text-white has-text-weight-bold">>> Set-OutlookSignatures Benefactor Circle</a>
+    <a href="/open-source/set-outlooksignatures/" class="has-text-white has-text-weight-bold">>> <span style="font-weight: bold; background-image: linear-gradient(to right, gray, silver, gray, silver, gray); background-clip: text; color: transparent;">Set-OutlookSignatures</span> and the <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle add-on</span></a>
   </p>
 hero_image: "/assets/images/background, vietnam golden bridge.jpg"
 hero_height: is-fullheight-with-navbar
