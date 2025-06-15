@@ -50,7 +50,7 @@ redirect_from:
 
 <p>Click the button to visit Set-OutlookSignatures' homepage in a new tab:</p>
 
-<p><a href="https://set-outlooksignatures.com/benefactorcircle" target="_blank"><button class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">➔ Set-OutlookSignatures and the Benefactor Circle add-on</button></a><p>
+<p><a href="https://set-outlooksignatures.com/benefactorcircle" target="_blank"><button class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">➔ Set-OutlookSignatures</button></a><p>
 
 
 <h2>Sustainable added value for your business</h2>
