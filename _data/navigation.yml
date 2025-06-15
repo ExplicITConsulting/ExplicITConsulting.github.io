@@ -1,14 +1,15 @@
 - name: "Our Services"
   link: /services/
 - name: |
-    Set-OutlookSignatures <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle</span>
+    <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Set-OutlookSignatures Benefactor Circle add-on</span>
   link: /open-source/set-outlooksignatures/
 - name: "Support for Open-Source"
   link: /open-source/
   dropdown:
   - name: "Export-RecipientPermissions"
     link: /open-source/export-recipientpermissions/
-  - name: "Set-OutlookSignatures Benefactor Circle"
+  - name: |
+      <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Set-OutlookSignatures Benefactor Circle add-on</span>
     link: /open-source/set-outlooksignatures/
 - name: "Contact"
   link: /contact
