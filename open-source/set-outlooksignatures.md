@@ -43,7 +43,7 @@ redirect_from:
   </div>
   <div class="column">
     <h2>Manage your Outlook signatures centrally and fully automated</h2>
-    <p><span style="font-weight: bold; background-image: linear-gradient(to right, gray, silver, gray, silver, gray); background-clip: text; color: transparent;">Set-OutlookSignatures</span> takes the hassle out of manually maintaining Outlook signatures and out-of-office replies.</p>
+    <p><span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Set-OutlookSignatures</span> takes the hassle out of manually maintaining Outlook signatures and out-of-office replies.</p>
     <p>Thanks to centrally managed templates that automatically populate with your company data, every email gets the professional appearance your business deserves: Up-to-date, consistent, and on-brand.</p>
   </div>
 </div>
