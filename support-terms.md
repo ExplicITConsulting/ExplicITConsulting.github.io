@@ -17,7 +17,7 @@ description: Fee-based support terms. Bedingungen und Konditionen für kommerzie
 - Only expenses actually incurred will be invoiced, by the started hour. Invoicing takes place monthly in arrears, with a payment term of 14 days. You may define a maximum number of work hours.
 - Support is available 24/5 (Austrian business days) via email and a callback option. 24/7 and on-call options are available upon request. 100% surcharge for appointments from 20:00 to 06:00 CET/CEST on weekdays, and all day on weekends and Austrian holidays.
 - Our [General Terms and Conditions](/legal) apply in full and without amendment.
-- Technical guides, FAQs, video demonstrations and additional documentation are available for free [here](https://set-outlooksignatures.com).
+- Technical guides, FAQs, video demonstrations and additional documentation are available for free [here](https://set-outlooksignatures.com/help).
 
 ## Deutsch: Bedingungen und Konditionen für kommerzielle Unterstützung
 - Das Benefactor Circle Add-on ist ein Produkt von ExplicIT Consulting, nicht jedoch die freie und quelloffene Software Set-OutlookSignatures. Da Set-OutlookSignatures großartige Software ist, bieten wir unseren erstklassigen kommerziellen Support dafür an. Wenn Sie kostenlosen Support durch die Community bevorzugen, erstellen Sie bitte ein Issue auf der GitHub-Seite von Set-OutlookSignatures.
@@ -28,4 +28,4 @@ Sie kaufen nicht irgendeinen Support, sondern unser umfassendes Know-how als Her
 - Es werden nur die tatsächlich angefallenen Kosten je angefangene Stunde in Rechnung gestellt. Die Rechnungsstellung erfolgt monatlich nachträglich, mit einem Zahlungsziel von 14 Tagen. Sie können die maximale Anzahl von Arbeitsstunden festlegen.
 - Der Support ist 24/5 (österreichische Werktage) über E-Mail und eine Rückrufoption verfügbar. 24/7 und Rufbereitschaft sind auf Anfrage möglich. 100% Aufschlag für Termine von 20:00 bis 06:00 Uhr MEZ/MESZ an Wochentagen und den ganzen Tag an Wochenenden und österreichischen Feiertagen.
 - Unsere [Allgemeinen Geschäftsbedingungen](/legal) gelten in vollem Umfang und ohne Änderungen.
-- Technische Anleitungen, FAQs, Videodemonstrationen und zusätzliche Dokumentationen sind [hier](https://github.com/Set-OutlookSignatures/Set-OutlookSignatures) kostenlos verfügbar.
+- Technische Anleitungen, FAQs, Videodemonstrationen und zusätzliche Dokumentationen sind [hier](https://set-outlooksignatures.com/help) kostenlos verfügbar.
