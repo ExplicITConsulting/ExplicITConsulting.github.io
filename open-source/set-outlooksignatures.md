@@ -43,14 +43,15 @@ redirect_from:
   </div>
   <div class="column">
     <h2>Manage your Outlook signatures centrally and fully automated</h2>
-    <p>Set-OutlookSignatures takes the hassle out of manually maintaining Outlook signatures and out-of-office replies.</p>
+    <p><span style="font-weight: bold; background-image: linear-gradient(to right, gray, silver, gray, silver, gray); background-clip: text; color: transparent;">Set-OutlookSignatures</span> takes the hassle out of manually maintaining Outlook signatures and out-of-office replies.</p>
     <p>Thanks to centrally managed templates that automatically populate with your company data, every email gets the professional appearance your business deserves: Up-to-date, consistent, and on-brand.</p>
   </div>
 </div>
 
 <p>Click the button to visit Set-OutlookSignatures' homepage in a new tab:</p>
 
-<p><a href="https://set-outlooksignatures.com/benefactorcircle" target="_blank"><button class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">➔ Set-OutlookSignatures</button></a><p>
+<p><a href="https://set-outlooksignatures.com/benefactorcircle" target="_blank"><button class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: 
+linear-gradient(to right, gray, silver, gray, silver, gray)">➔ Set-OutlookSignatures</button></a><p>
 
 
 <h2>Sustainable added value for your business</h2>

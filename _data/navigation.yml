@@ -1,6 +1,7 @@
 - name: "Our Services"
   link: /services/
-- name: "Set-OutlookSignatures"
+- name: |
+    <span style="font-weight: bold; background-image: linear-gradient(to right, gray, silver, gray, silver, gray); background-clip: text; color: transparent;">Set-OutlookSignatures</span> and the <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle add-on</span>
   link: /open-source/set-outlooksignatures/
 - name: "Support for Open-Source"
   link: /open-source/
