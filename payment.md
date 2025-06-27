@@ -1,14 +1,15 @@
 ---
 layout: page
 title: |
-  <p class="has-text-white">
+  <p class="title is-2 has-text-white">
     Payment
   </p>
 subtitle: |
-  <p class="subtitle is-3 has-text-white">
+  <p class="subtitle is-4 has-text-white">
     Bank transfer and other methods of payment
   </p>
-description: Payment. Cards, Visa, Mastercard, American Express, Discover, Diners Club, China UnionPay, Cartes Bancaires. Wallets, Alipay, Apple Pay, Google Pay, Link, MobilePay, PayPal, WeChat Pay. Vouchers, Multibanco. Bank redirects, BLIK, Bancontact, EPS, giropay, iDEAL, P24, TWINT. Bank debits, SEPA Direct Debit. Bank transfer. Realtime-payments, Swish.
+description: |
+  Bank transfer and other methods of payment
 redirect_from:
   - /pay
   - /payment/paynow

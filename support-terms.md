@@ -1,13 +1,13 @@
 ---
 layout: page
 title: |
-  <p class="has-text-white">
+  <p class="title is-2 has-text-white">
     Terms and conditions for fee-based support<br>Bedingungen und Konditionen für kommerzielle Unterstützung
   </p>
 subtitle: |
   <p class="subtitle is-3 has-text-white">
   </p>
-description: Fee-based support terms. Bedingungen und Konditionen für kommerzielle Unterstützung.
+description: 
 ---
 ## English: Fee-based support terms
 - The Benefactor Circle add-on is a product of ExplicIT Consulting, but not the free and open-source software Set-OutlookSignatures. As Set-OutlookSignatures is great software, we offer our first-class fee-based support for it. If you prefer free support from the community, please open an issue on the Set-OutlookSignatures GitHub page.

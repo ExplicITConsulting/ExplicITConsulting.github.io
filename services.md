@@ -1,14 +1,14 @@
 ---
 layout: page
 title: |
-  <p class="has-text-white">
+  <p class="title is-2 has-text-white">
     Which gap can we bridge for you?
   </p>
 subtitle: |
-  <p class="subtitle is-3 has-text-white">
+  <p class="subtitle is-4 has-text-white">
     We help you to be successful on an individual, team and company level
   </p>
-description: Support for Open-Source. Product and Service Management. Digital Advisory. Program and Portfolio Management. Auditing. Technics and Technology Consulting.
+description: We help you to be successful on an individual, team and company level
 redirect_from:
   - /ourservices
   - /ourservices/

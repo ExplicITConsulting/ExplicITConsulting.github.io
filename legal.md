@@ -1,14 +1,15 @@
 ---
 layout: page
 title: |
-  <p class="has-text-white">
+  <p class="title is-2 has-text-white">
     Legal information
   </p>
 subtitle: |
-  <p class="subtitle is-3 has-text-white">
+  <p class="subtitle is-4 has-text-white">
     Impress, Privacy Notice, Terms and Conditions, etc.
   </p>
-description: Legal information. Impress. Liability notice. Copyright. Brands and trademarks. Terms and conditions. AGB. Privacy policy.
+description: |
+  Impress, Privacy Notice, Terms and Conditions, etc.
 ---
 
 <!-- omit in toc -->
