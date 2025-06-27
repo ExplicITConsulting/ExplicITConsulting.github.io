@@ -16,7 +16,7 @@ redirect_from:
   - /our-services/
 ---
 ## What we stand for
-ExplicIT stands for specific, clear and detailed IT consulting.<br>Bold and future-oriented, always realistic and without steam talk.<br>We bridge gaps, with our heads in the sky and our feet firmly on the ground.
+ExplicIT stands for specific, clear and detailed IT consulting.<br>Bold and future-oriented, always realistic and without steam talk.<br>We bridge gaps, with our heads in the sky and our feet on the ground.
 
 We help you to be successful on an individual, team and company level. Whether we do this in the background or for all to see: Trustworthiness and mediation between management levels, specialist departments and IT are always at the heart of our services.
 

@@ -11,7 +11,7 @@ subtitle: |
   </p>
 
   <p class="subtitle is-4 has-text-white" style="margin-top:0.3em;">
-    We bridge gaps, with our heads in the sky and our feet firmly on the ground.
+    We bridge gaps, with our heads in the sky and our feet on the ground.
   </p>
 
   <p class="subtitle is-4 has-text-white has-text-weight-bold" style="margin-top:1.5em;">
