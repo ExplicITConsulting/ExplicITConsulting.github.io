@@ -34,7 +34,6 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |doc|
                   // Create the span.icon wrapper
                   const iconSpan = document.createElement("span");
                   iconSpan.classList.add("icon", "icon-external-link"); // Add a unique class to the span
-                  // iconSpan.style.marginLeft = "0.3em"; // REMOVE THIS LINE
 
                   // Insert the SVG markup into the span.icon
                   iconSpan.innerHTML = externalLinkSvg.trim();
