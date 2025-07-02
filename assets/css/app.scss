@@ -81,7 +81,8 @@ h6 {
   left: -2em;
 
   /* Styling */
-  vertical-align: middle;
+  top: 50%;
+  transform: translateY(-50%);
   text-decoration: none;
   font-size: 0.5em;
   opacity: 0;
@@ -118,7 +119,8 @@ h6:hover .anchor-link {
   margin-left: 5px;
 
   /* Vertical alignment */
-  vertical-align: middle;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* Light Mode (Default) - Text color is typically dark */
@@ -139,8 +141,8 @@ h6:hover .anchor-link {
   height: 0.75em;
   margin-left: 5px;
 
-  vertical-align: middle;
-  transform: translateY(-1px);
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* Dark Mode - Override text color for the icon */
