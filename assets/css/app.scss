@@ -61,3 +61,47 @@ body {
 pre code {
   color: black;
 }
+
+/* Make headings the positioning containers. */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+}
+
+.anchor-link {
+  position: absolute;
+
+  /* Position to the left of the heading text. */
+  /* This moves the link outside the heading's content box. */
+  /* You can adjust this value (e.g., -1.2em) as needed. */
+  left: -2em;
+
+  /* Use transform ONLY for vertical centering. */
+  top: 50%;
+  transform: translateY(-50%);
+
+  /* Styling */
+  text-decoration: none;
+  font-size: 0.5em;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* Show the anchor link on heading hover */
+h1:hover .anchor-link,
+h2:hover .anchor-link,
+h3:hover .anchor-link,
+h4:hover .anchor-link,
+h5:hover .anchor-link,
+h6:hover .anchor-link {
+  opacity: 0.6;
+}
+
+/* Link-specific hover */
+.anchor-link:hover {
+  opacity: 1;
+}
