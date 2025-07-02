@@ -35,7 +35,7 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |doc|
                   // Create the span.icon wrapper
                   const iconSpan = document.createElement("span");
                   iconSpan.classList.add("icon");
-                  iconSpan.style.marginLeft = "0.2em"; // Add space after text
+                  // iconSpan.style.marginLeft = "0.2em"; // Add space after text
 
                   // Insert the SVG markup into the span.icon
                   iconSpan.innerHTML = externalLinkSvg.trim();
