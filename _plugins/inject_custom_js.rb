@@ -20,7 +20,6 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |doc|
 
               if (url.hostname !== currentHostname) {
                 link.setAttribute("target", "_blank");
-                link.setAttribute("rel", "noopener noreferrer");
 
                 let targetElement = link;
                 const buttonChild = link.querySelector('button');
