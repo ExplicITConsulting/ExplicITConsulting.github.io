@@ -337,11 +337,7 @@ If you look for help implementing the free and open-source core version of Set-O
 
 <p>As soon as the open-source core version is running, it is time to take the next step:</p>
 
-<p><a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb" target="_blank">
-  <button style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); color: black; font-weight: bold;">
-    ➔ Request a 14-day trial license
-  </button>
-</a></p>
+<p><a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb" target="_blank"><button class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">➔ Request a 14-day trial license</button></a></p>
 
 <p>To use the license file, just add two parameters to your call of &apos;Set-OutlookSignatures.ps1&apos;:</p>
 <ul>
