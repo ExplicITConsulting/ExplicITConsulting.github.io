@@ -9,6 +9,7 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |doc|
 
             if (url.hostname !== window.location.hostname) {
               link.setAttribute("target", "_blank");
+              link.classList.add("external-link");
             }
           });
         });

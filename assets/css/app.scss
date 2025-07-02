@@ -80,15 +80,12 @@ h6 {
   /* You can adjust this value (e.g., -1.2em) as needed. */
   left: -2em;
 
-  /* Use transform ONLY for vertical centering. */
-  top: 50%;
-  transform: translateY(-50%);
 
   /* Styling */
+  vertical-align: middle;
   text-decoration: none;
   font-size: 0.5em;
   opacity: 0;
-  transition: opacity 0.2s ease-in-out;
 }
 
 /* Show the anchor link on heading hover */
@@ -104,4 +101,23 @@ h6:hover .anchor-link {
 /* Link-specific hover */
 .anchor-link:hover {
   opacity: 1;
+}
+
+.external-link::after {
+  /* Add the icon using a background image */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' fill='currentColor' class='bi bi-box-arrow-up-right' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
+
+  /* Control the icon's appearance */
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  /* Sizing and spacing */
+  content: "";
+  display: inline-block;
+  width: 0.75em; /* Adjust size as needed */
+  height: 0.75em;
+  margin-left: 5px;
+
+  /* Vertical alignment */
+  vertical-align: middle;
 }
