@@ -14,18 +14,24 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |doc|
                 link.setAttribute("target", "_blank");
                 link.setAttribute("rel", "noopener noreferrer");
 
-                // Check if the link already contains an icon to prevent duplicates
-                // Use a more specific class for the check if you have other Font Awesome icons
-                if (!link.querySelector(".fa-arrow-up-right-from-square")) {
+                // Check if the link already contains the specific icon wrapper to prevent duplicates
+                // We'll look for the icon class within the span.icon
+                if (!link.querySelector(".icon .fa-arrow-up-right-from-square")) {
+                  // Create the span.icon wrapper
+                  const iconSpan = document.createElement("span");
+                  iconSpan.classList.add("icon");
+                  iconSpan.style.marginLeft = "0.3em"; // Add some space after the text/before the icon
+
+                  // Create the Font Awesome icon itself
                   const icon = document.createElement("i");
                   // Changed to fa-regular as requested
                   icon.classList.add("fa-regular", "fa-arrow-up-right-from-square");
-                  icon.style.marginLeft = "0.3em"; // Add some space
 
-                  // Append the icon directly to the link element.
-                  // This works correctly because the icon becomes part of the link's content,
-                  // whether the link is a standard inline link or a button.
-                  link.appendChild(icon);
+                  // Append the i tag to the span.icon
+                  iconSpan.appendChild(icon);
+
+                  // Append the span.icon to the link element
+                  link.appendChild(iconSpan);
                 }
               }
             } catch (e) {
