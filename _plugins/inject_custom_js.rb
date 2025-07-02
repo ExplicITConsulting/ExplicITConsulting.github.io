@@ -21,25 +21,26 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |doc|
               if (url.hostname !== currentHostname) {
                 link.setAttribute("target", "_blank");
 
-                let targetElement = link;
+                // Determine the target element for appending the icon
+                let targetElement = link; // Default target is the link itself
+
+                // If the link contains a <button> element, we want to append the icon INSIDE the button
                 const buttonChild = link.querySelector('button');
                 if (buttonChild) {
                   targetElement = buttonChild;
                 }
 
-                if (!targetElement.querySelector(".icon-external-link")) { // Add a unique class for checking
-                  // Create the non-breaking space text node
-                  const nbspNode = document.createTextNode('\u00A0'); // Unicode for non-breaking space
-
+                // Check if the icon (svg within span.icon) already exists in the target element
+                if (!targetElement.querySelector(".icon svg")) {
                   // Create the span.icon wrapper
                   const iconSpan = document.createElement("span");
-                  iconSpan.classList.add("icon", "icon-external-link"); // Add a unique class to the span
+                  iconSpan.classList.add("icon");
+                  iconSpan.style.marginLeft = "0.2em"; // Add space after text
 
                   // Insert the SVG markup into the span.icon
                   iconSpan.innerHTML = externalLinkSvg.trim();
 
-                  // Append the nbsp and then the iconSpan to the target element
-                  targetElement.appendChild(nbspNode);
+                  // Append the span.icon to the determined target element
                   targetElement.appendChild(iconSpan);
                 }
               }
