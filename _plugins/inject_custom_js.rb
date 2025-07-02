@@ -4,12 +4,35 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |doc|
       <script>
         document.addEventListener("DOMContentLoaded", function () {
           const links = document.querySelectorAll("a[href]");
-          links.forEach(link => {
-            const url = new URL(link.href, window.location.href);
+          const currentHostname = window.location.hostname;
 
-            if (url.hostname !== window.location.hostname) {
-              link.setAttribute("target", "_blank");
-              link.classList.add("external-link");
+          links.forEach(link => {
+            try {
+              const url = new URL(link.href); // Use link.href directly for URL parsing
+
+              if (url.hostname !== currentHostname) {
+                link.setAttribute("target", "_blank");
+                link.setAttribute("rel", "noopener noreferrer"); // Good practice for target="_blank"
+
+                // Check if the link already contains an icon to prevent duplicates
+                if (!link.querySelector(".fa-arrow-up-right-from-square")) {
+                  const icon = document.createElement("i");
+                  icon.classList.add("fa-solid", "fa-arrow-up-right-from-square");
+                  icon.style.marginLeft = "0.3em"; // Add some space between text and icon
+
+                  // If the link is inside a button, append the icon directly to the link.
+                  // Otherwise, append it after the link's text content.
+                  // This handles cases where the link text might be wrapped in other elements.
+                  if (link.closest('.button')) {
+                      link.appendChild(icon);
+                  } else {
+                      link.appendChild(icon);
+                  }
+                }
+              }
+            } catch (e) {
+              // Handle cases where href might not be a valid URL (e.g., "#" or "javascript:void(0)")
+              console.warn("Invalid URL encountered:", link.href, e);
             }
           });
         });
