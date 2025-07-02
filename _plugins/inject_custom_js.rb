@@ -45,7 +45,7 @@ Jekyll::Hooks.register [:pages, :documents], :post_render do |doc|
                 }
               }
             } catch (e) {
-              console.warn("Invalid URL encountered:", link.href, e);
+              // console.warn("Invalid URL encountered:", link.href, e);
             }
           });
         });
