@@ -4,8 +4,10 @@ theme                    : bulma-clean-theme
 fixed_navbar             : top
 permalink                : pretty
 footer_menu              : footer_menu
-locale                   : "en-UK"
+locale                   : "en"
 lang                     : en
+languages                : ["en"]
+default_lang             : en
 direction                : ltr # left to right
 google_analytics         : # UA-xxxxxxx
 title                    : "ExplicIT Consulting"
@@ -30,7 +32,6 @@ baidu_site_verification  :
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
@@ -40,7 +41,6 @@ plugins:
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache

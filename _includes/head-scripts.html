@@ -1,0 +1,117 @@
+{%- assign all_pages = site.pages -%}
+{%- for collection in site.collections -%}
+  {%- assign all_pages = all_pages | concat: collection.docs -%}
+{%- endfor -%}
+
+{%- comment -%} Add the self-referencing hreflang tag here {%- endcomment %}
+<link rel="alternate" hreflang="{{ page.lang }}" href="{{ site.url }}{{ page.url }}" />
+
+{%- for lang_code in site.languages -%}
+  {%- assign current_page_url = page.url -%}
+  {%- assign alt_url = nil -%}
+
+  {%- if page.lang == site.default_lang -%}
+    {%- assign alt_url = '/' | append: lang_code | append: current_page_url -%}
+  {%- elsif lang_code == site.default_lang -%}
+    {%- assign current_prefix = '/' | append: page.lang | append: '/' -%}
+    {%- assign alt_url = current_page_url | replace_first: current_prefix, '/' -%}
+  {%- else -%}
+    {%- assign current_prefix = '/' | append: page.lang | append: '/' -%}
+    {%- assign alt_prefix = '/' | append: lang_code | append: '/' -%}
+    {%- assign alt_url = current_page_url | replace_first: current_prefix, alt_prefix -%}
+  {%- endif -%}
+
+  {%- assign alt_page = all_pages | where: "url", alt_url | first -%}
+
+  {%- if alt_page and lang_code != page.lang %}
+<link rel="alternate" hreflang="{{ lang_code }}" href="{{ site.url }}{{ alt_page.url }}" />
+  {%- endif -%}
+{%- endfor -%}
+
+{%- if page.lang == site.default_lang %}
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}" />
+{%- else -%}
+  {%- assign current_prefix = '/' | append: page.lang | append: '/' -%}
+  {%- assign default_url = page.url | replace_first: current_prefix, '/' -%}
+  {%- assign default_page = all_pages | where: "url", default_url | first -%}
+  {%- if default_page %}
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ default_page.url }}" />
+  {%- endif -%}
+{%- endif -%}
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const links = document.querySelectorAll("a[href]");
+
+    const externalLinkSvg = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+          `;
+
+    links.forEach(link => {
+      try {
+        const url = new URL(link.href, window.location.href);
+
+        if (url.hostname.toLowerCase() !== window.location.hostname.toLowerCase()) {
+          link.setAttribute("target", "_blank");
+        }
+
+        if ((link.getAttribute("target") || "").toLowerCase() === "_blank") {
+          let targetElement = link;
+          const buttonChild = link.querySelector('button');
+          if (buttonChild) {
+            targetElement = buttonChild;
+          }
+
+          if (!targetElement.querySelector(".icon svg")) {
+            const iconSpan = document.createElement("span");
+            iconSpan.classList.add("icon");
+            iconSpan.style.marginLeft = "0.2em";
+            iconSpan.style.verticalAlign = "middle";
+            iconSpan.innerHTML = externalLinkSvg.trim();
+            targetElement.appendChild(iconSpan);
+          }
+        }
+      } catch (e) {
+        // Invalid URL, skip
+      }
+    });
+  });
+</script>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const headings = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+    headings.forEach(function (heading) {
+      if (!heading.id) {
+        // Generate a slug from the heading text
+        const slug = heading.textContent
+          .toLowerCase()
+          .trim()
+          .replace(/[^\w\s-]/g, '') // Remove non-word characters
+          .replace(/\s+/g, '-');    // Replace spaces with dashes
+
+        // Ensure uniqueness by appending a number if needed
+        let uniqueSlug = slug;
+        let counter = 1;
+        while (document.getElementById(uniqueSlug)) {
+          uniqueSlug = `${slug}-${counter++}`;
+        }
+        heading.id = uniqueSlug;
+      }
+
+      const anchor = document.createElement("a");
+      anchor.href = `#${heading.id}`;
+      anchor.className = "anchor-link";
+      anchor.innerHTML = "🔗";
+
+      heading.insertBefore(anchor, heading.firstChild);
+    });
+  });
+</script>
