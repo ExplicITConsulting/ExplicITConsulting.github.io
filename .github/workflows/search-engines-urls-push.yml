@@ -1,7 +1,7 @@
 name: "search-engines-urls-push"
 on:
   workflow_dispatch:
-  push:
+  # push:
   schedule:
     # Set the schedule time
     - cron: "15 */3 * * *"
