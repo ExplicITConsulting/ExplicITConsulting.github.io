@@ -99,7 +99,7 @@ redirect_from:
 
     // Call changeTopRightImage() every 1 second (1000ms)
     // The CSS transition is also 1 second, so they will smoothly cross-fade.
-    setInterval(changeTopRightImage, 1000);
+    setInterval(changeTopRightImage, 2000);
   } else {
     // Updated warning message
     console.warn("No PNG images found in /assets/images/ for the dynamic top-right background, or issues retrieving their URLs.");
