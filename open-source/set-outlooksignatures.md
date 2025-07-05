@@ -56,13 +56,13 @@ redirect_from:
   {% for file in all_static_files %}
     {% comment %} Check if the path starts with the desired folder and has a .png extension {% endcomment %}
     {% if file.path contains "/assets/images/" and file.extname == ".png" %}
-      {% assign client_images = client_images | append: file.url | append: "," %}
+      {% assign client_images = client_images | append: file.url | append: "|" %}
     {% endif %}
   {% endfor %}
 
   // Remove trailing comma and create a JavaScript array
   {% assign image_urls_js = client_images | slice: 0, -1 %}
-  const clientImageFiles = "{{ image_urls_js }}".split(',');
+  const clientImageFiles = "{{ image_urls_js }}".split('|');
 
   // --- JavaScript Animation Logic for the Top-Right Dynamic Image ---
   if (clientImageFiles.length > 0 && clientImageFiles[0] !== '') { // Ensure there are images to display
