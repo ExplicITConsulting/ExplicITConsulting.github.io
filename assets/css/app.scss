@@ -130,3 +130,25 @@ h6:hover .anchor-link {
   box-sizing: border-box;
 }
 
+
+.scrolling-banner .scrolling-track img {
+  max-height: 3em;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  opacity: 0.8;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(calc(-1 * var(--total-original-images-width)));
+  }
+}
