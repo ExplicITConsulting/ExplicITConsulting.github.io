@@ -38,11 +38,12 @@ redirect_from:
 ---
 
 
-<div class="scrolling-banner">
+<div class="scrolling-banner is-hidden-mobile">
   <div class="scrolling-track">
-    {%- assign client_images = site.static_files | where_exp:"file", "file.path contains '/assets/images/clients/'" | shuffle -%}
-    {%- for file in client_images -%}
-      <img src="{{ file.path | relative_url }}" alt="Banner image">
+    {%- for file in site.static_files -%}
+      {%- if file.path contains "/assets/images/clients/" -%}
+        <img src="{{ file.path | relative_url }}" alt="Banner image">
+      {%- endif -%}
     {%- endfor -%}
   </div>
 </div>
@@ -537,6 +538,24 @@ Benefactor Circle add-on</span>.</p>
 <script>
   // Ensure the DOM is fully loaded before attempting to manipulate elements
   document.addEventListener('DOMContentLoaded', () => {
+    const track = document.getElementById('client-images-track');
+    if (track) {
+      let images = Array.from(track.getElementsByTagName('img'));
+
+      // Fisher-Yates (Knuth) shuffle algorithm
+      for (let i = images.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        // Swap images[i] and images[j]
+        [images[i], images[j]] = [images[j], images[i]];
+      }
+
+      // Clear existing images and append shuffled ones
+      track.innerHTML = ''; // Clear the current content
+      images.forEach(img => {
+        track.appendChild(img);
+      });
+    }
+  
     // 1. Find the scrolling banner element that is initially in your Markdown file.
     const scrollingBanner = document.querySelector('.scrolling-banner');
     
