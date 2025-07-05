@@ -38,11 +38,71 @@ redirect_from:
 ---
 
 <div class="site-background-decorations">
-  <div class="bg-image-decor decor-top-right"></div>
+  <div class="bg-image-decor decor-top-right">
+      <div class="animated-bg-layer layer-1"></div>
+      <div class="animated-bg-layer layer-2"></div>
+  </div>
   <div class="bg-image-decor decor-bottom-right"></div>
   <div class="bg-image-decor decor-top-left"></div>
   <div class="bg-image-decor decor-bottom-left"></div>
 </div>
+
+<script>
+  // Get all static files
+  {% assign all_static_files = site.static_files %}
+
+  // Filter for PNG images in /assets/images/clients/
+  {% assign client_images = "" %}
+  {% for file in all_static_files %}
+    {% comment %} Check if the path starts with the desired folder and has a .png extension {% endcomment %}
+    {% if file.path contains "/assets/images/" and file.extname == ".png" %}
+      {% assign client_images = client_images | append: file.url | append: "," %}
+    {% endif %}
+  {% endfor %}
+
+  // Remove trailing comma and create a JavaScript array
+  {% assign image_urls_js = client_images | slice: 0, -1 %}
+  const clientImageFiles = "{{ image_urls_js }}".split(',');
+
+  // --- JavaScript Animation Logic for the Top-Right Dynamic Image ---
+  if (clientImageFiles.length > 0 && clientImageFiles[0] !== '') { // Ensure there are images to display
+    const topRightDecor = document.querySelector('.bg-image-decor.decor-top-right');
+    const layer1 = topRightDecor.querySelector('.animated-bg-layer.layer-1');
+    const layer2 = topRightDecor.querySelector('.animated-bg-layer.layer-2');
+
+    let currentImageIndex = 0;
+    let activeLayer = layer1;   // Start with layer1 as active
+    let inactiveLayer = layer2; // Start with layer2 as inactive
+
+    // Preload the very first image and make it visible immediately
+    layer1.style.backgroundImage = `url(${clientImageFiles[currentImageIndex]})`;
+    layer1.classList.add('active'); 
+
+    // Function to change the image and trigger the fade
+    function changeTopRightImage() {
+      // Move to the next image in the array, loop back to start if at end
+      currentImageIndex = (currentImageIndex + 1) % clientImageFiles.length;
+
+      // Swap which layer is active and which is inactive
+      const temp = activeLayer;
+      activeLayer = inactiveLayer;
+      inactiveLayer = temp;
+
+      // Set the background image on the layer that is currently inactive
+      inactiveLayer.style.backgroundImage = `url(${clientImageFiles[currentImageIndex]})`;
+
+      // Toggle the 'active' class to trigger the CSS opacity transition
+      activeLayer.classList.remove('active');   // Old active fades out
+      inactiveLayer.classList.add('active'); // New active fades in
+    }
+
+    // Call changeTopRightImage() every 1 second (1000ms)
+    // The CSS transition is also 1 second, so they will smoothly cross-fade.
+    setInterval(changeTopRightImage, 1000);
+  } else {
+    console.warn("No PNG images found in /assets/images/clients/ for the dynamic top-right background.");
+  }
+</script>
 
 
 <div class="columns">
