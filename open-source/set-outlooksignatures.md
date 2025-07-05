@@ -304,7 +304,7 @@ linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, da
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
       <div style="hyphens: manual;">
         <div class="scrolling-banner">
-          <div class="scrolling-track" id="scrolling-track">
+          <div class="scrolling-track">
             {%- for file in site.static_files -%}
               {%- if file.path contains "/assets/images/clients/" -%}
                 <img src="{{ file.path | relative_url }}" alt="Banner image">
@@ -542,68 +542,84 @@ Benefactor Circle add-on</span>.</p>
 
 
 <script>
-  // Ensure the DOM is fully loaded before attempting to manipulate elements
   document.addEventListener('DOMContentLoaded', () => {
-    const track = document.getElementById('scrolling-track');
+      // Select the scrolling banner and track using their classes.
+      // We'll use querySelector to find the first occurrence.
+      const scrollingBanner = document.querySelector('.scrolling-banner');
+      const track = scrollingBanner ? scrollingBanner.querySelector('.scrolling-track') : null;
 
-    if (track) {
-      let images = Array.from(track.getElementsByTagName('img'));
-
-      // Fisher-Yates (Knuth) shuffle algorithm
-      for (let i = images.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        // Swap images[i] and images[j]
-        [images[i], images[j]] = [images[j], images[i]];
+      // Exit early if either element isn't found.
+      if (!scrollingBanner || !track) {
+          console.warn("Scrolling banner or track element not found. Animation setup skipped.");
+          return;
       }
 
-      // Clear existing images and append shuffled ones
-      track.innerHTML = ''; // Clear the current content
+      // --- Image Shuffling ---
+      let images = Array.from(track.getElementsByTagName('img'));
+
+      // If no images are found initially, there's nothing to shuffle or animate.
+      if (images.length === 0) {
+          console.warn("No images found in .scrolling-track. Skipping shuffle and animation setup.");
+          return;
+      }
+
+      // Fisher-Yates (Knuth) shuffle algorithm to randomize image order.
+      for (let i = images.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [images[i], images[j]] = [images[j], images[i]]; // Swap images
+      }
+
+      // Clear the current content and append the shuffled images.
+      track.innerHTML = '';
       images.forEach(img => {
-        track.appendChild(img);
+          track.appendChild(img);
       });
-    }
-  
-    // Find the scrolling banner element that is initially in your Markdown file.
-    const scrollingBanner = document.querySelector('.scrolling-banner');
-    
-    // Conditional execution: The following code will only run if ALL of these elements
-    // are found on the current page. This prevents errors on other pages that don't
-    // have this specific structure.
-    if (scrollingBanner && scrollingTrackAnchor) {
-      // 5. Move the 'scrolling-banner' element into the 'containerDiv',
-      //    and place it directly *before* the 'subtitleElement'.
-      containerDiv.insertBefore(scrollingBanner, scrollingTrackAnchor);
+      // --- End Image Shuffling ---
 
-      // --- Start of your existing JavaScript code for the animation setup ---
-      // This part should execute *after* the scrollingBanner has been moved
-      // to its final DOM position.
+      // --- Animation Setup ---
+      // Get the first image after shuffling. This is crucial for dimension calculations.
+      const firstImage = track.querySelector('img');
 
-      const track = scrollingBanner.querySelector('.scrolling-track');
-      const images = Array.from(track.children);
+      if (!firstImage) {
+          console.warn("No images available after shuffle for animation setup.");
+          return;
+      }
 
-      // Store the original count of images before duplication
-      const originalImageCount = images.length;
+      // We need to ensure the first image has loaded to get accurate dimensions (offsetWidth).
+      const setupAnimation = () => {
+          const originalImageCount = images.length; // The count of original, shuffled images.
 
-      // Duplicate the image set to ensure a seamless looping animation
-      images.forEach(img => {
-        const clone = img.cloneNode(true);
-        track.appendChild(clone);
-      });
+          // Duplicate the image set to create a seamless looping effect.
+          // We clone the *original* shuffled images, not the ones already in the track.
+          images.forEach(img => {
+              const clone = img.cloneNode(true);
+              track.appendChild(clone);
+          });
 
-      // Calculate the total duration of the animation. Adjust '1.5' for speed.
-      const duration = originalImageCount * 1.5; // 1.5 seconds per original image
+          // Calculate the total animation duration. Adjust '1.5' for animation speed (seconds per image).
+          const duration = originalImageCount * 1.5;
 
-      // Get the computed width of a single image slot (image width + its right margin)
-      // This is crucial for calculating the precise scroll distance for the animation.
-      const firstImage = images[0]; 
-      const imageSlotWidth = firstImage.offsetWidth + parseFloat(getComputedStyle(firstImage).marginRight);
+          // Get the computed style of the first image to determine its margin.
+          const computedStyle = getComputedStyle(firstImage);
+          // Calculate the total "slot" width for one image (image width + its right margin).
+          const imageSlotWidth = firstImage.offsetWidth + parseFloat(computedStyle.marginRight);
 
-      // Set CSS custom properties (variables) on the track element.
-      // These variables will be used in your SCSS @keyframes animation.
-      track.style.setProperty('--scroll-duration', `${duration}s`);
-      track.style.setProperty('--original-image-count', originalImageCount); // Useful for calculation in CSS
-      track.style.setProperty('--image-slot-width', `${imageSlotWidth}px`);
-      // --- End of your existing JavaScript code for the animation setup ---
-    }
+          // Set CSS custom properties (variables) directly on the track element.
+          // These variables will be used by your SCSS @keyframes animation.
+          track.style.setProperty('--scroll-duration', `${duration}s`);
+          track.style.setProperty('--original-image-count', originalImageCount);
+          track.style.setProperty('--image-slot-width', `${imageSlotWidth}px`);
+
+          // Optional: Set these if your CSS still explicitly uses them for image sizing within the track.
+          track.style.setProperty('--image-base-width', `${firstImage.offsetWidth}px`);
+          track.style.setProperty('--image-spacing', `${parseFloat(computedStyle.marginRight)}px`);
+      };
+
+      // Check if the image is already loaded (e.g., from cache) or wait for it to load.
+      if (firstImage.complete) {
+          setupAnimation(); // If complete, run setup immediately.
+      } else {
+          firstImage.onload = setupAnimation; // Otherwise, run setup when it loads.
+      }
   });
 </script>
