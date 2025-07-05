@@ -110,12 +110,12 @@ h6:hover .anchor-link {
 }
 
 .scrolling-banner {
-  overflow: hidden; // Keeps content clipped horizontally
+  overflow: hidden; /* This is crucial to clip content horizontally */
   pointer-events: none;
   display: flex;
-  align-items: center; // Vertically center images within the banner
+  align-items: center; /* Vertically centers images within the banner */
   width: 100%;
-  height: 3em; // CRITICAL: Forces the banner to be 3em tall
+  // height: auto; /* No fixed height here; banner height is determined by its content */
 }
 
 .scrolling-banner.hidden {
@@ -124,24 +124,36 @@ h6:hover .anchor-link {
 
 .scrolling-track {
   display: flex;
-  height: 100%; // CRITICAL: Make the track fill the banner's height (3em)
-  align-items: center; // Align items vertically within the track
-  white-space: nowrap; // Prevents images from wrapping to a new line
+  // height: auto; /* No fixed height here; track height is determined by its content */
+  align-items: center; /* Ensures all images are vertically aligned (e.g., centered) */
+  white-space: nowrap; /* Prevents images from wrapping to a new line */
 
-  // Use a fixed gap for spacing between images.
-  // This value will be read by JS, so ensure it's a fixed unit (px, em, rem).
-  gap: 1.5em; /* Or 16px, 24px, etc. Choose a fixed unit */
+  // Use 'gap' for spacing. This is cleaner and more reliable than margin-right.
+  gap: 1.5em; /* Define your consistent spacing here (e.g., 1.5em or 24px) */
 
   animation: scroll-left var(--scroll-duration) linear infinite;
 }
 
 .scrolling-track img {
-  height: 100%; // CRITICAL: Forces images to be 100% of the track's height (3em)
-  width: auto; // Let the width be determined by aspect ratio and fixed height
+  // Images will be at most 3em tall, but can be shorter if their aspect ratio or width constraint dictates.
+  max-height: 3em;
+  height: auto; /* Let natural height (constrained by max-height/max-width) define actual height */
 
-  object-fit: contain; /* Scales images to fit within 3em height, maintaining aspect ratio */
+  // CRITICAL CHANGE: Max-width to ensure it fits horizontally if needed.
+  // This will make wide images shrink their width, and their height will proportionally shrink too.
+  max-width: 100%;
+  width: auto; /* Let the width be determined by aspect ratio based on height/max-width */
 
-  flex-shrink: 0; /* Prevents images from shrinking below their calculated auto-width */
+  // Ensure aspect ratio is maintained and image fits within its box.
+  object-fit: contain;
+
+  // FLEXBOX PROPERTIES:
+  // flex-shrink: 0; is no longer strictly necessary if max-width: 100% is present,
+  // as max-width will do the shrinking. However, keeping it doesn't hurt.
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+
   opacity: 0.8;
   display: block;
 }
