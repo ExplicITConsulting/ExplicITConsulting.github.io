@@ -58,21 +58,21 @@ redirect_from:
 
 
 <style>
-  .content::after { /* Or ::before, functionally similar here */
+  html::after {
     content: "";
-    position: absolute; /* Positioned relative to .content */
-    top: 0; /* Aligned to the top of .content */
-    right: 0; /* Aligned to the right of .content */
+    position: fixed; /* Stays fixed relative to the viewport */
+    right: 0;        /* Aligned to the right edge of the viewport */
+    top: $navbar-height; /* Uses the actual, dynamic height of your navbar */
 
-    /* Your existing image styling */
-    width: 33.3vw; /* Use vw if you want it relative to viewport width, or % if relative to content width */
-    height: 50vh; /* Use vh if you want it relative to viewport height, or % if relative to content height */
+    width: 20vw;   /* Your desired width, relative to viewport width */
+    height: 25vh;    /* Your desired height, relative to viewport height */
+
     background-image: url("/assets/images/visitenkarten-hochkant.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: top right; /* Positions image within its own pseudo-element box */
-    pointer-events: none; /* Allows clicks on content below */
-    z-index: -1; /* Puts it behind content */
+    background-position: top right; /* Positions the image within its own box */
+    pointer-events: none; /* Ensures the image doesn't block clicks */
+    z-index: -1;          /* Puts the image behind other content */
     opacity: 0.5;
   }
 </style>
