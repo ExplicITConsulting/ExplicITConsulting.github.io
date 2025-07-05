@@ -46,7 +46,11 @@ redirect_from:
   <div class="bg-image-decor decor-top-left"></div>
   <div class="bg-image-decor decor-bottom-left"></div>
 </div>
-
+<pre>
+{% for file in site.static_files %}
+  - Path: {{ file.path }}, Extname: {{ file.extname }}
+{% endfor %}
+</pre>
 <script>
   // Get all static files
   {% assign all_static_files = site.static_files %}
