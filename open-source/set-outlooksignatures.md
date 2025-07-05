@@ -38,17 +38,6 @@ redirect_from:
 ---
 
 
-<div class="scrolling-banner is-hidden-mobile">
-  <div class="scrolling-track" id="scrolling-track">
-    {%- for file in site.static_files -%}
-      {%- if file.path contains "/assets/images/clients/" -%}
-        <img src="{{ file.path | relative_url }}" alt="Banner image">
-      {%- endif -%}
-    {%- endfor -%}
-  </div>
-</div>
-
-
 <div class="columns">
   <div class="column is-one-quarter">
     <img src="/assets/images/set-outlooksignatures benefactor circle.png" alt="Set-OutlookSignatures">
@@ -293,7 +282,7 @@ linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, da
     </div>
   </div>
 
-  <div class="column is-one-third-desktop is-half-tablet is-full-mobile" id="scrolling-track-anchor">
+  <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
       <div style="hyphens: manual;">
@@ -306,6 +295,23 @@ linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, da
             <li>Managing out-of-office Replies</li>
             <li>Deleting outdated signatures</li>
           </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
+    <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
+      <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
+      <div style="hyphens: manual;">
+        <div class="scrolling-banner">
+          <div class="scrolling-track" id="scrolling-track">
+            {%- for file in site.static_files -%}
+              {%- if file.path contains "/assets/images/clients/" -%}
+                <img src="{{ file.path | relative_url }}" alt="Banner image">
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -557,8 +563,6 @@ Benefactor Circle add-on</span>.</p>
       });
     }
   
-    const scrollingTrackAnchor = document.getElementById('scrolling-track-anchor');
-    
     // Find the scrolling banner element that is initially in your Markdown file.
     const scrollingBanner = document.querySelector('.scrolling-banner');
     
