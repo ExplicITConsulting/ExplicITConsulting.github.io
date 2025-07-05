@@ -75,7 +75,7 @@ linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, da
 
 
 <h2>Sustainable added value for your business</h2>
-<p>The <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle add-on</span> from <a href="https://explicitconsulting.at" target="_blank">ExplicIT Consulting</a> enhances the free Set-OutlookSignatures with great additional possibilities for your company.</p>
+<p>The <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle add-on</span> from <a href="https://explicitconsulting.at">ExplicIT Consulting</a> enhances the free Set-OutlookSignatures with great additional possibilities for your company.</p>
 
 <h3>Additional features</h3>
 <div class="columns is-multiline">
@@ -266,13 +266,62 @@ linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, da
   </div>
 </div>
 
-<a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb"><button class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">➔ Request a trial license or quote</button></a>
+<p><a href="#trialversion"><button class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">➔ Request a trial license or quote</button></a></p>
 
 
 <h2 id="demo">Demo</h2>
 <p>We show you what Set-OutlookSignatures, the <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle add-on</span> and the included Outlook add-in can do for you - interactively and with focus on your actual needs.</p>
 
-<p><a href="https://outlook.cloud.microsoft/book/demo.set-outlooksignatures@explicitconsulting.at/" target="_blank"><button class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">➔ Schedule your personal demo</button></a></p>
+<p>Experience live:</p>
+<div class="columns is-multiline">
+  <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
+    <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
+      <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
+      <div style="hyphens: manual;">
+        <b>Centralized Management</b><br>Take control of all email signatures and out-of-office replies company-wide, from Outlook clients to mobile devices and Outlook Web.
+      </div>
+    </div>
+  </div>
+
+  <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
+    <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
+      <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
+      <div style="hyphens: manual;">
+        <b>Efficiency and Time Savings</b><br>Reduce manual effort through automated provision of consistent and legally compliant signatures.
+      </div>
+    </div>
+  </div>
+
+  <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
+    <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
+      <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
+      <div style="hyphens: manual;">
+        <b>Brand Compliance and Legal Certainty</b><br>Ensure your corporate identity and legal requirements in every email.
+      </div>
+    </div>
+  </div>
+
+  <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
+    <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
+      <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
+      <div style="hyphens: manual;">
+        <b>Exclusive Benefactor Circle features</b><br>Among others:
+          <ul>
+            <li>Time-controlled Campaigns</li>
+            <li>Roaming Signatures</li>
+            <li>Signatures for Outlook Android, iOS and Web</li>
+            <li>Signatures for additional mailboxes</li>
+            <li>Managing out-of-office Replies</li>
+            <li>Deleting outdated signatures</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p>We look forward to meeting you!</p>
+
+<p><a href="https://outlook.cloud.microsoft/book/demo.set-outlooksignatures@explicitconsulting.at/"><button class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">➔ Schedule your personal demo</button></a></p>
 
 
 <h2>Financial benefits</h2>
@@ -324,7 +373,7 @@ Benefactor Circle add-on</span>.</p>
 <ul>
   <li>Small companies always just pay the same low price as big enterprises.</li>
   <li>No maintenance or support contracts hidden in the annual price. You only pay for the support you actually need — and often, thanks to the documentation, you won’t need any.</li>
-  <li><strong>All-inclusive support promise:</strong> If your support request stems from a bug in the latest version of Set-OutlookSignatures, the Benefactor Circle add-on, its documentation, or the provided components, support is free — no exceptions. For all other issues, you will receive the same top-notch support at a fair price.</li>
+  <li><strong>All-inclusive support promise:</strong> If your support request stems from a bug in the latest version of Set-OutlookSignatures, the <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle add-on</span>, its documentation, or the provided components, support is free — no exceptions. For all other issues, you will receive the same top-notch support at a fair price.</li>
   <li>No additional infrastructure or external data transfers. Everything runs on your existing systems, within your own security boundaries.</li>
   <li>No inflated prices that are later “discounted” through negotiations.</li>
 </ul>
@@ -348,15 +397,16 @@ Benefactor Circle add-on</span>.</p>
 <p>If you wish to add additional mailboxes during an active license period, you will only be charged the current price for these additional mailboxes for the remaining months of your license period.</p>
 
 
-<h3>Trial version</h3>
+<h3 id="trialversion">Trial version</h3>
 <p>You may want to start with a 14-day trial license.</p>
 
-<p>The Benefactor Circle add-on extends the feature set of the free and open-source core version of Set-OutlookSignatures, so make sure that the core version is working correctly before requesting a trial version.<br>
-If you look for help implementing the free and open-source core version of Set-OutlookSignatures, go through the Quick Start Guide in the readme file, open an issue at GitHub, or contact us: We are happy to help you implement Set-OutlookSignatures in your own environment as part of our fee-based support.</p>
+<p>The <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle add-on</span> extends the feature set of the free and open-source core version of Set-OutlookSignatures, so make sure that the core version is working correctly before requesting a trial version.<br>If you look for help implementing the free and open-source core version of Set-OutlookSignatures, go through the Quick Start Guide in the readme file, open an issue at GitHub, or contact us: We are happy to help you implement Set-OutlookSignatures in your own environment as part of our fee-based support.</p>
 
 <p>As soon as the open-source core version is running, it is time to take the next step:</p>
 
-<p><a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb" target="_blank"><button class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">➔ Request a 14-day trial license</button></a></p>
+<p><a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb">
+  <button class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">➔ Request a 14-day trial license</button>
+</a></p>
 
 <p>To use the license file, just add two parameters to your call of &apos;Set-OutlookSignatures.ps1&apos;:</p>
 <ul>
@@ -372,7 +422,7 @@ If you look for help implementing the free and open-source core version of Set-O
 
 
 <h3>Order process for non-trial versions</h3>
-<p><a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb" target="_blank"><button class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">➔ Request a license quote</button></a></p>
+<p><a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb"><button class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">➔ Request a license quote</button></a></p>
 
 <p>You will receive a quote shortly. As soon as all details are ironed out, you will receive an invoice and can start the payment process.</p>
 
@@ -414,20 +464,20 @@ If you look for help implementing the free and open-source core version of Set-O
 <h3>How license groups work</h3>
 <p>Each Benefactor Circle license is bound to one or more Active Directory or Entra ID groups, called a license group. For maximum data protection and ease of administration, licensing is not bound to specific mailboxes ("named users"), but only to a group with a maximum amount of members.</p>
 
-<p>For most environments, only one license group is needed.<br>In on-prem and hybrid environments with multiple Active Directory domains, you may define a separate license group for each AD DNS domain, each license group with a separate maximum member count. When a license group for the home Active Directory domain of a mailbox is defined, this license group is used. If not, the license group defined as default will be used.</p>
+<p>For most environments, only one license group is needed.<br>In on-prem and hybrid environments with multiple Active Directory domains, you may define a separate license group for each AD DNS domain, each license group with a separate maximum member count.<br>If you have multiple entra ID tenants, you may define one Entra ID group per tenant.</p>
 
 <p>A license group definition consists of three components:</p>
 <ul>
-  <li>The DNS domain name of the on-premises Active Directory domain the license group is located in. Use 'EntraID' for cloud-only groups.</li>
+  <li>The DNS domain name of the on-premises Active Directory domain the license group is located in. For cloud-only groups, use 'EntraID_&lt;TenantID&gt;' or 'EntraID_&lt;TenantDNSDomain&gt;'.</li>
   <li>The SID (security identifier) or the Entra ID Object ID of the license group.</li>
   <li>The maximum number of mailboxes licensed for the group.</li>
 </ul>
 
 <p>Where should I create the license group?</p>
 <ul>
-  <li>When using the '-GraphOnly true' parameter, create the group in Entra ID. The license group is then 'EntraID &lt;Object ID of your license group&gt>'. You may also use a group created in on-prem Active Directory, as long as it is synchronized to Entra ID. The license group is then '&lt;On-prem Active Directory DNS domain name&gt;, &lt;SID of the license group&gt;'.</li>
-  <li>In hybrid environments without using the '-GraphOnly true' parameter, create a group in your on-prem Active Directory and make sure it is synchronized with Entra ID. The license group is then '&lt;On-prem Active Directory DNS domain name&gt;, &lt;SID of the license group&gt;'. You can also use a group created in Entra ID ('EntraID, &lt;Object ID of the license group&gt;'), which would basically be equal to using the '-GraphOnly true' parameter.</li>
-  <li>In pure on-prem environments, you can only use on-prem groups. The license group is then '&lt;On-prem Active Directory DNS domain name&gt;, &lt;SID of the license group&gt;'. When moving to a hybrid environment, you do not need to adapt the configuration as long as you synchronize your on-prem groups to Entra ID.</li>
+  <li>When using the '-GraphOnly true' parameter, create the group in Entra ID. The license group is then 'EntraID_&lt;TenantDNSDomain&gt;, &lt;Object ID of your license group&gt;, &lt;NumberOfLicenses&gt;'.<br>You may also use a group created in on-prem Active Directory, as long as it is synchronized to Entra ID. The license group is then '&lt;On-prem Active Directory DNS domain name&gt;, &lt;SID of the license group&gt;, &lt;NumberOfLicenses&gt;'.</li>
+  <li>In hybrid environments without using the '-GraphOnly true' parameter, create a group in your on-prem Active Directory and make sure it is synchronized with Entra ID. The license group is then '&lt;On-prem Active Directory DNS domain name&gt;, &lt;SID of the license group&gt;, &lt;NumberOfLicenses&gt;'.<br>You can also use a group created in Entra ID ('EntraID_&lt;TenantDNSDomain&gt;, &lt;Object ID of the license group&gt;, &lt;NumberOfLicenses&gt;'), which would basically be equal to using the '-GraphOnly true' parameter.</li>
+  <li>In pure on-prem environments, you can only use on-prem groups. The license group is then '&lt;On-prem Active Directory DNS domain name&gt;, &lt;SID of the license group&gt;, &lt;NumberOfLicenses&gt;'.<br>When moving to a hybrid environment, you do not need to adapt the configuration as long as you synchronize your on-prem groups to Entra ID.</li>
 </ul>
 
 <p>When a Benefactor Circle exclusive feature is about to be used, the license is checked as follows:</p>
@@ -435,7 +485,7 @@ If you look for help implementing the free and open-source core version of Set-O
   <li>Determine which license group to use.
     <ol>
       <li>Extract the AD DNS domain name from the mailbox' distinguishedName or dnsDomainName property.</li>
-      <li>When the step above returns an AD DNS domain name and if a license group is defined for it, use this group. Else, use the first group in the list.</li>
+      <li>Use the first license group associated with this AD DNS domain name.<br>If no license group for this AD DNS domain is defined and the Mailbox is in Exchange Online, use the first Entra ID license group associated with the tenant of the mailbox.<br>Finally, if no matching license group is defined, use the first license group in the list.</li>
     </ol>
   </li>
   <li>Find the license group via a Graph or Active Directory query.</li>
@@ -453,9 +503,22 @@ If you look for help implementing the free and open-source core version of Set-O
 
 <p>When a connection to Microsoft Graph is available, Graph is used to check license group membership. A connection to Graph is enforced when the default license group is an Entra ID group.</p>
 
+
 <h2>License and software version</h2>
 <p>License and software versions go hand in hand, so every new release of Set-OutlookSignatures also means a new license release, and vice-versa.</p>
 
-<p>Using different versions of software and license file is not supported, as this leads to unexpected results.</p>
+<p>Using different versions of software and license file is not supported, as this leads to unexpected results. A warning message is logged when a version mismatch is detected.</p>
 
-<p>A warning message is logged when a version mismatch is detected.</p>
+
+<h2>Help and support</h2>
+<p>Set-OutlookSignatures and the <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle add-on</span> are very well documented, which inevitably brings with it a lot of content.</p>
+
+<p>Visit our help and support center to find out more:<p>
+<ul>
+  <li>The detailed feature set and a comparison with market companions</li>
+  <li>Requirements and configuration options</li>
+  <li>Best practices and FAQ</li>
+  <li>How to get first-class support</li>
+</ul>
+
+<p><a href="/help"><button class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: LimeGreen">➔ Help and Support-Center</button></a></p>
