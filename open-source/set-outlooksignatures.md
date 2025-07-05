@@ -574,15 +574,34 @@ document.addEventListener('DOMContentLoaded', () => {
         let totalOriginalImagesWidth = 0;
 
         const trackComputedStyle = getComputedStyle(track);
-        // Ensure you're reading 'gap' if you switched from margin-right
-        const imageGap = parseFloat(trackComputedStyle.gap);
+
+        // --- NEW GAP DETECTION LOGIC ---
+        // Get column-gap specifically, which is what 'gap' refers to for flex-direction: row
+        let imageGap = parseFloat(trackComputedStyle.columnGap);
+
+        // Fallback for older browsers or if column-gap isn't directly available/numeric
+        if (isNaN(imageGap) || imageGap === 0) {
+            // As a fallback, if gap isn't working or is 0,
+            // try to compute a default margin-right from the first image
+            // if you still prefer margins for spacing.
+            const firstImage = track.querySelector('img');
+            if (firstImage) {
+                imageGap = parseFloat(getComputedStyle(firstImage).marginRight) || 0;
+            } else {
+                imageGap = 0; // Default to 0 if no image found for fallback
+            }
+        }
+        // If imageGap is still NaN (e.g., if CSS has 'gap: normal' and no images),
+        // enforce a default pixel value.
+        if (isNaN(imageGap)) {
+            imageGap = 16; // A reasonable default gap in pixels (e.g., 1em)
+        }
+        // --- END NEW GAP DETECTION LOGIC ---
 
         // Loop through the *original set* of images to sum their rendered widths
         images.forEach((img, index) => {
-            // img.offsetWidth will now reflect the width of the image
-            // after it has scaled to fit 'max-height' and maintained its aspect ratio.
-            totalOriginalImagesWidth += img.offsetWidth;
-
+            totalOriginalImagesWidth += img.offsetWidth; // This should be in pixels
+            // Add gap for all images *except the last one* in the original set
             if (index < originalImageCount - 1) {
                 totalOriginalImagesWidth += imageGap;
             }
@@ -591,18 +610,21 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(`Calculated total original images width (including gaps): ${totalOriginalImagesWidth}px`);
         console.log(`Detected image gap: ${imageGap}px`);
 
-        // Duplicate the image set
+
+        // Duplicate the image set *after* the initial measurements
         images.forEach(img => {
             const clone = img.cloneNode(true);
             track.appendChild(clone);
         });
 
         const animationSpeedPixelsPerSecond = 50; // Adjust as needed
-        const duration = totalOriginalImagesWidth / animationSpeedPixelsPerSecond;
+        // Ensure totalOriginalImagesWidth is not 0 to avoid division by zero or infinite duration
+        const duration = totalOriginalImagesWidth > 0 ? totalOriginalImagesWidth / animationSpeedPixelsPerSecond : 0;
 
+        // Set CSS custom properties on the track element.
         track.style.setProperty('--scroll-duration', `${duration}s`);
         track.style.setProperty('--total-original-images-width', `${totalOriginalImagesWidth}px`);
-        track.style.setProperty('--image-spacing', `${imageGap}px`);
+        track.style.setProperty('--image-spacing', `${imageGap}px`); // Still good to set this
     };
 
     // Load images first to get accurate dimensions
