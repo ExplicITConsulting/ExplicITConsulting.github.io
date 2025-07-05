@@ -3,11 +3,11 @@ layout: page
 hero_image: /intentionally/non/existing/path
 hero_darken: false
 title: |
-  <p class="title has-text-black">
+  <p class="title is-2 has-text-black" style="width: fit-content;">
     Set-OutlookSignatures and the Benefactor Circle add-on
   </p>
 subtitle: |
-  <p class="subtitle has-text-black">
+  <p class="subtitle is-4 has-text-black" style="width: fit-content;">
     Email signatures and out-of-office replies for Exchange and all of Outlook.<br>Full-featured, cost-effective, unsurpassed data privacy.
   </p>
 description: Email signatures and out-of-office replies for Exchange and all of Outlook. Full-featured, cost-effective, unsurpassed data privacy.
