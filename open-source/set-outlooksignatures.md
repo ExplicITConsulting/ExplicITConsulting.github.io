@@ -46,11 +46,42 @@ redirect_from:
   <div class="bg-image-decor decor-top-left"></div>
   <div class="bg-image-decor decor-bottom-left"></div>
 </div>
+
+
+
+
 <pre>
-{% for file in site.static_files %}
-  - Path: {{ file.path }}, Extname: {{ file.extname }}
+DEBUGGING STATIC FILES:
+
+{% assign all_static_files = site.static_files %}
+{% assign found_png = false %}
+
+{% for file in all_static_files %}
+  Path: "{{ file.path }}"
+  Extname: "{{ file.extname }}"
+  Path Contains "/assets/images/": {{ file.path contains "/assets/images/" }}
+  Extname is ".png": {{ file.extname == ".png" }}
+  Combined condition: {{ file.path contains "/assets/images/" and file.extname == ".png" }}
+  {% if file.path contains "/assets/images/" and file.extname == ".png" %}
+    *** MATCHED ***
+    File URL: "{{ file.url }}"
+    {% assign found_png = true %}
+  {% endif %}
+  ---
 {% endfor %}
+
+Final `client_images` string (should contain URLs if matched): "{{ client_images }}"
+Length of `client_images` after slice: {{ client_images | slice: 0, -1 | size }}
+
+{% if found_png == false %}
+  <p style="color: red;">ERROR: No PNG files were matched by the Liquid filter!</p>
+{% endif %}
 </pre>
+
+
+
+
+
 <script>
   // Get all static files
   {% assign all_static_files = site.static_files %}
