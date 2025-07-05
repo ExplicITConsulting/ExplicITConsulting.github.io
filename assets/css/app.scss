@@ -109,81 +109,35 @@ h6:hover .anchor-link {
   padding-bottom: 0 !important; // Or just 0 if not needed
 }
 
-.site-background-decorations {
-  position: fixed; // Fixed to the viewport
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  pointer-events: none; /* Crucial: Allows clicks/interactions on content below */
-  z-index: -2; /* Place behind everything else. Use a lower z-index than -1 if necessary. */
-}
-
-.bg-image-decor {
-  position: absolute; /* Positioned relative to .site-background-decorations */
-  background-repeat: no-repeat;
-  background-size: contain;
-  opacity: 0.5; /* Default opacity for all */
-}
-
-/* --- Individual Image Styles --- */
-
-.bg-image-decor.decor-top-right {
-  position: absolute; // or fixed, if you want it to stay on screen during scroll
+.scrolling-banner {
+  position: fixed;
   top: $navbar-height;
   right: 0;
-  width: 20vw;
-  height: 25vh;
-  // REMOVE THIS LINE: background-image: url("/assets/images/image-1-top-right.png");
-  // The background-image will now be set on the inner layers by JavaScript
-
-  // This property can stay if you want it to affect how images are placed within their layers.
-  background-position: top right;
-  overflow: hidden; // Crucial: Ensures inner images stay neatly within this container
-}
-
-// Styles for the new animation layers *within* decor-top-right
-.bg-image-decor.decor-top-right .animated-bg-layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  background-size: contain; // Scales image to fit within its layer
-  background-repeat: no-repeat; // No repeating
-  background-position: top right; // Each image inside will be aligned top right within its layer
-
-  opacity: 0; // Start all layers hidden
-  transition: opacity 1s ease-in-out; // Smooth fade transition for 1 second
-}
-
-.bg-image-decor.decor-top-right .animated-bg-layer.active {
-  opacity: 1; // When active, make it visible
-}
-
-.bg-image-decor.decor-bottom-right {
-  bottom: 0;
-  right: 0;
-  width: 33.3vw;
-  height: 50vh;
-  background-image: url("/assets/images/visitenkarten-hochkant.png");
-  background-position: bottom right;
-}
-
-.bg-image-decor.decor-top-left {
-  top: $navbar-height; // Below the navbar
-  left: 0;
   width: 15vw;
-  height: 20vh;
-  background-image: url("/assets/images/image-3-top-left.png");
-  background-position: top left;
+  height: 25vh;
+  overflow: hidden;
+  z-index: -1;
+  pointer-events: none;
 }
 
-.bg-image-decor.decor-bottom-left {
-  bottom: 0;
-  left: 0;
-  width: 25vw;
-  height: 30vh;
-  background-image: url("/assets/images/image-4-bottom-left.png");
-  background-position: bottom left;
+.scrolling-track {
+  display: flex;
+  width: max-content;
+  animation: scroll-left 60s linear infinite;
+}
+
+.scrolling-track img {
+  height: 100%;
+  margin-right: 2vw;
+  flex-shrink: 0;
+  opacity: 0.8;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }

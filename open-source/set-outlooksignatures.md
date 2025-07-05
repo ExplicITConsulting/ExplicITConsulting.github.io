@@ -37,74 +37,15 @@ redirect_from:
   - /support-for-open-source/set-outlooksignatures-benefactor-circle
 ---
 
-<div class="site-background-decorations">
-  <div class="bg-image-decor decor-top-right">
-      <div class="animated-bg-layer layer-1"></div>
-      <div class="animated-bg-layer layer-2"></div>
+<div class="scrolling-banner">
+  <div class="scrolling-track">
+    {%- for file in site.static_files -%}
+      {%- if file.path contains "/assets/images/" and file.extname == ".png" -%}
+        <img src="{{ file.path | relative_url }}" alt="Banner image">
+      {%- endif -%}
+    {%- endfor -%}
   </div>
-  <div class="bg-image-decor decor-bottom-right"></div>
-  <div class="bg-image-decor decor-top-left"></div>
-  <div class="bg-image-decor decor-bottom-left"></div>
 </div>
-
-
-
-<script>
-  // Get all static files
-  {% assign all_static_files = site.static_files %}
-
-  // Filter for PNG images ONLY in /assets/images/ and collect their URLs
-  {% assign image_urls = "" | split: '' %}
-  {% for file in all_static_files %}
-    {% if file.path contains "/assets/images/" and file.extname == ".png" %}
-      {% assign image_url = file.path | relative_url %}
-      {% assign image_urls = image_urls | push: image_url %}
-    {% endif %}
-  {% endfor %}
-
-  // Convert the Liquid array to a JSON string, then parse it in JavaScript
-  const clientImageFiles = JSON.parse('{{ image_urls | jsonify }}');
-
-  // --- JavaScript Animation Logic for the Top-Right Dynamic Image ---
-  if (clientImageFiles.length > 0) { // Ensure there are images to display
-    const topRightDecor = document.querySelector('.bg-image-decor.decor-top-right');
-    const layer1 = topRightDecor.querySelector('.animated-bg-layer.layer-1');
-    const layer2 = topRightDecor.querySelector('.animated-bg-layer.layer-2');
-
-    let currentImageIndex = 0;
-    let activeLayer = layer1;   // Start with layer1 as active
-    let inactiveLayer = layer2; // Start with layer2 as inactive
-
-    // Preload the very first image and make it visible immediately
-    layer1.style.backgroundImage = `url(${clientImageFiles[currentImageIndex]})`;
-    layer1.classList.add('active'); 
-
-    // Function to change the image and trigger the fade
-    function changeTopRightImage() {
-      // Move to the next image in the array, loop back to start if at end
-      currentImageIndex = (currentImageIndex + 1) % clientImageFiles.length;
-
-      // Swap which layer is active and which is inactive
-      const temp = activeLayer;
-      activeLayer = inactiveLayer;
-      inactiveLayer = temp;
-
-      // Set the background image on the layer that is currently inactive
-      inactiveLayer.style.backgroundImage = `url(${clientImageFiles[currentImageIndex]})`;
-
-      // Toggle the 'active' class to trigger the CSS opacity transition
-      activeLayer.classList.remove('active');   // Old active fades out
-      inactiveLayer.classList.add('active'); // New active fades in
-    }
-
-    // Call changeTopRightImage() every 1 second (1000ms)
-    // The CSS transition is also 1 second, so they will smoothly cross-fade.
-    setInterval(changeTopRightImage, 2000);
-  } else {
-    // Updated warning message
-    console.warn("No PNG images found in /assets/images/ for the dynamic top-right background, or issues retrieving their URLs.");
-  }
-</script>
 
 
 <div class="columns">
