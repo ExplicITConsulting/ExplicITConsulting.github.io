@@ -113,8 +113,8 @@ h6:hover .anchor-link {
   position: absolute;
   top: $navbar-height;
   right: 0;
-  width: 15vw;
-  height: 15vh;
+  width: 15vw; /* This defines the total width of the banner */
+  height: 15vh; /* This defines the total height of the banner */
   overflow: hidden;
   z-index: -1;
   pointer-events: none;
@@ -125,15 +125,27 @@ h6:hover .anchor-link {
 .scrolling-track {
   display: flex;
   animation: scroll-left var(--scroll-duration, 30s) linear infinite;
+  /* Add a significant width to the track to accommodate all images */
+  /* This often needs to be larger than the sum of image widths if you have many images */
+  /* For instance, if you have 10 images and each slot is 15vw, the track might need 150vw + margins */
+  width: max-content; /* Allows the track to expand to fit its content */
 }
 
 .scrolling-track img {
-  max-width: 100%;
+  /* Define the consistent "slot" size for each image within the banner */
+  /* This ensures all images occupy the same visual area */
+  width: 15vw;   /* Each image will occupy a space equal to the banner's width */
+  height: 15vh;  /* Each image will occupy a space equal to the banner's height */
+
+  /* This is the crucial part for fitting different image sizes */
+  object-fit: contain; /* Scales the image down to fit completely within the defined width/height, maintaining aspect ratio */
+  
+  /* Ensure the image itself takes up 100% of its assigned width/height if needed, though object-fit handles the scaling */
+  max-width: 100%; 
   max-height: 100%;
-  width: auto;
-  height: auto;
-  margin-right: 2vw;
-  flex-shrink: 0;
+
+  margin-right: 2vw; /* Spacing between images */
+  flex-shrink: 0;    /* Prevents images from shrinking */
   opacity: 0.8;
   display: block;
 }
@@ -144,6 +156,10 @@ h6:hover .anchor-link {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-50%);
+    /* If you have a dynamic number of images or varying total track width, */
+    /* calculating -50% might not lead to a perfect loop. */
+    /* Consider adjusting this based on the total width of your image content, */
+    /* or by using JavaScript to dynamically calculate the scroll distance for a perfect loop. */
+    transform: translateX(-50%); 
   }
 }
