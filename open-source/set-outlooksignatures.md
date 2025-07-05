@@ -535,6 +535,48 @@ Benefactor Circle add-on</span>.</p>
 
 
 <script>
+  // Helper function to calculate an element's content box dimensions
+  // This helps distinguish between an element's full layout box (which includes padding/border)
+  // and just the area where its actual content resides.
+  function getContentRect(element) {
+      const computedStyle = window.getComputedStyle(element);
+
+      // Get padding values
+      const paddingLeft = parseFloat(computedStyle.paddingLeft);
+      const paddingRight = parseFloat(computedStyle.paddingRight);
+      const paddingTop = parseFloat(computedStyle.paddingTop);
+      const paddingBottom = parseFloat(computedStyle.paddingBottom);
+
+      // Get border values
+      const borderLeft = parseFloat(computedStyle.borderLeftWidth);
+      const borderRight = parseFloat(computedStyle.borderRightWidth);
+      const borderTop = parseFloat(computedStyle.borderTopWidth);
+      const borderBottom = parseFloat(computedStyle.borderBottomWidth);
+
+      // Get the element's overall bounding rectangle (includes padding and border by default)
+      const rect = element.getBoundingClientRect();
+
+      // Calculate content width and height by subtracting padding and border
+      const contentWidth = rect.width - paddingLeft - paddingRight - borderLeft - borderRight;
+      const contentHeight = rect.height - paddingTop - paddingBottom - borderTop - borderBottom;
+
+      // Calculate the top/left coordinates of the content box
+      const contentX = rect.left + paddingLeft + borderLeft;
+      const contentY = rect.top + paddingTop + borderTop;
+
+      // Return a new object representing the content box's bounding rectangle
+      return {
+          x: contentX,
+          y: contentY,
+          width: contentWidth,
+          height: contentHeight,
+          top: contentY,
+          right: contentX + contentWidth,
+          bottom: contentY + contentHeight,
+          left: contentX,
+      };
+  }
+
   // Ensure the DOM is fully loaded before attempting to manipulate elements
   document.addEventListener('DOMContentLoaded', () => {
     // 1. Find the scrolling banner element that is initially in your Markdown file.
@@ -643,10 +685,7 @@ Benefactor Circle add-on</span>.</p>
           const elementsAtPoint = document.elementsFromPoint(point.x, point.y);
 
           for (const element of elementsAtPoint) {
-            // Check if the element is not the banner itself and not a descendant of the banner.
-            // Also, explicitly ignore common structural/background elements that are not "real" overlaps.
-            // YOU MAY NEED TO ADD MORE ELEMENTS HERE SPECIFIC TO YOUR SITE'S LAYOUT
-            // E.g., if you have a top-level `div#page-wrapper`, add `element !== document.getElementById('page-wrapper')`
+            // First, apply general filtering rules (not the banner, not its children, not common backgrounds)
             if (element !== scrollingBanner &&
                 !scrollingBanner.contains(element) &&
                 element !== document.body &&
@@ -663,13 +702,36 @@ Benefactor Circle add-on</span>.</p>
                   parseFloat(style.opacity) > 0 &&
                   (element.offsetWidth > 0 || element.offsetHeight > 0)) // Also check for zero dimensions
               {
+                // --- SPECIAL CASE: For elements identified as problematic (like the title) ---
+                // If this element is your "p.title has-text-black" element,
+                // we'll apply a stricter check: only consider it an overlap if the point
+                // falls within its *content box*, not just its padding/border.
+                const isProblematicTitle = element.tagName.toLowerCase() === 'p' &&
+                                          element.classList.contains('title') &&
+                                          element.classList.contains('has-text-black'); // Be specific here
+
+                if (isProblematicTitle) {
+                    const contentRect = getContentRect(element);
+                    // Check if the sampled point is within the content box of the problematic title
+                    if (point.x >= contentRect.left && point.x <= contentRect.right &&
+                        point.y >= contentRect.top && point.y <= contentRect.bottom) {
+                        isVisuallyOverlapping = true;
+                        // console.warn(`Banner hidden by problematic title (content overlap) at (${point.x}, ${point.y}):`, element);
+                        break; // Found a meaningful overlap
+                    }
+                    // If the point is NOT within its content box (only padding/border), we ignore this element.
+                    continue; // Skip to the next element in elementsAtPoint
+                }
+
+                // If it's not a problematic title, or if it's a problematic title and the point IS within its content,
+                // then it's a visual overlap.
                 isVisuallyOverlapping = true;
                 // --- DEBUGGING HELP: Uncomment the line below to see which element is causing overlap ---
-                console.warn(`Banner hidden by element at (${point.x}, ${point.y}):`, element, {
-                     display: style.display, visibility: style.visibility, opacity: style.opacity,
-                     width: element.offsetWidth, height: element.offsetHeight,
-                     tag: element.tagName, id: element.id, class: element.className
-                 });
+                // console.warn(`Banner hidden by element at (${point.x}, ${point.y}):`, element, {
+                //     display: style.display, visibility: style.visibility, opacity: style.opacity,
+                //     width: element.offsetWidth, height: element.offsetHeight,
+                //     tag: element.tagName, id: element.id, class: element.className
+                // });
                 break; // Found an overlap at this point
               }
             }
