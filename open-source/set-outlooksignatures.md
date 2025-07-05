@@ -560,27 +560,39 @@ document.addEventListener('DOMContentLoaded', () => {
     //    *** THIS IS THE ONLY DOM MANIPULATION FOR POSITIONING ***
     containerDiv.insertBefore(scrollingBanner, subtitleElement);
 
-    // --- Start of Conditional Visibility Logic ---
     // Apply transition properties for smooth fade in/out.
     // If you already have 'transition: opacity ...' in your SCSS for .scrolling-banner,
-    // you can remove this specific line from the JavaScript.
+    // you can remove this JavaScript line.
     scrollingBanner.style.transition = 'opacity 0.5s ease-in-out, visibility 0.5s ease-in-out';
 
-    // Set initial visibility to hidden (will be adjusted by checkContentOverlap)
+    // Set initial visibility to hidden (will be adjusted by checkContentOverlap immediately)
     scrollingBanner.style.opacity = '0';
     scrollingBanner.style.visibility = 'hidden';
 
-    // Function to check for actual visual content overlap with the banner
+    // --- Helper Function: Get Bounding Rectangle of Actual Text Content ---
+    // This function is crucial for getting the tightest possible box around the visible text.
+    const getTextContentRect = (element) => {
+      // If the element doesn't exist or has no child nodes (e.g., empty), return null.
+      if (!element || element.childNodes.length === 0) {
+        return null;
+      }
+      const range = document.createRange();
+      // Selects all child nodes within the element. For simple text, this means the text node.
+      // For elements with nested inline elements (like <span> in text), it includes their bounding boxes.
+      range.selectNodeContents(element);
+      return range.getBoundingClientRect();
+    };
+
+    // --- Conditional Visibility Logic: Check for Actual Text Content Overlap ---
     const checkContentOverlap = () => {
       const bannerRect = scrollingBanner.getBoundingClientRect();
       const titleElement = containerDiv.querySelector('h1'); // Outer h1 element
-      const subtitleOuterParagraph = subtitleElement; // Already selected <p class="subtitle is-4 has-text-white">
 
       let shouldBeHidden = false;
 
       // Helper function to determine if two bounding rectangles intersect
       const doRectsIntersect = (rect1, rect2) => {
-        // Return false if either rectangle is not valid (e.g., element not found or display: none)
+        // Return false if either rectangle is not valid or has zero dimensions.
         if (!rect1 || !rect2 || rect1.width === 0 || rect1.height === 0 || rect2.width === 0 || rect2.height === 0) {
           return false;
         }
@@ -593,20 +605,17 @@ document.addEventListener('DOMContentLoaded', () => {
         );
       };
 
-      // Check if the title content (h1) overlaps the banner
-      if (titleElement) {
-        const titleRect = titleElement.getBoundingClientRect();
-        if (doRectsIntersect(titleRect, bannerRect)) {
-          shouldBeHidden = true;
-        }
-      }
+      // Get the actual bounding box of the *text content* for title and subtitle
+      const titleTextRect = getTextContentRect(titleElement);
+      const subtitleTextRect = getTextContentRect(subtitleElement);
 
-      // If not hidden by title, check if the subtitle content overlaps the banner
-      if (!shouldBeHidden && subtitleOuterParagraph) {
-        const subtitleRect = subtitleOuterParagraph.getBoundingClientRect();
-        if (doRectsIntersect(subtitleRect, bannerRect)) {
-          shouldBeHidden = true;
-        }
+      // Check if the actual visible text of the title overlaps the banner
+      if (titleTextRect && doRectsIntersect(titleTextRect, bannerRect)) {
+        shouldBeHidden = true;
+      }
+      // If not hidden by title, check if the actual visible text of the subtitle overlaps the banner
+      if (!shouldBeHidden && subtitleTextRect && doRectsIntersect(subtitleTextRect, bannerRect)) {
+        shouldBeHidden = true;
       }
 
       // Apply visibility based on overlap detection
@@ -621,7 +630,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Execute on initial page load and on window resize ---
     checkContentOverlap();
-    window.addEventListener('resize', checkContentOverlap);
+    // Use a small debounce for resize to prevent excessive calls during rapid resizing
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(checkContentOverlap, 100); // Check after 100ms of no resizing
+    });
 
     // --- Start of your existing JavaScript code for the animation setup ---
     // This part should execute *after* the scrollingBanner has been moved
