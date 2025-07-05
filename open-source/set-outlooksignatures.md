@@ -542,84 +542,83 @@ Benefactor Circle add-on</span>.</p>
 
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
-      // Select the scrolling banner and track using their classes.
-      // We'll use querySelector to find the first occurrence.
-      const scrollingBanner = document.querySelector('.scrolling-banner');
-      const track = scrollingBanner ? scrollingBanner.querySelector('.scrolling-track') : null;
+document.addEventListener('DOMContentLoaded', () => {
+    const scrollingBanner = document.querySelector('.scrolling-banner');
+    const track = scrollingBanner ? scrollingBanner.querySelector('.scrolling-track') : null;
 
-      // Exit early if either element isn't found.
-      if (!scrollingBanner || !track) {
-          console.warn("Scrolling banner or track element not found. Animation setup skipped.");
-          return;
-      }
+    if (!scrollingBanner || !track) {
+        console.warn("Scrolling banner or track element not found. Animation setup skipped.");
+        return;
+    }
 
-      // --- Image Shuffling ---
-      let images = Array.from(track.getElementsByTagName('img'));
+    let images = Array.from(track.getElementsByTagName('img'));
 
-      // If no images are found initially, there's nothing to shuffle or animate.
-      if (images.length === 0) {
-          console.warn("No images found in .scrolling-track. Skipping shuffle and animation setup.");
-          return;
-      }
+    if (images.length === 0) {
+        console.warn("No images found in .scrolling-track. Skipping shuffle and animation setup.");
+        return;
+    }
 
-      // Fisher-Yates (Knuth) shuffle algorithm to randomize image order.
-      for (let i = images.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [images[i], images[j]] = [images[j], images[i]]; // Swap images
-      }
+    // --- Image Shuffling ---
+    for (let i = images.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [images[i], images[j]] = [images[j], images[i]];
+    }
+    track.innerHTML = '';
+    images.forEach(img => {
+        track.appendChild(img);
+    });
+    // --- End Image Shuffling ---
 
-      // Clear the current content and append the shuffled images.
-      track.innerHTML = '';
-      images.forEach(img => {
-          track.appendChild(img);
-      });
-      // --- End Image Shuffling ---
+    const setupAnimation = () => {
+        const originalImageCount = images.length;
+        let totalOriginalImagesWidth = 0;
 
-      // --- Animation Setup ---
-      // Get the first image after shuffling. This is crucial for dimension calculations.
-      const firstImage = track.querySelector('img');
+        const trackComputedStyle = getComputedStyle(track);
+        // Ensure you're reading 'gap' if you switched from margin-right
+        const imageGap = parseFloat(trackComputedStyle.gap);
 
-      if (!firstImage) {
-          console.warn("No images available after shuffle for animation setup.");
-          return;
-      }
+        // Loop through the *original set* of images to sum their rendered widths
+        images.forEach((img, index) => {
+            // img.offsetWidth will now reflect the width of the image
+            // after it has scaled to fit 'max-height' and maintained its aspect ratio.
+            totalOriginalImagesWidth += img.offsetWidth;
 
-      // We need to ensure the first image has loaded to get accurate dimensions (offsetWidth).
-      const setupAnimation = () => {
-          const originalImageCount = images.length; // The count of original, shuffled images.
+            if (index < originalImageCount - 1) {
+                totalOriginalImagesWidth += imageGap;
+            }
+        });
 
-          // Duplicate the image set to create a seamless looping effect.
-          // We clone the *original* shuffled images, not the ones already in the track.
-          images.forEach(img => {
-              const clone = img.cloneNode(true);
-              track.appendChild(clone);
-          });
+        console.log(`Calculated total original images width (including gaps): ${totalOriginalImagesWidth}px`);
+        console.log(`Detected image gap: ${imageGap}px`);
 
-          // Calculate the total animation duration. Adjust '1.5' for animation speed (seconds per image).
-          const duration = originalImageCount * 1.5;
+        // Duplicate the image set
+        images.forEach(img => {
+            const clone = img.cloneNode(true);
+            track.appendChild(clone);
+        });
 
-          // Get the computed style of the first image to determine its margin.
-          const computedStyle = getComputedStyle(firstImage);
-          // Calculate the total "slot" width for one image (image width + its right margin).
-          const imageSlotWidth = firstImage.offsetWidth + parseFloat(computedStyle.marginRight);
+        const animationSpeedPixelsPerSecond = 50; // Adjust as needed
+        const duration = totalOriginalImagesWidth / animationSpeedPixelsPerSecond;
 
-          // Set CSS custom properties (variables) directly on the track element.
-          // These variables will be used by your SCSS @keyframes animation.
-          track.style.setProperty('--scroll-duration', `${duration}s`);
-          track.style.setProperty('--original-image-count', originalImageCount);
-          track.style.setProperty('--image-slot-width', `${imageSlotWidth}px`);
+        track.style.setProperty('--scroll-duration', `${duration}s`);
+        track.style.setProperty('--total-original-images-width', `${totalOriginalImagesWidth}px`);
+        track.style.setProperty('--image-spacing', `${imageGap}px`);
+    };
 
-          // Optional: Set these if your CSS still explicitly uses them for image sizing within the track.
-          track.style.setProperty('--image-base-width', `${firstImage.offsetWidth}px`);
-          track.style.setProperty('--image-spacing', `${parseFloat(computedStyle.marginRight)}px`);
-      };
+    // Load images first to get accurate dimensions
+    const loadImagePromises = images.map(img => {
+        if (img.complete) {
+            return Promise.resolve();
+        }
+        return new Promise(resolve => {
+            img.onload = resolve;
+            img.onerror = resolve;
+        });
+    });
 
-      // Check if the image is already loaded (e.g., from cache) or wait for it to load.
-      if (firstImage.complete) {
-          setupAnimation(); // If complete, run setup immediately.
-      } else {
-          firstImage.onload = setupAnimation; // Otherwise, run setup when it loads.
-      }
-  });
+    Promise.all(loadImagePromises).then(() => {
+        // A small timeout can help ensure browser repaint and dimensions are final
+        setTimeout(setupAnimation, 50);
+    });
+});
 </script>
