@@ -49,51 +49,6 @@ redirect_from:
 
 
 
-
-
-
-<pre>
-DEBUGGING STATIC FILES - ROUND 3 (REVISED - Corrected Comments):
-
-{% assign all_static_files = site.static_files %}
-{% assign debug_client_images = "" %} {# Use a separate variable for debugging #}
-{% assign found_png = false %}
-
-{% for file in all_static_files %}
-  Path: "{{ file.path }}"
-  Extname: "{{ file.extname }}"
-  
-  {# Explicitly check boolean outputs using | inspect #}
-  Path Contains "/assets/images/": {{ file.path contains "/assets/images/" | inspect }}
-  Extname is ".png": {{ file.extname == ".png" | inspect }}
-  Combined condition (expected true/false): {{ (file.path contains "/assets/images/" and file.extname == ".png") | inspect }}
-  
-  {% if file.path contains "/assets/images/" and file.extname == ".png" %}
-    {% comment %} This block should only execute for matching PNG files {% endcomment %}
-    *** MATCHED PNG FILE ***
-    {% assign current_image_url = file.path | relative_url %}
-    Computed URL (should be populated): "{{ current_image_url }}"
-    
-    {% assign debug_client_images = debug_client_images | append: current_image_url | append: "|" %}
-    {% assign found_png = true %}
-  {% endif %}
-  ---
-{% endfor %}
-
-Final `debug_client_images` string: "{{ debug_client_images }}"
-Length of `debug_client_images` before slice: {{ debug_client_images | size }}
-Length of `debug_client_images` after slice: {{ (debug_client_images | slice: 0, -1) | size }}
-Does `debug_client_images` contain any non-pipe characters?: {{ debug_client_images contains '/' | inspect }}
-
-{% if found_png == false %}
-  <p style="color: red;">ERROR: No PNG files were matched by the Liquid filter! (No `*** MATCHED ***` output)</p>
-{% endif %}
-</pre>
-
-
-
-
-
 <script>
   // Get all static files
   {% assign all_static_files = site.static_files %}
@@ -103,11 +58,16 @@ Does `debug_client_images` contain any non-pipe characters?: {{ debug_client_ima
   {% for file in all_static_files %}
     {% if file.path contains "/assets/images/" and file.extname == ".png" %}
       {% assign image_url = file.path | relative_url %}
-      {% assign client_images = client_images | append: image_url | append: "|" %}
+      {# Ensure no extra whitespace is appended with the URL #}
+      {% assign client_images = client_images | append: image_url | append: "|" | strip_newlines | strip %}
     {% endif %}
   {% endfor %}
 
+  {# Aggressively strip whitespace from the final string before slicing #}
+  {% assign client_images = client_images | strip_newlines | strip %}
+
   // Remove trailing pipe and create a JavaScript array
+  {# Ensure the slice is applied to a clean string #}
   {% assign image_urls_js = client_images | slice: 0, -1 %}
   const clientImageFiles = "{{ image_urls_js }}".split('|');
 
@@ -148,7 +108,7 @@ Does `debug_client_images` contain any non-pipe characters?: {{ debug_client_ima
     setInterval(changeTopRightImage, 1000);
   } else {
     // Updated warning message to reflect the correct path and the finding of no images
-    console.warn("No PNG images found in /assets/images/ for the dynamic top-right background, or issues retrieving their URLs.");
+    console.warn("No PNG images found in /assets/images/ for the dynamic top-right background, or issues retrieving their URLs. Final JS array length:", clientImageFiles.length, "First element:", clientImageFiles[0]);
   }
 </script>
 
