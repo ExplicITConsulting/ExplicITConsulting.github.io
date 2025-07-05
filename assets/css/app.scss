@@ -129,16 +129,16 @@ h6:hover .anchor-link {
 /* --- Individual Image Styles --- */
 
 .bg-image-decor.decor-top-right {
-  position: relative; /* Make it a positioning context for its absolute children */
+  position: absolute; // or fixed, if you want it to stay on screen during scroll
   top: $navbar-height;
   right: 0;
   width: 20vw;
   height: 25vh;
   // REMOVE THIS LINE: background-image: url("/assets/images/image-1-top-right.png");
   // The background-image will now be set on the inner layers by JavaScript
-  
+
   // This property can stay if you want it to affect how images are placed within their layers.
-  background-position: top right; 
+  background-position: top right;
   overflow: hidden; // Crucial: Ensures inner images stay neatly within this container
 }
 
@@ -149,10 +149,10 @@ h6:hover .anchor-link {
   right: 0;
   width: 100%;
   height: 100%;
-  background-size: contain;      // Scales image to fit within its layer
-  background-repeat: no-repeat;  // No repeating
+  background-size: contain; // Scales image to fit within its layer
+  background-repeat: no-repeat; // No repeating
   background-position: top right; // Each image inside will be aligned top right within its layer
-  
+
   opacity: 0; // Start all layers hidden
   transition: opacity 1s ease-in-out; // Smooth fade transition for 1 second
 }
