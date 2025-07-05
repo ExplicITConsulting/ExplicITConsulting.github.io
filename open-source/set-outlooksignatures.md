@@ -6,15 +6,6 @@ title: |
   <p class="has-text-black">
     Set-OutlookSignatures and the Benefactor Circle add-on
   </p>
-  <div class="scrolling-banner">
-    <div class="scrolling-track">
-      {%- for file in site.static_files -%}
-        {%- if file.path contains "/assets/images/" and file.extname == ".png" -%}
-          <img src="{{ file.path | relative_url }}" alt="Banner image">
-        {%- endif -%}
-      {%- endfor -%}
-    </div>
-  </div>
 subtitle: |
   <p class="has-text-black">
     Email signatures and out-of-office replies for Exchange and all of Outlook.<br>Full-featured, cost-effective, unsurpassed data privacy.
@@ -45,6 +36,16 @@ redirect_from:
   - /open-source/benefactor-circle/
   - /support-for-open-source/set-outlooksignatures-benefactor-circle
 ---
+
+<div class="scrolling-banner">
+  <div class="scrolling-track">
+    {%- for file in site.static_files -%}
+      {%- if file.path contains "/assets/images/" and file.extname == ".png" -%}
+        <img src="{{ file.path | relative_url }}" alt="Banner image">
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</div>
 
 
 <div class="columns">
@@ -534,31 +535,41 @@ Benefactor Circle add-on</span>.</p>
 
 
 <script>
-  const banner = document.querySelector('.scrolling-banner');
-  const track = banner.querySelector('.scrolling-track');
-  const images = Array.from(track.children);
+  // Ensure the DOM is fully loaded before trying to manipulate elements
+  document.addEventListener('DOMContentLoaded', () => {
+    const scrollingBanner = document.querySelector('.scrolling-banner');
+    const heroBody = document.querySelector('.hero-body');
 
-  // Store the original count before duplication for calculation
-  const originalImageCount = images.length;
+    // Check if both elements exist on this specific page.
+    // This acts as your conditional check for "only for one document".
+    if (scrollingBanner && heroBody) {
+      // Move the scrolling-banner element into the hero-body element.
+      // appendChild will place it at the end of hero-body's existing children
+      // (e.g., after your title and subtitle).
+      heroBody.appendChild(scrollingBanner);
 
-  // Duplicate the image set for seamless looping
-  images.forEach(img => {
-    const clone = img.cloneNode(true);
-    track.appendChild(clone);
+      // --- Re-include your existing JavaScript for animation setup here ---
+      // Since the element has moved, ensure this part runs *after* the move.
+      // This is the code you provided earlier for seamless scroll:
+      const track = scrollingBanner.querySelector('.scrolling-track');
+      const images = Array.from(track.children);
+
+      const originalImageCount = images.length;
+
+      images.forEach(img => {
+        const clone = img.cloneNode(true);
+        track.appendChild(clone);
+      });
+
+      const duration = originalImageCount * 1.5;
+
+      const firstImage = images[0];
+      const imageSlotWidth = firstImage.offsetWidth + parseFloat(getComputedStyle(firstImage).marginRight);
+
+      track.style.setProperty('--scroll-duration', `${duration}s`);
+      track.style.setProperty('--original-image-count', originalImageCount);
+      track.style.setProperty('--image-slot-width', `${imageSlotWidth}px`);
+      // --- End of existing JavaScript for animation setup ---
+    }
   });
-
-  // Calculate total duration: 1.5s per image (original set)
-  // The animation duration should be based on the original set, as that's the content
-  // that needs to scroll past
-  const duration = originalImageCount * 1.5; // 1.5 seconds per original image
-
-  // Get the computed width of a single image slot including its right margin
-  // We need to calculate this after CSS has been applied
-  const firstImage = images[0]; // Get one of the original images
-  const imageSlotWidth = firstImage.offsetWidth + parseFloat(getComputedStyle(firstImage).marginRight);
-
-  // Set CSS variables for animation duration and scroll distance
-  track.style.setProperty('--scroll-duration', `${duration}s`);
-  track.style.setProperty('--original-image-count', originalImageCount); // For CSS calculation
-  track.style.setProperty('--image-slot-width', `${imageSlotWidth}px`); // Use px for calculated width
 </script>
