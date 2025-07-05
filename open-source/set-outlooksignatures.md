@@ -1,6 +1,6 @@
 ---
 layout: page
-hero_image: null
+hero_image: /a/non/existing/path
 title: |
   <p class="has-text-black">
     Set-OutlookSignatures and the Benefactor Circle add-on
