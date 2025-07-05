@@ -54,7 +54,7 @@ redirect_from:
   {% assign all_static_files = site.static_files %}
 
   // Filter for PNG images ONLY in /assets/images/ and collect their URLs
-  {% assign image_urls = "" | split: '' %} {# Initialize an empty Liquid array. Using '' splits into an empty array. #}
+  {% assign image_urls = "" | split: '' %}
   {% for file in all_static_files %}
     {% if file.path contains "/assets/images/" and file.extname == ".png" %}
       {% assign image_url = file.path | relative_url %}
