@@ -1,5 +1,6 @@
 ---
 layout: page
+hero_image: null
 title: |
   <p class="title is-2 has-text-white">
     Set-OutlookSignatures and the Benefactor Circle add-on
