@@ -53,7 +53,7 @@ redirect_from:
 
 
 <pre>
-DEBUGGING STATIC FILES - ROUND 3:
+DEBUGGING STATIC FILES - ROUND 3 (REVISED - Corrected Comments):
 
 {% assign all_static_files = site.static_files %}
 {% assign debug_client_images = "" %} {# Use a separate variable for debugging #}
@@ -63,12 +63,13 @@ DEBUGGING STATIC FILES - ROUND 3:
   Path: "{{ file.path }}"
   Extname: "{{ file.extname }}"
   
-  {# Explicitly check boolean outputs #}
+  {# Explicitly check boolean outputs using | inspect #}
   Path Contains "/assets/images/": {{ file.path contains "/assets/images/" | inspect }}
   Extname is ".png": {{ file.extname == ".png" | inspect }}
   Combined condition (expected true/false): {{ (file.path contains "/assets/images/" and file.extname == ".png") | inspect }}
   
   {% if file.path contains "/assets/images/" and file.extname == ".png" %}
+    {% comment %} This block should only execute for matching PNG files {% endcomment %}
     *** MATCHED PNG FILE ***
     {% assign current_image_url = file.path | relative_url %}
     Computed URL (should be populated): "{{ current_image_url }}"
