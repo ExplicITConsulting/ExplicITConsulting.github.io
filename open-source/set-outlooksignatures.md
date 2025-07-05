@@ -6,6 +6,15 @@ title: |
   <p class="has-text-black">
     Set-OutlookSignatures and the Benefactor Circle add-on
   </p>
+  <div class="scrolling-banner">
+    <div class="scrolling-track">
+      {%- for file in site.static_files -%}
+        {%- if file.path contains "/assets/images/" and file.extname == ".png" -%}
+          <img src="{{ file.path | relative_url }}" alt="Banner image">
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
 subtitle: |
   <p class="has-text-black">
     Email signatures and out-of-office replies for Exchange and all of Outlook.<br>Full-featured, cost-effective, unsurpassed data privacy.
@@ -36,16 +45,6 @@ redirect_from:
   - /open-source/benefactor-circle/
   - /support-for-open-source/set-outlooksignatures-benefactor-circle
 ---
-
-<div class="scrolling-banner">
-  <div class="scrolling-track">
-    {%- for file in site.static_files -%}
-      {%- if file.path contains "/assets/images/" and file.extname == ".png" -%}
-        <img src="{{ file.path | relative_url }}" alt="Banner image">
-      {%- endif -%}
-    {%- endfor -%}
-  </div>
-</div>
 
 
 <div class="columns">
