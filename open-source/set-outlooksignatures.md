@@ -48,50 +48,18 @@ redirect_from:
 </div>
 
 
-
-
-<pre>
-DEBUGGING STATIC FILES:
-
-{% assign all_static_files = site.static_files %}
-{% assign found_png = false %}
-
-{% for file in all_static_files %}
-  Path: "{{ file.path }}"
-  Extname: "{{ file.extname }}"
-  Path Contains "/assets/images/": {{ file.path contains "/assets/images/" }}
-  Extname is ".png": {{ file.extname == ".png" }}
-  Combined condition: {{ file.path contains "/assets/images/" and file.extname == ".png" }}
-  {% if file.path contains "/assets/images/" and file.extname == ".png" %}
-    *** MATCHED ***
-    File URL: "{{ file.url }}"
-    {% assign found_png = true %}
-  {% endif %}
-  ---
-{% endfor %}
-
-Final `client_images` string (should contain URLs if matched): "{{ client_images }}"
-Length of `client_images` after slice: {{ client_images | slice: 0, -1 | size }}
-
-{% if found_png == false %}
-  <p style="color: red;">ERROR: No PNG files were matched by the Liquid filter!</p>
-{% endif %}
-</pre>
-
-
-
-
-
 <script>
   // Get all static files
   {% assign all_static_files = site.static_files %}
 
-  // Filter for PNG images ONLY in /assets/images/ (as confirmed by you)
+  // Filter for PNG images ONLY in /assets/images/
   {% assign client_images = "" %}
   {% for file in all_static_files %}
     {% comment %} Check if the path starts with the desired folder and has a .png extension {% endcomment %}
     {% if file.path contains "/assets/images/" and file.extname == ".png" %}
-      {% assign client_images = client_images | append: file.url | append: "|" %}
+      {# Use file.path and relative_url filter to get the correct URL #}
+      {% assign image_url = file.path | relative_url %}
+      {% assign client_images = client_images | append: image_url | append: "|" %}
     {% endif %}
   {% endfor %}
 
@@ -135,8 +103,8 @@ Length of `client_images` after slice: {{ client_images | slice: 0, -1 | size }}
     // The CSS transition is also 1 second, so they will smoothly cross-fade.
     setInterval(changeTopRightImage, 1000);
   } else {
-    // Updated warning message to reflect the correct path
-    console.warn("No PNG images found in /assets/images/ for the dynamic top-right background.");
+    // Updated warning message to reflect the correct path and the finding of no images
+    console.warn("No PNG images found in /assets/images/ for the dynamic top-right background, or issues retrieving their URLs.");
   }
 </script>
 
