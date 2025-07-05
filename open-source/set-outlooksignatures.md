@@ -37,12 +37,12 @@ redirect_from:
   - /support-for-open-source/set-outlooksignatures-benefactor-circle
 ---
 
+
 <div class="scrolling-banner">
   <div class="scrolling-track">
-    {%- for file in site.static_files -%}
-      {%- if file.path contains "/assets/images/clients/" -%}
-        <img src="{{ file.path | relative_url }}" alt="Banner image">
-      {%- endif -%}
+    {%- assign client_images = site.static_files | where_exp:"file", "file.path contains '/assets/images/clients/'" | shuffle -%}
+    {%- for file in client_images -%}
+      <img src="{{ file.path | relative_url }}" alt="Banner image">
     {%- endfor -%}
   </div>
 </div>
