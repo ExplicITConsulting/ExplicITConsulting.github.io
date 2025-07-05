@@ -1,6 +1,6 @@
 ---
 layout: page
-hero_image: /a/non/existing/path
+hero_image: /intentionally/non/existing/path
 hero_darken: false
 title: |
   <p class="has-text-black">
@@ -48,6 +48,51 @@ redirect_from:
 </div>
 
 
+
+
+
+
+<pre>
+DEBUGGING STATIC FILES - ROUND 3:
+
+{% assign all_static_files = site.static_files %}
+{% assign debug_client_images = "" %} {# Use a separate variable for debugging #}
+{% assign found_png = false %}
+
+{% for file in all_static_files %}
+  Path: "{{ file.path }}"
+  Extname: "{{ file.extname }}"
+  
+  {# Explicitly check boolean outputs #}
+  Path Contains "/assets/images/": {{ file.path contains "/assets/images/" | inspect }}
+  Extname is ".png": {{ file.extname == ".png" | inspect }}
+  Combined condition (expected true/false): {{ (file.path contains "/assets/images/" and file.extname == ".png") | inspect }}
+  
+  {% if file.path contains "/assets/images/" and file.extname == ".png" %}
+    *** MATCHED PNG FILE ***
+    {% assign current_image_url = file.path | relative_url %}
+    Computed URL (should be populated): "{{ current_image_url }}"
+    
+    {% assign debug_client_images = debug_client_images | append: current_image_url | append: "|" %}
+    {% assign found_png = true %}
+  {% endif %}
+  ---
+{% endfor %}
+
+Final `debug_client_images` string: "{{ debug_client_images }}"
+Length of `debug_client_images` before slice: {{ debug_client_images | size }}
+Length of `debug_client_images` after slice: {{ (debug_client_images | slice: 0, -1) | size }}
+Does `debug_client_images` contain any non-pipe characters?: {{ debug_client_images contains '/' | inspect }}
+
+{% if found_png == false %}
+  <p style="color: red;">ERROR: No PNG files were matched by the Liquid filter! (No `*** MATCHED ***` output)</p>
+{% endif %}
+</pre>
+
+
+
+
+
 <script>
   // Get all static files
   {% assign all_static_files = site.static_files %}
@@ -55,7 +100,6 @@ redirect_from:
   // Filter for PNG images ONLY in /assets/images/
   {% assign client_images = "" %}
   {% for file in all_static_files %}
-    {% comment %} Check if the path starts with the desired folder and has a .png extension {% endcomment %}
     {% if file.path contains "/assets/images/" and file.extname == ".png" %}
       {% assign image_url = file.path | relative_url %}
       {% assign client_images = client_images | append: image_url | append: "|" %}
