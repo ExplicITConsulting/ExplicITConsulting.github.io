@@ -2,6 +2,7 @@
 layout: none
 sitemap: false
 ---
+
 $family-primary: Arial, sans-serif;
 $primary: black;
 $text: black;
@@ -106,4 +107,59 @@ h6:hover .anchor-link {
 
 .footer {
   padding-bottom: 0 !important; // Or just 0 if not needed
+}
+
+.site-background-decorations {
+  position: fixed; // Fixed to the viewport
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none; /* Crucial: Allows clicks/interactions on content below */
+  z-index: -2; /* Place behind everything else. Use a lower z-index than -1 if necessary. */
+}
+
+.bg-image-decor {
+  position: absolute; /* Positioned relative to .site-background-decorations */
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.5; /* Default opacity for all */
+}
+
+/* --- Individual Image Styles --- */
+
+.bg-image-decor.decor-top-right {
+  top: $navbar-height; // Below the navbar
+  right: 0;
+  width: 20vw;
+  height: 25vh;
+  background-image: url("/assets/images/image-1-top-right.png");
+  background-position: top right;
+}
+
+.bg-image-decor.decor-bottom-right {
+  bottom: 0;
+  right: 0;
+  width: 33.3vw;
+  height: 50vh;
+  background-image: url("/assets/images/image-2-bottom-right.png");
+  background-position: bottom right;
+}
+
+.bg-image-decor.decor-top-left {
+  top: $navbar-height; // Below the navbar
+  left: 0;
+  width: 15vw;
+  height: 20vh;
+  background-image: url("/assets/images/image-3-top-left.png");
+  background-position: top left;
+}
+
+.bg-image-decor.decor-bottom-left {
+  bottom: 0;
+  left: 0;
+  width: 25vw;
+  height: 30vh;
+  background-image: url("/assets/images/image-4-bottom-left.png");
+  background-position: bottom left;
 }

@@ -37,45 +37,12 @@ redirect_from:
   - /support-for-open-source/set-outlooksignatures-benefactor-circle
 ---
 
-
-<style>
-  html::after {
-    content: "";
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 33.3vw;
-    height: 50vh;
-    background-image: url("/assets/images/visitenkarten-hochkant.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom right;
-    pointer-events: none;
-    z-index: -1;
-    opacity: 0.5;
-  }
-</style>
-
-
-<style>
-  html::after {
-    content: "";
-    position: fixed; /* Stays fixed relative to the viewport */
-    right: 0;        /* Aligned to the right edge of the viewport */
-    top: $navbar-height; /* Uses the actual, dynamic height of your navbar */
-
-    width: 20vw;   /* Your desired width, relative to viewport width */
-    height: 25vh;    /* Your desired height, relative to viewport height */
-
-    background-image: url("/assets/images/visitenkarten-hochkant.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top right; /* Positions the image within its own box */
-    pointer-events: none; /* Ensures the image doesn't block clicks */
-    z-index: -1;          /* Puts the image behind other content */
-    opacity: 0.5;
-  }
-</style>
+<div class="site-background-decorations">
+  <div class="bg-image-decor decor-top-right"></div>
+  <div class="bg-image-decor decor-bottom-right"></div>
+  <div class="bg-image-decor decor-top-left"></div>
+  <div class="bg-image-decor decor-bottom-left"></div>
+</div>
 
 
 <div class="columns">
