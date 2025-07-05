@@ -38,6 +38,25 @@ redirect_from:
 ---
 
 
+<style>
+  html::after {
+    content: "";
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 33.3vw;
+    height: 50vh;
+    background-image: url("/assets/images/visitenkarten-hochkant.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right;
+    pointer-events: none;
+    z-index: -1;
+    opacity: 0.5;
+  }
+</style>
+
+
 <div class="columns">
   <div class="column is-one-quarter">
     <img src="/assets/images/set-outlooksignatures benefactor circle.png" alt="Set-OutlookSignatures">
