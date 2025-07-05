@@ -535,60 +535,73 @@ Benefactor Circle add-on</span>.</p>
 
 
 <script>
-  // Ensure the DOM is fully loaded before attempting to manipulate elements
   document.addEventListener('DOMContentLoaded', () => {
-    // 1. Find the scrolling banner element that is initially in your Markdown file.
     const scrollingBanner = document.querySelector('.scrolling-banner');
-    
-    // 2. Find the main hero-body container element.
     const heroBody = document.querySelector('.hero-body');
-
-    // 3. Find the inner '.container' div within hero-body, as this is the parent
-    //    where the banner will be placed, and where the subtitle resides.
     const containerDiv = heroBody ? heroBody.querySelector('.container') : null;
-    
-    // 4. Find the specific subtitle element using its unique class 'p.subtitle'.
-    //    This ensures we target the correct insertion point.
     const subtitleElement = containerDiv ? containerDiv.querySelector('p.subtitle') : null;
 
-    // Conditional execution: The following code will only run if ALL of these elements
-    // are found on the current page. This prevents errors on other pages that don't
-    // have this specific structure.
     if (scrollingBanner && containerDiv && subtitleElement) {
-      // 5. Move the 'scrolling-banner' element into the 'containerDiv',
-      //    and place it directly *before* the 'subtitleElement'.
       containerDiv.insertBefore(scrollingBanner, subtitleElement);
-
-      // --- Start of your existing JavaScript code for the animation setup ---
-      // This part should execute *after* the scrollingBanner has been moved
-      // to its final DOM position.
 
       const track = scrollingBanner.querySelector('.scrolling-track');
       const images = Array.from(track.children);
-
-      // Store the original count of images before duplication
       const originalImageCount = images.length;
 
-      // Duplicate the image set to ensure a seamless looping animation
       images.forEach(img => {
         const clone = img.cloneNode(true);
         track.appendChild(clone);
       });
 
-      // Calculate the total duration of the animation. Adjust '1.5' for speed.
-      const duration = originalImageCount * 1.5; // 1.5 seconds per original image
-
-      // Get the computed width of a single image slot (image width + its right margin)
-      // This is crucial for calculating the precise scroll distance for the animation.
-      const firstImage = images[0]; 
+      const duration = originalImageCount * 1.5;
+      const firstImage = images[0];
       const imageSlotWidth = firstImage.offsetWidth + parseFloat(getComputedStyle(firstImage).marginRight);
 
-      // Set CSS custom properties (variables) on the track element.
-      // These variables will be used in your SCSS @keyframes animation.
       track.style.setProperty('--scroll-duration', `${duration}s`);
-      track.style.setProperty('--original-image-count', originalImageCount); // Useful for calculation in CSS
+      track.style.setProperty('--original-image-count', originalImageCount);
       track.style.setProperty('--image-slot-width', `${imageSlotWidth}px`);
-      // --- End of your existing JavaScript code for the animation setup ---
+
+      // --- Overlap detection logic ---
+      function isVisuallyOverlapping(el1, el2) {
+        const rect1 = el1.getBoundingClientRect();
+        const rect2 = el2.getBoundingClientRect();
+
+        const overlapX = Math.max(0, Math.min(rect1.right, rect2.right) - Math.max(rect1.left, rect2.left));
+        const overlapY = Math.max(0, Math.min(rect1.bottom, rect2.bottom) - Math.max(rect1.top, rect2.top));
+        const overlapArea = overlapX * overlapY;
+
+        if (overlapArea === 0) return false;
+
+        const style = window.getComputedStyle(el2);
+        const isVisible = style.display !== 'none' && style.visibility !== 'hidden' && parseFloat(style.opacity) > 0;
+
+        return isVisible;
+      }
+
+      function checkBannerVisibility() {
+        if (isVisuallyOverlapping(scrollingBanner, subtitleElement)) {
+          scrollingBanner.style.display = 'none';
+        } else {
+          scrollingBanner.style.display = 'flex';
+        }
+      }
+
+      // Run on load, resize, scroll
+      checkBannerVisibility();
+      window.addEventListener('resize', checkBannerVisibility);
+      window.addEventListener('scroll', checkBannerVisibility);
+
+      // --- MutationObserver to detect DOM changes ---
+      const observer = new MutationObserver(() => {
+        checkBannerVisibility();
+      });
+
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true,
+        attributes: true,
+        characterData: true
+      });
     }
   });
 </script>
