@@ -293,7 +293,7 @@ linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, da
     </div>
   </div>
 
-  <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
+  <div class="column is-one-third-desktop is-half-tablet is-full-mobile" id="scrolling-track-anchor">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
       <div style="hyphens: manual;">
@@ -539,6 +539,7 @@ Benefactor Circle add-on</span>.</p>
   // Ensure the DOM is fully loaded before attempting to manipulate elements
   document.addEventListener('DOMContentLoaded', () => {
     const track = document.getElementById('scrolling-track');
+
     if (track) {
       let images = Array.from(track.getElementsByTagName('img'));
 
@@ -556,27 +557,18 @@ Benefactor Circle add-on</span>.</p>
       });
     }
   
-    // 1. Find the scrolling banner element that is initially in your Markdown file.
+    const scrollingTrackAnchor = document.getElementById('scrolling-track-anchor');
+    
+    // Find the scrolling banner element that is initially in your Markdown file.
     const scrollingBanner = document.querySelector('.scrolling-banner');
     
-    // 2. Find the main hero-body container element.
-    const heroBody = document.querySelector('.hero-body');
-
-    // 3. Find the inner '.container' div within hero-body, as this is the parent
-    //    where the banner will be placed, and where the subtitle resides.
-    const containerDiv = heroBody ? heroBody.querySelector('.container') : null;
-    
-    // 4. Find the specific subtitle element using its unique class 'p.subtitle'.
-    //    This ensures we target the correct insertion point.
-    const subtitleElement = containerDiv ? containerDiv.querySelector('p.subtitle') : null;
-
     // Conditional execution: The following code will only run if ALL of these elements
     // are found on the current page. This prevents errors on other pages that don't
     // have this specific structure.
-    if (scrollingBanner && containerDiv && subtitleElement) {
+    if (scrollingBanner && scrollingTrackAnchor) {
       // 5. Move the 'scrolling-banner' element into the 'containerDiv',
       //    and place it directly *before* the 'subtitleElement'.
-      containerDiv.insertBefore(scrollingBanner, subtitleElement);
+      containerDiv.insertBefore(scrollingBanner, scrollingTrackAnchor);
 
       // --- Start of your existing JavaScript code for the animation setup ---
       // This part should execute *after* the scrollingBanner has been moved
