@@ -57,7 +57,6 @@ redirect_from:
   {% for file in all_static_files %}
     {% comment %} Check if the path starts with the desired folder and has a .png extension {% endcomment %}
     {% if file.path contains "/assets/images/" and file.extname == ".png" %}
-      {# Use file.path and relative_url filter to get the correct URL #}
       {% assign image_url = file.path | relative_url %}
       {% assign client_images = client_images | append: image_url | append: "|" %}
     {% endif %}
