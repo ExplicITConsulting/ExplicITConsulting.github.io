@@ -57,6 +57,27 @@ redirect_from:
 </style>
 
 
+<style>
+  .content::after { /* Or ::before, functionally similar here */
+    content: "";
+    position: absolute; /* Positioned relative to .content */
+    top: 0; /* Aligned to the top of .content */
+    right: 0; /* Aligned to the right of .content */
+
+    /* Your existing image styling */
+    width: 33.3vw; /* Use vw if you want it relative to viewport width, or % if relative to content width */
+    height: 50vh; /* Use vh if you want it relative to viewport height, or % if relative to content height */
+    background-image: url("/assets/images/visitenkarten-hochkant.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right; /* Positions image within its own pseudo-element box */
+    pointer-events: none; /* Allows clicks on content below */
+    z-index: -1; /* Puts it behind content */
+    opacity: 0.5;
+  }
+</style>
+
+
 <div class="columns">
   <div class="column is-one-quarter">
     <img src="/assets/images/set-outlooksignatures benefactor circle.png" alt="Set-OutlookSignatures">
