@@ -110,18 +110,12 @@ h6:hover .anchor-link {
 }
 
 .scrolling-banner {
-  overflow: hidden; // Keep this to contain the scrolling content horizontally
-  pointer-events: none; // Keep if you want it unclickable
-
+  overflow: hidden; // Keeps content clipped horizontally
+  pointer-events: none;
   display: flex;
-  align-items: center; // Vertically center images within the banner if there's extra space.
-                       // Or 'flex-start' if you prefer them top-aligned.
-
+  align-items: center; // Vertically center images within the banner
   width: 100%;
-  // IMPORTANT: Remove fixed height. Let content define height.
-  // height: auto; // This is the default, but can be explicit if needed.
-  // We want the banner's height to expand to fit the tallest image that scrolls through.
-  // This will make the 'cell' taller if a very tall image appears.
+  height: 3em; // CRITICAL: Forces the banner to be 3em tall
 }
 
 .scrolling-banner.hidden {
@@ -130,37 +124,24 @@ h6:hover .anchor-link {
 
 .scrolling-track {
   display: flex;
-  // IMPORTANT: Remove fixed height. Let content define height.
-  // height: auto; // This is the default for flex items, let it be.
-  align-items: center; // Ensures all images align vertically, even if one is taller than others.
+  height: 100%; // CRITICAL: Make the track fill the banner's height (3em)
+  align-items: center; // Align items vertically within the track
+  white-space: nowrap; // Prevents images from wrapping to a new line
 
   // Use a fixed gap for spacing between images.
-  gap: var(--image-spacing, 1em); // Default gap
+  // This value will be read by JS, so ensure it's a fixed unit (px, em, rem).
+  gap: 1.5em; /* Or 16px, 24px, etc. Choose a fixed unit */
 
   animation: scroll-left var(--scroll-duration) linear infinite;
 }
 
 .scrolling-track img {
-  // IMPORTANT: Remove fixed height.
-  height: auto; // Let natural aspect ratio determine height based on width.
-  width: auto; // Let natural aspect ratio determine width based on height.
+  height: 100%; // CRITICAL: Forces images to be 100% of the track's height (3em)
+  width: auto; // Let the width be determined by aspect ratio and fixed height
 
-  // Instead of fixed height, define a max height to prevent excessively tall images,
-  // but allow them to scale down.
-  // This max-height should be based on your design for the 'cell' content area.
-  // For example, if you want the banner generally to not exceed 10em in height:
-  max-height: 10em; // Or a value that makes sense for your layout.
-                    // This is the constraint that ensures the banner doesn't get *too* tall.
+  object-fit: contain; /* Scales images to fit within 3em height, maintaining aspect ratio */
 
-  // Allow images to take up their natural width (up to the max-height constraint).
-  // If no specific width constraint, they'll be as wide as they need to be to fit max-height.
-  max-width: none; // Images can be wider than the viewport, as they will scroll off.
-
-  // object-fit: contain; // Still useful if max-width/max-height constraints might crop it.
-                       // If you only use max-height/width and no explicit height/width,
-                       // object-fit might be less critical but still good for safety.
-
-  flex-shrink: 0; // Prevent images from shrinking beyond their natural (or scaled) size
+  flex-shrink: 0; /* Prevents images from shrinking below their calculated auto-width */
   opacity: 0.8;
   display: block;
 }

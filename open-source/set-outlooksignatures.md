@@ -302,8 +302,7 @@ linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, da
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
-      <div style="hyphens: manual;">
-        <div class="scrolling-banner">
+      <div style="hyphens: manual; flex-grow: 1; flex-shrink: 1; min-width: 0;"> <div class="scrolling-banner">
           <div class="scrolling-track">
             {%- for file in site.static_files -%}
               {%- if file.path contains "/assets/images/clients/" -%}
@@ -575,32 +574,31 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const trackComputedStyle = getComputedStyle(track);
 
-        // --- NEW GAP DETECTION LOGIC ---
-        // Get column-gap specifically, which is what 'gap' refers to for flex-direction: row
+        // Get the gap value in pixels. This should reliably return a pixel value.
         let imageGap = parseFloat(trackComputedStyle.columnGap);
 
-        // Fallback for older browsers or if column-gap isn't directly available/numeric
-        if (isNaN(imageGap) || imageGap === 0) {
-            // As a fallback, if gap isn't working or is 0,
-            // try to compute a default margin-right from the first image
-            // if you still prefer margins for spacing.
-            const firstImage = track.querySelector('img');
-            if (firstImage) {
-                imageGap = parseFloat(getComputedStyle(firstImage).marginRight) || 0;
-            } else {
-                imageGap = 0; // Default to 0 if no image found for fallback
-            }
-        }
-        // If imageGap is still NaN (e.g., if CSS has 'gap: normal' and no images),
-        // enforce a default pixel value.
+        // Fallback for extreme edge cases where gap might still be non-numeric or 0 unexpectedly.
+        // A direct CSS `gap` property is very reliable in modern browsers.
         if (isNaN(imageGap)) {
-            imageGap = 16; // A reasonable default gap in pixels (e.g., 1em)
+            // Provide a hardcoded default if computed gap is still somehow NaN.
+            // This is less ideal as it breaks consistency with CSS defined gap,
+            // but ensures functionality. You should ideally fix the CSS causing NaN.
+            imageGap = 16; // Fallback to 16px if computed gap is NaN
+            console.warn("Computed image gap was NaN, defaulting to 16px.");
         }
-        // --- END NEW GAP DETECTION LOGIC ---
+        if (imageGap === 0 && originalImageCount > 1) { // If gap is 0 but there's more than one image
+            console.warn("Computed image gap is 0. Images might appear without spacing.");
+            // You might want to force a small gap here for visual debugging
+            // imageGap = 10;
+        }
+
 
         // Loop through the *original set* of images to sum their rendered widths
         images.forEach((img, index) => {
-            totalOriginalImagesWidth += img.offsetWidth; // This should be in pixels
+            // img.offsetWidth will now reflect the width of the image
+            // after it has scaled to fit the fixed 3em height and maintained its aspect ratio.
+            totalOriginalImagesWidth += img.offsetWidth;
+
             // Add gap for all images *except the last one* in the original set
             if (index < originalImageCount - 1) {
                 totalOriginalImagesWidth += imageGap;
@@ -618,10 +616,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         const animationSpeedPixelsPerSecond = 50; // Adjust as needed
-        // Ensure totalOriginalImagesWidth is not 0 to avoid division by zero or infinite duration
         const duration = totalOriginalImagesWidth > 0 ? totalOriginalImagesWidth / animationSpeedPixelsPerSecond : 0;
 
-        // Set CSS custom properties on the track element.
         track.style.setProperty('--scroll-duration', `${duration}s`);
         track.style.setProperty('--total-original-images-width', `${totalOriginalImagesWidth}px`);
         track.style.setProperty('--image-spacing', `${imageGap}px`); // Still good to set this
@@ -639,8 +635,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     Promise.all(loadImagePromises).then(() => {
-        // A small timeout can help ensure browser repaint and dimensions are final
-        setTimeout(setupAnimation, 50);
+        setTimeout(setupAnimation, 50); // Small delay
     });
 });
 </script>
