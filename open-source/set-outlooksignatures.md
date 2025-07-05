@@ -716,7 +716,7 @@ Benefactor Circle add-on</span>.</p>
                     if (point.x >= contentRect.left && point.x <= contentRect.right &&
                         point.y >= contentRect.top && point.y <= contentRect.bottom) {
                         isVisuallyOverlapping = true;
-                        // console.warn(`Banner hidden by problematic title (content overlap) at (${point.x}, ${point.y}):`, element);
+                         console.warn(`Banner hidden by problematic title (content overlap) at (${point.x}, ${point.y}):`, element);
                         break; // Found a meaningful overlap
                     }
                     // If the point is NOT within its content box (only padding/border), we ignore this element.
@@ -727,11 +727,11 @@ Benefactor Circle add-on</span>.</p>
                 // then it's a visual overlap.
                 isVisuallyOverlapping = true;
                 // --- DEBUGGING HELP: Uncomment the line below to see which element is causing overlap ---
-                // console.warn(`Banner hidden by element at (${point.x}, ${point.y}):`, element, {
-                //     display: style.display, visibility: style.visibility, opacity: style.opacity,
-                //     width: element.offsetWidth, height: element.offsetHeight,
-                //     tag: element.tagName, id: element.id, class: element.className
-                // });
+                 console.warn(`Banner hidden by element at (${point.x}, ${point.y}):`, element, {
+                     display: style.display, visibility: style.visibility, opacity: style.opacity,
+                     width: element.offsetWidth, height: element.offsetHeight,
+                     tag: element.tagName, id: element.id, class: element.className
+                 });
                 break; // Found an overlap at this point
               }
             }
@@ -815,7 +815,7 @@ Benefactor Circle add-on</span>.</p>
             }
           });
         });
-        // console.log(`DEBUG: Currently observing ${observedElementsForOverlap.size} potential overlap elements.`);
+         console.log(`DEBUG: Currently observing ${observedElementsForOverlap.size} potential overlap elements.`);
       };
 
 
