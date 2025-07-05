@@ -716,7 +716,10 @@ Benefactor Circle add-on</span>.</p>
                     if (point.x >= contentRect.left && point.x <= contentRect.right &&
                         point.y >= contentRect.top && point.y <= contentRect.bottom) {
                         isVisuallyOverlapping = true;
-                         console.warn(`Banner hidden by problematic title (content overlap) at (${point.x}, ${point.y}):`, element);
+                        // --- ENHANCED DEBUG LOGGING FOR THIS CASE ---
+                        console.warn(`Banner hidden by problematic title (content overlap) at (${point.x}, ${point.y}):`, element);
+                        console.log("Banner Rect:", bannerRect);
+                        console.log("Problematic Title Content Rect:", contentRect);
                         break; // Found a meaningful overlap
                     }
                     // If the point is NOT within its content box (only padding/border), we ignore this element.
@@ -726,8 +729,8 @@ Benefactor Circle add-on</span>.</p>
                 // If it's not a problematic title, or if it's a problematic title and the point IS within its content,
                 // then it's a visual overlap.
                 isVisuallyOverlapping = true;
-                // --- DEBUGGING HELP: Uncomment the line below to see which element is causing overlap ---
-                 console.warn(`Banner hidden by element at (${point.x}, ${point.y}):`, element, {
+                // --- GENERAL DEBUGGING HELP: Uncomment the line below for any overlap ---
+                 console.warn(`Banner hidden by general overlap at (${point.x}, ${point.y}):`, element, {
                      display: style.display, visibility: style.visibility, opacity: style.opacity,
                      width: element.offsetWidth, height: element.offsetHeight,
                      tag: element.tagName, id: element.id, class: element.className
