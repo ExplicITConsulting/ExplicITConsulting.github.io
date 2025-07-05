@@ -588,6 +588,7 @@ Benefactor Circle add-on</span>.</p>
         const bannerRect = scrollingBanner.getBoundingClientRect();
 
         // If the banner itself is not in the viewport, it's not visually overlapping anything.
+        // This is a quick exit for performance when the banner is off-screen.
         if (bannerRect.top >= window.innerHeight || bannerRect.bottom <= 0 ||
             bannerRect.left >= window.innerWidth || bannerRect.right <= 0) {
             scrollingBanner.classList.add('hidden');
@@ -595,33 +596,80 @@ Benefactor Circle add-on</span>.</p>
             return;
         }
 
-        // Define a few strategic sample points within the banner.
-        // Adjust these based on the banner's typical size and where overlaps are most likely.
-        const pointsToCheck = [
-          { x: bannerRect.left + 2, y: bannerRect.top + 2 }, // Top-left inner
-          { x: bannerRect.right - 2, y: bannerRect.top + 2 }, // Top-right inner
-          { x: bannerRect.left + 2, y: bannerRect.bottom - 2 }, // Bottom-left inner
-          { x: bannerRect.right - 2, y: bannerRect.bottom - 2 }, // Bottom-right inner
-          { x: bannerRect.left + bannerRect.width / 2, y: bannerRect.top + bannerRect.height / 2 } // Center
-        ];
+        // Define a grid of sample points within the banner, including edges, for "sharp" detection.
+        // We will sample a few pixels inside each edge and along the center lines.
+        const sampleResolution = 5; // Pixels from the edge to sample, and density for interior points
+
+        const pointsToCheck = new Set(); // Use a Set to store unique point objects
+
+        // Corners (1 pixel in from edge)
+        pointsToCheck.add(JSON.stringify({ x: bannerRect.left + 1, y: bannerRect.top + 1 }));
+        pointsToCheck.add(JSON.stringify({ x: bannerRect.right - 1, y: bannerRect.top + 1 }));
+        pointsToCheck.add(JSON.stringify({ x: bannerRect.left + 1, y: bannerRect.bottom - 1 }));
+        pointsToCheck.add(JSON.stringify({ x: bannerRect.right - 1, y: bannerRect.bottom - 1 }));
+
+        // Mid-points of each edge (1 pixel in from edge)
+        if (bannerRect.width > 2) { // Ensure width is sufficient
+            pointsToCheck.add(JSON.stringify({ x: bannerRect.left + bannerRect.width / 2, y: bannerRect.top + 1 }));
+            pointsToCheck.add(JSON.stringify({ x: bannerRect.left + bannerRect.width / 2, y: bannerRect.bottom - 1 }));
+        }
+        if (bannerRect.height > 2) { // Ensure height is sufficient
+            pointsToCheck.add(JSON.stringify({ x: bannerRect.left + 1, y: bannerRect.top + bannerRect.height / 2 }));
+            pointsToCheck.add(JSON.stringify({ x: bannerRect.right - 1, y: bannerRect.top + bannerRect.height / 2 }));
+        }
+
+        // Center point
+        pointsToCheck.add(JSON.stringify({ x: bannerRect.left + bannerRect.width / 2, y: bannerRect.top + bannerRect.height / 2 }));
+
+        // Add more interior grid points for thoroughness, if banner is large enough
+        if (bannerRect.width > 50 && bannerRect.height > 50) {
+            for (let i = sampleResolution; i < bannerRect.width - sampleResolution; i += sampleResolution) {
+                for (let j = sampleResolution; j < bannerRect.height - sampleResolution; j += sampleResolution) {
+                    pointsToCheck.add(JSON.stringify({ x: bannerRect.left + i, y: bannerRect.top + j }));
+                }
+            }
+        }
 
         let isVisuallyOverlapping = false;
 
-        for (const point of pointsToCheck) {
+        for (const pointStr of pointsToCheck) {
+          const point = JSON.parse(pointStr);
+
           // Ensure the point is within the viewport, crucial for elementsFromPoint
-          if (point.x < 0 || point.y < 0 || point.x > window.innerWidth || point.y > window.innerHeight) {
+          if (point.x < 0 || point.y < 0 || point.x >= window.innerWidth || point.y >= window.innerHeight) {
             continue;
           }
 
           const elementsAtPoint = document.elementsFromPoint(point.x, point.y);
 
           for (const element of elementsAtPoint) {
-            // If the element is not the banner itself and not a descendant of the banner,
-            // and it's visible, then it's an overlap.
-            if (element !== scrollingBanner && !scrollingBanner.contains(element)) {
+            // Check if the element is not the banner itself and not a descendant of the banner.
+            // Also, explicitly ignore common structural/background elements that are not "real" overlaps.
+            // YOU MAY NEED TO ADD MORE ELEMENTS HERE SPECIFIC TO YOUR SITE'S LAYOUT
+            // E.g., if you have a top-level `div#page-wrapper`, add `element !== document.getElementById('page-wrapper')`
+            if (element !== scrollingBanner &&
+                !scrollingBanner.contains(element) &&
+                element !== document.body &&
+                element !== document.documentElement &&
+                element !== heroBody &&
+                element !== containerDiv &&
+                element.tagName.toLowerCase() !== 'html' &&
+                element.tagName.toLowerCase() !== 'body')
+            {
+              // Check if the element has actual visual content (not hidden, zero-sized, transparent)
               const style = getComputedStyle(element);
-              if (style.display !== 'none' && style.visibility !== 'hidden' && parseFloat(style.opacity) > 0) {
+              if (style.display !== 'none' &&
+                  style.visibility !== 'hidden' &&
+                  parseFloat(style.opacity) > 0 &&
+                  (element.offsetWidth > 0 || element.offsetHeight > 0)) // Also check for zero dimensions
+              {
                 isVisuallyOverlapping = true;
+                // --- DEBUGGING HELP: Uncomment the line below to see which element is causing overlap ---
+                // console.warn(`Banner hidden by element at (${point.x}, ${point.y}):`, element, {
+                //     display: style.display, visibility: style.visibility, opacity: style.opacity,
+                //     width: element.offsetWidth, height: element.offsetHeight,
+                //     tag: element.tagName, id: element.id, class: element.className
+                // });
                 break; // Found an overlap at this point
               }
             }
@@ -641,23 +689,22 @@ Benefactor Circle add-on</span>.</p>
       };
 
       // --- Step 1: Initial Scan for Theoretically Overlapping Elements ---
+      // This function identifies elements that *might* overlap and sets up IntersectionObservers for them.
+      // It's called less frequently than checkVisualOverlap().
       const scanForPotentialOverlaps = () => {
-        // Clear previous observations
+        // Disconnect existing observer to clear old observations
         if (potentialOverlapObserver) {
           potentialOverlapObserver.disconnect();
           observedElementsForOverlap.clear();
         }
 
-        // Create a new IntersectionObserver for potential overlapping elements
+        // Create a new IntersectionObserver for potential overlapping elements.
+        // It triggers when an element enters/leaves the viewport (threshold: 0).
         potentialOverlapObserver = new IntersectionObserver((entries) => {
           entries.forEach(entry => {
-            if (entry.isIntersecting) {
-              // An observed element just entered the viewport
-              checkVisualOverlap(); // Immediately check for visual overlap
-            } else {
-              // An observed element left the viewport, re-evaluate banner visibility
-              checkVisualOverlap();
-            }
+            // When a potentially overlapping element changes its intersection state,
+            // re-evaluate the banner's visual overlap.
+            checkVisualOverlap();
           });
         }, {
           root: null, // viewport
@@ -666,39 +713,39 @@ Benefactor Circle add-on</span>.</p>
 
         const bannerRect = scrollingBanner.getBoundingClientRect();
 
-        // Sample points to find elements that could *theoretically* overlap
-        // Using a grid of points within and around the banner's theoretical position.
-        // Be mindful of performance for many points.
-        const gridDensity = 10; // Check every 10% of width/height
-        const pointsToScan = new Set(); // Use a Set to store unique points
-        for (let i = 0; i <= gridDensity; i++) {
-          for (let j = 0; j <= gridDensity; j++) {
-            const x = bannerRect.left + (bannerRect.width * i / gridDensity);
-            const y = bannerRect.top + (bannerRect.height * j / gridDensity);
+        // Sample points within and slightly around the banner's theoretical position
+        // to find elements that could theoretically overlap.
+        const gridDensityCoarse = 5; // Check every 20% of width/height for theoretical candidates
+        const pointsToScanTheoretical = new Set();
+
+        for (let i = 0; i <= gridDensityCoarse; i++) {
+          for (let j = 0; j <= gridDensityCoarse; j++) {
+            const x = bannerRect.left + (bannerRect.width * i / gridDensityCoarse);
+            const y = bannerRect.top + (bannerRect.height * j / gridDensityCoarse);
             // Ensure points are within viewport to get valid results from elementsFromPoint
             if (x >= 0 && x <= window.innerWidth && y >= 0 && y <= window.innerHeight) {
-              pointsToScan.add(`${Math.round(x)},${Math.round(y)}`); // Store as string for Set uniqueness
+              pointsToScanTheoretical.add(`${Math.round(x)},${Math.round(y)}`);
             }
           }
         }
 
-        // Add a few points outside the banner but close, to catch sticky elements etc.
-        const margin = 20; // Pixels around the banner
-        pointsToScan.add(`${Math.round(bannerRect.left - margin)},${Math.round(bannerRect.top - margin)}`);
-        pointsToScan.add(`${Math.round(bannerRect.right + margin)},${Math.round(bannerRect.top - margin)}`);
-        pointsToScan.add(`${Math.round(bannerRect.left - margin)},${Math.round(bannerRect.bottom + margin)}`);
-        pointsToScan.add(`${Math.round(bannerRect.right + margin)},${Math.round(bannerRect.bottom + margin)}`);
+        // Add points slightly outside the banner to catch sticky headers/footers
+        // that might move into theoretical overlap range.
+        const theoreticalMargin = 50; // Larger margin for theoretical scan
+        pointsToScanTheoretical.add(`${Math.round(bannerRect.left - theoreticalMargin)},${Math.round(bannerRect.top - theoreticalMargin)}`);
+        pointsToScanTheoretical.add(`${Math.round(bannerRect.right + theoreticalMargin)},${Math.round(bannerRect.top - theoreticalMargin)}`);
+        pointsToScanTheoretical.add(`${Math.round(bannerRect.left - theoreticalMargin)},${Math.round(bannerRect.bottom + theoreticalMargin)}`);
+        pointsToScanTheoretical.add(`${Math.round(bannerRect.right + theoreticalMargin)},${Math.round(bannerRect.bottom + theoreticalMargin)}`);
 
-        pointsToScan.forEach(pointStr => {
+        pointsToScanTheoretical.forEach(pointStr => {
           const [x, y] = pointStr.split(',').map(Number);
+          // elementsFromPoint is an expensive call, so we limit how often this scan runs.
           const elements = document.elementsFromPoint(x, y);
           elements.forEach(el => {
-            // Only observe elements that are not the banner or its children
-            if (el !== scrollingBanner && !scrollingBanner.contains(el)) {
-              // Also, filter out body/html if it's just the background,
-              // unless you specifically want to check if the banner is at the very bottom of the page
-              if (el === document.body || el === document.documentElement) return;
-
+            // Filter out the banner itself, its children, and known structural/background elements.
+            if (el && el !== scrollingBanner && !scrollingBanner.contains(el) &&
+                el !== document.body && el !== document.documentElement &&
+                el !== heroBody && el !== containerDiv) { // Add any other top-level containers here
               if (!observedElementsForOverlap.has(el)) {
                 potentialOverlapObserver.observe(el);
                 observedElementsForOverlap.add(el);
@@ -706,20 +753,24 @@ Benefactor Circle add-on</span>.</p>
             }
           });
         });
+        // console.log(`DEBUG: Currently observing ${observedElementsForOverlap.size} potential overlap elements.`);
       };
 
 
       // --- Observer for the scrolling banner itself ---
-      // This observer handles the banner's visibility in the viewport
+      // This observer handles the banner's visibility in the viewport and triggers main checks.
       const bannerVisibilityObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
-            // Banner is in the viewport, now perform the detailed overlap check
+            // Banner is in the viewport, now perform the detailed overlap check.
             checkVisualOverlap();
-            // Re-scan for potential overlaps in case the layout changed significantly
-            // This is important if elements that were previously out of theoretical overlap
-            // now come into play due to scroll/resize. Debounce this.
-            scanForPotentialOverlaps();
+            // Re-scan for potential overlaps if the banner's position relative to the page
+            // has significantly changed. This helps catch new elements entering the scene.
+            // Debounce this re-scan to avoid excessive calls.
+            if (!resizeTimer) { // Only re-scan if not already scheduled by resize
+                 // Using a small timeout to allow layout to settle after scroll/intersection
+                 setTimeout(scanForPotentialOverlaps, 500);
+            }
           } else {
             // Banner is completely out of the viewport, so hide it.
             scrollingBanner.classList.add('hidden');
@@ -728,36 +779,38 @@ Benefactor Circle add-on</span>.</p>
         });
       }, {
         root: null, // viewport
-        threshold: 0.05 // Trigger when even a small part (5%) of the banner is visible/hidden
+        threshold: 0.01 // Trigger when even a tiny part (1%) of the banner is visible/hidden
       });
 
       bannerVisibilityObserver.observe(scrollingBanner);
 
       // --- Event Listeners for Dynamic Layout Changes ---
-      // Debounce resize and scroll events to re-evaluate overlaps
+      // Debounce resize and scroll events to re-evaluate overlaps and potential candidates.
       let resizeTimer;
       window.addEventListener('resize', () => {
         clearTimeout(resizeTimer);
         resizeTimer = setTimeout(() => {
-          scanForPotentialOverlaps(); // Re-scan for elements on resize
-          checkVisualOverlap();       // Then check current visual overlap
-        }, 300); // Debounce time
+          // On resize, we must re-scan for potential overlaps as the entire layout can shift.
+          scanForPotentialOverlaps();
+          // Then, perform a immediate visual overlap check.
+          checkVisualOverlap();
+          resizeTimer = null; // Reset timer to allow new debounced calls
+        }, 300); // Debounce time for resize
       });
 
-      // For scroll, `IntersectionObserver` on observed elements handles much of it.
-      // But a direct scroll listener for a final check can still be useful if
-      // banner itself is moving, or elements inside the banner move.
       let scrollTimer;
       window.addEventListener('scroll', () => {
         clearTimeout(scrollTimer);
+        // On scroll, the IntersectionObserver for banner and observed elements will fire,
+        // but this direct scroll listener ensures a final visual check.
         scrollTimer = setTimeout(checkVisualOverlap, 100); // Shorter debounce for scroll
       });
 
-      // Initial setup:
-      // Perform an initial scan for potential overlaps.
-      // This will also set up the observers for those elements.
+      // --- Initial Setup Calls ---
+      // 1. Perform an initial scan to find and observe elements that might theoretically overlap.
       scanForPotentialOverlaps();
-      // Perform an immediate check for visual overlap (this will also be triggered by bannerVisibilityObserver)
+      // 2. Perform an immediate check for visual overlap to set the correct initial state.
+      // (This will also be triggered by bannerVisibilityObserver if the banner is initially in view)
       checkVisualOverlap();
     }
   });
