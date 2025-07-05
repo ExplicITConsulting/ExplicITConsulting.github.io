@@ -514,6 +514,7 @@ Benefactor Circle add-on</span>.</p>
 
 <p><a href="/help"><button class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: LimeGreen">➔ Help and Support-Center</button></a></p>
 
+
 <style>
   html::after {
     content: "";
@@ -531,3 +532,23 @@ Benefactor Circle add-on</span>.</p>
     opacity: 0.5; /* Sets the transparency of the pseudo-element */
   }
 </style>
+
+
+<script>
+  const banner = document.querySelector('.scrolling-banner');
+  const track = banner.querySelector('.scrolling-track');
+  const images = Array.from(track.children);
+
+  // Duplicate the image set for seamless looping
+  images.forEach(img => {
+    const clone = img.cloneNode(true);
+    track.appendChild(clone);
+  });
+
+  // Calculate total duration: 1.5s per image
+  const imageCount = images.length;
+  const duration = imageCount * 1.5;
+
+  // Set CSS variable for animation duration
+  track.style.setProperty('--scroll-duration', `${duration}s`);
+</script>

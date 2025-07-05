@@ -110,20 +110,21 @@ h6:hover .anchor-link {
 }
 
 .scrolling-banner {
-  position: relative;
+  position: absolute;
   top: $navbar-height;
   right: 0;
   width: 15vw;
-  height: 25vh;
+  height: 15vh;
   overflow: hidden;
   z-index: -1;
   pointer-events: none;
+  display: flex;
+  align-items: center;
 }
 
 .scrolling-track {
   display: flex;
-  width: max-content;
-  animation: scroll-left 60s linear infinite;
+  animation: scroll-left var(--scroll-duration, 30s) linear infinite;
 }
 
 .scrolling-track img {
@@ -135,9 +136,8 @@ h6:hover .anchor-link {
   margin-right: 2vw;
   flex-shrink: 0;
   opacity: 0.8;
+  align-self: center;
 }
-
-
 
 @keyframes scroll-left {
   0% {
