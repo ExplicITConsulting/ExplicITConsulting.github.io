@@ -302,7 +302,7 @@ linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, da
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
-      <div style="hyphens: manual; width: 100%;"> <div class="scrolling-banner">
+      <div style="hyphens: manual;"> <div class="scrolling-banner">
           <div class="scrolling-track">
             {%- for file in site.static_files -%}
               {%- if file.path contains "/assets/images/clients/" -%}
