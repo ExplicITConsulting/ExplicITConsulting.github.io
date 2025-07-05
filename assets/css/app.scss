@@ -121,7 +121,7 @@ h6:hover .anchor-link {
 
 .scrolling-banner .scrolling-track {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   white-space: nowrap;
   gap: 1.5em;
   animation: scroll-left var(--scroll-duration) linear infinite;
