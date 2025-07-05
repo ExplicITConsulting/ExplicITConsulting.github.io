@@ -109,53 +109,36 @@ h6:hover .anchor-link {
   padding-bottom: 0 !important; // Or just 0 if not needed
 }
 
+
+/* Scoped styles for your scrolling banner only */
 .scrolling-banner {
-  overflow: hidden; /* This is crucial to clip content horizontally */
+  overflow: hidden;
   pointer-events: none;
   display: flex;
-  align-items: center; /* Vertically centers images within the banner */
+  align-items: center;
   width: 100%;
-  // height: auto; /* No fixed height here; banner height is determined by its content */
 }
 
-.scrolling-banner.hidden {
-  display: none !important;
-}
-
-.scrolling-track {
+.scrolling-banner .scrolling-track {
   display: flex;
-  // height: auto; /* No fixed height here; track height is determined by its content */
-  align-items: center; /* Ensures all images are vertically aligned (e.g., centered) */
-  white-space: nowrap; /* Prevents images from wrapping to a new line */
-
-  // Use 'gap' for spacing. This is cleaner and more reliable than margin-right.
-  gap: 1.5em; /* Define your consistent spacing here (e.g., 1.5em or 24px) */
-
+  align-items: center;
+  white-space: nowrap;
+  gap: 1.5em;
   animation: scroll-left var(--scroll-duration) linear infinite;
+  min-width: 0;
 }
 
-.scrolling-track img {
-  // Images will be at most 3em tall, but can be shorter if their aspect ratio or width constraint dictates.
+.scrolling-banner .scrolling-track img {
   max-height: 3em;
-  height: auto; /* Let natural height (constrained by max-height/max-width) define actual height */
-
-  // CRITICAL CHANGE: Max-width to ensure it fits horizontally if needed.
-  // This will make wide images shrink their width, and their height will proportionally shrink too.
   max-width: 100%;
-  width: auto; /* Let the width be determined by aspect ratio based on height/max-width */
-
-  // Ensure aspect ratio is maintained and image fits within its box.
+  height: auto;
+  width: auto;
   object-fit: contain;
-
-  // FLEXBOX PROPERTIES:
-  // flex-shrink: 0; is no longer strictly necessary if max-width: 100% is present,
-  // as max-width will do the shrinking. However, keeping it doesn't hurt.
+  display: block;
   flex-shrink: 0;
   flex-grow: 0;
   flex-basis: auto;
-
   opacity: 0.8;
-  display: block;
 }
 
 @keyframes scroll-left {
@@ -166,3 +149,4 @@ h6:hover .anchor-link {
     transform: translateX(calc(-1 * var(--total-original-images-width)));
   }
 }
+

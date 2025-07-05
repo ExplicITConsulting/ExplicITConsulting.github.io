@@ -302,7 +302,7 @@ linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, da
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
-      <div style="hyphens: manual; flex-grow: 1; flex-shrink: 1; min-width: 0;"> <div class="scrolling-banner">
+      <div style="hyphens: manual;"> <div class="scrolling-banner">
           <div class="scrolling-track">
             {%- for file in site.static_files -%}
               {%- if file.path contains "/assets/images/clients/" -%}
@@ -542,100 +542,59 @@ Benefactor Circle add-on</span>.</p>
 
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-    const scrollingBanner = document.querySelector('.scrolling-banner');
-    const track = scrollingBanner ? scrollingBanner.querySelector('.scrolling-track') : null;
+  const scrollingBanner = document.querySelector('.scrolling-banner');
+  const track = scrollingBanner?.querySelector('.scrolling-track');
 
-    if (!scrollingBanner || !track) {
-        console.warn("Scrolling banner or track element not found. Animation setup skipped.");
-        return;
-    }
+  if (!scrollingBanner || !track) return;
 
-    let images = Array.from(track.getElementsByTagName('img'));
+  let images = Array.from(track.getElementsByTagName('img'));
+  if (images.length === 0) return;
 
-    if (images.length === 0) {
-        console.warn("No images found in .scrolling-track. Skipping shuffle and animation setup.");
-        return;
-    }
+  // Shuffle images
+  for (let i = images.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [images[i], images[j]] = [images[j], images[i]];
+  }
+  track.innerHTML = '';
+  images.forEach(img => track.appendChild(img));
 
-    // --- Image Shuffling ---
-    for (let i = images.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [images[i], images[j]] = [images[j], images[i]];
-    }
-    track.innerHTML = '';
+  const setupAnimation = () => {
+    const originalImageCount = images.length;
+    let totalOriginalImagesWidth = 0;
+    const trackComputedStyle = getComputedStyle(track);
+    let imageGap = parseFloat(trackComputedStyle.columnGap);
+    if (isNaN(imageGap)) imageGap = 16;
+
+    images.forEach((img, index) => {
+      totalOriginalImagesWidth += img.offsetWidth;
+      if (index < originalImageCount - 1) {
+        totalOriginalImagesWidth += imageGap;
+      }
+    });
+
     images.forEach(img => {
-        track.appendChild(img);
-    });
-    // --- End Image Shuffling ---
-
-    const setupAnimation = () => {
-        const originalImageCount = images.length;
-        let totalOriginalImagesWidth = 0;
-
-        const trackComputedStyle = getComputedStyle(track);
-
-        // Get the gap value in pixels. This should reliably return a pixel value.
-        let imageGap = parseFloat(trackComputedStyle.columnGap);
-
-        // Fallback for extreme edge cases where gap might still be non-numeric or 0 unexpectedly.
-        // A direct CSS `gap` property is very reliable in modern browsers.
-        if (isNaN(imageGap)) {
-            // Provide a hardcoded default if computed gap is still somehow NaN.
-            // This is less ideal as it breaks consistency with CSS defined gap,
-            // but ensures functionality. You should ideally fix the CSS causing NaN.
-            imageGap = 16; // Fallback to 16px if computed gap is NaN
-            console.warn("Computed image gap was NaN, defaulting to 16px.");
-        }
-        if (imageGap === 0 && originalImageCount > 1) { // If gap is 0 but there's more than one image
-            console.warn("Computed image gap is 0. Images might appear without spacing.");
-            // You might want to force a small gap here for visual debugging
-            // imageGap = 10;
-        }
-
-
-        // Loop through the *original set* of images to sum their rendered widths
-        images.forEach((img, index) => {
-            // img.offsetWidth will now reflect the width of the image
-            // after it has scaled to fit the fixed 3em height and maintained its aspect ratio.
-            totalOriginalImagesWidth += img.offsetWidth;
-
-            // Add gap for all images *except the last one* in the original set
-            if (index < originalImageCount - 1) {
-                totalOriginalImagesWidth += imageGap;
-            }
-        });
-
-        console.log(`Calculated total original images width (including gaps): ${totalOriginalImagesWidth}px`);
-        console.log(`Detected image gap: ${imageGap}px`);
-
-
-        // Duplicate the image set *after* the initial measurements
-        images.forEach(img => {
-            const clone = img.cloneNode(true);
-            track.appendChild(clone);
-        });
-
-        const animationSpeedPixelsPerSecond = 50; // Adjust as needed
-        const duration = totalOriginalImagesWidth > 0 ? totalOriginalImagesWidth / animationSpeedPixelsPerSecond : 0;
-
-        track.style.setProperty('--scroll-duration', `${duration}s`);
-        track.style.setProperty('--total-original-images-width', `${totalOriginalImagesWidth}px`);
-        track.style.setProperty('--image-spacing', `${imageGap}px`); // Still good to set this
-    };
-
-    // Load images first to get accurate dimensions
-    const loadImagePromises = images.map(img => {
-        if (img.complete) {
-            return Promise.resolve();
-        }
-        return new Promise(resolve => {
-            img.onload = resolve;
-            img.onerror = resolve;
-        });
+      const clone = img.cloneNode(true);
+      track.appendChild(clone);
     });
 
-    Promise.all(loadImagePromises).then(() => {
-        setTimeout(setupAnimation, 50); // Small delay
+    const animationSpeedPixelsPerSecond = 50;
+    const duration = totalOriginalImagesWidth > 0 ? totalOriginalImagesWidth / animationSpeedPixelsPerSecond : 0;
+
+    track.style.setProperty('--scroll-duration', `${duration}s`);
+    track.style.setProperty('--total-original-images-width', `${totalOriginalImagesWidth}px`);
+    track.style.setProperty('--image-spacing', `${imageGap}px`);
+  };
+
+  const loadImagePromises = images.map(img => {
+    if (img.complete) return Promise.resolve();
+    return new Promise(resolve => {
+      img.onload = resolve;
+      img.onerror = resolve;
     });
+  });
+
+  Promise.all(loadImagePromises).then(() => {
+    setTimeout(setupAnimation, 50);
+  });
 });
 </script>
