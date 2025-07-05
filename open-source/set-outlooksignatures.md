@@ -538,7 +538,7 @@ Benefactor Circle add-on</span>.</p>
 <script>
   // Ensure the DOM is fully loaded before attempting to manipulate elements
   document.addEventListener('DOMContentLoaded', () => {
-    const track = document.getElementById('client-images-track');
+    const track = document.getElementById('scrolling-track');
     if (track) {
       let images = Array.from(track.getElementsByTagName('img'));
 
