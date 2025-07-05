@@ -537,71 +537,84 @@ Benefactor Circle add-on</span>.</p>
 <script>
   document.addEventListener('DOMContentLoaded', () => {
     const scrollingBanner = document.querySelector('.scrolling-banner');
-    const heroBody = document.querySelector('.hero-body');
-    const containerDiv = heroBody ? heroBody.querySelector('.container') : null;
-    const subtitleElement = containerDiv ? containerDiv.querySelector('p.subtitle') : null;
 
-    if (scrollingBanner && containerDiv && subtitleElement) {
-      containerDiv.insertBefore(scrollingBanner, subtitleElement);
+    if (!scrollingBanner) return;
 
-      const track = scrollingBanner.querySelector('.scrolling-track');
-      const images = Array.from(track.children);
-      const originalImageCount = images.length;
+    const track = scrollingBanner.querySelector('.scrolling-track');
+    const images = Array.from(track.children);
+    const originalImageCount = images.length;
 
-      images.forEach(img => {
-        const clone = img.cloneNode(true);
-        track.appendChild(clone);
-      });
+    images.forEach(img => {
+      const clone = img.cloneNode(true);
+      track.appendChild(clone);
+    });
 
-      const duration = originalImageCount * 1.5;
-      const firstImage = images[0];
-      const imageSlotWidth = firstImage.offsetWidth + parseFloat(getComputedStyle(firstImage).marginRight);
+    const duration = originalImageCount * 1.5;
+    const firstImage = images[0];
+    const imageSlotWidth = firstImage.offsetWidth + parseFloat(getComputedStyle(firstImage).marginRight);
 
-      track.style.setProperty('--scroll-duration', `${duration}s`);
-      track.style.setProperty('--original-image-count', originalImageCount);
-      track.style.setProperty('--image-slot-width', `${imageSlotWidth}px`);
+    track.style.setProperty('--scroll-duration', `${duration}s`);
+    track.style.setProperty('--original-image-count', originalImageCount);
+    track.style.setProperty('--image-slot-width', `${imageSlotWidth}px`);
 
-      // --- Overlap detection logic ---
-      function isVisuallyOverlapping(el1, el2) {
-        const rect1 = el1.getBoundingClientRect();
-        const rect2 = el2.getBoundingClientRect();
+    function isVisuallyOverlapping(el1, el2) {
+      if (!el1 || !el2) return false;
+      const rect1 = el1.getBoundingClientRect();
+      const rect2 = el2.getBoundingClientRect();
 
-        const overlapX = Math.max(0, Math.min(rect1.right, rect2.right) - Math.max(rect1.left, rect2.left));
-        const overlapY = Math.max(0, Math.min(rect1.bottom, rect2.bottom) - Math.max(rect1.top, rect2.top));
-        const overlapArea = overlapX * overlapY;
+      const overlapX = Math.max(0, Math.min(rect1.right, rect2.right) - Math.max(rect1.left, rect2.left));
+      const overlapY = Math.max(0, Math.min(rect1.bottom, rect2.bottom) - Math.max(rect1.top, rect2.top));
+      const overlapArea = overlapX * overlapY;
 
-        if (overlapArea === 0) return false;
+      if (overlapArea === 0) return false;
 
-        const style = window.getComputedStyle(el2);
-        const isVisible = style.display !== 'none' && style.visibility !== 'hidden' && parseFloat(style.opacity) > 0;
+      const style = window.getComputedStyle(el2);
+      return style.display !== 'none' && style.visibility !== 'hidden' && parseFloat(style.opacity) > 0;
+    }
 
-        return isVisible;
-      }
+    function checkBannerVisibility() {
+      const allElements = document.body.querySelectorAll('*');
 
-      function checkBannerVisibility() {
-        if (isVisuallyOverlapping(scrollingBanner, subtitleElement)) {
+      for (const el of allElements) {
+        if (
+          el === scrollingBanner ||
+          scrollingBanner.contains(el) ||
+          el.contains(scrollingBanner)
+        ) continue;
+
+        if (isVisuallyOverlapping(scrollingBanner, el)) {
           scrollingBanner.style.display = 'none';
-        } else {
-          scrollingBanner.style.display = 'flex';
+          return;
         }
       }
 
-      // Run on load, resize, scroll
-      checkBannerVisibility();
-      window.addEventListener('resize', checkBannerVisibility);
-      window.addEventListener('scroll', checkBannerVisibility);
-
-      // --- MutationObserver to detect DOM changes ---
-      const observer = new MutationObserver(() => {
-        checkBannerVisibility();
-      });
-
-      observer.observe(document.body, {
-        childList: true,
-        subtree: true,
-        attributes: true,
-        characterData: true
-      });
+      scrollingBanner.style.display = 'flex';
     }
+
+    function throttle(fn, delay) {
+      let timeout = null;
+      return () => {
+        if (!timeout) {
+          timeout = setTimeout(() => {
+            fn();
+            timeout = null;
+          }, delay);
+        }
+      };
+    }
+
+    const throttledCheck = throttle(checkBannerVisibility, 100);
+
+    checkBannerVisibility();
+    window.addEventListener('resize', throttledCheck);
+    window.addEventListener('scroll', throttledCheck);
+
+    const observer = new MutationObserver(throttledCheck);
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true,
+      attributes: true,
+      characterData: true
+    });
   });
 </script>
