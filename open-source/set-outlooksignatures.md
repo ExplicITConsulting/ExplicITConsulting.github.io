@@ -535,138 +535,60 @@ Benefactor Circle add-on</span>.</p>
 
 
 <script>
-// Ensure the DOM is fully loaded before attempting to manipulate elements
-document.addEventListener('DOMContentLoaded', () => {
-  // 1. Find the scrolling banner element that is initially in your Markdown file.
-  const scrollingBanner = document.querySelector('.scrolling-banner');
+  // Ensure the DOM is fully loaded before attempting to manipulate elements
+  document.addEventListener('DOMContentLoaded', () => {
+    // 1. Find the scrolling banner element that is initially in your Markdown file.
+    const scrollingBanner = document.querySelector('.scrolling-banner');
+    
+    // 2. Find the main hero-body container element.
+    const heroBody = document.querySelector('.hero-body');
 
-  // 2. Find the main hero-body container element.
-  const heroBody = document.querySelector('.hero-body');
+    // 3. Find the inner '.container' div within hero-body, as this is the parent
+    //    where the banner will be placed, and where the subtitle resides.
+    const containerDiv = heroBody ? heroBody.querySelector('.container') : null;
+    
+    // 4. Find the specific subtitle element using its unique class 'p.subtitle'.
+    //    This ensures we target the correct insertion point.
+    const subtitleElement = containerDiv ? containerDiv.querySelector('p.subtitle') : null;
 
-  // 3. Find the inner '.container' div within hero-body, as this is the parent
-  //    where the banner will be placed, and where the subtitle resides.
-  const containerDiv = heroBody ? heroBody.querySelector('.container') : null;
+    // Conditional execution: The following code will only run if ALL of these elements
+    // are found on the current page. This prevents errors on other pages that don't
+    // have this specific structure.
+    if (scrollingBanner && containerDiv && subtitleElement) {
+      // 5. Move the 'scrolling-banner' element into the 'containerDiv',
+      //    and place it directly *before* the 'subtitleElement'.
+      containerDiv.insertBefore(scrollingBanner, subtitleElement);
 
-  // 4. Find the specific subtitle element using its unique class 'p.subtitle'.
-  //    This ensures we target the correct insertion point.
-  const subtitleElement = containerDiv ? containerDiv.querySelector('p.subtitle') : null;
+      // --- Start of your existing JavaScript code for the animation setup ---
+      // This part should execute *after* the scrollingBanner has been moved
+      // to its final DOM position.
 
-  // Conditional execution: The following code will only run if ALL of these elements
-  // are found on the current page. This prevents errors on other pages that don't
-  // have this specific structure.
-  if (scrollingBanner && containerDiv && subtitleElement) {
-    // 5. Move the 'scrolling-banner' element into the 'containerDiv',
-    //    and place it directly *before* the 'subtitleElement'.
-    //    *** THIS IS THE ONLY DOM MANIPULATION FOR POSITIONING ***
-    containerDiv.insertBefore(scrollingBanner, subtitleElement);
+      const track = scrollingBanner.querySelector('.scrolling-track');
+      const images = Array.from(track.children);
 
-    // Apply transition properties for smooth fade in/out.
-    // If you already have 'transition: opacity ...' in your SCSS for .scrolling-banner,
-    // you can remove this JavaScript line.
-    scrollingBanner.style.transition = 'opacity 0.5s ease-in-out, visibility 0.5s ease-in-out';
+      // Store the original count of images before duplication
+      const originalImageCount = images.length;
 
-    // Set initial visibility to hidden (will be adjusted by checkContentOverlap immediately)
-    scrollingBanner.style.opacity = '0';
-    scrollingBanner.style.visibility = 'hidden';
+      // Duplicate the image set to ensure a seamless looping animation
+      images.forEach(img => {
+        const clone = img.cloneNode(true);
+        track.appendChild(clone);
+      });
 
-    // --- Helper Function: Get Bounding Rectangle of Actual Text Content ---
-    // This function is crucial for getting the tightest possible box around the visible text.
-    const getTextContentRect = (element) => {
-      // If the element doesn't exist or has no child nodes (e.g., empty), return null.
-      if (!element || element.childNodes.length === 0) {
-        return null;
-      }
-      const range = document.createRange();
-      // Selects all child nodes within the element. For simple text, this means the text node.
-      // For elements with nested inline elements (like <span> in text), it includes their bounding boxes.
-      range.selectNodeContents(element);
-      return range.getBoundingClientRect();
-    };
+      // Calculate the total duration of the animation. Adjust '1.5' for speed.
+      const duration = originalImageCount * 1.5; // 1.5 seconds per original image
 
-    // --- Conditional Visibility Logic: Check for Actual Text Content Overlap ---
-    const checkContentOverlap = () => {
-      const bannerRect = scrollingBanner.getBoundingClientRect();
-      const titleElement = containerDiv.querySelector('h1'); // Outer h1 element
+      // Get the computed width of a single image slot (image width + its right margin)
+      // This is crucial for calculating the precise scroll distance for the animation.
+      const firstImage = images[0]; 
+      const imageSlotWidth = firstImage.offsetWidth + parseFloat(getComputedStyle(firstImage).marginRight);
 
-      let shouldBeHidden = false;
-
-      // Helper function to determine if two bounding rectangles intersect
-      const doRectsIntersect = (rect1, rect2) => {
-        // Return false if either rectangle is not valid or has zero dimensions.
-        if (!rect1 || !rect2 || rect1.width === 0 || rect1.height === 0 || rect2.width === 0 || rect2.height === 0) {
-          return false;
-        }
-        // Check for non-intersection: If one rectangle is entirely to the left, right, above, or below the other.
-        return !(
-          rect1.right < rect2.left ||
-          rect1.left > rect2.right ||
-          rect1.bottom < rect2.top ||
-          rect1.top > rect2.bottom
-        );
-      };
-
-      // Get the actual bounding box of the *text content* for title and subtitle
-      const titleTextRect = getTextContentRect(titleElement);
-      const subtitleTextRect = getTextContentRect(subtitleElement);
-
-      // Check if the actual visible text of the title overlaps the banner
-      if (titleTextRect && doRectsIntersect(titleTextRect, bannerRect)) {
-        shouldBeHidden = true;
-      }
-      // If not hidden by title, check if the actual visible text of the subtitle overlaps the banner
-      if (!shouldBeHidden && subtitleTextRect && doRectsIntersect(subtitleTextRect, bannerRect)) {
-        shouldBeHidden = true;
-      }
-
-      // Apply visibility based on overlap detection
-      if (shouldBeHidden) {
-        scrollingBanner.style.opacity = '0';
-        scrollingBanner.style.visibility = 'hidden';
-      } else {
-        scrollingBanner.style.opacity = '1';
-        scrollingBanner.style.visibility = 'visible';
-      }
-    };
-
-    // --- Execute on initial page load and on window resize ---
-    checkContentOverlap();
-    // Use a small debounce for resize to prevent excessive calls during rapid resizing
-    let resizeTimer;
-    window.addEventListener('resize', () => {
-      clearTimeout(resizeTimer);
-      resizeTimer = setTimeout(checkContentOverlap, 100); // Check after 100ms of no resizing
-    });
-
-    // --- Start of your existing JavaScript code for the animation setup ---
-    // This part should execute *after* the scrollingBanner has been moved
-    // to its final DOM position.
-
-    const track = scrollingBanner.querySelector('.scrolling-track');
-    const images = Array.from(track.children);
-
-    // Store the original count of images before duplication
-    const originalImageCount = images.length;
-
-    // Duplicate the image set to ensure a seamless looping animation
-    images.forEach(img => {
-      const clone = img.cloneNode(true);
-      track.appendChild(clone);
-    });
-
-    // Calculate the total duration of the animation. Adjust '1.5' for speed.
-    const duration = originalImageCount * 1.5; // 1.5 seconds per original image
-
-    // Get the computed width of a single image slot (image width + its right margin)
-    // This is crucial for calculating the precise scroll distance for the animation.
-    const firstImage = images[0];
-    const imageSlotWidth = firstImage.offsetWidth + parseFloat(getComputedStyle(firstImage).marginRight);
-
-    // Set CSS custom properties (variables) on the track element.
-    // These variables will be used in your SCSS @keyframes animation.
-    track.style.setProperty('--scroll-duration', `${duration}s`);
-    track.style.setProperty('--original-image-count', originalImageCount); // Useful for calculation in CSS
-    track.style.setProperty('--image-slot-width', `${imageSlotWidth}px`);
-    // --- End of existing JavaScript code for the animation setup ---
-  }
-});
+      // Set CSS custom properties (variables) on the track element.
+      // These variables will be used in your SCSS @keyframes animation.
+      track.style.setProperty('--scroll-duration', `${duration}s`);
+      track.style.setProperty('--original-image-count', originalImageCount); // Useful for calculation in CSS
+      track.style.setProperty('--image-slot-width', `${imageSlotWidth}px`);
+      // --- End of your existing JavaScript code for the animation setup ---
+    }
+  });
 </script>
