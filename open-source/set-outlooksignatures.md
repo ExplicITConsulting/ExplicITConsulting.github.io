@@ -53,26 +53,20 @@ redirect_from:
   // Get all static files
   {% assign all_static_files = site.static_files %}
 
-  // Filter for PNG images ONLY in /assets/images/
-  {% assign client_images = "" %}
+  // Filter for PNG images ONLY in /assets/images/ and collect their URLs
+  {% assign image_urls = "" | split: '' %} {# Initialize an empty Liquid array. Using '' splits into an empty array. #}
   {% for file in all_static_files %}
     {% if file.path contains "/assets/images/" and file.extname == ".png" %}
       {% assign image_url = file.path | relative_url %}
-      {# Ensure no extra whitespace is appended with the URL #}
-      {% assign client_images = client_images | append: image_url | append: "|" | strip_newlines | strip %}
+      {% assign image_urls = image_urls | push: image_url %}
     {% endif %}
   {% endfor %}
 
-  {# Aggressively strip whitespace from the final string before slicing #}
-  {% assign client_images = client_images | strip_newlines | strip %}
-
-  // Remove trailing pipe and create a JavaScript array
-  {# Ensure the slice is applied to a clean string #}
-  {% assign image_urls_js = client_images | slice: 0, -1 %}
-  const clientImageFiles = "{{ image_urls_js }}".split('|');
+  // Convert the Liquid array to a JSON string, then parse it in JavaScript
+  const clientImageFiles = JSON.parse('{{ image_urls | jsonify }}');
 
   // --- JavaScript Animation Logic for the Top-Right Dynamic Image ---
-  if (clientImageFiles.length > 0 && clientImageFiles[0] !== '') { // Ensure there are images to display
+  if (clientImageFiles.length > 0) { // Ensure there are images to display
     const topRightDecor = document.querySelector('.bg-image-decor.decor-top-right');
     const layer1 = topRightDecor.querySelector('.animated-bg-layer.layer-1');
     const layer2 = topRightDecor.querySelector('.animated-bg-layer.layer-2');
@@ -107,8 +101,8 @@ redirect_from:
     // The CSS transition is also 1 second, so they will smoothly cross-fade.
     setInterval(changeTopRightImage, 1000);
   } else {
-    // Updated warning message to reflect the correct path and the finding of no images
-    console.warn("No PNG images found in /assets/images/ for the dynamic top-right background, or issues retrieving their URLs. Final JS array length:", clientImageFiles.length, "First element:", clientImageFiles[0]);
+    // Updated warning message
+    console.warn("No PNG images found in /assets/images/ for the dynamic top-right background, or issues retrieving their URLs.");
   }
 </script>
 
