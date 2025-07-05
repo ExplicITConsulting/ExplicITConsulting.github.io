@@ -51,7 +51,7 @@ redirect_from:
   // Get all static files
   {% assign all_static_files = site.static_files %}
 
-  // Filter for PNG images in /assets/images/clients/
+  // Filter for PNG images ONLY in /assets/images/ (as confirmed by you)
   {% assign client_images = "" %}
   {% for file in all_static_files %}
     {% comment %} Check if the path starts with the desired folder and has a .png extension {% endcomment %}
@@ -60,7 +60,7 @@ redirect_from:
     {% endif %}
   {% endfor %}
 
-  // Remove trailing comma and create a JavaScript array
+  // Remove trailing pipe and create a JavaScript array
   {% assign image_urls_js = client_images | slice: 0, -1 %}
   const clientImageFiles = "{{ image_urls_js }}".split('|');
 
@@ -100,7 +100,8 @@ redirect_from:
     // The CSS transition is also 1 second, so they will smoothly cross-fade.
     setInterval(changeTopRightImage, 1000);
   } else {
-    console.warn("No PNG images found in /assets/images/clients/ for the dynamic top-right background.");
+    // Updated warning message to reflect the correct path
+    console.warn("No PNG images found in /assets/images/ for the dynamic top-right background.");
   }
 </script>
 
