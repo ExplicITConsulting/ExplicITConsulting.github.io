@@ -1,15 +1,8 @@
 ---
 layout: page
-title: |
-  <p class="title is-2 has-text-white">
-    Legal information
-  </p>
-subtitle: |
-  <p class="subtitle is-4 has-text-white">
-    Impress, Privacy Notice, Terms and Conditions, etc.
-  </p>
-description: |
-  Impress, Privacy Notice, Terms and Conditions, etc.
+title: Legal information
+subtitle: Impress, Privacy Notice, Terms and Conditions, etc.
+description: Impress, Privacy Notice, Terms and Conditions, etc.
 ---
 
 <!-- omit in toc -->

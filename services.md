@@ -1,13 +1,7 @@
 ---
 layout: page
-title: |
-  <p class="title is-2 has-text-white">
-    Which gap can we bridge for you?
-  </p>
-subtitle: |
-  <p class="subtitle is-4 has-text-white">
-    We help you to be successful on an individual, team and company level
-  </p>
+title: Which gap can we bridge for you?
+subtitle: We help you to be successful on an individual, team and company level
 description: We help you to be successful on an individual, team and company level
 redirect_from:
   - /ourservices

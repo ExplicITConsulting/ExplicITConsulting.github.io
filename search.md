@@ -1,15 +1,8 @@
 ---
 layout: page
-title: |
-  <p class="title is-2 has-text-white">
-    Search and find
-  </p>
-subtitle: |
-  <p class="subtitle is-4 has-text-white">
-    What are you looking for?
-  </p>
-description: |
-  What are you looking for?
+title: Search and find
+subtitle: What are you looking for?
+description: What are you looking for?
 ---
 
 <div style="min-height: 100vh;">

@@ -1,15 +1,8 @@
 ---
 layout: page
-title: |
-  <p class="title is-2 has-text-white">
-    Let's get and stay in contact
-  </p>
-subtitle: |
-  <p class="subtitle is-4 has-text-white">
-    Email, request a call-back, postal address
-  </p>
-description: |
-  Email, request a call-back, postal address
+title: Let's get and stay in contact
+subtitle: Email, request a call-back, postal address
+description: Email, request a call-back, postal address
 ---
 
 <div style="min-height: 100vh;">

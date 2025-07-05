@@ -1,15 +1,8 @@
 ---
 layout: page
-title: |
-  <p class="title is-2 has-text-white">
-    Payment
-  </p>
-subtitle: |
-  <p class="subtitle is-4 has-text-white">
-    Bank transfer and other methods of payment
-  </p>
-description: |
-  Bank transfer and other methods of payment
+title: Payment
+subtitle: Bank transfer and other methods of payment
+description: Bank transfer and other methods of payment
 redirect_from:
   - /pay
   - /payment/paynow

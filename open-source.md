@@ -1,15 +1,8 @@
 ---
 layout: page
-title: |
-  <p class="title is-2 has-text-white">
-    Support for Open-Source Software
-  </p>
-subtitle: |
-  <p class="subtitle is-4 has-text-white">
-    Adding professional services on top
-  </p>
-description: |
-  Adding professional services on top
+title: Support for Open-Source Software
+subtitle: Adding professional services on top
+description: Adding professional services on top
 redirect_from:
   - /opensource
   - /opensource/

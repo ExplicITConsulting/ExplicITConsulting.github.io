@@ -1,12 +1,7 @@
 ---
 layout: page
-title: |
-  <p class="title is-2 has-text-white">
-    Terms and conditions for fee-based support<br>Bedingungen und Konditionen für kommerzielle Unterstützung
-  </p>
-subtitle: |
-  <p class="subtitle is-3 has-text-white">
-  </p>
+title: Terms and conditions for fee-based support<br>Bedingungen und Konditionen für kommerzielle Unterstützung
+subtitle: $nbsp;
 description: 
 ---
 ## English: Fee-based support terms

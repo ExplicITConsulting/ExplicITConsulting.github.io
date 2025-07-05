@@ -1,15 +1,8 @@
 ---
 layout: page
-title: |
-  <p class="title is-2 has-text-white">
-   Export-RecipientPermissions
-  </p>
-subtitle: |
-  <p class="subtitle is-4 has-text-white">
-    The open-source tool of choice to document, filter and compare Exchange permissions
-  </p>
-description: |
-  The open-source tool of choice to document, filter and compare Exchange permissions
+title: Export-RecipientPermissions
+subtitle: The open-source tool of choice to document, filter and compare Exchange permissions
+description: The open-source tool of choice to document, filter and compare Exchange permissions
 image:
   path: "/assets/images/export-recipientpermissions opengraph1200x630.png"
   height: 1200
