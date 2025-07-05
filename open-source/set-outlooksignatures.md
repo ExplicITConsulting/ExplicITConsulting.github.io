@@ -3,11 +3,11 @@ layout: page
 hero_image: /intentionally/non/existing/path
 hero_darken: false
 title: |
-  <p class="has-text-black">
+  <p class="title has-text-black">
     Set-OutlookSignatures and the Benefactor Circle add-on
   </p>
 subtitle: |
-  <p class="has-text-black">
+  <p class="subtitle has-text-black">
     Email signatures and out-of-office replies for Exchange and all of Outlook.<br>Full-featured, cost-effective, unsurpassed data privacy.
   </p>
 description: Email signatures and out-of-office replies for Exchange and all of Outlook. Full-featured, cost-effective, unsurpassed data privacy.
@@ -540,17 +540,17 @@ Benefactor Circle add-on</span>.</p>
     const scrollingBanner = document.querySelector('.scrolling-banner');
     const heroBody = document.querySelector('.hero-body');
 
-    // Check if both elements exist on this specific page.
-    // This acts as your conditional check for "only for one document".
-    if (scrollingBanner && heroBody) {
-      // Move the scrolling-banner element into the hero-body element.
-      // appendChild will place it at the end of hero-body's existing children
-      // (e.g., after your title and subtitle).
-      heroBody.appendChild(scrollingBanner);
+    // Now, we can reliably target the subtitle element using its unique class 'subtitle'.
+    // This is much better than relying on array indices.
+    const subtitleElement = heroBody ? heroBody.querySelector('p.subtitle') : null;
+
+    // Only proceed if all required elements exist and the subtitle was found
+    if (scrollingBanner && heroBody && subtitleElement) {
+      // Insert the scrollingBanner element directly before the subtitleElement.
+      heroBody.insertBefore(scrollingBanner, subtitleElement);
 
       // --- Re-include your existing JavaScript for animation setup here ---
-      // Since the element has moved, ensure this part runs *after* the move.
-      // This is the code you provided earlier for seamless scroll:
+      // This part ensures the animation variables are set up correctly after the move.
       const track = scrollingBanner.querySelector('.scrolling-track');
       const images = Array.from(track.children);
 
