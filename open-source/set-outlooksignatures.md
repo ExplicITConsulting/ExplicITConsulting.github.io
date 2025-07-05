@@ -665,11 +665,11 @@ Benefactor Circle add-on</span>.</p>
               {
                 isVisuallyOverlapping = true;
                 // --- DEBUGGING HELP: Uncomment the line below to see which element is causing overlap ---
-                // console.warn(`Banner hidden by element at (${point.x}, ${point.y}):`, element, {
-                //     display: style.display, visibility: style.visibility, opacity: style.opacity,
-                //     width: element.offsetWidth, height: element.offsetHeight,
-                //     tag: element.tagName, id: element.id, class: element.className
-                // });
+                console.warn(`Banner hidden by element at (${point.x}, ${point.y}):`, element, {
+                     display: style.display, visibility: style.visibility, opacity: style.opacity,
+                     width: element.offsetWidth, height: element.offsetHeight,
+                     tag: element.tagName, id: element.id, class: element.className
+                 });
                 break; // Found an overlap at this point
               }
             }
