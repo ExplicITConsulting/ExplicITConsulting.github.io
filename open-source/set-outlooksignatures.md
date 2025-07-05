@@ -535,41 +535,60 @@ Benefactor Circle add-on</span>.</p>
 
 
 <script>
-  // Ensure the DOM is fully loaded before trying to manipulate elements
+  // Ensure the DOM is fully loaded before attempting to manipulate elements
   document.addEventListener('DOMContentLoaded', () => {
+    // 1. Find the scrolling banner element that is initially in your Markdown file.
     const scrollingBanner = document.querySelector('.scrolling-banner');
+    
+    // 2. Find the main hero-body container element.
     const heroBody = document.querySelector('.hero-body');
 
-    // Now, we can reliably target the subtitle element using its unique class 'subtitle'.
-    // This is much better than relying on array indices.
-    const subtitleElement = heroBody ? heroBody.querySelector('p.subtitle') : null;
+    // 3. Find the inner '.container' div within hero-body, as this is the parent
+    //    where the banner will be placed, and where the subtitle resides.
+    const containerDiv = heroBody ? heroBody.querySelector('.container') : null;
+    
+    // 4. Find the specific subtitle element using its unique class 'p.subtitle'.
+    //    This ensures we target the correct insertion point.
+    const subtitleElement = containerDiv ? containerDiv.querySelector('p.subtitle') : null;
 
-    // Only proceed if all required elements exist and the subtitle was found
-    if (scrollingBanner && heroBody && subtitleElement) {
-      // Insert the scrollingBanner element directly before the subtitleElement.
-      heroBody.insertBefore(scrollingBanner, subtitleElement);
+    // Conditional execution: The following code will only run if ALL of these elements
+    // are found on the current page. This prevents errors on other pages that don't
+    // have this specific structure.
+    if (scrollingBanner && containerDiv && subtitleElement) {
+      // 5. Move the 'scrolling-banner' element into the 'containerDiv',
+      //    and place it directly *before* the 'subtitleElement'.
+      containerDiv.insertBefore(scrollingBanner, subtitleElement);
 
-      // --- Re-include your existing JavaScript for animation setup here ---
-      // This part ensures the animation variables are set up correctly after the move.
+      // --- Start of your existing JavaScript code for the animation setup ---
+      // This part should execute *after* the scrollingBanner has been moved
+      // to its final DOM position.
+
       const track = scrollingBanner.querySelector('.scrolling-track');
       const images = Array.from(track.children);
 
+      // Store the original count of images before duplication
       const originalImageCount = images.length;
 
+      // Duplicate the image set to ensure a seamless looping animation
       images.forEach(img => {
         const clone = img.cloneNode(true);
         track.appendChild(clone);
       });
 
-      const duration = originalImageCount * 1.5;
+      // Calculate the total duration of the animation. Adjust '1.5' for speed.
+      const duration = originalImageCount * 1.5; // 1.5 seconds per original image
 
-      const firstImage = images[0];
+      // Get the computed width of a single image slot (image width + its right margin)
+      // This is crucial for calculating the precise scroll distance for the animation.
+      const firstImage = images[0]; 
       const imageSlotWidth = firstImage.offsetWidth + parseFloat(getComputedStyle(firstImage).marginRight);
 
+      // Set CSS custom properties (variables) on the track element.
+      // These variables will be used in your SCSS @keyframes animation.
       track.style.setProperty('--scroll-duration', `${duration}s`);
-      track.style.setProperty('--original-image-count', originalImageCount);
+      track.style.setProperty('--original-image-count', originalImageCount); // Useful for calculation in CSS
       track.style.setProperty('--image-slot-width', `${imageSlotWidth}px`);
-      // --- End of existing JavaScript for animation setup ---
+      // --- End of your existing JavaScript code for the animation setup ---
     }
   });
 </script>
