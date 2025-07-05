@@ -40,7 +40,7 @@ redirect_from:
 <div class="scrolling-banner">
   <div class="scrolling-track">
     {%- for file in site.static_files -%}
-      {%- if file.path contains "/assets/images/" and file.extname == ".png" -%}
+      {%- if file.path contains "/assets/images/clients/" -%}
         <img src="{{ file.path | relative_url }}" alt="Banner image">
       {%- endif -%}
     {%- endfor -%}
