@@ -39,7 +39,7 @@ redirect_from:
 
 
 <div class="scrolling-banner is-hidden-mobile">
-  <div class="scrolling-track">
+  <div class="scrolling-track" id="scrolling-track">
     {%- for file in site.static_files -%}
       {%- if file.path contains "/assets/images/clients/" -%}
         <img src="{{ file.path | relative_url }}" alt="Banner image">
@@ -538,7 +538,7 @@ Benefactor Circle add-on</span>.</p>
 <script>
   // Ensure the DOM is fully loaded before attempting to manipulate elements
   document.addEventListener('DOMContentLoaded', () => {
-    const track = document.querySelector('.scrolling-banner');
+    const track = document.getElementById('scrolling-track');
     if (track) {
       let images = Array.from(track.getElementsByTagName('img'));
 
