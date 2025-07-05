@@ -539,16 +539,27 @@ Benefactor Circle add-on</span>.</p>
   const track = banner.querySelector('.scrolling-track');
   const images = Array.from(track.children);
 
+  // Store the original count before duplication for calculation
+  const originalImageCount = images.length;
+
   // Duplicate the image set for seamless looping
   images.forEach(img => {
     const clone = img.cloneNode(true);
     track.appendChild(clone);
   });
 
-  // Calculate total duration: 1.5s per image
-  const imageCount = images.length;
-  const duration = imageCount * 1.5;
+  // Calculate total duration: 1.5s per image (original set)
+  // The animation duration should be based on the original set, as that's the content
+  // that needs to scroll past
+  const duration = originalImageCount * 1.5; // 1.5 seconds per original image
 
-  // Set CSS variable for animation duration
+  // Get the computed width of a single image slot including its right margin
+  // We need to calculate this after CSS has been applied
+  const firstImage = images[0]; // Get one of the original images
+  const imageSlotWidth = firstImage.offsetWidth + parseFloat(getComputedStyle(firstImage).marginRight);
+
+  // Set CSS variables for animation duration and scroll distance
   track.style.setProperty('--scroll-duration', `${duration}s`);
+  track.style.setProperty('--original-image-count', originalImageCount); // For CSS calculation
+  track.style.setProperty('--image-slot-width', `${imageSlotWidth}px`); // Use px for calculated width
 </script>
