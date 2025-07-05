@@ -128,11 +128,11 @@ h6:hover .anchor-link {
 }
 
 .scrolling-track img {
-  max-height: 100%;
   max-width: 100%;
-  height: auto;
+  max-height: 100%;
   width: auto;
-  object-fit: contain;
+  height: auto;
+  object-fit: scale-down; // Ensures image scales down to fit both dimensions
   margin-right: 2vw;
   flex-shrink: 0;
   opacity: 0.8;
