@@ -110,7 +110,7 @@ h6:hover .anchor-link {
 }
 
 .scrolling-banner {
-  position: fixed;
+  position: absolute;
   top: $navbar-height;
   right: 0;
   width: 15vw;
@@ -128,13 +128,15 @@ h6:hover .anchor-link {
 
 .scrolling-track img {
   max-height: 100%;
+  max-width: 100%;
+  height: auto;
   width: auto;
   object-fit: contain;
   margin-right: 2vw;
-  box-sizing: border-box;
   flex-shrink: 0;
   opacity: 0.8;
 }
+
 
 
 @keyframes scroll-left {
