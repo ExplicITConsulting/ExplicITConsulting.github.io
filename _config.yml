@@ -67,7 +67,6 @@ defaults:
       hero_image: "/assets/images/background, vietnam golden bridge.jpg"
       hero_height: is-small
       hero_darken: true
-      force_theme: dark
 
 include:
   - ".well-known"
