@@ -302,7 +302,7 @@ linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, da
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
-      <div style="hyphens: manual; width: 90%;"> <div class="scrolling-banner">
+      <div style="hyphens: manual; width: 95%;"> <div class="scrolling-banner">
           <div class="scrolling-track">
             {%- for file in site.static_files -%}
               {%- if file.path contains "/assets/images/clients/" -%}
@@ -536,6 +536,52 @@ Benefactor Circle add-on</span>.</p>
     pointer-events: none; /* Ensures the pseudo-element does not interfere with mouse events on content below it */
     z-index: -1; /* Places the pseudo-element behind other content */
     opacity: 0.5; /* Sets the transparency of the pseudo-element */
+  }
+</style>
+
+
+<style>
+  .scrolling-banner {
+    overflow: hidden;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .scrolling-banner .scrolling-track {
+    display: flex;
+    align-items: flex-start;
+    white-space: nowrap;
+    gap: 1.5em;
+    animation: scroll-left var(--scroll-duration) linear infinite;
+    min-width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+
+  .scrolling-banner .scrolling-track img {
+    max-height: 4em;
+    max-width: 90%;
+    height: auto;
+    width: auto;
+    object-fit: contain;
+    display: block;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: auto;
+    opacity: 1;
+  }
+
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(calc(-1 * var(--total-original-images-width)));
+    }
   }
 </style>
 
