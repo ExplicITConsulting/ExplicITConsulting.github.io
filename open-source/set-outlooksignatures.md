@@ -581,15 +581,12 @@ Benefactor Circle add-on</span>.</p>
       }
 
       let position = 0;
-      // Animation speed in pixels per second. Consider if this needs to be responsive.
-      const animationSpeedPixelsPerSecond = 50; 
-      let totalOriginalImagesWidth = 0; // The calculated width of one full set of original images + gaps
-      let imageGap = 0; // The calculated pixel value of the CSS gap
+      const animationSpeedPixelsPerSecond = 50;
+      let totalOriginalImagesWidth = 0;
+      let imageGap = 0;
       let lastTimestamp = null;
-      let originalImages = []; // Stores the original image elements
+      let originalImages = [];
 
-      // Helper function for debouncing
-      // Using a more robust debounce pattern
       function debounce(func, delay) {
           let timeout;
           return function(...args) {
@@ -601,54 +598,78 @@ Benefactor Circle add-on</span>.</p>
           };
       }
 
-      // Function to calculate dimensions (called on load and resize)
-      function calculateDimensions() {
-          // Ensure images are actually present before calculating
+      // Function to calculate dimensions and *re-clone* dynamically
+      function calculateDimensionsAndClone() {
           if (originalImages.length === 0) {
               console.warn('No original images to calculate dimensions for.');
-              totalOriginalImagesWidth = 0; // Reset to prevent issues
+              totalOriginalImagesWidth = 0;
               return;
           }
 
           const trackStyle = getComputedStyle(track);
-          // Safely parse gap, default to 0 if not a valid number or not set.
-          // Use 0 initially if gap is somehow invalid, as 16px might not be correct.
-          imageGap = parseFloat(trackStyle.gap) || 0; 
+          imageGap = parseFloat(trackStyle.gap) || 0;
 
           let newTotalOriginalImagesWidth = 0;
-          // Iterate over the *original* images to get the correct total width for one loop
           originalImages.forEach((img, index) => {
               newTotalOriginalImagesWidth += img.offsetWidth;
-              // Add gap for all but the last image in the original set
               if (index < originalImages.length - 1) {
                   newTotalOriginalImagesWidth += imageGap;
               }
           });
 
-          // If the total width has changed significantly, adjust position proportionally
-          // This helps maintain visual continuity during resizes if the banner is currently scrolling.
-          // Adding a small epsilon for floating point comparisons
-          const epsilon = 0.1; 
+          const epsilon = 0.1;
           if (totalOriginalImagesWidth > epsilon && Math.abs(newTotalOriginalImagesWidth - totalOriginalImagesWidth) > epsilon) {
-              // Adjust current position proportionally to maintain smooth transition
               position = (position / totalOriginalImagesWidth) * newTotalOriginalImagesWidth;
           }
-          
+
           totalOriginalImagesWidth = newTotalOriginalImagesWidth;
 
-          if (totalOriginalImagesWidth <= epsilon) { // Use epsilon for safety
+          if (totalOriginalImagesWidth <= epsilon) {
               console.warn('Total width of images is 0 or very small after recalculation. Animation may not function correctly.');
+              return; // Exit if dimensions are invalid
           }
-          // console.log(`Calculated totalOriginalImagesWidth: ${totalOriginalImagesWidth}px, imageGap: ${imageGap}px`);
+
+          // --- Dynamic Cloning Logic ---
+          // Clear existing track content *before* appending new sets
+          track.innerHTML = '';
+
+          // Determine how many sets are needed to fill the visible area plus a buffer
+          // `scrollingBanner.offsetWidth` gives the visible width of the container
+          const bannerWidth = scrollingBanner.offsetWidth;
+          let setsNeeded = 2; // Start with a minimum of 2 sets (original + 1 clone)
+
+          if (totalOriginalImagesWidth > 0) {
+              // Calculate how many times original content fits into banner width.
+              // Add a buffer (e.g., 1 or 2) to ensure seamless transition.
+              // If the banner width is much larger than one set, we need more clones.
+              setsNeeded = Math.ceil(bannerWidth / totalOriginalImagesWidth) + 1;
+              // Ensure at least 2 sets for robust looping, especially if a single set is very wide.
+              setsNeeded = Math.max(setsNeeded, 2); 
+              // Add an extra set if banner is very wide and speed is high to prevent content running out
+              // You might adjust the '2' based on speed/viewport. For instance, `+ Math.ceil(animationSpeedPixelsPerSecond / 10)`
+              if (setsNeeded * totalOriginalImagesWidth < bannerWidth * 2) { // Ensure at least 2 full banner widths of content
+                  setsNeeded++;
+              }
+          }
+          // console.log(`Banner width: ${bannerWidth}px, totalOriginalImagesWidth: ${totalOriginalImagesWidth}px, Sets needed: ${setsNeeded}`);
+
+
+          // Append the calculated number of sets
+          for (let i = 0; i < setsNeeded; i++) {
+              originalImages.forEach(img => {
+                  // For the first pass (i === 0), append the actual original img element.
+                  // For subsequent passes, append clones of the original images.
+                  track.appendChild(i === 0 ? img : img.cloneNode(true));
+              });
+          }
+          // --- END Dynamic Cloning Logic ---
       }
 
       // Debounce the resize handler to prevent excessive recalculations
-      const debouncedRecalculate = debounce(calculateDimensions, 200);
-      // Use 'optimized' passive event listener if supported, for better scroll performance (though less critical for resize)
+      const debouncedRecalculate = debounce(calculateDimensionsAndClone, 200); // Call the new function
       window.addEventListener('resize', debouncedRecalculate, { passive: true });
 
 
-      // Fetch image URLs
       fetch('https://set-outlooksignatures.com/client-images.txt')
           .then(response => {
               if (!response.ok) {
@@ -664,103 +685,72 @@ Benefactor Circle add-on</span>.</p>
                   return;
               }
 
-              // Create original image elements
               originalImages = urls.map(url => {
-                  const img = new Image(); // Use Image constructor for potentially better preloading control
+                  const img = new Image();
                   img.src = url;
-                  // Generate alt text from filename for accessibility
                   const fileName = url.split('/').pop()?.split('.')[0] || 'Client Image';
                   img.alt = fileName.replace(/[-_]/g, ' ');
                   return img;
               });
 
-              // Shuffle images for variety
-              // A more efficient in-place shuffle (Fisher-Yates)
               for (let i = originalImages.length - 1; i > 0; i--) {
                   const j = Math.floor(Math.random() * (i + 1));
                   [originalImages[i], originalImages[j]] = [originalImages[j], originalImages[i]];
               }
 
-              // Append originals and clones.
-              // Appending two sets of clones (total 3 sets: original + clone1 + clone2) often ensures
-              // a very long, seamless visual loop, especially if the original set is small.
-              // This prevents "running out" of content before the loop resets for very fast speeds or very wide viewports.
-              // Alternatively, calculate how many sets are needed based on viewport width.
-              const fullTrackContent = [...originalImages, ...originalImages.map(img => img.cloneNode(true)), ...originalImages.map(img => img.cloneNode(true))];
-              fullTrackContent.forEach(img => {
-                  track.appendChild(img);
-              });
-
-              // Wait for all images (originals + all clones in the track) to load
-              // Using Promise.allSettled for robustness - it won't fail if one image fails to load.
-              // We only need to check the original images' load status if we want to ensure
-              // the `calculateDimensions` is accurate *before* starting.
-              // Let's refine this to wait for *all* images actually appended to the DOM.
-              const imagesInDOM = Array.from(track.querySelectorAll('img'));
-              const loadImagePromises = imagesInDOM.map(img => {
-                  // Return a promise that resolves when the image is loaded or errors, preventing Promise.all from failing
+              // Before starting the animation, we need to ensure all original images are loaded
+              // so that their `offsetWidth` values are accurate for the initial `calculateDimensionsAndClone`.
+              const initialImageLoadPromises = originalImages.map(img => {
                   return new Promise(resolve => {
-                      if (img.complete && img.naturalWidth !== 0) { // Check naturalWidth for actual load, not just 'complete'
+                      if (img.complete && img.naturalWidth !== 0) {
                           resolve();
                       } else {
                           img.onload = resolve;
                           img.onerror = (e) => {
-                              console.warn(`Failed to load image: ${img.src}. It will be skipped.`, e);
-                              resolve(); // Still resolve to not block the banner
+                              console.warn(`Failed to load original image: ${img.src}. It will be skipped.`, e);
+                              resolve(); // Resolve even on error
                           };
                       }
                   });
               });
 
-              Promise.allSettled(loadImagePromises).then(() => { // Use allSettled for robustness
-                  // After all images are loaded (or failed), calculate dimensions for the first time
-                  calculateDimensions(); 
+              Promise.allSettled(initialImageLoadPromises).then(() => {
+                  // Now that original images are loaded and `offsetWidth` is accurate,
+                  // perform initial dimension calculation and cloning.
+                  calculateDimensionsAndClone();
 
                   if (totalOriginalImagesWidth <= 0) {
-                      console.warn('Total width of images is 0 after loading. Animation cannot start.');
+                      console.warn('Total width of images is 0 after initial load. Animation cannot start.');
                       return;
                   }
-                  
-                  // Start the requestAnimationFrame loop only after images are loaded and dimensions calculated
+
+                  // Start the requestAnimationFrame loop
                   requestAnimationFrame(animate);
 
               }).catch(error => {
-                  // This catch would only fire if Promise.allSettled itself throws, which is rare.
-                  // Image load errors are handled within the individual promise.
-                  console.error('Error during image loading promise handling:', error);
+                  console.error('Error during initial image loading promise handling:', error);
               });
           })
           .catch(error => {
               console.error('Failed to load image URLs from text file:', error);
           });
 
-      // Animation loop
       function animate(timestamp) {
           if (!lastTimestamp) lastTimestamp = timestamp;
-          // Calculate delta time in seconds, ensuring it's not excessively large
-          const deltaTime = Math.min((timestamp - lastTimestamp) / 1000, 1/30); // Cap deltaTime to prevent huge jumps if tab was in background
+          const deltaTime = Math.min((timestamp - lastTimestamp) / 1000, 1 / 30);
           lastTimestamp = timestamp;
 
-          // Ensure totalOriginalImagesWidth is valid to prevent division by zero or NaN issues
           if (totalOriginalImagesWidth <= 0) {
-              requestAnimationFrame(animate); // Keep trying if dimensions might still resolve
+              requestAnimationFrame(animate);
               return;
           }
 
-          // Update position based on speed and delta time
           position -= animationSpeedPixelsPerSecond * deltaTime;
 
-          // Reset position to create a seamless loop
-          // When the first full set of original images has scrolled past
-          while (position <= -totalOriginalImagesWidth) { // Use while loop to handle large jumps if deltaTime was large
+          while (position <= -totalOriginalImagesWidth) {
               position += totalOriginalImagesWidth;
           }
 
-          // Use translate3d for hardware acceleration
-          // Using Math.round/Math.floor is generally NOT recommended for smooth sub-pixel animation
-          // However, if you are experiencing *very specific* pixel "jumps" on certain browsers/resolutions
-          // due to sub-pixel rendering imperfections (rare, but happens), rounding could be a last resort.
-          // For general smoothness, sub-pixel is preferred.
           track.style.transform = `translate3d(${position}px, 0, 0)`;
 
           requestAnimationFrame(animate);
