@@ -1,6 +1,8 @@
 # Individual footer menu items
 - name: "Contact"
   link: /contact
+- name: "Team"
+  link: /team
 - name: "Legal information"
   link: /legal/
 - name: LinkedIn
