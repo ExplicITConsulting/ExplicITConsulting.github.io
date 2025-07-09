@@ -1,7 +1,7 @@
 # Individual footer menu items
 - name: "Contact"
   link: /contact
-- name: "Team"
+- name: "Our team"
   link: /team
 - name: "Legal information"
   link: /legal/
