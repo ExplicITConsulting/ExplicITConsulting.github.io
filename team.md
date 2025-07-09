@@ -27,7 +27,7 @@ redirect_from:
             <div class="card-image">
                 <figure class="image is-1by1">
                 <img
-                    src="/assets/images/team/markusgruber.jpg"
+                    src="/assets/images/team/markusgruber.png"
                     alt="Markus Gruber"
                 />
                 </figure>
@@ -50,7 +50,7 @@ redirect_from:
             <div class="card-image">
                 <figure class="image is-1by1">
                 <img
-                    src="/assets/images/team/bettinasaller.jpg"
+                    src="/assets/images/team/bettinasaller.png"
                     alt="Bettina Saller"
                 />
                 </figure>
@@ -73,7 +73,7 @@ redirect_from:
             <div class="card-image">
                 <figure class="image is-1by1">
                 <img
-                    src="/assets/images/team/ingridhandler.jpg"
+                    src="/assets/images/team/ingridhandler.png"
                     alt="Ingrid Handler"
                 />
                 </figure>
@@ -105,7 +105,7 @@ redirect_from:
                 <div class="media">
                 <div class="media-content">
                     <p class="title is-4">Specialised partners</p>
-                    <p class="subtitle is-6">Trusted expert</p>
+                    <p class="subtitle is-6">Trusted experts</p>
                 </div>
                 </div>
                 <div class="content">
@@ -114,29 +114,4 @@ redirect_from:
             </div>
         </div>
     </div>
-    <!--
-    <div class="column is-one-quarter-desktop is-one-third-tablet is-half-tablet-mobile">
-        <div class="card is-one-third-desktop is-half-tablet is-full-mobile">
-            <div class="card-image">
-                <figure class="image is-1by1">
-                <img
-                    src="/assets/images/team/prohibit.jpg"
-                    alt="N. N."
-                />
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                <div class="media-content">
-                    <p class="title is-4">N. N.</p>
-                    <p class="subtitle is-6">Sales team</p>
-                </div>
-                </div>
-                <div class="content">
-                    <p>We focus on high quality products and services. We deliberately do without a sales team in favor of a lean and cost-effective structure, allowing us to not work with inflated prices that are later "reduced" through negotiations. Our clients appreciate this and recommend us to others.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    -->
 </div>
