@@ -1,4 +1,5 @@
 ---
+sitemap: false
 layout: page
 lang: de
 locale: de
@@ -35,7 +36,7 @@ redirect_from:
             <div class="card-content">
                 <div class="media">
                 <div class="media-content">
-                    <p class="title is-4">Markus Gruber</p>
+                    <p class="title is-4">Markus GRUBER</p>
                     <p class="subtitle is-6">Managing director</p>
                 </div>
                 </div>
@@ -58,7 +59,7 @@ redirect_from:
             <div class="card-content">
                 <div class="media">
                 <div class="media-content">
-                    <p class="title is-4">Bettina Saller</p>
+                    <p class="title is-4">Bettina SALLER</p>
                     <p class="subtitle is-6">Support engineer</p>
                 </div>
                 </div>
@@ -81,7 +82,7 @@ redirect_from:
             <div class="card-content">
                 <div class="media">
                 <div class="media-content">
-                    <p class="title is-4">Ingrid Handler</p>
+                    <p class="title is-4">Ingrid HANDLER</p>
                     <p class="subtitle is-6">Office administrator</p>
                 </div>
                 </div>
