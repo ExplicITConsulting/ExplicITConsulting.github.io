@@ -1,8 +1,8 @@
 ---
 sitemap: false
 layout: page
-lang: de
-locale: de
+lang: en
+locale: en
 title: Our team
 subtitle: Dedicated to your success
 description: Get to know the people behind ExplicIT. Our collaborative team is dedicated to innovation, client satisfaction, and building lasting relationships.
