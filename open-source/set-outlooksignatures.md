@@ -54,6 +54,24 @@ redirect_from:
 <p><a href="https://set-outlooksignatures.com/benefactorcircle" target="_blank"><button class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: 
 linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">➔ Set-OutlookSignatures</button></a><p>
 
+<style>
+  html::after {
+    content: "";
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 33.3vw; /* Sets the width of the pseudo-element to 33.3% of the viewport width */
+    height: 50vh; /* Sets the height of the pseudo-element to 50% of the viewport height, acting as the max-height for the image */
+    background-image: url("/assets/images/visitenkarten-hochkant.png");
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-size: contain; /* Scales the background image to fit within the pseudo-element's dimensions (33.3vw x 50vh) while maintaining its aspect ratio. This ensures it's never taller than 50vh and respects the width preference. */
+    background-position: bottom right; /* Positions the background image at the bottom right corner of the pseudo-element */
+    pointer-events: none; /* Ensures the pseudo-element does not interfere with mouse events on content below it */
+    z-index: -1; /* Places the pseudo-element behind other content */
+    opacity: 0.5; /* Sets the transparency of the pseudo-element */
+  }
+</style>
+
 
 <h2>Sustainable added value for your business</h2>
 <p>The <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle add-on</span> from <a href="https://explicitconsulting.at">ExplicIT Consulting</a> enhances the free Set-OutlookSignatures with great additional possibilities for your company.</p>
@@ -319,6 +337,18 @@ linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, da
   </div>
 </div>
 
+<p>&nbsp;</p>
+
+<p>If you’d like to start with the basics and appreciate a down-to-earth approach, our demo video offers a compact overview of the key features of Set-OutlookSignatures – based on a real-world example, straightforward, practical, and without much staging.<br>You will see: Our focus is on the functionality and quality of our software, we're neither marketing professionals nor particularly gifted actors.<br>
+  <div class="columns">
+    <div class="column is-one-third-desktop is-half-tablet is-full-mobil">
+      <figure class="image is-16by9">
+        <iframe class="has-ratio" width="560" height="315" src="https://www.youtube-nocookie.com/embed/K9TrCjTdRUI" title="Set-OutlookSignatures Benefactor Circle demo video" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </figure>
+    </div>
+  </div>
+</p>
+
 <h2>Financial benefits</h2>
 <p>There are three relevant questions to calculate the business case:</p>
 <ul>
@@ -517,25 +547,6 @@ Benefactor Circle add-on</span>.</p>
 </ul>
 
 <p><a href="/help"><button class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: LimeGreen">➔ Help and Support-Center</button></a></p>
-
-
-<style>
-  html::after {
-    content: "";
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 33.3vw; /* Sets the width of the pseudo-element to 33.3% of the viewport width */
-    height: 50vh; /* Sets the height of the pseudo-element to 50% of the viewport height, acting as the max-height for the image */
-    background-image: url("/assets/images/visitenkarten-hochkant.png");
-    background-repeat: no-repeat; /* Prevents the background image from repeating */
-    background-size: contain; /* Scales the background image to fit within the pseudo-element's dimensions (33.3vw x 50vh) while maintaining its aspect ratio. This ensures it's never taller than 50vh and respects the width preference. */
-    background-position: bottom right; /* Positions the background image at the bottom right corner of the pseudo-element */
-    pointer-events: none; /* Ensures the pseudo-element does not interfere with mouse events on content below it */
-    z-index: -1; /* Places the pseudo-element behind other content */
-    opacity: 0.5; /* Sets the transparency of the pseudo-element */
-  }
-</style>
 
 
 <style>
