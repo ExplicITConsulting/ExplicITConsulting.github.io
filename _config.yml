@@ -10,7 +10,7 @@ languages                : ["en"]
 default_lang             : en
 direction                : ltr # left to right
 google_analytics         : # UA-xxxxxxx
-title                    : "ExplicIT Consulting"
+title                    : "ExplicIT"
 description              : "We bridge the gap between strategy and execution"
 url                      : "https://explicitconsulting.at" # the base hostname & protocol for your site
 site.url                 : "https://explicitconsulting.at" # the base hostname & protocol for your site
