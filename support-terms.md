@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Professional Support Terms<br>Bedingungen für professionellen Support
-subtitle: $nbsp;
+subtitle: &nbsp;
 description: 
 ---
 
