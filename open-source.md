@@ -14,8 +14,8 @@ redirect_from:
   <div class="column">
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
       <div class="content">
-        <h3>Fee-based support</h3>
-        <p>We offer fee-based support for select open-source software, such as for <a href="/open-source/export-recipientpermissions">Export-RecipientPermissions</a> and <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures</a>.</p>
+        <h3>Professional support</h3>
+        <p>We offer professional support for select open-source software, such as for <a href="/open-source/export-recipientpermissions">Export-RecipientPermissions</a> and <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures</a>.</p>
       </div>
     </div>
   </div>

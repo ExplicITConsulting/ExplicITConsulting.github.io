@@ -79,11 +79,16 @@ redirect_from:
 </div>
 
 ## What does ExplicIT Consulting offer on top?
-ExplicIT Consulting offers fee-based support for Export-RecipientPermissions: Consulting, implementation support, enhancing functionality, troubleshooting, and more.
+ExplicIT Consulting offers professional support for Export-RecipientPermissions: Consulting, implementation support, enhancing functionality, troubleshooting, and more.
 
-You are not buying just any support, but our comprehensive expertise as a manufacturer. For us, support means not only providing a solution to your problem, but also passing on our experience to you so that you know how and why. Our support is therefore an investment in your own knowledge and that of your employees, which pays off immediately.
+You are not just purchasing support, you are gaining access to our deep expertise as the **developer, implementer, and consultant**.  
 
-Our support promise: If your support request stems from a bug in the latest version of Export-RecipientPermissions or the provided components, support is free — no exceptions.  
+For us, support means not only delivering high-quality solutions quickly, but also sharing our knowledge so you understand the **how and why**.  
+
+This makes our support an **investment in your team’s expertise**, delivering immediate value.
+
+**Our support promise:** If your support request stems from a bug in the latest version of Export-RecipientPermissions or the provided components, support is **free — no exceptions**.  
+
 For all other issues, you will receive the same top-notch support at a fair price.
 
 <a href="/contact"><button class="button mtrcs-external-link is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Contact us for questions and a customized quote</button></a>

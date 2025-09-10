@@ -8,7 +8,7 @@ description:
 ## English
 
 ### Our Support Promise
-If your support request is due to a bug in the latest version of **Set-OutlookSignatures**, the **Benefactor Circle add-on**, its documentation, or the provided components, support is **free — no exceptions**.
+If your support request is due to a bug in the latest version of **Export-RecipientPermissions**, **Set-OutlookSignatures**, the **Benefactor Circle add-on**, its documentation, or the provided components, support is **free — no exceptions**.
 
 For all other issues, you will receive the same top-tier support at a fair price.
 
