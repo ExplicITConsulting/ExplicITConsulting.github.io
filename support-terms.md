@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Professional Support Terms<br>Bedingungen für professionellen Support
-subtitle: &nbsp;
-description: 
+subtitle: 
+description: Professional Support Terms. Bedingungen für professionellen Support.
 ---
 
 ## English
