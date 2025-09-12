@@ -16,25 +16,6 @@ image:
   height: 1200
   width: 630
   alt: "Set-OutlookSignatures Benefactor Circle"
-redirect_from:
-  - /set-outlooksignatures
-  - /setoutlooksignatures
-  - /outlooksignatures
-  - /opensource/set-outlooksignatures
-  - /opensource/set-outlooksignatures/
-  - /opensource/setoutlooksignatures
-  - /opensource/setoutlooksignatures/
-  - /opensource/benefactorcircle
-  - /opensource/benefactorcircle/
-  - /opensource/benefactor-circle
-  - /opensource/benefactor-circle/
-  - /open-source/setoutlooksignatures
-  - /open-source/setoutlooksignatures/
-  - /open-source/benefactorcircle
-  - /open-source/benefactorcircle/
-  - /open-source/benefactor-circle
-  - /open-source/benefactor-circle/
-  - /support-for-open-source/set-outlooksignatures-benefactor-circle
 ---
 
 

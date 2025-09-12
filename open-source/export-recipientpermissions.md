@@ -8,13 +8,6 @@ image:
   height: 1200
   width: 630
   alt: "Export-RecipientPermissions"
-redirect_from:
-  - /opensource/export-recipientpermisions
-  - /opensource/export-recipientpermissions/
-  - /opensource/exportrecipientpermisions
-  - /opensource/exportrecipientpermissions/
-  - /open-source/exportrecipientpermissions
-  - /open-source/exportrecipientpermissions/
 ---
 <div class="columns">
   <div class="column is-one-third">

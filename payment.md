@@ -3,9 +3,6 @@ layout: page
 title: Payment
 subtitle: Bank transfer and other methods of payment
 description: Bank transfer and other methods of payment
-redirect_from:
-  - /pay
-  - /payment/paynow
 ---
 
 <h2>Standard method of payment: Bank transfer</h2>
