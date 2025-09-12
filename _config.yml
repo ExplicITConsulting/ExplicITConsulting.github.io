@@ -68,6 +68,7 @@ defaults:
       hero_height: is-small
       hero_darken: true
       lang: en
+      locale: en
 
 include:
   - ".well-known"
