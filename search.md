@@ -74,15 +74,6 @@ description: Search and find. What are you looking for?
                 return;
             }
 
-            // Report the search to Matomo, including the search result count
-            if (typeof _paq !== 'undefined') {
-                _paq.push(['trackSiteSearch',
-                    query, // The search keyword
-                    false, // Search category (optional, set to false)
-                    false // The number of results shown to the user (optional, set to false)
-                ]);
-            }
-
             // Perform the search with advanced options
             const rawResults = index.search(query, {
                 limit: 99, // Limit the number of results
@@ -106,6 +97,15 @@ description: Search and find. What are you looking for?
 
         // Function to display search results
         function displayResults(results, query) {
+            // Report the search to Matomo, including the search result count
+            if (typeof _paq !== 'undefined') {
+                _paq.push(['trackSiteSearch',
+                    query, // The search keyword
+                    false, // Search category (optional, set to false)
+                    results.length // The number of results shown to the user (optional, set to false)
+                ]);
+            }
+
             if (results.length === 0) {
                 searchResultsContainer.innerHTML = '<p>No results found.</p>';
                 return;
