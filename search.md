@@ -10,7 +10,7 @@ description: Search and find. What are you looking for?
 <div id="search-results" class="content">
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/flexsearch@0.8/dist/flexsearch.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flexsearch@0.8.205/dist/flexsearch.bundle.min.js"></script>
 
 <script>
     (function() {
