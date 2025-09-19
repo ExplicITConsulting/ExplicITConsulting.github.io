@@ -82,6 +82,6 @@ This makes our support an **investment in your team’s expertise**, delivering 
 
 **Our support promise:** If your support request stems from a bug in the latest version of Export-RecipientPermissions or the provided components, support is **free — no exceptions**.  
 
-For all other issues, you will receive the same top-tier support at a fair price.
+For all other issues, you will receive the same first-class support at a fair price.
 
 <a href="/contact"><button class="button mtrcs-external-link is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Contact us for questions and a customized quote</button></a>

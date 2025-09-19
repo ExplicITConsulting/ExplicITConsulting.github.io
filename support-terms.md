@@ -10,7 +10,7 @@ description: Professional Support Terms. Bedingungen für professionellen Suppor
 ### Our Support Promise
 If your support request is due to a bug in the latest version of **Export-RecipientPermissions**, **Set-OutlookSignatures**, the **Benefactor Circle add-on**, its documentation, or the provided components, support is **free - no exceptions**.
 
-For all other issues, you will receive the same top-tier support at a fair price.
+For all other issues, you will receive the same first-class support at a fair price.
 
 ### Rates and Value
 Our hourly rate is **€210.00 net** for consulting and support services.  
