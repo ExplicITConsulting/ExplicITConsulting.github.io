@@ -36,7 +36,7 @@ image:
                 <div class="media">
                 <div class="media-content">
                     <p class="title is-4">Markus GRUBER</p>
-                    <p class="subtitle is-6">Managing director</p>
+                    <p class="subtitle is-6">Managing Director</p>
                 </div>
                 </div>
                 <div class="content">
@@ -59,7 +59,7 @@ image:
                 <div class="media">
                 <div class="media-content">
                     <p class="title is-4">Bettina SALLER</p>
-                    <p class="subtitle is-6">Support engineer</p>
+                    <p class="subtitle is-6">Support Engineer</p>
                 </div>
                 </div>
                 <div class="content">
@@ -82,7 +82,7 @@ image:
                 <div class="media">
                 <div class="media-content">
                     <p class="title is-4">Ingrid HANDLER</p>
-                    <p class="subtitle is-6">Office administrator</p>
+                    <p class="subtitle is-6">Office Administrator</p>
                 </div>
                 </div>
                 <div class="content">
@@ -104,8 +104,8 @@ image:
             <div class="card-content">
                 <div class="media">
                 <div class="media-content">
-                    <p class="title is-4">Specialised partners</p>
-                    <p class="subtitle is-6">Trusted experts</p>
+                    <p class="title is-4">Specialised Partners</p>
+                    <p class="subtitle is-6">Trusted Experts</p>
                 </div>
                 </div>
                 <div class="content">
