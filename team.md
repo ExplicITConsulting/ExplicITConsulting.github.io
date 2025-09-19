@@ -23,7 +23,7 @@ image:
 
 <div class="columns is-multiline">
     <div class="column is-one-quarter-desktop is-one-third-tablet is-half-tablet-mobile">
-        <div class="card">
+        <div class="card" style="display: flex; flex-direction: column;">
             <div class="card-image">
                 <figure class="image is-1by1">
                 <img
@@ -32,7 +32,7 @@ image:
                 />
                 </figure>
             </div>
-            <div class="card-content">
+            <div class="card-content" style="flex-grow: 1;">
                 <div class="media">
                 <div class="media-content">
                     <p class="title is-4">Markus GRUBER</p>
@@ -46,7 +46,7 @@ image:
         </div>
     </div>
     <div class="column is-one-quarter-desktop is-one-third-tablet is-half-tablet-mobile">
-        <div class="card is-one-third-desktop is-half-tablet is-full-mobile">
+        <div class="card is-one-third-desktop is-half-tablet is-full-mobile" style="display: flex; flex-direction: column;">
             <div class="card-image">
                 <figure class="image is-1by1">
                 <img
@@ -55,7 +55,7 @@ image:
                 />
                 </figure>
             </div>
-            <div class="card-content">
+            <div class="card-content" style="flex-grow: 1;">
                 <div class="media">
                 <div class="media-content">
                     <p class="title is-4">Bettina SALLER</p>
@@ -69,7 +69,7 @@ image:
         </div>
     </div>
     <div class="column is-one-quarter-desktop is-one-third-tablet is-half-tablet-mobile">
-        <div class="card is-one-third-desktop is-half-tablet is-full-mobile">
+        <div class="card is-one-third-desktop is-half-tablet is-full-mobile" style="display: flex; flex-direction: column;">
             <div class="card-image">
                 <figure class="image is-1by1">
                 <img
@@ -78,7 +78,7 @@ image:
                 />
                 </figure>
             </div>
-            <div class="card-content">
+            <div class="card-content" style="flex-grow: 1;">
                 <div class="media">
                 <div class="media-content">
                     <p class="title is-4">Ingrid HANDLER</p>
@@ -92,7 +92,7 @@ image:
         </div>
     </div>
     <div class="column is-one-quarter-desktop is-one-third-tablet is-half-tablet-mobile">
-        <div class="card is-one-third-desktop is-half-tablet is-full-mobile">
+        <div class="card is-one-third-desktop is-half-tablet is-full-mobile" style="display: flex; flex-direction: column;">
             <div class="card-image">
                 <figure class="image is-1by1">
                 <img
@@ -101,7 +101,7 @@ image:
                 />
                 </figure>
             </div>
-            <div class="card-content">
+            <div class="card-content" style="flex-grow: 1;">
                 <div class="media">
                 <div class="media-content">
                     <p class="title is-4">Specialised Partners</p>
