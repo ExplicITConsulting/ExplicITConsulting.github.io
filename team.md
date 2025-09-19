@@ -21,9 +21,9 @@ image:
 
 <p>&nbsp;</p>
 
-<div class="columns is-multiline">
+<div class="columns is-multiline is-flex is-align-items-stretch">
     <div class="column is-one-quarter-desktop is-one-third-tablet is-half-tablet-mobile">
-        <div class="card" style="display: flex; flex-direction: column;">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column;">
             <div class="card-image">
                 <figure class="image is-1by1">
                 <img
@@ -46,7 +46,7 @@ image:
         </div>
     </div>
     <div class="column is-one-quarter-desktop is-one-third-tablet is-half-tablet-mobile">
-        <div class="card is-one-third-desktop is-half-tablet is-full-mobile" style="display: flex; flex-direction: column;">
+        <div class="card is-one-third-desktop is-half-tablet is-full-mobile" style="height: 100%; display: flex; flex-direction: column;">
             <div class="card-image">
                 <figure class="image is-1by1">
                 <img
@@ -69,7 +69,7 @@ image:
         </div>
     </div>
     <div class="column is-one-quarter-desktop is-one-third-tablet is-half-tablet-mobile">
-        <div class="card is-one-third-desktop is-half-tablet is-full-mobile" style="display: flex; flex-direction: column;">
+        <div class="card is-one-third-desktop is-half-tablet is-full-mobile" style="height: 100%; display: flex; flex-direction: column;">
             <div class="card-image">
                 <figure class="image is-1by1">
                 <img
@@ -92,7 +92,7 @@ image:
         </div>
     </div>
     <div class="column is-one-quarter-desktop is-one-third-tablet is-half-tablet-mobile">
-        <div class="card is-one-third-desktop is-half-tablet is-full-mobile" style="display: flex; flex-direction: column;">
+        <div class="card is-one-third-desktop is-half-tablet is-full-mobile" style="height: 100%; display: flex; flex-direction: column;">
             <div class="card-image">
                 <figure class="image is-1by1">
                 <img
