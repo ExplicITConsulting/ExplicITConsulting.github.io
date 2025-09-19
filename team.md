@@ -86,8 +86,8 @@ image:
                 </div>
                 </div>
                 <div class="content">
-                    <p>Ingrid is our dedicated Office Administrator, expertly managing offers, invoices, and all aspects of internal administration.</p>
-                    <p>She also handles legal questions, ensuring smooth and efficient operations for our customers and ourselves.</p>
+                    <p>Ingrid is our dedicated Office Administrator, managing offers, invoices, and internal administration.</p>
+                    <p>She ensures smooth and efficient operations for our customers and ourselves.</p>
                 </div>
             </div>
         </div>
