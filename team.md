@@ -15,11 +15,9 @@ image:
 
 
 <h2>Driving innovation, delivering excellence</h2>
-<p>Every success story has a dedicated team behind it, and ours is no exception. At ExplicIT, we are proud of the talented individuals who embody our values and work tirelessly to bring our vision to life. Discover some of the people who are committed to innovation and excellence in everything we do.</p>
-
 <p>We help you to be successful on an individual, team and company level. Whether we do this in the background or for all to see: Trustworthiness and mediation between management levels, specialist departments and IT are always at the heart of our services.</p>
 
-<p>&nbsp;</p>
+<p>Every success story has a dedicated team behind it, and ours is no exception. At ExplicIT, we are proud of the talented individuals who embody our values and bring them to life. Discover some of the people who are committed to innovation and excellence in everything we do.</p>
 
 <div class="columns is-multiline is-flex is-align-items-stretch">
     <div class="column is-one-quarter-desktop is-one-third-tablet is-half-tablet-mobile">
