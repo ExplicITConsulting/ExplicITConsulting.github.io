@@ -40,7 +40,8 @@ image:
                 </div>
                 </div>
                 <div class="content">
-                    <p>Markus aligns IT and business strategy, providing expert consultancy and leading project portfolios. He is the original developer of Set-OutlookSignatures.</p>
+                    <p>Markus aligns IT and business strategy, providing expert consultancy and leading project portfolios.</p>
+                    <p>He is also the original developer of Set-OutlookSignatures and Export-RecipientPermissions.</p>
                 </div>
             </div>
         </div>
@@ -63,7 +64,8 @@ image:
                 </div>
                 </div>
                 <div class="content">
-                    <p>Bettina is our lead support engineer, heading our support for open-source and proprietary software. She plays a key role in the continued development of the Benefactor Circle add-on.</p>
+                    <p>Bettina is our lead support engineer, heading our support for open-source software and our own products.</p>
+                    <p>She plays a key role in the continued development of the Benefactor Circle add-on for Set-OutlookSignatures.</p>
                 </div>
             </div>
         </div>
@@ -86,7 +88,8 @@ image:
                 </div>
                 </div>
                 <div class="content">
-                    <p>Ingrid is our dedicated Office Administrator, expertly managing offers, invoices, and all aspects of internal administration. She also handles legal questions, ensuring smooth and efficient operations for the entire team.</p>
+                    <p>Ingrid is our dedicated Office Administrator, expertly managing offers, invoices, and all aspects of internal administration.</p>
+                    <p>She also handles legal questions, ensuring smooth and efficient operations for our customers and ourselves.</p>
                 </div>
             </div>
         </div>
@@ -104,12 +107,13 @@ image:
             <div class="card-content" style="flex-grow: 1;">
                 <div class="media">
                 <div class="media-content">
-                    <p class="title is-4">Specialised Partners</p>
+                    <p class="title is-4">Specialised PARTNERS</p>
                     <p class="subtitle is-6">Trusted Experts</p>
                 </div>
                 </div>
                 <div class="content">
-                    <p>Where we cannot help well enough ourselves, our specialised partners fill the gap. Our select group of consultants and partners have followed these principles for more than two decades, and will continue to do so in the future.</p>
+                    <p>Where we cannot help well enough ourselves, our specialised partners fill the gap.</p>
+                    <p>Our select group of consultants shares the same principles as we do, providing a seamless experience for our customers.</p>
                 </div>
             </div>
         </div>
