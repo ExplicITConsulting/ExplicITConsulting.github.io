@@ -78,15 +78,6 @@ Our select group of consultants and partners have followed these principles for 
         </ul>
       </div>
     </div>
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
-      <div class="content">
-        <h3>Auditing</h3>
-        <ul>
-          <li>Internal ISO 27001 audit</li>
-          <li>Prepare and host external audits of all kinds, especially according to ISO 27001</li>
-        </ul>
-      </div>
-    </div>
   </div>
 </div>
 
