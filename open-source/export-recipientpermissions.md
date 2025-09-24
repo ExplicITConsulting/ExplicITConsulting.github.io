@@ -19,8 +19,8 @@ image:
   </div>
 </div>
 
-<a href="https://github.com/GruberMarkus/export-recipientpermissions" target="_blank"><button class="button mtrcs-external-link is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Download Export-RecipientPermissions from GitHub for free</button></a>
-<a href="/contact"><button class="button mtrcs-external-link is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Contact us for questions and a customized quote</button></a>
+<a href="https://github.com/GruberMarkus/export-recipientpermissions" target="_blank" class="button mtrcs-external-link is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Download Export-RecipientPermissions from GitHub for free</a>
+<a href="/contact" class="button mtrcs-external-link is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Contact us for questions and a customized quote</a>
 
 ## Features
 <div class="columns">
@@ -84,4 +84,4 @@ This makes our support an **investment in your team’s expertise**, delivering 
 
 For all other issues, you will receive the same first-class support at a fair price.
 
-<a href="/contact"><button class="button mtrcs-external-link is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Contact us for questions and a customized quote</button></a>
+<a href="/contact" class="button mtrcs-external-link is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Contact us for questions and a customized quote</a>
