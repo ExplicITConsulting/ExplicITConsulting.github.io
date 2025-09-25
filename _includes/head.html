@@ -4,7 +4,24 @@
     <meta name="theme-color" content="{{ site.theme_color | default: '#ffffff' }}">
 
     <meta name="site-languages" content="{{ site.languages | join: ',' }}">
-    
+    <meta http-equiv="Content-Language" content="{{ site.active_lang }}">
+    {%- if site.active_lang == site.default_lang -%}
+        {%- assign canonicalUrl = page.url -%}
+    {%- else -%}
+        {%- assign canonicalUrl = '/' | append: site.active_lang | append: page.url -%}
+    {%- endif %}
+    <link rel="canonical" {% static_href %}href="{{ canonicalUrl | absolute_url }}"{% endstatic_href %}>
+    <link rel="alternate" hreflang="x-default" {% static_href %}href="{{ page.url | absolute_url }}"{% endstatic_href %}>
+    {%- for lang in site.languages -%}
+        {%- if lang == site.default_lang -%}
+            {%- assign hreflang_url = page.url | absolute_url -%}
+        {%- else -%}
+            {%- assign hreflang_url = '/' | append: lang | append: page.url | absolute_url -%}
+        {%- endif %}
+    <link rel="alternate" hreflang="{{ lang }}" {% static_href %}href="{{ hreflang_url }}"{% endstatic_href %}>
+    {%- endfor %}
+
+    <link rel="preload" href="{{ site.baseurl }}/assets/css/app.css" as="style">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
     <link
         rel="shortcut icon"
@@ -16,12 +33,25 @@
         {% endif %}
     >
 
+    <link rel="preconnect" href="https://unpkg.com">
     <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
-    
+
     {% unless site.hide_share_buttons %}
+        <link rel="preload" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css" as="style">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
     {% endunless %}
-    {% seo %}
+
+
+    {%- capture seo_raw -%}{% seo %}{%- endcapture -%}
+    {%- assign seo_lines = seo_raw | newline_to_br | split: '<br />' -%}
+
+    {%- for line in seo_lines -%}
+        {%- unless line contains '<link' and line contains ' rel="canonical"' %}
+            {{ line | strip }}
+        {%- endunless -%}
+    {%- endfor -%}
+
+
     {% if site.feed %}
         {% feed_meta %}
     {% endif %}

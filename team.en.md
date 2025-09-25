@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: page
 lang: en
 locale: en
@@ -11,6 +10,9 @@ image:
   height: 1200
   width: 630
   alt: "Set-OutlookSignatures Benefactor Circle"
+page_id: "team"
+permalink: /team/
+sitemap:false
 ---
 
 

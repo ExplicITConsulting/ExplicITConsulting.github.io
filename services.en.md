@@ -3,6 +3,8 @@ layout: page
 title: Which gap can we bridge for you?
 subtitle: We help you to be successful on an individual, team and company level
 description: We help you to be successful on an individual, team and company level
+page_id: "services"
+permalink: /services/
 ---
 ## What we stand for
 ExplicIT stands for specific, clear and detailed IT consulting.<br>Bold and future-oriented, always realistic and without steam talk.<br>We bridge gaps, with our heads in the sky and our feet on the ground.

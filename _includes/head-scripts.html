@@ -1,131 +1,4 @@
-{%- assign all_pages = site.pages -%}
-{%- for collection in site.collections -%}
-  {%- assign all_pages = all_pages | concat: collection.docs -%}
-{%- endfor -%}
-
-{%- comment -%} Add the self-referencing hreflang tag here {%- endcomment %}
-<link rel="alternate" hreflang="{{ page.lang }}" href="{{ site.url }}{{ page.url }}" />
-
-{%- for lang_code in site.languages -%}
-  {%- assign current_page_url = page.url -%}
-  {%- assign alt_url = nil -%}
-
-  {%- if page.lang == site.default_lang -%}
-    {%- assign alt_url = '/' | append: lang_code | append: current_page_url -%}
-  {%- elsif lang_code == site.default_lang -%}
-    {%- assign current_prefix = '/' | append: page.lang | append: '/' -%}
-    {%- assign alt_url = current_page_url | replace_first: current_prefix, '/' -%}
-  {%- else -%}
-    {%- assign current_prefix = '/' | append: page.lang | append: '/' -%}
-    {%- assign alt_prefix = '/' | append: lang_code | append: '/' -%}
-    {%- assign alt_url = current_page_url | replace_first: current_prefix, alt_prefix -%}
-  {%- endif -%}
-
-  {%- assign alt_page = all_pages | where: "url", alt_url | first -%}
-
-  {%- if alt_page and lang_code != page.lang %}
-<link rel="alternate" hreflang="{{ lang_code }}" href="{{ site.url }}{{ alt_page.url }}" />
-  {%- endif -%}
-{%- endfor -%}
-
-{%- if page.lang == site.default_lang %}
-<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}" />
-{%- else -%}
-  {%- assign current_prefix = '/' | append: page.lang | append: '/' -%}
-  {%- assign default_url = page.url | replace_first: current_prefix, '/' -%}
-  {%- assign default_page = all_pages | where: "url", default_url | first -%}
-  {%- if default_page %}
-<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ default_page.url }}" />
-  {%- endif -%}
-{%- endif -%}
-
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const links = document.querySelectorAll("a[href]");
-
-    const externalLinkSvg = `
-            <svg xmlns="http://www.w3.org/2000/svg" width="0.75em" height="0.75em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-              <polyline points="15 3 21 3 21 9"></polyline>
-              <line x1="10" y1="14" x2="21" y2="3"></line>
-            </svg>
-          `;
-
-    links.forEach(link => {
-      try {
-        const url = new URL(link.href, window.location.href);
-
-        if (url.hostname.toLowerCase() !== window.location.hostname.toLowerCase()) {
-          link.setAttribute("target", "_blank");
-        }
-
-        if ((link.getAttribute("target") || "").toLowerCase() === "_blank") {
-          let targetElement = link;
-          const buttonChild = link.querySelector('button');
-          if (buttonChild) {
-            targetElement = buttonChild;
-          }
-
-          if (!targetElement.querySelector("svg[data-external-link-icon]")) {
-            const parser = new DOMParser();
-            const svgDoc = parser.parseFromString(externalLinkSvg, "image/svg+xml");
-            const svgElement = svgDoc.documentElement;
-
-            // Set attributes for styling or identification directly on the SVG element
-            //svgElement.style.verticalAlign = "middle";
-            svgElement.setAttribute("data-external-link-icon", "true"); // For easy selection later
-
-            // Create a text node for the non-breaking space
-            const nbspNode = document.createTextNode('\u00A0'); // Unicode for &nbsp;
-
-            targetElement.appendChild(nbspNode);
-            targetElement.appendChild(svgElement);
-          }
-        }
-      } catch (e) {
-        // Invalid URL, skip
-      }
-    });
-  });
-</script>
-
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const headings = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
-
-    headings.forEach(function (heading) {
-      // Check if the heading already has an ID, which should be the case
-      // after the Jekyll plugin runs.
-      if (heading.id) {
-        const anchor = document.createElement("a");
-        anchor.href = `#${heading.id}`;
-        anchor.className = "anchor-link";
-        anchor.innerHTML = "🔗"; // Or use an SVG for better styling
-
-        // Insert the anchor link as the first child of the heading
-        heading.insertBefore(anchor, heading.firstChild);
-      }
-    });
-  });
-</script>
-
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('p + ul, p + ol').forEach(list => {
-      const prev = list.previousElementSibling;
-      if (prev && prev.tagName === 'P') {
-        prev.style.marginBottom = '0';
-        list.style.marginTop = '0';
-      }
-    });
-  });
-</script>
-
-
-<!-- Start mtrcs code -->
+<!-- mtrcs js code -->
 <script>
   var _paq = window._paq = window._paq || [];
   _paq.push(["setRequestMethod", "POST"]);
@@ -134,25 +7,333 @@
   _paq.push(["disableAlwaysUseSendBeacon"]);
   _paq.push(["disableQueueRequest"]);
   _paq.push(["setDocumentTitle", document.domain + ": " + document.title]);
-  _paq.push(["setCookieDomain", "*.explicitconsulting.at"]);
-  _paq.push(["setDomains", ["*.explicitconsulting.at"]]);
+  _paq.push(["setCookieDomain", "*.set-outlooksignatures.com"]);
+  _paq.push(["setDomains", ["*.set-outlooksignatures.com"]]);
   _paq.push(['enableHeartBeatTimer']);
-  _paq.push(['setLinkClasses', "mtrcs-external-link"]);
+  _paq.push(['setLinkClasses', ["mtrcs-external-link", "mtrcs-internal-link"]]);
+  _paq.push(['setDownloadClasses', ["mtrcs-download"]]);
   _paq.push(['trackPageView']);
-  _paq.push(['trackVisibleContentImpressions']);
+  _paq.push(['trackVisibleContentImpressions', true]);
   _paq.push(['enableLinkTracking']);
 
-  (function () {
-    var u = "//mtrcs.explicitconsulting.at/";
-    _paq.push(["setTrackerUrl", u + "poop.php"]);
-    _paq.push(["setSiteId", "2"]);
-    var d = document, g = d.createElement("script"), s = d.getElementsByTagName("script")[0];
-    g.type = "text/javascript"; g.async = true; g.defer = true; g.src = u + "poop.js"; s.parentNode.insertBefore(g, s);
-  })();
+
+  (
+    function () {
+      var u = "//mtrcs.set-outlooksignatures.com/";
+      _paq.push(["setTrackerUrl", u + "poop.php"]);
+      _paq.push(["setSiteId", "1"]);
+      var d = document;
+      g = d.createElement("script");
+      s = d.getElementsByTagName("script")[0];
+      g.type = "text/javascript";
+      g.async = true;
+      g.defer = true;
+      g.src = u + "poop.js";
+      s.parentNode.insertBefore(g, s);
+    }
+  )();
 </script>
 
+
+<!-- mtrcs no js code -->
 <noscript>
-  <p><img referrerpolicy="no-referrer-when-downgrade"
-      src="//mtrcs.explicitconsulting.at/poop.php?idsite=2&amp;bots=1&amp;rec=1&amp;action_name=page_view&amp;url={{ site.url }}{{ page.url | relative_url }}&amp;rand={{ "now" | date: "%s" }}&amp;apiv=1" style="border:0;" alt="" /></p>
+  <p>
+    <img referrerpolicy="no-referrer-when-downgrade"
+      src='//mtrcs.set-outlooksignatures.com/poop.php?idsite=1&amp;bots=1&amp;rec=1&amp;action_name=page_view&amp;url={{ site.url }}{{ page.url | relative_url }}&amp;rand={{ "now" | date: "%s" }}&amp;apiv=1'
+      style="border:0;" alt="" />
+  </p>
 </noscript>
-<!-- End mtrcs code -->
+
+
+<!-- mtrcs youtube code -->
+<script>
+  document.addEventListener('DOMContentLoaded', async () => {
+    const playerElement = document.getElementById('youtube-video-player');
+    if (playerElement) {
+      // Define the onYouTubeIframeAPIReady function before loading the script.
+      // The YouTube API will call this function automatically once it's loaded.
+      window.onYouTubeIframeAPIReady = () => {
+        // Create a new YT.Player object for the iframe with id="youtube-video-player"
+        window.player = new YT.Player('youtube-video-player', {
+          events: {
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      };
+
+      // This function is called by the YouTube API whenever the player's state changes.
+      function onPlayerStateChange(event) {
+        const videoTitle = "Set-OutlookSignatures Demo"; // Customize this
+        const currentTime = window.player.getCurrentTime();
+
+        if (event.data === YT.PlayerState.PLAYING) {
+          // Track when the video starts playing
+          _paq.push(['trackEvent', 'Video', 'Play', videoTitle, Math.round(currentTime)]);
+        } else if (event.data === YT.PlayerState.PAUSED) {
+          // Track when the video is paused
+          _paq.push(['trackEvent', 'Video', 'Pause', videoTitle, Math.round(currentTime)]);
+        } else if (event.data === YT.PlayerState.ENDED) {
+          // Track when the video ends
+          _paq.push(['trackEvent', 'Video', 'Ended', videoTitle, Math.round(currentTime)]);
+        }
+      }
+
+      // Dynamically create and append the script tag to the body.
+      // This is the key step that loads the script only when needed.
+      const script = document.createElement('script');
+      script.src = 'https://www.youtube.com/iframe_api';
+      document.body.appendChild(script);
+    }
+  });
+</script>
+
+
+<!-- Add html hash to language switcher links -->
+<script>
+  document.addEventListener('DOMContentLoaded', async () => {
+    // Define a function to handle the link updates
+    const updateLanguageLinks = () => {
+      const currentHash = window.location.hash;
+      const languageLinks = document.querySelectorAll('a[data-base-url]');
+
+      languageLinks.forEach(link => {
+        const baseHref = link.getAttribute('data-base-url');
+        link.href = baseHref + currentHash;
+      });
+    };
+
+    // Initial call when the DOM is ready
+    updateLanguageLinks();
+
+    // Listen for hash changes and update the links again
+    window.addEventListener('hashchange', updateLanguageLinks);
+  });
+</script>
+
+
+<!-- Code for delete button in notifications -->
+<script>
+  document.addEventListener('DOMContentLoaded', async () => {
+    (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
+      const $notification = $delete.parentNode;
+
+      $delete.addEventListener('click', () => {
+        $notification.parentNode.removeChild($notification);
+      });
+    });
+  });
+</script>
+
+
+<!-- Button animation -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const buttons = document.querySelectorAll('.button');
+    const animationDuration = 1000;
+    const totalCycle = 5000;
+    const staggerDelay = 1000;
+
+    // Set the start time for the entire animation sequence
+    const startTime = Date.now();
+
+    // This array stores the absolute time in milliseconds when each button should animate next.
+    const nextAnimationTimes = Array.from(buttons).map((_, index) => {
+      return startTime + (index * staggerDelay);
+    });
+
+    const animateButtons = () => {
+      const now = Date.now();
+      let nextTimeoutTime = Infinity;
+
+      buttons.forEach((button, index) => {
+        const nextTime = nextAnimationTimes[index];
+
+        if (now >= nextTime) {
+          button.classList.add('animated-now');
+
+          // This setTimeout is only created when an animation is triggered
+          setTimeout(() => {
+            button.classList.remove('animated-now');
+          }, animationDuration);
+
+          // Update the next animation time for this button
+          nextAnimationTimes[index] += totalCycle;
+        }
+
+        // Find the time until the *next* earliest animation needs to happen
+        const timeUntilNext = nextAnimationTimes[index] - now;
+        if (timeUntilNext < nextTimeoutTime) {
+          nextTimeoutTime = timeUntilNext;
+        }
+      });
+
+      // Use a single, self-calling setTimeout to manage the next check.
+      // We ensure a minimum delay of 100ms to prevent the browser from becoming unresponsive.
+      const delay = Math.max(100, nextTimeoutTime);
+      setTimeout(animateButtons, delay);
+    };
+
+    // Start the animation loop
+    animateButtons();
+  });
+</script>
+
+
+<!-- Scrolling customer images banner -->
+<script>
+  document.addEventListener('DOMContentLoaded', async () => {
+    const track = document.querySelector('.scrolling-track');
+    const banner = document.querySelector('.scrolling-banner');
+
+    if (!track || !banner) {
+      console.warn('Scrolling track or banner element not found. Please ensure the HTML structure is correct.');
+      return;
+    }
+
+    try {
+      const response = await fetch('https://set-outlooksignatures.com/customer-images.txt');
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const text = await response.text();
+      let urls = text.split('\n').map(line => line.trim()).filter(Boolean);
+
+      urls = [...new Set(urls)];
+
+      if (urls.length === 0) {
+        console.warn('No image URLs found. Banner will not display images.');
+        return;
+      }
+
+      for (let i = urls.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [urls[i], urls[j]] = [urls[j], urls[i]];
+      }
+
+      const originalShuffledUniqueUrls = [...urls];
+      const finalUrlsForDOM = [...originalShuffledUniqueUrls, ...originalShuffledUniqueUrls, ...originalShuffledUniqueUrls];
+
+      track.innerHTML = '';
+      const imagePromises = finalUrlsForDOM.map(url => {
+        return new Promise((resolve) => {
+          const img = new Image();
+          img.src = url;
+          img.alt = `https://${url.split('/').pop()?.split('.').slice(0, -1).join('.')}` || 'Customer Logo';
+
+          img.onload = () => resolve({ img, loaded: true });
+          img.onerror = () => {
+            console.error(`Failed to load image: ${url}`);
+            resolve({ img: null, loaded: false });
+          };
+
+          if (img.complete) {
+            if (img.naturalHeight > 0) {
+              resolve({ img, loaded: true });
+            } else {
+              resolve({ img: null, loaded: false });
+            }
+          }
+        });
+      });
+
+      const loadedImageResults = await Promise.all(imagePromises);
+      const imageElements = loadedImageResults.map(result => result.img).filter(img => img !== null);
+
+      if (imageElements.length === 0) {
+        console.warn('All images failed to load. Disabling animation.');
+        return;
+      }
+
+      imageElements.forEach(img => track.appendChild(img));
+
+      requestAnimationFrame(() => {
+        const bannerWidth = banner.clientWidth;
+        const computedStyle = getComputedStyle(track);
+        const gapSize = parseFloat(computedStyle.gap) || 0;
+
+        let scrollDistance = 0;
+        for (let i = 0; i < originalShuffledUniqueUrls.length; i++) {
+          const img = track.children[i];
+          if (img) {
+            scrollDistance += img.offsetWidth;
+            if (i < originalShuffledUniqueUrls.length - 1) {
+              scrollDistance += gapSize;
+            }
+          }
+        }
+
+        if (scrollDistance <= 0 || track.scrollWidth <= bannerWidth + 1) {
+          console.warn('Content is not wide enough to scroll. Disabling animation.');
+          track.style.animation = 'none';
+          return;
+        }
+
+        const pixelsPerSecond = 50;
+        const animationDuration = scrollDistance / pixelsPerSecond;
+        const animationName = 'scroll-full-track-dynamic-' + Date.now();
+
+        let styleSheet = document.getElementById('dynamic-scroll-animation-style');
+        if (!styleSheet) {
+          styleSheet = document.createElement('style');
+          styleSheet.id = 'dynamic-scroll-animation-style';
+          document.head.appendChild(styleSheet);
+        } else {
+          while (styleSheet.sheet && styleSheet.sheet.cssRules.length > 0) {
+            styleSheet.sheet.deleteRule(0);
+          }
+        }
+
+        const keyframesRule = `
+          @keyframes ${animationName} {
+            from { transform: translateX(0); }
+            to { transform: translateX(${-scrollDistance}px); }
+          }
+        `;
+        styleSheet.sheet.insertRule(keyframesRule, styleSheet.sheet.cssRules.length);
+
+        track.style.animation = `${animationName} ${animationDuration}s linear infinite`;
+        track.style.animationPlayState = 'running';
+      });
+
+    } catch (error) {
+      console.error('Failed to fetch or process image URLs:', error);
+    }
+  });
+</script>
+
+
+<!-- Update download links to latest release of Set-OutlookSignatures -->
+<script>
+  async function updateDownloadLink() {
+    const owner = 'Set-OutlookSignatures';
+    const repo = 'Set-OutlookSignatures';
+    const repoURL = `https://api.github.com/repos/${owner}/${repo}/releases/latest`;
+
+    try {
+      const response = await fetch(repoURL);
+      if (!response.ok) {
+        throw new Error(`GitHub API request failed with status: ${response.status}`);
+      }
+
+      const data = await response.json();
+      const firstAsset = data.assets[0];
+
+      if (firstAsset && firstAsset.browser_download_url) {
+        const downloadLinks = document.querySelectorAll('.sos-download-link');
+        if (downloadLinks.length > 0) {
+          downloadLinks.forEach(link => {
+            link.href = firstAsset.browser_download_url;
+          });
+        } else {
+          // console.warn('No elements with class "sos-download-link" found.');
+        }
+      } else {
+        console.error('No assets found for the latest release.');
+      }
+    } catch (error) {
+      console.error('Error fetching latest release:', error);
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', updateDownloadLink);
+</script>

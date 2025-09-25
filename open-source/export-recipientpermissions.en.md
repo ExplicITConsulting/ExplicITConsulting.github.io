@@ -8,6 +8,8 @@ image:
   height: 1200
   width: 630
   alt: "Export-RecipientPermissions"
+page_id: "export-recipientpermissions"
+permalink: /open-source/export-recipientpermissions/
 ---
 <div class="columns">
   <div class="column is-one-third">

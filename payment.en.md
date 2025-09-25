@@ -3,6 +3,8 @@ layout: page
 title: Payment
 subtitle: Bank transfer and other methods of payment
 description: Bank transfer and other methods of payment
+page_id: "payment"
+permalink: /payment/
 ---
 
 <h2>Standard method of payment: Bank transfer</h2>

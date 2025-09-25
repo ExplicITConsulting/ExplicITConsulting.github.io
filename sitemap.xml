@@ -2,128 +2,70 @@
 layout: none
 sitemap: false
 ---
+
+{%- comment -%} Create a prioritized language list {%- endcomment -%}
+{%- assign default_lang = site.default_lang | default: site.languages.first -%}
+{%- assign sorted_langs = site.languages -%}
+{%- if default_lang -%}
+  {%- assign sorted_langs = sorted_langs | unshift: default_lang | uniq -%}
+{%- endif -%}
+
+
+
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xhtml="http://www.w3.org/1999/xhtml"
->
-    {%- for post in site.posts -%}
-        {%- if post.sitemap != false -%}
-            {%- assign last_mod = post.last_modified_at | default: post.date | default: site.time %}
-        <url>
-            <loc>{{ post.url | absolute_url }}</loc>
-            <lastmod>{{ last_mod | date_to_xmlschema }}</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>1.0</priority>
-            {%- assign page_path_without_lang = post.url -%}
-            {%- comment -%} Remove language prefixes to get a consistent base path {%- endcomment -%}
-            {%- for lang_code in site.languages -%}
-                {%- if lang_code != site.default_lang -%}
-                    {%- assign prefix_with_slash = "/" | append: lang_code | append: "/" -%}
-                    {%- if page_path_without_lang contains prefix_with_slash -%}
-                        {%- assign page_path_without_lang = page_path_without_lang | remove_first: prefix_with_slash | prepend: "/" -%}
-                        {%- break -%}
-                    {%- endif -%}
-                {%- endif -%}
-            {%- endfor -%}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-            {%- for lang_code in site.languages -%}
-                {%- comment -%} Check if the localized version of the post exists {%- endcomment -%}
-                {%- assign localized_url_path = "" -%}
-                {%- if lang_code == site.default_lang -%}
-                    {%- assign localized_url_path = page_path_without_lang -%}
-                {%- else -%}
-                    {%- assign localized_url_path = "/" | append: lang_code | append: page_path_without_lang -%}
-                {%- endif -%}
+{%- assign pagesAndPosts = site.pages | concat: site.posts -%}
 
-                {%- assign found_localized_post = false -%}
-                {%- for p in site.posts -%}
-                    {%- if p.url == localized_url_path -%}
-                        {%- assign found_localized_post = true -%}
-                        {%- break -%}
-                    {%- endif -%}
-                {%- endfor -%}
+{%- for node in pagesAndPosts -%}
+  {%- comment -%} Filter stuff that should not be in the sitemap {%- endcomment -%}
+  {%- unless node.sitemap == false or node.url contains '/robots.txt' or node.url contains '/redirects.json' or node.url contains '/assets/' or node.url contains '/404' -%}
 
-                {%- if found_localized_post %}
-        <xhtml:link
-            rel="alternate"
-            hreflang="{{ lang_code }}"
-            href="{{ site.url | append: localized_url_path | absolute_url }}"
-        />
-                {%- endif -%}
-            {%- endfor %}
-
-            {%- comment -%} Add x-default link for posts {%- endcomment -%}
-            {%- assign default_lang_url_path = page_path_without_lang %}
-        <xhtml:link
-            rel="alternate"
-            hreflang="x-default"
-            href="{{ site.url | append: default_lang_url_path | absolute_url }}"
-        />
-    </url>
+    {%- comment -%} Get the URL to be used for x-default based on the prioritized language list {%- endcomment -%}
+    {%- assign xDefaultUrl = "" -%}
+    {%- for languageCode in sorted_langs -%}
+      {%- if node.permalink_lang[languageCode] -%}
+        {%- if xDefaultUrl == "" -%}
+          {%- if languageCode == default_lang -%}
+            {%- assign xDefaultUrl = node.permalink_lang[languageCode] | absolute_url -%}
+          {%- else -%}
+            {%- assign languagePrefix = "/" | append: languageCode | append: node.permalink_lang[languageCode] | absolute_url -%}
+          {%- endif -%}
         {%- endif -%}
+      {%- endif -%}
     {%- endfor -%}
 
-    {%- for page in site.pages -%}
-        {%- unless
-            page.sitemap == false or
-            page.url == '/redirects.json' or
-            page.url == '/robots.txt' or
-            page.url == '/assets/css/app.css'
-        -%}
-            {%- assign last_mod = page.last_modified_at | default: page.date | default: site.time %}
-    <url>
-        <loc>{{ page.url | absolute_url }}</loc>
-        <lastmod>{{ last_mod | date_to_xmlschema }}</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-            {%- assign base_url_for_hreflang = page.url -%}
-            {%- for lang_code in site.languages -%}
-                {%- if lang_code != site.default_lang -%}
-                    {%- assign prefix_with_slash = "/" | append: lang_code | append: "/" -%}
-                    {%- if base_url_for_hreflang contains prefix_with_slash -%}
-                        {%- assign base_url_for_hreflang = base_url_for_hreflang | remove_first: prefix_with_slash | prepend: "/" -%}
-                        {%- break -%}
-                    {%- endif -%}
-                {%- endif -%}
-            {%- endfor -%}
 
-            {%- for lang_code in site.languages -%}
-                {%- comment -%} Check if the localized version of the page exists {%- endcomment -%}
-                {%- assign localized_url_path = "" -%}
-                {%- if lang_code == site.default_lang -%}
-                    {%- assign localized_url_path = base_url_for_hreflang -%}
-                {%- else -%}
-                    {%- assign localized_url_path = "/" | append: lang_code | append: base_url_for_hreflang -%}
-                {%- endif -%}
+    {%- comment -%} Create a url entry for each language specific permalink of the node {%- endcomment -%}
+    {%- for languageCode in sorted_langs -%}
+      {%- if languageCode == default_lang -%}
+        {%- assign languagePrefix = "" -%}
+      {%- else -%}
+        {%- assign languagePrefix = "/" | append: languageCode -%}
+      {%- endif -%}
 
-                {%- assign found_localized_page = false -%}
-                {%- for p in site.pages -%}
-                    {%- if p.url == localized_url_path -%}
-                        {%- assign found_localized_page = true -%}
-                        {%- break -%}
-                    {%- endif -%}
-                {%- endfor -%}
+      {%- if node.permalink_lang[languageCode] %}
+  <url>
+    <loc>{{ languagePrefix | append: node.permalink_lang[languageCode] | absolute_url }}</loc>
+    <lastmod>{{ node.last_modified_at | default: node.date | default: site.time | date_to_xmlschema }}</lastmod>
 
-                {%- if found_localized_page %}
-        <xhtml:link
-            rel="alternate"
-            hreflang="{{ lang_code }}"
-            href="{{ site.url | append: localized_url_path | absolute_url }}"
-        />
-                {%- endif -%}
-            {%- endfor %}
+        {%- if xDefaultUrl != "" %}
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ xDefaultUrl }}" />
+        {%- endif -%}
 
-            {%- comment -%} Add x-default link for pages {%- endcomment -%}
-            {%- assign default_lang_url_path = base_url_for_hreflang %}
-        <xhtml:link
-            rel="alternate"
-            hreflang="x-default"
-            href="{{ site.url | append: default_lang_url_path | absolute_url }}"
-        />
-    </url>
-        {%- endunless -%}
-    {%- endfor %}
+        {%- for languageCode in sorted_langs -%}
+          {%- if node.permalink_lang[languageCode] -%}
+            {%- if languageCode == default_lang -%}
+              {%- assign languagePrefix = "" -%}
+            {%- else -%}
+              {%- assign languagePrefix = "/" | append: languageCode -%}
+            {%- endif %}
+    <xhtml:link rel="alternate" hreflang="{{ languageCode }}" href="{{ languagePrefix | append: node.permalink_lang[languageCode] | absolute_url }}" />
+          {%- endif -%}
+        {%- endfor %}
+  </url>
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endunless -%}
+{%- endfor %}
 </urlset>

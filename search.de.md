@@ -1,33 +1,35 @@
 ---
 layout: page
-lang: en
-locale: en
-title: What are you looking for?
-subtitle: Find it here
-description: What are you looking for? Find it here.
+lang: de
+locale: de
+title: Wonach suchen Sie?
+subtitle: Finden Sie es hier
+description: Wonach suchen Sie? Finden Sie es hier.
 page_id: "search"
+permalink: /search/
 ---
-
 <div class="field has-addons">
     <div class="control is-expanded">
-        <input type="search" id="search-input" placeholder="Type to search" class="input is-large">
+        <input type="search" id="search-input" placeholder="{{ site.data[site.active_lang].strings.search_search-input_placeholder_ready }}" class="input is-large">
     </div>
 </div>
 
 <div id="search-results" class="content">
 </div>
 
-<script src="https://cdn.jsdelivr.net/gh/nextapps-de/flexsearch@0.8/dist/flexsearch.bundle.min.js"></script>
 
 <script>
     (function() {
+        const flexsearchBaseUrl = "https://cdn.jsdelivr.net/gh/nextapps-de/flexsearch@0.8/dist/flexsearch.bundle.min.js";
+        const languagePackBaseUrl = "https://cdn.jsdelivr.net/gh/nextapps-de/flexsearch@0.8/dist/lang/";
+
         const allSearchFields = ["document", "section", "content", "url", "date", "category", "tags"];
 
         const searchInput = document.getElementById('search-input');
         const searchResultsContainer = document.getElementById('search-results');
 
         // Set initial placeholder and disable the input
-        searchInput.placeholder = "Loading data…";
+        searchInput.placeholder = "{{ site.data[site.active_lang].strings.search_search-input_placeholder_loading }}";
         searchInput.disabled = true;
 
         const indexes = {};
@@ -37,11 +39,9 @@ page_id: "search"
         const languages = {};
 
         if (languagesMeta) {
-            const languageCodes = languagesMeta.content.split(',');
-
+            const languageCodes = languagesMeta.content.toLowerCase().split(',');
             languageCodes.forEach(code => {
                 const trimmedCode = code.trim();
-
                 // Check for the English language code
                 if (trimmedCode === 'en') {
                     languages[trimmedCode] = '/search.json';
@@ -51,9 +51,9 @@ page_id: "search"
             });
         }
 
-        const currentLang = document.documentElement.lang || languageCodes[0] || 'en';
+        const currentLang = document.documentElement.lang || Object.keys(languages)[0] || 'en';
 
-        function createIndex(lang) {
+        function createIndex(lang, languagePack) {
             return new FlexSearch.Document({
                 document: {
                     id: "url",
@@ -61,15 +61,12 @@ page_id: "search"
                     store: allSearchFields
                 },
                 tokenize: "full",
-                encoder: FlexSearch.Charset.LatinSoundex,
+                encoder: languagePack || FlexSearch.Charset.LatinSoundex,
                 cache: true,
                 context: true,
                 lang: lang
             });
         }
-
-        let filesToLoad = Object.keys(languages).map(lang => languages[lang]);
-        let filesLoaded = 0;
 
         // Debounce function specifically for the _paq tracking
         function debounce(func, delay) {
@@ -90,53 +87,79 @@ page_id: "search"
             }
         }, 2000); // 2000ms delay for _paq
 
-        function checkIfReady() {
-            filesLoaded++;
-            if (filesLoaded === filesToLoad.length) {
-                searchInput.placeholder = "Type to search";
-                searchInput.disabled = false;
+        async function loadScript(url) {
+            return new Promise((resolve, reject) => {
+                const script = document.createElement('script');
+                script.src = url;
+                script.onload = () => resolve();
+                script.onerror = () => reject(new Error(`Failed to load script: ${url}`));
+                document.head.appendChild(script);
+            });
+        }
 
-                // Attach the event listener to trigger both actions
-                searchInput.addEventListener('input', () => {
-                    const query = searchInput.value.trim();
-                    if (query.length > 0) {
-                        performSearch(); // Immediate search
-                        debouncedTrackSearch(); // Debounced _paq call
-                    } else {
-                        // Clear results if the input is empty
-                        searchResultsContainer.innerHTML = '';
+        async function initializeSearch() {
+            try {
+                // 1. Load the main FlexSearch library.
+                await loadScript(flexsearchBaseUrl);
+
+                // 2. Loop through language codes to load language packs and search.json.
+                for (const lang of Object.keys(languages)) {
+                    try {
+                        let languagePack = null;
+
+                        // Await the script load before accessing FlexSearch.lang.
+                        await loadScript(`${languagePackBaseUrl}${lang}.min.js`);
+                        languagePack = FlexSearch.Language[lang] || FlexSearch.Charset.LatinSoundex;
+
+                        const response = await fetch(languages[lang]);
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        }
+                        const data = await response.json();
+
+                        const index = createIndex(lang, languagePack);
+                        data.forEach(item => {
+                            if (item.url) {
+                                index.add(item);
+                            } else {
+                                console.warn(`Item missing URL in ${languages[lang]}, skipping for FlexSearch index:`, item);
+                            }
+                        });
+                        indexes[lang] = index;
+                    } catch (error) {
+                        console.error(`Error loading data for language "${lang}":`, error);
+                        delete languages[lang];
                     }
-                });
+                }
+
+                if (Object.keys(indexes).length > 0) {
+                    searchInput.placeholder = "{{ site.data[site.active_lang].strings.search_search-input_placeholder_ready }}";
+                    searchInput.disabled = false;
+                    searchInput.addEventListener('input', () => {
+                        const query = searchInput.value.trim();
+
+                        if (query.length > 0) {
+                            performSearch();
+                        } else {
+                            searchResultsContainer.innerHTML = '';
+                        }
+
+                        debouncedTrackSearch();
+                    });
+                } else {
+                    searchInput.placeholder = "{{ site.data[site.active_lang].strings.search_search-input_placeholder_error }}";
+                    searchInput.disabled = true;
+                    searchResultsContainer.innerHTML = '<p>Error loading search data. Please check your network connection and reload the page.</p>';
+                }
+            } catch (error) {
+                console.error('Initialization failed:', error);
+                searchInput.placeholder = "{{ site.data[site.active_lang].strings.search_search-input_placeholder_error }}";
+                searchInput.disabled = true;
+                searchResultsContainer.innerHTML = '<p>Search functionality failed to load. Please try again later.</p>';
             }
         }
 
-        Object.keys(languages).forEach(lang => {
-            const url = languages[lang];
-            indexes[lang] = createIndex(lang);
-
-            fetch(url)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`HTTP error! status: ${response.status}`);
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    data.forEach(item => {
-                        if (item.url) {
-                            indexes[lang].add(item);
-                        } else {
-                            console.warn(`Item missing URL in ${url}, skipping for FlexSearch index:`, item);
-                        }
-                    });
-                    checkIfReady();
-                })
-                .catch(error => {
-                    console.error(`Error fetching or parsing ${url}:`, error);
-                    searchResultsContainer.innerHTML = '<p>Error loading search data. Some results may be missing. You can still search, but not all data might be available. Please try reloading the page.</p>';
-                    checkIfReady();
-                });
-        });
+        initializeSearch();
 
         function performSearch() {
             const query = searchInput.value.trim();
@@ -145,8 +168,7 @@ page_id: "search"
                 return;
             }
             if (typeof query !== 'string' || query.length === 0) {
-                console.warn("Invalid search query received (not a non-empty string):", query);
-                searchResultsContainer.innerHTML = '<p>Please enter a valid search term.</p>';
+                searchResultsContainer.innerHTML = '<p>{{ site.data[site.active_lang].strings.search_resultsContainer_placeholder_queryEmpty }}</p>';
                 return;
             }
 
@@ -168,7 +190,6 @@ page_id: "search"
             const currentLangIndex = indexes[currentLang];
             if (currentLangIndex) {
                 const rawResults = currentLangIndex.search(query, searchOptions);
-
                 rawResults.forEach(fieldResult => {
                     if (fieldResult && fieldResult.result) {
                         fieldResult.result.forEach(r => {
@@ -216,7 +237,7 @@ page_id: "search"
             });
 
             if (uniqueResults.length === 0) {
-                searchResultsContainer.innerHTML = '<p>No results found.</p>';
+                searchResultsContainer.innerHTML = '<p>{{ site.data[site.active_lang].string.search_resultsContainer_placeholder_queryNoResults }}</p>';
                 return;
             }
 

@@ -3,6 +3,8 @@ layout: page
 title: Let's get and stay in contact
 subtitle: Email, request a call-back, postal address
 description: Email, request a call-back, postal address
+page_id: "contact"
+permalink: /contact/
 ---
 
 <h2>Send us an email</h2>

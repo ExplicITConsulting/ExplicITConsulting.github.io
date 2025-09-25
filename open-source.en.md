@@ -3,6 +3,8 @@ layout: page
 title: Support for Open-Source Software
 subtitle: Adding professional services on top
 description: Adding professional services on top
+page_id: "open-source"
+permalink: /open-source/
 ---
 ## ExplicIT enhances open-source software
 <a href="/contact" class="button mtrcs-external-link is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Contact us for questions and a customized quote</a>

@@ -3,6 +3,8 @@ layout: page
 title: Professional Support Terms<br>Bedingungen für professionellen Support
 subtitle: 
 description: Professional Support Terms. Bedingungen für professionellen Support.
+page_id: "support-terms"
+permalink: /support-terms/
 ---
 
 ## English
