@@ -7,7 +7,7 @@ page_id: "open-source"
 permalink: /open-source/
 ---
 ## ExplicIT enhances open-source software
-<a href="/contact" class="button mtrcs-external-link is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Contact us for questions and a customized quote</a>
+<a href="/contact" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Contact us for questions and a customized quote</a>
 
 <div class="columns">
   <div class="column">
