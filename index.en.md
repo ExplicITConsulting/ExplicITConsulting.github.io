@@ -18,7 +18,7 @@ subtitle: |
     <a href="/services/" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen;">>> Which gap can we bridge for you?</a>
   </p>
 
-  <p class="subtitle is-4 has-text-white" style="margin-top:1.5em;">
+  <p class="subtitle is-4 has-text-white" style="">
     <a href="/open-source/set-outlooksignatures/" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod);">>> Set-OutlookSignatures Benefactor Circle add-on</a>
   </p>
 hero_image: "/assets/images/background, vietnam golden bridge.jpg"
