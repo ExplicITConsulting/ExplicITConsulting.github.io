@@ -5,15 +5,15 @@ locale: de
 title: '<img src="/assets/images/explicit consulting, color on transparent, company and slogan.png" alt="ExplicIT Consulting. We bridge the gap." style="height: 3em; object-fit: contain; margin-left:-0.25em; margin-bottom:0.3em;"><!--ExplicIT Consulting. We bridge the gap.-->'
 subtitle: |
   <p class="subtitle is-4 has-text-white" style="margin-bottom:0.3em">
-    ExplicIT steht für spezifische, klare und detaillierte IT-Beratung.
+    <span class="has-background-grey-dark">ExplicIT steht für spezifische, klare und detaillierte IT-Beratung.</span>
   </p>
 
   <p class="subtitle is-4 has-text-white" style="margin-bottom:0.3em; margin-top:0.3em">
-    Mutig und zukunftsorientiert, immer realistisch und ohne Dampfplauderei.
+    <span class="has-background-grey-dark">Mutig und zukunftsorientiert, immer realistisch und ohne Dampfplauderei.</span>
   </p>
 
   <p class="subtitle is-4 has-text-white" style="margin-top:0.3em;">
-    Wir schließen Lücken, mit unserem Kopf in den Wolken und unseren Füßen fest am Boden.
+    <span class="has-background-grey-dark">Wir schließen Lücken, mit unserem Kopf in den Wolken und unseren Füßen fest am Boden.</span>
   </p>
 
   <p class="subtitle is-4 has-text-white" style="margin-top:1.5em;">
