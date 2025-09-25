@@ -3,6 +3,8 @@
 - name: "Open-Source"
   link: /open-source
   dropdown:
+  - name: "Support for open-source software"
+    link: /open-source/
   - name: "Export-RecipientPermissions"
     link: /open-source/export-recipientpermissions/
   - name: |
