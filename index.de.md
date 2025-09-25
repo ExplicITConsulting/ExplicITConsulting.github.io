@@ -4,7 +4,7 @@ lang: de
 locale: de
 title: '<img src="/assets/images/explicit consulting, color on transparent, company and slogan.png" alt="ExplicIT Consulting. We bridge the gap." class="mb-2" style="height: 3em; object-fit: contain; margin-left:-0.25em;"><!--ExplicIT Consulting. We bridge the gap.-->'
 subtitle: |
-  <p class="subtitle is-4 has-text-white" class="mt-5 mb-2">
+  <p class="subtitle is-4 has-text-white mt-5 mb-2">
     <span style="background-color: rgba(0, 0, 0, 0.4);">ExplicIT steht für spezifische, klare und detaillierte IT-Beratung.</span>
   </p>
 
