@@ -1,25 +1,29 @@
 ---
 layout: page
-title: '<img src="/assets/images/explicit consulting, color on transparent, company and slogan.png" alt="ExplicIT Consulting. We bridge the gap." style="height: 3em; object-fit: contain; margin-left:-0.25em; margin-bottom:0.3em;"><!--ExplicIT Consulting. We bridge the gap.-->'
+title: '<img src="/assets/images/explicit consulting, color on transparent, company and slogan.png" alt="ExplicIT Consulting. We bridge the gap." class="mb-2" style="height: 3em; object-fit: contain; margin-left:-0.25em;"><!--ExplicIT Consulting. We bridge the gap.-->'
 subtitle: |
-  <p class="subtitle is-4 has-text-white" style="margin-bottom:0.3em">
-    <span style="background-color: rgba(0, 0, 0, 0.4);">ExplicIT stands for specific, clear and detailed IT consulting.</span>
+  <p class="subtitle is-4 has-text-white mt-6 mb-2">
+    ExplicIT stands for specific, clear and detailed IT consulting.
   </p>
 
-  <p class="subtitle is-4 has-text-white" style="margin-bottom:0.3em; margin-top:0.3em">
-    <span style="background-color: rgba(0, 0, 0, 0.4);">Bold and future-oriented, always realistic and without steam talk.</span>
+  <p class="subtitle is-4 has-text-white mt-2 mb-2">
+    Bold and future-oriented, always realistic and without steam talk.
   </p>
 
-  <p class="subtitle is-4 has-text-white" style="margin-top:0.3em;">
-    <span style="background-color: rgba(0, 0, 0, 0.4);">We bridge gaps, with our heads in the sky and our feet on the ground.</span>
+  <p class="subtitle is-4 has-text-white mt-2 mb-6">
+    We bridge gaps, with our heads in the sky and our feet on the ground.
   </p>
 
-  <p class="subtitle is-4 has-text-white" style="margin-top:1.5em;">
+  <p class="subtitle is-4 has-text-white mt-6 mb-2">
     <a href="/services/" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen;">>> Which gap can we bridge for you?</a>
   </p>
 
-  <p class="subtitle is-4 has-text-white" style="">
+  <p class="subtitle is-4 has-text-white mt-2 mb-6">
     <a href="/open-source/set-outlooksignatures/" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod);">>> Set-OutlookSignatures Benefactor Circle add-on</a>
+  </p>
+  
+  <p class="mt-6 mb-6">
+    &nbsp;
   </p>
 hero_image: "/assets/images/background, vietnam golden bridge.jpg"
 hero_height: is-fullheight-with-navbar
