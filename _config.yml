@@ -47,7 +47,7 @@ defaults:
       layout: page
       image: "/assets/images/explicit consulting, color on black.png"
       hero_height: is-small
-      hero_darken: true
+      hero_darken: false
       lang: en
       locale: en
 
