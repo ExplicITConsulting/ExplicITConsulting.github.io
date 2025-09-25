@@ -42,6 +42,20 @@ Our select group of consultants and partners have followed these principles for 
         </ul>
       </div>
     </div>
+        <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+      <div class="content">
+        <h3>Digital Advisory</h3>
+        <ul>
+          <li>Discover, assess, plan and govern strategic initiatives for clients, optimize investments in technology and ensure added values are realized as soon, as high and as lasting as possible.</li>
+          <li>Link business and IT strategy</li>
+          <li>Counsel and train senior- and C-level management</li>
+          <li>Provide business cases and recommend courses of action</li>
+          <li>Governance, risk and compliance management</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="column">
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
       <div class="content">
         <h3>Technics and Technology Consulting</h3>
@@ -52,8 +66,6 @@ Our select group of consultants and partners have followed these principles for 
         </ul>
       </div>
     </div>
-  </div>
-  <div class="column">
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
       <div class="content">
         <h3>Product and Service Management</h3>
@@ -65,18 +77,6 @@ Our select group of consultants and partners have followed these principles for 
           <li>Establish proactive IT lifecycle management</li>
           <li>Cost management, budget planning, change management</li>
           <li>Ongoing service analysis and assurance of defined Service Level Agreements (SLA)</li>
-        </ul>
-      </div>
-    </div>
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
-      <div class="content">
-        <h3>Digital Advisory</h3>
-        <ul>
-          <li>Discover, assess, plan and govern strategic initiatives for clients, optimize investments in technology and ensure added values are realized as soon, as high and as lasting as possible.</li>
-          <li>Link business and IT strategy</li>
-          <li>Counsel and train senior- and C-level management</li>
-          <li>Provide business cases and recommend courses of action</li>
-          <li>Governance, risk and compliance management</li>
         </ul>
       </div>
     </div>
