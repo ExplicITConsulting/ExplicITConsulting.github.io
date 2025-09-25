@@ -3,7 +3,7 @@
 - name: |
     <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Set-OutlookSignatures Benefactor Circle add-on</span>
   link: /open-source/set-outlooksignatures
-- name: "Support for Open-Source"
+- name: "Open-Source"
   link: /open-source
   dropdown:
   - name: "Export-RecipientPermissions"

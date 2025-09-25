@@ -20,7 +20,7 @@ Our select group of consultants and partners have followed these principles for 
   <div class="column">
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
       <div class="content">
-        <h3>Support for Open-Source</h3>
+        <h3>Support for Open-Source software</h3>
         <ul>
           <li>We sponsor select open-source software and donate code.</li>
           <li>We offer professional support for select open-source software, such as for <a href="/open-source/export-recipientpermissions">Export-RecipientPermissions</a>.</li>

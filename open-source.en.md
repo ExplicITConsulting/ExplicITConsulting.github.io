@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Support for Open-Source Software
+title: Open-Source Software
 subtitle: Adding professional services on top
 description: Adding professional services on top
 page_id: "open-source"
