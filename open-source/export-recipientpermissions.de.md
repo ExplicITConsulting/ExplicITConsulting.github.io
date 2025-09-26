@@ -26,7 +26,7 @@ permalink: /open-source/export-recipientpermissions/
     <h2><img src="/assets/images/export-recipientpermissions.png" alt="Export-RecipientPermissions"></h2>
   </div>
   <div class="column">
-    <p>Export-RecipientPermissions ist das Open-Source-Tool der Wahl zur Dokumentation, Filterung und zum Vergleich von Exchange-Berechtigungen.</p>
+    <p class="is-4">Export-RecipientPermissions ist das Open-Source-Tool der Wahl zur Dokumentation, Filterung und zum Vergleich von Exchange-Berechtigungen.</p>
   </div>
 </div>
 
