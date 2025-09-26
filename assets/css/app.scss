@@ -209,6 +209,9 @@ html::after {
   content: "";
   position: fixed;
   top: var(--bulma-navbar-height);
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   background-image: url("/assets/images/background, vietnam golden bridge sketch light.jpg");
   background-repeat: no-repeat;
   background-size: contain;
