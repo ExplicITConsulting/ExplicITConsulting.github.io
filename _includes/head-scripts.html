@@ -373,25 +373,32 @@
     // Add the 'loaded' class to display the background image.
     document.documentElement.classList.add('loaded');
 
-    // Check the initial state of the dark-mode class.
-    if (document.documentElement.classList.contains('dark-mode')) {
+    // Detect system preference for dark mode.
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    // Apply dark mode background filter if system prefers dark.
+    if (prefersDark) {
       document.documentElement.classList.add('dark-mode-bg');
     }
 
-    // Use a MutationObserver to watch for changes to the 'dark-mode' class.
+    // Watch for changes in system preference.
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+      if (event.matches) {
+        document.documentElement.classList.add('dark-mode-bg');
+      } else {
+        document.documentElement.classList.remove('dark-mode-bg');
+      }
+    });
+
+    // Optional: MutationObserver if other scripts might toggle 'dark-mode-bg' manually.
     const observer = new MutationObserver((mutationsList) => {
       for (const mutation of mutationsList) {
         if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
-          if (document.documentElement.classList.contains('dark-mode')) {
-            document.documentElement.classList.add('dark-mode-bg');
-          } else {
-            document.documentElement.classList.remove('dark-mode-bg');
-          }
+          // You could add logic here if needed to respond to manual class changes.
         }
       }
     });
 
-    // Start observing the <html> element for changes in its 'class' attribute.
     observer.observe(document.documentElement, { attributes: true });
   });
 </script>
