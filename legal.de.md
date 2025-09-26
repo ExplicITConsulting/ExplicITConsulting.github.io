@@ -16,7 +16,6 @@ permalink: /legal/
 - [Marken und Warenzeichen](#marken-und-warenzeichen)
 - [Allgemeine Geschäftsbedingungen für den Verkauf und die Lieferung von Organisations-, Programmierleistungen und Werknutzungsbewilligungen von Softwareprodukten](#allgemeine-geschäftsbedingungen-für-den-verkauf-und-die-lieferung-von-organisations--programmierleistungen-und-werknutzungsbewilligungen-von-softwareprodukten)
 - [Datenschutzerklärung](#datenschutzerklärung)
-  - [Rechte der betroffenen Personen](#rechte-der-betroffenen-personen)
 
 ## Impressum
 ExplicIT Consulting GmbH  
@@ -396,6 +395,7 @@ Wir bitten Sie, sich regelmäßig über den Inhalt unserer Datenschutzerklärung
 
 Sofern wir in dieser Datenschutzerklärung Adressen und Kontaktinformationen von Unternehmen und Organisationen angeben, beachten Sie bitte, dass sich die Adressen im Laufe der Zeit ändern können und prüfen Sie die Angaben vor einer Kontaktaufnahme.
 
+<!-- omit in toc -->
 ### Rechte der betroffenen Personen
 Als betroffene Person stehen Ihnen nach der DSGVO verschiedene Rechte zu, die sich insbesondere aus den Art. 15 bis 21 DSGVO ergeben:
 

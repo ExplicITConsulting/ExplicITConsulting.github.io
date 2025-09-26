@@ -12,9 +12,7 @@ permalink: /legal/
 - [Impress](#impress)
 - [Liability notice and copyright](#liability-notice-and-copyright)
 - [Brands and trademarks](#brands-and-trademarks)
-- [General terms and conditions, Allgemeine Geschäftsbedingungen](#general-terms-and-conditions-allgemeine-geschäftsbedingungen)
-  - [English: General terms and conditions for the sale and the delivery of organisational and programming services and permissions to use copyrighted software products](#english-general-terms-and-conditions-for-the-sale-and-the-delivery-of-organisational-and-programming-services-and-permissions-to-use-copyrighted-software-products)
-- [Deutsch: Allgemeine Geschäftsbedingungen für den Verkauf und die Lieferung von Organisations-, Programmierleistungen und Werknutzungsbewilligungen von Softwareprodukten](#deutsch-allgemeine-geschäftsbedingungen-für-den-verkauf-und-die-lieferung-von-organisations--programmierleistungen-und-werknutzungsbewilligungen-von-softwareprodukten)
+- [General terms and conditions for the sale and the delivery of organisational and programming services and permissions to use copyrighted software products](#general-terms-and-conditions-for-the-sale-and-the-delivery-of-organisational-and-programming-services-and-permissions-to-use-copyrighted-software-products)
 - [Privacy policy](#privacy-policy)
 
 ## Impress
