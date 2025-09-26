@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Set-OutlookSignatures and the <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle add-on</span>
+title: |
+  Set-OutlookSignatures and the <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle add-on</span>
 subtitle: Email signatures and out-of-office replies for Exchange and all of Outlook.<br>Full-featured, cost-effective, unsurpassed data privacy.
 description: Set-OutlookSignatures and the Benefactor Circle add-on. Email signatures and out-of-office replies for Exchange and all of Outlook. Full-featured, cost-effective, unsurpassed data privacy.
 image:
