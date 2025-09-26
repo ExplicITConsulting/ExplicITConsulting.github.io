@@ -38,10 +38,7 @@
                 {% include hero.html %}
             {% endunless %}
             {% include callouts.html %}
-            {% if page.background_image %}
-                <div style="background: url('{{ page.background_image | relative_url }}') no-repeat center center; background-size: cover;"></div>
-            {% endif %}
-            <section class="section pt-0">
+            <section class="section pt-0" {% if page.background_image %}style="background: url('{{ page.background_image | relative_url }}') no-repeat center center; background-size: cover;"{% endif %}>
                 <div class="container">
                     <div class="columns is-multiline">
                         {% if page.menubar_toc %}
