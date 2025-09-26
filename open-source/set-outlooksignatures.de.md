@@ -17,7 +17,7 @@ permalink: /open-source/set-outlooksignatures/
 
 <div class="columns">
   <div class="column is-one-quarter">
-    <a href="https://set-outlooksignatures.com">
+    <a href="https://set-outlooksignatures.com" class="no-external-link-icon">
       <img src="/assets/images/set-outlooksignatures logo 500px.png" alt="Set-OutlookSignatures logo">
     </a>
   </div>
