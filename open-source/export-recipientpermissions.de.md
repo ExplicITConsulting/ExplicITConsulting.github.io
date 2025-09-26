@@ -4,6 +4,14 @@ lang: de
 locale: de
 title: Export-RecipientPermissions
 subtitle: Das Open-Source-Tool der Wahl zur Dokumentation, Filterung und zum Vergleich von Exchange-Berechtigungen
+hero_link: "https://github.com/GruberMarkus/export-recipientpermissions"
+hero_link_text: "<span><b>➔ Export-RecipientPermissions herunterladen</b></span>"
+hero_link_style: |
+   style="background-color: LimeGreen; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod);"
+hero_link2: "/contact"
+hero_link2_text: "<span><b>➔ Kontaktieren Sie uns</b></span>"
+hero_link2_style: |
+   style="background-color: LimeGreen; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod);"
 description: Export-RecipientPermissions. Das Open-Source-Tool der Wahl zur Dokumentation, Filterung und zum Vergleich von Exchange-Berechtigungen.
 image:
   path: "/assets/images/export-recipientpermissions opengraph1200x630.png"
@@ -18,8 +26,7 @@ permalink: /open-source/export-recipientpermissions/
     <h2><img src="/assets/images/export-recipientpermissions.png" alt="Export-RecipientPermissions"></h2>
   </div>
   <div class="column">
-    <h2>Willkommen!</h2>
-    <p>Export-RecipientPermissions ist das Open-Source-Tool der Wahl zur Dokumentation, Filterung und zum Vergleich von Exchange-Berechtigungen. Lesen Sie weiter, um zu erfahren, was ExplicIT darüber hinaus bietet.</p>
+    <p>Export-RecipientPermissions ist das Open-Source-Tool der Wahl zur Dokumentation, Filterung und zum Vergleich von Exchange-Berechtigungen.</p>
   </div>
 </div>
 

@@ -2,6 +2,10 @@
 layout: page
 title: Open-Source Software
 subtitle: Adding professional services on top
+hero_link: "/contact"
+hero_link_text: "<span><b>➔ Contact us</b></span>"
+hero_link_style: |
+   style="background-color: LimeGreen; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod);"
 description: Adding professional services on top
 page_id: "open-source"
 permalink: /open-source/

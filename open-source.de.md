@@ -4,6 +4,10 @@ lang: de
 locale: de
 title: Open-Source-Software
 subtitle: Mehrwert durch professionelle Services
+hero_link: "/contact"
+hero_link_text: "<span><b>➔ Kontaktieren Sie uns</b></span>"
+hero_link_style: |
+   style="background-color: LimeGreen; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod);"
 description: Open-Source-Software. Mehrwert durch professionelle Services.
 page_id: "open-source"
 permalink: /open-source/

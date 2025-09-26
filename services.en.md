@@ -2,6 +2,10 @@
 layout: page
 title: Which gap can we bridge for you?
 subtitle: We help you to be successful on an individual, team and company level
+hero_link: "/contact"
+hero_link_text: "<span><b>➔ Contact us</b></span>"
+hero_link_style: |
+   style="background-color: LimeGreen; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod);"
 description: Which gap can we bridge for you? We help you to be successful on an individual, team and company level.
 page_id: "services"
 permalink: /services/

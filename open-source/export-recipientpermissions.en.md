@@ -2,6 +2,14 @@
 layout: page
 title: Export-RecipientPermissions
 subtitle: The open-source tool of choice to document, filter and compare Exchange permissions
+hero_link: "https://github.com/GruberMarkus/export-recipientpermissions"
+hero_link_text: "<span><b>➔ Download Export-RecipientPermissions</b></span>"
+hero_link_style: |
+   style="background-color: LimeGreen; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod);"
+hero_link2: "/contact"
+hero_link2_text: "<span><b>➔ Contact us</b></span>"
+hero_link2_style: |
+   style="background-color: LimeGreen; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod);"
 description: The open-source tool of choice to document, filter and compare Exchange permissions
 image:
   path: "/assets/images/export-recipientpermissions opengraph1200x630.png"
@@ -16,13 +24,9 @@ permalink: /open-source/export-recipientpermissions/
     <h2><img src="/assets/images/export-recipientpermissions.png" alt="Export-RecipientPermissions"></h2>
   </div>
   <div class="column">
-    <h2>Welcome!</h2>
-    <p>Export-RecipientPermissions is the open-source tool of choice to document, filter and compare Exchange permissions. Read on to learn what ExplicIT offers on top.</p>
+    <p>Export-RecipientPermissions is the open-source tool of choice to document, filter and compare Exchange permissions.</p>
   </div>
 </div>
-
-<a href="https://github.com/GruberMarkus/export-recipientpermissions" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Download Export-RecipientPermissions from GitHub for free</a>
-<a href="/contact" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Contact us for questions and a customized quote</a>
 
 ## Features
 <div class="columns">
