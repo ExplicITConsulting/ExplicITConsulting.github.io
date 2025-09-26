@@ -21,11 +21,10 @@ permalink: /open-source/set-outlooksignatures/
     <h2>Manage your Outlook signatures centrally and fully automated</h2>
     <p>Set-OutlookSignatures takes the hassle out of manually maintaining Outlook signatures and out-of-office replies.</p>
     <p>Thanks to centrally managed templates that automatically populate with your company data, every email gets the professional appearance your business deserves: Up-to-date, consistent, and on-brand.</p>
+    <p>To the full Set-OutlookSignatures website: <a href="https://set-outlooksignatures.com/benefactorcircle" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">➔ Set-OutlookSignatures</a><p>
   </div>
 </div>
 
-<p>Here you can access the full Set-OutlookSignatures website: <a href="https://set-outlooksignatures.com/benefactorcircle" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: 
-linear-gradient(to right, gainsboro, silver, gainsboro, silver, gainsboro">➔ Set-OutlookSignatures</a><p>
 
 <style>
   html::after {
@@ -44,7 +43,6 @@ linear-gradient(to right, gainsboro, silver, gainsboro, silver, gainsboro">➔ S
     opacity: 0.5; /* Sets the transparency of the pseudo-element */
   }
 </style>
-
 
 
 
