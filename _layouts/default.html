@@ -39,9 +39,7 @@
             {% endunless %}
             {% include callouts.html %}
             {% if page.background_image %}
-                style="background: url('{{ page.background_image | relative_url }}') no-repeat center center; background-size: cover;"
-            {% else %}
-                style="background-color: var(--bulma-dark);"
+                <div style="background: url('{{ page.background_image | relative_url }}') no-repeat center center; background-size: cover;"></div>
             {% endif %}
             <section class="section pt-0">
                 <div class="container">
