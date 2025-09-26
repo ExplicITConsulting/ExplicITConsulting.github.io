@@ -14,7 +14,7 @@ permalink: /contact/
 
 <p><a href="mailto:welcome@explicitconsulting.at" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ ExplicIT Consulting kontaktieren</a></p>
 
-<p>Für Fragen rund um Set-OutlookSignatures und das Benefactor Circle Add-On klicken Sie hier: <a href="/open-source/set-outlooksignatures"></a></p>
+<p>Für Fragen rund um Set-OutlookSignatures und das Benefactor Circle Add-On klicken Sie <a href="/open-source/set-outlooksignatures">hier</a>.</p>
 
 <h2>Senden Sie uns einen Brief</h2>
 <p>ExplicIT Consulting GmbH<br>Kaiser-Ebersdorfer Straße 206b/3/2<br>1110 Wien<br>Austria</p>
