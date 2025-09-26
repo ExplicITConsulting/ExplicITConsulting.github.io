@@ -72,6 +72,12 @@ h6 {
   position: relative;
 }
 
+.button {
+  white-space: normal;
+  word-break: break-word;
+  hyphens: auto;
+}
+
 .anchor-link {
   position: absolute;
 
@@ -114,7 +120,6 @@ h6:hover .anchor-link {
 .footer {
   padding-bottom: 0 !important; // Or just 0 if not needed
 }
-
 
 .button:hover {
   /* Using filter() to make the button brighter on hover */

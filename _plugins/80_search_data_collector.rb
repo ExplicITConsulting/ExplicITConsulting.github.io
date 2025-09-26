@@ -15,7 +15,7 @@ module Jekyll
       next if doc.data['redirect_to']
       next if doc.output.strip.start_with?("Redirecting") || doc.output.include?('<meta http-equiv="refresh"')
       next unless (doc.output.strip.start_with?('<') || doc.output.strip.start_with?('<!DOCTYPE')) &&
-                  !['/sitemap.xml', '/feed.xml'].include?(doc.url)
+                   !['/sitemap.xml', '/feed.xml'].include?(doc.url)
 
       Jekyll.logger.info "SearchDataCollector:", "Processing document: #{doc.url || doc.path}"
 
@@ -84,6 +84,8 @@ module Jekyll
 
     def self.strip_html_and_normalize(html_content)
       doc = Nokogiri::HTML.fragment(html_content)
+      # Remove the anchor links specifically
+      doc.css('a.anchor-link').each(&:remove)
       doc.css('script, style').each(&:remove)
       doc.text
         .gsub(/\s+/, ' ')
