@@ -24,7 +24,7 @@ permalink: /open-source/export-recipientpermissions/
     <h2><img src="/assets/images/export-recipientpermissions.png" alt="Export-RecipientPermissions"></h2>
   </div>
   <div class="column">
-    <p class="is-4">Export-RecipientPermissions is the open-source tool of choice to document, filter and compare Exchange permissions.</p>
+    <p class="is-size-4">Export-RecipientPermissions is the open-source tool of choice to document, filter and compare Exchange permissions.</p>
   </div>
 </div>
 
