@@ -2,9 +2,9 @@
 layout: page
 lang: de
 locale: de
-title: Legal information
-subtitle: Impress, Privacy Notice, Terms and Conditions, etc.
-description: Impress, Privacy Notice, Terms and Conditions, etc.
+title: Rechtliche Informationen
+subtitle: Impressum, Datenschutzerklärung, Allgemeine Geschäftsbedingungen, etc.
+description: Rechtliche Informationen. Impressum, Datenschutzerklärung, Allgemeine Geschäftsbedingungen, etc.
 page_id: "legal"
 permalink: /legal/
 ---
