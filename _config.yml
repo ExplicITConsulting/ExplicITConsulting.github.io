@@ -19,7 +19,6 @@ baseurl: # the subpath of your site, e.g. "/blog"
 repository: "ExplicITConsulting/ExplicITConsulting.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 favicon: "/assets/images/explicit consulting, color on black, favicon.png"
 force_theme: #light
-background_image: "/assets/images/background, vietnam golden bridge sketch light.jpg"
 
 # SEO Related
 google_site_verification:
@@ -50,6 +49,7 @@ defaults:
       hero_darken: false
       lang: en
       locale: en
+      background_image: "/assets/images/background, vietnam golden bridge sketch light.jpg"
 
 include:
   - ".well-known"
