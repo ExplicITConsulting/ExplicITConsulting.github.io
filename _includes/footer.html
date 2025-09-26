@@ -1,14 +1,14 @@
 <footer class="footer has-background-inherit">
-    <p class="has-text-centered is-small">
-        {%- if site.footer_menu -%}
+    {%- if site.footer_menu -%}
+        <p class="has-text-centered is-small">
             {%- for item in site.data[site.footer_menu] -%}
                 <a href="{{ item.link | relative_url }}">{{ item.name }}</a>
                 {%- unless forloop.last -%}
                     <span> | </span>
                 {%- endunless -%}
             {%- endfor -%}
-        {%- endif -%}
-    </p>
+        </p>
+    {%- endif -%}
 
     <p class="has-text-centered is-small">This site does not use cookies or analytic tools requiring you to consent or define allowed services. For our privacy notice, see the links above.</p>
 </footer>
