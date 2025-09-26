@@ -15,7 +15,7 @@ permalink: /open-source/set-outlooksignatures/
 
 <div class="columns">
   <div class="column is-one-quarter">
-    <img src="/assets/images/set-outlooksignatures benefactor circle.png" alt="Set-OutlookSignatures">
+    <img src="/assets/images/set-outlooksignatures logo 500px.png" alt="Set-OutlookSignatures">
   </div>
   <div class="column">
     <h2>Manage your Outlook signatures centrally and fully automated</h2>
@@ -27,7 +27,7 @@ permalink: /open-source/set-outlooksignatures/
 <p>Click the button to open the full Set-OutlookSignatures website:</p>
 
 <p><a href="https://set-outlooksignatures.com/benefactorcircle" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: 
-linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">➔ Set-OutlookSignatures</a><p>
+linear-gradient(to right, gray, silver, gray, silver, gray)">➔ Set-OutlookSignatures</a><p>
 
 <style>
   html::after {
