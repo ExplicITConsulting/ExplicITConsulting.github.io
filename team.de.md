@@ -12,6 +12,7 @@ image:
   alt: "Set-OutlookSignatures Benefactor Circle"
 page_id: "team"
 permalink: /team/
+sitemap: false
 ---
 
 
