@@ -85,5 +85,5 @@ Unsere ausgewählte Gruppe von Beratern und Partnern folgt diesen Grundsätzen s
   </div>
 </div>
 
-## Contact us
+## Kontaktieren Sie uns
 <a href="/contact" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Kontaktieren Sie uns bei Fragen oder für ein individuelles Angebot.</a>
