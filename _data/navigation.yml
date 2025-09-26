@@ -1,4 +1,4 @@
-- name: "Services"
+- name: "Our Services"
   link: /services
 - name: "Open-Source"
   link: /open-source
@@ -13,5 +13,3 @@
 - name: |
     <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Set-OutlookSignatures Benefactor Circle add-on</span>
   link: /open-source/set-outlooksignatures
-- name: "Contact"
-  link: /contact
