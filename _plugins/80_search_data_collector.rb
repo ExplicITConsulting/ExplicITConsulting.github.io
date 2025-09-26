@@ -38,7 +38,10 @@ module Jekyll
           next
         end
 
-        section_title = heading_element.text.strip.gsub(/\s+/, ' ')
+        # Create a temporary fragment to remove the anchor link from the section title text
+        clean_heading_element = Nokogiri::HTML.fragment(heading_element.to_html)
+        clean_heading_element.css('a.anchor-link').each(&:remove)
+        section_title = clean_heading_element.text.strip.gsub(/\s+/, ' ')
 
         section_content_nodes = []
         current_node = heading_element.next_sibling
@@ -57,7 +60,12 @@ module Jekyll
 
         full_url = "#{base_url}##{final_id}"
 
-        decoded_document_title = doc.data['title'] ? Nokogiri::HTML.fragment(doc.data['title']).text : nil
+        decoded_document_title = nil
+        if doc.data['title']
+          title_fragment = Nokogiri::HTML.fragment(doc.data['title'])
+          title_fragment.css('a.anchor-link').each(&:remove)
+          decoded_document_title = title_fragment.text
+        end
 
         @@search_sections_data << {
           "document" => decoded_document_title,
