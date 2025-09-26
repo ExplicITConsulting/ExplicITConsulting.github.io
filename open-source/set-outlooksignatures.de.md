@@ -16,13 +16,13 @@ permalink: /open-source/set-outlooksignatures/
 
 <div class="columns">
   <div class="column is-one-quarter">
-    <img src="/assets/images/set-outlooksignatures logo 500px.png" alt="Set-OutlookSignatures">
+    <img src="/assets/images/set-outlooksignatures logo 500px.png" alt="Set-OutlookSignatures" href="https://set-outlooksignatures.com">
   </div>
   <div class="column">
     <h2>Verwalten Sie Ihre Outlook-Signaturen zentral und vollautomatisch</h2>
     <p>Set-OutlookSignatures nimmt Ihnen den Aufwand ab, Outlook-Signaturen und Abwesenheitsnachrichten manuell zu pflegen.</p>
     <p>Dank zentral verwalteter Vorlagen, die sich automatisch mit Ihren Unternehmensdaten füllen, erhält jede E-Mail den professionellen Auftritt, den Ihr Unternehmen verdient: Aktuell, einheitlich und markenkonform.</p>
-    <p><a href="https://set-outlooksignatures.com/benefactorcircle" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">➔ Zur Website von Set-OutlookSignatures</a></p>
+    <p><a href="https://set-outlooksignatures.com" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">➔ Zur Website von Set-OutlookSignatures</a></p>
   </div>
 </div>
 
