@@ -17,7 +17,7 @@
     class="{% if site.fixed_navbar %} has-navbar-fixed-{{ site.fixed_navbar }} {% endif %} {% if site.force_theme %} theme-{{ site.force_theme }} {% endif %}"
 >
     {% include head.html %}
-    <body>
+    <body {% if page.background_image %}style="background: url('{{ page.background_image | relative_url }}') no-repeat center center fixed; background-size: cover; height: 100vh;"{% endif %}>
         <div style="min-height: 100vh;">
             {% include skip-to-content.html %}
             {% if site.cookie_policy %}
@@ -38,7 +38,7 @@
                 {% include hero.html %}
             {% endunless %}
             {% include callouts.html %}
-            <section class="section pt-0" {% if page.background_image %}style="background: url('{{ page.background_image | relative_url }}') no-repeat center center; background-size: cover;"{% endif %}>
+            <section class="section pt-0">
                 <div class="container">
                     <div class="columns is-multiline">
                         {% if page.menubar_toc %}
