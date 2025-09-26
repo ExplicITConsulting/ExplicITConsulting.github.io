@@ -1,5 +1,7 @@
 ---
 layout: page
+lang: de
+locale: de
 title: Export-RecipientPermissions
 subtitle: Das Open-Source-Tool der Wahl zur Dokumentation, Filterung und zum Vergleich von Exchange-Berechtigungen
 description: Export-RecipientPermissions. Das Open-Source-Tool der Wahl zur Dokumentation, Filterung und zum Vergleich von Exchange-Berechtigungen.
