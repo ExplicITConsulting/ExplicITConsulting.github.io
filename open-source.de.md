@@ -13,8 +13,6 @@ page_id: "open-source"
 permalink: /open-source/
 ---
 ## ExplicIT verbessert Open-Source-Software
-<a href="/contact" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Kontaktieren Sie uns bei Fragen oder für ein individuelles Angebot</a>
-
 <div class="columns">
   <div class="column">
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
