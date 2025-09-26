@@ -44,7 +44,7 @@ permalink: /open-source/export-recipientpermissions/
           <li>Resource Delegates</li>
           <li>Group Members (incl. direct and transitive members)</li>
           <li>Management Role Group Members</li>
-          <li>Security Idendtifiers (SID), Exchange and Object GUIDs</li>
+          <li>Security Identifiers (SID), Exchange and Object GUIDs</li>
         </ul>
       </div>
     </div>
