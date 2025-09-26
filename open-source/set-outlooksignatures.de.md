@@ -22,7 +22,7 @@ permalink: /open-source/set-outlooksignatures/
     <h2>Verwalten Sie Ihre Outlook-Signaturen zentral und vollautomatisch</h2>
     <p>Set-OutlookSignatures nimmt Ihnen den Aufwand ab, Outlook-Signaturen und Abwesenheitsnachrichten manuell zu pflegen.</p>
     <p>Dank zentral verwalteter Vorlagen, die sich automatisch mit Ihren Unternehmensdaten füllen, erhält jede E-Mail den professionellen Auftritt, den Ihr Unternehmen verdient: Aktuell, einheitlich und markenkonform.</p>
-    <p>Zur vollen Website von Set-OutlookSignatures: <a href="https://set-outlooksignatures.com/benefactorcircle" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">➔ Set-OutlookSignatures</a><p>
+    <p>Zur vollen Website von Set-OutlookSignatures: <a href="https://set-outlooksignatures.com/benefactorcircle" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">➔ Set-OutlookSignatures</a></p>
   </div>
 </div>
 
