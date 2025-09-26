@@ -24,7 +24,7 @@ permalink: /open-source/set-outlooksignatures/
   </div>
 </div>
 
-<p>Click the button to visit Set-OutlookSignatures' homepage in a new tab:</p>
+<p>Click the button to open the full Set-OutlookSignatures website:</p>
 
 <p><a href="https://set-outlooksignatures.com/benefactorcircle" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: 
 linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">➔ Set-OutlookSignatures</a><p>
