@@ -1,10 +1,10 @@
 ---
 layout: page
-lang: en
-locale: en
-title: Our team
-subtitle: Dedicated to your success
-description: Get to know the people behind ExplicIT. Our collaborative team is dedicated to innovation, client satisfaction, and building lasting relationships.
+lang: de
+locale: de
+title: Unser Team
+subtitle: Engagiert für Ihren Erfolg
+description: Lernen Sie die Menschen hinter ExplicIT kennen. Unser kollaboratives Team setzt sich für Innovation, Kundenzufriedenheit und den Aufbau langfristiger Beziehungen ein.
 image:
   path: "/assets/images/set-outlooksignatures benefactor circle opengraph1200x630.png"
   height: 1200
@@ -15,10 +15,10 @@ permalink: /team/
 ---
 
 
-<h2>Driving innovation, delivering excellence</h2>
-<p>We help you to be successful on an individual, team and company level. Whether we do this in the background or for all to see: Trustworthiness and mediation between management levels, specialist departments and IT are always at the heart of our services.</p>
+<h2>Innovation vorantreiben, Exzellenz liefern</h2>
+<p>Wir unterstützen Sie dabei, auf individueller Ebene, im Team und als Unternehmen erfolgreich zu sein. Ob im Hintergrund oder sichtbar für alle: Vertrauenswürdigkeit und Vermittlung zwischen Managementebenen, Fachabteilungen und IT stehen stets im Mittelpunkt unserer Leistungen.</p>
 
-<p>Every success story has a dedicated team behind it, and ours is no exception. At ExplicIT, we are proud of the talented individuals who embody our values and bring them to life. Discover some of the people who are committed to innovation and excellence in everything we do.</p>
+<p>Hinter jeder Erfolgsgeschichte steht ein engagiertes Team – und bei ExplicIT ist das nicht anders. Wir sind stolz auf die talentierten Persönlichkeiten, die unsere Werte verkörpern und mit Leben füllen. Lernen Sie einige der Menschen kennen, die sich mit Leidenschaft für Innovation und Exzellenz einsetzen.</p>
 
 <div class="columns is-multiline is-flex is-align-items-stretch">
     <div class="column is-one-quarter-desktop is-one-third-tablet is-half-tablet-mobile">
@@ -39,8 +39,8 @@ permalink: /team/
                 </div>
                 </div>
                 <div class="content">
-                    <p>Markus aligns IT and business strategy, providing expert consultancy and leading project portfolios.</p>
-                    <p>He is also the original developer of Set-OutlookSignatures and Export-RecipientPermissions.</p>
+                    <p>Markus verbindet IT- und Geschäftsstrategie, bietet Expertenberatung und leitet Projektportfolios.</p>
+                    <p>Er ist zudem der ursprüngliche Entwickler von Set-OutlookSignatures und Export-RecipientPermissions.</p>
                 </div>
             </div>
         </div>
@@ -63,8 +63,8 @@ permalink: /team/
                 </div>
                 </div>
                 <div class="content">
-                    <p>Bettina is our lead support engineer, heading our support for open-source software and our own products.</p>
-                    <p>She plays a key role in the continued development of the Benefactor Circle add-on for Set-OutlookSignatures.</p>
+                    <p>Bettina ist unsere leitende Support-Ingenieurin und verantwortet den Support für Open-Source-Software sowie unsere eigenen Produkte.</p>
+                    <p>Sie spielt eine Schlüsselrolle in der Weiterentwicklung des Benefactor Circle Add-Ons für Set-OutlookSignatures.</p>
                 </div>
             </div>
         </div>
@@ -87,8 +87,8 @@ permalink: /team/
                 </div>
                 </div>
                 <div class="content">
-                    <p>Ingrid is our dedicated Office Administrator, managing offers, invoices, and internal administration.</p>
-                    <p>She ensures smooth and efficient operations for our clients, customers, and ourselves.</p>
+                    <p>Ingrid ist unsere engagierte Office-Administratorin und verantwortet Angebote, Rechnungen und die interne Verwaltung.</p>
+                    <p>Sie sorgt für reibungslose und effiziente Abläufe – für unsere Kunden, Partner und uns selbst.</p>
                 </div>
             </div>
         </div>
@@ -106,13 +106,13 @@ permalink: /team/
             <div class="card-content" style="flex-grow: 1;">
                 <div class="media">
                 <div class="media-content">
-                    <p class="title is-4">Specialised PARTNERS</p>
-                    <p class="subtitle is-6">Trusted Experts</p>
+                    <p class="title is-4">Spezialisierte PARTNER</p>
+                    <p class="subtitle is-6">Vertrauenswürdige Experten</p>
                 </div>
                 </div>
                 <div class="content">
-                    <p>Where we cannot help well enough ourselves, our specialised partners fill the gap.</p>
-                    <p>Our select group of consultants shares the same principles as we do, providing a seamless experience for our customers.</p>
+                    <p>Wo wir selbst nicht ausreichend helfen können, schließen unsere spezialisierten Partner die Lücke.</p>
+                    <p>Unsere ausgewählte Gruppe von Beratern teilt unsere Prinzipien und sorgt für ein nahtloses Erlebnis für unsere Kunden.</p>
                 </div>
             </div>
         </div>
