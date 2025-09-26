@@ -354,15 +354,44 @@
     pointer-events: none;
     z-index: -2;
     opacity: 0.5;
+    /* This filter will be applied when the 'dark-mode-bg' class is present. It inverts the colors of the background image. */
+    filter: var(--bg-filter, none);
   }
 
   html.loaded::before {
     background-image: url("/assets/images/background, vietnam golden bridge sketch light compressed.jpg");
   }
+
+  /* Define a new class for dark mode background. This class will be added and removed by JavaScript. */
+  html.dark-mode-bg::before {
+    --bg-filter: invert(1) hue-rotate(180deg);
+  }
 </style>
 
 <script>
   document.addEventListener('DOMContentLoaded', async () => {
+    // Add the 'loaded' class to display the background image.
     document.documentElement.classList.add('loaded');
+
+    // Check the initial state of the dark-mode class.
+    if (document.documentElement.classList.contains('dark-mode')) {
+      document.documentElement.classList.add('dark-mode-bg');
+    }
+
+    // Use a MutationObserver to watch for changes to the 'dark-mode' class.
+    const observer = new MutationObserver((mutationsList) => {
+      for (const mutation of mutationsList) {
+        if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+          if (document.documentElement.classList.contains('dark-mode')) {
+            document.documentElement.classList.add('dark-mode-bg');
+          } else {
+            document.documentElement.classList.remove('dark-mode-bg');
+          }
+        }
+      }
+    });
+
+    // Start observing the <html> element for changes in its 'class' attribute.
+    observer.observe(document.documentElement, { attributes: true });
   });
 </script>
