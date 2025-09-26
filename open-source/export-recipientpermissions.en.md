@@ -27,7 +27,7 @@ permalink: /open-source/export-recipientpermissions/
 ## Features
 <div class="columns">
   <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Document</h3>
         <ul>
@@ -50,19 +50,19 @@ permalink: /open-source/export-recipientpermissions/
     </div>
   </div>
   <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Filter</h3>
         Filter grantors, trustees and final data to ensure the report contains exactly the information you need.
       </div>
     </div>
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Compare</h3>
         Compare exports to detect permission and group membership changes. Use the results for audits or to inform admins and VIPs about changes.
       </div>
     </div>
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Move to the cloud easier</h3>
         Permission dependencies beyond the <a

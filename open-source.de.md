@@ -13,7 +13,7 @@ permalink: /open-source/
 
 <div class="columns">
   <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Professioneller Support</h3>
         <p>Wir bieten professionellen Support für ausgewählte Open-Source-Software an, z. B. für <a href="/open-source/export-recipientpermissions">Export-RecipientPermissions</a> und <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures</a>.</p>
@@ -21,7 +21,7 @@ permalink: /open-source/
     </div>
   </div>
   <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Entwicklung von Erweiterungen</h3>
         <p>Wir entwickeln individuelle und kommerzielle Erweiterungen für Open-Source-Software, z. B. das <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures Benefactor Circle Add-On</a>.</p>
@@ -29,7 +29,7 @@ permalink: /open-source/
     </div>
   </div>
 </div>
-<div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+<div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
   <div class="content">
     <h3>Liebe Unternehmen,</h3>
     <p>Open-Source-Software kann im Vergleich zu kommerzieller Software enorme Kosten einsparen.</p>

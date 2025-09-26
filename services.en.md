@@ -18,7 +18,7 @@ Our select group of consultants and partners have followed these principles for 
 ## Gaps we can bridge for you
 <div class="columns">
   <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Support for Open-Source software</h3>
         <ul>
@@ -28,7 +28,7 @@ Our select group of consultants and partners have followed these principles for 
         </ul>
       </div>
     </div>
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Program and Portfolio Management</h3>
         <ul>
@@ -42,7 +42,7 @@ Our select group of consultants and partners have followed these principles for 
         </ul>
       </div>
     </div>
-        <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+        <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Digital Advisory</h3>
         <ul>
@@ -56,7 +56,7 @@ Our select group of consultants and partners have followed these principles for 
     </div>
   </div>
   <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Technics and Technology Consulting</h3>
         <ul>
@@ -66,7 +66,7 @@ Our select group of consultants and partners have followed these principles for 
         </ul>
       </div>
     </div>
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Product and Service Management</h3>
         <ul>

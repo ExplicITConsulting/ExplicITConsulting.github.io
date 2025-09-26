@@ -29,7 +29,7 @@ permalink: /open-source/export-recipientpermissions/
 ## Funktionen
 <div class="columns">
   <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Dokumentieren</h3>
         <ul>
@@ -52,19 +52,19 @@ permalink: /open-source/export-recipientpermissions/
     </div>
   </div>
   <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Filtern</h3>
         Filtern Sie Berechtigungsgeber, -nehmer und Ergebnisdaten, um genau die Informationen im Bericht zu erhalten, die Sie benötigen.
       </div>
     </div>
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Vergleichen</h3>
         Vergleichen Sie Exporte, um Änderungen bei Berechtigungen und Gruppenmitgliedschaften zu erkennen. Ideal für Audits oder um Admins und VIPs über Änderungen zu informieren.
       </div>
     </div>
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Einfacher in die Cloud migrieren</h3>
         Berechtigungsabhängigkeiten, die über die von <a

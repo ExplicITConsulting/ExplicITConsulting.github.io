@@ -20,7 +20,7 @@ Unsere ausgewählte Gruppe von Beratern und Partnern folgt diesen Grundsätzen s
 ## Lücken, die wir für Sie schließen können
 <div class="columns">
   <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Support für Open-Source-Software</h3>
         <ul>
@@ -30,7 +30,7 @@ Unsere ausgewählte Gruppe von Beratern und Partnern folgt diesen Grundsätzen s
         </ul>
       </div>
     </div>
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Programm- und Portfoliomanagement</h3>
         <ul>
@@ -44,7 +44,7 @@ Unsere ausgewählte Gruppe von Beratern und Partnern folgt diesen Grundsätzen s
         </ul>
       </div>
     </div>
-        <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+        <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Digitalberatung</h3>
         <ul>
@@ -58,7 +58,7 @@ Unsere ausgewählte Gruppe von Beratern und Partnern folgt diesen Grundsätzen s
     </div>
   </div>
   <div class="column">
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Technik- und Technologieberatung</h3>
         <ul>
@@ -68,7 +68,7 @@ Unsere ausgewählte Gruppe von Beratern und Partnern folgt diesen Grundsätzen s
         </ul>
       </div>
     </div>
-    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent;">
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Produkt- und Service-Management</h3>
         <ul>
