@@ -27,7 +27,7 @@ subtitle: |
   <p class="mt-6 mb-6">
     &nbsp;
   </p>
-hero_image: "/assets/images/background, vietnam golden bridge.jpg"
+hero_image: "/assets/images/background, vietnam golden bridge compressed.jpg"
 hero_height: is-fullheight-with-navbar
 description: We bridge the gap between strategy and execution. ExplicIT stands for specific, clear and detailed IT consulting.
 page_id: "index"

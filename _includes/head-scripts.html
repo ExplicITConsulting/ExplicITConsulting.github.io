@@ -354,17 +354,15 @@
     pointer-events: none;
     z-index: -2;
     opacity: 0.5;
-    transition: opacity 1s ease-in-out;
-    /* Add a smooth fade-in effect */
   }
 
   html.loaded::before {
-    background-image: url("/assets/images/background, vietnam golden bridge sketch light.jpg");
+    background-image: url("/assets/images/background, vietnam golden bridge sketch light compressed.jpg");
   }
 </style>
 
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', async () => {
     document.documentElement.classList.add('loaded');
   });
 </script>
