@@ -17,7 +17,7 @@
     class="{% if site.fixed_navbar %} has-navbar-fixed-{{ site.fixed_navbar }} {% endif %} {% if site.force_theme %} theme-{{ site.force_theme }} {% endif %}"
 >
     {% include head.html %}
-    <body {% if page.background_image %}style="background: url('{{ page.background_image | relative_url }}') no-repeat center center fixed; background-size: cover; height: 100vh;"{% endif %}>
+    <body {% if page.background_image %}style="background: url('{{ page.background_image | relative_url }}') no-repeat center center fixed; background-size: cover; height: 100vh; top: var(--bulma-navbar-height);"{% endif %}>
         <div style="min-height: 100vh;">
             {% include skip-to-content.html %}
             {% if site.cookie_policy %}
