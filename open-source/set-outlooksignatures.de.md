@@ -17,7 +17,9 @@ permalink: /open-source/set-outlooksignatures/
 
 <div class="columns">
   <div class="column is-one-quarter">
-    <img src="/assets/images/set-outlooksignatures logo 500px.png" alt="Set-OutlookSignatures" href="https://set-outlooksignatures.com">
+    <a href="https://set-outlooksignatures.com">
+      <img src="/assets/images/set-outlooksignatures logo 500px.png" alt="Set-OutlookSignatures logo">
+    </a>
   </div>
   <div class="column">
     <h2>Verwalten Sie Ihre Outlook-Signaturen zentral und vollautomatisch</h2>
