@@ -13,7 +13,7 @@ subtitle: |
   </p>
 
   <p class="subtitle is-4 has-text-white mt-2 mb-6">
-    <span style="background-color: rgba(0, 0, 0, 0.4);">Wir schließen Lücken, mit unseren Köpfen in den Wolken und unseren Füßen fest am Boden.</span>
+    <span style="background-color: rgba(0, 0, 0, 0.4);">Wir schließen Lücken, mit unseren Köpfen in den Wolken und unseren Füßen am Boden.</span>
   </p>
 
   <p class="subtitle is-4 has-text-white mt-6 mb-2">
