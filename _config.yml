@@ -33,7 +33,6 @@ sass:
   sourcemap: never
 
 # HTML Compression
-# - https://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
@@ -46,6 +45,7 @@ defaults:
     values:
       layout: page
       image: "/assets/images/explicit consulting, color on black.png"
+      hero: true
       hero_height: is-small
       hero_darken: false
       lang: en
