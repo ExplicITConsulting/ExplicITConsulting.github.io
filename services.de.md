@@ -7,7 +7,7 @@ subtitle: Wir helfen Ihnen, auf individueller, Team- und Unternehmensebene erfol
 hero_link: "/contact"
 hero_link_text: "<span><b>➔ Kontaktieren Sie uns</b></span>"
 hero_link_style: |
-   style="background-color: LimeGreen; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod);"
+   style="background-color: LimeGreen;"
 description: Welche Lücke dürfen wir für Sie schließen? Wir helfen Ihnen, auf individueller, Team- und Unternehmensebene erfolgreich zu sein
 page_id: "services"
 permalink: /services/

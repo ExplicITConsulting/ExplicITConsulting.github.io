@@ -5,11 +5,11 @@ subtitle: The open-source tool of choice to document, filter and compare Exchang
 hero_link: "https://github.com/GruberMarkus/export-recipientpermissions"
 hero_link_text: "<span><b>➔ Download Export-RecipientPermissions</b></span>"
 hero_link_style: |
-   style="background-color: LimeGreen; background-image: LimeGreen;"
+   style="background-color: LimeGreen;"
 hero_link2: "/contact"
 hero_link2_text: "<span><b>➔ Contact us</b></span>"
 hero_link2_style: |
-   style="background-color: LimeGreen; background-image: LimeGreen;"
+   style="background-color: LimeGreen;"
 description: The open-source tool of choice to document, filter and compare Exchange permissions
 image:
   path: "/assets/images/export-recipientpermissions opengraph1200x630.png"

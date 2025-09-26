@@ -5,7 +5,7 @@ subtitle:
 hero_link: "https://forms.cloud.microsoft/r/CnwjH98vSs"
 hero_link_text: "<span><b>➔ Request professional support</b></span>"
 hero_link_style: |
-   style="background-color: LimeGreen; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod);"
+   style="background-color: LimeGreen;"
 description: Professional Support Terms.
 page_id: "support-terms"
 permalink: /support-terms/
