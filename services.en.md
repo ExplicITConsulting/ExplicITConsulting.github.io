@@ -2,7 +2,7 @@
 layout: page
 title: Which gap can we bridge for you?
 subtitle: We help you to be successful on an individual, team and company level
-description: We help you to be successful on an individual, team and company level
+description: Which gap can we bridge for you? We help you to be successful on an individual, team and company level.
 page_id: "services"
 permalink: /services/
 ---
@@ -46,7 +46,7 @@ Our select group of consultants and partners have followed these principles for 
       <div class="content">
         <h3>Digital Advisory</h3>
         <ul>
-          <li>Discover, assess, plan and govern strategic initiatives for clients, optimize investments in technology and ensure added values are realized as soon, as high and as lasting as possible.</li>
+          <li>Discover, assess, plan and govern strategic initiatives for clients, optimize investments in technology and ensure added values are realized as soon, as high and as lasting as possible</li>
           <li>Link business and IT strategy</li>
           <li>Counsel and train senior- and C-level management</li>
           <li>Provide business cases and recommend courses of action</li>
