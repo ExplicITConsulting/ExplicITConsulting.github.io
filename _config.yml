@@ -49,7 +49,6 @@ defaults:
       hero_darken: false
       lang: en
       locale: en
-      background_image: "/assets/images/background, vietnam golden bridge sketch light.jpg"
 
 include:
   - ".well-known"
