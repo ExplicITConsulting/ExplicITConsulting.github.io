@@ -246,9 +246,7 @@ permalink: /open-source/set-outlooksignatures/
 
 
 <h2 id="demo">Demo</h2>
-<p>We show you what Set-OutlookSignatures, the <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle add-on</span> and the included Outlook add-in can do for you - interactively and with focus on your actual needs.</p>
-
-<p>Experience live:</p>
+<p>We show you what Set-OutlookSignatures, the <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle add-on</span> and the included Outlook add-in can do for you - interactively and with focus on your actual needs. Experience live:</p>
 <div class="columns is-multiline">
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
@@ -276,23 +274,6 @@ permalink: /open-source/set-outlooksignatures/
       </div>
     </div>
   </div>
-
-  <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
-    <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
-      <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
-      <div style="hyphens: manual;">
-        <b>Exclusive Benefactor Circle features</b><br>Among others:
-          <ul>
-            <li>Time-controlled Campaigns</li>
-            <li>Roaming Signatures</li>
-            <li>Signatures for Outlook Android, iOS and Web</li>
-            <li>Signatures for additional mailboxes</li>
-            <li>Managing out-of-office Replies</li>
-            <li>Deleting outdated signatures</li>
-          </ul>
-      </div>
-    </div>
-  </div>
 </div>
 
 <p>We look forward to meeting you!</p>
@@ -316,22 +297,25 @@ permalink: /open-source/set-outlooksignatures/
 
 <p>&nbsp;</p>
 
-<p>If you’d like to start with the basics and appreciate a down-to-earth approach, our demo video offers a compact overview of the key features of Set-OutlookSignatures – based on a real-world example, straightforward, practical, and without much staging.<br>You will see: Our focus is on the functionality and quality of our software, we're neither marketing professionals nor particularly gifted actors.<br>
-  <div class="columns">
-    <div class="column is-one-third-desktop is-half-tablet is-full-mobil">
-      <figure class="image is-16by9">
-        <iframe class="has-ratio" width="560" height="315"
-          id="youtube-video-player"
-          src="https://www.youtube-nocookie.com/embed/K9TrCjTdRUI?enablejsapi=1"
-          title="Set-OutlookSignatures Benefactor Circle demo video"
-          frameborder="0"
-          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen>
-        </iframe>
-      </figure>
-    </div>
+<div class="columns">
+  <div class="column is-two-thirds-desktop is-half-tablet is-full-mobile">
+    <p>If you’d like to start with the basics and appreciate a down-to-earth approach, our demo video offers a compact overview of the key features of Set-OutlookSignatures – based on a real-world example, straightforward, practical, and without much staging.</p>
+    <p>You will see: Our focus is on the functionality and quality of our software, we're neither marketing professionals nor particularly gifted actors.</p>
   </div>
-</p>
+  <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
+    <figure class="image is-16by9">
+      <iframe class="has-ratio" width="560" height="315"
+        id="youtube-video-player"
+        src="https://www.youtube-nocookie.com/embed/K9TrCjTdRUI?enablejsapi=1"
+        title="Set-OutlookSignatures Benefactor Circle demo video"
+        frameborder="0"
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </figure>
+  </div>
+</div>
+
 
 <h2 id="financial-benefits">Financial benefits</h2>
 <p>The Benefactor Circle Add-On is an investment that pays off from day one. A cost-benefit analysis in the form of a business case must consider three aspects:</p>
