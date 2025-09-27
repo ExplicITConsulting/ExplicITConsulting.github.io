@@ -13,14 +13,11 @@ permalink: /services/
 ## What we stand for
 ExplicIT stands for specific, clear and detailed IT consulting.<br>Bold and future-oriented, always realistic and without steam talk.<br>We bridge gaps, with our heads in the sky and our feet on the ground.
 
-## What we do
 We help you to be successful on an individual, team and company level.
 
 Whether we do this in the background or for all to see: Trustworthiness and mediation between management levels, specialist departments and IT are always at the heart of our services.
 
-Where we cannot help well enough ourselves, our specialised partners fill the gap.
-
-Our select group of consultants and partners have followed these principles for more than two decades, and will continue to do so in the future.
+Where we cannot help well enough ourselves, our select partners fill the gap.
 
 ## Gaps we can bridge for you
 <div class="columns">

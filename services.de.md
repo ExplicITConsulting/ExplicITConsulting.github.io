@@ -13,16 +13,13 @@ page_id: "services"
 permalink: /services/
 ---
 ## Wofür wir stehen
-ExplicIT steht für spezifische, klare und detaillierte IT-Beratung.<br>Mutig und zukunftsorientiert, immer realistisch und ohne Dampfplauderei.<br>Wir schließen Lücken, mit unseren Köpfen in den Wolken und unseren Füßen am Boden. 
+ExplicIT steht für spezifische, klare und detaillierte IT-Beratung.<br>Mutig und zukunftsorientiert, immer realistisch und ohne Dampfplauderei.<br>Wir schließen Lücken, mit unseren Köpfen in den Wolken und unseren Füßen am Boden.
 
-## Was wir tun
 Wir helfen Ihnen, auf individueller, Team- und Unternehmensebene erfolgreich zu sein.
 
 Ob wir dies im Hintergrund oder für alle sichtbar tun: Vertrauenswürdigkeit und Vermittlung zwischen Führungsebenen, Fachabteilungen und IT stehen stets im Mittelpunkt unserer Dienstleistungen.
 
-Wo wir selbst nicht ausreichend helfen können, schließen unsere spezialisierten Partner die Lücke.
-
-Unsere ausgewählte Gruppe von Beratern und Partnern folgt diesen Grundsätzen seit mehr als zwei Jahrzehnten und wird dies auch in Zukunft tun.
+Wo wir selbst nicht ausreichend helfen können, schließen unsere ausgewählten Partner die Lücke.
 
 ## Lücken, die wir für Sie schließen können
 <div class="columns">
