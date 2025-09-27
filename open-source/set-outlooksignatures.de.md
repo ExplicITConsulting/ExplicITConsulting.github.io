@@ -14,7 +14,6 @@ image:
 page_id: "set-outlooksignatures"
 permalink: /open-source/set-outlooksignatures/
 ---
-
 <div class="columns">
   <div class="column is-one-quarter">
     <a href="https://set-outlooksignatures.com" class="no-external-link-icon">
@@ -47,7 +46,6 @@ permalink: /open-source/set-outlooksignatures/
     opacity: 0.5; /* Sets the transparency of the pseudo-element */
   }
 </style>
-
 
 
 
@@ -363,6 +361,8 @@ permalink: /open-source/set-outlooksignatures/
 <h2 id="licenses">Kauf, Verlängerung und Änderung von Lizenzen</h2>
 <h3 id="price">Preis und allgemeine Informationen</h3>
 <p>Set-OutlookSignatures ist kostenlos und quelloffen. Die erweiterten Funktionen des <strong><span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle Add-On</span></strong> kosten <strong>3,00 € pro Postfach und Jahr</strong>, was <strong>0,25 € pro Postfach und Monat</strong> entspricht.</p>
+
+<p>Das Benefactor Circle Add-On ist eine Investition, die sich ab dem ersten Tag rechnet - ganz sicher auf für Sie: <a href="#financial-benefits" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">➔ Kosten-Nutzen-Rechnung, Business Case</a></p>
 
 <p>Wir gestalten die Lizenzkosten so fair wie möglich. Fair bedeutet:</p>
 <ul>
