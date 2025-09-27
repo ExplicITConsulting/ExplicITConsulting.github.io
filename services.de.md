@@ -86,6 +86,19 @@ Wo wir selbst nicht ausreichend helfen können, schließen unsere ausgewählten 
         </ul>
       </div>
     </div>
+    <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
+      <div class="content">
+        <h3>Cloud Governance</h3>
+        <ul>
+          <li>Aufbau und Leitung von Cloud-Governance-Strukturen</li>
+          <li>Festlegen von Richtlinien für Sicherheit, Compliance und Nutzung</li>
+          <li>Definieren von Rollen, Verantwortlichkeiten und Entscheidungswegen</li>
+          <li>Einführung von Betriebsmodellen und Steuerungsprozessen</li>
+          <li>Weitergabe technischer und architektureller Erfahrungen</li>
+          <li>Koordination bereichsübergreifender Cloud-Initiativen</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
 
