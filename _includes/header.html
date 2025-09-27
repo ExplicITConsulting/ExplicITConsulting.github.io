@@ -3,7 +3,7 @@
     <div class="container">
         <div class="navbar-brand">
             <a href="{{ site.baseurl }}/" class="navbar-item has-text-white">
-                <img src="/assets/images/explicit consulting, color on transparent, company only.png" alt="ExplicIT">
+                <img src="/assets/images/set-outlooksignatures logo 500px.png" alt="Set-OutlookSignatures">
             </a>
 
             <div class="navbar-item ml-auto mr-0 has-text-white is-hidden-desktop is-hidden-tablet">
@@ -78,6 +78,13 @@
                         {%- endfor -%}
                     </span>
                 </div>
+
+                {% if site.gh_sponsor and page.hide_gh_sponsor != true%}
+                <a class="navbar-item has-text-white no-external-link-icon"
+                    href="https://github.com/sponsors/{{ site.gh_sponsor }}" aria-label="Sponsor">
+                    ❤️ Sponsor
+                </a>
+                {% endif %}
             </div>
         </div>
     </div>
