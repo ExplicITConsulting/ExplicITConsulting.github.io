@@ -3,19 +3,19 @@ layout: page
 lang: de
 locale: de
 title: Welche Lücke dürfen wir für Sie schließen?
-subtitle: Wir helfen Ihnen, auf individueller, Team- und Unternehmensebene erfolgreich zu sein
+subtitle: Erfolg für Sie, Ihr Team und Ihr Unternehmen
 hero_link: "/contact"
 hero_link_text: "<span><b>➔ Kontaktieren Sie uns</b></span>"
 hero_link_style: |
    style="background-color: LimeGreen;"
-description: Welche Lücke dürfen wir für Sie schließen? Wir helfen Ihnen, auf individueller, Team- und Unternehmensebene erfolgreich zu sein
+description: Welche Lücke dürfen wir für Sie schließen? Erfolg für Sie, Ihr Team und Ihr Unternehmen.
 page_id: "services"
 permalink: /services/
 ---
 ## Wofür wir stehen
 ExplicIT steht für spezifische, klare und detaillierte IT-Beratung.<br>Mutig und zukunftsorientiert, immer realistisch und ohne Dampfplauderei.<br>Wir schließen Lücken, mit unseren Köpfen in den Wolken und unseren Füßen am Boden.
 
-Wir helfen Ihnen, auf individueller, Team- und Unternehmensebene erfolgreich zu sein.
+Wir schaffen Erfolg für Sie, Ihr Team und Ihr Unternehmen.
 
 Ob wir dies im Hintergrund oder für alle sichtbar tun: Vertrauenswürdigkeit und Vermittlung zwischen Führungsebenen, Fachabteilungen und IT stehen stets im Mittelpunkt unserer Dienstleistungen.
 

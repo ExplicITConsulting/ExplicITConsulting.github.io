@@ -17,7 +17,7 @@ sitemap: false
 
 
 <h2>Innovation vorantreiben, Exzellenz liefern</h2>
-<p>Wir unterstützen Sie dabei, auf individueller Ebene, im Team und als Unternehmen erfolgreich zu sein. Ob im Hintergrund oder sichtbar für alle: Vertrauenswürdigkeit und Vermittlung zwischen Managementebenen, Fachabteilungen und IT stehen stets im Mittelpunkt unserer Leistungen.</p>
+<p>Wir schaffen Erfolg für Sie, Ihr Team und Ihr Unternehmen. Ob im Hintergrund oder sichtbar für alle: Vertrauenswürdigkeit und Vermittlung zwischen Managementebenen, Fachabteilungen und IT stehen stets im Mittelpunkt unserer Leistungen.</p>
 
 <p>Hinter jeder Erfolgsgeschichte steht ein engagiertes Team – und bei ExplicIT ist das nicht anders. Wir sind stolz auf die talentierten Persönlichkeiten, die unsere Werte verkörpern und mit Leben füllen. Lernen Sie einige der Menschen kennen, die sich mit Leidenschaft für Innovation und Exzellenz einsetzen.</p>
 

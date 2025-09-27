@@ -17,7 +17,7 @@ sitemap: false
 
 
 <h2>Driving innovation, delivering excellence</h2>
-<p>We help you to be successful on an individual, team and company level. Whether we do this in the background or for all to see: Trustworthiness and mediation between management levels, specialist departments and IT are always at the heart of our services.</p>
+<p>We create success for you, your team, and your company. Whether we do this in the background or for all to see: Trustworthiness and mediation between management levels, specialist departments and IT are always at the heart of our services.</p>
 
 <p>Every success story has a dedicated team behind it, and ours is no exception. At ExplicIT, we are proud of the talented individuals who embody our values and bring them to life. Discover some of the people who are committed to innovation and excellence in everything we do.</p>
 
