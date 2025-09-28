@@ -1,4 +1,4 @@
-- name: "Unsere Leistungen"
+- name: "Leistungen"
   link: /services
 - name: "Open Source"
   dropdown:
