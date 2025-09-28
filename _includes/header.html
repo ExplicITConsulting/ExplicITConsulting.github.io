@@ -34,8 +34,8 @@
             <div class="navbar-start">
                 <!-- <a href="{{ site.baseurl }}/" class="navbar-item has-text-white {% if page.url == "/" %}is-active{% endif %}">Features</a> -->
 
-                {% if site.data["navigation." | append: site.active_lang] %}
-                    {% for item in site.data["navigation." | append: site.active_lang] %}
+                {% if site.data | index: ("navigation." | append: site.active_lang) %}
+                    {% for item in site.data | index: ("navigation." | append: site.active_lang) %}
                         {% if item.dropdown %}
                             <div
                                 class="navbar-item has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
