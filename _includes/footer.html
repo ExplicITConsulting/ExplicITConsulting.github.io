@@ -1,13 +1,12 @@
 <footer class="footer has-background-inherit mt-0 pt-0">
     {%- if site.footer_menu -%}
         <p class="has-text-centered is-small">
-        {% assign data_key = "footer_menu." | append: (site.active_lang | default: site.default_lang) %}
-            {%- for item in site.data | index: data_key -%}
-                <a href="{{ item.link | relative_url }}">{{ item.name }}</a>
-                {%- unless forloop.last -%}
-                    <span> | </span>
-                {%- endunless -%}
-            {%- endfor -%}
+        {%- for item in site.data[site.active_lang].footer_menu -%}
+            <a href="{{ item.link | relative_url }}">{{ item.name }}</a>
+            {%- unless forloop.last -%}
+                <span> | </span>
+            {%- endunless -%}
+        {%- endfor -%}
         </p>
     {%- endif -%}
 

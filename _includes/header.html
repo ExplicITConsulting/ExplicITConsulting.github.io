@@ -33,9 +33,8 @@
         <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
             <div class="navbar-start">
                 <!-- <a href="{{ site.baseurl }}/" class="navbar-item has-text-white {% if page.url == "/" %}is-active{% endif %}">Features</a> -->
-                {% assign data_key = "navigation." | append: (site.active_lang | default: site.default_lang) %}
-                {% if site.data | index: data_key %}
-                    {% for item in site.data | index: data_key %}
+                {% if site.data[site.active_lang].navigation %}
+                    {% for item in site.data[site.active_lang].navigation %}
                         {% if item.dropdown %}
                             <div
                                 class="navbar-item has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
