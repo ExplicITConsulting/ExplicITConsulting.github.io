@@ -18,7 +18,7 @@ url: "https://explicitconsulting.at" # the base hostname & protocol for your sit
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "ExplicITConsulting/ExplicITConsulting.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 favicon: "/assets/images/explicit consulting, color on black, favicon.png"
-navbar_logo: "assets/images/explicit consulting, color on transparent, company only.png"
+navbar_logo: "/assets/images/explicit consulting, color on transparent, company only.png"
 navbar_logo_alt: "ExplicIT"
 force_theme: #light
 
