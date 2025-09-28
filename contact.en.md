@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Let's get and stay in contact
+title: Get in touch and stay connected
 subtitle: Email, request a call-back, postal address
-description: Email, request a call-back, postal address
+description: Get in touch and stay connected. Email, request a call-back, postal address.
 page_id: "contact"
 permalink: /contact/
 ---
