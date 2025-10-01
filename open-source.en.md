@@ -10,7 +10,7 @@ description: Adding professional services on top
 page_id: "open-source"
 permalink: /open-source/
 ---
-## ExplicIT enhances open-source software
+<h2 id="enhance-opensource">ExplicIT enhances open-source software</h2>
 <div class="columns">
   <div class="column">
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">

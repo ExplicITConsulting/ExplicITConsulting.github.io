@@ -12,7 +12,7 @@ description: Welche Lücke dürfen wir für Sie schließen? Erfolg für Sie, Ihr
 page_id: "services"
 permalink: /services/
 ---
-## Wofür wir stehen
+<h2 id="what-we-stand-for">Wofür wir stehen</h2>
 ExplicIT steht für spezifische, klare und detaillierte IT-Beratung.<br>Mutig und zukunftsorientiert, immer realistisch und ohne Dampfplauderei.<br>Wir schließen Lücken, mit unseren Köpfen in den Wolken und unseren Füßen am Boden.
 
 Wir schaffen Erfolg für Sie, Ihr Team und Ihr Unternehmen.
@@ -21,7 +21,7 @@ Ob wir dies im Hintergrund oder für alle sichtbar tun: Vertrauenswürdigkeit un
 
 Wo wir selbst nicht ausreichend helfen können, schließen unsere ausgewählten Partner die Lücke.
 
-## Lücken, die wir für Sie schließen können
+<h2 id="gaps-we-bridge">Lücken, die wir für Sie schließen können</h2>
 <div class="columns">
   <div class="column">
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
@@ -102,5 +102,5 @@ Wo wir selbst nicht ausreichend helfen können, schließen unsere ausgewählten 
   </div>
 </div>
 
-## Kontaktieren Sie uns
+<h2 id="contact">Kontaktieren Sie uns</h2>
 <a href="/contact" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Kontaktieren Sie uns bei Fragen oder für ein individuelles Angebot.</a>

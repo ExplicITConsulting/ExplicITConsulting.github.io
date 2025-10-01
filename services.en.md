@@ -10,7 +10,7 @@ description: Which gap can we bridge for you? Success for you, your team, and yo
 page_id: "services"
 permalink: /services/
 ---
-## What we stand for
+<h2 id="what-we-stand-for">What we stand for</h2>
 ExplicIT stands for specific, clear and detailed IT consulting.<br>Bold and future-oriented, always realistic and without steam talk.<br>We bridge gaps, with our heads in the sky and our feet on the ground.
 
 We create success for you, your team, and your company.
@@ -19,7 +19,7 @@ Whether we do this in the background or for all to see: Trustworthiness and medi
 
 Where we cannot help well enough ourselves, our select partners fill the gap.
 
-## Gaps we can bridge for you
+<h2 id="gaps-we-bridge">Gaps we can bridge for you</h2>
 <div class="columns">
   <div class="column">
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
@@ -100,5 +100,5 @@ Where we cannot help well enough ourselves, our select partners fill the gap.
   </div>
 </div>
 
-## Contact us
+<h2 id="contact">Contact us</h2>
 <a href="/contact" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Contact us for questions and a customized quote</a>

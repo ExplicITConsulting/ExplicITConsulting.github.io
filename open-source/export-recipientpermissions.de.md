@@ -30,7 +30,7 @@ permalink: /open-source/export-recipientpermissions/
   </div>
 </div>
 
-## Funktionen
+<h2 id="features">Funktionen</h2>
 <div class="columns">
   <div class="column">
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
@@ -78,7 +78,7 @@ permalink: /open-source/export-recipientpermissions/
   </div>
 </div>
 
-## Was bietet ExplicIT Consulting darüber hinaus?
+<h2 id="added-value">Was bietet ExplicIT Consulting darüber hinaus?</h2>
 ExplicIT Consulting bietet professionellen Support für Export-RecipientPermissions: Beratung, Unterstützung bei der Implementierung, Funktions­erweiterungen, Fehleranalyse und mehr.
 
 Sie erwerben nicht nur Support, sondern Zugriff auf unser umfassendes Expertenwissen als **Hersteller, Implementierer und Berater**.  

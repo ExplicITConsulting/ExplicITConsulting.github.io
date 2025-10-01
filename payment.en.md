@@ -7,12 +7,12 @@ page_id: "payment"
 permalink: /payment/
 ---
 
-<h2>Standard method of payment: Bank transfer</h2>
+<h2 id="standard-method">Standard method of payment: Bank transfer</h2>
 <p>Most of our clients prefer to pay via bank transfer.</p>
 
 <p>You find all information to globally and uniquely identify our bank account on our quotations and invoices: The International Bank Account Number (IBAN) and the Bank Identifier Code (BIC).</p>
 
-<h2>Other methods of payment</h2>
+<h2 id="other-methods">Other methods of payment</h2>
 <p>Bank transfer is not an option for you? We offer a wide range of other methods of payment, depending on your home country: Alipay, American Express, Apple Pay, Bancontact, BLIK, China UnionPay, Diners Club, Discover, EPS, giropay, Google Pay, iDEAL, Link, Mastercard, MobilePay, Multibanco, P24, PayPal, SEPA Direct Debit, Swish, TWINT, Visa, WeChat Pay, and more.</p>
 
 <p>Click on the "Pay using Stripe" button below to see which methods of payment are available in your country.</p>
