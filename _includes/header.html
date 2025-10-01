@@ -60,12 +60,12 @@
 
             <div class="navbar-end">
                 <a class="navbar-item has-text-white" href="/search" aria-label="Search">
-                    <span>🔍︎ {{ site.data[site.active_lang].strings.search }}</span>
+                    <span>🔍︎&nbsp;{{ site.data[site.active_lang].strings.search }}</span>
                 </a>
 
                 <div class="navbar-item has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}" id="language-switcher">
                     <a class="navbar-link has-text-white">
-                        🌐
+                        🌐&nbsp;
                         {%- assign page_path_without_anchor = page.url | split: '#' | first -%}
                         {%- assign active_tongue = site.active_lang -%}
                         {{ active_tongue | upcase }}
