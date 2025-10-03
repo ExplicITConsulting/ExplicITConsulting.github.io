@@ -127,25 +127,37 @@ h6:hover .anchor-link {
 }
 
 @keyframes pulse {
-  0% {
+  0%,
+  75%,
+  100% {
+    /* Idle state: 0% (start), 75% (end of waiting), and 100% (end of cycle) */
     transform: scale(1);
     box-shadow: none;
-    filter: brightness(100%); /* Start with no brightness change */
+    filter: brightness(100%);
   }
-  50% {
+  87.5% {
+    /* Peak of the pulse: Happens between 75% and 100% */
     transform: scale(0.95);
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
-    filter: brightness(125%); /* Apply the brightness at the midpoint */
-  }
-  100% {
-    transform: scale(1);
-    box-shadow: none;
-    filter: brightness(100%); /* Return to normal brightness */
+    filter: brightness(125%);
   }
 }
 
-.animated-now {
-  animation: pulse 1s ease-in-out forwards;
+.button {
+  cursor: pointer;
+
+  /* Reset optimization hints since stagger is gone */
+  will-change: auto;
+  animation-play-state: running;
+
+  /* Set the animation back to 5 seconds to repeat the cycle every 5s */
+  animation-name: pulse;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+
+  /* No delay, so all buttons animate at the same time */
+  animation-delay: 0s;
 }
 
 .scrolling-banner {
@@ -204,4 +216,3 @@ a.mtrcs-external-link:not(.no-external-link-icon)::after {
   font-size: 0.8em;
   vertical-align: top;
 }
-
