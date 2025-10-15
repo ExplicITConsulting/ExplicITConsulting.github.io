@@ -48,7 +48,6 @@ permalink: /open-source/set-outlooksignatures/
 </style>
 
 
-
 <h2 id="sustainable-value">Nachhaltiger Mehrwert für Ihr Unternehmen</h2>
 <p>Das <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle Add-On</span> von <a href="https://explicitconsulting.at">ExplicIT Consulting</a> erweitert das kostenlose Set-OutlookSignatures um großartige zusätzliche Möglichkeiten für Ihr Unternehmen.</p>
 
@@ -77,7 +76,7 @@ permalink: /open-source/set-outlooksignatures/
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
       <div style="hyphens: manual;">
-        <b>Signaturen für automatisch zugeordnete und zusätzliche Postfächer</b>
+        <b>Signaturen für automatisch zugeordnete und zusätzliche Postfächer</b><br>Decken Sie Delegations-Szenarien und Shared Mailboxes ab.
       </div>
     </div>
   </div>
@@ -149,7 +148,7 @@ permalink: /open-source/set-outlooksignatures/
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
       <div style="hyphens: manual;">
-        <b>Löschen benutzererstellter Signaturen</b>
+        <b>Löschen benutzererstellter Signaturen</b><br>Für maximale Kontrolle.
       </div>
     </div>
   </div>
@@ -167,7 +166,7 @@ permalink: /open-source/set-outlooksignatures/
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
       <div style="hyphens: manual;">
-        <b>Hochauflösende Bilder aus DOCX-Vorlagen</b>
+        <b>Hochauflösende Bilder aus DOCX-Vorlagen</b><br>Für gestochen scharfe Banner und Bilder.
       </div>
     </div>
   </div>
@@ -176,7 +175,7 @@ permalink: /open-source/set-outlooksignatures/
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
       <div style="hyphens: manual;">
-        <b>Entfernen des Hinweistextes,</b><br>der von der freien und quelloffenen Version am Ende der Signaturen hinzugefügt wird.
+        <b>Entfernen des Hinweistextes,</b><br>Entfernen Sie den an Signaturen angehängten Hinweis 'Free and open-source Set-OutlookSignatures'.
       </div>
     </div>
   </div>
