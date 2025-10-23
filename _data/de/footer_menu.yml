@@ -1,6 +1,6 @@
 # Individual footer menu items
 - name: "Kontakt"
-  link: /contact
+  link: /contact/
 - name: LinkedIn
   link: https://www.linkedin.com/company/explicit-consulting-gmbh
 - name: "Rechtliches"

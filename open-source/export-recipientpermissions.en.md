@@ -6,7 +6,7 @@ hero_link: "https://github.com/GruberMarkus/export-recipientpermissions"
 hero_link_text: "<span><b>➔ Download Export-RecipientPermissions</b></span>"
 hero_link_style: |
    style="background-color: LimeGreen;"
-hero_link2: "/contact"
+hero_link2: "/contact/"
 hero_link2_text: "<span><b>➔ Contact us</b></span>"
 hero_link2_style: |
    style="background-color: LimeGreen;"
@@ -90,4 +90,4 @@ This makes our support an **investment in your team’s expertise**, delivering 
 
 For all other issues, you will receive the same first-class support at a fair price.
 
-<a href="/contact" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Contact us for questions and a customized quote</a>
+<a href="/contact/" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Contact us for questions and a customized quote</a>

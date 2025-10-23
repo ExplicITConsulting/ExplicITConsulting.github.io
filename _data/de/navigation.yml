@@ -1,5 +1,5 @@
 - name: "Leistungen"
-  link: /services
+  link: /services/
 - name: "Open Source"
   dropdown:
   - name: "Support für Open-Source-Software"
@@ -11,16 +11,16 @@
     link: /open-source/set-outlooksignatures/
 - name: |
     <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Set-OutlookSignatures Benefactor Circle</span>
-  link: /open-source/set-outlooksignatures
+  link: /open-source/set-outlooksignatures/
 - name: Ressourcen
   dropdown:
   - name: Support-Bedingungen
-    link: /support-terms
+    link: /support-terms/
   - name: Zahlungsoptionen
-    link: /payment
+    link: /payment/
   - name: Kontakt
-    link: /contact
+    link: /contact/
   # - name: Unser Team
-  #   link: /team
+  #   link: /team/
   - name: Rechtliches
-    link: /legal
+    link: /legal/
