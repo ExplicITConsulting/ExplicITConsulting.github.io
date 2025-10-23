@@ -55,4 +55,4 @@ Support ist Montag bis Freitag (österreichische Werktage) per E-Mail und Rückr
 
 <h2 id="terms">Allgemeine Geschäftsbedingungen</h2>
 
-Unsere [Allgemeinen Geschäftsbedingungen](/legal) gelten in vollem Umfang und ohne Änderungen.
+Unsere [Allgemeinen Geschäftsbedingungen](/legal/) gelten in vollem Umfang und ohne Änderungen.

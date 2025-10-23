@@ -53,4 +53,4 @@ Support is available Monday to Friday (Austrian business days) via email and cal
 
 <h2 id="terms">General Terms and Conditions</h2>
 
-Our [General Terms and Conditions](/legal) apply in full and without amendment.
+Our [General Terms and Conditions](/legal/) apply in full and without amendment.
