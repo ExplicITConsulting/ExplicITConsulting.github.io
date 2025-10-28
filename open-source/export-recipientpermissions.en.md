@@ -18,6 +18,8 @@ image:
   alt: "Export-RecipientPermissions"
 page_id: "export-recipientpermissions"
 permalink: /open-source/export-recipientpermissions/
+sitemap_priority: 1.0
+sitemap_changefreq: weekly
 ---
 <div class="columns">
   <div class="column is-one-third">

@@ -9,6 +9,8 @@ hero_link_style: |
 description: Professional Support Terms.
 page_id: "support-terms"
 permalink: /support-terms/
+sitemap_priority: 0.5
+sitemap_changefreq: monthly
 ---
 
 <h2 id="support-promise">Our Support Promise</h2>

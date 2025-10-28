@@ -9,6 +9,8 @@ hero_link_style: |
 description: Adding professional services on top
 page_id: "open-source"
 permalink: /open-source/
+sitemap_priority: 0.5
+sitemap_changefreq: weekly
 ---
 <h2 id="enhance-opensource">ExplicIT enhances open-source software</h2>
 <div class="columns">

@@ -5,6 +5,8 @@ subtitle: Bank transfer and other methods of payment
 description: Bank transfer and other methods of payment
 page_id: "payment"
 permalink: /payment/
+sitemap_priority: 0.5
+sitemap_changefreq: yearly
 ---
 
 <h2 id="standard-method">Standard method of payment: Bank transfer</h2>

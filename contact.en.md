@@ -5,6 +5,8 @@ subtitle: Email, request a call-back, postal address
 description: Get in touch and stay connected. Email, request a call-back, postal address.
 page_id: "contact"
 permalink: /contact/
+sitemap_priority: 0.5
+sitemap_changefreq: yearly
 ---
 
 <h2 id="general">General inquiries</h2>

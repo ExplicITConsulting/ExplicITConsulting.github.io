@@ -11,6 +11,8 @@ image:
   alt: "Set-OutlookSignatures Benefactor Circle"
 page_id: "set-outlooksignatures"
 permalink: /open-source/set-outlooksignatures/
+sitemap_priority: 1.0
+sitemap_changefreq: weekly
 ---
 <div class="columns">
   <div class="column is-one-quarter">

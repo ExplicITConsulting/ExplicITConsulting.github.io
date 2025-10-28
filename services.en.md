@@ -9,6 +9,8 @@ hero_link_style: |
 description: Which gap can we bridge for you? Success for you, your team, and your company.
 page_id: "services"
 permalink: /services/
+sitemap_priority: 0.5
+sitemap_changefreq: monthly
 ---
 <h2 id="what-we-stand-for">What we stand for</h2>
 ExplicIT stands for specific, clear and detailed IT consulting.<br>Bold and future-oriented, always realistic and without steam talk.<br>We bridge gaps, with our heads in the sky and our feet on the ground.

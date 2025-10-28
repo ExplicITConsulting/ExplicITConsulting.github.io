@@ -11,6 +11,8 @@ hero_link_style: |
 description: Open-Source-Software. Mehrwert durch professionelle Services.
 page_id: "open-source"
 permalink: /open-source/
+sitemap_priority: 0.5
+sitemap_changefreq: weekly
 ---
 <h2 id="enhance-opensource">ExplicIT verbessert Open-Source-Software</h2>
 <div class="columns">

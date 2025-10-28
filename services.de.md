@@ -11,6 +11,8 @@ hero_link_style: |
 description: Welche Lücke dürfen wir für Sie schließen? Erfolg für Sie, Ihr Team und Ihr Unternehmen.
 page_id: "services"
 permalink: /services/
+sitemap_priority: 0.5
+sitemap_changefreq: monthly
 ---
 <h2 id="what-we-stand-for">Wofür wir stehen</h2>
 ExplicIT steht für spezifische, klare und detaillierte IT-Beratung.<br>Mutig und zukunftsorientiert, immer realistisch und ohne Dampfplauderei.<br>Wir schließen Lücken, mit unseren Köpfen in den Wolken und unseren Füßen am Boden.

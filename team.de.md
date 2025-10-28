@@ -13,6 +13,8 @@ image:
 page_id: "team"
 permalink: /team/
 sitemap: false
+sitemap_priority: 0.3
+sitemap_changefreq: monthly
 ---
 
 
