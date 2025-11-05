@@ -6,7 +6,7 @@ title: What are you looking for?
 subtitle: Find it here
 description: What are you looking for? Find it here.
 page_id: "search"
-permalink: /search/
+permalink: /search
 sitemap_priority: 0.8
 sitemap_changefreq: weekly
 ---

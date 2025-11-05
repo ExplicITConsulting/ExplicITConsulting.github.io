@@ -12,7 +12,7 @@ image:
   width: 630
   alt: "Set-OutlookSignatures Benefactor Circle"
 page_id: "set-outlooksignatures"
-permalink: /open-source/set-outlooksignatures/
+permalink: /open-source/set-outlooksignatures
 sitemap_priority: 1.0
 sitemap_changefreq: weekly
 ---
@@ -361,7 +361,7 @@ sitemap_changefreq: weekly
 
 <h2 id="licenses">Kauf, Verlängerung und Änderung von Lizenzen</h2>
 <h3 id="price">Preis und allgemeine Informationen</h3>
-<p>Set-OutlookSignatures ist vollständig kostenlos. Ursprünglich als Technologie-Demonstrator für Scripting-Techniken geschaffen, hat sich das Tool zur fortschrittlichsten und vielseitigsten kostenlosen Open-Source-Lösung für die Verwaltung von E-Mail-Signaturen und Abwesenheitsnotizen entwickelt. Mehr über die Entstehungsgeschichte und die dahinterstehenden Absichten erfahren Sie <a href="https://set-outlooksignatures.com/faq/#351-why-the-tagline">hier</a>.</p>
+<p>Set-OutlookSignatures ist vollständig kostenlos. Ursprünglich als Technologie-Demonstrator für Scripting-Techniken geschaffen, hat sich das Tool zur fortschrittlichsten und vielseitigsten kostenlosen Open-Source-Lösung für die Verwaltung von E-Mail-Signaturen und Abwesenheitsnotizen entwickelt. Mehr über die Entstehungsgeschichte und die dahinterstehenden Absichten erfahren Sie <a href="https://set-outlooksignatures.com/faq#351-why-the-tagline">hier</a>.</p>
 
 <p>Das <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle Add-On</span> schaltet erweiterte Funktionen frei und ist für <strong>nur 3.00 € pro Postfach und Jahr</strong> erhältlich, das entspricht <strong>lediglich 0.25 € pro Postfach und Monat</strong>.</p>
 
@@ -520,4 +520,4 @@ Lizenzen sind ein Jahr lang gültig, beginnend mit dem Datum des vollständigen 
   <li>Wie Sie erstklassigen Support erhalten</li>
 </ul>
 
-<p><a href="https://set-outlooksignatures.com/help/" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-color: LimeGreen">Hilfe- und Support-Center</a></p>
+<p><a href="https://set-outlooksignatures.com/help" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-color: LimeGreen">Hilfe- und Support-Center</a></p>

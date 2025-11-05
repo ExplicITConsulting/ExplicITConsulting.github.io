@@ -10,7 +10,7 @@ hero_link_style: |
    style="background-color: LimeGreen;"
 description: Bedingungen für professionellen Support.
 page_id: "support-terms"
-permalink: /support-terms/
+permalink: /support-terms
 sitemap_priority: 0.5
 sitemap_changefreq: monthly
 ---
@@ -57,4 +57,4 @@ Support ist Montag bis Freitag (österreichische Werktage) per E-Mail und Rückr
 
 <h2 id="terms">Allgemeine Geschäftsbedingungen</h2>
 
-Unsere [Allgemeinen Geschäftsbedingungen](/legal/) gelten in vollem Umfang und ohne Änderungen.
+Unsere [Allgemeinen Geschäftsbedingungen](/legal) gelten in vollem Umfang und ohne Änderungen.

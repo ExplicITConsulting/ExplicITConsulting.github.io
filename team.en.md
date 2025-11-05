@@ -11,7 +11,7 @@ image:
   width: 630
   alt: "Set-OutlookSignatures Benefactor Circle"
 page_id: "team"
-permalink: /team/
+permalink: /team
 sitemap: false
 sitemap_priority: 0.3
 sitemap_changefreq: monthly

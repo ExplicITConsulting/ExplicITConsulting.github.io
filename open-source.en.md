@@ -2,13 +2,13 @@
 layout: page
 title: Open-Source Software
 subtitle: Adding professional services on top
-hero_link: "/contact/"
+hero_link: "/contact"
 hero_link_text: "<span><b>➔ Contact us</b></span>"
 hero_link_style: |
    style="background-color: LimeGreen;"
 description: Adding professional services on top
 page_id: "open-source"
-permalink: /open-source/
+permalink: /open-source
 sitemap_priority: 0.5
 sitemap_changefreq: weekly
 ---
@@ -18,7 +18,7 @@ sitemap_changefreq: weekly
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Professional support</h3>
-        <p>We offer professional support for select open-source software, such as for <a href="/open-source/export-recipientpermissions/">Export-RecipientPermissions</a> and <a href="/open-source/set-outlooksignatures/">Set-OutlookSignatures</a>.</p>
+        <p>We offer professional support for select open-source software, such as for <a href="/open-source/export-recipientpermissions">Export-RecipientPermissions</a> and <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures</a>.</p>
       </div>
     </div>
   </div>
@@ -26,7 +26,7 @@ sitemap_changefreq: weekly
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Add-on development</h3>
-        <p>We develop private and commercial add-ons for open-source software, for example the <a href="/open-source/set-outlooksignatures/">Set-OutlookSignatures Benefactor Circle</a> add-on.</p>
+        <p>We develop private and commercial add-ons for open-source software, for example the <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures Benefactor Circle</a> add-on.</p>
       </div>
     </div>
   </div>

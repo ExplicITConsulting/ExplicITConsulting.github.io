@@ -8,7 +8,7 @@ hero_link_style: |
    style="background-color: LimeGreen;"
 description: Professional Support Terms.
 page_id: "support-terms"
-permalink: /support-terms/
+permalink: /support-terms
 sitemap_priority: 0.5
 sitemap_changefreq: monthly
 ---
@@ -55,4 +55,4 @@ Support is available Monday to Friday (Austrian business days) via email and cal
 
 <h2 id="terms">General Terms and Conditions</h2>
 
-Our [General Terms and Conditions](/legal/) apply in full and without amendment.
+Our [General Terms and Conditions](/legal) apply in full and without amendment.

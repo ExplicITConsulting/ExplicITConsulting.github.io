@@ -2,13 +2,13 @@
 layout: page
 title: Which gap can we bridge for you?
 subtitle: Success for you, your team, and your company
-hero_link: "/contact/"
+hero_link: "/contact"
 hero_link_text: "<span><b>➔ Contact us</b></span>"
 hero_link_style: |
    style="background-color: LimeGreen;"
 description: Which gap can we bridge for you? Success for you, your team, and your company.
 page_id: "services"
-permalink: /services/
+permalink: /services
 sitemap_priority: 0.5
 sitemap_changefreq: monthly
 ---
@@ -29,8 +29,8 @@ Where we cannot help well enough ourselves, our select partners fill the gap.
         <h3>Support for Open-Source software</h3>
         <ul>
           <li>We sponsor select open-source software and donate code.</li>
-          <li>We offer professional support for select open-source software, such as for <a href="/open-source/export-recipientpermissions/">Export-RecipientPermissions</a>.</li>
-          <li>We develop private and commercial add-ons for open-source software, for example the <a href="/open-source/set-outlooksignatures/">Set-OutlookSignatures Benefactor Circle</a> add-on. </li>
+          <li>We offer professional support for select open-source software, such as for <a href="/open-source/export-recipientpermissions">Export-RecipientPermissions</a>.</li>
+          <li>We develop private and commercial add-ons for open-source software, for example the <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures Benefactor Circle</a> add-on. </li>
         </ul>
       </div>
     </div>
@@ -103,4 +103,4 @@ Where we cannot help well enough ourselves, our select partners fill the gap.
 </div>
 
 <h2 id="contact">Contact us</h2>
-<a href="/contact/" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Contact us for questions and a customized quote</a>
+<a href="/contact" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Contact us for questions and a customized quote</a>
