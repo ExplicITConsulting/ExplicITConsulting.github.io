@@ -1,5 +1,7 @@
 ---
 layout: page
+lang: en
+locale: en
 title: |
   Set-OutlookSignatures and the <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle add-on</span>
 subtitle: Email signatures and out-of-office replies for Exchange and Outlook.<br>Full-featured, cost-effective, unsurpassed data privacy.
@@ -35,8 +37,8 @@ sitemap_changefreq: weekly
     position: fixed;
     bottom: 0;
     right: 0;
-    width: 33.3vw; /* Sets the width of the pseudo-element to 33.3% of the viewport width */
-    height: 50vh; /* Sets the height of the pseudo-element to 50% of the viewport height, acting as the max-height for the image */
+    width: 25vw;
+    height: 33vh;
     background-image: url("/assets/images/visitenkarten-hochkant.png");
     background-repeat: no-repeat; /* Prevents the background image from repeating */
     background-size: contain; /* Scales the background image to fit within the pseudo-element's dimensions (33.3vw x 50vh) while maintaining its aspect ratio. This ensures it's never taller than 50vh and respects the width preference. */
@@ -53,6 +55,7 @@ sitemap_changefreq: weekly
 <h2 id="sustainable-value">Sustainable added value for your business</h2>
 <p>The <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle add-on</span> from <a href="https://explicitconsulting.at">ExplicIT Consulting</a> enhances the free Set-OutlookSignatures with great additional possibilities for your company.</p>
 
+
 <h3 id="additional-features">Additional features</h3>
 <div class="columns is-multiline">
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
@@ -63,7 +66,6 @@ sitemap_changefreq: weekly
       </div>
     </div>
   </div>
-
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
@@ -72,7 +74,6 @@ sitemap_changefreq: weekly
       </div>
     </div>
   </div>
-
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
@@ -81,7 +82,6 @@ sitemap_changefreq: weekly
       </div>
     </div>
   </div>
-
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
@@ -90,7 +90,6 @@ sitemap_changefreq: weekly
       </div>
     </div>
   </div>
-
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
@@ -99,7 +98,6 @@ sitemap_changefreq: weekly
       </div>
     </div>
   </div>
-
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
@@ -108,7 +106,6 @@ sitemap_changefreq: weekly
       </div>
     </div>
   </div>
-
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
@@ -117,7 +114,6 @@ sitemap_changefreq: weekly
       </div>
     </div>
   </div>
-
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
@@ -126,7 +122,6 @@ sitemap_changefreq: weekly
       </div>
     </div>
   </div>
-
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
@@ -135,7 +130,6 @@ sitemap_changefreq: weekly
       </div>
     </div>
   </div>
-
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
@@ -144,7 +138,6 @@ sitemap_changefreq: weekly
       </div>
     </div>
   </div>
-
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
@@ -153,7 +146,6 @@ sitemap_changefreq: weekly
       </div>
     </div>
   </div>
-
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
@@ -162,7 +154,6 @@ sitemap_changefreq: weekly
       </div>
     </div>
   </div>
-
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
@@ -171,7 +162,6 @@ sitemap_changefreq: weekly
       </div>
     </div>
   </div>
-
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
@@ -180,7 +170,6 @@ sitemap_changefreq: weekly
       </div>
     </div>
   </div>
-
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
@@ -190,6 +179,7 @@ sitemap_changefreq: weekly
     </div>
   </div>
 </div>
+
 
 <h3 id="prioritized-support">Prioritized support</h3>
 <div class="columns is-multiline">
@@ -201,7 +191,6 @@ sitemap_changefreq: weekly
       </div>
     </div>
   </div>
-
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
@@ -210,7 +199,6 @@ sitemap_changefreq: weekly
       </div>
     </div>
   </div>
-
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
@@ -220,6 +208,7 @@ sitemap_changefreq: weekly
     </div>
   </div>
 </div>
+
 
 <h3 id="free-upgrades">Free version upgrades and archive</h3>
 <div class="columns is-multiline">
@@ -231,7 +220,6 @@ sitemap_changefreq: weekly
       </div>
     </div>
   </div>
-
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
@@ -256,7 +244,6 @@ sitemap_changefreq: weekly
       </div>
     </div>
   </div>
-
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
@@ -265,7 +252,6 @@ sitemap_changefreq: weekly
       </div>
     </div>
   </div>
-
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
@@ -284,7 +270,6 @@ sitemap_changefreq: weekly
       <p><a href="https://outlook.cloud.microsoft/book/demo.set-outlooksignatures@explicitconsulting.at" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="min-height: 4em; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod);">Schedule your personal demo now</a></p>
     </div>
   </div>
-
   <div class="column is-two-thirds-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <div class="scrolling-banner">
@@ -299,7 +284,7 @@ sitemap_changefreq: weekly
 
 <div class="columns">
   <div class="column is-two-thirds-desktop is-half-tablet is-full-mobile">
-    <p>If you’d like to start with the basics and appreciate a down-to-earth approach, our demo video offers a compact overview of the key features of Set-OutlookSignatures – based on a real-world example, straightforward, practical, and without much staging.</p>
+    <p>If you'd like to start with the basics and appreciate a down-to-earth approach, our demo video offers a compact overview of the key features of Set-OutlookSignatures – based on a real-world example, straightforward, practical, and without much staging.</p>
     <p>You will see: Our focus is on the functionality and quality of our software, we're neither marketing professionals nor particularly gifted actors.</p>
   </div>
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
@@ -341,9 +326,7 @@ sitemap_changefreq: weekly
   <p>2 changes per year, 3 minutes per change, 2 signatures, 1 client: 0.55 * 2 * 3 * 2 * 1 = 6.60</p>
 </blockquote>
 
-<p>Per user and year, the costs are now 6.60&nbsp;€ in manual effort compared to 3.00&nbsp;€ for a centrally managed solution with Set-OutlookSignatures and the
-<span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">
-Benefactor Circle add-on</span>.</p>
+<p>Per user and year, the costs are now 6.60&nbsp;€ in manual effort compared to 3.00&nbsp;€ for a centrally managed solution with Set-OutlookSignatures and the <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle add-on</span>.</p>
 
 <p>This calculation does not even take into account the following:</p>
 <ul>
@@ -361,14 +344,17 @@ Benefactor Circle add-on</span>.</p>
 <h2 id="licenses">Buying, extending and changing licenses</h2>
 <h3 id="price">Price and general information</h3>
 <p>Set-OutlookSignatures is completely free of charge. Originally developed as a technology demonstrator for scripting techniques, it has evolved into the most sophisticated and versatile free and open-source tool for managing email signatures and out-of-office replies. You can read more about its history and the intentions behind it <a href="https://set-outlooksignatures.com/faq#351-why-the-tagline">here</a>.</p>
+
 <p>The <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle add-on</span> unlocks advanced features and is available for <strong>only 3.00 € per mailbox per year</strong>, which equals <strong>just 0.25 € per mailbox per month</strong>.</p>
 
-<p>This add-on is an investment that pays off from day one - certainly for you as well: <a href="#financial-benefits" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">Cost-benefit analysis, business case</a></p>
+<p>Thanks to unique features and exclusive manufacturer availability, direct procurement in compliance with legal requirements is generally possible without a public tender.</p>
+
+<p>The add-on is an investment that pays off from day one - certainly for you as well: <a href="#financial-benefits" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">Cost-benefit analysis, business case</a></p>
 
 <p>We keep license costs as fair and transparent as possible:</p>
 <ul>
   <li>Small companies pay the same low price as large enterprises.</li>
-  <li>No bundled maintenance or support contracts hidden in the annual price. You only pay for support if and when you need it - and thanks to our documentation, you likely won’t.</li>
+  <li>No bundled maintenance or support contracts hidden in the annual price. You only pay for support if and when you need it - and thanks to our documentation, you likely won't.</li>
   <li><strong>Our support promise: </strong>If your support request is due to a bug in the latest version of Set-OutlookSignatures, the <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle add-on</span>, its documentation, or the provided components, support is free - no exceptions.
   <br>
   For all other issues, you will receive the same first-class support at a fair price.
@@ -387,15 +373,16 @@ Benefactor Circle add-on</span>.</p>
 
 <p>While a license is active, it includes free version upgrades and prioritization of support requests.</p>
 
+
 <h3 id="trial">Trial version</h3>
 <p>You may want to start with a 14-day trial license.</p>
 
-<p>The <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle add-on</span> extends the feature set of the free and open-source core version of Set-OutlookSignatures, so make sure that the core version is working correctly before requesting a trial version.<br>If you look for help implementing the free and open-source core version of Set-OutlookSignatures, go through the Quick Start Guide in the readme file, open an issue at GitHub, or contact us: We are happy to help you implement Set-OutlookSignatures in your own environment as part of our professional support services.</p>
+<p>The <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle add-on</span> extends the feature set of the free and open-source core version of Set-OutlookSignatures, so make sure that the core version is working correctly before requesting a trial version.<br>
+If you look for help implementing the free and open-source core version of Set-OutlookSignatures, go through the Quick Start Guide in the readme file, open an issue at GitHub, or contact us: We are happy to help you implement Set-OutlookSignatures in your own environment as part of our professional support services.</p>
 
 <p>As soon as the open-source core version is running, it is time to take the next step:</p>
 
-<p><a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">Request a 14-day trial license
-</a></p>
+<p><a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">Request a 14-day trial license</a></p>
 
 <p>To use the license file, just add two parameters to your call of &apos;Set-OutlookSignatures.ps1&apos;:</p>
 <ul>
@@ -484,13 +471,15 @@ Benefactor Circle add-on</span>.</p>
 
 <p>As soon as one of these steps fails, the mailbox is not licensed and <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle</span> features can not be used for it.</p>
 
-<p>You need to make sure that the user running Set-OutlookSignatures is able to resolve all direct and indirect members of all license groups, especially across on-prem AD trusts.<br>Primary group membership (such as in 'Domain Users') is not considered due to Active Directory and Entra ID query restrictions.<br>Dynamic groups are supported when Entra ID is queried, but not when Active Directory is queried.</p>
-
-<p>Only one pure Entra ID group is supported, and it must be the default license group.</p>
-
-<p>The default license group is the first group in the list of license groups. The default group is used for mailboxes not being covered by more specific license groups.</p>
-
-<p>When a connection to Microsoft Graph is available, Graph is used to check license group membership. A connection to Graph is enforced when the default license group is an Entra ID group.</p>
+<p>Please note:<p>
+<ul>
+  <li>You need to make sure that the user running Set-OutlookSignatures is able to resolve all direct and indirect members of all license groups, especially across on-prem AD trusts.<br>Primary group membership (such as in 'Domain Users') is not considered due to Active Directory and Entra ID query restrictions.<br>Dynamic groups are supported when Entra ID is queried, but not when Active Directory is queried.</li>
+  <li>Membership in primary groups (such as "Domain Users") is not considered as this cannot be queried reliably via AD/Entra ID.</li>
+  <li>Dynamic Groups are only supported in Entra ID, not in Active Directory.</li>
+  <li>Only one pure Entra ID group per tenant is supported, and it must be the default license group.</li>
+  <li>The default license group is the first group in the list of license groups. The default group is used for mailboxes not being covered by more specific license groups.</li>
+  <li>When a connection to Microsoft Graph is available, Graph is used to check license group membership. A connection to Graph is enforced when the default license group is an Entra ID group.</li>
+</ul>
 
 
 <h2 id="version-match">License and software version</h2>
