@@ -10,7 +10,8 @@ hero_link_style: |
    style="background-color: LimeGreen;"
 description: Welche Lücke dürfen wir für Sie schließen? Erfolg für Sie, Ihr Team und Ihr Unternehmen.
 page_id: "services"
-permalink: /services
+permalink: "/services"
+redirect_from: "/services/"
 sitemap_priority: 0.5
 sitemap_changefreq: monthly
 ---

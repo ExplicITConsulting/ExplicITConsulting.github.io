@@ -10,7 +10,8 @@ hero_link_style: |
    style="background-color: LimeGreen;"
 description: Open-Source-Software. Mehrwert durch professionelle Services.
 page_id: "open-source"
-permalink: /open-source
+permalink: "/open-source"
+redirect-from: "/open-source/"
 sitemap_priority: 0.5
 sitemap_changefreq: weekly
 ---

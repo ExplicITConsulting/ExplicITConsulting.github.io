@@ -8,4 +8,5 @@ group :jekyll_plugins do
     gem "bulma-clean-theme"
     gem "nokogiri"
     gem "jekyll-seo-tag"
+    gem "jekyll-redirect-from"
 end

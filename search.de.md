@@ -6,7 +6,8 @@ title: Wonach suchen Sie?
 subtitle: Finden Sie es hier
 description: Wonach suchen Sie? Finden Sie es hier.
 page_id: "search"
-permalink: /search
+permalink: "/search"
+redirect_from: "/search/"
 sitemap_priority: 0.8
 sitemap_changefreq: weekly
 ---

@@ -19,7 +19,8 @@ image:
   width: 630
   alt: "Export-RecipientPermissions"
 page_id: "export-recipientpermissions"
-permalink: /open-source/export-recipientpermissions
+permalink: "/open-source/export-recipientpermissions"
+redirect-from: "/open-source/export-recipientpermissions/"
 sitemap_priority: 1.0
 sitemap_changefreq: weekly
 ---

@@ -8,7 +8,8 @@ hero_link_style: |
    style="background-color: LimeGreen;"
 description: Which gap can we bridge for you? Success for you, your team, and your company.
 page_id: "services"
-permalink: /services
+permalink: "/services"
+redirect_from: "/services/"
 sitemap_priority: 0.5
 sitemap_changefreq: monthly
 ---

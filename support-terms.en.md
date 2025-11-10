@@ -8,7 +8,8 @@ hero_link_style: |
    style="background-color: LimeGreen;"
 description: Professional Support Terms.
 page_id: "support-terms"
-permalink: /support-terms
+permalink: "/support-terms"
+redirect_from: "/support-terms/"
 sitemap_priority: 0.5
 sitemap_changefreq: monthly
 ---
