@@ -12,7 +12,7 @@ exclude_from_localization: ["assets", "javascript", "images", "css", "public", "
 parallel_localization: false
 direction: ltr # left to right
 google_analytics: # UA-xxxxxxx
-title: "ExplicIT"
+title:
 description: "We bridge the gap between strategy and execution"
 url: "https://explicitconsulting.at" # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. "/blog"
