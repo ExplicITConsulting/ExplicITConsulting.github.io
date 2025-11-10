@@ -5,9 +5,9 @@ locale: de
 title: Kontakt aufnehmen und in Verbindung bleiben
 subtitle: E-Mail, Rückruf anfordern, Postadresse
 description: Kontakt aufnehmen und in Verbindung bleiben. E-Mail, Rückruf anfordern, Postadresse.
-page_id: "contact"
 permalink: "/contact"
-redirect-from: "/contact/"
+redirect-from:
+  - "/contact/"
 sitemap_priority: 0.5
 sitemap_changefreq: yearly
 ---

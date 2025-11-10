@@ -7,7 +7,6 @@ hero_link_text: "<span><b>➔ Request professional support</b></span>"
 hero_link_style: |
    style="background-color: LimeGreen;"
 description: Professional Support Terms.
-page_id: "support-terms"
 permalink: "/support-terms"
 redirect_from: "/support-terms/"
 sitemap_priority: 0.5

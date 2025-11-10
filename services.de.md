@@ -9,7 +9,6 @@ hero_link_text: "<span><b>➔ Kontaktieren Sie uns</b></span>"
 hero_link_style: |
    style="background-color: LimeGreen;"
 description: Welche Lücke dürfen wir für Sie schließen? Erfolg für Sie, Ihr Team und Ihr Unternehmen.
-page_id: "services"
 permalink: "/services"
 redirect_from: "/services/"
 sitemap_priority: 0.5

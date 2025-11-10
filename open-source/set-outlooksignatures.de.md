@@ -11,7 +11,6 @@ image:
   height: 1200
   width: 630
   alt: "Set-OutlookSignatures Benefactor Circle"
-page_id: "set-outlooksignatures"
 permalink: "/open-source/set-outlooksignatures"
 redirect_from: "/open-source/set-outlooksignatures/"
 sitemap_priority: 1.0

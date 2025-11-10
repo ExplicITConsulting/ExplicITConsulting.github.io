@@ -9,7 +9,6 @@ hero_link_text: "<span><b>➔ Professionellen Support anfordern</b></span>"
 hero_link_style: |
    style="background-color: LimeGreen;"
 description: Bedingungen für professionellen Support.
-page_id: "support-terms"
 permalink: "/support-terms"
 redirect_from: "/support-terms/"
 sitemap_priority: 0.5

@@ -7,9 +7,9 @@ hero_link_text: "<span><b>➔ Contact us</b></span>"
 hero_link_style: |
    style="background-color: LimeGreen;"
 description: Adding professional services on top
-page_id: "open-source"
 permalink: "/open-source"
-redirect-from: "/open-source/"
+redirect-from:
+  - "/open-source/"
 sitemap_priority: 0.5
 sitemap_changefreq: weekly
 ---
