@@ -8,7 +8,7 @@ hero_link_style: |
    style="background-color: LimeGreen;"
 description: Adding professional services on top
 permalink: "/open-source"
-redirect-from:
+redirect_from:
   - "/open-source/"
 sitemap_priority: 0.5
 sitemap_changefreq: weekly

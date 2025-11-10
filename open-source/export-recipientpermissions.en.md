@@ -17,7 +17,7 @@ image:
   width: 630
   alt: "Export-RecipientPermissions"
 permalink: "/open-source/export-recipientpermissions"
-redirect-from:
+redirect_from:
   - "/open-source/export-recipientpermissions/"
 sitemap_priority: 1.0
 sitemap_changefreq: weekly

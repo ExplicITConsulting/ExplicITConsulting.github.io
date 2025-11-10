@@ -6,7 +6,7 @@ title: Zahlung
 subtitle: Überweisung und andere Möglichkeiten
 description: Zahlung. Überweisung und andere Möglichkeiten.
 permalink: "/payment"
-redirect-from:
+redirect_from:
   - "/payment/"
 sitemap_priority: 0.5
 sitemap_changefreq: yearly

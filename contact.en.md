@@ -4,7 +4,7 @@ title: Get in touch and stay connected
 subtitle: Email, request a call-back, postal address
 description: Get in touch and stay connected. Email, request a call-back, postal address.
 permalink: "/contact"
-redirect-from:
+redirect_from:
   - "/contact/"
 sitemap_priority: 0.5
 sitemap_changefreq: yearly

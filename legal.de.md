@@ -6,7 +6,7 @@ title: Rechtliche Informationen
 subtitle: Impressum, Datenschutzerklärung, Allgemeine Geschäftsbedingungen, etc.
 description: Rechtliche Informationen. Impressum, Datenschutzerklärung, Allgemeine Geschäftsbedingungen, etc.
 permalink: "/legal"
-redirect-from:
+redirect_from:
   - "/legal/"
 sitemap_priority: 0.3
 sitemap_changefreq: yearly

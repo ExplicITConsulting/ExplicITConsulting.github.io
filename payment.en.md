@@ -4,7 +4,7 @@ title: Payment
 subtitle: Bank transfer and other methods of payment
 description: Bank transfer and other methods of payment
 permalink: "/payment"
-redirect-from:
+redirect_from:
   - "/payment/"
 sitemap_priority: 0.5
 sitemap_changefreq: yearly
