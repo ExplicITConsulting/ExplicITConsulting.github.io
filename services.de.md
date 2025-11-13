@@ -5,7 +5,7 @@ locale: de
 title: Welche Lücke dürfen wir für Sie schließen?
 subtitle: Erfolg für Sie, Ihr Team und Ihr Unternehmen
 hero_link: "/contact"
-hero_link_text: "<span><b>➔ Kontaktieren Sie uns</b></span>"
+hero_link_text: "<span><b>Kontaktieren Sie uns</b></span>"
 hero_link_style: |
    style="background-color: LimeGreen;"
 description: Welche Lücke dürfen wir für Sie schließen? Erfolg für Sie, Ihr Team und Ihr Unternehmen.
@@ -105,4 +105,4 @@ Wo wir selbst nicht ausreichend helfen können, schließen unsere ausgewählten 
 </div>
 
 <h2 id="contact">Kontaktieren Sie uns</h2>
-<a href="/contact" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Kontaktieren Sie uns bei Fragen oder für ein individuelles Angebot.</a>
+<a href="/contact" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">Kontaktieren Sie uns bei Fragen oder für ein individuelles Angebot.</a>

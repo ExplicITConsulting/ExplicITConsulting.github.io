@@ -22,6 +22,6 @@ sitemap_changefreq: yearly
 
 <p>Clicking the following button will open a new browser tab and take you to our payment site, hosted by our payment partner Stripe.</p>
 
-<p><a href="https://buy.stripe.com/5kA9AX37u4VteBO5kk?locale=en" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">➔ Pay using Stripe</a></p>
+<p><a href="https://buy.stripe.com/5kA9AX37u4VteBO5kk?locale=en" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">Pay using Stripe</a></p>
 
 <p>Due to technical limitations of our payment partner, a maximum of 10,000 € can currently be transferred per transaction. Invoices exceeding this amount must therefore be paid with several transfers. This does not incur any additional costs. We are working together with our payment service provider to remove this limit and ask for your understanding until then.</p>
