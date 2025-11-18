@@ -31,7 +31,7 @@ This makes our support an investment in your team’s expertise, delivering imme
 
 <h2 id="scope">Scope and Priorities</h2>
 
-The Benefactor Circle add-on is a product of ExplicIT Consulting, but Set-OutlookSignatures remains free and open-source.  
+The Benefactor Circle add-on and the Outlook add-in are products of ExplicIT Consulting, but not the free and open-source Set-OutlookSignatures.  
 
 We offer premium paid support for Set-OutlookSignatures. If you prefer free community support, please open an issue on the GitHub page.  
 
