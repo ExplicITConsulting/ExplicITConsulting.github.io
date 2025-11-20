@@ -24,9 +24,32 @@ sitemap_changefreq: weekly
   </div>
   <div class="column">
     <h2>Verwalten Sie Ihre Outlook-Signaturen zentral und vollautomatisch</h2>
-    <p>Set-OutlookSignatures nimmt Ihnen den Aufwand ab, Outlook-Signaturen und Abwesenheitsnachrichten manuell zu pflegen.</p>
-    <p>Dank zentral verwalteter Vorlagen, die sich automatisch mit Ihren Unternehmensdaten füllen, erhält jede E-Mail den professionellen Auftritt, den Ihr Unternehmen verdient: Aktuell, einheitlich und markenkonform.</p>
-    <p><a href="https://set-outlooksignatures.com" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">Zur Website von Set-OutlookSignatures</a></p>
+    <div class="columns is-multiline">
+      <div class="column is-half-desktop is-half-tablet is-full-mobile">
+        <p>Set-OutlookSignatures nimmt Ihnen den Aufwand ab, Outlook-Signaturen und Abwesenheitsnachrichten manuell zu pflegen.</p>
+        <p>Dank zentral verwalteter Vorlagen, die sich automatisch mit Ihren Unternehmensdaten füllen, erhält jede E-Mail den professionellen Auftritt, den Ihr Unternehmen verdient: Aktuell, einheitlich und markenkonform.</p>
+        <div class="level">
+          <div class="level-left">
+            <div class="level-item">
+              <p><a href="https://set-outlooksignatures.com" class="no-external-link-icon">
+                <img src="/assets/images/set-outlooksignatures logo 500px.png" alt="Set-OutlookSignatures logo">
+              </a></p>
+            </div>
+            <div class="level-item">
+              <p><a href="https://set-outlooksignatures.com" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">Zur Website von Set-OutlookSignatures</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-half-desktop is-half-tablet is-full-mobile">
+        <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
+          <div class="signature-scrolling-banner">
+            <div class="signature-scrolling-track">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -272,8 +295,8 @@ sitemap_changefreq: weekly
   </div>
   <div class="column is-two-thirds-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
-      <div class="scrolling-banner">
-        <div class="scrolling-track">
+      <div class="customer-scrolling-banner">
+        <div class="customer-scrolling-track">
         </div>
       </div>
     </div>
@@ -347,9 +370,9 @@ sitemap_changefreq: weekly
 
 <p>Das <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle Add-On</span> schaltet erweiterte Funktionen frei und ist für <strong>nur 3.00 € pro Postfach und Jahr</strong> erhältlich, das entspricht <strong>lediglich 0.25 € pro Postfach und Monat</strong>.</p>
 
-<p>Dank einzigartiger Funktionen und exklusiver Herstellerverfügbarkeit ist in der Regel ein rechtskonformer Direktbezug ohne öffentliche Ausschreibung möglich.</p>
+<p>Das Add-On ist eine Investition, die sich vom ersten Tag an auszahlt - sicher auch für Sie! Dank einzigartiger Funktionen und exklusiver Herstellerverfügbarkeit ist in der Regel ein rechtskonformer Direktbezug ohne öffentliche Ausschreibung möglich.</p>
 
-<p>Das Add-On ist eine Investition, die sich vom ersten Tag an auszahlt - ganz sicher auch für Sie: <a href="#financial-benefits" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">Kosten-Nutzen-Rechnung, Business Case</a></p>
+<p><a href="#financial-benefits" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">Kosten-Nutzen-Rechnung, Business Case</a></p>
 
 <p>Wir gestalten die Lizenzkosten so fair und transparent wie möglich:</p>
 <ul>

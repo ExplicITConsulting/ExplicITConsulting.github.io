@@ -16,17 +16,33 @@ redirect_from: "/open-source/set-outlooksignatures/"
 sitemap_priority: 1.0
 sitemap_changefreq: weekly
 ---
-<div class="columns">
-  <div class="column is-one-quarter">
-    <a href="https://set-outlooksignatures.com" class="no-external-link-icon">
-      <img src="/assets/images/set-outlooksignatures logo 500px.png" alt="Set-OutlookSignatures logo">
-    </a>
-  </div>
-  <div class="column">
-    <h2>Manage your Outlook signatures centrally and fully automated</h2>
+<h2 id="outlook-signature-management" class="">
+  Manage your<span style="font-weight: bolder;"> Outlook signatures </span>centrally and fully automated
+</h2>
+<div class="columns is-multiline">
+  <div class="column is-half-desktop is-half-tablet is-full-mobile">
     <p>Set-OutlookSignatures takes the hassle out of manually maintaining Outlook signatures and out-of-office replies.</p>
-    <p>Thanks to centrally managed templates that automatically populate with your company data, every email gets the professional appearance your business deserves: Up-to-date, consistent, and on-brand.</p>
-    <p><a href="https://set-outlooksignatures.com" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">To the Set-OutlookSignatures website</a></p>
+    <p>Thanks to centrally managed templates that automatically pull in your company data, every email gets the professional look your business deserves: Up-to-date, consistent, and on-brand.</p>
+    <div class="level">
+      <div class="level-left">
+        <div class="level-item">
+          <p><a href="https://set-outlooksignatures.com" class="no-external-link-icon">
+            <img src="/assets/images/set-outlooksignatures logo 500px.png" alt="Set-OutlookSignatures logo">
+          </a></p>
+        </div>
+        <div class="level-item">
+          <p><a href="https://set-outlooksignatures.com" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">To the Set-OutlookSignatures website</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="column is-half-desktop is-half-tablet is-full-mobile">
+    <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
+      <div class="signature-scrolling-banner">
+        <div class="signature-scrolling-track">
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -272,8 +288,8 @@ sitemap_changefreq: weekly
   </div>
   <div class="column is-two-thirds-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
-      <div class="scrolling-banner">
-        <div class="scrolling-track">
+      <div class="customer-scrolling-banner">
+        <div class="customer-scrolling-track">
         </div>
       </div>
     </div>
@@ -347,9 +363,9 @@ sitemap_changefreq: weekly
 
 <p>The <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle add-on</span> unlocks advanced features and is available for <strong>only 3.00 € per mailbox per year</strong>, which equals <strong>just 0.25 € per mailbox per month</strong>.</p>
 
-<p>Thanks to unique features and exclusive manufacturer availability, direct procurement in compliance with legal requirements is generally possible without a public tender.</p>
+<p>The add-on is an investment that pays off from day one - certainly for you as well! Thanks to unique features and exclusive manufacturer availability, direct procurement in compliance with legal requirements is generally possible without a public tender.</p>
 
-<p>The add-on is an investment that pays off from day one - certainly for you as well: <a href="#financial-benefits" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">Cost-benefit analysis, business case</a></p>
+<p><a href="#financial-benefits" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">Cost-benefit analysis, business case</a></p>
 
 <p>We keep license costs as fair and transparent as possible:</p>
 <ul>
