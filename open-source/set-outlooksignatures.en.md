@@ -23,18 +23,7 @@ sitemap_changefreq: weekly
   <div class="column is-half-desktop is-half-tablet is-full-mobile">
     <p>Set-OutlookSignatures takes the hassle out of manually maintaining Outlook signatures and out-of-office replies.</p>
     <p>Thanks to centrally managed templates that automatically pull in your company data, every email gets the professional look your business deserves: Up-to-date, consistent, and on-brand.</p>
-    <div class="level">
-      <div class="level-left">
-        <div class="level-item">
-          <p><a href="https://set-outlooksignatures.com" class="no-external-link-icon">
-            <img src="/assets/images/set-outlooksignatures logo 500px.png" alt="Set-OutlookSignatures logo">
-          </a></p>
-        </div>
-        <div class="level-item">
-          <p><a href="https://set-outlooksignatures.com" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">To the Set-OutlookSignatures website</a></p>
-        </div>
-      </div>
-    </div>
+    <p><a href="https://set-outlooksignatures.com" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">Zur Website von Set-OutlookSignatures</a></p>
   </div>
   <div class="column is-half-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">

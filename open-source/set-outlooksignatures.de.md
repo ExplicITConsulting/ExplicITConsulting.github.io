@@ -16,37 +16,19 @@ redirect_from: "/open-source/set-outlooksignatures/"
 sitemap_priority: 1.0
 sitemap_changefreq: weekly
 ---
-<div class="columns">
-  <div class="column is-one-quarter">
-    <a href="https://set-outlooksignatures.com" class="no-external-link-icon">
-      <img src="/assets/images/set-outlooksignatures logo 500px.png" alt="Set-OutlookSignatures logo">
-    </a>
+<h2 id="outlook-signature-management" class="">
+  Manage your<span style="font-weight: bolder;"> Outlook signatures </span>centrally and fully automated
+</h2>
+<div class="columns is-multiline">
+  <div class="column is-half-desktop is-half-tablet is-full-mobile">
+    <p>Set-OutlookSignatures nimmt Ihnen den Aufwand ab, Outlook-Signaturen und Abwesenheitsnachrichten manuell zu pflegen.</p>
+    <p>Dank zentral verwalteter Vorlagen, die sich automatisch mit Ihren Unternehmensdaten füllen, erhält jede E-Mail den professionellen Auftritt, den Ihr Unternehmen verdient: Aktuell, einheitlich und markenkonform.</p>
+    <p><a href="https://set-outlooksignatures.com" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">Zur Website von Set-OutlookSignatures</a></p>
   </div>
-  <div class="column">
-    <h2>Verwalten Sie Ihre Outlook-Signaturen zentral und vollautomatisch</h2>
-    <div class="columns is-multiline">
-      <div class="column is-half-desktop is-half-tablet is-full-mobile">
-        <p>Set-OutlookSignatures nimmt Ihnen den Aufwand ab, Outlook-Signaturen und Abwesenheitsnachrichten manuell zu pflegen.</p>
-        <p>Dank zentral verwalteter Vorlagen, die sich automatisch mit Ihren Unternehmensdaten füllen, erhält jede E-Mail den professionellen Auftritt, den Ihr Unternehmen verdient: Aktuell, einheitlich und markenkonform.</p>
-        <div class="level">
-          <div class="level-left">
-            <div class="level-item">
-              <p><a href="https://set-outlooksignatures.com" class="no-external-link-icon">
-                <img src="/assets/images/set-outlooksignatures logo 500px.png" alt="Set-OutlookSignatures logo">
-              </a></p>
-            </div>
-            <div class="level-item">
-              <p><a href="https://set-outlooksignatures.com" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">Zur Website von Set-OutlookSignatures</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="column is-half-desktop is-half-tablet is-full-mobile">
-        <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
-          <div class="signature-scrolling-banner">
-            <div class="signature-scrolling-track">
-            </div>
-          </div>
+  <div class="column is-half-desktop is-half-tablet is-full-mobile">
+    <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
+      <div class="signature-scrolling-banner">
+        <div class="signature-scrolling-track">
         </div>
       </div>
     </div>
