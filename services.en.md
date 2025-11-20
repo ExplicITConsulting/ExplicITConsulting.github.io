@@ -88,14 +88,15 @@ Where we cannot help well enough ourselves, our select partners fill the gap.
     </div>
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
-        <h3>Cloud Governance</h3>
+        <h3>Cloud and AI Governance</h3>
         <ul>
-          <li>Establishing and leading cloud governance structures</li>
+          <li>Establishing and leading cloud and AI governance structures</li>
           <li>Defining policies for security, compliance, and usage</li>
           <li>Setting roles, responsibilities, and decision-making paths</li>
           <li>Introducing operating models and control processes</li>
           <li>Sharing technical and architectural expertise</li>
-          <li>Coordinating cross-functional cloud initiatives</li>
+          <li>Coordinating cross-functional initiatives</li>
+          <li>Augmenting NI (natural intelligence) with AI</li>
         </ul>
       </div>
     </div>
