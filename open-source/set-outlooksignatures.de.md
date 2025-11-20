@@ -17,7 +17,7 @@ sitemap_priority: 1.0
 sitemap_changefreq: weekly
 ---
 <h2 id="outlook-signature-management" class="">
-  Manage your<span style="font-weight: bolder;"> Outlook signatures </span>centrally and fully automated
+  Verwalten Sie Ihre<span style="font-weight: bolder;"> Outlook-Signaturen </span>zentral und vollautomatisch
 </h2>
 <div class="columns is-multiline">
   <div class="column is-half-desktop is-half-tablet is-full-mobile">
