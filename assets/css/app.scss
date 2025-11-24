@@ -195,6 +195,8 @@ h6:hover .anchor-link {
 
 .signature-scrolling-banner .signature-scrolling-track img {
   max-height: 10em;
+  padding-right: 5em;
+  // border-right: 1px solid var(--bulma-border, black);
 }
 
 /* Define a base keyframe name, but the exact values will be injected */
