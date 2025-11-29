@@ -183,6 +183,7 @@ h6:hover .anchor-link {
 .customer-scrolling-banner .customer-scrolling-track img,
 .signature-scrolling-banner .signature-scrolling-track img {
   max-height: 4em;
+  padding-right: 2em;
   height: auto;
   width: auto;
   object-fit: contain;
@@ -195,8 +196,7 @@ h6:hover .anchor-link {
 
 .signature-scrolling-banner .signature-scrolling-track img {
   max-height: 10em;
-  padding-right: 3.33em;
-  // border-right: 1px solid var(--bulma-border, black);
+  padding-right: 3.5em;
 }
 
 @keyframes customer-scroll-full-track-dynamic {
@@ -204,7 +204,6 @@ h6:hover .anchor-link {
     transform: translateX(0);
   }
   /* 'to' value will be set by JavaScript */
-  /* to { transform: translateX(calc(var(--scroll-distance) * -1)); } */
 }
 
 @keyframes signature-scroll-full-track-dynamic {
@@ -212,7 +211,6 @@ h6:hover .anchor-link {
     transform: translateX(0);
   }
   /* 'to' value will be set by JavaScript */
-  /* to { transform: translateX(calc(var(--scroll-distance) * -1)); } */
 }
 
 p + ul,
