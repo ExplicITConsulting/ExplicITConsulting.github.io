@@ -7,10 +7,10 @@
   - name: "Export-RecipientPermissions"
     link: /open-source/export-recipientpermissions
   - name: |
-      <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Set-OutlookSignatures Benefactor Circle</span>
+      <span style="font-weight: bold; color: var(--benefactor-circle-color);">Set-OutlookSignatures Benefactor Circle</span>
     link: /open-source/set-outlooksignatures
 - name: |
-      <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Set-OutlookSignatures Benefactor Circle</span>
+      <span style="font-weight: bold; color: goldenrod;">Set-OutlookSignatures Benefactor Circle</span>
   link: /open-source/set-outlooksignatures
 - name: Resources
   dropdown:

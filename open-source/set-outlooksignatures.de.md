@@ -3,7 +3,7 @@ layout: page
 lang: de
 locale: de
 title: |
-  Set-OutlookSignatures und das <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle Add-On</span>
+  Set-OutlookSignatures und das <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-On</span>
 subtitle: E-Mail-Signaturen und Abwesenheitsnotizen für Exchange und Outlook.<br>Voller Funktionsumfang, kosteneffizient, unübertroffener Datenschutz. 
 description: Set-OutlookSignatures und das Benefactor Circle add-on. E-Mail-Signaturen und Abwesenheitsnotizen für Exchange und Outlook. Voller Funktionsumfang, kosteneffizient, unübertroffener Datenschutz.
 image:
@@ -23,7 +23,7 @@ sitemap_changefreq: weekly
   <div class="column is-half-desktop is-half-tablet is-full-mobile">
     <p>Set-OutlookSignatures nimmt Ihnen den Aufwand ab, Outlook-Signaturen und Abwesenheitsnachrichten manuell zu pflegen.</p>
     <p>Dank zentral verwalteter Vorlagen, die sich automatisch mit Ihren Unternehmensdaten füllen, erhält jede E-Mail den professionellen Auftritt, den Ihr Unternehmen verdient: Aktuell, einheitlich und markenkonform.</p>
-    <p><a href="https://set-outlooksignatures.com" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">Zur Website von Set-OutlookSignatures</a></p>
+    <p><a href="https://set-outlooksignatures.com" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(to bottom right, darkgoldenrod, goldenrod, goldenrod, goldenrod, darkgoldenrod)">Zur Website von Set-OutlookSignatures</a></p>
   </div>
   <div class="column is-half-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
@@ -58,7 +58,7 @@ sitemap_changefreq: weekly
 
 
 <h2 id="sustainable-value">Nachhaltiger Mehrwert für Ihr Unternehmen</h2>
-<p>Das <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle Add-On</span> von <a href="https://explicitconsulting.at">ExplicIT Consulting</a> erweitert das kostenlose Set-OutlookSignatures um großartige zusätzliche Möglichkeiten für Ihr Unternehmen.</p>
+<p>Das <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-On</span> von <a href="https://explicitconsulting.at">ExplicIT Consulting</a> erweitert das kostenlose Set-OutlookSignatures um großartige zusätzliche Möglichkeiten für Ihr Unternehmen.</p>
 
 
 <h3 id="additional-features">Zusätzliche Funktionen</h3>
@@ -235,11 +235,11 @@ sitemap_changefreq: weekly
   </div>
 </div>
 
-<a href="#trial" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">Testlizenz oder Angebot anfordern</a>
+<a href="#trial" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(to bottom right, darkgoldenrod, goldenrod, goldenrod, goldenrod, darkgoldenrod)">Testlizenz oder Angebot anfordern</a>
 
 
 <h2 id="demo">Demo</h2>
-<p>Wir zeigen Ihnen, was Set-OutlookSignatures, das <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle Add-On</span> und das inkludierte Outlook Add-In für Sie tun können - interaktiv und mit Fokus auf Ihre konkreten Anforderungen. Erleben Sie live:</p>
+<p>Wir zeigen Ihnen, was Set-OutlookSignatures, das <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-On</span> und das inkludierte Outlook Add-In für Sie tun können - interaktiv und mit Fokus auf Ihre konkreten Anforderungen. Erleben Sie live:</p>
 <div class="columns is-multiline">
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
@@ -272,7 +272,7 @@ sitemap_changefreq: weekly
 <div class="columns is-multiline">
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
-      <p><a href="https://outlook.cloud.microsoft/book/demo.set-outlooksignatures@explicitconsulting.at" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="min-height: 4em; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod);">Jetzt persönliche Demo vereinbaren</a></p>
+      <p><a href="https://outlook.cloud.microsoft/book/demo.set-outlooksignatures@explicitconsulting.at" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="min-height: 4em; background-image: linear-gradient(to bottom right, darkgoldenrod, goldenrod, goldenrod, goldenrod, darkgoldenrod);">Jetzt persönliche Demo vereinbaren</a></p>
     </div>
   </div>
   <div class="column is-two-thirds-desktop is-half-tablet is-full-mobile">
@@ -308,7 +308,7 @@ sitemap_changefreq: weekly
 
 
 <h2 id="financial-benefits">Finanzielle Vorteile</h2>
-<p>Das <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle Add-On</span> ist eine Investition, die sich ab dem ersten Tag rechnet. Eine Kosten-Nutzen-Rechnung in Form eines Business Cases muss drei Aspekte berücksichtigen:</p>
+<p>Das <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-On</span> ist eine Investition, die sich ab dem ersten Tag rechnet. Eine Kosten-Nutzen-Rechnung in Form eines Business Cases muss drei Aspekte berücksichtigen:</p>
 <ul>
   <li>Wie hoch sind die Kosten durch nicht konforme Signaturen und Abwesenheitsnotizen – sei es durch Reputationsverlust oder Bußgelder wegen Nichteinhaltung von Vorschriften?</li>
   <li>Welchen Mehrwert bietet die Nutzung von E-Mails als zusätzlicher Marketingkanal?</li>
@@ -331,7 +331,7 @@ sitemap_changefreq: weekly
 <p>2 Änderungen pro Jahr, 3 Minuten pro Signatur, 2 Signaturen, 1 Client: 0.55 * 2 * 3 * 2 * 1 = 6,60</p>
 </blockquote>
 
-<p>Pro Benutzer und Jahr betragen die Kosten 6,60 € für manuellen Aufwand gegenüber 3,00 € für eine zentral verwaltete Lösung mit Set-OutlookSignatures und dem <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle Add-On</span>.</p>
+<p>Pro Benutzer und Jahr betragen die Kosten 6,60 € für manuellen Aufwand gegenüber 3,00 € für eine zentral verwaltete Lösung mit Set-OutlookSignatures und dem <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-On</span>.</p>
 
 <p>Diese Rechnung berücksichtigt noch nicht:</p>
 <ul>
@@ -350,17 +350,17 @@ sitemap_changefreq: weekly
 <h3 id="price">Preis und allgemeine Informationen</h3>
 <p>Set-OutlookSignatures ist vollständig kostenlos. Ursprünglich als Technologie-Demonstrator für Scripting-Techniken geschaffen, hat sich Set-OutlookSignatures zur fortschrittlichsten, sichersten und vielseitigsten kostenlosen Open-Source-Lösung für die Verwaltung von E-Mail-Signaturen und Abwesenheitsnotizen entwickelt. Mehr über die Entstehungsgeschichte und die dahinterstehenden Absichten erfahren Sie <a href="https://set-outlooksignatures.com/faq#351-why-the-tagline">hier</a>.</p>
 
-<p>Das <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle Add-On</span> schaltet erweiterte Funktionen frei und ist für <strong>nur 3.00 € pro Postfach und Jahr</strong> erhältlich, das entspricht <strong>lediglich 0.25 € pro Postfach und Monat</strong>.</p>
+<p>Das <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-On</span> schaltet erweiterte Funktionen frei und ist für <strong>nur 3.00 € pro Postfach und Jahr</strong> erhältlich, das entspricht <strong>lediglich 0.25 € pro Postfach und Monat</strong>.</p>
 
 <p>Das Add-On ist eine Investition, die sich vom ersten Tag an auszahlt - sicher auch für Sie!<br>Dank einzigartiger Funktionen und exklusiver Herstellerverfügbarkeit ist in der Regel ein rechtskonformer Direktbezug ohne öffentliche Ausschreibung möglich.</p>
 
-<p><a href="#financial-benefits" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">Kosten-Nutzen-Rechnung, Business Case</a></p>
+<p><a href="#financial-benefits" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(to bottom right, darkgoldenrod, goldenrod, goldenrod, goldenrod, darkgoldenrod)">Kosten-Nutzen-Rechnung, Business Case</a></p>
 
 <p>Wir gestalten die Lizenzkosten so fair und transparent wie möglich:</p>
 <ul>
   <li>Kleine Unternehmen zahlen denselben günstigen Preis wie große Konzerne.</li>
   <li>Es gibt keine versteckten Wartungs- oder Supportverträge im Jahrespreis. Sie zahlen nur für den Support, den Sie tatsächlich benötigen – und dank unserer Dokumentation ist das in der Regel gar nicht nötig.</li>
-  <li><strong>Unser Support-Versprechen:</strong> Wenn Ihre Support-Anfrage auf einen Fehler in der aktuellen Version von Set-OutlookSignatures, dem <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle Add-On</span>, seiner Dokumentation oder den mitgelieferten Komponenten zurückzuführen ist, ist der Support kostenlos – ohne Ausnahme.
+  <li><strong>Unser Support-Versprechen:</strong> Wenn Ihre Support-Anfrage auf einen Fehler in der aktuellen Version von Set-OutlookSignatures, dem <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-On</span>, seiner Dokumentation oder den mitgelieferten Komponenten zurückzuführen ist, ist der Support kostenlos – ohne Ausnahme.
   <br>
   Für alle anderen Anliegen erhalten Sie den gleichen erstklassigen Support zu einem fairen Preis.
   </li>
@@ -369,7 +369,7 @@ sitemap_changefreq: weekly
   <li>Einen Teil Ihrer Investition geben wir direkt an das Set-OutlookSignatures-Projekt weiter und fördern so die Weiterentwicklung der kostenlosen Open-Source-Version.</li>
 </ul>
 
-<p>Lizenzen sind nur für Postfächer erforderlich, die <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle</span>-Funktionen nutzen. Dies gilt auch für gemeinsam genutzte Postfächer. Jedes Postfach benötigt eine eigene Lizenz, unabhängig davon, wie viele Benutzer darauf zugreifen, wie viele Signaturen bereitgestellt werden oder wie häufig diese geändert werden.</p>
+<p>Lizenzen sind nur für Postfächer erforderlich, die <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle</span>-Funktionen nutzen. Dies gilt auch für gemeinsam genutzte Postfächer. Jedes Postfach benötigt eine eigene Lizenz, unabhängig davon, wie viele Benutzer darauf zugreifen, wie viele Signaturen bereitgestellt werden oder wie häufig diese geändert werden.</p>
 
 <p>Sie müssen keine einzelnen Postfächer benennen. Stattdessen definieren Sie mindestens eine Active Directory- oder Entra ID-Gruppe, die die betreffenden Postfächer enthält, und geben die maximale Anzahl rekursiver Mitglieder pro Gruppe an.</p>
 
@@ -383,17 +383,17 @@ sitemap_changefreq: weekly
 <h3 id="trial">Testversion</h3>
 <p>Sie möchten vielleicht mit einer 14-tägigen Testlizenz starten.</p>
 
-<p>Das <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle Add-On</span> erweitert den Funktionsumfang der kostenlosen und quelloffenen Kernversion von Set-OutlookSignatures. Bitte stellen Sie daher sicher, dass die Kernversion korrekt funktioniert, bevor Sie eine Testlizenz anfordern.<br>
+<p>Das <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-On</span> erweitert den Funktionsumfang der kostenlosen und quelloffenen Kernversion von Set-OutlookSignatures. Bitte stellen Sie daher sicher, dass die Kernversion korrekt funktioniert, bevor Sie eine Testlizenz anfordern.<br>
 Wenn Sie Unterstützung bei der Implementierung der kostenlosen Kernversion benötigen, lesen Sie die Kurzanleitung in der Readme-Datei, öffnen Sie ein Issue auf GitHub oder kontaktieren Sie uns direkt – wir helfen Ihnen im Rahmen unseres professionellen Supports gerne bei der Einführung von Set-OutlookSignatures in Ihrer Umgebung.</p>
 
 <p>Sobald die Open-Source-Kernversion läuft, ist es Zeit für den nächsten Schritt:</p>
 
-<p><a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">14-Tage-Testlizenz anfordern</a></p>
+<p><a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(to bottom right, darkgoldenrod, goldenrod, goldenrod, goldenrod, darkgoldenrod)">14-Tage-Testlizenz anfordern</a></p>
 
 <p>Zum Verwenden der Lizenzdatei fügen Sie einfach zwei Parameter beim Aufruf von Set-OutlookSignatures.ps1 hinzu:</p>
 <ul>
   <li>'-BenefactorCircleLicenseFile' mit dem Pfad zu Ihrer individuellen Lizenzdatei</li>
-  <li>'-BenefactorCircleId' mit Ihrer <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle</span> ID</li>
+  <li>'-BenefactorCircleId' mit Ihrer <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle</span> ID</li>
 </ul>
 
 <p>Testlizenzen können nicht verlängert oder erneut ausgestellt werden.<br>
@@ -404,7 +404,7 @@ Die Testphase beginnt mit der Erstellung und Übermittlung der Lizenzdatei, nich
 
 
 <h3 id="order">Bestellprozess für Lizenzen</h3>
-<p><a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod)">Lizenzangebot anfordern</a></p>
+<p><a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(to bottom right, darkgoldenrod, goldenrod, goldenrod, goldenrod, darkgoldenrod)">Lizenzangebot anfordern</a></p>
 
 <p>Sie erhalten in Kürze ein Angebot. Sobald alle Details geklärt sind, erhalten Sie eine Rechnung und können den Zahlungsprozess starten.</p>
 
@@ -413,14 +413,14 @@ Die Testphase beginnt mit der Erstellung und Übermittlung der Lizenzdatei, nich
 <p>Zum Verwenden der Lizenzdatei fügen Sie einfach zwei Parameter beim Aufruf von Set-OutlookSignatures.ps1 hinzu:</p>
 <ul>
   <li>'-BenefactorCircleLicenseFile' mit dem Pfad zu Ihrer individuellen Lizenzdatei</li>
-  <li>'-BenefactorCircleId' mit Ihrer <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle</span> ID</li>
+  <li>'-BenefactorCircleId' mit Ihrer <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle</span> ID</li>
 </ul>
 
 
 <h3 id="change-license-period">Verlängerung oder Verkürzung einer Lizenzlaufzeit</h3>
 <p>Eine Lizenzlaufzeit kann nicht verlängert werden. Lizenzen sind ein Jahr lang gültig, beginnend mit dem Datum des vollständigen Zahlungseingangs, und verlängern sich nicht automatisch.</p>
 
-<p>Wenn Sie Set-OutlookSignatures weiterhin mit den Vorteilen des <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle Add-Ons</span> nutzen möchten, geben Sie einfach eine neue Bestellung auf, um eine neue Lizenzdatei zu erhalten.</p>
+<p>Wenn Sie Set-OutlookSignatures weiterhin mit den Vorteilen des <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-Ons</span> nutzen möchten, geben Sie einfach eine neue Bestellung auf, um eine neue Lizenzdatei zu erhalten.</p>
 
 <p>Sie werden rechtzeitig im Voraus darüber informiert, dass Ihre Lizenz demnächst abläuft.</p>
 
@@ -444,7 +444,7 @@ Die Testphase beginnt mit der Erstellung und Übermittlung der Lizenzdatei, nich
 
 
 <h2 id="license-groups">Funktionsweise von Lizenzgruppen</h2>
-<p>Jede <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle</span>-Lizenz ist an eine oder mehrere Active Directory- oder Entra ID-Gruppen gebunden, sogenannte Lizenzgruppen. Zur maximalen Datensicherheit und einfachen Verwaltung ist die Lizenz nicht an bestimmte Postfächer ("Named Users") gebunden, sondern nur an eine Gruppe mit einer definierten maximalen Mitgliederanzahl.</p>
+<p>Jede <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle</span>-Lizenz ist an eine oder mehrere Active Directory- oder Entra ID-Gruppen gebunden, sogenannte Lizenzgruppen. Zur maximalen Datensicherheit und einfachen Verwaltung ist die Lizenz nicht an bestimmte Postfächer ("Named Users") gebunden, sondern nur an eine Gruppe mit einer definierten maximalen Mitgliederanzahl.</p>
 
 <p>Für die meisten Umgebungen reicht eine einzige Lizenzgruppe aus.<br>In On-Premises- oder hybriden Umgebungen mit mehreren Active Directory-Domänen kann für jede AD-DNS-Domäne eine eigene Lizenzgruppe definiert werden, jeweils mit einer separaten maximalen Mitgliederanzahl.<br>Wenn Sie mehrere Entra-ID-Tenants haben, können Sie pro Tenant eine Entra-ID-Gruppe definieren.</p>
 
@@ -462,7 +462,7 @@ Die Testphase beginnt mit der Erstellung und Übermittlung der Lizenzdatei, nich
   <li>In reinen On-Premises-Umgebungen sind nur lokale AD-Gruppen zulässig: '<code>&lt;AD-DNS-Domäne&gt;, &lt;SID&gt;, &lt;AnzahlLizenzen&gt;</code>'<br>Bei späterem Wechsel in eine hybride Umgebung ist keine Anpassung nötig, solange die Gruppen synchronisiert werden.</li>
 </ul>
 
-<p><strong>Lizenzprüfung bei Nutzung eines exklusiven <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle</span>-Features:</strong></p>
+<p><strong>Lizenzprüfung bei Nutzung eines exklusiven <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle</span>-Features:</strong></p>
 <ol>
   <li>Bestimmen der passenden Lizenzgruppe
     <ol>
@@ -475,7 +475,7 @@ Die Testphase beginnt mit der Erstellung und Übermittlung der Lizenzdatei, nich
   <li>Prüfen, ob das aktuelle Postfach Mitglied der Lizenzgruppe ist.</li>
 </ol>
 
-<p>Wenn einer dieser Schritte fehlschlägt, gilt das Postfach als nicht lizenziert und <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle</span>-Funktionen können nicht verwendet werden.</p>
+<p>Wenn einer dieser Schritte fehlschlägt, gilt das Postfach als nicht lizenziert und <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle</span>-Funktionen können nicht verwendet werden.</p>
 
 <p>Beachten Sie:<p>
 <ul>
@@ -495,7 +495,7 @@ Die Testphase beginnt mit der Erstellung und Übermittlung der Lizenzdatei, nich
 
 
 <h2 id="support">Hilfe und Support</h2>
-<p>Set-OutlookSignatures und das <span style="font-weight: bold; background-image: linear-gradient(to right, darkgoldenrod, goldenrod, darkgoldenrod, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">Benefactor Circle Add-On</span> sind sehr gut dokumentiert, was unweigerlich eine Menge Inhalt mit sich bringt.</p>
+<p>Set-OutlookSignatures und das <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-On</span> sind sehr gut dokumentiert, was unweigerlich eine Menge Inhalt mit sich bringt.</p>
 
 <p>Besuchen Sie unser Hilfe- und Supportcenter, um mehr zu erfahren:<p>
 <ul>
