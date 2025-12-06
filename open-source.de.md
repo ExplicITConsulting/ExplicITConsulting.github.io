@@ -7,7 +7,7 @@ subtitle: Mehrwert durch professionelle Services
 hero_link: "/contact"
 hero_link_text: "<span><b>Kontaktieren Sie uns</b></span>"
 hero_link_style: |
-   style="background-color: LimeGreen;"
+   style="background-color: LawnGreen;"
 description: Open-Source-Software. Mehrwert durch professionelle Services.
 permalink: "/open-source"
 redirect_from:

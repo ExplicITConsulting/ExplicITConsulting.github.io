@@ -7,7 +7,7 @@ subtitle:
 hero_link: "https://forms.cloud.microsoft/r/CnwjH98vSs"
 hero_link_text: "<span><b>Professionellen Support anfordern</b></span>"
 hero_link_style: |
-   style="background-color: LimeGreen;"
+   style="background-color: LawnGreen;"
 description: Bedingungen für professionellen Support.
 permalink: "/support-terms"
 redirect_from: "/support-terms/"

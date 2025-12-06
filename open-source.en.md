@@ -5,7 +5,7 @@ subtitle: Adding professional services on top
 hero_link: "/contact"
 hero_link_text: "<span><b>Contact us</b></span>"
 hero_link_style: |
-   style="background-color: LimeGreen;"
+   style="background-color: LawnGreen;"
 description: Adding professional services on top
 permalink: "/open-source"
 redirect_from:

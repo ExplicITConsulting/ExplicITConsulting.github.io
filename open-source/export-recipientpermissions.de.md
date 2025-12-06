@@ -7,11 +7,11 @@ subtitle: Das Open-Source-Tool der Wahl zur Dokumentation, Filterung und zum Ver
 hero_link: "https://github.com/GruberMarkus/export-recipientpermissions"
 hero_link_text: "<span><b>Export-RecipientPermissions herunterladen</b></span>"
 hero_link_style: |
-   style="background-color: LimeGreen;"
+   style="background-color: LawnGreen;"
 hero_link2: "/contact"
 hero_link2_text: "<span><b>Kontaktieren Sie uns</b></span>"
 hero_link2_style: |
-   style="background-color: LimeGreen;"
+   style="background-color: LawnGreen;"
 description: Export-RecipientPermissions. Das Open-Source-Tool der Wahl zur Dokumentation, Filterung und zum Vergleich von Exchange-Berechtigungen.
 image:
   path: "/assets/images/export-recipientpermissions opengraph1200x630.png"
@@ -92,4 +92,4 @@ Unsere Unterstützung ist daher eine **Investition in Ihr eigenes Wissen und das
 
 Unser Support-Versprechen: Wenn Ihre Support-Anfrage auf einen Fehler in der aktuellen Version von **Export-RecipientPermissions**, seiner Dokumentation oder den mitgelieferten Komponenten zurückzuführen ist, ist der Support **kostenlos – ohne Ausnahme**.<br>Für alle anderen Fragen erhalten Sie den gleichen erstklassigen Support zu einem fairen Preis.
 
-<a href="/contact" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">Kontaktieren Sie uns bei Fragen oder für ein individuelles Angebot</a>
+<a href="/contact" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: LawnGreen">Kontaktieren Sie uns bei Fragen oder für ein individuelles Angebot</a>

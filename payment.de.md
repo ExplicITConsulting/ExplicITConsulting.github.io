@@ -24,6 +24,6 @@ sitemap_changefreq: yearly
 
 <p>Durch Klicken auf die folgende Schaltfläche öffnet sich ein neuer Browser-Tab mit unserer Zahlungsseite, die von unserem Zahlungsdienstleister Stripe bereitgestellt wird.</p>
 
-<p><a href="https://buy.stripe.com/5kA9AX37u4VteBO5kk?locale=en" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">Mit Stripe bezahlen</a></p>
+<p><a href="https://buy.stripe.com/5kA9AX37u4VteBO5kk?locale=en" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: LawnGreen">Mit Stripe bezahlen</a></p>
 
 <p>Aufgrund technischer Einschränkungen unseres Zahlungsdienstleisters können derzeit maximal 10.000 € pro Transaktion überwiesen werden. Rechnungen, die diesen Betrag überschreiten, müssen daher in mehreren Teilüberweisungen beglichen werden. Dadurch entstehen Ihnen keine zusätzlichen Kosten. Wir arbeiten gemeinsam mit unserem Zahlungsanbieter daran, diese Grenze aufzuheben, und bitten bis dahin um Ihr Verständnis.</p>

@@ -5,7 +5,7 @@ subtitle: Success for you, your team, and your company
 hero_link: "/contact"
 hero_link_text: "<span><b>Contact us</b></span>"
 hero_link_style: |
-   style="background-color: LimeGreen;"
+   style="background-color: LawnGreen;"
 description: Which gap can we bridge for you? Success for you, your team, and your company.
 permalink: "/services"
 redirect_from: "/services/"
@@ -104,4 +104,4 @@ Where we cannot help well enough ourselves, our select partners fill the gap.
 </div>
 
 <h2 id="contact">Contact us</h2>
-<a href="/contact" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: limegreen">Contact us for questions and a customized quote</a>
+<a href="/contact" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: LawnGreen">Contact us for questions and a customized quote</a>

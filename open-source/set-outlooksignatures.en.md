@@ -505,4 +505,4 @@ If you look for help implementing the free and open-source core version of Set-O
   <li>How to get first-class support</li>
 </ul>
 
-<p><a href="https://set-outlooksignatures.com/help" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-color: LimeGreen">Help and Support-Center</a></p>
+<p><a href="https://set-outlooksignatures.com/help" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-color: LawnGreen">Help and Support-Center</a></p>
