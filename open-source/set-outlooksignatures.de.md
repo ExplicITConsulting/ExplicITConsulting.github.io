@@ -83,7 +83,7 @@ sitemap_changefreq: weekly
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
       <div style="hyphens: manual;">
-        <b>Konsistente Signaturen überall</b><br>Garantierte Compliance und Marken­treue auf Outlook-Clients für Desktop, Web und Mobilgeräte.
+        <b>Konsistente Signaturen überall</b><br>Garantierte Compliance und Marken­treue auf allen Outlook-Clients: Desktop, Web und Mobilgeräte.
       </div>
     </div>
   </div>
@@ -203,7 +203,7 @@ sitemap_changefreq: weekly
 <div class="columns is-multiline">
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
-      <p><a href="https://outlook.cloud.microsoft/book/demo.set-outlooksignatures@explicitconsulting.at" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="min-height: 4em; background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod); text-shadow: 0 2px 2px palegoldenrod;">Demo-Termin auswählen</a></p>
+      <p><a href="https://outlook.cloud.microsoft/book/demo.set-outlooksignatures@explicitconsulting.at" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="min-height: 4em; background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod); text-shadow: 0 2px 2px palegoldenrod;">Jetzt persönliche Demo vereinbaren</a></p>
     </div>
   </div>
   <div class="column is-two-thirds-desktop is-half-tablet is-full-mobile">
@@ -279,7 +279,7 @@ sitemap_changefreq: weekly
 
 <h2 id="licenses">Kauf, Verlängerung und Änderung von Lizenzen</h2>
 <h3 id="price">Preis und allgemeine Informationen</h3>
-<p>Set-OutlookSignatures ist vollständig kostenlos. Ursprünglich als Technologie-Demonstrator für Scripting-Techniken geschaffen, hat sich das Tool zur fortschrittlichsten, sichersten und vielseitigsten kostenlosen Open-Source-Lösung für die Verwaltung von E-Mail-Signaturen und Abwesenheitsnotizen entwickelt. Mehr über die Entstehungsgeschichte und die dahinterstehenden Absichten erfahren Sie <a href="https://set-outlooksignatures.com/faq#351-why-the-tagline">hier</a>.</p>
+<p>Set-OutlookSignatures ist kostenlos.<br>Ursprünglich als Technologie-Demonstrator für Scripting-Techniken geschaffen, hat sich das Tool zur fortschrittlichsten, sichersten und vielseitigsten kostenlosen Open-Source-Lösung für die Verwaltung von E-Mail-Signaturen und Abwesenheitsnotizen entwickelt. Lesen Sie in den FAQ über <a href="https://set-outlooksignatures.com/faq#351-why-the-tagline">ihre Entstehungsgeschichte und was Sie von ihrem Code lernen können</a>.</p>
 
 <p>Das <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-On</span> schaltet erweiterte Funktionen frei und ist für <strong>nur 3.00 € pro Postfach und Jahr</strong> erhältlich, das entspricht <strong>lediglich 0.25 € pro Postfach und Monat</strong>.</p>
 
