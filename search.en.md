@@ -142,14 +142,29 @@ sitemap_changefreq: weekly
                 if (Object.keys(indexes).length > 0) {
                     searchInput.placeholder = "{{ site.data[site.active_lang].strings.search_search-input_placeholder_ready }}";
                     searchInput.disabled = false;
+
+                    const urlParams = new URLSearchParams(window.location.search);
+                    const urlQuery = urlParams.get('search'); 
+
+                    if (urlQuery) {
+                        searchInput.value = urlQuery;
+                        performSearch();
+                    }
+
                     searchInput.addEventListener('input', () => {
                         const query = searchInput.value.trim();
 
+                        const newUrl = new URL(window.location);
+                        
                         if (query.length > 0) {
+                            newUrl.searchParams.set('search', query);
                             performSearch();
                         } else {
+                            newUrl.searchParams.delete('search');
                             searchResultsContainer.innerHTML = '';
                         }
+
+                        window.history.replaceState({ path: newUrl.href }, '', newUrl.href);
 
                         debouncedTrackSearch();
                     });
