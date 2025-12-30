@@ -113,7 +113,12 @@ h6:hover .anchor-link {
 }
 
 .content h2:not(:first-child) {
-  margin-top: 3rem;
+  margin-top: 2em;
+}
+
+.content * ~ h2,
+.content * ~ * h2 {
+  margin-top: 2em;
 }
 
 .content h6 {
