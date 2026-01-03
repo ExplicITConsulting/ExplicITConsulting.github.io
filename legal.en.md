@@ -1,8 +1,10 @@
 ---
-layout: page
-title: Legal information
-subtitle: Impress, Privacy Notice, Terms and Conditions, etc.
-description: Impress, Privacy Notice, Terms and Conditions, etc.
+layout: "page"
+lang: "en"
+locale: "en"
+title: "Legal information"
+subtitle: "Impress, Privacy Notice, Terms and Conditions, etc."
+description: "Impress, Privacy Notice, Terms and Conditions, etc."
 permalink: "/legal"
 redirect_from:
   - "/legal/"
@@ -87,7 +89,7 @@ The Client shall not be entitled to refuse acceptance of software due to unsubst
 
 2.7. Delivery of programme media, documentation and performance descriptions shall take place at the cost and risk of the Client. Further training and explanations requested by the Client shall be invoiced separately. Insurances shall only be obtained at the request of the Client.
 
-2.8. We expressly indicate that a barrier-free design, as defined by the Federal Law on Equality of Persons with Disabilities (Federal Disability Discrimination Act — BGStG) is not included in the quote, unless this was separately/individually requested by the Client. Should a barrier-free design not have been agreed upon, it shall be incumbent upon the Client to check the admissibility of the service with regard to the Federal Disability Discrimination Act. Moreover, the Client shall check the content they provide in regard to legal admissibility, particularly in terms of competition, brand, administrative law and copyright. The Contractor shall not be liable to the Client in cases of minor negligence or after fulfilling a possible duty to warn for the legal admissibility of content provided by the Client.
+2.8. We expressly indicate that a barrier-free design, as defined by the Federal Law on Equality of Persons with Disabilities (Federal Disability Discrimination Act, BGStG) is not included in the quote, unless this was separately/individually requested by the Client. Should a barrier-free design not have been agreed upon, it shall be incumbent upon the Client to check the admissibility of the service with regard to the Federal Disability Discrimination Act. Moreover, the Client shall check the content they provide in regard to legal admissibility, particularly in terms of competition, brand, administrative law and copyright. The Contractor shall not be liable to the Client in cases of minor negligence or after fulfilling a possible duty to warn for the legal admissibility of content provided by the Client.
 
 3 Prices, taxes and fees
 
@@ -147,7 +149,7 @@ Involvement of the Client in the creation of software shall not entitle them to 
 - The software is used according to the designated conditions of use as stipulated in the documentation
 
 8.2.2 With regard to guarantee, rectification shall, in any case, prevail over price reduction or redhibitory action. Should a notice of defects be justified, the deficiencies shall be rectified within an adequate period, in which the Client shall enable the Contractor for all measures necessary for examination and rectification.
-Section 924 of the Austrian Civil Code ‘Assumption of Deficiency’ shall be excluded.
+Section 924 of the Austrian Civil Code 'Assumption of Deficiency' shall be excluded.
 
 8.2.3. The Contractor shall, free of charge, implement corrections and additions, which become necessary due to organisational and technical defects of the programme, until transferral of the agreed services, insofar as these are attributable to the Contractor.
 
@@ -189,7 +191,7 @@ Section 924 of the Austrian Civil Code ‘Assumption of Deficiency’ shall be e
 
 13.1. Insofar as nothing else is agreed on, only the legal provisions regarding business-to-business transactions according to Austrian law shall apply, even if the order is implemented abroad. The local jurisdiction of the objectively competent court for the place of business of the Contractor shall be exclusively agreed upon for possible disputes. Pursuant to the Austrian Consumer Protection Law (KSchG), the Terms and Conditions above shall be valid insofar as the Austrian Consumer Protection Law provides no differing obligatory provisions for selling to consumers.
 
-13.2 In the event that any disputes, which cannot be solved by mutual agreement, arise from this Contract, the parties to the contract agree to engage a listed mediator (Austrian Civil Rights Mediation Law (ZivMediatG) specialized in business mediation from the list of the Austrian Ministry of Justice in order to reconcile these out of court. Should no mutual agreement regarding the selection of the business mediator or with regard to content be possible, legal measures shall be initiated no sooner than one month after the negotiations fail. In the event that mediation could not be held or was discontinued, any litigation initiated shall be subject to Austrian law. As agreed, all necessary costs incurred due to previous mediation, particularly for legal advisors consulted, may be claimed in litigation or arbitration as ‘pre-trial costs’.
+13.2 In the event that any disputes, which cannot be solved by mutual agreement, arise from this Contract, the parties to the contract agree to engage a listed mediator (Austrian Civil Rights Mediation Law (ZivMediatG) specialized in business mediation from the list of the Austrian Ministry of Justice in order to reconcile these out of court. Should no mutual agreement regarding the selection of the business mediator or with regard to content be possible, legal measures shall be initiated no sooner than one month after the negotiations fail. In the event that mediation could not be held or was discontinued, any litigation initiated shall be subject to Austrian law. As agreed, all necessary costs incurred due to previous mediation, particularly for legal advisors consulted, may be claimed in litigation or arbitration as 'pre-trial costs'.
 
 
 ## Privacy policy
