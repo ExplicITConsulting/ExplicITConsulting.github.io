@@ -89,8 +89,6 @@ For us, support means not only delivering high-quality solutions quickly, but al
 
 This makes our support an **investment in your team’s expertise**, delivering immediate value.
 
-**Our support promise:** If your support request stems from a bug in the latest version of Export-RecipientPermissions or the provided components, support is **free — no exceptions**.  
-
-For all other issues, you will receive the same first-class support at a fair price.
+**Our support promise:**If your support request is due to a bug in the latest version of Export-RecipientPermissions, its documentation, or the provided components, support is **free - no exceptions**.<br>For all other questions, you will receive the same first-class support at a fair price.
 
 <a href="/contact" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: LawnGreen">Contact us for questions and a customized quote</a>
