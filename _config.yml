@@ -58,7 +58,6 @@ include:
   - ".well-known"
 
 kramdown:
-    auto_ids: false
     smart_quotes: ["apos", "apos", "quot", "quot"]
 
 plugins:
