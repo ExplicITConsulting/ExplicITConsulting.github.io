@@ -67,7 +67,7 @@ sitemap_changefreq: monthly
                 </div>
                 <div class="content">
                     <p>Bettina ist unsere leitende Support-Ingenieurin und verantwortet den Support für Open-Source-Software sowie unsere eigenen Produkte.</p>
-                    <p>Sie spielt eine Schlüsselrolle in der Weiterentwicklung des Benefactor Circle Add-Ons für Set-OutlookSignatures.</p>
+                    <p>Sie spielt eine Schlüsselrolle in der Weiterentwicklung des Benefactor Circle Add-ons für Set-OutlookSignatures.</p>
                 </div>
             </div>
         </div>

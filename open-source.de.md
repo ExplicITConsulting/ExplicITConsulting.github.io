@@ -29,7 +29,7 @@ sitemap_changefreq: weekly
     <div class="box" style="margin: 1.5rem; border-radius: 0; border-style: solid; border-width:thin; border-color:transparent deepskyblue lawngreen transparent; background-color: transparent;">
       <div class="content">
         <h3>Entwicklung von Erweiterungen</h3>
-        <p>Wir entwickeln individuelle und kommerzielle Erweiterungen für Open-Source-Software, z. B. das <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures Benefactor Circle Add-On</a>.</p>
+        <p>Wir entwickeln individuelle und kommerzielle Erweiterungen für Open-Source-Software, z. B. das <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures Benefactor Circle Add-on</a>.</p>
       </div>
     </div>
   </div>

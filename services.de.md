@@ -32,7 +32,7 @@ Wo wir selbst nicht ausreichend helfen können, schließen unsere ausgewählten 
         <ul>
           <li>Wir sponsern ausgewählte Open-Source-Software und spenden Code.</li>
           <li>Wir bieten professionellen Support für ausgewählte Open-Source-Software, wie beispielsweise für <a href="/open-source/export-recipientpermissions">Export-RecipientPermissions</a>.</li>
-          <li>Wir entwickeln individuelle und kommerzielle Erweiterungen für Open-Source-Software, zum Beispiel das <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures Benefactor Circle Add-On</a>. </li>
+          <li>Wir entwickeln individuelle und kommerzielle Erweiterungen für Open-Source-Software, zum Beispiel das <a href="/open-source/set-outlooksignatures">Set-OutlookSignatures Benefactor Circle Add-on</a>. </li>
         </ul>
       </div>
     </div>

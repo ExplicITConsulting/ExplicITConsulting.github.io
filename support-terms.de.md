@@ -33,14 +33,14 @@ Unsere Unterstützung ist daher eine Investition in Ihr eigenes Wissen und das I
 
 <h2 id="scope">Umfang und Priorität</h2>
 
-Das Benefactor Circle Add-On und das Outlook Add-In sind Produkte von ExplicIT Consulting, nicht jedoch die freie und quelloffene Software Set-OutlookSignatures.  
+Das Benefactor Circle Add-on und das Outlook Add-In sind Produkte von ExplicIT Consulting, nicht jedoch die freie und quelloffene Software Set-OutlookSignatures.  
 
 Wir bieten erstklassigen professionellen Support für Set-OutlookSignatures an.  
 Einen Teil Ihrer Investition geben wir direkt an das Set-OutlookSignatures-Projekt weiter und fördern so die Weiterentwicklung der kostenlosen Open-Source-Version.  
 
 Wenn Sie kostenlosen Community-Support für Set-OutlookSignatures bevorzugen, erstellen Sie bitte ein Issue auf dessen GitHub-Seite.
 
-Wie auf unserer Homepage, in der Dokumentation, in Angeboten und Rechnungen angegeben, beinhaltet die Lizenz für das Benefactor Circle Add-On keinen Support, da Support selten erforderlich ist und wir die Lizenzkosten fair halten möchten.  
+Wie auf unserer Homepage, in der Dokumentation, in Angeboten und Rechnungen angegeben, beinhaltet die Lizenz für das Benefactor Circle Add-on keinen Support, da Support selten erforderlich ist und wir die Lizenzkosten fair halten möchten.  
 
 Support-Anfragen von Benefactor Circle-Lizenzinhabern werden vorrangig bearbeitet.
 
