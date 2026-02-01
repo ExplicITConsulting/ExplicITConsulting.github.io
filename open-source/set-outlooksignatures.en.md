@@ -240,7 +240,7 @@ sitemap_changefreq: weekly
 </div>
 
 
-<h2 id="trial">Trial version</h2>
+<h2 id="trial">Free trial</h2>
 <p>After setting up the free and open-source Set-OutlookSignatures using the Quick Start Guide and configuring it to your needs, you are ready to take the next step:</p>
 
 <p><a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod); text-shadow: 0 2px 2px palegoldenrod;">Request a 14-day trial license</a></p>
@@ -251,7 +251,7 @@ sitemap_changefreq: weekly
   <li>'-BenefactorCircleId' with your <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle</span> ID</li>
 </ul>
 
-<p>Trial licenses can not be extended or re-issued. They are limited to 14 days runtime and a maximum of 20 mailboxes.</p>
+<p>Trial licenses can not be extended or re-issued. They are limited to 14&nbsp;days runtime and a maximum of 20&nbsp;mailboxes.</p>
 
 <p>The trial period starts when we create and submit the trial version, not with you using it for the first time (that's not possible, as our software does not phone home).</p>
 
@@ -363,14 +363,14 @@ sitemap_changefreq: weekly
 <p>A license group definition consists of three components:</p>
 <ul>
   <li>The DNS domain name of the on-premises Active Directory domain the license group is located in. For cloud-only groups, use '<code>EntraID_&lt;TenantID&gt;</code>' or '<code>EntraID_&lt;TenantDNSDomain&gt;</code>'.</li>
-  <li>The SID (security identifier) or the Entra ID Object ID of the license group.</li>
+  <li>The SID (security identifier) or the Entra ID object ID of the license group.</li>
   <li>The maximum number of mailboxes licensed for the group.</li>
 </ul>
 
 <p><strong>Where should I create the license group?</strong></p>
 <ul>
-  <li>When using the '-GraphOnly true' parameter, create the group in Entra ID. The license group is then '<code>EntraID_&lt;TenantDNSDomain&gt;, &lt;Object ID of your license group&gt;, &lt;NumberOfLicenses&gt;</code>'.<br>You may also use a group created in on-prem Active Directory, as long as it is synchronized to Entra ID. The license group is then '<code>&lt;On-prem Active Directory DNS domain name&gt;, &lt;SID of the license group&gt;, &lt;NumberOfLicenses&gt;</code>'.</li>
-  <li>In hybrid environments without using the '-GraphOnly true' parameter, create a group in your on-prem Active Directory and make sure it is synchronized with Entra ID. The license group is then '<code>&lt;On-prem Active Directory DNS domain name&gt;, &lt;SID of the license group&gt;, &lt;NumberOfLicenses&gt;</code>'.<br>You can also use a group created in Entra ID ('<code>EntraID_&lt;TenantDNSDomain&gt;, &lt;Object ID of the license group&gt;, &lt;NumberOfLicenses&gt;</code>'), which would basically be equal to using the '-GraphOnly true' parameter.</li>
+  <li>When using the '-GraphOnly true' parameter, create the group in Entra ID. The license group is then '<code>EntraID_&lt;TenantDNSDomain&gt;, &lt;object ID of your license group&gt;, &lt;NumberOfLicenses&gt;</code>'.<br>You may also use a group created in on-prem Active Directory, as long as it is synchronized to Entra ID. The license group is then '<code>&lt;On-prem Active Directory DNS domain name&gt;, &lt;SID of the license group&gt;, &lt;NumberOfLicenses&gt;</code>'.</li>
+  <li>In hybrid environments without using the '-GraphOnly true' parameter, create a group in your on-prem Active Directory and make sure it is synchronized with Entra ID. The license group is then '<code>&lt;On-prem Active Directory DNS domain name&gt;, &lt;SID of the license group&gt;, &lt;NumberOfLicenses&gt;</code>'.<br>You can also use a group created in Entra ID ('<code>EntraID_&lt;TenantDNSDomain&gt;, &lt;object ID of the license group&gt;, &lt;NumberOfLicenses&gt;</code>'), which would basically be equal to using the '-GraphOnly true' parameter.</li>
   <li>In pure on-prem environments, you can only use on-prem groups. The license group is then '<code>&lt;On-prem Active Directory DNS domain name&gt;, &lt;SID of the license group&gt;, &lt;NumberOfLicenses&gt;</code>'.<br>When moving to a hybrid environment, you do not need to adapt the configuration as long as you synchronize your on-prem groups to Entra ID.</li>
 </ul>
 

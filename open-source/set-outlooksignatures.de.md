@@ -240,7 +240,7 @@ sitemap_changefreq: weekly
 </div>
 
 
-<h2 id="trial">Testversion</h2>
+<h2 id="trial">Kostenlose Testversion</h2>
 <p>Nachdem Sie das kostenlose und quelloffene Set-OutlookSignatures mithilfe der Schnellstart-Anleitung eingerichtet und an Ihre Bedürfnisse angepasst haben, sind Sie bereit für den nächsten Schritt:</p>
 
 <p><a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod); text-shadow: 0 2px 2px palegoldenrod;">14-Tage-Testlizenz anfordern</a></p>
@@ -251,7 +251,7 @@ sitemap_changefreq: weekly
   <li>'-BenefactorCircleId' mit Ihrer <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle</span> ID</li>
 </ul>
 
-<p>Testlizenzen können nicht verlängert oder erneut ausgestellt werden. Sie sind auf 14 Tage Laufzeit und maximal 20 Postfächer beschränkt.</p>
+<p>Testlizenzen können nicht verlängert oder erneut ausgestellt werden. Sie sind auf 14&nbsp;Tage Laufzeit und maximal 20&nbsp;Postfächer beschränkt.</p>
 
 <p>Die Testphase beginnt mit der Erstellung und Übermittlung der Lizenzdatei, nicht mit Ihrer ersten Nutzung (das ist technisch nicht möglich, da unsere Software keine Telemetriedaten überträgt).</p>
 
