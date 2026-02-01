@@ -1,5 +1,7 @@
 - name: "Services"
   link: /services
+- name: ""
+- name: ""
 - name: "Open-Source"
   dropdown:
   - name: "Support for open-source software"
@@ -12,6 +14,8 @@
 - name: |
       <span style="font-weight: bold; color: goldenrod;">Set-OutlookSignatures Benefactor Circle</span>
   link: /open-source/set-outlooksignatures
+- name: ""
+- name: ""
 - name: Resources
   dropdown:
   - name: Support terms
