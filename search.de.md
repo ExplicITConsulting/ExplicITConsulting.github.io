@@ -84,14 +84,6 @@ sitemap_changefreq: weekly
             };
         }
 
-        const debouncedTrackSearch = debounce(function() {
-            if (typeof _paq !== 'undefined') {
-                const query = searchInput.value.trim();
-                const resultsCount = searchResultsContainer.querySelectorAll('li').length;
-                _paq.push(['trackSiteSearch', query, false, resultsCount]);
-            }
-        }, 2000); // 2000ms delay for _paq
-
         async function loadScript(url) {
             return new Promise((resolve, reject) => {
                 const script = document.createElement('script');
@@ -154,7 +146,6 @@ sitemap_changefreq: weekly
 
                     searchInput.addEventListener('input', () => {
                         const query = searchInput.value.trim();
-
                         const newUrl = new URL(window.location);
 
                         if (query.length > 0) {
@@ -166,8 +157,6 @@ sitemap_changefreq: weekly
                         }
 
                         window.history.replaceState({ path: newUrl.href }, '', newUrl.href);
-
-                        debouncedTrackSearch();
                     });
                 } else {
                     searchInput.placeholder = "{{ site.data[site.active_lang].strings.search_search-input_placeholder_error }}";
@@ -442,8 +431,24 @@ sitemap_changefreq: weekly
                     </li>
                 `;
             });
+
             html += '</ul>';
+
             searchResultsContainer.innerHTML = html;
+
+            clearTimeout(window.searchTrackingTimer);
+
+            window.searchTrackingTimer = setTimeout(() => {
+                // Check if _paq exists AND if there's actually a query to track
+                if (typeof _paq !== 'undefined') {
+                    const query = searchInput.value.trim();
+                    // Ensure we don't track empty searches if the user cleared the input
+                    if (query.length > 0) {
+                        console.log(`Search result count: ${uniqueResults.length}`);
+                        _paq.push(['trackSiteSearch', query, false, uniqueResults.length]);
+                    }
+                }
+            }, 1000); // Wait 1 second after last result render before tracking
         }
     })();
 </script>
