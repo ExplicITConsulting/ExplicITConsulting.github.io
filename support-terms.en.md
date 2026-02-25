@@ -21,7 +21,7 @@ For all other questions, you will receive the same first-class support at a fair
 
 <h2 id="rates">Rates and Value</h2>
 
-Our hourly rate is 210.00 € net for consulting and support services.  
+Our hourly rate is EUR 210.00 net for consulting and support services.  
 
 You are not just purchasing support, you are gaining access to our deep expertise as the developer, implementer, and consultant.  
 
