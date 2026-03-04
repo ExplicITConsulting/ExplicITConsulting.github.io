@@ -232,6 +232,17 @@ sitemap_changefreq: weekly
     </div>
   </div>
 </div>
+<p>&nbsp;</p>
+<div class="columns is-multiline">
+  <div class="column is-full-desktop is-full-tablet is-full-mobile">
+    <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
+      <div class="signature-scrolling-banner">
+        <div class="signature-scrolling-track">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!--
 <p>&nbsp;</p>
@@ -297,7 +308,7 @@ sitemap_changefreq: weekly
 
 <p>Licenses are required only for mailboxes that utilize <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle</span> features. This includes shared mailboxes. Each mailbox requires one license, regardless of how many users access it, how many signatures are deployed, or how frequently those signatures are modified.</p>
 
-<p>You do not need to specify individual mailbox names. Instead, define at least one Active Directory or Entra ID group that includes the relevant mailboxes. For each group, indicate the maximum number of recursive members.<p>
+<p>You do not need to specify individual mailbox names. Instead, define at least one Active Directory or Entra ID group that includes the relevant mailboxes. For each group, indicate the maximum number of recursive members.</p>
 
 <p>There is no minimum number of mailboxes required. However, each invoice must meet a minimum net amount of EUR 210.00. Licenses are paid in advance and are valid for one year from the date full payment is received. There is no automatic renewal or subscription.</p>
 
@@ -406,7 +417,7 @@ sitemap_changefreq: weekly
 
 <p>As soon as one of these steps fails, the mailbox is not licensed and <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle</span> features can not be used for it.</p>
 
-<p>Please note:<p>
+<p>Please note:</p>
 <ul>
   <li>You need to make sure that the user running Set-OutlookSignatures is able to resolve all direct and indirect members of all license groups, especially across on-prem AD trusts.</li>
   <li>Membership in primary groups (such as "Domain Users") is not considered as this cannot be queried reliably via AD/Entra ID.</li>
