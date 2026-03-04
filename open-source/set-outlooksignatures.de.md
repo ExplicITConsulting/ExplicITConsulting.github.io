@@ -168,7 +168,7 @@ sitemap_changefreq: weekly
   </div>
 </div>
 
-<a href="#trial" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod); text-shadow: 0 2px 2px palegoldenrod;">Testlizenz oder Angebot anfordern</a>
+<a href="#trial" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod); text-shadow: 0 2px 2px palegoldenrod;">Testlizenz holen, Lizenzangebot anfordern</a>
 
 
 <h2 id="demo">Demo</h2>
@@ -218,6 +218,7 @@ sitemap_changefreq: weekly
   </div>
 </div>
 
+<!--
 <p>&nbsp;</p>
 
 <div class="columns">
@@ -238,12 +239,13 @@ sitemap_changefreq: weekly
     </figure>
   </div>
 </div>
+-->
 
 
 <h2 id="trial">Kostenlose Testversion</h2>
 <p>Nachdem Sie das kostenlose und quelloffene Set-OutlookSignatures mithilfe der Schnellstart-Anleitung eingerichtet und an Ihre Bedürfnisse angepasst haben, sind Sie bereit für den nächsten Schritt:</p>
 
-<p><a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod); text-shadow: 0 2px 2px palegoldenrod;">14-Tage-Testlizenz anfordern</a></p>
+<p><a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod); text-shadow: 0 2px 2px palegoldenrod;">14-Tage-Testlizenz holen</a></p>
 
 <p>Zum Verwenden der Lizenzdatei fügen Sie einfach zwei Parameter beim Aufruf von Set-OutlookSignatures.ps1 hinzu:</p>
 <ul>
@@ -259,7 +261,7 @@ sitemap_changefreq: weekly
 <h2 id="price">Preis und Business Case</h2>
 <p>Set-OutlookSignatures ist kostenlos.<br>Ursprünglich als Technologie-Demonstrator für Scripting-Techniken geschaffen, hat sich das Tool zur fortschrittlichsten, sichersten und vielseitigsten kostenlosen Open-Source-Lösung für die Verwaltung von E-Mail-Signaturen und Abwesenheitsnotizen entwickelt. Lesen Sie in den FAQ über <a href="https://set-outlooksignatures.com/faq#why-the-tagline">ihre Entstehungsgeschichte und was Sie von ihrem Code lernen können</a>.</p>
 
-<p>Das <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-on</span> schaltet erweiterte Funktionen frei und ist für <strong>günstige 3,00 € pro Postfach und Jahr</strong> erhältlich, das entspricht <strong>lediglich 0,25 € pro Postfach und Monat</strong>.</p>
+<p>Das <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-on</span> schaltet erweiterte Funktionen frei - für <strong>nur 0,25 EUR pro Postfach und Monat</strong>. Die Abrechnung erfolgt jährlich, ohne Abo.</p>
 
 <p>Das Add-on ist eine Investition, die sich vom ersten Tag an auszahlt - sicher auch für Sie!<br>Dank einzigartiger Funktionen und exklusiver Herstellerverfügbarkeit ist in der Regel ein rechtskonformer Direktbezug ohne öffentliche Ausschreibung möglich.</p>
 
@@ -282,7 +284,7 @@ sitemap_changefreq: weekly
 
 <p>Sie müssen keine einzelnen Postfächer benennen. Stattdessen definieren Sie mindestens eine Active Directory- oder Entra ID-Gruppe, die die betreffenden Postfächer enthält, und geben die maximale Anzahl rekursiver Mitglieder pro Gruppe an.</p>
 
-<p>Es gibt keine Mindestanzahl an Postfächern. Allerdings muss jede Rechnung einen Mindestbetrag von 210,00 € netto erreichen. Lizenzen sind im Voraus zu bezahlen und gelten für ein Jahr ab dem Datum des vollständigen Zahlungseingangs. Es gibt keine automatische Verlängerung oder ein Abonnement.</p>
+<p>Es gibt keine Mindestanzahl an Postfächern. Allerdings muss jede Rechnung einen Mindestbetrag von 210,00 EUR netto erreichen. Lizenzen sind im Voraus zu bezahlen und gelten für ein Jahr ab dem Datum des vollständigen Zahlungseingangs. Es gibt keine automatische Verlängerung oder ein Abonnement.</p>
 
 <p>Wenn Sie während einer laufenden Lizenzperiode zusätzliche Postfächer hinzufügen, werden diese anteilig zum aktuellen Lizenzpreis für die verbleibenden Monate berechnet. Der Mindestbetrag pro Rechnung bleibt dabei bestehen.</p>
 
@@ -297,7 +299,7 @@ sitemap_changefreq: weekly
   <li>Kostet die neue Software weniger als der Aufwand, den wir den Nutzern ersparen?</li>
 </ul>
 
-<p>Während sich die ersten beiden Fragen nur schwer und sehr individuell beziffern lassen, ist die dritte einfacher zu beantworten. Nehmen wir an, dass eine durchschnittliche Arbeitskraft aus Sicht des Arbeitgebers 60.000 € pro Jahr kostet (inkl. Steuern, Sozialabgaben etc.) bei 1.800 Arbeitsstunden. Das ergibt 0,55 € pro Arbeitsminute.</p>
+<p>Während sich die ersten beiden Fragen nur schwer und sehr individuell beziffern lassen, ist die dritte einfacher zu beantworten. Nehmen wir an, dass eine durchschnittliche Arbeitskraft aus Sicht des Arbeitgebers 60.000 EUR pro Jahr kostet (inkl. Steuern, Sozialabgaben etc.) bei 1.800 Arbeitsstunden. Das ergibt 0,55 EUR pro Arbeitsminute.</p>
 
 <p>Weitere relevante Parameter:</p>
 <ul>
@@ -313,7 +315,7 @@ sitemap_changefreq: weekly
 <p>2 Änderungen pro Jahr, 3 Minuten pro Signatur, 2 Signaturen, 1 Client: 0.55 * 2 * 3 * 2 * 1 = 6,60</p>
 </blockquote>
 
-<p>Pro Benutzer und Jahr betragen die Kosten 6,60 € für manuellen Aufwand gegenüber günstigen 3,00 € für eine zentral verwaltete Lösung mit Set-OutlookSignatures und dem <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-on</span>.</p>
+<p>Pro Benutzer und Jahr betragen die Kosten 6,60 EUR für manuellen Aufwand gegenüber günstigen 3,00 EUR für eine zentral verwaltete Lösung mit Set-OutlookSignatures und dem <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-on</span>.</p>
 
 <p>Diese Rechnung berücksichtigt noch nicht:</p>
 <ul>

@@ -117,7 +117,7 @@ sitemap_changefreq: weekly
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
       <div style="hyphens: manual;">
-        <b>Standardize out-of-office replies</b><br>Ensure professional, compliant out-of-office replies for internal and external contacts.
+        <b>Standardize out-of-office replies</b><br>Ensure professional, compliant out-of-office messages for internal and external contacts.
       </div>
     </div>
   </div>
@@ -168,7 +168,7 @@ sitemap_changefreq: weekly
   </div>
 </div>
 
-<p><a href="#trial" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod); text-shadow: 0 2px 2px palegoldenrod;">Request a trial license or quote</a></p>
+<p><a href="#trial" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod); text-shadow: 0 2px 2px palegoldenrod;">Get a trial license, request a quote</a></p>
 
 
 <h2 id="demo">Demo</h2>
@@ -218,6 +218,7 @@ sitemap_changefreq: weekly
   </div>
 </div>
 
+<!--
 <p>&nbsp;</p>
 
 <div class="columns">
@@ -238,12 +239,13 @@ sitemap_changefreq: weekly
     </figure>
   </div>
 </div>
+-->
 
 
 <h2 id="trial">Free trial</h2>
 <p>After setting up the free and open-source Set-OutlookSignatures using the Quick Start Guide and configuring it to your needs, you are ready to take the next step:</p>
 
-<p><a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod); text-shadow: 0 2px 2px palegoldenrod;">Request a 14-day trial license</a></p>
+<p><a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod); text-shadow: 0 2px 2px palegoldenrod;">Get a 14-day trial license</a></p>
 
 <p>To use the license file, just add two parameters to your call of Set-OutlookSignatures.ps1:</p>
 <ul>
@@ -259,7 +261,7 @@ sitemap_changefreq: weekly
 <h2 id="price">Price and business case</h2>
 <p>Set-OutlookSignatures is free of charge.<br>Originally developed as a technology demonstrator for scripting techniques, it has evolved into the most advanced, secure and versatile free and open-source tool for managing email signatures and out-of-office replies. Read about <a href="https://set-outlooksignatures.com/faq#why-the-tagline">its history and what you can learn from its code</a> in our FAQ.</p>
 
-<p>The <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle add-on</span> unlocks advanced features and is available for <strong>affordable 3.00 € per mailbox per year</strong>, which equals <strong>just 0.25 € per mailbox per month</strong>.</p>
+<p>The <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle add-on</span> unlocks advanced features - for <strong>only EUR 0.25 per mailbox per month</strong>. Billing is annual, with no subscription.</p>
 
 <p>The add-on is an investment that pays off from day one - certainly for you as well!<br>Thanks to unique features and exclusive manufacturer availability, direct procurement in compliance with legal requirements is generally possible without a public tender.</p>
 
@@ -282,7 +284,7 @@ sitemap_changefreq: weekly
 
 <p>You do not need to specify individual mailbox names. Instead, define at least one Active Directory or Entra ID group that includes the relevant mailboxes. For each group, indicate the maximum number of recursive members.<p>
 
-<p>There is no minimum number of mailboxes required. However, each invoice must meet a minimum net amount of 210.00 €. Licenses are paid in advance and are valid for one year from the date full payment is received. There is no automatic renewal or subscription.</p>
+<p>There is no minimum number of mailboxes required. However, each invoice must meet a minimum net amount of EUR 210.00. Licenses are paid in advance and are valid for one year from the date full payment is received. There is no automatic renewal or subscription.</p>
 
 <p>If you add mailboxes during an active license period, you will be charged the current license price for those additional mailboxes, calculated for the remaining months of your license term. The minimum invoice amount applies.</p>
 
@@ -297,7 +299,7 @@ sitemap_changefreq: weekly
   <li>Does the new software cost less than the effort we want to save users?</li>
 </ul>
 
-<p>While the first two are difficult to calculate and very individual, the last question is easier to answer. Let's assume that an average employee costs 60,000&nbsp;€ per year from the employer's point of view (including all taxes, social security, etc.) for 1,800 hours of work. This gives costs of 0.55&nbsp;€ for each minute of employee work.</p>
+<p>While the first two are difficult to calculate and very individual, the last question is easier to answer. Let's assume that an average employee costs EUR 60,000 per year from the employer's point of view (including all taxes, social security, etc.) for 1,800 hours of work. This gives costs of EUR 0.55 for each minute of employee work.</p>
 
 <p>Other parameters we need are:</p>
 <ul>
@@ -313,7 +315,7 @@ sitemap_changefreq: weekly
   <p>2 changes per year, 3 minutes per change, 2 signatures, 1 client: 0.55 * 2 * 3 * 2 * 1 = 6.60</p>
 </blockquote>
 
-<p>Per user and year, the costs are now 6.60&nbsp;€ in manual effort compared to affordable 3.00&nbsp;€ for a centrally managed solution with Set-OutlookSignatures and the <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle add-on</span>.</p>
+<p>Per user and year, the costs are now EUR 6.60 in manual effort compared to affordable EUR 3.00 for a centrally managed solution with Set-OutlookSignatures and the <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle add-on</span>.</p>
 
 <p>This calculation does not even take into account the following:</p>
 <ul>
