@@ -16,7 +16,7 @@ redirect_from: "/open-source/set-outlooksignatures/"
 sitemap_priority: 1.0
 sitemap_changefreq: weekly
 ---
-<h2 id="outlook-signature-management" class="">
+<h2 id="outlook-signature-management">
   Manage your<span style="font-weight: bolder;"> Outlook signatures </span>centrally and fully automated
 </h2>
 <div class="columns is-multiline">
@@ -25,12 +25,28 @@ sitemap_changefreq: weekly
     <p>Thanks to centrally managed templates that automatically pull in your company data, every email gets the professional look your business deserves: Up-to-date, consistent, and on-brand.</p>
     <p>Centralized management, seamless deployment, and full control across all Outlook editions on all platforms: Classic and New, Android, iOS, Linux, macOS, Web, Windows.</p>
     <p>No telemetry, no "calling home". Emails and directory data are not routed through a 3rd party data center or cloud service. DNS records (SPF) and mail flow remain unchanged.</p>
-    <p><a href="https://set-outlooksignatures.com" target="_blank" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod); text-shadow: 0 2px 2px palegoldenrod;">To the website of Set-OutlookSignatures</a></p>
   </div>
   <div class="column is-half-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <div class="signature-scrolling-banner">
         <div class="signature-scrolling-track">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<p>Experience live how quickly and intuitively you can centrally manage and optimize your Outlook signatures and out-of-office replies.</p>
+<div class="columns is-multiline">
+  <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
+    <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
+      <p><a href="/benefactorcircle#demo" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="min-height: 4em; background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod); text-shadow: 0 2px 2px palegoldenrod;">Schedule your personal demo now</a></p>
+    </div>
+  </div>
+
+  <div class="column is-two-thirds-desktop is-half-tablet is-full-mobile">
+    <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
+      <div class="customer-scrolling-banner">
+        <div class="customer-scrolling-track">
         </div>
       </div>
     </div>
