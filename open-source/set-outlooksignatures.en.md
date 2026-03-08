@@ -25,8 +25,10 @@ sitemap_changefreq: weekly
     <p>Thanks to centrally managed templates that automatically pull in your company data, every email gets the professional look your business deserves: Up-to-date, consistent, and on-brand.</p>
     <p>Centralized management, seamless deployment, and full control across all Outlook editions on all platforms: Classic and New, Android, iOS, Linux, macOS, Web, Windows.</p>
   </div>
-  <p>No telemetry, no "calling home". Emails and directory data are not routed through a 3rd party data center or cloud service. DNS records (SPF) and mail flow remain unchanged.</p>
-  <p>Supports on-prem and all M365 clouds (public, national, sovereign, hybrid): Global/Public, US Government L4 (GCC, GCC High), US Government L5 (DOD), China operated by 21Vianet, sovereign clouds Bleu, Delos, GovSG, and more.</p>
+</div>
+<p>No telemetry, no "calling home". Emails and directory data are not routed through a 3rd party data center or cloud service. DNS records (SPF) and mail flow remain unchanged.</p>
+<p>Supports on-prem and all M365 clouds (public, national, sovereign, hybrid): Global/Public, US Government L4 (GCC, GCC High), US Government L5 (DOD), China operated by 21Vianet, sovereign clouds Bleu, Delos, GovSG, and more.</p>
+<div class="columns is-multiline">
   <div class="column is-half-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <div class="signature-scrolling-banner">
