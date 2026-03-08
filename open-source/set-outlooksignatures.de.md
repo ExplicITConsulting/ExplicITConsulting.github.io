@@ -19,11 +19,13 @@ sitemap_changefreq: weekly
 <h2 id="outlook-signature-management">
   Verwalten Sie Ihre<span style="font-weight: bolder;"> Outlook-Signaturen </span>zentral und vollautomatisch
 </h2>
+<p>Set-OutlookSignatures nimmt Ihnen den Aufwand ab, Outlook-Signaturen und Abwesenheitsnachrichten manuell zu pflegen.</p>
+<p>Dank zentral verwalteter Vorlagen, die sich automatisch mit Ihren Unternehmensdaten füllen, erhält jede E-Mail den professionellen Auftritt, den Ihr Unternehmen verdient: Aktuell, einheitlich und markenkonform.</p>
 <div class="columns is-multiline">
   <div class="column is-half-desktop is-half-tablet is-full-mobile">
-    <p>Set-OutlookSignatures nimmt Ihnen den Aufwand ab, Outlook-Signaturen und Abwesenheitsnachrichten manuell zu pflegen.</p>
-    <p>Dank zentral verwalteter Vorlagen, die sich automatisch mit Ihren Unternehmensdaten füllen, erhält jede E-Mail den professionellen Auftritt, den Ihr Unternehmen verdient: Aktuell, einheitlich und markenkonform.</p>
     <p>Zentralisierte Verwaltung, nahtlose Bereitstellung und vollständige Kontrolle über alle Outlook-Editionen auf allen Plattformen: Classic und New, Android, iOS, Linux, macOS, Web, Windows.</p>
+    <p>Unterstützt on-prem und alle M365 Clouds: Global, US Government (GCC, GCC High, DOD), China, souveräne Clouds Bleu, Delos, GovSG und mehr.</p>
+    <p>Keine Telemetrie, kein "Calling Home". E-Mails und Verzeichnisdaten werden nicht über externe Rechenzentren oder Cloud-Dienste geleitet. DNS-Einträge (SPF) und Nachrichtenfluss bleiben unverändert.</p>
   </div>
   <div class="column is-half-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
@@ -34,13 +36,11 @@ sitemap_changefreq: weekly
     </div>
   </div>
 </div>
-<p>Keine Telemetrie, kein "Calling Home". E-Mails und Verzeichnisdaten werden nicht über externe Rechenzentren oder Cloud-Dienste geleitet. DNS-Einträge (SPF) und Nachrichtenfluss bleiben unverändert.</p>
-<p>Unterstützt on-prem und alle M365 Clouds (öffentlich, national, souverän, hybrid): Global/Public, US Government L4 (GCC, GCC High), US Government L5 (DOD), China operated by 21Vianet, souveräne Clouds Bleu, Delos, GovSG und mehr.</p>
 <p>Erleben Sie live, wie schnell und intuitiv Sie Ihre Outlook-Signaturen und Abwesenheitsnotizen zentral verwalten und optimieren können.</p>
 <div class="columns is-multiline">
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
-      <p><a href="https://set-outlooksignatures.com" target="_blank" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="min-height: 4em; background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod); text-shadow: 0 2px 2px palegoldenrod;">Zur Website von Set-OutlookSignatures</a></p>
+      <p><a href="/benefactorcircle#demo" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="min-height: 4em; background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod); text-shadow: 0 2px 2px palegoldenrod;">Jetzt persönliche Demo vereinbaren</a></p>
     </div>
   </div>
   <div class="column is-two-thirds-desktop is-half-tablet is-full-mobile">
