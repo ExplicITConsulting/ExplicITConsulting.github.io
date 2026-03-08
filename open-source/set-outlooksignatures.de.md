@@ -24,9 +24,9 @@ sitemap_changefreq: weekly
     <p>Set-OutlookSignatures nimmt Ihnen den Aufwand ab, Outlook-Signaturen und Abwesenheitsnachrichten manuell zu pflegen.</p>
     <p>Dank zentral verwalteter Vorlagen, die sich automatisch mit Ihren Unternehmensdaten füllen, erhält jede E-Mail den professionellen Auftritt, den Ihr Unternehmen verdient: Aktuell, einheitlich und markenkonform.</p>
     <p>Zentralisierte Verwaltung, nahtlose Bereitstellung und vollständige Kontrolle über alle Outlook-Editionen auf allen Plattformen: Classic und New, Android, iOS, Linux, macOS, Web, Windows.</p>
-    <p>Unterstützt on-prem und alle M365 Clouds (öffentlich, national, souverän, hybrid): Global/Public, US Government L4 (GCC, GCC High), US Government L5 (DOD), China operated by 21Vianet, souveräne Clouds Bleu, Delos, GovSG und mehr.</p>
-    <p>Keine Telemetrie, kein "Calling Home". E-Mails und Verzeichnisdaten werden nicht über externe Rechenzentren oder Cloud-Dienste geleitet. DNS-Einträge (SPF) und Nachrichtenfluss bleiben unverändert.</p>
   </div>
+  <p>Keine Telemetrie, kein "Calling Home". E-Mails und Verzeichnisdaten werden nicht über externe Rechenzentren oder Cloud-Dienste geleitet. DNS-Einträge (SPF) und Nachrichtenfluss bleiben unverändert.</p>
+  <p>Unterstützt on-prem und alle M365 Clouds (öffentlich, national, souverän, hybrid): Global/Public, US Government L4 (GCC, GCC High), US Government L5 (DOD), China operated by 21Vianet, souveräne Clouds Bleu, Delos, GovSG und mehr.</p>
   <div class="column is-half-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <div class="signature-scrolling-banner">
