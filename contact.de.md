@@ -22,4 +22,4 @@ sitemap_changefreq: yearly
 
 <p>Für allgemeine Fragen zum Benefactor Circle Add-on: <a href="mailto:set-outlooksignatures@explicitconsulting.at" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: LawnGreen">Set-OutlookSignatures Benefactor Circle Team</a></p>
 
-<p>Sie suchen nach Implementierungs-Unterstützung oder Schulung? <a href="https://forms.cloud.microsoft/r/CnwjH98vSs" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: LawnGreen">Professionellen Support anfordern</a></p>
+<p>Sie suchen nach Implementierungs-Unterstützung oder Schulung? <a href="https://forms.cloud.microsoft/r/CnwjH98vSs" class="button is-link is-normal is-hover has-text-black has-text-weight-bold" style="background-color: LawnGreen">Professionellen Support bestellen</a></p>
