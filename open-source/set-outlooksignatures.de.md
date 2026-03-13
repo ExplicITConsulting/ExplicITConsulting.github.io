@@ -19,7 +19,7 @@ sitemap_changefreq: weekly
 <h2 id="outlook-signature-management">
   Verwalten Sie Ihre<span style="font-weight: bolder;"> Outlook-Signaturen </span>zentral und vollautomatisch
 </h2>
-<p>Set-OutlookSignatures nimmt Ihnen den Aufwand ab, Outlook-Signaturen und Abwesenheitsnachrichten manuell zu pflegen.</p>
+<p>Set-OutlookSignatures und das Benefactor Circle Add-on nehmen Ihnen den Aufwand ab, Outlook-Signaturen und Abwesenheitsnachrichten manuell zu pflegen.</p>
 <p>Dank zentral verwalteter Vorlagen, die sich automatisch mit Ihren Unternehmensdaten füllen, erhält jede E-Mail den professionellen Auftritt, den Ihr Unternehmen verdient: Aktuell, einheitlich und markenkonform.</p>
 <div class="columns is-multiline">
   <div class="column is-half-desktop is-half-tablet is-full-mobile">
@@ -79,13 +79,13 @@ sitemap_changefreq: weekly
 <p>Das <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-on</span> von <a href="https://explicitconsulting.at">ExplicIT Consulting</a> erweitert das kostenlose Set-OutlookSignatures um großartige zusätzliche Möglichkeiten für Ihr Unternehmen.</p>
 
 
-<h3 id="key-features">Zusätzliche Funktionen</h3>
+<h3 id="key-features">Exklusive Business-Vorteile</h3>
 <div class="columns is-multiline">
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
       <div style="hyphens: manual;">
-        <b>Makellose Marken­konsistenz</b><br>Hochauflösende DOCX-Bilder für ein professionelles, einheitliches Erscheinungsbild.
+        <b>Plattformübergreifende Automatisierung</b><br>Signaturen werden automatisch in allen Outlook-Versionen (Windows, macOS, Web) sowie in den mobilen Apps für iOS und Android bereitgestellt.
       </div>
     </div>
   </div>
@@ -93,7 +93,7 @@ sitemap_changefreq: weekly
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
       <div style="hyphens: manual;">
-        <b>Automatisierte Kampagnen</b><br>Planen Sie Banner und Signaturen, die automatisch starten, wechseln und ablaufen.
+        <b>Zeitgesteuerte Marketing-Kampagnen</b><br>Planen Sie Signaturen, die automatisch starten, wechseln und ablaufen – mit gestochen scharfen Bannern und Bildern direkt aus Word-Vorlagen.
       </div>
     </div>
   </div>
@@ -101,7 +101,7 @@ sitemap_changefreq: weekly
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
       <div style="hyphens: manual;">
-        <b>Konsistente Signaturen überall</b><br>Garantierte Compliance und Marken­treue auf allen Outlook-Clients: Desktop, Web und Mobilgeräte.
+        <b>Zentrale Bereitstellung</b><br>Signaturen von einer zentralen Stelle aus setzen, ohne Software auf jedem einzelnen Endgerät. Ideal für BYOD-Szenarien und Nutzer mit F-Lizenzen.
       </div>
     </div>
   </div>
@@ -109,7 +109,7 @@ sitemap_changefreq: weekly
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
       <div style="hyphens: manual;">
-        <b>Zugriff außerhalb von Outlook</b><br>Erweitern Sie die Signatur­verfügbarkeit auf Apple Mail, Gmail, Thunderbird und mehr.
+        <b>Shared Mailboxes und Delegations-Szenarien</b><br>Volle Kontrolle über Signaturen für Shared Mailboxes und bei Delegations-Szenarien (z. B. Sekretariat oder Vertretung).
       </div>
     </div>
   </div>
@@ -117,7 +117,7 @@ sitemap_changefreq: weekly
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
       <div style="hyphens: manual;">
-        <b>Flexible Bereitstellung</b><br>Kombinieren Sie dezentrale und zentrale Setups nach Ihren Anforderungen.
+        <b>Zentrales Management von Abwesenheitsnotizen</b><br>Verwalten und verteilen Sie Abwesenheitsnotizen für das gesamte Team konsistent und zentral von einer Stelle aus.
       </div>
     </div>
   </div>
@@ -125,7 +125,7 @@ sitemap_changefreq: weekly
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
       <div style="hyphens: manual;">
-        <b>Delegierte und freigegebene Postfächer</b><br>Zentrale Verwaltung von Signaturen für freigegebene, delegierte und automatisch zugeordnete Postfächer.
+        <b>Automatisierte Signatur-Bereinigung</b><br>Veraltete oder manuell erstellte Signaturen werden automatisch entfernt, um ein einheitliches Corporate Design sicherzustellen.
       </div>
     </div>
   </div>
@@ -133,7 +133,7 @@ sitemap_changefreq: weekly
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
       <div style="hyphens: manual;">
-        <b>Standardisierte Abwesenheitsnotizen</b><br>Sorgen Sie für professionelle, konforme Abwesenheitsnotizen für interne und externe Kontakte.
+        <b>Unterstützung für Drittanbieter-Clients</b><br>Signaturen stehen über eine immer aktuelle Entwurfs-E-Mail auch alternativen Mail-Programmen wie Apple Mail, Gmail oder Thunderbird zur Verfügung.
       </div>
     </div>
   </div>
@@ -141,15 +141,7 @@ sitemap_changefreq: weekly
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
       <div style="hyphens: manual;">
-        <b>Signaturbereinigung</b><br>Entfernen Sie veraltete automatische Signaturen und bei Bedarf benutzer­definierte.
-      </div>
-    </div>
-  </div>
-  <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
-    <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
-      <span style="font-weight: bold; background-image: linear-gradient(to right, #DAA52000, goldenrod, darkgoldenrod); background-clip: text; color: transparent;">⚫</span>
-      <div style="hyphens: manual;">
-        <b>Vollständiges White-Labeling</b><br>Entfernen des Hinweises 'Free and open-source Set-OutlookSignatures' von Signaturen.
+        <b>Vollständiges White-Labeling</b><br>Exklusiver Marken-Auftritt durch das Entfernen des Hinweises 'Free and open-source Set-OutlookSignatures' aus Ihren Signaturen.
       </div>
     </div>
   </div>
