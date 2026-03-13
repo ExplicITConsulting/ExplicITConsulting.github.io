@@ -4,8 +4,8 @@ lang: en
 locale: en
 title: |
   Set-OutlookSignatures and the <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle add-on</span>
-subtitle: Email signatures and out-of-office replies for Exchange and Outlook.<br>Full-featured, cost-effective, unsurpassed data privacy.
-description: Set-OutlookSignatures and the Benefactor Circle add-on. Email signatures and out-of-office replies for Exchange and Outlook. Full-featured, cost-effective, unsurpassed data privacy.
+subtitle: Automated email signatures and out-of-office replies with total data sovereignty
+description: Set-OutlookSignatures and the Benefactor Circle add-on. Automated email signatures and out-of-office replies with total data sovereignty
 image:
   path: "/assets/images/set-outlooksignatures benefactor circle opengraph1200x630.png"
   height: 1200
