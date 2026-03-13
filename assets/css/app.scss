@@ -173,42 +173,62 @@ h6:hover .anchor-link {
   animation-delay: 0s;
 }
 
+/* 1. The Banner stays inside your Bulma column */
 .customer-scrolling-banner,
 .signature-scrolling-banner {
-  overflow: hidden;
-  pointer-events: none;
-  display: flex;
-  align-items: center;
   width: 100%;
-  height: 100%;
+  overflow: hidden;
+  display: block;
+  position: relative;
 }
 
+/* 2. The Track is the only thing that is wide */
 .customer-scrolling-track,
 .signature-scrolling-track {
   display: flex;
-  align-items: center;
-  white-space: nowrap;
-  gap: 2em;
+  width: max-content; /* Only the inner track expands */
+  flex-wrap: nowrap;
+  gap: 2rem;
   will-change: transform;
+  filter: drop-shadow(0 0 0 transparent);
   transform: translate3d(0, 0, 0);
+  perspective: 1000px;
   backface-visibility: hidden;
-  image-rendering: auto;
 }
 
-.customer-scrolling-track img,
+/* 3. Placeholders prevent the "0px width" speed bug */
+.customer-scrolling-track img {
+  height: 4rem;
+  width: auto;
+  min-width: 50px; /* Estimate to start animation immediately */
+}
+
 .signature-scrolling-track img {
-  height: auto;
-  flex-shrink: 0;
-  padding-right: 0 !important;
-  transform: translateZ(0);
-}
-
-.customer-scrolling-banner .customer-scrolling-track img {
-  height: 4em;
-}
-
-.signature-scrolling-banner .signature-scrolling-track img {
   height: 10em;
+  width: auto;
+  min-width: 150px; /* Estimate to start animation immediately */
+}
+
+/* 4. The Animation */
+.is-animating {
+  animation: marquee-scroll var(--duration) linear infinite;
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* 5. Firefox "Butter" Hack */
+@-moz-document url-prefix() {
+  .is-animating {
+    transform: rotate(0.0001deg);
+    filter: drop-shadow(0 0 0 transparent);
+  }
 }
 
 p + ul,

@@ -125,79 +125,42 @@
 <!-- Scrolling banner for signature images and customer imageshtml  -->
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    const initBannerType = async (config) => {
-      const banners = document.querySelectorAll(config.selector);
-      if (banners.length === 0) return;
+    const initSafeBanner = async (trackSelector, endpoint, pxPerSec) => {
+      const track = document.querySelector(trackSelector);
+      if (!track) return;
 
       try {
-        const response = await fetch(config.endpoint);
-        if (!response.ok) return;
+        const response = await fetch(endpoint);
         const text = await response.text();
-        const baseUrls = [...new Set(text.split('\n').map(l => l.trim()).filter(Boolean))];
+        const urls = text.split('\n').map(l => l.trim()).filter(Boolean);
 
-        banners.forEach(banner => {
-          const track = banner.querySelector(config.trackSelector);
-          if (!track) return;
-
-          // 1. Shuffle and add images immediately (background loading)
-          const shuffled = [...baseUrls].sort(() => Math.random() - 0.5);
-          shuffled.forEach(url => {
-            const img = new Image();
-            img.src = url;
-            img.alt = "Logo/Template";
-            img.decoding = "async";
-            track.appendChild(img);
-          });
-
-          // 2. Animation State
-          let scrollPos = 0;
-          const speed = config.speed || 1.2;
-
-          const animate = () => {
-            scrollPos -= speed;
-
-            const firstImg = track.firstElementChild;
-            if (firstImg && firstImg.complete && firstImg.naturalWidth > 0) {
-              const computedStyle = getComputedStyle(track);
-              const gap = parseFloat(computedStyle.gap) || 0;
-
-              // Use getBoundingClientRect for sub-pixel accuracy
-              const rect = firstImg.getBoundingClientRect();
-              const itemWidth = rect.width + gap;
-
-              if (Math.abs(scrollPos) >= itemWidth) {
-                track.appendChild(firstImg);
-                // Adjust scrollPos with precision
-                scrollPos += itemWidth;
-              }
-            }
-
-            // Use translate3d for GPU acceleration
-            track.style.transform = `translate3d(${scrollPos}px, 0, 0)`;
-            requestAnimationFrame(animate);
-          };
-
-          requestAnimationFrame(animate);
+        // Inject images twice for the seamless loop
+        const fragment = document.createDocumentFragment();
+        [...urls, ...urls].forEach(url => {
+          const img = new Image();
+          img.src = url;
+          img.loading = "lazy";
+          fragment.appendChild(img);
         });
-      } catch (e) {
-        console.error(`Error loading ${config.selector}:`, e);
-      }
+        track.appendChild(fragment);
+
+        // Update speed dynamically as images load
+        const observer = new ResizeObserver(entries => {
+          const halfWidth = entries[0].contentRect.width / 2;
+          if (halfWidth > 10) {
+            const duration = halfWidth / pxPerSec;
+            track.style.setProperty('--duration', `${duration}s`);
+            track.classList.add('is-animating');
+          }
+        });
+
+        observer.observe(track);
+      } catch (e) { console.error("Banner error:", e); }
     };
 
-    // Run for both configurations
-    initBannerType({
-      selector: '.customer-scrolling-banner',
-      trackSelector: '.customer-scrolling-track',
-      endpoint: 'https://set-outlooksignatures.com/customer-images.txt',
-      speed: 1.2
-    });
-
-    initBannerType({
-      selector: '.signature-scrolling-banner',
-      trackSelector: '.signature-scrolling-track',
-      endpoint: 'https://set-outlooksignatures.com/signature-images.txt',
-      speed: 1.2
-    });
+    // 72px/s matches your original 1.2px per frame speed
+    initSafeBanner('.customer-scrolling-track', 'https://set-outlooksignatures.com/customer-images.txt', 75);
+    initSafeBanner('.signature-scrolling-track', 'https://set-outlooksignatures.com/signature-images.txt', 90);
   });
 </script>
 
