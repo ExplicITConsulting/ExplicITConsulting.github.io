@@ -6,6 +6,18 @@ title: |
   Set-OutlookSignatures und das <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-on</span>
 subtitle: Automatisierte E-Mail-Signaturen und Abwesenheitsnotizen mit vollständiger Datensouveränität 
 description: Set-OutlookSignatures und das Benefactor Circle add-on. Automatisierte E-Mail-Signaturen und Abwesenheitsnotizen mit vollständiger Datensouveränität.
+hero_link: "#demo"
+hero_link_text: "<span><b>Buchen Sie Ihre persönliche Demo</b></span>"
+hero_link_style: |
+   style="background-color: LawnGreen; background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod);"
+hero_link2: "#trial"
+hero_link2_text: "<span><b>14-Tage-Testlizenz holen</b></span>"
+hero_link2_style: |
+   style="background-color: LawnGreen; background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod);"
+hero_link3: "#order"
+hero_link3_text: "<span><b>Lizenzangebot anfordern</b></span>"
+hero_link3_style: |
+   style="background-color: LawnGreen; background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod);"
 image:
   path: "/assets/images/set-outlooksignatures benefactor circle opengraph1200x630.png"
   height: 1200
