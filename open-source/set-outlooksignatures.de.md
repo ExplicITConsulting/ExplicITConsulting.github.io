@@ -4,8 +4,8 @@ lang: de
 locale: de
 title: |
   Set-OutlookSignatures und das <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-on</span>
-subtitle: E-Mail-Signaturen und Abwesenheitsnotizen für Exchange und Outlook.<br>Voller Funktionsumfang, kosteneffizient, unübertroffener Datenschutz. 
-description: Set-OutlookSignatures und das Benefactor Circle add-on. E-Mail-Signaturen und Abwesenheitsnotizen für Exchange und Outlook. Voller Funktionsumfang, kosteneffizient, unübertroffener Datenschutz.
+subtitle: Automatisierte E-Mail-Signaturen und Abwesenheitsnotizen mit vollständiger Datensouveränität 
+description: Set-OutlookSignatures und das Benefactor Circle add-on. Automatisierte E-Mail-Signaturen und Abwesenheitsnotizen mit vollständiger Datensouveränität.
 image:
   path: "/assets/images/set-outlooksignatures benefactor circle opengraph1200x630.png"
   height: 1200
