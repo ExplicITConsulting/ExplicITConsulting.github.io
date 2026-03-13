@@ -203,8 +203,12 @@ h6:hover .anchor-link {
   transform: translateZ(0);
 }
 
+.customer-scrolling-banner .customer-scrolling-track img {
+  height: 4em;
+}
+
 .signature-scrolling-banner .signature-scrolling-track img {
-  max-height: 10em;
+  height: 10em;
 }
 
 p + ul,
