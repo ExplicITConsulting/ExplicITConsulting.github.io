@@ -4,8 +4,8 @@ lang: en
 locale: en
 title: |
   Set-OutlookSignatures and the <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle add-on</span>
-subtitle: Automated email signatures and out-of-office replies with total data sovereignty
-description: Set-OutlookSignatures and the Benefactor Circle add-on. Automated email signatures and out-of-office replies with total data sovereignty
+subtitle: Email signatures and out-of-office replies with data sovereignty
+description: Set-OutlookSignatures and the Benefactor Circle add-on. Email signatures and out-of-office replies with data sovereignty
 hero_link: "#demo"
 hero_link_text: "<span><b>Schedule your personal demo now</b></span>"
 hero_link_style: |

@@ -4,8 +4,8 @@ lang: de
 locale: de
 title: |
   Set-OutlookSignatures und das <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-on</span>
-subtitle: Automatisierte E-Mail-Signaturen und Abwesenheitsnotizen mit vollständiger Datensouveränität 
-description: Set-OutlookSignatures und das Benefactor Circle add-on. Automatisierte E-Mail-Signaturen und Abwesenheitsnotizen mit vollständiger Datensouveränität.
+subtitle: E-Mail-Signaturen und Abwesenheitsnotizen mit Datensouveränität 
+description: Set-OutlookSignatures und das Benefactor Circle add-on. E-Mail-Signaturen und Abwesenheitsnotizen mit Datensouveränität.
 hero_link: "#demo"
 hero_link_text: "<span><b>Buchen Sie Ihre persönliche Demo</b></span>"
 hero_link_style: |
