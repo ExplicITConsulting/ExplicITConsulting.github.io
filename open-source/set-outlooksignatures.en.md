@@ -18,7 +18,6 @@ hero_link3: "#order"
 hero_link3_text: "<span><b>Request a license quote</b></span>"
 hero_link3_style: |
    style="background-color: LawnGreen; background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod);"
-
 image:
   path: "/assets/images/set-outlooksignatures benefactor circle opengraph1200x630.png"
   height: 1200
@@ -29,11 +28,12 @@ redirect_from: "/open-source/set-outlooksignatures/"
 sitemap_priority: 1.0
 sitemap_changefreq: weekly
 ---
-<!-- First h2 of set-outlooksignatures.com/index.md -->
+<!-- First h2 of set-outlooksignatures.com/index.en.md -->
 <h2 id="outlook-signature-management">
   <span style="font-weight: bolder;">Stop fighting </span>with inconsistent signatures and out-of-office replies
 </h2>
-<p>The free and open-source Set-OutlookSignatures and the <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle add-on</span> automate the complexity of enterprise-wide signature management so you can focus on what matters.</p>
+<p>The free and open-source Set-OutlookSignatures, together with the <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle add-on</span>, take the hassle out of manually maintaining Outlook signatures and out-of-office replies.</p>
+<p>Every email delivers the professional appearance your company deserves: Up to date, consistent, and fully aligned with your brand.</p>
 <div class="columns is-multiline">
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
@@ -62,14 +62,7 @@ sitemap_changefreq: weekly
 </div>
 
 
-<!-- Disable background image to match set-outlooksignatures.com style -->
-<style>
-  html::after {
-  }
-</style>
-
-
-<!-- HTML content of set-outlooksignatures.com/benefactorcircle.md -->
+<!-- HTML content of set-outlooksignatures.com/benefactorcircle.en.md -->
 <h2 id="sustainable-value">Sustainable added value for your business</h2>
 <p>The <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle add-on</span> enhances the free and open-source Set-OutlookSignatures with great additional possibilities for your company.</p>
 
@@ -141,7 +134,6 @@ sitemap_changefreq: weekly
     </div>
   </div>
 </div>
-
 
 <h3 id="updates-support">Updates and support</h3>
 <div class="columns is-multiline">
@@ -233,7 +225,6 @@ sitemap_changefreq: weekly
   </div>
 </div>
 
-
 <!--
 <p>&nbsp;</p>
 
@@ -256,7 +247,6 @@ sitemap_changefreq: weekly
   </div>
 </div>
 -->
-
 
 <div class="columns is-multiline">
   <div class="column is-half-desktop is-half-tablet is-full-mobile">
