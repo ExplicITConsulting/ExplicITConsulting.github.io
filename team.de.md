@@ -7,8 +7,8 @@ subtitle: Engagiert für Ihren Erfolg
 description: Lernen Sie die Menschen hinter ExplicIT kennen. Unser kollaboratives Team setzt sich für Innovation, Kundenzufriedenheit und den Aufbau langfristiger Beziehungen ein.
 image:
   path: "/assets/images/set-outlooksignatures benefactor circle opengraph1200x630.png"
-  height: 1200
-  width: 630
+  width: 1200
+  height: 630
   alt: "Set-OutlookSignatures Benefactor Circle"
 permalink: "/team"
 redirect_from: "/team/"

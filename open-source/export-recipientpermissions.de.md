@@ -15,8 +15,8 @@ hero_link2_style: |
 description: Export-RecipientPermissions. Das Open-Source-Tool der Wahl zur Dokumentation, Filterung und zum Vergleich von Exchange-Berechtigungen.
 image:
   path: "/assets/images/export-recipientpermissions opengraph1200x630.png"
-  height: 1200
-  width: 630
+  width: 1200
+  height: 630
   alt: "Export-RecipientPermissions"
 permalink: "/open-source/export-recipientpermissions"
 redirect_from:

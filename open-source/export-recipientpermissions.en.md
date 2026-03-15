@@ -13,8 +13,8 @@ hero_link2_style: |
 description: The open-source tool of choice to document, filter and compare Exchange permissions
 image:
   path: "/assets/images/export-recipientpermissions opengraph1200x630.png"
-  height: 1200
-  width: 630
+  width: 1200
+  height: 630
   alt: "Export-RecipientPermissions"
 permalink: "/open-source/export-recipientpermissions"
 redirect_from:

@@ -20,8 +20,8 @@ hero_link3_style: |
    style="background-color: LawnGreen; background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod);"
 image:
   path: "/assets/images/set-outlooksignatures benefactor circle opengraph1200x630.png"
-  height: 1200
-  width: 630
+  width: 1200
+  height: 630
   alt: "Set-OutlookSignatures Benefactor Circle"
 permalink: "/open-source/set-outlooksignatures"
 redirect_from: "/open-source/set-outlooksignatures/"

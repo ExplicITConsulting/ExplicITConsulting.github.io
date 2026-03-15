@@ -7,8 +7,8 @@ subtitle: Dedicated to your success
 description: Get to know the people behind ExplicIT. Our collaborative team is dedicated to innovation, client satisfaction, and building lasting relationships.
 image:
   path: "/assets/images/set-outlooksignatures benefactor circle opengraph1200x630.png"
-  height: 1200
-  width: 630
+  width: 1200
+  height: 630
   alt: "Set-OutlookSignatures Benefactor Circle"
 permalink: "/team"
 redirect_from: "/team/"
