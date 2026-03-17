@@ -2,22 +2,10 @@
 layout: page
 lang: de
 locale: de
-title: |
-  Set-OutlookSignatures und das <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-on</span>
-subtitle: E-Mail-Signaturen und Abwesenheitsnotizen mit Datensouveränität 
+subtitle: |
+  Set-OutlookSignatures und das Benefactor Circle Add-on
+title: E-Mail-Signaturen und Abwesenheitsnotizen mit Datensouveränität 
 description: Set-OutlookSignatures und das Benefactor Circle add-on. E-Mail-Signaturen und Abwesenheitsnotizen mit Datensouveränität.
-hero_link: "#demo"
-hero_link_text: "<span><b>Buchen Sie Ihre persönliche Demo</b></span>"
-hero_link_style: |
-   style="background-color: LawnGreen; background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod);"
-hero_link2: "#trial"
-hero_link2_text: "<span><b>14-Tage-Testlizenz holen</b></span>"
-hero_link2_style: |
-   style="background-color: LawnGreen; background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod);"
-hero_link3: "#order"
-hero_link3_text: "<span><b>Lizenzangebot anfordern</b></span>"
-hero_link3_style: |
-   style="background-color: LawnGreen; background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod);"
 image:
   path: "/assets/images/set-outlooksignatures benefactor circle opengraph1200x630.png"
   width: 1200
@@ -30,16 +18,16 @@ sitemap_changefreq: weekly
 ---
 <!-- First h2 of set-outlooksignatures.com/index.de.md -->
 <h2 id="outlook-signature-management">
-  <span style="font-weight: bolder;">Machen Sie Schluss </span>mit inkonsistenten Signaturen und Abwesenheitsnotizen
+  <span style="font-weight: bolder;">Mehrwert schaffen, </span>ohne die Datensouveränität aufzugeben
 </h2>
-<p>Das freie und quelloffene Set-OutlookSignatures und das <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-on</span> nehmen Ihnen den Aufwand ab, Outlook-Signaturen und Abwesenheitsnotizen manuell zu pflegen.</p>
-<p>Jede E-Mail erhält den professionellen Auftritt, den Ihr Unternehmen verdient: Aktuell, einheitlich und markenkonform.</p>
+<p>Das kostenlose Open-Source-Tool Set-OutlookSignatures und das <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-on</span> machen E-Mail-Signaturen und Abwesenheitsnotizen zu einem zentral verwalteten, wiederverwendbaren Business-Asset – ganz ohne externe Abhängigkeiten.</p>
+<p>Jede E-Mail wird zu einem kontrollierten Touchpoint für Ihre Marke: aktuell, konsistent und unternehmensweit einheitlich ausgerichtet.</p>
 <div class="columns is-multiline">
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
-      🚀
+      📣
       <div style="hyphens: manual;">
-        <b>Sofortige Professionalität</b><br>Automatisierte Kontaktdaten und konsistentes Branding in jeder einzelnen Nachricht.
+        <b>Marketing: Einheitliche Markenführung</b><br>Erzwingen Sie konsistentes Branding, dynamische Marketingkampagnen und aktuelle Kontaktdaten in jeder Nachricht.
       </div>
     </div>
   </div>
@@ -47,7 +35,7 @@ sitemap_changefreq: weekly
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       🛠️
       <div style="hyphens: manual;">
-        <b>Reibungslose Einführung</b><br>Intuitiv für IT und Marketing, unsichtbar für Ihre Mitarbeiter.
+        <b>IT: Reibungslose Automatisierung</b><br>Automatisieren Sie das Signatur-Deployment und zentralisieren Sie das OOF-Management in Minuten, ohne neue Konsolen lernen zu müssen. Unsichtbar für Mitarbeiter, ohne Client-Footprint.
       </div>
     </div>
   </div>
@@ -55,14 +43,15 @@ sitemap_changefreq: weekly
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       🔒
       <div style="hyphens: manual;">
-        <b>Unübertroffener Datenschutz</b><br>Volle Datensouveränität. Ihre Daten bleiben in Ihrer Umgebung, ohne Übertragung an Dritte.
+        <b>Legal: Volle Datensouveränität</b><br>Eliminieren Sie Compliance-Risiken durch Drittanbieter. Maximale Souveränität – Ihre Daten verlassen niemals Ihre kontrollierte Umgebung.
       </div>
     </div>
   </div>
 </div>
+<p>Keine versteckten Kosten, keine Überraschungen — weltweit bewährt in Hochsicherheitsumgebungen. Überzeugen Sie sich von unserer <a href="https://set-outlooksignatures.com/benefactorcircle#price">transparenten Preisgestaltung</a> und sehen Sie, wie wir uns <a href="https://set-outlooksignatures.com/features#feature-comparison">gegen den Wettbewerb behaupten</a>.</p>
 
 
-<!-- HTML content of set-outlooksignatures.com/benefactorcircle.en.md -->
+<!-- HTML content of set-outlooksignatures.com/benefactorcircle.de.md -->
 <h2 id="sustainable-value">Nachhaltiger Mehrwert für Ihr Unternehmen</h2>
 <p>Das <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle Add-on</span> erweitert das freie und quelloffene Set-OutlookSignatures um leistungsstarke zusätzliche Möglichkeiten für Ihr Unternehmen.</p>
 
@@ -201,7 +190,7 @@ sitemap_changefreq: weekly
 <div class="columns is-multiline">
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
-      <p><a href="https://outlook.cloud.microsoft/book/demo.set-outlooksignatures@explicitconsulting.at" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="height: 4rem; font-size: 1.25em; background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod);">Persönliche Demo jetzt buchen</a></p>
+      <p><a href="https://outlook.cloud.microsoft/book/demo.set-outlooksignatures@explicitconsulting.at" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="height: 4rem; font-size: 1.25em; background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod);">Jetzt persönliche Demo buchen</a></p>
     </div>
   </div>
   <div class="column is-two-thirds-desktop is-half-tablet is-full-mobile">

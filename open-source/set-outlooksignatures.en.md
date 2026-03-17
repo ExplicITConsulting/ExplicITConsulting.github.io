@@ -2,22 +2,10 @@
 layout: page
 lang: en
 locale: en
-title: |
-  Set-OutlookSignatures and the <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle add-on</span>
-subtitle: Email signatures and out-of-office replies with data sovereignty
+subtitle: |
+  Set-OutlookSignatures and the Benefactor Circle add-on
+title: Email signatures and out-of-office replies with data sovereignty
 description: Set-OutlookSignatures and the Benefactor Circle add-on. Email signatures and out-of-office replies with data sovereignty
-hero_link: "#demo"
-hero_link_text: "<span><b>Schedule your personal demo now</b></span>"
-hero_link_style: |
-   style="background-color: LawnGreen; background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod);"
-hero_link2: "#trial"
-hero_link2_text: "<span><b>Get a 14-day trial license</b></span>"
-hero_link2_style: |
-   style="background-color: LawnGreen; background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod);"
-hero_link3: "#order"
-hero_link3_text: "<span><b>Request a license quote</b></span>"
-hero_link3_style: |
-   style="background-color: LawnGreen; background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod);"
 image:
   path: "/assets/images/set-outlooksignatures benefactor circle opengraph1200x630.png"
   width: 1200
@@ -30,16 +18,16 @@ sitemap_changefreq: weekly
 ---
 <!-- First h2 of set-outlooksignatures.com/index.en.md -->
 <h2 id="outlook-signature-management">
-  <span style="font-weight: bolder;">Stop fighting </span>with inconsistent signatures and out-of-office replies
+  <span style="font-weight: bolder;">Create value </span>without giving up data sovereignty
 </h2>
-<p>The free and open-source Set-OutlookSignatures and the <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle add-on</span> take the hassle out of manually maintaining Outlook signatures and out-of-office replies.</p>
-<p>Every email delivers the professional appearance your company deserves: Up to date, consistent, and fully aligned with your brand.</p>
+<p>The free and open-source Set-OutlookSignatures and the <span style="font-weight: bold; color: var(--benefactor-circle-color);">Benefactor Circle add-on</span> turn email signatures and out-of-office replies into a centrally managed, reusable business asset — without external dependencies.</p>
+<p>Every email becomes a controlled touchpoint for your brand: up to date, consistent, and fully aligned across the organization.</p>
 <div class="columns is-multiline">
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
-      🚀
+      📣
       <div style="hyphens: manual;">
-        <b>Instant Professionalism</b><br>Automated contact details and consistent branding across every single message.
+        <b>Marketing: Unified Brand Control</b><br>Enforce consistent branding, dynamic marketing campaigns, and up-to-date contact details on every message.
       </div>
     </div>
   </div>
@@ -47,7 +35,7 @@ sitemap_changefreq: weekly
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       🛠️
       <div style="hyphens: manual;">
-        <b>Frictionless Adoption</b><br>Intuitive for IT and Marketing, invisible to your employees.
+        <b>IT: Painless Automation</b><br>Automate signature deployment and centralize OOF management within minutes, no new consoles to learn. Invisible to employees, zero footprint on clients.
       </div>
     </div>
   </div>
@@ -55,11 +43,12 @@ sitemap_changefreq: weekly
     <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
       🔒
       <div style="hyphens: manual;">
-        <b>Unsurpassed Privacy</b><br>Total data sovereignty. Your data stays in your environment, no third-party transits.
+        <b>Legal: Total Data Sovereignty</b><br>Remove compliance risks from third-party processors. Total sovereignty, your data never leaves your controlled environment.
       </div>
     </div>
   </div>
 </div>
+<p>No hidden fees, no surprises — trusted worldwide in the most hardened environments. Review our <a href="https://set-outlooksignatures.com/benefactorcircle#price">transparent pricing</a> and see how we <a href="https://set-outlooksignatures.com/features#feature-comparison">beat the competition</a>.</p>
 
 
 <!-- HTML content of set-outlooksignatures.com/benefactorcircle.en.md -->
@@ -251,7 +240,7 @@ sitemap_changefreq: weekly
 <div class="columns is-multiline">
   <div class="column is-half-desktop is-half-tablet is-full-mobile">
     <h2 id="trial">Free trial</h2>
-    <p>After setting up the free and open-source Set-OutlookSignatures using the Quick Start Guide and configuring it to your needs, you are ready to take the next step:</p>
+    <p>After setting up the free and open-source Set-OutlookSignatures using the Quickstart guide and configuring it to your needs, you are ready to take the next step:</p>
     <p><a href="https://forms.cloud.microsoft/r/sgKrkkd0Eb" class="button is-link is-normal is-hovered has-text-black has-text-weight-bold" style="background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod);">Get a 14-day trial license</a></p>
     <p>Trial licenses are limited to 14&nbsp;days runtime, a maximum of 20&nbsp;mailboxes, and can not be extended or re-issued.</p>
     <p>The trial period starts when we create and submit the trial version, not with you using it for the first time (that's not possible as our software does not phone home).</p>
