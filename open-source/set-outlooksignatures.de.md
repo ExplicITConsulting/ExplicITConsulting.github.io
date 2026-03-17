@@ -7,7 +7,7 @@ subtitle: |
 title: E-Mail-Signaturen und Abwesenheitsnotizen mit Datensouveränität 
 description: Set-OutlookSignatures und das Benefactor Circle add-on. E-Mail-Signaturen und Abwesenheitsnotizen mit Datensouveränität.
 hero_link: "#demo"
-hero_link_text: "<span><b>Jetzt perösnliche Demo buchen</b></span>"
+hero_link_text: "<span><b>Jetzt persönliche Demo buchen</b></span>"
 hero_link_style: |
    style="background-color: LawnGreen; background-image: linear-gradient(160deg, darkgoldenrod, goldenrod, palegoldenrod, goldenrod, darkgoldenrod);"
 hero_link2: "#trial"
