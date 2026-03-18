@@ -125,7 +125,6 @@
 <!-- Scrolling banner for signature images and customer imageshtml  -->
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    // Helper function to shuffle an array
     const shuffleArray = (array) => {
       for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -143,23 +142,54 @@
         const text = await response.text();
         let urls = text.split('\n').map(l => l.trim()).filter(Boolean);
 
-        // 1. Shuffle the original list first
         urls = shuffleArray(urls);
 
-        // 2. Inject images twice for the seamless loop
-        // (The second set will match the shuffled order of the first)
         const fragment = document.createDocumentFragment();
         const doubledUrls = [...urls, ...urls];
 
-        doubledUrls.forEach(url => {
+        doubledUrls.forEach(urlPath => {
           const img = new Image();
-          img.src = url;
+          img.src = urlPath;
           img.loading = "lazy";
-          fragment.appendChild(img);
+
+          // 1. Get basename: "google.com logo.png"
+          const baseName = urlPath.split('/').pop();
+
+          // 2. Remove extension: "google.com logo"
+          const nameWithoutExt = baseName.replace(/\.[^.]+$/, "");
+
+          // 3. Extract domain from first part
+          const firstPart = nameWithoutExt.split(' ')[0];
+          const hasDomain = firstPart.includes('.');
+
+          let finalDomain = "";
+          let finalAlt = "";
+
+          if (hasDomain) {
+            // Found a domain in the filename
+            finalDomain = firstPart;
+            finalAlt = nameWithoutExt;
+          } else {
+            // No domain found: use your fallback values
+            finalDomain = "explicitconsulting.at";
+            finalAlt = "explicitconsulting.at anonymous customer";
+          }
+
+          // Apply data to elements
+          img.alt = finalAlt;
+
+          const link = document.createElement('a');
+          link.href = `https://www.${finalDomain}`;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          link.className = "no-external-link-icon banner-link";
+
+          link.appendChild(img);
+          fragment.appendChild(link);
         });
+
         track.appendChild(fragment);
 
-        // Update speed dynamically
         const observer = new ResizeObserver(entries => {
           const halfWidth = entries[0].contentRect.width / 2;
           if (halfWidth > 10) {
