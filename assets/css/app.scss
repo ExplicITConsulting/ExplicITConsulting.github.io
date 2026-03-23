@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: "none"
 sitemap: false
 ---
 
@@ -9,7 +9,7 @@ $text: black;
 
 @import "main";
 
-// --- Global Setup ---
+// --- Global Typography & Layout ---
 html {
   scroll-padding-top: $navbar-height;
 }
@@ -23,7 +23,6 @@ pre code {
   padding-bottom: 0 !important;
 }
 
-// --- Headings & Anchors ---
 h1,
 h2,
 h3,
@@ -50,32 +49,7 @@ h6 {
   }
 }
 
-.anchor-link {
-  position: absolute;
-  left: -2em;
-  top: 50%;
-  transform: translateY(-50%);
-  text-decoration: none;
-  font-size: 0.5em;
-  opacity: 0;
-  transition: opacity 0.2s ease-in-out;
-  &:hover {
-    opacity: 1;
-  }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  &:hover .anchor-link {
-    opacity: 1;
-  }
-}
-
-// --- Content Spacing ---
+// --- Specific Content Spacing ---
 .content {
   h2:not(:first-child),
   * ~ h2 {
@@ -93,43 +67,84 @@ h6 {
 }
 
 p {
-  + ul,
-  + ol {
-    margin-top: 0 !important;
-  }
   &:has(+ ul),
   &:has(+ ol) {
     margin-bottom: 0 !important;
   }
+  + ul,
+  + ol {
+    margin-top: 0 !important;
+  }
 }
 
-// --- Interactive Elements ---
+// --- Buttons & Links ---
 .button {
   white-space: normal;
   word-break: break-word;
   hyphens: auto;
   cursor: pointer;
   animation: pulse 5s ease-in-out infinite;
+
   &:hover {
     filter: brightness(125%);
   }
 }
 
+// Global External Link Icon
 a.mtrcs-external-link:not(.no-external-link-icon)::after {
   content: "\00A0↗";
   font-size: 0.8em;
   vertical-align: top;
 }
 
-// --- Scrolling Banners ---
+// --- Heading Anchors ---
+.anchor-link {
+  position: absolute;
+  left: -2em;
+  top: 50%;
+  transform: translateY(-50%);
+  text-decoration: none;
+  font-size: 0.5em;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  &:hover .anchor-link {
+    opacity: 1;
+  }
+}
+
+// --- Scrolling Banners (Containers) ---
 .customer-scrolling-banner,
 .signature-scrolling-banner {
   width: 100%;
   overflow: hidden;
   display: block;
   position: relative;
+
+  // Background only for signatures in light mode
+  &.signature-scrolling-banner {
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+    padding: 1rem 0;
+  }
+
+  &:hover .is-animating {
+    animation-play-state: paused;
+  }
 }
 
+// --- UNIVERSAL TRACK BEHAVIOR (Mirror-Image Logic) ---
 .customer-scrolling-track,
 .signature-scrolling-track {
   display: flex;
@@ -140,7 +155,30 @@ a.mtrcs-external-link:not(.no-external-link-icon)::after {
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
 
-  // New Link Wrapper Styling
+  img,
+  a img {
+    width: auto;
+    opacity: 1;
+    transform: scale(1);
+    filter: none; // No grayscale
+  }
+
+  // Hover: Proportional scale and shadow
+  a:hover img,
+  img:hover {
+    transform: scale(1);
+    z-index: 10;
+    opacity: 1;
+    // Uses 'em' to ensure shadow size scales with image height
+    box-shadow: 0 0.2em 0.5em rgba(0, 0, 0, 0.15);
+  }
+
+  // Focus: Shared dimming logic
+  &:hover a:not(:hover) img,
+  &:hover img:not(:hover) {
+    opacity: 0.4;
+  }
+
   a {
     display: flex;
     align-items: center;
@@ -149,35 +187,43 @@ a.mtrcs-external-link:not(.no-external-link-icon)::after {
     &.no-external-link-icon::after {
       content: none !important;
     }
-    &:hover {
-      opacity: 0.7;
-      transition: opacity 0.2s ease;
+  }
+}
+
+// --- UNIQUE ATTRIBUTES (Height Only) ---
+.customer-scrolling-track img,
+.customer-scrolling-track a img {
+  height: 2em;
+  min-width: 50px;
+}
+
+.signature-scrolling-track img,
+.signature-scrolling-track a img {
+  height: 10em;
+  min-width: 150px;
+}
+
+// --- DARK MODE OVERRIDES ---
+[data-theme="dark"],
+.theme-dark {
+  .signature-scrolling-banner {
+    background: transparent;
+  }
+
+  // Correcting shadows for dark backgrounds
+  .customer-scrolling-track,
+  .signature-scrolling-track {
+    a:hover img,
+    img:hover {
+      box-shadow: 0 0.3em 0.8em rgba(0, 0, 0, 0.6);
     }
-  }
-}
-
-// Track Specific Heights
-.customer-scrolling-track {
-  img,
-  a img {
-    height: 4rem;
-    width: auto;
-    min-width: 50px;
-  }
-}
-
-.signature-scrolling-track {
-  img,
-  a img {
-    height: 10em;
-    width: auto;
-    min-width: 150px;
   }
 }
 
 // --- Animations ---
 .is-animating {
   animation: marquee-scroll var(--duration) linear infinite;
+
   @-moz-document url-prefix() {
     transform: rotate(0.0001deg);
     filter: drop-shadow(0 0 0 transparent);
@@ -207,7 +253,20 @@ a.mtrcs-external-link:not(.no-external-link-icon)::after {
   }
 }
 
-// --- Variables & Themes ---
+// --- Visual Extras ---
+html::after {
+  content: "";
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 25vw;
+  height: 33vh;
+  background: url("/assets/images/visitenkarten-hochkant.png") no-repeat bottom right / contain;
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0.5;
+}
+
 :root {
   --benefactor-circle-color: darkgoldenrod;
 }
@@ -219,4 +278,15 @@ a.mtrcs-external-link:not(.no-external-link-icon)::after {
   :root {
     --benefactor-circle-color: goldenrod;
   }
+}
+
+// --- Inline Code Styling ---
+:not(pre) > code {
+  // Shared properties
+  background-color: lightgrey; // Consistent light grey
+  border-radius: 0; // Force square corners
+  padding: 0.2em 0.4em; // Maintain readability
+
+  // Light mode default text
+  color: black;
 }
