@@ -1,34 +1,28 @@
 <!-- mtrcs js code -->
 <script>
   var _paq = window._paq = window._paq || [];
-  _paq.push(["setRequestMethod", "POST"]);
-  _paq.push(["disableCookies"]);
-  _paq.push(["disableAlwaysUseSendBeacon"]);
-  _paq.push(["disableQueueRequest"]);
+  _paq.push(["setRequestMethod", "POST"]); // Use POST to hide query params from ad-blockers
+  _paq.push(["disableCookies"]); // Privacy-first/No-cookie tracking
+  _paq.push(["disableAlwaysUseSendBeacon"]); // Avoid beacon-based ad-blocker rules
   _paq.push(["setDocumentTitle", document.domain + ": " + document.title]);
   _paq.push(["setDomains", ["*.explicitconsulting.at"]]);
-  _paq.push(['enableHeartBeatTimer']);
+  _paq.push(['enableHeartBeatTimer']); // Keeps the session alive for "time on page"
+  _paq.push(['trackPageView']); // This ensures the "Visit" is created before "Content Impressions" are recorded.
+  _paq.push(['trackVisibleContentImpressions', true]); // Now that the Page View is queued, we scan for visible content
+  _paq.push(['enableLinkTracking']); // Track clicks
   _paq.push(['setLinkClasses', ["mtrcs-external-link"]]);
   _paq.push(['setDownloadClasses', ["mtrcs-download"]]);
-  _paq.push(['trackPageView']);
-  _paq.push(['trackVisibleContentImpressions', true]);
-  _paq.push(['enableLinkTracking']);
 
-
-  (
-    function () {
-      var u = "https://mtrcs.explicitconsulting.at/";
-      _paq.push(["setTrackerUrl", u + "mtrcs.php"]);
-      _paq.push(["setSiteId", "2"]);
-      var d = document;
-      g = d.createElement("script");
-      s = d.getElementsByTagName("script")[0];
-      g.type = "text/javascript";
-      g.async = true;
-      g.src = u + "mtrcs.js";
-      s.parentNode.insertBefore(g, s);
-    }
-  )();
+  (function () {
+    var u = "https://mtrcs.explicitconsulting.at/";
+    _paq.push(["setTrackerUrl", u + "mtrcs.php"]); // Using your custom aliasF
+    _paq.push(["setSiteId", "2"]);
+    var d = document, g = d.createElement("script"), s = d.getElementsByTagName("script")[0];
+    g.type = "text/javascript";
+    g.async = true;
+    g.src = u + "mtrcs.js"; // Using your custom alias
+    s.parentNode.insertBefore(g, s);
+  })();
 </script>
 
 
@@ -36,10 +30,11 @@
 <noscript>
   <p>
     <img referrerpolicy="no-referrer-when-downgrade"
-      src='//mtrcs.explicitconsulting.at/mtrcs.php?idsite=2&rec=1&recMode=2&action_name=page_view&url={{ site.url }}{{ page.url | relative_url }}&rand={{ "now" | date: "%s" }}&apiv=1'
-      style="border:0;" alt=""/>
+      src='https://mtrcs.explicitconsulting.at/mtrcs.php?idsite=2&rec=1&recMode=2&action_name=page_view&url={{ page.url | absolute_url | url_encode }}&rand={{ "now" | date: "%s" }}&apiv=1'
+      style="border:0; display:none;" alt="" />
   </p>
 </noscript>
+
 
 <!-- mtrcs youtube code (disabled)
   <script>
