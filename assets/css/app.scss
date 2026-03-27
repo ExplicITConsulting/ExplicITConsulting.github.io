@@ -265,20 +265,6 @@ h6 {
   }
 }
 
-// --- Visual Extras ---
-html::after {
-  content: "";
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 25vw;
-  height: 33vh;
-  background: url("/assets/images/visitenkarten-hochkant.png") no-repeat bottom right / contain;
-  pointer-events: none;
-  z-index: -1;
-  opacity: 0.5;
-}
-
 :root {
   --benefactor-circle-color: darkgoldenrod;
 }
