@@ -17,6 +17,7 @@ sitemap: false
 > {{ index_page.subtitle | default: "" | strip_html | normalize_whitespace }}
 > {{ index_page.description | default: "" | strip_html | normalize_whitespace }}
 {%- endif -%}
+> Set-OutlookSignatures: [Set-OutlookSignatures website](https://set-outlooksignatures.com), [Set-OutlookSignatures on GitHub](https://github.com/Set-OutlookSignatures/Set-OutlookSignatures/)
 
 Generated on: {{ site.time | date_to_xmlschema }}
 {%- assign active_lang = site.active_lang | default: page.lang | default: site.default_lang -%}
