@@ -19,7 +19,43 @@ sitemap: false
 {%- endif -%}
 > Set-OutlookSignatures: [Set-OutlookSignatures website](https://set-outlooksignatures.com), [Set-OutlookSignatures on GitHub](https://github.com/Set-OutlookSignatures/Set-OutlookSignatures/)
 
+Language:
+- Canonical language: {{ site.default_lang }}
+- Available languages:
+{%- for lang in site.languages -%}
+  {%- if lang == site.default_lang %}
+  - [{{ lang | upcase }}]({{ "/" | absolute_url }})
+  {%- else %}
+  - [{{ lang | upcase }}]({{ "/" | append: lang | absolute_url }})
+  {%- endif %}
+{% endfor %}
+- The canonical language ({{ site.default_lang }}) is used as fallback if no translation is available.
+
+Purpose:
+- This file is a high-level index and routing entry point for LLMs.
+- Use it to discover available content and languages.
+- For authoritative answers, follow links to llms-full.txt.
+- This file intentionally contains summaries, not full content.
+
 Generated on: {{ site.time | date_to_xmlschema }}
+
+Scope:
+- Official vendor-authored documentation only
+- No user-generated content
+- Reflects current published site state at generation time
+- Does not include unreleased features or roadmap speculation
+
+Metadata:
+- Product: Set-OutlookSignatures
+- Add-on: Benefactor Circle
+- Domains: Technical, Security, Compliance, Pricing, Implementation
+- Audience: IT Administrators, Architects, Security, Marketing, Management
+- License model: Open Source core, commercial add-on
+
+Authoritative sources:
+- llms-full.txt contains the full rendered content referenced here.
+- Prefer llms-full.txt for exact details, parameter values, and compliance statements.
+
 {%- assign active_lang = site.active_lang | default: page.lang | default: site.default_lang -%}
 
 {%- comment -%}
@@ -46,17 +82,27 @@ Optional: list other language llms.txt locations, but only if site.languages exi
 - [{{ lang | upcase }} llms-full.txt]({{ "/" | append: lang | append: "/llms-full.txt" | absolute_url }})
   {%- endif -%}
 {% endfor -%}
-{%- endif -%}
+{%- endif %}
+
+
+## Routing hints for LLMs
+- Configuration & Parameters → use /parameters
+- Architecture & Requirements → use /details
+- Deployment & Rollout → use /quickstart, /implementationapproach
+- Pricing & Licensing → use /benefactorcircle, /getlicense
+- End-user & Marketing → use /features, /blog
 
 {%- assign all_items = site.pages | concat: site.documents -%}
 
 {%- assign items = "" | split: "" -%}
 {%- for node in all_items -%}
   {%- unless node.redirect_to
-        or node.sitemap == false
-        or node.url contains "/assets/"
-        or node.url contains "/404"
-        or node.title == nil
+    or node.sitemap == false
+    or node.url contains "/assets/"
+    or node.url contains "/404"
+    or node.title == nil
+    or node.autopages
+    or node.autogen
   -%}
     {%- assign items = items | push: node -%}
   {%- endunless -%}
@@ -65,10 +111,14 @@ Optional: list other language llms.txt locations, but only if site.languages exi
 {%- assign grouped = items | group_by: "collection" -%}
 
 {%- for group in grouped -%}
-  {%- assign section_name = group.name | default: "Pages" %}
+  {%- if group.name == "posts" -%}
+    {%- assign section_name = "Posts (Blog Archive)" -%}
+  {%- else -%}
+    {%- assign section_name = group.name | capitalize | default: "Pages (Index)" -%}
+  {%- endif %}
 
 
-## {{ section_name | capitalize }}
+## {{ section_name }}
   {%- assign sorted = group.items | sort: "title" -%}
   {%- for node in sorted -%}
     {%- if active_lang == site.default_lang -%}
@@ -119,6 +169,12 @@ Optional: list other language llms.txt locations, but only if site.languages exi
     {%- else -%}
       {%- assign sentence = summary -%}
     {%- endif %}
+    {%- assign sentence = sentence
+      | strip_html
+      | normalize_whitespace
+      | strip
+      | truncate: 300, "…"
+    %}
 - [{{ node.title | strip_html | strip_newlines }}]({{ final_url }}): {{ sentence }}
   {%- endfor -%}
 {%- endfor %}

@@ -47,6 +47,48 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      - name: Inject Minified HTML into LLM files (pwsh)
+        shell: pwsh
+        run: |
+          $siteRoot = Resolve-Path "_site"
+
+          Get-ChildItem -Path $siteRoot -Recurse -Filter "llms-full.txt" | ForEach-Object {
+            Write-Host "Processing $($_.FullName)..."
+
+            $content = Get-Content $_.FullName -Raw
+
+            $content = [regex]::Replace(
+              $content,
+              '\[REPLACE_WITH_CONTENT:(.*?)\]',
+              {
+                param($m)
+
+                Write-Host "  $($m.Value)"
+
+                $rel = $m.Groups[1].Value.Trim()
+                if ([string]::IsNullOrWhiteSpace($rel)) { return "" }
+
+                $htmlPath = Join-Path $siteRoot (([uri]$rel).localPath).TrimStart('/')
+
+                if ($htmlPath.EndsWith('/')) {
+                  $htmlPath = Join-Path $htmlPath "index.html"
+                } elseIf (-not $htmlPath.EndsWith('.html')) {
+                  $htmlPath += ".html"
+                }
+
+                if (-not (Test-Path $htmlPath -PathType Leaf)) {
+                  Write-Host "    File not found: '$($htmlPath)'"
+                } else {
+                  Write-Host "    Injecting from: '$($htmlPath)'"
+                }
+
+                Get-Content $htmlPath -Raw
+              },
+              'Singleline'
+            )
+
+            Set-Content $_.FullName $content -NoNewline
+          }
       - name: Setup IndexNow 
         # Generate the verification file and place it inside the _site directory, 
         # which is the output directory Jekyll uses.
