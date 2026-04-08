@@ -26,7 +26,7 @@ sitemap_changefreq: weekly
 
 <div class="columns is-multiline mb-6">
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
-    <div class="box has-background-white-bis has-text-black" style="height: 100%; border-top: 4px solid #3273dc;">
+    <div class="box has-background-white-bis has-text-black" style="height: 100%; border-top: 4px solid Blue;">
       <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
         📣
         <div style="hyphens: manual;">
@@ -37,7 +37,7 @@ sitemap_changefreq: weekly
     </div>
   </div>
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
-    <div class="box has-background-white-bis has-text-black" style="height: 100%; border-top: 4px solid #ffdd57;">
+    <div class="box has-background-white-bis has-text-black" style="height: 100%; border-top: 4px solid Yellow;">
       <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
         🛠️
         <div style="hyphens: manual;">
@@ -48,7 +48,7 @@ sitemap_changefreq: weekly
     </div>
   </div>
   <div class="column is-one-third-desktop is-half-tablet is-full-mobile">
-    <div class="box has-background-white-bis has-text-black" style="height: 100%; border-top: 4px solid #48c774;">
+    <div class="box has-background-white-bis has-text-black" style="height: 100%; border-top: 4px solid LimeGreen;">
       <div class="cell" style="display: flex; align-items: flex-start; gap: 0.5em;">
         🛡️
         <div style="hyphens: manual;">
@@ -74,7 +74,7 @@ sitemap_changefreq: weekly
 
 <h2 id="demo">Experience it <span style="font-weight: bolder;">in action</span></h2>
 <p>Organizations use our ecosystem to enforce 📣 dynamic branding, 🏛️ administrative governance, and 🧭 cross-platform data sovereignty — all without changing how users work.</p>
-<div class="box pt-0" style="background-color: rgba(255,255,255,0.05); border-left: 5px solid goldenrod; border-right: 5px solid goldenrod; padding: 2rem; margin-top: 2rem;">
+<div class="box pt-0" style="background-color: rgba(255,255,255,0.05); border-left: 5px solid var(--benefactor-circle-color); border-right: 5px solid var(--benefactor-circle-color); padding: 2rem; margin-top: 2rem;">
   <div class="columns">
     <div class="column is-half" style="display: flex; flex-direction: column;">
       <h3>Guided Walkthrough</h3>
