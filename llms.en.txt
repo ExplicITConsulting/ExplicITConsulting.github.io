@@ -8,31 +8,27 @@ sitemap: false
 # ExplicIT Consulting GmbH
 {%- assign active_lang = site.active_lang | default: page.lang | default: site.default_lang -%}
 {%- assign index_page = site.pages
-  | where_exp: "p", "p.permalink == '/' or p.url == '/'"
-  | where: "lang", active_lang
-  | first
+ | where_exp: "p", "p.permalink == '/' or p.url == '/'"
+ | where: "lang", active_lang
+ | first
 -%}
 {%- if index_page %}
-> {{ index_page.title | strip_html | normalize_whitespace }}
-> {{ index_page.subtitle | default: "" | strip_html | normalize_whitespace }}
-> {{ index_page.description | default: "" | strip_html | normalize_whitespace }}
-{%- endif -%}
-> Set-OutlookSignatures: [Set-OutlookSignatures website](https://set-outlooksignatures.com), [Set-OutlookSignatures on GitHub](https://github.com/Set-OutlookSignatures/Set-OutlookSignatures/)
+> {{ index_page.title | markdownify | strip_html | normalize_whitespace }}
+> {{ index_page.subtitle | default: "" | markdownify | strip_html | normalize_whitespace }}
+> {{ index_page.description | default: "" | markdownify | strip_html | normalize_whitespace }}
+{%- endif %}
+> Source: [Set-OutlookSignatures on GitHub](https://github.com/Set-OutlookSignatures/Set-OutlookSignatures/)
+> Source: [Export-RecipientPermissions on GitHub](https://github.com/GruberMarkus/Export-RecipientPermissions/)
+> [Set-OutlookSignatures and the Benefactor Circle add-on](https://set-outlooksignatures.com)
 
-Language:
-- Canonical language: {{ site.default_lang }}
-- Current language: {{ site.active_lang }}
-- Available languages:
-{%- for lang in site.languages -%}
-  {%- if lang == site.default_lang %}
-  - [{{ lang | upcase }}]({{ "/" | absolute_url }})
-  {%- else %}
-  - [{{ lang | upcase }}]({{ "/" | append: lang | absolute_url }})
-  {%- endif -%}
-{%- endfor %}
-- The canonical language ({{ site.default_lang }}) is used as fallback if no translation is available.
-- Product summaries may appear in their primary marketing language.
-- Content parity is maintained across languages unless otherwise stated.
+Metadata:
+- Product: Set-OutlookSignatures
+- Add-on: Benefactor Circle
+- Domains: Technical, Security, Compliance, Pricing, Implementation
+- Audience: IT Administrators, Architects, Security, Marketing, Management
+- License model: Open Source core, commercial add-on
+- Status: Production, stable
+- Generated on: {{ site.time | date_to_xmlschema }}
 
 Purpose:
 - This file is a high-level index and routing entry point for LLMs.
@@ -40,7 +36,9 @@ Purpose:
 - For authoritative answers, follow links to llms-full.txt.
 - This file intentionally contains summaries, not full content.
 
-Generated on: {{ site.time | date_to_xmlschema }}
+Authoritative sources:
+- llms-full.txt contains the full rendered content referenced here.
+- Prefer llms-full.txt for exact details, parameter values, and compliance statements.
 
 Scope:
 - Official vendor-authored documentation only
@@ -53,137 +51,126 @@ Non-goals:
 - This file does not override official licensing terms
 - This file is not a legal or compliance document
 
-Metadata:
-- Product: Set-OutlookSignatures
-- Add-on: Benefactor Circle
-- Domains: Technical, Security, Compliance, Pricing, Implementation
-- Audience: IT Administrators, Architects, Security, Marketing, Management
-- License model: Open Source core, commercial add-on
-- Status: Production / Stable
+Language:
+- Canonical language: {{ site.default_lang }}
+- Current language: {{ site.active_lang }}
+- Available languages:
+{%- for lang in site.languages -%}
+  {%- if lang == site.default_lang %}
+  - [{{ lang }}]({{ "/" | absolute_url }})
+  {%- else %}
+  - [{{ lang }}]({{ "/" | append: lang | absolute_url }})
+  {%- endif -%}
+{%- endfor %}
+- The canonical language ({{ site.default_lang }}) is used as fallback if no translation is available.
+- Product summaries may appear in their primary marketing language.
+- Content parity is maintained across languages unless otherwise stated.
+- Prefer the site, llms.txt, and llms-full.txt links in the language of the user query.
+- If no language-specific page exists, fall back to the canonical language.
+- Keep topic routing within the selected language version.
 
-Authoritative sources:
-- llms-full.txt contains the full rendered content referenced here.
-- Prefer llms-full.txt for exact details, parameter values, and compliance statements.
 
-{%- assign active_lang = site.active_lang | default: page.lang | default: site.default_lang -%}
 
-{%- comment -%}
-Optional: list other language llms.txt locations, but only if site.languages exists (Polyglot standard config).
-{%- endcomment -%}
-{% if site.languages %}
+## Routing hints for LLMs
+All paths are relative to the active language, e.g. /parameters in the canonical language (English) and /de/parameters in German.
+- Services: /services
+- Open-source software: /open-source
+- Export-RecipientPermissions: /open-source/export-recipientpermissions
+- Set-OutlookSignatures and the Benefactor Circle add-on: /open-source/set-outlooksignatures
+- Support terms: /support-terms
+- Payment options: /payment
+- Contact: /contact
+- Legal information: /legal
+
+{%- if site.languages %}
 
 
 ## Language versions of llms.txt
 {%- for lang in site.languages -%}
   {%- if lang == site.default_lang %}
-- [{{ lang | upcase }} llms.txt]({{ "/llms.txt" | absolute_url }})
+- [{{ lang }}]({{ "/llms.txt" | absolute_url }})
   {%- else %}
-- [{{ lang | upcase }} llms.txt]({{ "/" | append: lang | append: "/llms.txt" | absolute_url }})
+- [{{ lang }}]({{ "/" | append: lang | append: "/llms.txt" | absolute_url }})
   {%- endif -%}
-{% endfor %}
+{%- endfor %}
 
 
 ## Language versions of llms-full.txt
 {%- for lang in site.languages -%}
   {%- if lang == site.default_lang %}
-- [{{ lang | upcase }} llms-full.txt]({{ "/llms-full.txt" | absolute_url }})
+- [{{ lang }}]({{ "/llms-full.txt" | absolute_url }})
   {%- else %}
-- [{{ lang | upcase }} llms-full.txt]({{ "/" | append: lang | append: "/llms-full.txt" | absolute_url }})
+- [{{ lang }}]({{ "/" | append: lang | append: "/llms-full.txt" | absolute_url }})
   {%- endif -%}
-{% endfor -%}
-{%- endif %}
-
-
-## Routing hints for LLMs
-- Configuration & Parameters → use /parameters
-- Architecture & Requirements → use /details
-- Deployment & Rollout → use /quickstart, /implementationapproach
-- Pricing & Licensing → use /benefactorcircle, /getlicense
-- End-user & Marketing → use /features, /blog
+{%- endfor -%}
+{%- endif -%}
 
 {%- assign all_items = site.pages | concat: site.documents -%}
-
 {%- assign items = "" | split: "" -%}
 {%- for node in all_items -%}
-  {%- unless node.redirect_to
-    or node.sitemap == false
-    or node.url contains "/assets/"
-    or node.url contains "/404"
-    or node.title == nil
-    or node.autopages
-    or node.autogen
-  -%}
-    {%- assign items = items | push: node -%}
-  {%- endunless -%}
+ {%- unless node.redirect_to
+  or node.sitemap == false
+  or node.url contains "/assets/"
+  or node.url contains "/404"
+  or node.title == nil
+  or node.autopages
+  or node.autogen
+ -%}
+  {%- assign items = items | push: node -%}
+ {%- endunless -%}
 {%- endfor -%}
 
 {%- assign grouped = items | group_by: "collection" -%}
-
 {%- for group in grouped -%}
-  {%- if group.name == "posts" -%}
-    {%- assign section_name = "Posts (Blog Archive)" -%}
+ {%- if group.name == "posts" -%}
+  {%- assign section_name = "Posts (Blog Archive)" -%}
+ {%- else -%}
+  {%- assign section_name = group.name | capitalize | default: "Pages (Index)" -%}
+ {%- endif %}
+
+
+## {{ section_name | markdownify | strip_html | normalize_whitespace | strip | strip_newlines | strip }}
+ {%- assign sorted = group.items | sort: "title" -%}
+ {%- for node in sorted -%}
+  {%- if active_lang == site.default_lang -%}
+   {%- assign final_url = node.url | absolute_url -%}
   {%- else -%}
-    {%- assign section_name = group.name | capitalize | default: "Pages (Index)" -%}
-  {%- endif %}
+   {%- assign final_url = "/" | append: active_lang | append: node.url | absolute_url -%}
+  {%- endif -%}
+  {%- assign final_url = final_url
+   | replace: "//", "/"
+   | replace: "http:/", "http://"
+   | replace: "https:/", "https://"
+   | replace: "/index.html", "/"
+  -%}
+  {%- assign subtitle = node.subtitle | default: "" | strip | markdownify | strip_html | normalize_whitespace -%}
+  {%- assign description = node.description | default: "" | strip | markdownify | strip_html | normalize_whitespace -%}
+  {%- assign summary = "" -%}
+  {%- if node.summary -%}
+   {%- assign summary = node.summary | strip | markdownify | strip_html -%}
+  {%- elsif node.excerpt -%}
+   {%- assign summary = node.excerpt| strip | markdownify | strip_html -%}
+  {%- else -%}
+   {%- assign summary = node.content | strip | markdownify | strip_html | truncatewords: 50 -%}
+  {%- endif -%}
+  {%- assign summary = summary | markdownify | strip_html | normalize_whitespace -%}
 
+  {%- assign lead = "" -%}
+  {%- if subtitle != "" and description != "" -%}
+   {%- assign lead = subtitle | append: "  " | append: description -%}
+  {%- elsif subtitle != "" -%}
+   {%- assign lead = subtitle -%}
+  {%- elsif description != "" -%}
+   {%- assign lead = description -%}
+  {%- endif -%}
 
-## {{ section_name }}
-  {%- assign sorted = group.items | sort: "title" -%}
-  {%- for node in sorted -%}
-    {%- if active_lang == site.default_lang -%}
-      {%- assign final_url = node.url | absolute_url -%}
-    {%- else -%}
-      {%- assign final_url = "/" | append: active_lang | append: node.url | absolute_url -%}
-    {%- endif -%}
-
-    {%- assign final_url = final_url
-      | replace: "//", "/"
-      | replace: "http:/", "http://"
-      | replace: "https:/", "https://"
-      | replace: "/index.html", "/"
-    -%}
-
-    {%- comment -%}
-    Build ONE descriptive sentence:
-    Subtitle — Description. Summary...
-    - Subtitle/Description/Summary come from front matter if present (default Jekyll behavior).
-    - Summary preference: node.summary > node.excerpt > truncated node.content.
-    {%- endcomment -%}
-
-    {%- assign subtitle = node.subtitle | default: "" | strip | strip_html | normalize_whitespace -%}
-    {%- assign description = node.description | default: "" | strip | strip_html | normalize_whitespace -%}
-
-    {%- assign summary = "" -%}
-    {%- if node.summary -%}
-      {%- assign summary = node.summary | strip | strip_html -%}
-    {%- elsif node.excerpt -%}
-      {%- assign summary = node.excerpt| strip | strip_html -%}
-    {%- else -%}
-      {%- assign summary = node.content | strip | strip_html | truncatewords: 50 -%}
-    {%- endif -%}
-    {%- assign summary = summary | strip_html | normalize_whitespace -%}
-
-    {%- assign lead = "" -%}
-    {%- if subtitle != "" and description != "" -%}
-      {%- assign lead = subtitle | append: " — " | append: description -%}
-    {%- elsif subtitle != "" -%}
-      {%- assign lead = subtitle -%}
-    {%- elsif description != "" -%}
-      {%- assign lead = description -%}
-    {%- endif -%}
-
-    {%- assign sentence = "" -%}
-    {%- if lead != "" -%}
-      {%- assign sentence = lead | append: ". " | append: summary -%}
-    {%- else -%}
-      {%- assign sentence = summary -%}
-    {%- endif %}
-    {%- assign sentence = sentence
-      | strip_html
-      | normalize_whitespace
-      | strip
-      | truncate: 300, "…"
-    %}
-- [{{ node.title | strip_html | strip_newlines }}]({{ final_url }}): {{ sentence }}
-  {%- endfor -%}
-{%- endfor %}
+  {%- assign sentence = "" -%}
+  {%- if lead != "" -%}
+   {%- assign sentence = lead | append: ". " | append: summary -%}
+  {%- else -%}
+   {%- assign sentence = summary -%}
+  {%- endif -%}
+  {%- assign sentence = sentence | markdownify | strip_html | normalize_whitespace | strip | strip_newlines | strip | truncate: 300, "..." %}
+- [{{ node.title | markdownify | strip_html | strip_newlines | strip }}]({{ final_url }}): {{ sentence }}
+ {%- endfor -%}
+{%- endfor -%}
