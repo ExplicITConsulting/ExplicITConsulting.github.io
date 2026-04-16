@@ -9,4 +9,5 @@ group :jekyll_plugins do
     gem "nokogiri"
     gem "jekyll-seo-tag"
     gem "jekyll-redirect-from"
+    gem "liquid-md5"
 end
