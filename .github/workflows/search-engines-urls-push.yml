@@ -1,8 +1,11 @@
 name: "search-engines-urls-push"
 on:
   workflow_dispatch:
+
+    # Every day at 02:37 o'clock Austrian time
   schedule:
-    - cron: "15 2 * * *"
+    - cron: "37 2 * * *"
+      timezone: "Europe/Vienna"
 
 jobs:
   check-for-new-commits:
@@ -43,7 +46,7 @@ jobs:
       - name: Sleep
         uses: GuillaumeFalourd/wait-sleep-action@v1
         with:
-          time: "120s"
+          time: "5m"
 
   submit-to-search-engines:
     runs-on: ubuntu-latest
