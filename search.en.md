@@ -423,6 +423,7 @@ sitemap_changefreq: weekly
                     // mainContent = `<p class="has-text-weight-bold has-text-primary mb-1">High-Priority Match:</p>${mainContent}`;
                 }
 
+
                 html += `
                     <li class="box mb-4">
                         <p>
@@ -446,7 +447,6 @@ sitemap_changefreq: weekly
                     const query = searchInput.value.trim();
                     // Ensure we don't track empty searches if the user cleared the input
                     if (query.length > 0) {
-                        console.log(`Search result count: ${uniqueResults.length}`);
                         _paq.push(['trackSiteSearch', query, false, uniqueResults.length]);
                     }
                 }
