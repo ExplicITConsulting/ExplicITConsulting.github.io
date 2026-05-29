@@ -23,7 +23,7 @@ Für alle anderen Fragen erhalten Sie den gleichen erstklassigen Support zu eine
 
 <h2 id="rates">Stundensatz und Mehrwert</h2>
 
-Unser Stundensatz beträgt 210,00 EUR netto für Beratungs- und Supportleistungen.  
+Unser Stundensatz beträgt 210,00 EUR netto für Beratungs- und Supportleistungen. Ein Personentag hat 8 Stunden.  
 
 Sie erwerben nicht nur Support, sondern Zugriff auf unser umfassendes Expertenwissen als Hersteller, Implementierer und Berater.  
 
